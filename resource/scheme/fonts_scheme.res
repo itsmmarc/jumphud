@@ -435,12 +435,21 @@
 				"antialias"									"1"
 			}
 		}
-        "ClassSymbols72"
+        "ClassSymbols80"
 		{
 			"1"
 			{
 				"name"										"TF2 Class Icons V3"
-				"Tall"										"80"
+				"Tall"										"30"
+				"antialias"									"1"
+			}
+		}
+        "ClassSymbols120"
+		{
+			"1"
+			{
+				"name"										"TF2 Class Icons V3"
+				"Tall"										"120"
 				"antialias"									"1"
 			}
 		}
