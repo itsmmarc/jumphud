@@ -46,6 +46,18 @@
     {
         "ControlName"           "ImagePanel"
         "FieldName"             "ClassesAnchor"
+        "xpos"                  "c-315" // very left side of 4:3
+        "ypos"                  "80"
+        "wide"                  "1"
+        "tall"                  "1"
+        "Visible"               "0"
+        "Enabled"               "1"
+        "Fillcolor"             "red"
+    }
+    "ToolsAnchor" // Void Anchor
+    {
+        "ControlName"           "ImagePanel"
+        "FieldName"             "ToolsAnchor"
         "xpos"                  "c-315"
         "ypos"                  "80"
         "wide"                  "1"
@@ -379,12 +391,44 @@
 	//========================================================================================
 	// BACKPACK
 	//========================================================================================
-	"ShowBackpackButton"
+	"Backpack"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"Backpack"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"70"
+		"tall"										"70"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"L"
+		"font"										"HypnotizeIcons80"
+		"textAlignment"								"center"
+		"use_proportional_insets"					"1"
+		"default"									"0"
+		"paintbackground"							"0"
+		"Command"									"loadout spy"
+
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Menu_Accent"
+		"depressedFgColor_override"					"Menu_Accent"
+
+		//"border_default"							"Material_Black_Light"
+		//"border_armed"								"Material_Hypno"
+
+		"pin_to_sibling"							"CustomSniper"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+    "ShowBackpackButton"
 	{
 		"ControlName"								"ImageButton"
 		"FieldName"									"ShowBackpackButton"
 		"XPos"										"c-290"
-		"YPos"										"235"
+		"YPos"										"99999"
 		"ZPos"										"6"
 		"Wide"										"60"
 		"Tall"										"60"
@@ -415,7 +459,7 @@
 		"ControlName"								"CExLabel"
 		"FieldName"									"ShowBackpackLabel"
 		"XPos"										"0"
-		"YPos"										"5"
+		"YPos"										"99999"
 		"ZPos"										"7"
 		"Wide"										"120"
 		"Tall"										"20"

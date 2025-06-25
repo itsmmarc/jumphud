@@ -818,5 +818,10 @@
 			"Font"	"resource/scheme/fonts/tf2_class_icons.ttf"
 			"name"	"TF2 Class Icons V3"
 		}
+        "5"
+        {
+            "Font"  "resource/scheme/fonts/hypnotize_icons.ttf"
+            "Name"  "Hypnotize Icons V8"
+        }
 	}
 }
