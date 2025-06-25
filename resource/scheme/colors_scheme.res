@@ -66,10 +66,10 @@
 		"Class_Selection"									"0 200 200 255"
 		
 		//BACKGROUNDS
-		"Background_Main"									"46 43 42 255"
-		"Background_Dark"									"28 26 25 255"
-		"Background_Darkest"								"18 15 14 255"
-		"Background_Bright"									"66 63 61 255"
+		"Background_Main"									"43 43 43 255"
+		"Background_Dark"									"26 26 26 255"
+		"Background_Darkest"								"15 15 15 255"
+		"Background_Bright"									"65 65 65 255"
 		
 		//BUTTONS
 		"Button_Bright"										"66 63 61 255"

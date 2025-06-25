@@ -12,9 +12,9 @@
 		"Enabled"									"1"
 		"SetTitleBarVisible"						"0"
 		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"BarelyTransparentBlack"
-		"InFocus_BGColor_Override"					"BarelyTransparentBlack"
-		"OutOfFocus_BGColor_Override"				"BarelyTransparentBlack"
+		"BGColor_Override"							"BLANK"
+		"InFocus_BGColor_Override"					"BLANK"
+		"OutOfFocus_BGColor_Override"				"BLANK"
 
 		"selectlabely_default"						"25"
 		"selectlabely_onchanges"					"15"
@@ -669,7 +669,7 @@
 		"XPos"										"0"
 		"YPos"										"0"
 		"Wide"										"f0"
-		"Tall"										"400"
+		"Tall"										"f0"
 		"ZPos"										"500"
 		"Visible"									"0"
 	}
@@ -1659,7 +1659,6 @@
 		"ProportionalToParent"						"1"
 		"BGColor_Override"							"Background_Main"
 	}
-}
 
 //==============================================
 // DISABLED
@@ -2124,7 +2123,7 @@
 		//"Pin_To_Sibling_Corner"						"6"
 	}
 
-        "ShowBackpackButton"
+    "ShowBackpackButton"
 	{
 		"ControlName"								"ImageButton"
 		"FieldName"									"ShowBackpackButton"
@@ -2176,3 +2175,4 @@
 		"Pin_Corner_To_Sibling"						"4"
 		"Pin_To_Sibling_Corner"						"6"
 	}
+}

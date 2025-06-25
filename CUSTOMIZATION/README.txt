@@ -1,0 +1,1 @@
+Drag and drop (copy) the contents of either '4x3' or '16x9' into the main hud folder. (tf/custom/jumphud)

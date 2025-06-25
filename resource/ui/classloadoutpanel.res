@@ -1,7 +1,41 @@
 #base "../dev/reload_scheme.res"
+#base "../customization/classloadoutpanel_bg.res"
 
 "Resource/UI/ClassLoadoutPanel.res"
 {
+    //"LoadoutCustomBackground"
+	//{
+	//	"ControlName"								"ImagePanel"
+	//	"FieldName"									"LoadoutCustomBackground"
+	//	"XPos"										"0"
+	//	"YPos"										"-36" // -38 works for 16:9, -36 works for 4:3
+	//	"ZPos"										"-3"
+	//	"Wide"										"854"
+	//	"Tall"										"480"
+	//	"Visible"									"1"
+	//	"Enabled"									"1"
+	//	"Image"										"replay/thumbnails/menu/loading_bg"
+	//	"ScaleImage"								"1"
+	//}
+    
+    "TransparentBackground"   // transparent background for loadout page
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"TransparentBackground"
+		"XPos"										"0"
+		"YPos"										"0"
+        "ZPos"                                      "-1"
+		"Wide"										"f0"
+		"Tall"										"640"
+        "ProportionalToParent"						"1"
+		"Visible"									"1"
+		"Enabled"									"1"
+        "PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"BGColor_Override"							"TransparentBlack"
+		"InFocus_BGColor_Override"					"TransparentBlack"
+		"OutOfFocus_BGColor_Override"				"TransparentBlack"
+	}
 	"Class_Loadout_Panel"
 	{
 		"ControlName"								"Frame"
@@ -9,17 +43,19 @@
 		"XPos"										"0"
 		"YPos"										"0"
 		"Wide"										"f0"
+        "tall"                                      "400"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"SetTitleBarVisible"						"0"
+        "PaintBackground"                           "1"
 		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"Background_Main"
-		"InFocus_BGColor_Override"					"Background_Main"
-		"OutOfFocus_BGColor_Override"				"Background_Main"
+		//"BGColor_Override"							"BarelyTransparentBlack"
+		//"InFocus_BGColor_Override"					"BarelyTransparentBlack"
+		//"OutOfFocus_BGColor_Override"				"BarelyTransparentBlack"
 
 		"Item_XPos_OffCenter_A"						"-310"
 		"Item_XPos_OffCenter_B"						"166"
-		"Item_YPos"									"60"
+		"Item_YPos"									"58"
 		"Item_YDelta"								"78"
 		"Item_Mod_Wide"								"40"
 
@@ -86,7 +122,8 @@
 			"DepressedFGColor_Override"				"Menu_Accent"
 		}
 	}
-	"Frame"
+
+	"Frame" // internal frame for character, loadout, and loadout buttons
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Frame"
@@ -99,17 +136,20 @@
 		"Enabled"									"1"
 		"ProportionalToParent"						"1"
 		"PaintBorder"								"0"
-		"Border"									"BackgroundOutline"
-		"PaintBackground"							"0"
+		"Border"									""
+		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"BGcolor_Override"							"Background_Dark"
+        "BGColor_Override"							"BLANK"
+		"InFocus_BGColor_Override"					"BLANK"
+		"OutOfFocus_BGColor_Override"				"BLANK"
+		//"BGcolor_Override"							"Background_Dark"
 
-		"Weapon1"
+		"Weapon1"   // weapon backgrounds
 		{
 			"ControlName"							"EditablePanel"
 			"FieldName"								"Weapon1"
 			"XPos"									"6"
-			"YPos"									"6"
+			"YPos"									"4"
 			"ZPos"									"0"
 			"Wide"									"144"
 			"Tall"									"74"
@@ -125,7 +165,7 @@
 			"ControlName"							"EditablePanel"
 			"FieldName"								"Weapon2"
 			"XPos"									"6"
-			"YPos"									"6+78"
+			"YPos"									"4+78"
 			"ZPos"									"0"
 			"Wide"									"144"
 			"Tall"									"74"
@@ -141,7 +181,7 @@
 			"ControlName"							"EditablePanel"
 			"FieldName"								"Weapon3"
 			"XPos"									"6"
-			"YPos"									"6+78+78"
+			"YPos"									"4+78+78"
 			"ZPos"									"0"
 			"Wide"									"144"
 			"Tall"									"74"
@@ -157,7 +197,7 @@
 			"ControlName"							"EditablePanel"
 			"FieldName"								"Weapon4"
 			"XPos"									"6"
-			"YPos"									"6+78+78+78"
+			"YPos"									"4+78+78+78"
 			"ZPos"									"0"
 			"Wide"									"144"
 			"Tall"									"74"
@@ -169,12 +209,12 @@
 			"BGcolor_Override"						"Background_Dark"
 		}
 
-		"Item1"
+		"Item1" // cosmetic backgrounds
 		{
 			"ControlName"							"EditablePanel"
 			"FieldName"								"Item1"
 			"XPos"									"rs1-11"
-			"YPos"									"6"
+			"YPos"									"4"
 			"ZPos"									"0"
 			"Wide"									"144"
 			"Tall"									"74"
@@ -190,7 +230,7 @@
 			"ControlName"							"EditablePanel"
 			"FieldName"								"Item2"
 			"XPos"									"rs1-11"
-			"YPos"									"6+78"
+			"YPos"									"4+78"
 			"ZPos"									"0"
 			"Wide"									"144"
 			"Tall"									"74"
@@ -206,7 +246,7 @@
 			"ControlName"							"EditablePanel"
 			"FieldName"								"Item3"
 			"XPos"									"rs1-11"
-			"YPos"									"6+78+78"
+			"YPos"									"4+78+78"
 			"ZPos"									"0"
 			"Wide"									"144"
 			"Tall"									"74"
@@ -222,7 +262,7 @@
 			"ControlName"							"EditablePanel"
 			"FieldName"								"Item4"
 			"XPos"									"rs1-11"
-			"YPos"									"6+78+78+78"
+			"YPos"									"4+78+78+78"
 			"ZPos"									"0"
 			"Wide"									"144"
 			"Tall"									"74"
@@ -239,11 +279,11 @@
 		"ControlName"								"CTFPlayerModelPanel"
 		"FieldName"									"ClassModelPanel"
 
-		"XPos"										"c-135"
-		"YPos"										"20"
+		"XPos"										"0"
+		"YPos"										"0"
 		"ZPos"										"-1"
-		"Wide"										"270"
-		"Tall"										"340"
+		"Wide"										"f0"
+		"Tall"										"f0"
 		"Visible"									"1"
 		"Enabled"									"1"
 
@@ -258,9 +298,9 @@
 			"angles_x"								"0"
 			"angles_y"								"170"
 			"angles_z"								"0"
-			"origin_x"								"190"
+			"origin_x"								"500"
 			"origin_y"								"0"
-			"origin_z"								"-48"
+			"origin_z"								"-30"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
@@ -445,6 +485,10 @@
 		"DefaultFGColor_Override"					"White"
 		"ArmedFGColor_Override"						"White"
 		"DepressedFGColor_Override"					"White"
+
+        "DefaultBGColor_Override"					"Background_Dark"
+		"ArmedBGColor_Override"						"Background_Dark"
+		"DepressedBGColor_Override"					"Background_Dark"
 	}
 	"TauntLoadoutButton"
 	{
@@ -467,6 +511,10 @@
 		"DefaultFGColor_Override"					"White"
 		"ArmedFGColor_Override"						"White"
 		"DepressedFGColor_Override"					"White"
+
+        "DefaultBGColor_Override"					"Background_Dark"
+		"ArmedBGColor_Override"						"Background_Dark"
+		"DepressedBGColor_Override"					"Background_Dark"
 	}
 	"BlueButton"
 	{
