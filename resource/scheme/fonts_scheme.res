@@ -440,7 +440,7 @@
 			"1"
 			{
 				"name"										"TF2 Class Icons V3"
-				"Tall"										"66"
+				"Tall"										"80"
 				"antialias"									"1"
 			}
 		}
