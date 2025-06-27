@@ -1669,7 +1669,7 @@
                 "ProportionalToParent"					"1"
                 "PaintBackground"						"1"
                 "PaintBackgroundType"					"0"
-                "BGColor_Override"						"TransparentLightestBlack"
+                "BGColor_Override"						"TransparentLightBlack"
 
                 "TitleLabel"
                 {
