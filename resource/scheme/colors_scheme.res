@@ -66,13 +66,13 @@
 		"Class_Selection"									"0 200 200 255"
 		
 		//BACKGROUNDS
-		"Background_Main"									"43 43 43 255"
+		"Background_Main"									"17 20 20 200"
 		"Background_Dark"									"16 17 17 255"
 		"Background_Darkest"								"15 15 15 255"
 		"Background_Bright"									"65 65 65 255"
 		
 		//BUTTONS
-		"Button_Bright"										"28 28 29 255"
+		"Button_Bright"										"16 17 17 255"
 		"Button_Dark"										"10 10 10 255"
 		"Button_Hover"										"81 181 182 255"
 		"Button_Red"										"190 60 60 255"
@@ -122,7 +122,7 @@
 		"OrangeDim"											"178 82 22 120"
 		"LightOrange"										"188 112 0 128"
 		"GoalOrange"										"255 133 0"
-		"TFOrange"											"145 73 59 255"
+		"TFOrange"											"98 219 220 255"
 		"Purple"											"137 69 99 255"
 
 		"QuestGold"											"208 147 75 255"
