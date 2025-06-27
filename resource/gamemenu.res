@@ -154,21 +154,21 @@
     "HSpeedo"
 	{
 		"label"										"7"
-		"Command"									"engine sm_hspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
+		"Command"									"engine sm_hspeedo;sm_speedo_yoff 0.55;"
 		"tooltip"									"Toggle Horizontal Speedo"
 		"OnlyInGame"								"1"
 	}
     "VSpeedo"
 	{
 		"label"										"7"
-		"Command"									"engine sm_vspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
+		"Command"									"engine sm_vspeedo;sm_speedo_yoff 0.55;"
 		"tooltip"									"Toggle Vertical Speedo"
 		"OnlyInGame"								"1"
 	}
     "ASpeedo"
 	{
 		"label"										"7"
-		"Command"									"engine sm_aspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
+		"Command"									"engine sm_aspeedo;sm_speedo_yoff 0.55;"
 		"tooltip"									"Toggle Absolute Speedo"
 		"OnlyInGame"								"1"
 	}
