@@ -67,14 +67,14 @@
 		
 		//BACKGROUNDS
 		"Background_Main"									"43 43 43 255"
-		"Background_Dark"									"26 26 26 255"
+		"Background_Dark"									"16 17 17 255"
 		"Background_Darkest"								"15 15 15 255"
 		"Background_Bright"									"65 65 65 255"
 		
 		//BUTTONS
-		"Button_Bright"										"66 63 61 255"
-		"Button_Dark"										"28 26 25 255"
-		"Button_Hover"										"104 101 100 255"
+		"Button_Bright"										"28 28 29 255"
+		"Button_Dark"										"10 10 10 255"
+		"Button_Hover"										"81 181 182 255"
 		"Button_Red"										"190 60 60 255"
 		"Button_Red_Hover"									"120 25 25 255"
 		"Button_Green"										"75 105 35 255"
@@ -329,13 +329,15 @@
 		"Econ.Button.DepressedBGColor"						"Button_Hover"
 		"Econ.Button.DepressedFGColor"						"Black"
 
-		"Econ.Button.PresetDefaultColorFg"					"White"
-		"Econ.Button.PresetArmedColorFg"					"White"
-		"Econ.Button.PresetDepressedColorFg"				"White"
+        // select loadout preset fg
+		"Econ.Button.PresetDefaultColorFg"					"White" // default
+		"Econ.Button.PresetArmedColorFg"					"Black" // hovered
+		"Econ.Button.PresetDepressedColorFg"				"Black" // pressed
 
-		"Econ.Button.PresetDefaultColorBg"					"Menu_Accent"
-		"Econ.Button.PresetArmedColorBg"					"Menu_Accent"
-		"Econ.Button.PresetDepressedColorBg"				"Menu_Accent"
+        // selected loadout preset bg
+		"Econ.Button.PresetDefaultColorBg"					"Menu_Accent"   // default
+		"Econ.Button.PresetArmedColorBg"					"Button_Hover"   // hovered
+		"Econ.Button.PresetDepressedColorBg"				"Menu_Accent"   // pressed
 
 		"Border.Bright"										"Blank"
 		"Border.Dark"										"Black"
@@ -343,9 +345,9 @@
 
 		"Button.TextColor"									"White"
 		"Button.BGColor"									"Button_Bright"
-		"Button.ArmedTextColor"								"White"
+		"Button.ArmedTextColor"								"Black"
 		"Button.ArmedBGColor"								"Button_Hover"
-		"Button.SelectedTextColor"							"White"
+		"Button.SelectedTextColor"							"Black"
 		"Button.SelectedBGColor"							"Button_Hover"
 		"Button.DepressedTextColor"							"Black"
 		"Button.DepressedBGColor"							"Button_Hover"
