@@ -173,7 +173,7 @@
 
 		"CreditsGreen"										"94 150 49 255"
 
-		"Gray"												"178 175 174 255"
+		"Gray"												"174 178 178 255"
 
 		"Blank"												"0 0 0 0"
 		"ForTesting"										"255 0 0 32"
@@ -195,11 +195,11 @@
 
 		"HudTrainingHint"									"212 160 23 255"
 
-		"TanDark"											"178 175 174 255"
-		"TanLight"											"255 255 255 255"
-		"TanDarker"											"46 43 42 255"
+		"TanDark"											"159 172 170 255"
+		"TanLight"											"255 255 255 255"   // backpack page numbers text
+		"TanDarker"											"36 39 38 255"      // empty backpack page numbers text
 
-		"StoreDarkTan"										"131 121 104 255"
+		"StoreDarkTan"										"131 104 131 255"
 		"StoreGreen"										"76 107 34 255"
 
 		"LowHealthRed"										"255 0 0 255"
