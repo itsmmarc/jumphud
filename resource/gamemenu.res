@@ -151,6 +151,13 @@
 		"tooltip"									"Toggle Tempus Hud"
 		"OnlyInGame"								"1"
 	}
+    "UsefulCommands"
+	{
+		"label"										"I"
+		"Command"									"engine showconsole; exec usefulbinds;"
+		"tooltip"									"Show Useful Binds/Commands"
+		"OnlyInGame"								"0"
+	}
     "HSpeedo"
 	{
 		"label"										"7"
