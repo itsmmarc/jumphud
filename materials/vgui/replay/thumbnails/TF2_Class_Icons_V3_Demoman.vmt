@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "hud/leaderboard_class_demo"
+	"$basetexture" "vgui/replay/thumbnails/TF2_Class_Icons_V3_Demoman"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

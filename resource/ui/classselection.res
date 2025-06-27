@@ -111,9 +111,11 @@
         "tall"          "170"
         "paintBackground"   "0"
         "LabelText"		    ""
+        "Image_DrawColor"   "255 255 255 255"
+        "Image_ArmedColor"  "0 200 200 255"
 
         "Command"									"joinclass soldier"
-		"stayselectedonclick"						"1"
+		"stay_armed_on_click"						"1"
 		"selectonhover"								"1"
 		"KeyboardInputEnabled"						"0"
 
@@ -130,24 +132,26 @@
             "tall"         "170"
             "visible"      "1"
             "enabled"      "1"
-            "image"         "itsame/Soldier_Class_Emblem"
+            "stay_armed_on_click"						"1"
+		    "selectonhover"								"1"
+            "image"         "replay/thumbnails/TF2_Class_Icons_V3_Soldier"
             "scaleImage"   "1"
         }
     }
 
-    "Soldier"
+    "Soldier" // disabled
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Soldier"
-		"XPos"										"-65"
-		"YPos"										"-285"
+		"XPos"										"99999"
+		"YPos"										"0"
 		"ZPos"										"6"
-		"Wide"										"65"
-		"Tall"										"411"
+		"Wide"										"170"
+		"Tall"										"600"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"LabelText"									"Soldier"
-		"TextAlignment"								"west"
+		"TextAlignment"								"center"
 		"Command"									"joinclass soldier"
 		"Font"										"m0refont11"
 		"stayselectedonclick"						"1"
@@ -161,9 +165,9 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"BGSoldier"
-		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+		"Pin_To_Sibling"							"IconSoldier"
+		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 	}
 	"MvMUpgradeImageSoldier"
 	{
@@ -221,6 +225,8 @@
         "tall"          "170"
         "paintBackground"   "0"
         "LabelText"		    ""
+        "Image_DrawColor"   "255 255 255 255"
+        "Image_ArmedColor"  "0 200 200 255"
 
         "Command"									"joinclass demoman"
 		"stayselectedonclick"						"1"
@@ -240,16 +246,16 @@
             "tall"         "170"
             "visible"      "1"
             "enabled"      "1"
-            "image"         "itsame/Demoman_Class_Emblem"
+            "image"         "replay/thumbnails/TF2_Class_Icons_V3_Demoman"
             "scaleImage"   "1"
         }
     }
 
-    "Demoman"
+    "Demoman"   // disabled
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Demoman"
-		"XPos"										"-65"
+		"XPos"										"99999"
 		"YPos"										"-285"
 		"ZPos"										"6"
 		"Wide"										"65"

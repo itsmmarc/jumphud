@@ -1,10 +1,9 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "hud/leaderboard_class_demo_sticky_daan"
+	"$basetexture" "vgui/replay/thumbnails/TF2_Class_Icons_V3_Soldier"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
 	"$translucent" 1
 }
-
