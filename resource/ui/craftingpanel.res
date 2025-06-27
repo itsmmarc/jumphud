@@ -1,7 +1,26 @@
 #base "../dev/reload_scheme.res"
+#base "../customization/classloadoutpanel_bg.res"
 
 "Resource/UI/CraftingPanel.res"
 {
+    "TransparentBackground"   // transparent background for loadout page
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"TransparentBackground"
+		"XPos"										"0"
+		"YPos"										"0"
+        "ZPos"                                      "-1"
+		"Wide"										"f0"
+		"Tall"										"640"
+        "ProportionalToParent"						"1"
+		"Visible"									"1"
+		"Enabled"									"1"
+        "PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"BGColor_Override"							"TransparentBlack"
+		"InFocus_BGColor_Override"					"TransparentBlack"
+		"OutOfFocus_BGColor_Override"				"TransparentBlack"
+	}
 	"Crafting_Panel"
 	{
 		"ControlName"								"Frame"
@@ -15,9 +34,9 @@
 		"Enabled"									"1"
 		"SetTitleBarVisible"						"0"
 		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"Background_Main"
-		"InFocus_BGColor_Override"					"Background_Main"
-		"OutOfFocus_BGColor_Override"				"Background_Main"
+		"BGColor_Override"							"BLANK"
+		"InFocus_BGColor_Override"					"BLANK"
+		"OutOfFocus_BGColor_Override"				"BLANK"
 
 		"Item_YPos"									"61"
 		"output_item_ypos"							"248"
