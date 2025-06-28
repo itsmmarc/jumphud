@@ -1,6 +1,20 @@
-An edit of m0rehud stripped down for only the essentials needed to play on tempus servers.
+# JUMPHUD
 
-Use **cl_hud_minmode 1** to hide health values and center ammo count
+An edit of m0rehud designed specifically for use on jump servers.
+
+Use **cl_hud_minmode 1** to hide health values and center ammo count.
+
+***
+
+<a href="../screenshots/showcase.md"><img src="https://i.imgur.com/vVxJdvB.png"></a>
+
+***
+
+## Common Issues:**
+
+Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
+
+
 
 ***
 
