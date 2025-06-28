@@ -9,6 +9,8 @@
 ## Options Menu
 ![Options Menu](/screenshots/3optionsmenu.png)
 
+</div>
+
 Useful keybinds have been added to the options menu, including:
 
 - CTap
@@ -30,6 +32,8 @@ Useful keybinds have been added to the options menu, including:
 - Show Triggers (Toggle)
 
 - Draw Clip Brushes (Toggle)
+
+<div align="center">
 
 ## Pause Menu
 ![Pause Menu](/screenshots/4pausemenu.jpg)
