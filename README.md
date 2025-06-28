@@ -6,7 +6,7 @@ Use **cl_hud_minmode 1** to hide health values and center ammo count.
 
 ***
 
-<a href="showcase.md"><img src="https://i.imgur.com/vVxJdvB.png"></a>
+<a href="SHOWCASE.md"><img src="https://i.imgur.com/vVxJdvB.png"></a>
 
 ***
 
