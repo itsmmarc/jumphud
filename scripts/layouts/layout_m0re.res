@@ -246,7 +246,7 @@
 	"HudMenuTauntSelection"
 	{
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"-120"
 		"ZPos"										"20"
 		"Wide"										"f0"
 		"Tall"										"f0"
