@@ -104,7 +104,7 @@
 		}
 		"TFThinLineBorder"
 		{
-			"Image" "White" "color" "White" "bordertype" "scalable_image"
+			"Image" "White" "color" "Background_Dark" "bordertype" "scalable_image"
 		}
 		"TFFatLineBorderOpaque"
 		{
