@@ -14,7 +14,7 @@
 	//	"Tall"										"480"
 	//	"Visible"									"1"
 	//	"Enabled"									"1"
-	//	"Image"										"replay/thumbnails/menu/loading_bg"
+	//	"Image"										"replay/thumbnails/menu/items_bg"
 	//	"ScaleImage"								"1"
 	//}
     
