@@ -9,6 +9,13 @@
 			"Top"		{ "1" { "color" "Blank" } }
 			"Bottom"	{ "1" { "color" "Blank" } }
 		}
+        "TransparentWhiteBorder"
+		{
+			"Left"		{ "1" { "color" "TransparentWhite" } }
+			"Right"		{ "1" { "color" "TransparentWhite" } }
+			"Top"		{ "1" { "color" "TransparentWhite" } }
+			"Bottom"	{ "1" { "color" "TransparentWhite" } }
+		}
 		"BorderSelectionBlack"
 		{
 			"Left"		{ "1" { "color" "Black" } "2" { "color" "Black" } }
@@ -97,7 +104,7 @@
 		}
 		"TFThinLineBorder"
 		{
-			"Image" "White" "color" "Background_Dark" "bordertype" "scalable_image"
+			"Image" "White" "color" "White" "bordertype" "scalable_image"
 		}
 		"TFFatLineBorderOpaque"
 		{

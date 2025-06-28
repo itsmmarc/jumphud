@@ -144,6 +144,11 @@
 		"PartyMember6"										"255 133 255 255"
 
 		"White"												"255 255 255 255"
+        "BarelyTransparentWhite"							"255 255 255 240"
+		"TransparentWhite"									"255 255 255 200"
+		"TransparentMediumWhite"							"255 255 255 150"
+		"TransparentLightWhite"								"255 255 255 100"
+		"TransparentLightestWhite"							"255 255 255 50"
 		"Red"												"189 59 61 255"
 		"RedSolid"											"192 28 0 255"
 		"Blue"												"90 122 143 255"

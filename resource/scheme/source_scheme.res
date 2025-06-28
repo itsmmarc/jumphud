@@ -14,12 +14,12 @@
 		"SS_ListBG"											"0 0 0 100"
 		"SS_List_Text"										"255 255 255 255"
 		"SS_List_Text_Armed"								"0 0 0 255"
-		"SS_List_Button"									"0 0 0 240"         // server list background
+		"SS_List_Button"									"0 0 0 240"         // server list background & options menu background
 		"SS_List_Button_Armed"								"81 181 182 255"
 
 		"SS_Button_Text"									"255 255 255 255"
 		"SS_Button_Text_Armed"								"0 0 0 255"
-		"SS_Button_BG"										"0 0 0 200"
+		"SS_Button_BG"										"0 0 0 200"       // button backgrounds
 		"SS_Button_BG_Armed"								"81 181 182 255"
 
 		"SS_Sheet_Text"										"255 255 255 255"
@@ -112,8 +112,8 @@
 	}
 	BaseSettings
 	{
-		"Border.Bright"										"Blank"
-		"Border.Dark"										"Blank"
+		"Border.Bright"										"Blank"     // top/left borders
+		"Border.Dark"										"Blank"     // bottom/right borders  
 		"Border.Selection"									"Blank"
 
 		"Button.TextColor"									"SS_Button_Text"
@@ -130,8 +130,8 @@
 		"CheckButton.HighlightFGColor"						"SS_CheckButton_Text_Armed"
 		"CheckButton.ArmedBGColor"							"Blank"
 		"CheckButton.DepressedBGColor"						"Blank"
-		"CheckButton.Border1"								"Blank"
-		"CheckButton.Border2"								"Blank"
+		"CheckButton.Border1"								"Blank"     // top/left borders
+		"CheckButton.Border2"								"TransparentWhiteBorder"     // bottom/right borders
 		"CheckButton.Check"									"SS_CheckButton_Armed"
 		"CheckButton.DisabledBGColor"						"SS_CheckButton_BG"
 
@@ -174,7 +174,7 @@
 
 		"SectionedListPanel.HeaderTextColor"				"White"
 		"SectionedListPanel.HeaderBGColor"					"Blank"
-		"SectionedListPanel.DividerColor"					"Black"
+		"SectionedListPanel.DividerColor"					"56 58 60 100"    // options menu header underline
 		"SectionedListPanel.TextColor"						"DullWhite"
 		"SectionedListPanel.BrightTextColor"				"White"
 		"SectionedListPanel.BGColor"						"SS_List_Button"

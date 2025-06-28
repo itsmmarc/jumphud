@@ -1,7 +1,7 @@
 //=========================================================
 // COLORS SCHEME
 //=========================================================
-#base "ui/customizations/colors/color_customization.res"
+//#base "ui/customizations/colors/color_customization.res"
 #base "scheme/colors_scheme.res"
 
 //=========================================================
@@ -10,7 +10,7 @@
 //#base "../../../cfg/m0rehud/m0re_font.txt"
 
 #base "scheme/fonts/fonts_customization/font_paths.res"
-#base "ui/customizations/#customization_menu/font_showcase.res"
+//#base "ui/customizations/#customization_menu/font_showcase.res"
 #base "scheme/fonts_scheme.res"
 
 //=========================================================
