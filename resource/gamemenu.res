@@ -5,8 +5,8 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"jump_m0re 1.0"
-		"Command"									"engine showconsole; echo jump_m0rehud by itsame, built on m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
+		"label"										"jumphud 1.0"
+		"Command"									"engine showconsole; exec jumphudversioninfo"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
