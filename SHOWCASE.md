@@ -13,7 +13,7 @@
 ![Pause Menu](/screenshots/4pausemenu.jpg)
 
 ## Options Menu
-![Options Menu](/screenshots/5optionsmenu.png)
+![Options Menu](/screenshots/5optionsmenu.jpg)
 
 </div>
 
