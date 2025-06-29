@@ -61,6 +61,8 @@ Use `cl_hud_minmode 1` to hide health value and center ammo count.
 
 ## Common Issues:
 
+Speedos won't be recoloured or repositioned until one of the speedo buttons on the pause menu is used.
+
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
 
 
