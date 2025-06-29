@@ -10,7 +10,11 @@ Use **cl_hud_minmode 1** to hide health values and center ammo count.
 
 ***
 
-## Common Issues:**
+## Customization
+
+Change the speedo colour by editing `speedocolor.cfg` in `jumphud/cfg`
+
+## Common Issues:
 
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
 
