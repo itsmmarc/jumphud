@@ -706,7 +706,7 @@
 	//==================================================================================================================================================
 	// INGAME BUTTONS
 	//==================================================================================================================================================
-        "TransparentBackground"   // transparent background for pause menu
+        "TransparentBackground"   
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"TransparentBackground"
@@ -716,7 +716,7 @@
             "Wide"										"f0"
             "Tall"										"f0"
             "ProportionalToParent"						"1"
-            "Visible"									"1"
+            "Visible"									"0"
             "Enabled"									"1"
             "PaintBackground"							"1"
             "PaintBackgroundType"						"0"
@@ -724,6 +724,7 @@
             "InFocus_BGColor_Override"					"BarelyTransparentBlack"
             "OutOfFocus_BGColor_Override"				"BarelyTransparentBlack"
         }
+
         "Disconnect"
         {
             "ControlName"								"EditablePanel"
