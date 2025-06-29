@@ -139,18 +139,18 @@
         }
     }
 
-    "Soldier" // disabled
+    "Soldier"
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Soldier"
-		"XPos"										"99999"
+		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"6"
 		"Wide"										"170"
-		"Tall"										"600"
+		"Tall"										"170"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"LabelText"									"Soldier"
+		"LabelText"									""
 		"TextAlignment"								"center"
 		"Command"									"joinclass soldier"
 		"Font"										"m0refont11"
@@ -159,11 +159,11 @@
 		"KeyboardInputEnabled"						"0"
 
 		"PaintBackground"							"0"
-		"FGColor"									"White"
-		"DefaultFGColor_Override"					"White"
-		"ArmedFGColor_Override"						"Class_Selection"
-		"DepressedFGColor_Override"					"Class_Selection"
-		"selectedFGColor_override"					"Class_Selection"
+		"FGColor"									"Blank"
+		"DefaultFGColor_Override"					"Blank"
+		"ArmedFGColor_Override"						"Blank"
+		"DepressedFGColor_Override"					"Blank"
+		"selectedFGColor_override"					"Blank"
 
 		"Pin_To_Sibling"							"IconSoldier"
 		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
@@ -251,35 +251,35 @@
         }
     }
 
-    "Demoman"   // disabled
+    "Demoman"
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Demoman"
-		"XPos"										"99999"
-		"YPos"										"-285"
+		"XPos"										"0"
+		"YPos"										"0"
 		"ZPos"										"6"
-		"Wide"										"65"
-		"Tall"										"411"
+		"Wide"										"170"
+		"Tall"										"170"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"LabelText"									"Demoman"
-		"TextAlignment"								"west"
-		"Command"									"joinclass Demoman"
+		"LabelText"									""
+		"TextAlignment"								"center"
+		"Command"									"joinclass demoman"
 		"Font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"KeyboardInputEnabled"						"0"
 
 		"PaintBackground"							"0"
-		"FGColor"									"White"
-		"DefaultFGColor_Override"					"White"
-		"ArmedFGColor_Override"						"Class_Selection"
-		"DepressedFGColor_Override"					"Class_Selection"
-		"selectedFGColor_override"					"Class_Selection"
+		"FGColor"									"Blank"
+		"DefaultFGColor_Override"					"Blank"
+		"ArmedFGColor_Override"						"Blank"
+		"DepressedFGColor_Override"					"Blank"
+		"selectedFGColor_override"					"Blank"
 
-		"Pin_To_Sibling"							"BGDemoman"
-		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+		"Pin_To_Sibling"							"IconDemoman"
+		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 	}
 	"MvMUpgradeImageDemoman"
 	{
