@@ -113,6 +113,38 @@
         "pin_corner_to_sibling"						"PIN_TOPRIGHT"
         "pin_to_sibling_corner"						"PIN_TOPLEFT"
     }
+    "CustomSoldierShadow"
+    {
+        "ControlName"								"CExImageButton"
+        "fieldName"									"CustomSoldierShadow"
+        "xpos"										"-1"
+        "ypos"										"-1"
+        "zpos"										"10"
+        "wide"										"120"
+        "tall"										"120"
+        "visible"									"1"
+        "enabled"									"1"
+        "labelText"									"2"
+        "font"										"ClassSymbols120"
+        "textAlignment"								"center"
+        "use_proportional_insets"					"1"
+        "default"									"0"
+        "paintbackground"							"0"
+        "Command"									"loadout soldier"
+
+        "paintbackground"							"0"
+
+        "defaultFgColor_override"					"BLACK"
+        "armedFgColor_override"						"BLACK"
+        "depressedFgColor_override"					"BLACK"
+
+        //"border_default"							"Material_Black_Light"
+        //"border_armed"								"Material_Hypno"
+
+        "pin_to_sibling"							"MainClassesAnchor"
+        "pin_corner_to_sibling"						"PIN_TOPRIGHT"
+        "pin_to_sibling_corner"						"PIN_TOPLEFT"
+    }
 
     "CustomDemoman"
     {
@@ -138,6 +170,38 @@
         "defaultFgColor_override"					"White"
         "armedFgColor_override"						"Menu_Accent"
         "depressedFgColor_override"					"Menu_Accent"
+
+        //"border_default"							"Material_Black_Light"
+        //"border_armed"								"Material_Hypno"
+
+        "pin_to_sibling"							"MainClassesAnchor"
+        "pin_corner_to_sibling"						"PIN_TOPLEFT"
+        "pin_to_sibling_corner"						"PIN_TOPRIGHT"
+    }
+    "CustomDemomanShadow"
+    {
+        "ControlName"								"CExImageButton"
+        "fieldName"									"CustomDemomanShadow"
+        "xpos"										"+1"
+        "ypos"										"-1"
+        "zpos"										"10"
+        "wide"										"120"
+        "tall"										"120"
+        "visible"									"1"
+        "enabled"									"1"
+        "labelText"									"4"
+        "font"										"ClassSymbols120"
+        "textAlignment"								"center"
+        "use_proportional_insets"					"1"
+        "default"									"0"
+        "paintbackground"							"0"
+        "Command"									"loadout demoman"
+
+        "paintbackground"							"0"
+
+        "defaultFgColor_override"					"BLACK"
+        "armedFgColor_override"						"BLACK"
+        "depressedFgColor_override"					"BLACK"
 
         //"border_default"							"Material_Black_Light"
         //"border_armed"								"Material_Hypno"
@@ -415,6 +479,38 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+    "BackpackShadow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"BackpackShadow"
+		"xpos"										"50-1"
+		"ypos"										"-1"
+		"zpos"										"10"
+		"wide"										"70"
+		"tall"										"70"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"i"
+		"font"										"HypnotizeIcons80"
+		"textAlignment"								"center"
+		"use_proportional_insets"					"1"
+		"default"									"0"
+		"paintbackground"							"0"
+		"Command"									"backpack"
+
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"BLACK"
+		"armedFgColor_override"						"BLACK"
+		"depressedFgColor_override"					"BLACK"
+
+		//"border_default"							"Material_Black_Light"
+		//"border_armed"								"Material_Hypno"
+
+		"pin_to_sibling"							"Crafting"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
 
 	//========================================================================================
 	// CRAFTING
@@ -443,6 +539,38 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"Menu_Accent"
 		"depressedFgColor_override"					"Menu_Accent"
+
+		//"border_default"							"Material_Black_Light"
+		//"border_armed"								"Material_Hypno"
+
+		"pin_to_sibling"							"Catalog"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+    "CraftingShadow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CraftingShadow"
+		"xpos"										"50-1"
+		"ypos"										"-1"
+		"zpos"										"10"
+		"wide"										"70"
+		"tall"										"70"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"z"
+		"font"										"HypnotizeIcons80"
+		"textAlignment"								"center"
+		"use_proportional_insets"					"1"
+		"default"									"0"
+		"paintbackground"							"0"
+		"Command"									"crafting"
+
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"BLACK"
+		"armedFgColor_override"						"BLACK"
+		"depressedFgColor_override"					"BLACK"
 
 		//"border_default"							"Material_Black_Light"
 		//"border_armed"								"Material_Hypno"
@@ -487,6 +615,38 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
+    "CatalogShadow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CatalogShadow"
+		"xpos"										"+1"
+		"ypos"										"-1"
+		"zpos"										"10"
+		"wide"										"70"
+		"tall"										"70"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									";"
+		"font"										"HypnotizeIcons80"
+		"textAlignment"								"center"
+		"use_proportional_insets"					"1"
+		"default"									"0"
+		"paintbackground"							"0"
+		"Command"									"armory"
+
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"BLACK"
+		"armedFgColor_override"						"BLACK"
+		"depressedFgColor_override"					"BLACK"
+
+		//"border_default"							"Material_Black_Light"
+		//"border_armed"								"Material_Hypno"
+
+		"pin_to_sibling"							"ToolsAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
 
 	//========================================================================================
 	// TRADING
@@ -523,6 +683,38 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
+    "TradingShadow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"TradingShadow"
+		"xpos"										"50+1"
+		"ypos"										"-1"
+		"zpos"										"10"
+		"wide"										"70"
+		"tall"										"70"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"5"
+		"font"										"HypnotizeIcons80"
+		"textAlignment"								"center"
+		"use_proportional_insets"					"1"
+		"default"									"0"
+		"paintbackground"							"0"
+		"Command"									"trading"
+
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"BLACK"
+		"armedFgColor_override"						"BLACK"
+		"depressedFgColor_override"					"BLACK"
+
+		//"border_default"							"Material_Black_Light"
+		//"border_armed"								"Material_Hypno"
+
+		"pin_to_sibling"							"Catalog"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
 
 	//========================================================================================
 	// WAR PAINTS
@@ -551,6 +743,38 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"Menu_Accent"
 		"depressedFgColor_override"					"Menu_Accent"
+
+		//"border_default"							"Material_Black_Light"
+		//"border_armed"								"Material_Hypno"
+
+		"pin_to_sibling"							"Trading"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+    "WarPaintsShadow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"WarPaintsShadow"
+		"xpos"										"50+1"
+		"ypos"										"-1"
+		"zpos"										"10"
+		"wide"										"70"
+		"tall"										"70"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"C"
+		"font"										"HypnotizeIcons80"
+		"textAlignment"								"center"
+		"use_proportional_insets"					"1"
+		"default"									"0"
+		"paintbackground"							"0"
+		"Command"									"paintkit_preview"
+
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"BLACK"
+		"armedFgColor_override"						"BLACK"
+		"depressedFgColor_override"					"BLACK"
 
 		//"border_default"							"Material_Black_Light"
 		//"border_armed"								"Material_Hypno"
