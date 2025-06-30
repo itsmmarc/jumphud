@@ -2957,6 +2957,18 @@
 				"antialias"									"1"
 			}
 		}
+        // itsame fonts
+        "TitleFont"
+        {
+            "1"
+            {
+				"name"										"Poppins Black Italic"
+				"Tall"										"30"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias"									"1"
+            }
+        }
 	}
 	"BitmapFontFiles"
 	{
@@ -2969,35 +2981,40 @@
 		"2"				"resource/tfd.ttf"
 		"3"
 		{
-			"Font"		"resource/scheme/fonts/surface_medium.otf"
-			"name"		"surface_medium"
+			"Font"		"resource/scheme/fonts/fonts_optional/renogare.ttf"
+			"name"		"renogare"
 		}
 		"4"
 		{
-			"Font"		"resource/scheme/fonts/surface_medium_numbers.otf"
-			"name"		"surface_medium_numbers"
+			"Font"		"resource/scheme/fonts/fonts_optional/renogare_numbers.ttf"
+			"name"		"renogare_numbers"
 		}
 		"5"
 		{
 			"Font"		"resource/scheme/fonts/coolvetica.ttf"
 			"name"		"coolvetica_rg_bold"
 		}
-		"6"
+        "6"
 		{
-			"Font"		"resource/scheme/fonts/blocks.ttf"
-			"name"		"blocks"
+			"Font"		"resource/scheme/fonts/poppins_black.ttf"
+			"name"		"Poppins Black"
 		}
-		"7"
+        "7"
+		{
+			"Font"		"resource/scheme/fonts/poppins_black_italic.ttf"
+			"name"		"Poppins Black Italic"
+		}
+		"8"
 		{
 			"Font"		"resource/scheme/fonts/m0rehud_icons.ttf"
 			"name"		"m0rehud_icons_v13"
 		}
-		"8"
+		"9"
 		{
 			"Font"		"resource/scheme/fonts/square_edit.ttf"
 			"name"		"square_edit"
 		}
-		"9"
+		"10"
 		{
 			"Font"		"resource/scheme/fonts/surface_uber_icons.ttf"
 			"name"		"surface_uber_icons"
@@ -3135,15 +3152,6 @@
 				"range" "0x0000 0xFFFF"
 			}
 		}
-        "10"
-		{
-			"Font"		"resource/scheme/fonts/fonts_optional/renogare.ttf"
-			"name"		"renogare"
-		}
-		"11"
-		{
-			"Font"		"resource/scheme/fonts/fonts_optional/renogare_numbers.ttf"
-			"name"		"renogare_numbers"
-		}
+        
 	}
 }

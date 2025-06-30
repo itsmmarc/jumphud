@@ -9,6 +9,12 @@
 		"Command"									"engine showconsole; exec jumphudversioninfo"
 		"OnlyAtMenu"								"1"
 	}
+    "Logo"
+	{
+		"label"										""
+		"Command"									"engine showconsole; exec jumphudversioninfo"
+		"OnlyAtMenu"								"1"
+	}
 	"Servers"
 	{
 		"label"										"Servers"

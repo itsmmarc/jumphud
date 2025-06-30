@@ -227,7 +227,7 @@
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"Version"
-            "XPos"										"0"
+            "XPos"										"10"
             "YPos"										"0"
             "ZPos"										"15"
             "Wide"										"150"
@@ -249,7 +249,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"TitleFont"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -262,12 +262,49 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+        "Logo"
+        {
+            "ControlName"   "CExImageButton"
+            "fieldName"     "Logo"
+            "xpos"          "0"
+            "ypos"          "5"
+            "zpos"          "10"
+            "wide"          "25"
+            "tall"          "25"
+            "paintBackground"   "0"
+            "LabelText"		    ""
+            "Image_DrawColor"   "255 255 255 255"
+            "Image_ArmedColor"  "98 219 220 255"
+
+            "stayselectedonclick"						"1"
+            "selectonhover"								"1"
+            "KeyboardInputEnabled"						"0"
+
+            "Pin_To_Sibling"							"Version"
+            "pin_corner_to_sibling"                     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"                     "PIN_TOPLEFT"
+            // ...
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"      "SubImage"
+                "xpos"         "0"
+                "ypos"         "0"
+                "zpos"         "1"
+                "wide"         "25"
+                "tall"         "25"
+                "visible"      "1"
+                "enabled"      "1"
+                "image"         "replay/thumbnails/jumphudlogo"
+                "scaleImage"   "1"
+            }
+        }
         "Servers"
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"Servers"
-            "XPos"										"0"
-            "YPos"										"5"
+            "XPos"										"-10"
+            "YPos"										"0"
             "ZPos"										"15"
             "Wide"										"150"
             "Tall"										"17"
