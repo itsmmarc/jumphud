@@ -9,7 +9,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"9"
 				"antialias"									"1"
 			}
@@ -18,7 +18,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"10"
 				"antialias"									"1"
 			}
@@ -27,7 +27,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"10"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -37,7 +37,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"11"
 				"antialias"									"1"
 			}
@@ -46,7 +46,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"11"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -56,7 +56,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"12"
 				"antialias"									"1"
 			}
@@ -65,7 +65,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"12"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -75,7 +75,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"14"
 				"antialias"									"1"
 			}
@@ -84,7 +84,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"14"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -94,7 +94,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"16"
 				"antialias"									"1"
 			}
@@ -103,7 +103,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"16"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -113,7 +113,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"18"
 				"antialias"									"1"
 			}
@@ -122,7 +122,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"18"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -132,7 +132,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"18"
 				"antialias"									"1"
 				"outline"									"1"
@@ -142,7 +142,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium_numbers"
+				"name"										"renogare_numbers"
 				"Tall"										"18"
 				"antialias"									"1"
 				"outline"									"1"
@@ -152,7 +152,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"20"
 				"antialias"									"1"
 			}
@@ -161,7 +161,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"24"
 				"antialias"									"1"
 			}
@@ -170,7 +170,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"24"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -180,7 +180,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
@@ -190,7 +190,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium_numbers"
+				"name"										"renogare_numbers"
 				"Tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
@@ -200,7 +200,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"26"
 				"antialias"									"1"
 			}
@@ -209,7 +209,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"30"
 				"antialias"									"1"
 			}
@@ -218,7 +218,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"30"
 				"antialias"									"1"
 				"outline"									"1"
@@ -228,7 +228,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium_numbers"
+				"name"										"renogare_numbers"
 				"Tall"										"30"
 				"antialias"									"1"
 				"outline"									"1"
@@ -238,7 +238,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"32"
 				"antialias"									"1"
 			}
@@ -247,7 +247,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"32"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -257,7 +257,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"36"
 				"antialias"									"1"
 			}
@@ -266,7 +266,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"48"
 				"antialias"									"1"
 			}
@@ -275,7 +275,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"58"
 				"antialias"									"1"
 			}
@@ -483,7 +483,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"14"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -491,7 +491,7 @@
 			}
 			"2"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"18"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
@@ -499,7 +499,7 @@
 			}
 			"3"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"22"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
@@ -507,7 +507,7 @@
 			}
 			"4"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"24"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
@@ -515,7 +515,7 @@
 			}
 			"5"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"9"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -1373,7 +1373,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -1384,7 +1384,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"12"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
@@ -1396,7 +1396,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -1407,7 +1407,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"12"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
@@ -1419,7 +1419,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"12"
 				"range"										"0x0000 0x017F"
 				"antialias"									"1"
@@ -1780,7 +1780,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"11"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -1790,7 +1790,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"18"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -1800,7 +1800,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"11"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -1810,7 +1810,7 @@
 		{
 			"1"
 			{
-				"name"										"surface_medium"
+				"name"										"renogare"
 				"Tall"										"18"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -3134,6 +3134,16 @@
 			{
 				"range" "0x0000 0xFFFF"
 			}
+		}
+        "10"
+		{
+			"Font"		"resource/scheme/fonts/fonts_optional/renogare.ttf"
+			"name"		"renogare"
+		}
+		"11"
+		{
+			"Font"		"resource/scheme/fonts/fonts_optional/renogare_numbers.ttf"
+			"name"		"renogare_numbers"
 		}
 	}
 }
