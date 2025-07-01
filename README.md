@@ -20,6 +20,8 @@ Stripped down HUD designed to give you the ability to display exactly as much in
 
 - Crouch (Toggle)
 
+- Draw Viewmodel (Toggle)
+
 - Tempus Spray
 
 - Restart Run
