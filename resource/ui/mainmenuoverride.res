@@ -275,8 +275,10 @@
             "LabelText"		    ""
             "Image_DrawColor"   "255 255 255 255"
             "Image_ArmedColor"  "98 219 220 255"
+            "Image_SelectColor" "98 219 220 255"
+            "command"           "engine showconsole; exec jumphudversioninfo"
 
-            "stayselectedonclick"						"1"
+            "stayselectedonclick"						"0"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
 

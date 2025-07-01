@@ -12,7 +12,7 @@
     "Logo"
 	{
 		"label"										""
-		"Command"									"engine showconsole; exec jumphudversioninfo"
+		//"Command"									"engine showconsole; exec jumphudversioninfo"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
