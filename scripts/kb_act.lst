@@ -17,6 +17,7 @@
 "toggle mat_fullbright"         "Full Bright (Toggle)"
 "sm_showtriggers"               "Show Triggers (Toggle)"
 "toggle r_drawclipsbrushes 0 2" "Draw Clip Brushes (Toggle)"
+"toggle mat_luxels"             "Draw Luxels (Toggle)"
 "blank"			"=========================="
 "blank"			"#Valve_Movement_Title"
 "blank"			"=========================="
