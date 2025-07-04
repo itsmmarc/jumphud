@@ -36,6 +36,8 @@ Stripped down HUD designed to give you the ability to display exactly as much in
 
 - Draw Clip Brushes (Toggle)
 
+- Draw Luxels (Toggle)
+
 ### Useful buttons have been added to the pause menu including:
 
 - Toggle HUD Min Mode (Disables health value and centers ammo count)
