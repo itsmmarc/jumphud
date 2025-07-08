@@ -96,14 +96,14 @@
 
     }
 
-	"TargetDataLabel"
+	"TargetDataLabel"   // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"TargetDataLabel"
 		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"1"
-		"Wide"										"280"
+		"Wide"										"0"
 		"Tall"										"22"
 		"Visible"									"0"
 		"Enabled"									"0"
@@ -130,11 +130,11 @@
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 	}
-	"KillStreakAnchor"
+	"KillStreakAnchor"  // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"KillStreakAnchor"
-		"XPos"										"112"
+		"XPos"										"99999"
 		"YPos"										"1"
 		"Wide"										"8"
 		"Tall"										"8"
@@ -148,8 +148,8 @@
 		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"12"
-		"Wide"										"11"
-		"Tall"										"11"
+		"Wide"										"0"
+		"Tall"										"0"
 		"Visible"									"0"
 		"Enabled"									"1"
 		"Image"										"logos/killstreaks/streak_white"
