@@ -44,7 +44,7 @@
 	"CHudAccountPanel"
 	{
 		"XPos"										"c-100"
-		"YPos"										"c50"
+        "YPos"								        "c110"
 		"Wide"										"200"
 		"Tall"										"50"
 	}
