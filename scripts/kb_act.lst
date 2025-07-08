@@ -5,6 +5,7 @@
 "+tphold"       "Thirdperson (Hold)"
 "tptoggle"      "Thirdperson (Toggle)"
 "toggle_duck"   "Crouch (Toggle)"
+"toggle r_drawviewmodel"    "Draw Viewmodel (Toggle)"
 "blank"			"=========================="
 "blank"			"JUMP SERVER"
 "blank"			"=========================="

@@ -20,6 +20,8 @@ Stripped down HUD designed to give you the ability to display exactly as much in
 
 - Crouch (Toggle)
 
+- Draw Viewmodel (Toggle)
+
 - Tempus Spray
 
 - Restart Run
@@ -33,6 +35,8 @@ Stripped down HUD designed to give you the ability to display exactly as much in
 - Show Triggers (Toggle)
 
 - Draw Clip Brushes (Toggle)
+
+- Draw Luxels (Toggle)
 
 ### Useful buttons have been added to the pause menu including:
 
