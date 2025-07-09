@@ -61,245 +61,245 @@
 	// TOP BAR ANCHOR
 	// Moves the blue and red bars and scores
 	//==================================================================================================================================================
-	"TopBarAnchor"
-	{
-		"ControlName"								"Panel"
-		"FieldName"									"TopBarAnchor"
-		"XPos"										"cs-0.5"
-		"YPos"										"0"
-		"Wide"										"2"
-		"Tall"										"10"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"ProportionalToParent"						"1"
-	}
+        "TopBarAnchor"
+        {
+            "ControlName"								"Panel"
+            "FieldName"									"TopBarAnchor"
+            "XPos"										"cs-0.5"
+            "YPos"										"0"
+            "Wide"										"2"
+            "Tall"										"10"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "ProportionalToParent"						"1"
+        }
 
-	"WhiteBG" // disabled
-	{
-		"ControlName"								"Panel"
-		"FieldName"									"WhiteBG"
-		"XPos"										"0"
-		"YPos"										"0"
-		"ZPos"										"-1"
-		"Wide"										"2"
-		"Tall"										"15"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"ProportionalToParent"						"1"
-		"PaintBackground"							"1"
-		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"White"
+        "WhiteBG" // disabled
+        {
+            "ControlName"								"Panel"
+            "FieldName"									"WhiteBG"
+            "XPos"										"0"
+            "YPos"										"0"
+            "ZPos"										"-1"
+            "Wide"										"2"
+            "Tall"										"15"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "ProportionalToParent"						"1"
+            "PaintBackground"							"1"
+            "PaintBackgroundType"						"0"
+            "BGColor_Override"							"White"
 
-		"Pin_To_Sibling"							"TopBarAnchor"
+            "Pin_To_Sibling"							"TopBarAnchor"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
 
 	//==================================================================================================================================================
 	// BLUE
 	//==================================================================================================================================================
-	"BlueScoreBG"   // disabled
-	{
-		"ControlName"								"Panel"
-		"FieldName"									"BlueScoreBG"
-		"XPos"										"0"
-		"YPos"										"0"
-		"Wide"										"p0.5"
-		"Tall"										"15"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"ProportionalToParent"						"1"
-		"PaintBackground"							"1"
-		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"Blue"
+        "BlueScoreBG"   // disabled
+        {
+            "ControlName"								"Panel"
+            "FieldName"									"BlueScoreBG"
+            "XPos"										"0"
+            "YPos"										"0"
+            "Wide"										"p0.5"
+            "Tall"										"15"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "ProportionalToParent"						"1"
+            "PaintBackground"							"1"
+            "PaintBackgroundType"						"0"
+            "BGColor_Override"							"Blue"
 
-		"Pin_To_Sibling"							"WhiteBG"
-		"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+            "Pin_To_Sibling"							"WhiteBG"
+            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
-	"BlueTeamName"  // disabled
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"BlueTeamName"
-		"XPos"										"-5"
-		"YPos"										"0"
-		"ZPos"										"5"
-		"Wide"										"100"
-		"Tall"										"15"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"ProportionalToParent"						"1"
-		"Font"										"m0refont11"
-		"FGColor"									"White"
-		"LabelText"									"%blueteamname%"
-		"TextAlignment"								"west"
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
+        "BlueTeamName"  // disabled
+        {
+            "ControlName"								"CExLabel"
+            "FieldName"									"BlueTeamName"
+            "XPos"										"-5"
+            "YPos"										"0"
+            "ZPos"										"5"
+            "Wide"										"100"
+            "Tall"										"15"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "ProportionalToParent"						"1"
+            "Font"										"m0refont11"
+            "FGColor"									"White"
+            "LabelText"									"%blueteamname%"
+            "TextAlignment"								"west"
 
-		"Pin_To_Sibling"							"BlueScoreBG"
+            "Pin_To_Sibling"							"BlueScoreBG"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
-	"BlueTeamScore" // disabled
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"BlueTeamScore"
-		"XPos"										"-9"
-		"YPos"										"4"
-		"ZPos"										"4"
-		"Wide"										"100"
-		"Tall"										"35"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"Font"										"m0refont48"
-		"FGColor"									"White"
-		"LabelText"									"%blueteamscore%"
-		"TextAlignment"								"east"
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
+        "BlueTeamScore" // disabled
+        {
+            "ControlName"								"CExLabel"
+            "FieldName"									"BlueTeamScore"
+            "XPos"										"-9"
+            "YPos"										"4"
+            "ZPos"										"4"
+            "Wide"										"100"
+            "Tall"										"35"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "Font"										"m0refont48"
+            "FGColor"									"White"
+            "LabelText"									"%blueteamscore%"
+            "TextAlignment"								"east"
 
-		"Pin_To_Sibling"							"BlueScoreBG"
-		"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling"							"BlueScoreBG"
+            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
-	"BlueTeamPlayerCount"   // disabled
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"BlueTeamPlayerCount"
-		"XPos"										"0"
-		"YPos"										"0"
-		"ZPos"										"1"
-		"Wide"										"100"
-		"Tall"										"15"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"Font"										"m0refont11"
-		"FGColor"									"White"
-		"LabelText"									"%blueteamplayercount%"
-		"TextAlignment"								"center"
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
+        "BlueTeamPlayerCount"   // disabled
+        {
+            "ControlName"								"CExLabel"
+            "FieldName"									"BlueTeamPlayerCount"
+            "XPos"										"0"
+            "YPos"										"0"
+            "ZPos"										"1"
+            "Wide"										"100"
+            "Tall"										"15"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "Font"										"m0refont11"
+            "FGColor"									"White"
+            "LabelText"									"%blueteamplayercount%"
+            "TextAlignment"								"center"
 
-		"Pin_To_Sibling"							"BlueScoreBG"
-		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling"							"BlueScoreBG"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
 
 	//==================================================================================================================================================
 	// RED
 	//==================================================================================================================================================
-	"RedScoreBG"    // disabled
-	{
-		"ControlName"								"Panel"
-		"FieldName"									"RedScoreBG"
-		"XPos"										"0"
-		"YPos"										"0"
-		"Wide"										"p0.5"
-		"Tall"										"15"
-		"Visible"									"0"
-		"Enabled"									"0"
+        "RedScoreBG"    // disabled
+        {
+            "ControlName"								"Panel"
+            "FieldName"									"RedScoreBG"
+            "XPos"										"0"
+            "YPos"										"0"
+            "Wide"										"p0.5"
+            "Tall"										"15"
+            "Visible"									"0"
+            "Enabled"									"0"
 
-		"ProportionalToParent"						"1"
-		"PaintBackground"							"1"
-		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"Red"
+            "ProportionalToParent"						"1"
+            "PaintBackground"							"1"
+            "PaintBackgroundType"						"0"
+            "BGColor_Override"							"Red"
 
-		"Pin_To_Sibling"							"WhiteBG"
-		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling"							"WhiteBG"
+            "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+            "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
-	"RedTeamName"   // disabled
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"RedTeamName"
-		"XPos"										"-5"
-		"YPos"										"0"
-		"ZPos"										"5"
-		"Wide"										"100"
-		"Tall"										"15"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"Font"										"m0refont11"
-		"FGColor"									"White"
-		"LabelText"									"%redteamname%"
-		"TextAlignment"								"east"
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
+        "RedTeamName"   // disabled
+        {
+            "ControlName"								"CExLabel"
+            "FieldName"									"RedTeamName"
+            "XPos"										"-5"
+            "YPos"										"0"
+            "ZPos"										"5"
+            "Wide"										"100"
+            "Tall"										"15"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "Font"										"m0refont11"
+            "FGColor"									"White"
+            "LabelText"									"%redteamname%"
+            "TextAlignment"								"east"
 
-		"Pin_To_Sibling"							"RedScoreBG"
-		"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling"							"RedScoreBG"
+            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
-	"RedTeamScore"  // disabled
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"RedTeamScore"
-		"XPos"										"-9"
-		"YPos"										"4"
-		"ZPos"										"4"
-		"Wide"										"100"
-		"Tall"										"35"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"Font"										"m0refont48"
-		"FGColor"									"White"
-		"LabelText"									"%redteamscore%"
-		"TextAlignment"								"west"
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
+        "RedTeamScore"  // disabled
+        {
+            "ControlName"								"CExLabel"
+            "FieldName"									"RedTeamScore"
+            "XPos"										"-9"
+            "YPos"										"4"
+            "ZPos"										"4"
+            "Wide"										"100"
+            "Tall"										"35"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "Font"										"m0refont48"
+            "FGColor"									"White"
+            "LabelText"									"%redteamscore%"
+            "TextAlignment"								"west"
 
-		"Pin_To_Sibling"							"RedScoreBG"
+            "Pin_To_Sibling"							"RedScoreBG"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
-	"RedTeamPlayerCount"    // disabled
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"RedTeamPlayerCount"
-		"XPos"										"0"
-		"YPos"										"0"
-		"Wide"										"100"
-		"Tall"										"15"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"Font"										"m0refont11"
-		"FGColor"									"White"
-		"LabelText"									"%redteamplayercount%"
-		"TextAlignment"								"center"
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
+        "RedTeamPlayerCount"    // disabled
+        {
+            "ControlName"								"CExLabel"
+            "FieldName"									"RedTeamPlayerCount"
+            "XPos"										"0"
+            "YPos"										"0"
+            "Wide"										"100"
+            "Tall"										"15"
+            "Visible"									"0"
+            "Enabled"									"0"
+            "Font"										"m0refont11"
+            "FGColor"									"White"
+            "LabelText"									"%redteamplayercount%"
+            "TextAlignment"								"center"
 
-		"Pin_To_Sibling"							"RedScoreBG"
-		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling"							"RedScoreBG"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 
-		"if_mvm"
-		{
-			"Visible"								"0"
-		}
-	}
+            "if_mvm"
+            {
+                "Visible"								"0"
+            }
+        }
 
 	//==================================================================================================================================================
 

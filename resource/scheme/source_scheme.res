@@ -90,11 +90,11 @@
 		{
 			"1"
 			{
-				"name"										"Lucida Console"
+				"name"										"NK57 Monospace Sc Rg"
 				"Tall"										"10"
 				"outline"									"1"
 				"dropshadow"								"0"
-				"antialias"									"0"
+				"antialias"									"1"
 			}
 		}
 		//=========================================================================================================================
@@ -104,9 +104,9 @@
 		{
 			"1"
 			{
-				"name"										"Lucida Console"
-				"Tall"										"10"
-				"weight"									"500"
+				"name"										"NK57 Monospace Sc Rg"
+				"Tall"										"15"
+				"weight"									"0"
 			}
 		}
 	}
@@ -233,4 +233,12 @@
 			"Bottom"	{ "1" { "color" "Blank" } "2" { "color" "Blank" } "3" { "color" "Blank" } }
 		}
 	}
+    "CustomFontFiles"
+    {
+        "1"
+        {
+            "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
+            "name"      "NK57 Monospace Sc Rg"
+        }
+    }
 }
