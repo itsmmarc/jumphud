@@ -736,45 +736,14 @@
                     "antialias"									"1"
                 }
             }
-            "HudHintText"
+            "HudHintText"   // center tempus panel
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
-                    "weight"									"700"
-                    "yres"										"480 599"
-                    "antialias"									"1"
-                }
-                "2"
-                {
-                    "name"										"Verdana"
-                    "Tall"										"13"
-                    "weight"									"700"
-                    "yres"										"600 767"
-                    "antialias"									"1"
-                }
-                "3"
-                {
-                    "name"										"Verdana"
-                    "Tall"										"14"
-                    "weight"									"700"
-                    "yres"										"768 1023"
-                    "antialias"									"1"
-                }
-                "4"
-                {
-                    "name"										"Verdana"
-                    "Tall"										"20"
-                    "weight"									"700"
-                    "yres"										"1024 1199"
-                    "antialias"									"1"
-                }
-                "5"
-                {
-                    "name"										"Verdana"
-                    "Tall"										"12"
-                    "weight"									"700"
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"25"
+                    "weight"									"0"
+                    "yres"										"480 1199"
                     "antialias"									"1"
                 }
             }
@@ -2977,7 +2946,7 @@
             {
                 "1"
                 {
-                    "name"										"Coolvetica"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"32"
                     "weight"									"400"
                     "additive"									"0"
@@ -2988,7 +2957,7 @@
             {
                 "1"
                 {
-                    "name"										"Coolvetica"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"20"
                     "weight"									"400"
                     "additive"									"0"
@@ -3017,10 +2986,10 @@
 		}
 		"5"
 		{
-			"Font"		"resource/scheme/fonts/coolvetica.ttf"
+			"Font"		"resource/scheme/fonts/coolvetica_regular_bold.ttf"
 			"name"		"coolvetica_rg_bold"
 		}
-        "6"
+        "6" // title font
 		{
 			"Font"		"resource/scheme/fonts/poppins_black.ttf"
 			"name"		"Poppins Black"
@@ -3178,10 +3147,10 @@
 				"range" "0x0000 0xFFFF"
 			}
 		}
-        "11"
+        "11"    // main hud font
         {
-            "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
-            "name"      "Coolvetica"
+            "Font"      "resource/scheme/fonts/Coolvetica-Italic.otf"
+            "name"      "Coolvetica Italic"
         }
         "12"
         {
@@ -3197,6 +3166,36 @@
         {
             "Font"      "resource/scheme/fonts/steelfish_bold-italic.otf"
             "name"      "Steelfish Bd"
+        }
+        "15"
+        {
+            "Font"      "resource/scheme/fonts/coolvetica_cond.otf"
+            "name"      "Coolvetica Cond"
+        }
+        "16"
+        {
+            "Font"      "resource/scheme/fonts/objectivity_regular.otf"
+            "name"      "Objectivity"
+        }
+        "17"
+        {
+            "Font"      "resource/scheme/fonts/inconsolata_regular.ttf"
+            "name"      "Inconsolata"
+        }
+        "18"
+        {
+            "font"      "resource/scheme/fonts/coolvetica_regular.otf"
+            "name"      "Coolvetica"
+        }
+        "19"
+        {
+            "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
+            "name"      "NK57 Monospace Sc Rg"
+        }
+        "20"
+        {
+            "font"      "resource/scheme/fonts/nk57-monospace.cdrg-regular.otf"
+            "name"      "NK57 Monospace Cd Rg"
         }
         
 	}

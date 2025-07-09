@@ -356,7 +356,7 @@
         "300"
         {
             "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
-            "name"      "Coolvetica"
+            "name"      "Coolvetica Italic"
         }
         "301"
         {
