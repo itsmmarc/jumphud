@@ -10,7 +10,7 @@
 		"ControlName"								"Panel"
 		"FieldName"									"AmmoAnchor"
 		"XPos"										"cs-0.5"
-		"YPos"										"c64"
+		"YPos"										"c66"
 		"ZPos"										"0"
 		"Wide"										"1"
 		"Tall"										"80"
