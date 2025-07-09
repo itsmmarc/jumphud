@@ -214,12 +214,12 @@
 		}
 		"242"
 		{
-			"Font"		"resource/scheme/fonts/fonts_optional/renogare.ttf"
+			"Font"		"resource/scheme/fonts/renogare.ttf"
 			"name"		"renogare_soft_regular"
 		}
 		"243"
 		{
-			"Font"		"resource/scheme/fonts/fonts_optional/renogare_numbers.ttf"
+			"Font"		"resource/scheme/fonts/renogare_numbers.ttf"
 			"name"		"renogare_numbers"
 		}
 		"244"
@@ -353,9 +353,15 @@
 			"name"		"verlag_numbers"
 		}
 		// CUSTOM USER FONT
-		"300"
-		{
-
-		}
+        "300"
+        {
+            "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
+            "name"      "Coolvetica"
+        }
+        "301"
+        {
+            "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
+            "name"      "Steelfish ExtBd"
+        }
 	}
 }

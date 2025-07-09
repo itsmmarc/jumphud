@@ -24,10 +24,10 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"HealthAnchor"
-		"XPos"										"c11"
+		"XPos"										"cs-0.5"
 		"YPos"										"c65"
 		"ZPos"										"0"
-		"Wide"										"2"
+		"Wide"										"1"
 		"Tall"										"80"
 		"Visible"									"0"
 		"Enabled"									"1"
@@ -210,7 +210,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"HealthValue"
-		"XPos"										"-50"
+		"XPos"										"-40"
 		"XPos_Minmode"								"99999"
 		"YPos"										"0"
 		"ZPos"										"7"
@@ -220,7 +220,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"m0refont32"
+		"Font"										"MainHudFont"
 		"FGColor"									"Health_Numbers"
 
 		"Pin_To_Sibling"							"HealthAnchor"
@@ -240,7 +240,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"m0refont32"
+		"Font"										"MainHudFont"
 		"FGColor"									"Main_Shadow"
         "Alpha"                                     "200"
 
@@ -259,7 +259,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"m0refont32"
+		"Font"										"MainHudFont"
 		"FGColor"									"Extra_Health_Shadow"
 		"Alpha"										"0"
 

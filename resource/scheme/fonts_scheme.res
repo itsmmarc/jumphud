@@ -1784,8 +1784,8 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
-                    "Tall"										"11"
+                    "name"										"Steelfish"
+                    "Tall"										"28"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -1794,8 +1794,8 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
-                    "Tall"										"18"
+                    "name"										"Steelfish"
+                    "Tall"										"28"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -1804,8 +1804,8 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
-                    "Tall"										"11"
+                    "name"										"Steelfish"
+                    "Tall"										"28"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -1814,8 +1814,8 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
-                    "Tall"										"18"
+                    "name"										"Steelfish"
+                    "Tall"										"28"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -2977,8 +2977,19 @@
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
+                    "name"										"Coolvetica"
                     "Tall"										"32"
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            "StickiesOutFont"
+            {
+                "1"
+                {
+                    "name"										"Coolvetica"
+                    "Tall"										"20"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3170,12 +3181,22 @@
         "11"
         {
             "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
-            "name"      "Coolvetica Italic"
+            "name"      "Coolvetica"
         }
         "12"
         {
             "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
-            "name"      "Steelfish Extra Bold Italic"
+            "name"      "Steelfish ExtBd"
+        }
+        "13"
+        {
+            "Font"      "resource/scheme/fonts/steelfish_italic.otf"
+            "name"      "Steelfish"
+        }
+        "14"
+        {
+            "Font"      "resource/scheme/fonts/steelfish_bold-italic.otf"
+            "name"      "Steelfish Bd"
         }
         
 	}

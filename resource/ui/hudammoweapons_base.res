@@ -9,10 +9,10 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"AmmoAnchor"
-		"XPos"										"c0"
+		"XPos"										"cs-0.5"
 		"YPos"										"c64"
 		"ZPos"										"0"
-		"Wide"										"5"
+		"Wide"										"1"
 		"Tall"										"80"
 		"Visible"									"0"
 		"Enabled"									"1"
@@ -25,7 +25,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoInClip"
-		"XPos"										"-7"
+		"XPos"										"-10"
 		"YPos"										"0"
 		"ZPos"										"5"
 		"Wide"										"150"
@@ -34,8 +34,9 @@
 
 		"Visible"									"0"
 		"Enabled"									"1"
-		"Font"										"m0refont32"
+		"Font"										"MainHudFont"
 
+        "textinsetx"                                "10"
 		"TextAlignment"								"east"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Ammo_In_Clip"
@@ -55,7 +56,8 @@
 		"Tall"										"80"
 		"Visible"									"0"
 		"Enabled"									"1"
-		"Font"										"m0refont32"
+		"Font"										"MainHudFont"
+        "textinsetx"                                "10"
 		"TextAlignment"								"east"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Main_Shadow"
