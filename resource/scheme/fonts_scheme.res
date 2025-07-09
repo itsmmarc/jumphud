@@ -3020,12 +3020,12 @@
 			"Font"		"resource/scheme/fonts/coolvetica_regular_bold.ttf"
 			"name"		"coolvetica_rg_bold"
 		}
-        "6" // title font
+        "6"
 		{
 			"Font"		"resource/scheme/fonts/poppins_black.ttf"
 			"name"		"Poppins Black"
 		}
-        "7"
+        "7" // title font
 		{
 			"Font"		"resource/scheme/fonts/poppins_black_italic.ttf"
 			"name"		"Poppins Black Italic"
