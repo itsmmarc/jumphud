@@ -483,15 +483,60 @@
 		//=================================================================================================
 		// DEFAULT TF2 FONTS
 		//=================================================================================================
-            "Default"
+            "Default"   // right side tempus panel
             {
                 "1"
                 {
                     "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"22"
+                    "Tall"										"12"
                     "range"										"0x0000 0x017F"
-                    "yres"										"480 1199"
+                    "yres"										"480 599"
                     "antialias"									"1"
+                }
+                "2"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"16"
+                    "range"										"0x0000 0x017F"
+                    "yres"										"600 767"
+                    "antialias"									"1"
+                }
+                "3"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"20"
+                    "range"										"0x0000 0x017F"
+                    "yres"										"768 1023"
+                    "antialias"									"1"
+                }
+                "4"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"21"
+                    "range"										"0x0000 0x017F"
+                    "yres"										"1024 1199"
+                    "antialias"									"1"
+                }
+                "5"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"9"
+                    "range"										"0x0000 0x017F"
+                    "antialias"									"1"
+                }
+                "6"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"10"
+                    "range"										"0x0000 0x00FF"
+                    "weight"									"900"
+                }
+                "7"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"10"
+                    "range"										"0x0000 0x00FF"
+                    "weight"									"800"
                 }
             }
             "DefaultUnderline"
@@ -696,9 +741,40 @@
                 "1"
                 {
                     "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"25"
-                    "weight"									"0"
-                    "yres"										"480 1199"
+                    "Tall"										"14"
+                    "weight"									"700"
+                    "yres"										"480 599"
+                    "antialias"									"1"
+                }
+                "2"
+                {
+                    "name"										"VerdaNK57 Monospace Sc Rgna"
+                    "Tall"										"15"
+                    "weight"									"700"
+                    "yres"										"600 767"
+                    "antialias"									"1"
+                }
+                "3"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"16"
+                    "weight"									"700"
+                    "yres"										"768 1023"
+                    "antialias"									"1"
+                }
+                "4"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"23"
+                    "weight"									"700"
+                    "yres"										"1024 1199"
+                    "antialias"									"1"
+                }
+                "5"
+                {
+                    "name"										"NK57 Monospace Sc Rg"
+                    "Tall"										"10"
+                    "weight"									"700"
                     "antialias"									"1"
                 }
             }
