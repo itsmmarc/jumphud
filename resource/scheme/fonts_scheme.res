@@ -487,56 +487,11 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
-                    "Tall"										"14"
-                    "range"										"0x0000 0x017F"
-                    "yres"										"480 599"
-                    "antialias"									"1"
-                }
-                "2"
-                {
-                    "name"										"renogare"
-                    "Tall"										"18"
-                    "range"										"0x0000 0x017F"
-                    "yres"										"600 767"
-                    "antialias"									"1"
-                }
-                "3"
-                {
-                    "name"										"renogare"
+                    "name"										"NK57 Monospace Sc Rg"
                     "Tall"										"22"
                     "range"										"0x0000 0x017F"
-                    "yres"										"768 1023"
+                    "yres"										"480 1199"
                     "antialias"									"1"
-                }
-                "4"
-                {
-                    "name"										"renogare"
-                    "Tall"										"24"
-                    "range"										"0x0000 0x017F"
-                    "yres"										"1024 1199"
-                    "antialias"									"1"
-                }
-                "5"
-                {
-                    "name"										"renogare"
-                    "Tall"										"9"
-                    "range"										"0x0000 0x017F"
-                    "antialias"									"1"
-                }
-                "6"
-                {
-                    "name"										"Verdana"
-                    "Tall"										"12"
-                    "range"										"0x0000 0x00FF"
-                    "weight"									"900"
-                }
-                "7"
-                {
-                    "name"										"Arial"
-                    "Tall"										"12"
-                    "range"										"0x0000 0x00FF"
-                    "weight"									"800"
                 }
             }
             "DefaultUnderline"
