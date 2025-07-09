@@ -26,6 +26,7 @@
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoInClip"
 		"XPos"										"-10"
+        "Xpos_minmode"                              "-75"
 		"YPos"										"0"
 		"ZPos"										"5"
 		"Wide"										"150"
@@ -38,6 +39,7 @@
 
         "textinsetx"                                "10"
 		"TextAlignment"								"east"
+        "TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Ammo_In_Clip"
 
@@ -59,6 +61,7 @@
 		"Font"										"MainHudFont"
         "textinsetx"                                "10"
 		"TextAlignment"								"east"
+        "TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Main_Shadow"
 
