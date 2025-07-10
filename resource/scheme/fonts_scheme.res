@@ -748,7 +748,7 @@
                 }
                 "2"
                 {
-                    "name"										"VerdaNK57 Monospace Sc Rgna"
+                    "name"										"NK57 Monospace Sc Rg"
                     "Tall"										"15"
                     "weight"									"700"
                     "yres"										"600 767"
