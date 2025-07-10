@@ -3195,35 +3195,30 @@
         }
         "14"
         {
-            "Font"      "resource/scheme/fonts/steelfish_bold-italic.otf"
-            "name"      "Steelfish Bd"
-        }
-        "15"
-        {
             "Font"      "resource/scheme/fonts/coolvetica_cond.otf"
             "name"      "Coolvetica Cond"
         }
-        "16"
+        "15"
         {
             "Font"      "resource/scheme/fonts/objectivity_regular.otf"
             "name"      "Objectivity"
         }
-        "17"
+        "16"
         {
             "Font"      "resource/scheme/fonts/inconsolata_regular.ttf"
             "name"      "Inconsolata"
         }
-        "18"
+        "17"
         {
             "font"      "resource/scheme/fonts/coolvetica_regular.otf"
             "name"      "Coolvetica"
         }
-        "19"
+        "18"
         {
             "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
             "name"      "NK57 Monospace Sc Rg"
         }
-        "20"
+        "19"
         {
             "font"      "resource/scheme/fonts/nk57-monospace.cdrg-regular.otf"
             "name"      "NK57 Monospace Cd Rg"
