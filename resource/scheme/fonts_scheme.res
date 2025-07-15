@@ -1587,7 +1587,7 @@
             {
                 "1"
                 {
-                    "name"										"coolvetica_rg_bold"
+                    "name"										"Steelfish"
                     "Tall"										"20"
                     "weight"									"500"
                     "range"										"0x0000 0x007F"
