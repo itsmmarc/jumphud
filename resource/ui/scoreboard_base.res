@@ -407,7 +407,7 @@
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
-	"HorizontalLine"
+	"HorizontalLine"    // automatically recolored somewhere so disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"HorizontalLine"
@@ -416,9 +416,27 @@
 		"ZPos"										"2"
 		"Wide"										"p1.01"
 		"Tall"										"1"
-		"Visible"									"1"
+		"Visible"									"0"
 		"Enabled"									"1"
 		"fillcolor"									"127 127 127 153"
+		"PaintBackgroundType"						"0"
+
+		"Pin_To_Sibling"							"ShadedBar"
+		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+	}
+    "HorizontalLine2"    // visible copy
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"HorizontalLine2"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"2"
+		"Wide"										"p1.01"
+		"Tall"										"1"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"fillcolor"									"51 67 67 134"
 		"PaintBackgroundType"						"0"
 
 		"Pin_To_Sibling"							"ShadedBar"
