@@ -39,6 +39,7 @@
 		"Visible"									"1"		//1 to enable
 		"Enabled"									"1"
 		"TextAlignment"								"center"
+        "allcaps"   "1"
 		"Font"										"TeamMenuBold"
 		"FGColor"									"White"
 		"ProportionalToParent"						"1"
@@ -195,7 +196,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"RedCount"
-		"XPos"										"-5-4"
+		"XPos"										"-5-1"
 		"YPos"										"15"
 		"ZPos"										"2"
 		"Wide"										"120"
@@ -234,7 +235,7 @@
 		"PaintBackground"							"0"
 
 		"DefaultFGColor_Override"					"White"
-		"ArmedFGColor_Override"						"175 175 175 255"
+		"ArmedFGColor_Override"						"Menu_Accent"
 		"DepressedFGColor_Override"					"White"
 
 		"Pin_To_Sibling"							"TeamsAnchor"
@@ -272,7 +273,7 @@
 		"PaintBackground"							"0"
 
 		"DefaultFGColor_Override"					"White"
-		"ArmedFGColor_Override"						"175 175 175 255"
+		"ArmedFGColor_Override"						"Menu_Accent"
 		"DepressedFGColor_Override"					"White"
 
 		"Pin_To_Sibling"							"TeamsAnchor"
