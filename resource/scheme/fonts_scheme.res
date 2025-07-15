@@ -2120,7 +2120,7 @@
             {
                 "1"
                 {
-                    "name"										"coolvetica_rg_bold"
+                    "name"										"Steelfish"
                     "Tall"										"36"
                     "weight"									"500"
                     "additive"									"0"
@@ -2131,8 +2131,8 @@
             {
                 "1"
                 {
-                    "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
+                    "name"										"Steelfish"
+                    "Tall"										"25"
                     "weight"									"600"
                     "additive"									"0"
                     "antialias"									"1"
