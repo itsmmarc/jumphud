@@ -102,9 +102,10 @@
 		"Sound_Depressed"							"UI/buttonclick.wav"
 
 		"PaintBackground"							"1"
-		"DefaultBGColor_Override"					"51 67 67 134"
-		"ArmedBGColor_Override"						"48 84 84 134"
-		"DepressedBGColor_Override"					"51 67 67 134"
+		"DefaultBGColor_Override"					"79 96 108 134"
+		"ArmedBGColor_Override"						"86 126 151 134"
+		"DepressedBGColor_Override"					"79 96 108 134"
+        //"90 122 143 255"
 
 		"DefaultFGColor_Override"					"White"
 		"ArmedFGColor_Override"						"White"
@@ -169,9 +170,9 @@
 		"Sound_Depressed"							"UI/buttonclick.wav"
 
 		"PaintBackground"							"1"
-		"DefaultBGColor_Override"					"51 67 67 134"
-		"ArmedBGColor_Override"						"48 84 84 134"
-		"DepressedBGColor_Override"					"51 67 67 134"
+		"DefaultBGColor_Override"					"71 96 96 134"
+		"ArmedBGColor_Override"						"62 142 142 134"
+		"DepressedBGColor_Override"					"71 96 96 134"
 
 		"DefaultFGColor_Override"					"White"
 		"ArmedFGColor_Override"						"White"
