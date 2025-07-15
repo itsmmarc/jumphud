@@ -310,16 +310,16 @@
 		"XPos"										"-9"
 		"YPos"										"0"
 		"Wide"										"300"
-		"Tall"										"15"
+		"Tall"										"20"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"Font"										"m0refont11Shadow"
+		"Font"										"ScoreboardMedium"
 		"FGColor"									"White"
 		"LabelText"									"%server%"
 		"TextAlignment"								"west"
 		"alpha"										"255"
 
-		"Pin_To_Sibling"							"HorizontalLine"
+		"Pin_To_Sibling"							"HorizontalLine2"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -338,7 +338,7 @@
 		"LabelText"									"%servertimeleft%"
 		"TextAlignment"								"east"
 
-		"Pin_To_Sibling"							"HorizontalLine"
+		"Pin_To_Sibling"							"HorizontalLine2"
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMRIGHT"
 		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
@@ -364,7 +364,7 @@
 		"TextAlignment"								"west"
 		"alpha"										"255"
 
-		"Pin_To_Sibling"							"HorizontalLine"
+		"Pin_To_Sibling"							"HorizontalLine2"
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 	}
@@ -397,7 +397,7 @@
 		"YPos"										"5"
 		"ZPos"										"2"
 		"Wide"										"p1.01"
-		"Tall"										"20"
+		"Tall"										"25"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"fillcolor"									"TransparentLightBlack"
@@ -407,7 +407,7 @@
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
-	"HorizontalLine"
+	"HorizontalLine"    // automatically recolored somewhere so disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"HorizontalLine"
@@ -416,9 +416,27 @@
 		"ZPos"										"2"
 		"Wide"										"p1.01"
 		"Tall"										"1"
-		"Visible"									"1"
+		"Visible"									"0"
 		"Enabled"									"1"
 		"fillcolor"									"127 127 127 153"
+		"PaintBackgroundType"						"0"
+
+		"Pin_To_Sibling"							"ShadedBar"
+		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+	}
+    "HorizontalLine2"    // visible copy
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"HorizontalLine2"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"2"
+		"Wide"										"p1.01"
+		"Tall"										"1"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"fillcolor"									"87 108 108 200"
 		"PaintBackgroundType"						"0"
 
 		"Pin_To_Sibling"							"ShadedBar"
@@ -433,12 +451,13 @@
 		"YPos"										"0"
 		"ZPos"										"3"
 		"Wide"										"f0"
-		"Tall"										"15"
+		"Tall"										"20"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"FGColor"									"White"
-		"Font"										"m0refont11Shadow"
+		"Font"										"ScoreboardMedium"
 		"LabelText"									"%mapname%"
+        "textinsetx"                                "10"
 		"TextAlignment"								"east"
 
 		"Pin_To_Sibling"							"HorizontalLine"
