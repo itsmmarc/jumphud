@@ -759,9 +759,9 @@
             "Enabled"									"1"
             "PaintBackground"							"1"
             "PaintBackgroundType"						"0"
-            "BGColor_Override"							"BarelyTransparentBlack"
-            "InFocus_BGColor_Override"					"BarelyTransparentBlack"
-            "OutOfFocus_BGColor_Override"				"BarelyTransparentBlack"
+            "BGColor_Override"							"TransparentMediumBlack"
+            "InFocus_BGColor_Override"					"TransparentMediumBlack"
+            "OutOfFocus_BGColor_Override"				"TransparentMediumBlack"
         }
 
         "Disconnect"
