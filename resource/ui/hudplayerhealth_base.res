@@ -136,7 +136,7 @@
 		"Image"										"../hud/health_over_bg"
 		"ScaleImage"								"1"
 	}
-	"PlayerStatusHealthBonusBG"     // overhealed health background // disabled
+	"PlayerStatusHealthBonusBG"     // overhealed health background
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthBonusBG"
@@ -147,6 +147,7 @@
 		"Wide"										"60"//90
 		"Tall"										"70"//90
 		"Visible"									"1"
+        "Visible_minmode"                           "0"
 		"Enabled"									"1"
 		"ScaleImage"								"1"
 		"Image"										"replay/thumbnails/health/health_box"
