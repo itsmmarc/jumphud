@@ -196,7 +196,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"RedCount"
-		"XPos"										"-5-1"
+		"XPos"										"-5-3"
 		"YPos"										"15"
 		"ZPos"										"2"
 		"Wide"										"120"
