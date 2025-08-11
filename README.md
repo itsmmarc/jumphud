@@ -1,10 +1,11 @@
-# JUMPHUD
+<a href="github.com/itsmmarc/jumphud"><img src="screenshots/logo.png"></a>
 
 An edit of m0rehud designed specifically for use on jump servers.
 
 ***
 
-<a href="SHOWCASE.md"><img src="https://i.imgur.com/vVxJdvB.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/archive/refs/tags/v1.0.0.zip"><img src="screenshots/downloadbutton.png"></a>
+<a href="SHOWCASE.md"><img src="screenshots/screenshotsbutton.png"></a>
 
 ***
 
