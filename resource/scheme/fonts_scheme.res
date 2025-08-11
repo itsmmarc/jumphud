@@ -2132,7 +2132,7 @@
                 "1"
                 {
                     "name"										"Steelfish"
-                    "Tall"										"25"
+                    "Tall"										"42"
                     "weight"									"600"
                     "additive"									"0"
                     "antialias"									"1"
