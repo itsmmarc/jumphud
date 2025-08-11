@@ -3185,44 +3185,13 @@
         }
         "12"
         {
-            "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
-            "name"      "Steelfish ExtBd"
-        }
-        "13"
-        {
             "Font"      "resource/scheme/fonts/steelfish_italic.otf"
             "name"      "Steelfish"
         }
-        "14"
-        {
-            "Font"      "resource/scheme/fonts/coolvetica_cond.otf"
-            "name"      "Coolvetica Cond"
-        }
-        "15"
-        {
-            "Font"      "resource/scheme/fonts/objectivity_regular.otf"
-            "name"      "Objectivity"
-        }
-        "16"
-        {
-            "Font"      "resource/scheme/fonts/inconsolata_regular.ttf"
-            "name"      "Inconsolata"
-        }
-        "17"
-        {
-            "font"      "resource/scheme/fonts/coolvetica_regular.otf"
-            "name"      "Coolvetica"
-        }
-        "18"
+        "13"
         {
             "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
             "name"      "NK57 Monospace Sc Rg"
         }
-        "19"
-        {
-            "font"      "resource/scheme/fonts/nk57-monospace.cdrg-regular.otf"
-            "name"      "NK57 Monospace Cd Rg"
-        }
-        
 	}
 }
