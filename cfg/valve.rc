@@ -9,8 +9,3 @@ startupmenu
 sv_unlockedchapters 99
 
 exec jumpbindaliases.cfg
-
-// manage the firstrun file
-alias chud_firstrun "exec hud_firstrun"
-exec hud_has_run.txt
-chud_firstrun
