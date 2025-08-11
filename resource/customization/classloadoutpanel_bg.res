@@ -1,4 +1,4 @@
-// 4:3 loadout custom background
+// needs updating, does not align on all resolutions
 "Resource/customization/classloadoutpanel_bg.res"
 {
 	"LoadoutCustomBackground"
@@ -6,7 +6,7 @@
 		"ControlName"								"ImagePanel"
 		"FieldName"									"LoadoutCustomBackground"
 		"XPos"										"0"
-		"YPos"										"-36" // -38 works for 16:9, -36 works for 4:3
+		"YPos"										"-36"
 		"ZPos"										"-3"
 		"Wide"										"854"
 		"Tall"										"480"
