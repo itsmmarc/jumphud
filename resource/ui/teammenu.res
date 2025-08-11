@@ -29,7 +29,7 @@
 
 	"MapName"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"FieldName"									"MapName"
 		"XPos"										"cs-0.5"
 		"YPos"										"110"
@@ -39,7 +39,7 @@
 		"Visible"									"1"		//1 to enable
 		"Enabled"									"1"
 		"TextAlignment"								"center"
-        "allcaps"   "1"
+        "allcaps"                                   "1"
 		"Font"										"TeamMenuBold"
 		"FGColor"									"White"
 		"ProportionalToParent"						"1"
@@ -221,7 +221,7 @@
 		"YPos"										"60"
 		"ZPos"										"1"
 		"Wide"										"60"
-		"Tall"										"30"
+		"Tall"										"50"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"LabelText"									"JOIN"
@@ -258,8 +258,8 @@
 		"XPos"										"0"
 		"YPos"										"-50"
 		"ZPos"										"1"
-		"Wide"										"65"
-		"Tall"										"30"
+		"Wide"										"100"
+		"Tall"										"50"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"LabelText"									"SPECTATE"
