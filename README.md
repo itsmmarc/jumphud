@@ -1,6 +1,6 @@
 <a href="github.com/itsmmarc/jumphud"><img src="screenshots/logo.png"></a>
 
-An edit of m0rehud designed specifically for use on jump servers.
+A Team Fortress 2 HUD designed specifically for use on jump servers.
 
 ***
 
