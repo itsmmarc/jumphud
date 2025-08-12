@@ -77,7 +77,11 @@ Speedos won't be recoloured or repositioned until one of the speedo buttons on t
 
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
 
+## FAQ
 
+### Can I use this on casual?
+
+Not yet, since this is my first HUD I decided to keep the scope small and focus just on jump for now. The plan is to add casual support with the next major update.
 
 ***
 
