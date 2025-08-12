@@ -1,5 +1,5 @@
 #base "../dev/reload_scheme.res"
-#base "../customization/classloadoutpanel_bg.res"
+#base "../../_aspectratio/classloadout.res"
 
 "Resource/UI/CharInfoArmorySubPanel.res"
 {

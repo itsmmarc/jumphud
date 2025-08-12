@@ -80,7 +80,7 @@
 				"XPos"								"rs1"
 				"YPos"								"cs-0.5"
 				"ZPos"								"1"
-				"Wide"								"26"
+				"Wide"								"0"
 				"Tall"								"f0"
 				"Visible"							"1"
 				"Enabled"							"1"
