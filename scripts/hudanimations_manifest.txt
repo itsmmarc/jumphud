@@ -1,3 +1,5 @@
+//animations are loaded on a first come first serve basis, therefore the shadow animations were always loaded first.
+//so now everything else is removed
 "HudAnimations_Manifest"
 {
 	//===============================================================
@@ -6,38 +8,24 @@
 	"file" "scripts/hudanimations.txt"
 
 	//===============================================================
-	// CUSTOMIZATIONS
-	//===============================================================
-	//"file" "../../cfg/m0rehud/m0re_low_ammo_style.txt"
-	//"file" "../../cfg/m0rehud/m0re_animation_style.txt"
-	//"file" "../../cfg/m0rehud/m0re_uber_counter.txt"
-	//"file" "../../cfg/m0rehud/m0re_crosshair_animation.txt"
-	//"file" "../../cfg/m0rehud/m0re_hitmarker_animation.txt"
-
-	//===============================================================
 	// HEALTH-AMMO-UBER DEFAULT ANIMATIONS
 	//===============================================================
 	"file" "scripts/animations/hudanimations_defaults.txt"
 
 	//===============================================================
-	// HEALTH ANIMATION STYLES
+	// HEALTH ANIMATION
 	//===============================================================
 	"file" "scripts/animations/hudanimations_health_shadow.txt"
-	"file" "scripts/animations/hudanimations_health_number.txt"
 
 	//===============================================================
-	// AMMO ANIMATION STYLES
+	// AMMO ANIMATION
 	//===============================================================
 	"file" "scripts/animations/hudanimations_ammo_shadow.txt"
-	"file" "scripts/animations/hudanimations_ammo_number.txt"
-	"file" "scripts/animations/hudanimations_ammo_flash.txt"
 
 	//===============================================================
-	// UBERCHARGE ANIMATION STYLES
+	// UBERCHARGE ANIMATION
 	//===============================================================
 	"file" "scripts/animations/hudanimations_uber_shadow.txt"
-	"file" "scripts/animations/hudanimations_uber_number.txt"
-	"file" "scripts/animations/hudanimations_uber_counter.txt"
 	
 	//===============================================================
 	// CROSSHAIR & HITMARKER FLASH ANIMATION

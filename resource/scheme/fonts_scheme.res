@@ -9,7 +9,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"9"
                     "antialias"									"1"
                 }
@@ -18,7 +18,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"10"
                     "antialias"									"1"
                 }
@@ -27,7 +27,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"10"
                     "antialias"									"1"
                     "dropshadow"								"1"
@@ -37,7 +37,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"11"
                     "antialias"									"1"
                 }
@@ -46,7 +46,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"11"
                     "antialias"									"1"
                     "dropshadow"								"1"
@@ -56,7 +56,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"12"
                     "antialias"									"1"
                 }
@@ -65,7 +65,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"12"
                     "antialias"									"1"
                     "dropshadow"								"1"
@@ -75,7 +75,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"14"
                     "antialias"									"1"
                 }
@@ -84,7 +84,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"14"
                     "antialias"									"1"
                     "dropshadow"								"1"
@@ -94,7 +94,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"16"
                     "antialias"									"1"
                 }
@@ -103,7 +103,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"16"
                     "antialias"									"1"
                     "dropshadow"								"1"
@@ -113,7 +113,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"18"
                     "antialias"									"1"
                 }
@@ -122,7 +122,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"18"
                     "antialias"									"1"
                     "dropshadow"								"1"
@@ -132,7 +132,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"18"
                     "antialias"									"1"
                     "outline"									"1"
@@ -142,7 +142,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_numbers"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"18"
                     "antialias"									"1"
                     "outline"									"1"
@@ -152,7 +152,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"20"
                     "antialias"									"1"
                 }
@@ -161,7 +161,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"24"
                     "antialias"									"1"
                 }
@@ -170,7 +170,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"24"
                     "antialias"									"1"
                     "dropshadow"								"1"
@@ -180,7 +180,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"24"
                     "antialias"									"1"
                     "outline"									"1"
@@ -190,7 +190,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_numbers"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"24"
                     "antialias"									"1"
                     "outline"									"1"
@@ -200,7 +200,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"26"
                     "antialias"									"1"
                 }
@@ -209,7 +209,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"30"
                     "antialias"									"1"
                 }
@@ -218,7 +218,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"30"
                     "antialias"									"1"
                     "outline"									"1"
@@ -228,7 +228,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_numbers"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"30"
                     "antialias"									"1"
                     "outline"									"1"
@@ -238,7 +238,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"32"
                     "antialias"									"1"
                 }
@@ -247,7 +247,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"32"
                     "antialias"									"1"
                     "dropshadow"								"1"
@@ -257,7 +257,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"36"
                     "antialias"									"1"
                 }
@@ -266,7 +266,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"48"
                     "antialias"									"1"
                 }
@@ -275,7 +275,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"58"
                     "antialias"									"1"
                 }
@@ -1377,7 +1377,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"12"
                     "range"										"0x0000 0x017F"
                     "antialias"									"1"
@@ -1388,7 +1388,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"12"
                     "italic"									"1"
                     "range"										"0x0000 0x017F"
@@ -1400,7 +1400,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"12"
                     "range"										"0x0000 0x017F"
                     "antialias"									"1"
@@ -1411,7 +1411,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"12"
                     "italic"									"1"
                     "range"										"0x0000 0x017F"
@@ -1423,7 +1423,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare"
+                    "name"										"renogare_soft_regular"
                     "Tall"										"12"
                     "range"										"0x0000 0x017F"
                     "antialias"									"1"
@@ -2995,234 +2995,23 @@
                     "antialias"									"1"
                 }
             }
+            //techno additional custom fonts
+            "DamageFont"
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"20"
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"1"
+                }
+            }
 	}
 	"BitmapFontFiles"
 	{
 		"Buttons"											"materials/vgui/fonts/buttons_32.vbf"
 		"ButtonsSC"											"materials/vgui/fonts/buttons_sc.vbf"
-	}
-	"CustomFontFiles"
-	{
-		"1"				"resource/tf.ttf"
-		"2"				"resource/tfd.ttf"
-		"3"
-		{
-			"Font"		"resource/scheme/fonts/renogare.ttf"
-			"name"		"renogare"
-		}
-		"4"
-		{
-			"Font"		"resource/scheme/fonts/renogare_numbers.ttf"
-			"name"		"renogare_numbers"
-		}
-		"5"
-		{
-			"Font"		"resource/scheme/fonts/coolvetica_regular_bold.ttf"
-			"name"		"coolvetica_rg_bold"
-		}
-        "6"
-		{
-			"Font"		"resource/scheme/fonts/poppins_black.ttf"
-			"name"		"Poppins Black"
-		}
-        "7" // title font
-		{
-			"Font"		"resource/scheme/fonts/poppins_black_italic.ttf"
-			"name"		"Poppins Black Italic"
-		}
-		"8"
-		{
-			"Font"		"resource/scheme/fonts/m0rehud_icons.ttf"
-			"name"		"m0rehud_icons_v13"
-		}
-		"9"
-		{
-			"Font"		"resource/scheme/fonts/square_edit.ttf"
-			"name"		"square_edit"
-		}
-		"10"
-		{
-			"Font"		"resource/scheme/fonts/surface_uber_icons.ttf"
-			"name"		"surface_uber_icons"
-
-			"arabic"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"brazilian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"czech"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"danish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"dutch"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"english"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"french"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"german"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"greek"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"hebrew"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"italian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"japanese"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"korean"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"koreana"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"latvian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"lithuanian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"pirate"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"portuguese"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"schinese"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"slovak"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"tchinese"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"thai"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"ukrainian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-        "11"    // main hud font
-        {
-            "Font"      "resource/scheme/fonts/Coolvetica-Italic.otf"
-            "name"      "Coolvetica Italic"
-        }
-        "12"
-        {
-            "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
-            "name"      "Steelfish ExtBd"
-        }
-        "13"
-        {
-            "Font"      "resource/scheme/fonts/steelfish_italic.otf"
-            "name"      "Steelfish"
-        }
-        "14"
-        {
-            "Font"      "resource/scheme/fonts/coolvetica_cond.otf"
-            "name"      "Coolvetica Cond"
-        }
-        "15"
-        {
-            "Font"      "resource/scheme/fonts/objectivity_regular.otf"
-            "name"      "Objectivity"
-        }
-        "16"
-        {
-            "Font"      "resource/scheme/fonts/inconsolata_regular.ttf"
-            "name"      "Inconsolata"
-        }
-        "17"
-        {
-            "font"      "resource/scheme/fonts/coolvetica_regular.otf"
-            "name"      "Coolvetica"
-        }
-        "18"
-        {
-            "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
-            "name"      "NK57 Monospace Sc Rg"
-        }
-        "19"
-        {
-            "font"      "resource/scheme/fonts/nk57-monospace.cdrg-regular.otf"
-            "name"      "NK57 Monospace Cd Rg"
-        }
-        
 	}
 }
