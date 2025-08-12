@@ -11,7 +11,7 @@ A Team Fortress 2 HUD designed specifically for use on jump servers.
 
 ## Features
 
-Stripped down HUD designed to give you the ability to display exactly as much information as you want, at it's most bare only your clip ammo count is shown.
+Stripped down HUD designed to give you the ability to display exactly as much information as you want, at its most bare only your clip ammo count is shown.
 
 ### Useful keybinds have been added to the options menu, including:
 
