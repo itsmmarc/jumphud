@@ -64,6 +64,8 @@ Change the speedo colour by editing `speedocolor.cfg` in `jumphud/cfg`.
 
 Use `cl_hud_minmode 1` to hide health value and center ammo count.
 
+Toggle Tempus HUD, Speedos, and Chat using the buttons on the pause menu.
+
 ![Soldier Preview](/screenshots/soldier_apng.png)
 
 ![Demo Preview](/screenshots/demo_apng.png)
