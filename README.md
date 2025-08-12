@@ -77,6 +77,8 @@ Speedos won't be recoloured or repositioned until one of the speedo buttons on t
 
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
 
+*If you run into any other problems, please create a new issue on the github repository or message me on Discord @itsmmarc.*
+
 ## FAQ
 
 ### Can I use this on casual?
