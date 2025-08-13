@@ -37,11 +37,11 @@
 		"Enabled"									"1"
 		"ProportionalToParent"						"1"
 
-		"Image"										"replay/thumbnails/blank"
+		"Image"										"replay/thumbnails/blank"	//def: ../hud/color_panel_brown
 		"ScaleImage"								"1"
-		"teambg_1"									"replay/thumbnails/blank"
-		"teambg_2"									"replay/thumbnails/blank"
-		"teambg_3"									"replay/thumbnails/blank"
+		"teambg_1"									"replay/thumbnails/blank"	//def: "../hud/color_panel_brown"
+		"teambg_2"									"replay/thumbnails/blank"	//def: "../hud/color_panel_red"
+		"teambg_3"									"replay/thumbnails/blank"	//def: "../hud/color_panel_blu"
 
 		"src_corner_height"							"15"
 		"src_corner_width"							"15"
@@ -96,8 +96,8 @@
 		"FieldName"									"SpectatorGUIHealth"
 		"XPos"										"3"
 		"YPos"										"0"
-		"Wide"										"0"
-		"Tall"										"0"
+		"Wide"										"0" // default: 45 (there's no health yet.)
+		"Tall"										"0"	// default: 44
 		"Visible"									"1"
 		"Enabled"									"1"
 		"HealthBonusPosAdj"							"10"

@@ -99,7 +99,7 @@
 		"XPos"										"-1"
 		"YPos"										"-1"
 		"ZPos"										"7"
-		"Wide"										"0" //refer to above
+		"Wide"										"0" //refer to above, do it here too
 		"Tall"										"0"
 		"Visible"									"1"
 		"Enabled"									"1"
