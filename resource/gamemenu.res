@@ -5,7 +5,7 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"jumphud 1.0-CL"
+		"label"										"jumphud 2.0"
 		"Command"									"engine showconsole; exec jumphudversioninfo"
 		"OnlyAtMenu"								"1"
 	}
@@ -127,6 +127,12 @@
 		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
 	}
+    "CasualToggle"
+    {
+        "label"                                     "0"
+        "Command"									"engine casualtoggle; toggle mat_aaquality;"
+		"tooltip"									"Toggle Casual HUD"
+    }
     // Tempus Buttons
     "Restart"
 	{

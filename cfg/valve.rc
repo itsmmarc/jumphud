@@ -10,7 +10,8 @@ sv_unlockedchapters 99
 
 exec jumpbindaliases.cfg
 
+exec logbase_setup.cfg
 // manage the firstrun file
-alias chud_firstrun "exec hud_firstrun"
-exec hud_has_run.txt
-chud_firstrun
+//alias chud_firstrun "exec hud_firstrun"
+//exec hud_has_run.txt
+//chud_firstrun
