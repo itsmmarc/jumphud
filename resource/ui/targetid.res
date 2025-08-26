@@ -17,7 +17,7 @@
 		"font"										"TargetID"
 		"disabledfgcolor2_override"					"White"
 	}
-	"TargetDataLabel"
+	"TargetDataLabel" // disabled
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetDataLabel"
@@ -34,7 +34,7 @@
 		"font"										"TargetID"
 		"disabledfgcolor2_override"					"White"
 	}
-	"SpectatorGUIHealth"    // invisible
+	"SpectatorGUIHealth"    // used for all targetid health
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SpectatorGUIHealth"
@@ -42,12 +42,12 @@
 		"ypos"										"20"
 		"wide"										"640"
 		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
-		"TFFont"									"HudFontSmall"
+		"TFFont"									"StickiesOutFont"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 
@@ -64,7 +64,7 @@
             "enabled"									"1"
             "textAlignment"								"center"
             "labeltext"									"%Health%"
-            "font"										"m0refont14"
+            "font"										"StickiesOutFont"
             "fgcolor"									"White"
         }
         "PlayerStatusHealthValueShadow"
@@ -80,8 +80,8 @@
             "enabled"									"1"
             "textAlignment"								"center"
             "labeltext"									"%Health%"
-            "font"										"m0refont14"
-            "fgcolor"									"Black"
+            "font"										"StickiesOutFont"
+            "fgcolor"									"Main_Shadow_Transparent"
 
             "pin_to_sibling"							"PlayerStatusHealthValueID"
         }
