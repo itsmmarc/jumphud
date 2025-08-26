@@ -1,4 +1,4 @@
-"Resource/UI/HudAmmoWeapons_Base_jump.res"
+"Resource/UI/HudAmmoWeapons_Base_casual.res"
 {   // reserve ammo enabled
     "AmmoInReserve"
 	{

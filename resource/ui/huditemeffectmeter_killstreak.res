@@ -1,4 +1,7 @@
-"Resource/UI/HudItemEffectMeter_Killstreak_Base.res"
+#base "../../cfg/hud_Killstreak_Counter.txt"
+#base "HudItemEffectMeter_Killstreak_jump.res"
+
+"Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	"HudItemEffectMeter"
 	{
@@ -7,8 +10,8 @@
 		"Enabled"									"1"
 		"XPos"										"0"
 		"YPos"										"rs1"
-		"Wide"										"0"
-		"Tall"										"18"
+		"Wide"										"50"
+		//"Tall"										"18"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
@@ -44,7 +47,7 @@
 		"LabelText"									"r"
 		"TextAlignment"								"center"
 		"Font"										"Symbols16"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"ItemEffectMeterIcon"
 	}
@@ -62,7 +65,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"%progresscount%"
 		"TextAlignment"								"west"
-		"Font"										"m0refont18"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 	}
 	"ItemEffectMeterCountShadow"
@@ -79,8 +82,8 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"%progresscount%"
 		"TextAlignment"								"west"
-		"Font"										"m0refont18"
-		"FGColor"									"Black"
+		"Font"										"JumpHUD_Secondary_Font"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"ItemEffectMeterCount"
 	}

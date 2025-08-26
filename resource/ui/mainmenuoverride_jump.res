@@ -1,4 +1,4 @@
-"Resource/UI/mainmenuoverride_casual.res"
+"Resource/UI/mainmenuoverride_jump.res"
     {
         "TempusHud"
         {
