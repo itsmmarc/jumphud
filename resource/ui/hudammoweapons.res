@@ -31,7 +31,6 @@
 		"YPos"										"0"
 		"ZPos"										"5"
 		"Wide"										"150"
-
 		"Tall"										"80"
 
 		"Visible"									"0"
@@ -118,21 +117,26 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoNoClip"
-		"XPos"										"5"
+		"XPos"										"-10"
+	    "Xpos_minmode"                              "-75"
 		"YPos"										"0"
 		"ZPos"										"5"
 		"Wide"										"150"
 		"Tall"										"80"
+
 		"Visible"									"0"
 		"Enabled"									"1"
 		"Font"										"MainHudFont"
-		"TextAlignment"								"center"
+
+        "textinsetx"                                "10"
+		"TextAlignment"								"east"
+        "TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Ammo_In_Clip"
 
 		"Pin_To_Sibling"							"AmmoAnchor"
-		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
+		"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 	}
 	"AmmoNoClipShadow"
 	{
@@ -146,7 +150,9 @@
 		"Visible"									"0"
 		"Enabled"									"1"
 		"Font"										"MainHudFont"
-		"TextAlignment"								"center"
+        "textinsetx"                                "10"
+		"TextAlignment"								"east"
+        "TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Main_Shadow"
 
