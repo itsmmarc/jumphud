@@ -67,7 +67,7 @@
 		"TextAlignment"								"east"
         "TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
-		"FGColor"									"Main_Shadow"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"AmmoInClip"
 	}
@@ -109,7 +109,7 @@
 		"Font"										"StickiesOutFont"
 		"TextAlignment"								"west"
 		"LabelText"									"%AmmoInReserve%"
-		"FGColor"									"Main_Shadow"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"AmmoInReserve"
 	}
@@ -158,7 +158,7 @@
 		"TextAlignment"								"east"
         "TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
-		"FGColor"									"Main_Shadow"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"AmmoNoClip"
 	}

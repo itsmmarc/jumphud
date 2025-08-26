@@ -47,6 +47,7 @@
 		// SHADOWS
 		//----------------------------------------------------------------------------------
 		"Main_Shadow"										"0 0 0 255"
+        "Main_Shadow_Transparent"							"0 0 0 200"
 		"Extra_Health_Shadow"								"0 0 0 255"
 		"Extra_Uber_Shadow"									"0 0 0 255"
 

@@ -40,7 +40,7 @@
 		"LabelText"									"%metal%"
 		"TextAlignment"								"center"
 		"Font"										"StickiesOutFont"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"AccountValue"
 	}
