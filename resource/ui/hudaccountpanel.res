@@ -23,7 +23,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%metal%"
 		"TextAlignment"								"center"
-		"Font"										"m0refont24"
+		"Font"										"StickiesOutFont"
 		"FGColor"									"White"
 	}
 	"AccountValueShadow"
@@ -39,7 +39,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%metal%"
 		"TextAlignment"								"center"
-		"Font"										"m0refont24"
+		"Font"										"StickiesOutFont"
 		"FGColor"									"Black"
 
 		"Pin_To_Sibling"							"AccountValue"
