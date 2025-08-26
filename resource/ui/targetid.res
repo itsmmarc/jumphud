@@ -47,7 +47,7 @@
 		"proportionaltoparent"						"1"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
-		"TFFont"									"StickiesOutFont"
+		"TFFont"									"JumpHUD_Secondary_Font"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 
@@ -64,7 +64,7 @@
             "enabled"									"1"
             "textAlignment"								"center"
             "labeltext"									"%Health%"
-            "font"										"StickiesOutFont"
+            "font"										"JumpHUD_Secondary_Font"
             "fgcolor"									"White"
         }
         "PlayerStatusHealthValueShadow"
@@ -80,7 +80,7 @@
             "enabled"									"1"
             "textAlignment"								"center"
             "labeltext"									"%Health%"
-            "font"										"StickiesOutFont"
+            "font"										"JumpHUD_Secondary_Font"
             "fgcolor"									"Main_Shadow_Transparent"
 
             "pin_to_sibling"							"PlayerStatusHealthValueID"

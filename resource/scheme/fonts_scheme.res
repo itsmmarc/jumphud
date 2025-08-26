@@ -2973,7 +2973,7 @@
                     "antialias"									"1"
                 }
             }
-            "MainHudFont"
+            "JumpHUD_Main_Font"
             {
                 "1"
                 {
@@ -2984,7 +2984,7 @@
                     "antialias"									"1"
                 }
             }
-            "StickiesOutFont"
+            "JumpHUD_Secondary_Font"
             {
                 "1"
                 {

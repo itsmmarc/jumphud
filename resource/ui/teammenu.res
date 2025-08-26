@@ -141,7 +141,7 @@
 		"MouseInputEnabled"							"0"
 		"LabelText"									"%bluecount%"
 		"TextAlignment"								"east"
-		"Font"										"StickiesOutFont"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 
 		"Pin_To_Sibling"							"BlueButton"
@@ -207,7 +207,7 @@
 		"MouseInputEnabled"							"0"
 		"LabelText"									"%redcount%"
 		"TextAlignment"								"west"
-		"Font"										"StickiesOutFont"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 
 		"Pin_To_Sibling"							"RedButton"

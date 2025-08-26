@@ -208,11 +208,6 @@ Scheme
             "font"      "resource/scheme/fonts/nk57-monospace.cdrg-regular.otf"
             "name"      "NK57 Monospace Cd Rg"
         }
-        "17"
-        {
-            "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
-            "name"      "Coolvetica Italic"
-        }
         //icon fonts
         "101"
 		{

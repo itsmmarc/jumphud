@@ -222,7 +222,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"MainHudFont"
+		"Font"										"JumpHUD_Main_Font"
 		"FGColor"									"Health_Numbers"
 
 		"Pin_To_Sibling"							"HealthAnchor"
@@ -242,7 +242,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"MainHudFont"
+		"Font"										"JumpHUD_Main_Font"
 		"FGColor"									"Main_Shadow"
         "Alpha"                                     "200"
 
@@ -261,7 +261,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"MainHudFont"
+		"Font"										"JumpHUD_Main_Font"
 		"FGColor"									"Extra_Health_Shadow"
 		"Alpha"										"0"
 

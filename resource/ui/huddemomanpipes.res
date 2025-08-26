@@ -60,7 +60,7 @@
 			"ProportionalToParent"					"1"
 			"LabelText"								"%activepipes%"
 			"TextAlignment"							"center"
-			"Font"									"StickiesOutFont"
+			"Font"									"JumpHUD_Secondary_Font"
 			"FGColor"								"White"
 		}
 		"NumPipesLabelDropshadow"
@@ -77,7 +77,7 @@
 			"ProportionalToParent"					"1"
 			"LabelText"								"%activepipes%"
 			"TextAlignment"							"center"
-			"Font"									"StickiesOutFont"
+			"Font"									"JumpHUD_Secondary_Font"
 			"FGColor"								"Black"
 
 			"Pin_To_Sibling"						"NumPipesLabel"

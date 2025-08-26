@@ -43,7 +43,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"%progresscount%"
 		"TextAlignment"								"center"
-		"Font"										"m0refont24"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 	}
 	"ItemEffectMeterCountShadow"
@@ -60,8 +60,8 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"%progresscount%"
 		"TextAlignment"								"center"
-		"Font"										"m0refont24"
-		"FGColor"									"Black"
+		"Font"										"JumpHUD_Secondary_Font"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"ItemEffectMeterCount"
 	}
@@ -97,7 +97,7 @@
 		"LabelText"									"j"
 		"TextAlignment"								"center"
 		"Font"										"Symbols14"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"ItemEffectMeterIcon"
 	}
