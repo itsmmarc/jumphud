@@ -1,3 +1,7 @@
+#base "../../cfg/hud_hudammoweapons.txt"
+#base "hudammoweapons_jump.res"
+
+
 "Resource/UI/HudAmmoWeapons_Base.res"
 {
 	//==================================================================================================================================================
@@ -78,8 +82,8 @@
 		"XPos"										"8"
 		"YPos"										"0"
 		"ZPos"										"7"
-		"Wide"										"0" //set to 150 to enable
-		"Tall"										"0" //set to 80 to enable
+		//"Wide"										"150" //set to 150 to enable
+		//"Tall"										"80" //set to 80 to enable
 		"Visible"									"1"
 		"Enabled"									"1"
 		"Font"										"StickiesOutFont"
@@ -98,8 +102,8 @@
 		"XPos"										"-1"
 		"YPos"										"-1"
 		"ZPos"										"7"
-		"Wide"										"0" //refer to above, do it here too
-		"Tall"										"0"
+		//"Wide"										"150" //refer to above, do it here too
+		//"Tall"										"80"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"Font"										"StickiesOutFont"

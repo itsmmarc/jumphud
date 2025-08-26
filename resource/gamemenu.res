@@ -130,7 +130,7 @@
     "CasualToggle"
     {
         "label"                                     "0"
-        "Command"									"engine casualtoggle; toggle mat_aaquality;"
+        "Command"									"engine casualtoggle; hud_reloadscheme; toggle mat_aaquality;"
 		"tooltip"									"Toggle Casual HUD"
     }
     // Tempus Buttons
