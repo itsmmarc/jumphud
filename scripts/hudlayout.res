@@ -158,6 +158,7 @@
 		"fieldName"									"CHudAccountPanel"
 		"xpos"										"cs-0.5"
 		"ypos"										"c105"
+        "ypos_minmode"                              "c120"
 		"wide"										"200"
 		"tall"										"50"
 		"visible"									"1"
