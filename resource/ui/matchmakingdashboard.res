@@ -3,8 +3,8 @@
 	"MMDashboard"
 	{
 		"FieldName"									"MMDashboard"
-		"Visible"									"0"
-		"Enabled"									"0"
+		"Visible"									"0" //change this to "1" to play casual
+		"Enabled"									"0" //change this to "1" to play casual
 		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"10001"
@@ -40,7 +40,7 @@
 			"Visible"								"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGColor_Override"						"Background_Dark"
+			"BGColor_Override"						"blank"
 			"ProportionalToParent"					"1"
 		}
 		"ToggleChatButton"

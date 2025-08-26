@@ -1,8 +1,21 @@
 #base "../../dev/reload_scheme.res"
-#base "../../customization/classloadoutpanel_bg.res"
-
+#base "../../../_aspectratio/classloadout.res"
 "Resource/UI/Econ/BackPackPanel.res"
 {
+	//this is missing the ypos because its set by the classloadout.res aspect ratio override.
+	"LoadoutCustomBackground"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"LoadoutCustomBackground"
+		"XPos"										"0"
+		"ZPos"										"-3"
+		"Wide"										"854"
+		"Tall"										"480"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"replay/thumbnails/menu/items_bg"
+		"ScaleImage"								"1"
+	}
     "TransparentBackground"   // transparent background for loadout page
 	{
 		"ControlName"								"EditablePanel"

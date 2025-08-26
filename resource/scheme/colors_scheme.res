@@ -3,9 +3,9 @@
 	"Colors"
 	{   
         // Itsame Custom Colors
-        "Highlight_Color_Bright"        "98 219 220 255"
-        "Highlight_Color_Mid"           "81 181 182 255"
-        "Highlight_Color_Dark"          "58 130 131 255"
+        "Highlight_Color_Bright"        					"98 219 220 255"
+        "Highlight_Color_Mid"           					"81 181 182 255"
+        "Highlight_Color_Dark"          					"58 130 131 255"
 		//==================================================================================
 		// COLOR CUSTOMIZATION
 		//==================================================================================
