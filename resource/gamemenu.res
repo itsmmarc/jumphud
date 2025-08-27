@@ -135,13 +135,6 @@
 		"OnlyInGame"								"1"
 	}
     // Tempus Buttons
-    "Restart"
-	{
-		"label"										"="
-		"Command"									"engine sm_restart"
-		"tooltip"									"Restart Run"
-		"OnlyInGame"								"1"
-	}
     "FullBright"
 	{
 		"label"										"?"
