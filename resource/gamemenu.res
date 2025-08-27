@@ -14,13 +14,13 @@
 		"label"										""
 		"Command"									"engine casualtoggleon; hud_reloadscheme; toggle mat_aaquality;"
 		//"OnlyAtMenu"								"1"
-        "tooltip"									"Enable Casual Mode"
+        //"tooltip"									"Enable Casual Mode"
 	}
     "CasualToggle_Casual"
     {
         "label"                                     "0"
         "Command"									"engine casualtoggleoff; hud_reloadscheme; toggle mat_aaquality;"
-		"tooltip"									"Enable Jump Mode"
+		//"tooltip"									"Enable Jump Mode"
     }
 	"Servers"
 	{
