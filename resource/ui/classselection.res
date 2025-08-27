@@ -1,3 +1,6 @@
+#base "../../cfg/hud_classselection.txt"
+#base "classselection_jump.res"
+
 "Resource/UI/ClassSelection.res"
 {
 	"Class"
@@ -89,119 +92,117 @@
 		"Pin_To_Sibling"							"ClassesAnchor"
 	}
 
-	//==================================================================================================================================================
-	// SOLDIER
-	//==================================================================================================================================================
+    // JUMP CLASS SELECTION
+        //==================================================================================================================================================
+        // SOLDIER
+        //==================================================================================================================================================
+        "Soldier_jump"
+        {
+            "ControlName"								"CExImageButton"
+            "FieldName"									"Soldier_jump"
+            "XPos"										"-27"
+            "YPos"										"0"
+            "ZPos"										"10"
+            "Wide"										"120"
+            "Tall"										"120"
+            //"Visible"									"1"
+            //"Enabled"									"1"
+            "LabelText"									"N" // rocket icon
+            "TextAlignment"								"center"
+            "Command"									"joinclass soldier"
+            "Font"										"ClassSymbols120"
+            "stayselectedonclick"						"1"
+            "selectonhover"								"1"
+            "KeyboardInputEnabled"						"0"
 
-    "Soldier"
-	{
-		"ControlName"								"CExImageButton"
-		"FieldName"									"Soldier"
-		"XPos"										"-27"
-		"YPos"										"0"
-		"ZPos"										"10"
-		"Wide"										"120"
-		"Tall"										"120"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"LabelText"									"N" // rocket icon
-		"TextAlignment"								"center"
-		"Command"									"joinclass soldier"
-		"Font"										"ClassSymbols120"
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"KeyboardInputEnabled"						"0"
+            "PaintBackground"							"0"
+            "FGColor"									"White"
+            "DefaultFGColor_Override"					"White"
+            "ArmedFGColor_Override"						"98 219 220 255"
+            "DepressedFGColor_Override"					"98 219 220 255"
+            "selectedFGColor_override"					"98 219 220 255"
 
-		"PaintBackground"							"0"
-		"FGColor"									"White"
-		"DefaultFGColor_Override"					"White"
-		"ArmedFGColor_Override"						"98 219 220 255"
-		"DepressedFGColor_Override"					"98 219 220 255"
-		"selectedFGColor_override"					"98 219 220 255"
+            "Pin_To_Sibling"							"ClassesAnchor"
+            "pin_corner_to_sibling" "PIN_TOPRIGHT"
+            "pin_to_sibling_corner" "PIN_CENTER_TOP"
+        }
+        "NumSoldier_jump"
+        {
+            "ControlName"								"CExLabel"
+            "FieldName"									"NumSoldier_jump"
+            "XPos"										"1"
+            "YPos"										"-18"
+            "Wide"										"50"
+            "Tall"										"36"
+            "ZPos"										"6"
+            //"Visible"									"1"
+            //"Enabled"									"1"
+            "TextAlignment"								"center"
+            "LabelText"									"%numSoldier%"
+            "Font"										"JumpHUD_Secondary_Font"
+            "FGColor"									"TransparentLightestWhite"
 
-		"Pin_To_Sibling"							"ClassesAnchor"
-        "pin_corner_to_sibling" "PIN_TOPRIGHT"
-        "pin_to_sibling_corner" "PIN_CENTER_TOP"
-	}
-    "NumSoldier"
-    {
-        "ControlName"								"CExLabel"
-        "FieldName"									"NumSoldier"
-        "XPos"										"1"
-        "YPos"										"-18"
-        "Wide"										"50"
-        "Tall"										"36"
-        "ZPos"										"6"
-        "Visible"									"1"
-        "Enabled"									"1"
-        "TextAlignment"								"center"
-        "LabelText"									"%numSoldier%"
-        "Font"										"JumpHUD_Secondary_Font"
-        "FGColor"									"TransparentLightestWhite"
+            "Pin_To_Sibling"							"Soldier_jump"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
+        }
 
-        "Pin_To_Sibling"							"Soldier"
-        "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-        "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
-    }
+        //==================================================================================================================================================
+        // DEMOMAN
+        //==================================================================================================================================================
+        "Demoman_jump"
+        {
+            "ControlName"								"CExImageButton"
+            "FieldName"									"Demoman_jump"
+            "XPos"										"25"
+            "YPos"										"0"
+            "ZPos"										"10"
+            "Wide"										"120"
+            "Tall"										"120"
+            //"Visible"									"1"
+            //"Enabled"									"1"
+            "LabelText"									"R" // sticky icon
+            "TextAlignment"								"center"
+            "Command"									"joinclass demoman"
+            "Font"										"ClassSymbols120"
+            "stayselectedonclick"						"1"
+            "selectonhover"								"1"
+            "KeyboardInputEnabled"						"0"
 
-	//==================================================================================================================================================
-	// DEMOMAN
-	//==================================================================================================================================================
+            "PaintBackground"							"0"
+            "FGColor"									"White"
+            "DefaultFGColor_Override"					"White"
+            "ArmedFGColor_Override"						"98 219 220 255"
+            "DepressedFGColor_Override"					"98 219 220 255"
+            "selectedFGColor_override"					"98 219 220 255"
+
+            "Pin_To_Sibling"							"ClassesAnchor"
+            "pin_corner_to_sibling" "PIN_TOPLEFT"
+            "pin_to_sibling_corner" "PIN_CENTER_TOP"
+        }
+        "NumDemo_jump"
+        {
+            "ControlName"								"CExLabel"
+            "FieldName"									"NumDemo_jump"
+            "XPos"										"-5"
+            "YPos"										"-18"
+            "Wide"										"50"
+            "Tall"										"36"
+            "ZPos"										"6"
+            //"Visible"									"1"
+            //"Enabled"									"1"
+            "TextAlignment"								"center"
+            "LabelText"									"%numDemoman%"
+            "Font"										"JumpHUD_Secondary_Font"
+            "FGColor"									"TransparentLightWhite"
+
+            "Pin_To_Sibling"							"Demoman_jump"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
+        }
+
     
-    "Demoman"
-	{
-		"ControlName"								"CExImageButton"
-		"FieldName"									"Demoman"
-		"XPos"										"25"
-		"YPos"										"0"
-		"ZPos"										"10"
-		"Wide"										"120"
-		"Tall"										"120"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"LabelText"									"R" // sticky icon
-		"TextAlignment"								"center"
-		"Command"									"joinclass demoman"
-		"Font"										"ClassSymbols120"
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"KeyboardInputEnabled"						"0"
-
-		"PaintBackground"							"0"
-		"FGColor"									"White"
-		"DefaultFGColor_Override"					"White"
-		"ArmedFGColor_Override"						"98 219 220 255"
-		"DepressedFGColor_Override"					"98 219 220 255"
-		"selectedFGColor_override"					"98 219 220 255"
-
-		"Pin_To_Sibling"							"ClassesAnchor"
-        "pin_corner_to_sibling" "PIN_TOPLEFT"
-        "pin_to_sibling_corner" "PIN_CENTER_TOP"
-	}
-    "NumDemo"
-    {
-        "ControlName"								"CExLabel"
-        "FieldName"									"NumDemo"
-        "XPos"										"-5"
-        "YPos"										"-18"
-        "Wide"										"50"
-        "Tall"										"36"
-        "ZPos"										"6"
-        "Visible"									"1"
-        "Enabled"									"1"
-        "TextAlignment"								"center"
-        "LabelText"									"%numDemoman%"
-        "Font"										"JumpHUD_Secondary_Font"
-        "FGColor"									"TransparentLightestWhite"
-
-        "Pin_To_Sibling"							"Demoman"
-        "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-        "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
-    }
-
-    //==================================================================================================================================================
-    // Disabled Classes
-    //==================================================================================================================================================
+    // CASUAL CLASS SELECTION
         //==================================================================================================================================================
         // SCOUT
         //==================================================================================================================================================
