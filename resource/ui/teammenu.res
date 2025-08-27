@@ -1,3 +1,7 @@
+#base "../../cfg/hud_teammenu.txt"
+#base "teammenu_jump.res"
+
+
 "Resource/UI/TeamMenu.res"
 {
 	"Team"
