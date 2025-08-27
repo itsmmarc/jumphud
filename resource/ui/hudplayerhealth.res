@@ -243,8 +243,8 @@
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
 		"Font"										"JumpHUD_Main_Font"
-		"FGColor"									"Main_Shadow"
-        "Alpha"                                     "200"
+		"FGColor"									"Main_Shadow_Transparent"
+        //"Alpha"                                     "200"
 
 		"Pin_To_Sibling"							"HealthValue"
 	}

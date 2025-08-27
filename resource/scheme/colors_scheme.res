@@ -13,17 +13,17 @@
 		//----------------------------------------------------------------------------------
 		"Health_Numbers"									"255 255 255 255"
 
-		"Health_Buff"										"0 185 0 255"
-		"Health_Shadow_Buff"								"0 185 0 255"
-		"Health_Buff_Target"								"0 215 0 255"
-		"Health_Buff_Spectator"								"0 215 0 255"
-		"Health_Buff_Killer"								"0 215 0 255"
+		"Health_Buff"										"0 185 0 200"
+		"Health_Shadow_Buff"								"0 185 0 200"
+		"Health_Buff_Target"								"0 215 0 200"
+		"Health_Buff_Spectator"								"0 215 0 200"
+		"Health_Buff_Killer"								"0 215 0 200"
 
-		"Health_Hurt"										"255 0 0 255"
-		"Health_Shadow_Hurt"								"255 0 0 255"
+		"Health_Hurt"										"255 0 0 200"
+		"Health_Shadow_Hurt"								"255 0 0 200"
 		"Health_Hurt_Target"								"255 255 255 255"
-		"Health_Hurt_Spectator"								"255 0 0 255"
-		"Health_Hurt_Killer"								"255 0 0 255"
+		"Health_Hurt_Spectator"								"255 0 0 200"
+		"Health_Hurt_Killer"								"255 0 0 200"
 
 		//----------------------------------------------------------------------------------
 		// AMMO
@@ -31,25 +31,25 @@
 		"Ammo_In_Clip"										"255 255 255 255"
 		"Ammo_In_Reserve"									"255 255 255 255"
 
-		"Ammo_In_Clip_Low"									"255 0 0 255"
-		"Ammo_In_Clip_Shadow_Low"							"255 0 0 255"
-		"Ammo_In_Reserve_Low"								"255 0 0 255"
-		"Ammo_In_Reserve_Shadow_Low"						"255 0 0 255"
+		"Ammo_In_Clip_Low"									"255 0 0 200"
+		"Ammo_In_Clip_Shadow_Low"							"255 0 0 200"
+		"Ammo_In_Reserve_Low"								"255 0 0 200"
+		"Ammo_In_Reserve_Shadow_Low"						"255 0 0 200"
 
 		//----------------------------------------------------------------------------------
 		// UBER
 		//----------------------------------------------------------------------------------
 		"Ubercharge"										"255 255 255 255"
-		"Ubercharge_Full"									"255 0 127 255"
-		"Ubercharge_Shadow_Full"							"255 0 127 255"
+		"Ubercharge_Full"									"255 0 127 200"
+		"Ubercharge_Shadow_Full"							"255 0 127 200"
 
 		//----------------------------------------------------------------------------------
 		// SHADOWS
 		//----------------------------------------------------------------------------------
 		"Main_Shadow"										"0 0 0 255"
         "Main_Shadow_Transparent"							"0 0 0 200"
-		"Extra_Health_Shadow"								"0 0 0 255"
-		"Extra_Uber_Shadow"									"0 0 0 255"
+		"Extra_Health_Shadow"								"0 0 0 200"
+		"Extra_Uber_Shadow"									"0 0 0 200"
 
 		//----------------------------------------------------------------------------------
 		// +HEALTH AND DAMAGE

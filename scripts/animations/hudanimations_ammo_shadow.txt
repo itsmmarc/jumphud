@@ -29,14 +29,14 @@ event HudLowAmmoPulseStopShadow
 
 	// AMMO IN CLIP ---------------------------------------------------------------------------------------------------------
 	Animate AmmoInClip								FGColor		"Ammo_In_Clip"						Linear	0.0		0.0
-	Animate AmmoInClipShadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate AmmoInClipShadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
 
 	// AMMO IN RESERVE ------------------------------------------------------------------------------------------------------
 	Animate AmmoInReserve							FGColor		"Ammo_In_Reserve"					Linear	0.0		0.0
-	Animate AmmoInReserveShadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate AmmoInReserveShadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
 
 	// AMMO NO CLIP ---------------------------------------------------------------------------------------------------------
 	Animate AmmoNoClip								FGColor		"Ammo_In_Clip"						Linear	0.0		0.0
-	Animate AmmoNoClipShadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate AmmoNoClipShadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
 }
 //===========================================================================================================================

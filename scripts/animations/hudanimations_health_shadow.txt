@@ -42,7 +42,7 @@ event HudHealthBonusPulseStopShadow
 	Animate	PlayerStatusHealthBonusBG				Alpha		"0"									Linear	0.0		0.0
 	Animate	PlayerStatusHealthBonusCross			Alpha		"0"									Linear	0.0		0.0
 	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate HealthValue_Shadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
 	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
@@ -52,7 +52,7 @@ event HudHealthBonusPulseStopShadow
 	Animate HealthValue_Spec						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
 	Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
 
 	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
@@ -102,7 +102,7 @@ event HudHealthDyingPulseStopShadow
 	Animate	PlayerStatusHealthDyingBG				Alpha		"0"									Linear	0.0		0.0
 	Animate	PlayerStatusHealthDyingCross			Alpha		"0"									Linear	0.0		0.0
 	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FGColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate HealthValue_Shadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
 	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
@@ -112,7 +112,7 @@ event HudHealthDyingPulseStopShadow
 	Animate HealthValue_Spec						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow"						Linear	0.0		0.0
+	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
 	Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
 
 	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
