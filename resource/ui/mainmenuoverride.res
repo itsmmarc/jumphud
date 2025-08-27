@@ -263,21 +263,21 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "Logo"
+        "CasualToggle_Jump"
         {
             "ControlName"   "CExImageButton"
-            "fieldName"     "Logo"
+            "fieldName"     "CasualToggle_Jump"
             "xpos"          "0"
             "ypos"          "5"
             "zpos"          "10"
-            "wide"          "25"
-            "tall"          "25"
+            //"wide"          "25"
+            //"tall"          "25"
             "paintBackground"   "0"
             "LabelText"		    ""
             "Image_DrawColor"   "255 255 255 255"
             "Image_ArmedColor"  "98 219 220 255"
             "Image_SelectColor" "98 219 220 255"
-            "command"           "engine showconsole; exec jumphudversioninfo"
+            "command"           "engine casualtoggleon; hud_reloadscheme; toggle mat_aaquality;"
 
             "stayselectedonclick"						"0"
             "selectonhover"								"1"
@@ -294,12 +294,51 @@
                 "xpos"         "0"
                 "ypos"         "0"
                 "zpos"         "1"
-                "wide"         "25"
-                "tall"         "25"
+                //"wide"         "25"
+                //"tall"         "25"
                 "visible"      "1"
                 "enabled"      "1"
                 "image"         "replay/thumbnails/jumphudlogo"
                 "scaleImage"   "1"
+            }
+        }
+        "CasualToggle_Casual"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"CasualToggle_Casual"
+            "XPos"										"0"
+            "YPos"										"5"
+            "ZPos"										"10"
+            //"Wide"										"25"
+            //"Tall"										"25"
+
+            "Pin_To_Sibling"							"Version"
+            "pin_corner_to_sibling"                     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"                     "PIN_TOPLEFT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                //"Wide"									"f0"
+                //"Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"Symbols28"
+                "TextAlignment"							"center"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
         "Servers"
@@ -1462,45 +1501,6 @@
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
-
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
-
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
-            }
-        }
-        "CasualToggle"
-        {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"CasualToggle"
-            "XPos"										"0"
-            "YPos"										"2"
-            "ZPos"										"15"
-            "Wide"										"35"
-            "Tall"										"35"
-
-            "Pin_To_Sibling"							"ToggleMinmode"
-            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-            "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
-
-            "SubButton"
-            {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                "Wide"									"f0"
-                "Tall"									"f0"
-                "Visible"								"1"
-                "Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"Symbols35"
-                "TextAlignment"							"center"
-                "Sound_Depressed"						"UI/buttonclick.wav"
 
                 "PaintBackground"						"0"
                 "PaintBorder"							"0"

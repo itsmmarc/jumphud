@@ -1,5 +1,34 @@
 "Resource/UI/mainmenuoverride_casual.res"
     {
+        "CasualToggle_Jump"
+        {
+            "fieldName"     "CasualToggle_Jump"
+            "wide"          "0"
+            "tall"          "0"
+            // ...
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"      "SubImage"
+                "wide"         "0"
+                "tall"         "0"
+            }
+        }
+        "CasualToggle_Casual"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"CasualToggle_Casual"
+            "Wide"										"25"
+            "Tall"										"25"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "Wide"									"f0"
+                "Tall"									"f0"
+            }
+        }
         "TempusHud"
         {
             "FieldName"									"TempusHud"
