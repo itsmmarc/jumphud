@@ -16,14 +16,12 @@
         }
         "CasualToggle_Casual"
         {
-            "ControlName"								"EditablePanel"
             "FieldName"									"CasualToggle_Casual"
             "Wide"										"0"
             "Tall"										"0"
 
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
                 "FieldName"								"SubButton"
                 "Wide"									"0"
                 "Tall"									"0"
