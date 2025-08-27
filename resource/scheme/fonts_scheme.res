@@ -2138,6 +2138,17 @@
                     "antialias"									"1"
                 }
             }
+            "TeamMenuSmall"
+            {
+                "1"
+                {
+                    "name"										"Steelfish"
+                    "Tall"										"24"
+                    "weight"									"600"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
             "IntroMenuCaption"
             {
                 "1"
