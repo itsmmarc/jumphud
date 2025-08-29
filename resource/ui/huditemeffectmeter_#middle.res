@@ -2,6 +2,6 @@
 {
 	"HudItemEffectMeter"
 	{
-		"YPos"										"c185-11"
+		"YPos"										"r106"
 	}
 }

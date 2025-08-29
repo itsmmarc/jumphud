@@ -7,7 +7,7 @@
 		"Enabled"									"1"
 		"XPos"										"cs-0.5"
 		"YPos"										"c185"
-		"Wide"										"50"
+		"Wide"										"140"
 		"Tall"										"10"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
