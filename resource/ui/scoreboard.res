@@ -77,17 +77,17 @@
             "ProportionalToParent"						"1"
         }
 
-        "WhiteBG" // disabled
+        "WhiteBG"   // all casual elements are pinned to WhiteBG
         {
             "ControlName"								"Panel"
             "FieldName"									"WhiteBG"
             "XPos"										"0"
-            "YPos"										"0"
+            //"YPos"										"0"
             "ZPos"										"-1"
             "Wide"										"2"
             "Tall"										"15"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
             "ProportionalToParent"						"1"
             "PaintBackground"							"1"
             "PaintBackgroundType"						"0"
@@ -104,7 +104,7 @@
 	//==================================================================================================================================================
 	// BLUE
 	//==================================================================================================================================================
-        "BlueScoreBG"   // disabled
+        "BlueScoreBG"
         {
             "ControlName"								"Panel"
             "FieldName"									"BlueScoreBG"
@@ -112,8 +112,8 @@
             "YPos"										"0"
             "Wide"										"p0.5"
             "Tall"										"15"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
             "ProportionalToParent"						"1"
             "PaintBackground"							"1"
             "PaintBackgroundType"						"0"
@@ -128,7 +128,7 @@
                 "Visible"								"0"
             }
         }
-        "BlueTeamName"  // disabled
+        "BlueTeamName"
         {
             "ControlName"								"CExLabel"
             "FieldName"									"BlueTeamName"
@@ -137,8 +137,8 @@
             "ZPos"										"5"
             "Wide"										"100"
             "Tall"										"15"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
             "ProportionalToParent"						"1"
             "Font"										"m0refont11"
             "FGColor"									"White"
@@ -152,7 +152,7 @@
                 "Visible"								"0"
             }
         }
-        "BlueTeamScore" // disabled
+        "BlueTeamScore"
         {
             "ControlName"								"CExLabel"
             "FieldName"									"BlueTeamScore"
@@ -161,8 +161,8 @@
             "ZPos"										"4"
             "Wide"										"100"
             "Tall"										"35"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
             "Font"										"m0refont48"
             "FGColor"									"White"
             "LabelText"									"%blueteamscore%"
@@ -177,7 +177,7 @@
                 "Visible"								"0"
             }
         }
-        "BlueTeamPlayerCount"   // disabled
+        "BlueTeamPlayerCount"
         {
             "ControlName"								"CExLabel"
             "FieldName"									"BlueTeamPlayerCount"
@@ -186,8 +186,8 @@
             "ZPos"										"1"
             "Wide"										"100"
             "Tall"										"15"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
             "Font"										"m0refont11"
             "FGColor"									"White"
             "LabelText"									"%blueteamplayercount%"
@@ -206,7 +206,7 @@
 	//==================================================================================================================================================
 	// RED
 	//==================================================================================================================================================
-        "RedScoreBG"    // disabled
+        "RedScoreBG"
         {
             "ControlName"								"Panel"
             "FieldName"									"RedScoreBG"
@@ -214,8 +214,8 @@
             "YPos"										"0"
             "Wide"										"p0.5"
             "Tall"										"15"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
 
             "ProportionalToParent"						"1"
             "PaintBackground"							"1"
@@ -231,7 +231,7 @@
                 "Visible"								"0"
             }
         }
-        "RedTeamName"   // disabled
+        "RedTeamName"
         {
             "ControlName"								"CExLabel"
             "FieldName"									"RedTeamName"
@@ -240,8 +240,8 @@
             "ZPos"										"5"
             "Wide"										"100"
             "Tall"										"15"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
             "Font"										"m0refont11"
             "FGColor"									"White"
             "LabelText"									"%redteamname%"
@@ -256,7 +256,7 @@
                 "Visible"								"0"
             }
         }
-        "RedTeamScore"  // disabled
+        "RedTeamScore"
         {
             "ControlName"								"CExLabel"
             "FieldName"									"RedTeamScore"
@@ -265,8 +265,8 @@
             "ZPos"										"4"
             "Wide"										"100"
             "Tall"										"35"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
             "Font"										"m0refont48"
             "FGColor"									"White"
             "LabelText"									"%redteamscore%"
@@ -279,7 +279,7 @@
                 "Visible"								"0"
             }
         }
-        "RedTeamPlayerCount"    // disabled
+        "RedTeamPlayerCount"
         {
             "ControlName"								"CExLabel"
             "FieldName"									"RedTeamPlayerCount"
@@ -287,8 +287,8 @@
             "YPos"										"0"
             "Wide"										"100"
             "Tall"										"15"
-            "Visible"									"0"
-            "Enabled"									"0"
+            "Visible"									"1"
+            "Enabled"									"1"
             "Font"										"m0refont11"
             "FGColor"									"White"
             "LabelText"									"%redteamplayercount%"
@@ -341,7 +341,7 @@
 		"LabelText"									"%servertimeleft%"
 		"TextAlignment"								"east"
 
-		"Pin_To_Sibling"							"HorizontalLine2"
+		"Pin_To_Sibling"							"HorizontalLine"
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMRIGHT"
 		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
@@ -410,7 +410,7 @@
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
-	"HorizontalLine"    // automatically recolored somewhere so disabled
+	"HorizontalLine"    // team coloured, enabled in casual
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"HorizontalLine"
@@ -419,8 +419,8 @@
 		"ZPos"										"2"
 		"Wide"										"p1.01"
 		"Tall"										"1"
-		"Visible"									"0"
-		"Enabled"									"1"
+		//"Visible"									"0"
+		//"Enabled"									"1"
 		"fillcolor"									"127 127 127 153"
 		"PaintBackgroundType"						"0"
 
@@ -428,17 +428,17 @@
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 	}
-    "HorizontalLine2"    // visible copy
+    "HorizontalLine_jump"    // neutral colour, enabled in jump
 	{
 		"ControlName"								"ImagePanel"
-		"FieldName"									"HorizontalLine2"
+		"FieldName"									"HorizontalLine_jump"
 		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"2"
 		"Wide"										"p1.01"
 		"Tall"										"1"
-		"Visible"									"1"
-		"Enabled"									"1"
+		//"Visible"									"1"
+		//"Enabled"									"1"
 		"fillcolor"									"87 108 108 200"
 		"PaintBackgroundType"						"0"
 
@@ -467,37 +467,37 @@
 		"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
 	}
-	"LocalPlayerStatsPanel"
+	"LocalPlayerStatsPanel" // enabled in casual mode
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"LocalPlayerStatsPanel"
 		"XPos"										"0"
 		"YPos"										"rs1-1"
 		"ZPos"										"3"
-		"Wide"										"f0"
+		//"Wide"										"f0"
 		"Tall"										"50"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"ProportionalToParent"						"1"
 
-		"K/D" // disabled
+		"K/D"   // colon between kills and deaths
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"K/D"
-			"XPos"									"75"
-			"YPos"									"15"
+			"XPos"									"cs-0.5"
+			"YPos"									"7"
 			"ZPos"									"3"
 			"Wide"									"10"
 			"Tall"									"35"
-			"Visible"								"0"
-			"Enabled"								"0"
+			"Visible"								"1"
+			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"Font"									"m0refont48"
 			"FGColor"								"White"
 			"LabelText"								":"
 			"TextAlignment"							"center"
 		}
-		"Kills" // disabled
+		"Kills"
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Kills"
@@ -506,8 +506,8 @@
 			"ZPos"									"3"
 			"Wide"									"100"
 			"Tall"									"35"
-			"Visible"								"0"
-			"Enabled"								"0"
+			"Visible"								"1"
+			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"Font"									"m0refont48"
 			"DisabledFGColor2_Override"				"White"
@@ -518,7 +518,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPRIGHT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPLEFT"
 		}
-		"Deaths" // disabled
+		"Deaths"
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Deaths"
@@ -527,8 +527,8 @@
 			"ZPos"									"3"
 			"Wide"									"100"
 			"Tall"									"35"
-			"Visible"								"0"
-			"Enabled"								"0"
+			"Visible"								"1"
+			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"Font"									"m0refont48"
 			"DisabledFGColor2_Override"				"White"
