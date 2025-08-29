@@ -1,3 +1,6 @@
+#base "../../cfg/hud_scoreboard.txt"
+#base "scoreboard_jump.res"
+
 "Resource/UI/Scoreboard_Base.res"
 {
 	"Scores"
