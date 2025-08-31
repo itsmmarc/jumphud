@@ -13,8 +13,8 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"AmmoAnchor"
-		"xpos"										"c40+13"
-		"Xpos_minmode"								"cs-0.5"
+		//"xpos"										"c40+13"
+		//"Xpos_minmode"								"cs-0.5"
 		"YPos"										"c66"
 		"ZPos"										"0"
 		"Wide"										"1"
@@ -31,6 +31,7 @@
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoInClip"
 		//"XPos"										"-10"
+        //"Xpos_minmode"                              "-75"
 		"YPos"										"0"
 		"ZPos"										"5"
 		"Wide"										"150"
@@ -41,8 +42,8 @@
 		"Font"										"JumpHUD_Main_Font"
 
         "textinsetx"                                "10"
-		"TextAlignment"								"east"
-        "TextAlignment_minmode"						"center"
+		//"TextAlignment"								"east"
+        //"TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Ammo_In_Clip"
 
@@ -63,8 +64,8 @@
 		"Enabled"									"1"
 		"Font"										"JumpHUD_Main_Font"
         "textinsetx"                                "10"
-		"TextAlignment"								"east"
-        "TextAlignment_minmode"						"center"
+		//"TextAlignment"								"east"
+        //"TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Main_Shadow_Transparent"
 
@@ -120,8 +121,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoNoClip"
-		"XPos"										"-10"
-	    "Xpos_minmode"                              "-75"
+		//"XPos"										"-10"
+	    //"Xpos_minmode"                              "-75"
 		"YPos"										"0"
 		"ZPos"										"5"
 		"Wide"										"150"
@@ -132,8 +133,8 @@
 		"Font"										"JumpHUD_Main_Font"
 
         "textinsetx"                                "10"
-		"TextAlignment"								"east"
-        "TextAlignment_minmode"						"center"
+		//"TextAlignment"								"east"
+        //"TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Ammo_In_Clip"
 
@@ -155,7 +156,7 @@
 		"Font"										"JumpHUD_Main_Font"
         "textinsetx"                                "10"
 		"TextAlignment"								"east"
-        "TextAlignment_minmode"						"center"
+        //"TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Main_Shadow_Transparent"
 
