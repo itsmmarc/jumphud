@@ -919,7 +919,6 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"50"
-        //"ypos_minmode"                              "77"
 		"wide"										"f0"
 		"tall"										"f0"
 	}
