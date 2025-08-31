@@ -206,7 +206,7 @@
 		"xpos"										"0"
 		"ypos"										"c50"
 		"wide"										"252"
-		"tall"										"32"
+		"tall"										"50"
 		"priority"									"40"
 	}
 	"CSpectatorTargetID"
