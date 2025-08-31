@@ -9,8 +9,74 @@
 	"HudItemEffectMeter"
 	{
 		"YPos"          "r136"
-        "Xpos"          "cs-0.5+50"
+        "Xpos"          "cs-0.5+40"
         "XPos_Minmode"  "cs-0.5"
         "wide"          "50"
+	}
+
+    "Panel1"   // transparent background for loadout page
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"Panel1"
+		"XPos"										"12"
+		"YPos"										"1"
+        "ZPos"                                      "2"
+		"Wide"										"1"
+		"Tall"										"4"
+        "ProportionalToParent"						"1"
+		"Visible"									"1"
+		"Enabled"									"1"
+        
+        "PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"BGColor_Override"							"TransparentLightestBlack"
+
+        "pin_to_sibling"    "HudItemEffectMeter"
+        "pin_corner_to_sibling" "PIN_CENTER_TOP"
+        "pin_to_sibling_corner" "PIN_CENTER_TOP"
+	}
+
+    "Panel2"   // transparent background for loadout page
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"Panel2"
+		"XPos"										"25"
+		"YPos"										"1"
+        "ZPos"                                      "2"
+		"Wide"										"1"
+		"Tall"										"4"
+        "ProportionalToParent"						"1"
+		"Visible"									"1"
+		"Enabled"									"1"
+        
+        "PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"BGColor_Override"							"TransparentLightestBlack"
+
+        "pin_to_sibling"    "HudItemEffectMeter"
+        "pin_corner_to_sibling" "PIN_CENTER_TOP"
+        "pin_to_sibling_corner" "PIN_CENTER_TOP"
+	}
+
+    "Panel3"   // transparent background for loadout page
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"Panel3"
+		"XPos"										"37"
+		"YPos"										"1"
+        "ZPos"                                      "2"
+		"Wide"										"1"
+		"Tall"										"4"
+        "ProportionalToParent"						"1"
+		"Visible"									"1"
+		"Enabled"									"1"
+        
+        "PaintBackground"							"1"
+		"PaintBackgroundType"						"0"
+		"BGColor_Override"							"TransparentLightestBlack"
+
+        "pin_to_sibling"    "HudItemEffectMeter"
+        "pin_corner_to_sibling" "PIN_CENTER_TOP"
+        "pin_to_sibling_corner" "PIN_CENTER_TOP"
 	}
 }
