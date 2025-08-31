@@ -322,7 +322,7 @@
 		"TextAlignment"								"west"
 		"alpha"										"255"
 
-		"Pin_To_Sibling"							"HorizontalLine2"
+		"Pin_To_Sibling"							"HorizontalLine_jump"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -367,7 +367,7 @@
 		"TextAlignment"								"west"
 		"alpha"										"255"
 
-		"Pin_To_Sibling"							"HorizontalLine2"
+		"Pin_To_Sibling"							"HorizontalLine_jump"
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 	}
