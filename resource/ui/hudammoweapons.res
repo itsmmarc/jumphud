@@ -1,8 +1,7 @@
 #base "../../cfg/hud_hudammoweapons.txt"
 #base "hudammoweapons_jump.res"
 
-
-"Resource/UI/HudAmmoWeapons_Base.res"
+"Resource/UI/HudAmmoWeapons.res"
 {
 	//==================================================================================================================================================
 	// AMMO ANCHOR

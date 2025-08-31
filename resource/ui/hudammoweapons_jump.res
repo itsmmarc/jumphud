@@ -1,17 +1,20 @@
-"Resource/UI/HudAmmoWeapons_Base_jump.res"
+"Resource/UI/HudAmmoWeapons_jump.res"
 {   
     "AmmoAnchor"
     {
+        "xpos"										"c40"
         "Xpos_minmode"								"cs-0.5"
     }
     "AmmoInClip"
 	{
         "xpos"  "-23"
         "Xpos_minmode"                              "-75"
+        "TextAlignment"								"east"
         "TextAlignment_minmode"						"center"
     }
     "AmmoInClipShadow"
     {
+        "TextAlignment"								"east"
         "TextAlignment_minmode"						"center"
     }
     "AmmoInReserve"
@@ -28,11 +31,14 @@
 	}
     "AmmoNoClip"
     {
+        "XPos"										"-10"
         "Xpos_minmode"                              "-75"
+        "TextAlignment"								"east"
         "TextAlignment_minmode"						"center"
     }
     "AmmoNoClipShadow"
     {
+        "TextAlignment"								"east"
         "TextAlignment_minmode"						"center"
     }
 

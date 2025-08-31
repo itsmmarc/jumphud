@@ -1,4 +1,4 @@
-"Resource/UI/HudAmmoWeapons_Base_casual.res"
+"Resource/UI/HudAmmoWeapons_casual.res"
 {   
     "AmmoAnchor"
     {
