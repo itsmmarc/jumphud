@@ -1,4 +1,7 @@
-"Resource/UI/HudPlayerHealth_Base.res"
+#base "../../cfg/hud_HudPlayerHealth.txt"
+#base "hudplayerhealth_jump.res"
+
+"Resource/UI/HudPlayerHealth.res"
 {
 	"HudPlayerHealth"
 	{
@@ -140,14 +143,14 @@
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthBonusBG"
-		"XPos"										"c-74"
-        "XPos_Minmode"                              "cs-0.5"
+		//"XPos"										"c-74"
+        //"XPos_Minmode"                              "cs-0.5"
 		"YPos"										"c73"
 		"ZPos"										"-4"
 		"Wide"										"60"//90
 		"Tall"										"70"//90
-		"Visible"									"0"
-        "Visible_minmode"                           "0"
+		//"Visible"									"0"
+        //"Visible_minmode"                           "0"
 		"Enabled"									"1"
 		"ScaleImage"								"1"
 		"Image"										"replay/thumbnails/health/health_box"
@@ -158,14 +161,14 @@
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthDyingBG"
-		"XPos"										"c-74"
-        "XPos_Minmode"                              "cs-0.5"
+		//"XPos"										"c-74"
+        //"XPos_Minmode"                              "cs-0.5"
 		"YPos"										"c73"
 		"ZPos"										"-4"
 		"Wide"										"60"//90
 		"Tall"										"70"//90
-		"Visible"									"0"
-		"visible_minmode"                           "0"
+		//"Visible"									"0"
+		//"visible_minmode"                           "0"
 		"Enabled"									"1"
 		"ScaleImage"								"1"
 		"Image"										"replay/thumbnails/health/health_box"
@@ -212,8 +215,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"HealthValue"
-		"XPos"										"15"
-		"XPos_Minmode"								"99999"
+		//"XPos"										"15"
+		//"XPos_Minmode"								"99999"
 		"YPos"										"-1"
 		"ZPos"										"7"
 		"Wide"										"150"
