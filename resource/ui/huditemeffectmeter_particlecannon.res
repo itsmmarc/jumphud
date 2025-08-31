@@ -1,3 +1,7 @@
+#base "../../cfg/hud_HudItemEffectMeter_ParticleCannon.txt"
+#base "HudItemEffectMeter_ParticleCannon_jump.res"
+
+
 // ITEM METER POSITIONING SLOT
 //#base "huditemeffectmeter_#top.res"
 
@@ -9,8 +13,8 @@
 	"HudItemEffectMeter"
 	{
 		"YPos"          "r136"
-        "Xpos"          "cs-0.5+40"
-        "XPos_Minmode"  "cs-0.5"
+        //"Xpos"          "cs-0.5+40"
+        //"XPos_Minmode"  "cs-0.5"
         "wide"          "50"
 	}
 
