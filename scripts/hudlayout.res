@@ -1,4 +1,5 @@
-#base "crosshairs/crosshairs.res"
+#base "../cfg/hud_hudlayout.txt"
+#base "hudlayout_jump.res"
 
 "Scripts/HudLayout.res"
 {
@@ -157,8 +158,8 @@
 	{
 		"fieldName"									"CHudAccountPanel"
 		"xpos"										"cs-0.5"
-		"ypos"										"c105"
-        "ypos_minmode"                              "c120"
+		//"ypos"										"c105"
+        //"ypos_minmode"                              "c120"
 		"wide"										"200"
 		"tall"										"50"
 		"visible"									"1"
@@ -918,7 +919,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"50"
-        "ypos_minmode"                              "77"
+        //"ypos_minmode"                              "77"
 		"wide"										"f0"
 		"tall"										"f0"
 	}
