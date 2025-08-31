@@ -1,4 +1,4 @@
-"Resource/UI/HudDemomanPipes_Base.res"
+"Resource/UI/HudDemomanPipes.res"
 {
 	"ChargeMeter"
 	{
@@ -35,12 +35,13 @@
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 	}
 
-	"PipesPresentPanel" // main bit to edit
+	"PipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"PipesPresentPanel"
 		"XPos"										"0"
-		"YPos"										"0"
+		//"YPos"										"0"
+        //"ypos_minmode"                              "27"
 		"ZPos"										"1"
 		"Wide"										"f0"
 		"Tall"										"f0"
