@@ -1,5 +1,11 @@
 "Resource/UI/HudAmmoWeapons_Base_jump.res"
-{   // reserve ammo disabled
+{   
+    "AmmoInClip"
+	{
+        "xpos"  "-23"
+        "Xpos_minmode"                              "-75"
+    }
+
     "AmmoInReserve"
 	{
 		"FieldName"									"AmmoInReserve"

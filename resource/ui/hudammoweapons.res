@@ -13,7 +13,7 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"AmmoAnchor"
-		"xpos"										"c40"
+		"xpos"										"c40+13"
 		"Xpos_minmode"								"cs-0.5"
 		"YPos"										"c66"
 		"ZPos"										"0"
@@ -30,8 +30,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoInClip"
-		"XPos"										"-10"
-	    "Xpos_minmode"                              "-75"
+		//"XPos"										"-10"
 		"YPos"										"0"
 		"ZPos"										"5"
 		"Wide"										"150"
@@ -79,7 +78,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoInReserve"
-		"XPos"										"8"
+		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"7"
 		//"Wide"										"150" //set to 150 to enable
@@ -91,7 +90,7 @@
 		"LabelText"									"%AmmoInReserve%"
 		"FGColor"									"Ammo_In_Reserve"
 
-		"Pin_To_Sibling"							"AmmoAnchor"
+		"Pin_To_Sibling"							"AmmoInClip"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 	}

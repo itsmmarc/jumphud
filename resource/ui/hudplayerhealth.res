@@ -146,7 +146,7 @@
 		"ZPos"										"-4"
 		"Wide"										"60"//90
 		"Tall"										"70"//90
-		"Visible"									"1"
+		"Visible"									"0"
         "Visible_minmode"                           "0"
 		"Enabled"									"1"
 		"ScaleImage"								"1"
@@ -164,7 +164,7 @@
 		"ZPos"										"-4"
 		"Wide"										"60"//90
 		"Tall"										"70"//90
-		"Visible"									"1"
+		"Visible"									"0"
 		"visible_minmode"                           "0"
 		"Enabled"									"1"
 		"ScaleImage"								"1"

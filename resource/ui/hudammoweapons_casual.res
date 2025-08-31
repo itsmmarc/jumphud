@@ -1,5 +1,10 @@
 "Resource/UI/HudAmmoWeapons_Base_casual.res"
-{   // reserve ammo enabled
+{   
+    "AmmoInClip"
+	{
+        "xpos"  "10"
+    }
+
     "AmmoInReserve"
 	{
 		"FieldName"									"AmmoInReserve"
