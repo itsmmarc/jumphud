@@ -155,7 +155,7 @@
 		"Enabled"									"1"
 		"Font"										"JumpHUD_Main_Font"
         "textinsetx"                                "10"
-		"TextAlignment"								"east"
+		//"TextAlignment"								"east"
         //"TextAlignment_minmode"						"center"
 		"LabelText"									"%Ammo%"
 		"FGColor"									"Main_Shadow_Transparent"
