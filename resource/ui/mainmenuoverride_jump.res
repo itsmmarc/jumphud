@@ -136,4 +136,12 @@
                 "Enabled"								"1"
             }
         }
+        "ToggleMinmode"
+        {
+            "SubButton"
+            {
+                "Visible"								"1"
+                "Enabled"								"1"
+            }
+        }
     }
