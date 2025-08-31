@@ -1,3 +1,6 @@
+#base "../../cfg/hud_HudMedicCharge.txt"
+#base "HudMedicCharge_jump.res"
+
 "Resource/UI/HudMedicCharge.res"
 {
 	//==================================================================================================================================================
@@ -8,8 +11,8 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"UberAnchor"
-		"xpos"										"c40"
-		"Xpos_minmode"								"cs-0.5"
+		//"xpos"										"c40"
+		//"Xpos_minmode"								"cs-0.5"
 		"YPos"										"c66"
 		"ZPos"										"0"
 		"Wide"										"1"
