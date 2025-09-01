@@ -713,14 +713,13 @@
                     "weight"									"800"
                 }
             }
-            "CenterPrintText"
+            "CenterPrintText" // tempus speedo font
             {
                 "1"
                 {
-                    "name"										"Trebuchet MS" 	[!$OSX]
-                    "name"										"Helvetica" 	[$OSX]
+                    "name"										"Coolvetica Italic"
                     "Tall"										"18"
-                    "weight"									"900"
+                    "weight"									"300"
                     "antialias"									"1"
                     "additive"									"1"
                 }
