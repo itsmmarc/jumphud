@@ -48,6 +48,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"%targetdata%"
+        "textinsetx"    "10"
 		"textAlignment"								"west"
 		"font"										"JumpHUD_Secondary_Font_Shadow"
 		"fgcolor_override"					"White"
