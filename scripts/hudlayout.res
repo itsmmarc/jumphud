@@ -207,7 +207,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"c50"
-		"wide"										"252"
+		"wide"										"300"
 		"tall"										"50"
 		"priority"									"40"
 	}
@@ -218,7 +218,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"c110"
-		"wide"										"252"
+		"wide"										"300"
 		"tall"										"32"
 		"priority"									"40"
 
@@ -232,7 +232,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"c122"
-		"wide"										"252"
+		"wide"										"300"
 		"tall"										"32"
 		"priority"									"35"
 	}

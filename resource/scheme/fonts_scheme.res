@@ -1786,7 +1786,7 @@
                     "name"										"Steelfish"
                     "Tall"										"28"
                     "antialias"									"1"
-                    "dropshadow"								"1"
+                    //"dropshadow"								"1"
                 }
             }
             "TargetID_Big"
@@ -1796,7 +1796,7 @@
                     "name"										"Steelfish"
                     "Tall"										"28"
                     "antialias"									"1"
-                    "dropshadow"								"1"
+                    //"dropshadow"								"1"
                 }
             }
             "TargetID_Minmode"
@@ -3003,6 +3003,18 @@
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
+                }
+            }
+            "JumpHUD_Secondary_Font_Shadow"
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"18"
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"                                "1"
                 }
             }
             //techno additional custom fonts

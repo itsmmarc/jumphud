@@ -17,6 +17,24 @@
 		"font"										"TargetID"
 		"fgcolor"					"White"
 	}
+    "TargetNameLabelShadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TargetNameLabelShadow"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"1"
+		"wide"										"640"
+		"tall"										"28"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"%targetname%"
+		"textAlignment"								"west"
+		"font"										"TargetID"
+		"fgcolor"					"Main_Shadow_Transparent"
+        "pin_to_sibling"    "TargetNameLabel"
+	}
 	"TargetDataLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -24,40 +42,23 @@
 		"xpos"										"0"
 		"ypos"										"25"
 		"zpos"										"1"
-		"wide"										"640"
+		"wide"										"f0"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"%targetdata%"
 		"textAlignment"								"west"
-		"font"										"JumpHUD_Secondary_Font"
+		"font"										"JumpHUD_Secondary_Font_Shadow"
 		"fgcolor_override"					"White"
 	}
-    "TargetDataLabelShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TargetDataLabelShadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"1"
-		"wide"										"640"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"%targetdata%"
-		"textAlignment"								"west"
-		"font"										"JumpHUD_Secondary_Font"
-		"fgcolor_override"					"Main_Shadow_Transparent"
-        "pin_to_sibling"    "TargetDataLabel"
-	}
+
 	"SpectatorGUIHealth"    // used for all targetid health
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SpectatorGUIHealth"
 		"xpos"										"25"
-		"ypos"										"5"
+		"ypos"										"9"
 		"wide"										"44"
 		"tall"										"36"
 		"visible"									"1"
@@ -89,11 +90,11 @@
         {
             "ControlName"								"CExLabel"
             "fieldName"									"PlayerStatusHealthValueShadow"
-            "xpos"										"0"
-            "ypos"										"0"
+            "xpos"										"-1"
+            "ypos"										"-1"
             "zpos"										"19"
-            "wide"										"641"
-            "tall"										"19"
+            "wide"										"640"
+            "tall"										"18"
             "visible"									"1"
             "enabled"									"1"
             "textAlignment"								"west"
@@ -104,26 +105,26 @@
             "pin_to_sibling"							"PlayerStatusHealthValueID"
         }
 	}
-	"TargetNameLabelC"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TargetNameLabelC"
-		"xpos"										"0"
-		"ypos"										"-15"
-		"zpos"										"1"
-		"wide"										"0"
-		"tall"										"28"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"%targetname%"
-		"textAlignment"								"center"
-		"font"										"TargetID"
-		"fgcolor"					"White"
-		"pin_to_sibling" "SpectatorGUIHealth"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-	}
+	//"TargetNameLabelC"
+	//{
+	//	"ControlName"								"CExLabel"
+	//	"fieldName"									"TargetNameLabelC"
+	//	"xpos"										"0"
+	//	"ypos"										"-15"
+	//	"zpos"										"1"
+	//	"wide"										"0"
+	//	"tall"										"28"
+	//	"visible"									"1"
+	//	"enabled"									"1"
+	//	"proportionaltoparent"						"1"
+	//	"labelText"									"%targetname%"
+	//	"textAlignment"								"center"
+	//	"font"										"TargetID"
+	//	"fgcolor"					"White"
+	//	"pin_to_sibling" "SpectatorGUIHealth"
+	//	"pin_corner_to_sibling" "PIN_TOPLEFT"
+	//	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	//}
     //"TargetNameLabelCS"
 	//{
 	//	"ControlName"								"CExLabel"
@@ -144,38 +145,38 @@
     //    "pin_corner_to_sibling" "PIN_TOPLEFT"
 	//	"pin_to_sibling_corner" "PIN_TOPLEFT"
 	//}
-	"TargetDataLabelC" // disabled
-	{
-		"ControlName"		       					"CExLabel"
-		"fieldName"		        					"TargetDataLabelC"
-		"xpos"			           					"-335"
-		"ypos"			           					"23"
-		"zpos"			           					"1"
-		"wide"			           					"640"
-		"tall"			           					"0"
-		"visible"		          					"1"
-		"enabled"		           					"1"				// 0 to enable color change
-		"font"			           					"TargetID"
-		"labelText"		        					"%targetdata%"
-		"textAlignment"		     					"west"
-		"fgcolor"					"211 211 211 255"
-		"pin_to_sibling" "TargetNameLabelC"
-	}
-	"TargetDataLabelCs" // disabled
-	{
-		"ControlName"		       					"CExLabel"
-		"fieldName"		        					"TargetDataLabelCs"
-		"xpos"			           					"0"
-		"ypos"			           					"0"
-		"zpos"			           					"1"
-		"wide"			           					"641"
-		"tall"			           					"0"
-		"visible"		          					"1"
-		"enabled"		           					"1"				// 0 to enable color change
-		"font"			           					"TargetID"
-		"labelText"		        					"%targetdata%"
-		"textAlignment"		     					"west"
-		"fgcolor"					"black"
-		"pin_to_sibling" "TargetDataLabelC"
-	}
+	//"TargetDataLabelC" // disabled
+	//{
+	//	"ControlName"		       					"CExLabel"
+	//	"fieldName"		        					"TargetDataLabelC"
+	//	"xpos"			           					"-335"
+	//	"ypos"			           					"23"
+	//	"zpos"			           					"1"
+	//	"wide"			           					"640"
+	//	"tall"			           					"0"
+	//	"visible"		          					"1"
+	//	"enabled"		           					"1"				// 0 to enable color change
+	//	"font"			           					"TargetID"
+	//	"labelText"		        					"%targetdata%"
+	//	"textAlignment"		     					"west"
+	//	"fgcolor"					"211 211 211 255"
+	//	"pin_to_sibling" "TargetNameLabelC"
+	//}
+	//"TargetDataLabelCs" // disabled
+	//{
+	//	"ControlName"		       					"CExLabel"
+	//	"fieldName"		        					"TargetDataLabelCs"
+	//	"xpos"			           					"0"
+	//	"ypos"			           					"0"
+	//	"zpos"			           					"1"
+	//	"wide"			           					"641"
+	//	"tall"			           					"0"
+	//	"visible"		          					"1"
+	//	"enabled"		           					"1"				// 0 to enable color change
+	//	"font"			           					"TargetID"
+	//	"labelText"		        					"%targetdata%"
+	//	"textAlignment"		     					"west"
+	//	"fgcolor"					"black"
+	//	"pin_to_sibling" "TargetDataLabelC"
+	//}
 }
