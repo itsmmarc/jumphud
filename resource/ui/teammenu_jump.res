@@ -70,5 +70,7 @@
         "XPos"										"-5"
         "YPos"										"15"
         "Pin_To_Sibling"							"BlueButton_jump"
+        "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
     }
 }
