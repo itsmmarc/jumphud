@@ -1,4 +1,4 @@
-#base "../../cfg/hud_HudItemEffectMeter_ParticleCannon.txt"
+//#base "../../cfg/hud_HudItemEffectMeter_ParticleCannon.txt"
 #base "HudItemEffectMeter_ParticleCannon_jump.res"
 
 // ITEM METER POSITIONING SLOT

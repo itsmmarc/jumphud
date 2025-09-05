@@ -1,5 +1,0 @@
-#base "../main.vmt"
-
-"UnlitGeneric" {
-	$digit 10
-}

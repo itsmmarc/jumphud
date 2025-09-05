@@ -1,7 +1,7 @@
 #base "../dev/texture_preload.res"
 #base "../dev/reload_menu.res"
 
-#base "../../cfg/hud_mainmenuoverride.txt"
+//#base "../../cfg/hud_mainmenuoverride.txt"
 #base "mainmenuoverride_jump.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -263,10 +263,10 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "CasualToggle_Jump"
+        "Logo"
         {
             "ControlName"   "CExImageButton"
-            "fieldName"     "CasualToggle_Jump"
+            "fieldName"     "Logo"
             "xpos"          "0"
             "ypos"          "5"
             "zpos"          "10"
@@ -300,45 +300,6 @@
                 "enabled"      "1"
                 "image"         "replay/thumbnails/jumphudlogo"
                 "scaleImage"   "1"
-            }
-        }
-        "CasualToggle_Casual"
-        {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"CasualToggle_Casual"
-            "XPos"										"0"
-            "YPos"										"5"
-            "ZPos"										"10"
-            //"Wide"										"25"
-            //"Tall"										"25"
-
-            "Pin_To_Sibling"							"Version"
-            "pin_corner_to_sibling"                     "PIN_TOPRIGHT"
-            "pin_to_sibling_corner"                     "PIN_TOPLEFT"
-
-            "SubButton"
-            {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                //"Wide"									"f0"
-                //"Tall"									"f0"
-                "Visible"								"1"
-                "Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"Symbols28"
-                "TextAlignment"							"center"
-                "Sound_Depressed"						"UI/buttonclick.wav"
-
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
-
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
         "Servers"

@@ -9,19 +9,11 @@
 		"Command"									"engine showconsole; exec jumphudversioninfo"
 		"OnlyAtMenu"								"1"
 	}
-    "CasualToggle_Jump"
+    "Logo"
 	{
 		"label"										""
-		"Command"									"engine casualtoggleon; hud_reloadscheme; toggle mat_aaquality;"
-		//"OnlyAtMenu"								"1"
-        //"tooltip"									"Enable Casual Mode"
+		"Command"									"engine showconsole; exec jumphudversioninfo"
 	}
-    "CasualToggle_Casual"
-    {
-        "label"                                     "0"
-        "Command"									"engine casualtoggleoff; hud_reloadscheme; toggle mat_aaquality;"
-		//"tooltip"									"Enable Jump Mode"
-    }
 	"Servers"
 	{
 		"label"										"Servers"

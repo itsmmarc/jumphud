@@ -1,4 +1,4 @@
-#base "../../cfg/hud_classselection.txt"
+//#base "../../cfg/hud_classselection.txt"
 #base "classselection_jump.res"
 
 "Resource/UI/ClassSelection.res"

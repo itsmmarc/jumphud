@@ -1,4 +1,4 @@
-#base "../../cfg/hud_HudPlayerHealth.txt"
+//#base "../../cfg/hud_HudPlayerHealth.txt"
 #base "hudplayerhealth_jump.res"
 
 "Resource/UI/HudPlayerHealth.res"

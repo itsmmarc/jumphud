@@ -1,4 +1,4 @@
-#base "../../cfg/hud_Killstreak_Counter.txt"
+//#base "../../cfg/hud_Killstreak_Counter.txt"
 #base "HudItemEffectMeter_Killstreak_jump.res"
 
 "Resource/UI/HudItemEffectMeter_Killstreak.res"

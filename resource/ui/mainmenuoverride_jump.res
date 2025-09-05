@@ -1,8 +1,8 @@
 "Resource/UI/mainmenuoverride_jump.res"
     {
-        "CasualToggle_Jump"
+        "Logo"
         {
-            "fieldName"     "CasualToggle_Jump"
+            "fieldName"     "Logo"
             "wide"          "25"
             "tall"          "25"
             // ...
@@ -12,19 +12,6 @@
                 "fieldName"      "SubImage"
                 "wide"         "25"
                 "tall"         "25"
-            }
-        }
-        "CasualToggle_Casual"
-        {
-            "FieldName"									"CasualToggle_Casual"
-            "Wide"										"0"
-            "Tall"										"0"
-
-            "SubButton"
-            {
-                "FieldName"								"SubButton"
-                "Wide"									"0"
-                "Tall"									"0"
             }
         }
         "TempusHud"

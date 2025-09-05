@@ -1,4 +1,4 @@
-#base "../../cfg/hud_matchmakingdashboard.txt"
+//#base "../../cfg/hud_matchmakingdashboard.txt"
 #base "matchmakingdashboard_jump.res"
 
 "Resource/UI/MatchMakingDashboard.res"
