@@ -15,3 +15,6 @@ exec logbase_setup.cfg
 //alias chud_firstrun "exec hud_firstrun"
 //exec hud_has_run.txt
 //chud_firstrun
+
+// enable CastingEssentialsNext Speedo
+ce_hud_speedometer_enabled 1

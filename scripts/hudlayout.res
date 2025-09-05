@@ -3,6 +3,7 @@
 
 //#base "../resource/speedo.res"
 
+
 "Scripts/HudLayout.res"
 {
 	"HudPlayerStatus"
@@ -219,7 +220,7 @@
 		"xpos"										"0"
 		//"ypos"										"c110"
 		"wide"										"300"
-		"tall"										"32"
+		"tall"										"200"
 		"priority"									"40"
 
 		"x_offset"									"20"

@@ -12,7 +12,7 @@
 	}
 	"CSpectatorTargetID"
 	{
-		"ypos"										"c110"
+		"ypos"										"c50"
 	}
 	"CSecondaryTargetID"
 	{
