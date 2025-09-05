@@ -34,16 +34,18 @@
 		"textAlignment"								"center"
 		"font"										"JumpHUD_Main_Font"
     }
-    
-    "TargetNameLabelC"
+
+
+    // disabled
+    "TargetNameLabelC" // disabled
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelC"
 		"xpos"										"0"
 		"ypos"										"50"
 		"zpos"										"1"
-		"wide"										"640"
-		"tall"										"28"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -56,15 +58,15 @@
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 
-    "TargetNameLabelCs"
+    "TargetNameLabelCs" // disabled
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelCs"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
-		"wide"										"640"
-		"tall"										"28"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -74,9 +76,6 @@
 		"fgcolor"					"Main_Shadow_Transparent"
 		"pin_to_sibling" "TargetNameLabelC"
 	}
-
-
-    // disabled
 
     "TargetDataLabel" // disabled
 	{
