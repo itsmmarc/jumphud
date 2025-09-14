@@ -134,7 +134,28 @@
 		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
 	}
-    // Tempus Buttons
+    // Jump Buttons
+    "SoldierSpeedo"
+    {
+        "label"										"7"
+		"Command"									"engine speedo_soldier_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Soldier Speedo"
+		"OnlyInGame"								"1"
+    }
+    "DemoSpeedo"
+    {
+        "label"										"7"
+		"Command"									"engine speedo_demo_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Demo Speedo"
+		"OnlyInGame"								"1"
+    }
+    "SpeedosOff"
+    {
+        "label"										"2"
+		"Command"									"engine speedos_off; hud_reloadscheme"
+		"tooltip"									"Turn Off Speedos"
+		"OnlyInGame"								"1"
+    }
     "FullBright"
 	{
 		"label"										"?"

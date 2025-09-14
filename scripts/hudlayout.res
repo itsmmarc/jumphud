@@ -1,8 +1,6 @@
 #base "../cfg/hud_hudlayout.txt"
 #base "hudlayout_jump.res"
 
-//#base "../resource/speedo.res"
-
 "Scripts/HudLayout.res"
 {
 	"HudPlayerStatus"
