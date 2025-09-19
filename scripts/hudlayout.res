@@ -206,7 +206,7 @@
 		"xpos"										"0"
 		//"ypos"										"c50"
 		"wide"										"300"
-		"tall"										"50"
+		"tall"										"80"
 		"priority"									"40"
 	}
 	"CSpectatorTargetID"
@@ -217,7 +217,8 @@
 		"xpos"										"0"
 		//"ypos"										"c110"
 		"wide"										"300"
-		"tall"										"32"
+		"tall"										"		"tall"										"50"
+"
 		"priority"									"40"
 
 		"x_offset"									"20"
@@ -231,7 +232,7 @@
 		"xpos"										"0"
 		//"ypos"										"c122"
 		"wide"										"300"
-		"tall"										"32"
+		"tall"										"50"
 		"priority"									"35"
 	}
 	"BuildingAnchor"
