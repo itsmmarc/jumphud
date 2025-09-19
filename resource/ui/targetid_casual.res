@@ -1,4 +1,4 @@
-"Resource/UI/Targetid.res"
+"Resource/UI/Targetid_casual.res"
 {
 	"TargetNameLabel"
 	{
@@ -106,78 +106,44 @@
             "pin_to_sibling"							"PlayerStatusHealthValueID"
         }
 	}
-	//"TargetNameLabelC"
-	//{
-	//	"ControlName"								"CExLabel"
-	//	"fieldName"									"TargetNameLabelC"
-	//	"xpos"										"0"
-	//	"ypos"										"-15"
-	//	"zpos"										"1"
-	//	"wide"										"0"
-	//	"tall"										"28"
-	//	"visible"									"1"
-	//	"enabled"									"1"
-	//	"proportionaltoparent"						"1"
-	//	"labelText"									"%targetname%"
-	//	"textAlignment"								"center"
-	//	"font"										"TargetID"
-	//	"fgcolor"					"White"
-	//	"pin_to_sibling" "SpectatorGUIHealth"
-	//	"pin_corner_to_sibling" "PIN_TOPLEFT"
-	//	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-	//}
-    //"TargetNameLabelCS"
-	//{
-	//	"ControlName"								"CExLabel"
-	//	"fieldName"									"TargetNameLabelCS"
-	//	"xpos"										"0"
-	//	"ypos"										"0"
-	//	"zpos"										"1"
-	//	"wide"										"642"
-	//	"tall"										"118"
-	//	"visible"									"1"
-	//	"enabled"									"1"
-	//	"proportionaltoparent"						"1"
-	//	"labelText"									"%targetname%"
-	//	"textAlignment"								"center"
-	//	"font"										"TitleFont"
-	//	"fgcolor"					"black"
-    //    "pin_to_sibling" "TargetNameLabelC"
-    //    "pin_corner_to_sibling" "PIN_TOPLEFT"
-	//	"pin_to_sibling_corner" "PIN_TOPLEFT"
-	//}
-	//"TargetDataLabelC" // disabled
-	//{
-	//	"ControlName"		       					"CExLabel"
-	//	"fieldName"		        					"TargetDataLabelC"
-	//	"xpos"			           					"-335"
-	//	"ypos"			           					"23"
-	//	"zpos"			           					"1"
-	//	"wide"			           					"640"
-	//	"tall"			           					"0"
-	//	"visible"		          					"1"
-	//	"enabled"		           					"1"				// 0 to enable color change
-	//	"font"			           					"TargetID"
-	//	"labelText"		        					"%targetdata%"
-	//	"textAlignment"		     					"west"
-	//	"fgcolor"					"211 211 211 255"
-	//	"pin_to_sibling" "TargetNameLabelC"
-	//}
-	//"TargetDataLabelCs" // disabled
-	//{
-	//	"ControlName"		       					"CExLabel"
-	//	"fieldName"		        					"TargetDataLabelCs"
-	//	"xpos"			           					"0"
-	//	"ypos"			           					"0"
-	//	"zpos"			           					"1"
-	//	"wide"			           					"641"
-	//	"tall"			           					"0"
-	//	"visible"		          					"1"
-	//	"enabled"		           					"1"				// 0 to enable color change
-	//	"font"			           					"TargetID"
-	//	"labelText"		        					"%targetdata%"
-	//	"textAlignment"		     					"west"
-	//	"fgcolor"					"black"
-	//	"pin_to_sibling" "TargetDataLabelC"
-	//}
+
+    // disable jump mode stuff
+    "TargetNameLabelC"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TargetNameLabelC"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+
+    "TargetNameLabelCs"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TargetNameLabelCs"
+        "wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+
+	}
+	"TargetDataLabelC" // disabled
+	{
+		"ControlName"		       					"CExLabel"
+		"fieldName"		        					"TargetDataLabelC"
+        "wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"TargetDataLabelCs" // disabled
+	{
+		"ControlName"		       					"CExLabel"
+		"fieldName"		        					"TargetDataLabelCs"
+        "wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
 }

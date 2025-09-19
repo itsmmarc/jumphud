@@ -1789,6 +1789,16 @@
                     //"dropshadow"								"1"
                 }
             }
+            "TargetID_Small"
+            {
+                "1"
+                {
+                    "name"										"Steelfish"
+                    "Tall"										"20"
+                    "antialias"									"1"
+                    //"dropshadow"								"1"
+                }
+            }
             "TargetID_Big"
             {
                 "1"
