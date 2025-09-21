@@ -8,7 +8,7 @@
 		"YPos"										"0"
 		"ZPos"										"2"
 		"Wide"										"f0"
-		"Tall"										"0"
+		"Tall"										"12"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"ProportionalToParent"						"1"
