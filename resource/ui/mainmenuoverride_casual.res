@@ -2,7 +2,6 @@
     {
         "CasualToggle_Jump"
         {
-            "fieldName"     "CasualToggle_Jump"
             "wide"          "0"
             "tall"          "0"
             // ...
@@ -16,7 +15,6 @@
         }
         "CasualToggle_Casual"
         {
-            "FieldName"									"CasualToggle_Casual"
             "Wide"										"25"
             "Tall"										"25"
 
@@ -29,8 +27,6 @@
         }
         "TempusHud"
         {
-            "FieldName"									"TempusHud"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -41,8 +37,6 @@
         }
         "Toggle_Netgraph"
         {
-            "fieldname"									"Toggle_Netgraph"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -53,8 +47,6 @@
         }
         "Toggle_Chat"
         {
-            "fieldname"									"Toggle_Chat"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -65,8 +57,6 @@
         }
         "HSpeedo"
         {
-            "FieldName"									"HSpeedo"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -77,8 +67,6 @@
         }
         "VSpeedo"
         {
-            "FieldName"									"VSpeedo"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -89,8 +77,6 @@
         }
         "ASpeedo"
         {
-            "FieldName"									"ASpeedo"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -102,8 +88,6 @@
         
         "FullBright"
         {
-            "FieldName"									"FullBright"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -114,8 +98,6 @@
         }
         "ShowTriggers"
         {
-            "FieldName"									"ShowTriggers"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -126,8 +108,6 @@
         }
         "DrawClipBrushes"
         {
-            "FieldName"									"DrawClipBrushes"
-
             "SubButton"
             {
                 "ControlName"							"CExImageButton"
@@ -137,6 +117,30 @@
             }
         }
         "ToggleMinmode"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "SoldierSpeedo"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "DemoSpeedo"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "SpeedosOff"
         {
             "SubButton"
             {
