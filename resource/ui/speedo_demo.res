@@ -3,17 +3,17 @@
 		"controlName" "EditablePanel"
 		"visible" "1" // default visibility
 		"enabled" "1"
-		"wide" "120"
-		"tall" "90"
+		"wide" "100"
+		"tall" "50"
 		"xpos" "cs-0.5"
 		"ypos" "c60-31"//
 		
 		"d1" {
 			"controlName" "CTFImagePanel"
 			"xpos" "0"
-            "ypos" "31"
-			"wide" "120"
-			"tall" "30"
+            "ypos" "24"
+			"wide" "100"
+			"tall" "25"
 			"image" "replay/thumbnails/speedo/hspeedo_demo"
 		}
         "d1s" {
@@ -21,8 +21,8 @@
 			"xpos" "-1"
             "ypos"  "-1"
             "zpos"  "-1"
-			"wide" "120"
-			"tall" "30"
+			"wide" "100"
+			"tall" "25"
 			"image" "replay/thumbnails/speedo/hspeedo_demo"
             "drawcolor" "Main_Shadow_Transparent"
 			
@@ -31,8 +31,8 @@
         "d2" {
 			"controlName" "CTFImagePanel"
 			"xpos" "0"
-			"wide" "120"
-			"tall" "30"
+			"wide" "100"
+			"tall" "25"
 			"image" "replay/thumbnails/speedo/vspeedo_demo"
 		}
         "d2s" {
@@ -40,8 +40,8 @@
 			"xpos" "-1"
             "ypos"  "-1"
             "zpos"  "-1"
-			"wide" "120"
-			"tall" "30"
+			"wide" "100"
+			"tall" "25"
 			"image" "replay/thumbnails/speedo/vspeedo_demo"
             "drawcolor" "Main_Shadow_Transparent"
 			
