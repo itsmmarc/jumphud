@@ -65,6 +65,11 @@
 			"DefaultBGColor_Override"				"Blank"
 			"ArmedBGColor_Override"					"TransparentLightBlack"
 			"DepressedBGColor_Override"				"TransparentLightBlack"
+
+            "DefaultFGColor_Override"				"White"
+			"ArmedFGColor_Override"					"White"
+			"DepressedFGColor_Override"				"White"
+            
 		}
 		"MannUPBG"
 		{
@@ -157,6 +162,10 @@
 			"DefaultBGColor_Override"				"Blank"
 			"ArmedBGColor_Override"					"TransparentLightBlack"
 			"DepressedBGColor_Override"				"TransparentLightBlack"
+
+            "DefaultFGColor_Override"				"White"
+			"ArmedFGColor_Override"					"White"
+			"DepressedFGColor_Override"				"White"
 		}
 		"PracticeBG"
 		{
