@@ -16,6 +16,6 @@
 	}
 	"CSecondaryTargetID"
 	{
-		"ypos"										"c130"
+		"ypos"										"c180"
 	}
 }

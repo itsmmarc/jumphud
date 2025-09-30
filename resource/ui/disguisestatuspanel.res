@@ -52,7 +52,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"DisguiseNameLabel"
-		"XPos"										"-5"
+		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"1"
 		"Wide"										"f0"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"WeaponNameLabel"
-		"XPos"										"-5"
+		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"1"
 		"Wide"										"f0"
