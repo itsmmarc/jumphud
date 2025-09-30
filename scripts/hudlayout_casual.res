@@ -8,7 +8,7 @@
 
     "CMainTargetID"
 	{
-		"ypos"										"c48"
+		"ypos"										"c45"
 	}
 	"CSpectatorTargetID"
 	{
@@ -16,6 +16,6 @@
 	}
 	"CSecondaryTargetID"
 	{
-		"ypos"										"c180"
+		"ypos"										"c3"
 	}
 }

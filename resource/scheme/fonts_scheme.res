@@ -1794,7 +1794,7 @@
                 "1"
                 {
                     "name"										"Steelfish"
-                    "Tall"										"20"
+                    "Tall"										"18"
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
@@ -1803,10 +1803,10 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish"
+                    "name"										"Steelfish ExtBd"
                     "Tall"										"20"
                     "antialias"									"1"
-                    //"dropshadow"								"1"
+                    "dropshadow"								"1"
                 }
             }
             "TargetID_Big"

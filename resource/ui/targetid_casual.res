@@ -71,9 +71,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"TargetID"
+		"font"			"TargetID_small"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"6969"
 		"tall"			"35"
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelS"
-		"font"			"TargetID"
+		"font"			"TargetID_small"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -111,9 +111,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"JumpHUD_Secondary_Font_Shadow"
+		"font"			"TargetID_data"
 		"xpos"			"8"
-		"ypos"			"31"
+		"ypos"			"26"
 		"zpos"			"1"
 		"wide"			"6969"
 		"tall"			"20"

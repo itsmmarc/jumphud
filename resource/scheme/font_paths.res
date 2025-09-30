@@ -208,6 +208,11 @@ Scheme
             "font"      "resource/scheme/fonts/nk57-monospace.cdrg-regular.otf"
             "name"      "NK57 Monospace Cd Rg"
         }
+        "17"
+        {
+            "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
+            "name"      "Steelfish ExtBd"
+        }
         //icon fonts
         "101"
 		{
