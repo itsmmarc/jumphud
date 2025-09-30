@@ -17,7 +17,7 @@ event HudHealthBonusPulseShadow
 	Animate HealthValue_Target						FGColor		"Health_Buff_Target"				Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValue_Spec						FGColor		"Health_Buff_Spectator"				Linear	0.0		0.0
+	Animate PlayerStatusHealthValueID						FGColor		"Health_Buff"				Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Killer_Shadow				FGColor		"Health_Buff_Killer"				Linear	0.0		0.0
@@ -49,7 +49,7 @@ event HudHealthBonusPulseStopShadow
 	Animate HealthValue_Target						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValue_Spec						FGColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate PlayerStatusHealthValueID						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
@@ -78,7 +78,7 @@ event HudHealthDyingPulseShadow
 	Animate HealthValue_Target						FGColor		"Health_Hurt_Target"				Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValue_Spec						FGColor		"Health_Hurt_Spectator"				Linear	0.0		0.0
+	Animate PlayerStatusHealthValueID						FGColor		"Health_Hurt"				Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Killer_Shadow				FGColor		"Health_Hurt_Killer"				Linear	0.0		0.0
@@ -109,7 +109,7 @@ event HudHealthDyingPulseStopShadow
 	Animate HealthValue_Target						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
-	Animate HealthValue_Spec						FGColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate PlayerStatusHealthValueID						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
