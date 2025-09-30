@@ -70,7 +70,7 @@
 		"Background_Main"									"17 20 20 200"
 		"Background_Dark"									"16 17 17 255"
 		"Background_Darkest"								"15 15 15 255"
-		"Background_Bright"									"65 65 65 255"
+		"Background_Bright"									"68 68 68 200"
 		
 		//BUTTONS
 		"Button_Bright"										"16 17 17 255"

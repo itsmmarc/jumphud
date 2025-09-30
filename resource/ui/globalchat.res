@@ -6,7 +6,7 @@
 		"Visible"									"1"
 		"Enabled"									"1"
 		"XPos"										"0"
-		"YPos"										"10"
+		"YPos"										"20"
 		"ZPos"										"9999"
 		"Wide"										"228"
 		"Tall"										"140"
@@ -14,7 +14,7 @@
 		"KeyboardInputEnabled"						"1"
 		"MouseInputEnabled"							"1"
 		"Border"									"NoBorder"
-		"BGColor_Override"							"Black"
+		"BGColor_Override"							"Background_Main"
 
 		"log_font_small"							"HudFontSmallest"
 		"log_font_medium"							"HudFontSmallest"

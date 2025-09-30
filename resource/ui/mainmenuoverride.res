@@ -6,6 +6,19 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
+    "ChatPin"
+    {
+        "ControlName"    "Panel"
+        "ypos"            "s-1+3"
+        "xpos"            "s-1"
+    }
+
+    "partychat"
+    {
+        "pin_to_sibling"    "ChatPin"
+        "pin_to_sibling_corner"    "3"
+    }
+    
 	"MainMenuOverride"
 	{
 		"FieldName"									"MainMenuOverride"
