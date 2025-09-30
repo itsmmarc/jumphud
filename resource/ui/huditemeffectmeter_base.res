@@ -12,22 +12,22 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	"ItemEffectMeterLabel" // disabled
+	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"ItemEffectMeterLabel"
 		"XPos"										"cs-0.5"
-		"YPos"										"rs1"
+		"YPos"										"rs1-4"
 		"ZPos"										"3"
 		"Wide"										"f0"
 		"Tall"										"f0"
-		"Visible"									"0"
+		"Visible"									"1"
 		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_Ball"
 		"TextAlignment"								"south"
-		"Font"										"ScoreboardVerySmall"
-		"DisabledFGColor2_Override"					"White"
+		"Font"										"ItemMeterFont"
+		"DisabledFGColor2_Override"					"TransparentBlack"
 	}
 	"ItemEffectMeter"
 	{

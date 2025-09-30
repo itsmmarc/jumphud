@@ -1799,6 +1799,16 @@
                     //"dropshadow"								"1"
                 }
             }
+            "TargetID_Data"
+            {
+                "1"
+                {
+                    "name"										"Steelfish"
+                    "Tall"										"20"
+                    "antialias"									"1"
+                    //"dropshadow"								"1"
+                }
+            }
             "TargetID_Big"
             {
                 "1"
@@ -3027,6 +3037,7 @@
                     "dropshadow"                                "1"
                 }
             }
+            
             //techno additional custom fonts
             "DamageFont"
             {
@@ -3038,6 +3049,18 @@
                     "additive"									"0"
                     "antialias"									"1"
                     "dropshadow"								"1"
+                }
+            }
+            "ItemMeterFont"
+            {
+            "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"6"
+                    "weight"									"0"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"0"
                 }
             }
 	}
