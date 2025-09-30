@@ -7,8 +7,8 @@ event HudMedicChargedShadow
 	Animate ChargeLabel								FGColor		"Ubercharge_Full"					Linear	0.0		0.0
 
 	// BIG UBER LABEL -------------------------------------------------------------------------------------------------------
-	Animate ChargeLabelBig							FGColor		"Ubercharge"						Linear	0.0		0.0
-	Animate ChargeLabelBigShadow					FGColor		"Ubercharge_Shadow_Full"			Linear	0.0		0.0
+	Animate ChargeLabelBig							FGColor		"Ubercharge_Full"						Linear	0.0		0.0
+	//Animate ChargeLabelBigShadow					FGColor		"Ubercharge_Shadow_Full"			Linear	0.0		0.0
 	Animate ChargeLabelBigShadowExtra				Alpha		"255"								Linear	0.0		0.0
 
 	// UBER METER -----------------------------------------------------------------------------------------------------------
@@ -30,7 +30,7 @@ event HudMedicChargedStopShadow
 
 	// BIG UBER LABEL -------------------------------------------------------------------------------------------------------
 	Animate	ChargeLabelBig							FGColor		"Ubercharge"						Linear	0.0		0.0001
-	Animate	ChargeLabelBigShadow					FGColor		"Main_Shadow_Transparent"			Linear	0.0		0.0001
+	//Animate	ChargeLabelBigShadow					FGColor		"Main_Shadow_Transparent"			Linear	0.0		0.0001
 	Animate ChargeLabelBigShadowExtra				Alpha		"0"									Linear	0.0		0.0001
 
 	// UBER METER -----------------------------------------------------------------------------------------------------------

@@ -22,9 +22,9 @@
 	}
 
 	//==================================================================================================================================================
-	// UNDER CROSSHAIR SMALL UBER PERCENTAGE
+	// UNDER CROSSHAIR SMALL UBER PERCENTAGE    // disabled
 	//==================================================================================================================================================
-	"ChargeLabel"
+	"ChargeLabel"   // disabled
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabel"
@@ -50,16 +50,17 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabelBig"
-		"xpos"										"5"
+		"xpos"										"-14"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"200"
+		"wide"										"80"
 		"tall"										"80"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
+        "textinsetx"    "10"
 		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
+		"textAlignment"								"east"
 		"font"										"JumpHUD_Main_Font"
 		"fgcolor"									"Ubercharge"
 
@@ -74,13 +75,14 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"2"
-		"wide"										"200"
+		"wide"										"80"
 		"tall"										"80"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
+        "textinsetx"    "10"
 		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
+		"textAlignment"								"east"
 		"font"										"JumpHUD_Main_Font"
 		"fgcolor"									"Main_Shadow_Transparent"
 
