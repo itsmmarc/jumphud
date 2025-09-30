@@ -13,13 +13,13 @@
 		//----------------------------------------------------------------------------------
 		"Health_Numbers"									"255 255 255 255"
 
-		"Health_Buff"										"0 185 0 200"
+		"Health_Buff"										"56 228 176 255"
 		"Health_Shadow_Buff"								"0 185 0 200"
 		"Health_Buff_Target"								"0 215 0 200"
 		"Health_Buff_Spectator"								"0 215 0 200"
 		"Health_Buff_Killer"								"0 215 0 200"
 
-		"Health_Hurt"										"255 0 0 200"
+		"Health_Hurt"										"228 56 56 255"
 		"Health_Shadow_Hurt"								"255 0 0 200"
 		"Health_Hurt_Target"								"255 255 255 255"
 		"Health_Hurt_Spectator"								"255 0 0 200"

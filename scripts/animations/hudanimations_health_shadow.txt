@@ -9,9 +9,9 @@ event HudHealthBonusPulseShadow
 	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthBonusBG				Alpha		"200"								Linear	0.0		0.0
 	Animate	PlayerStatusHealthBonusCross			Alpha		"255"								Linear	0.0		0.0
-	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FGColor		"Health_Shadow_Buff"				Linear	0.0		0.0
-	Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
+	Animate HealthValue								FGColor		"Health_Buff"					Linear	0.0		0.0
+	//Animate HealthValue_Shadow						FGColor		"Health_Shadow_Buff"				Linear	0.0		0.0
+	//Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Target						FGColor		"Health_Buff_Target"				Linear	0.0		0.0
@@ -42,8 +42,8 @@ event HudHealthBonusPulseStopShadow
 	Animate	PlayerStatusHealthBonusBG				Alpha		"0"									Linear	0.0		0.0
 	Animate	PlayerStatusHealthBonusCross			Alpha		"0"									Linear	0.0		0.0
 	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
-	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
+	//Animate HealthValue_Shadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
+	//Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Target						FGColor		"Health_Numbers"					Linear	0.0		0.0
@@ -70,9 +70,9 @@ event HudHealthDyingPulseShadow
 	// NORMAL HEALTH --------------------------------------------------------------------------------------------------------
 	Animate	PlayerStatusHealthDyingBG				Alpha		"200"								Linear	0.0		0.0
 	Animate	PlayerStatusHealthDyingCross			Alpha		"255"								Linear	0.0		0.0
-	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FGColor		"Health_Shadow_Hurt"				Linear	0.0		0.0
-	Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
+	Animate HealthValue								FGColor		"Health_Hurt"					Linear	0.0		0.0
+	//Animate HealthValue_Shadow						FGColor		"Health_Shadow_Hurt"				Linear	0.0		0.0
+	//Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Target						FGColor		"Health_Hurt_Target"				Linear	0.0		0.0
@@ -102,8 +102,8 @@ event HudHealthDyingPulseStopShadow
 	Animate	PlayerStatusHealthDyingBG				Alpha		"0"									Linear	0.0		0.0
 	Animate	PlayerStatusHealthDyingCross			Alpha		"0"									Linear	0.0		0.0
 	Animate HealthValue								FGColor		"Health_Numbers"					Linear	0.0		0.0
-	Animate HealthValue_Shadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
-	Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
+	//Animate HealthValue_Shadow						FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
+	//Animate HealthValue_Shadow_Extra				Alpha		"0"									Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
 	Animate HealthValue_Target						FGColor		"Health_Numbers"					Linear	0.0		0.0

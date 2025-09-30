@@ -251,7 +251,7 @@
 
 		"Pin_To_Sibling"							"HealthValue"
 	}
-	"HealthValue_Shadow_Extra"
+	"HealthValue_Shadow_Extra"  // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"HealthValue_Shadow_Extra"
@@ -260,8 +260,8 @@
 		"ZPos"										"5"
 		"Wide"										"150"
 		"Tall"										"80"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
 		"Font"										"JumpHUD_Main_Font"
@@ -280,7 +280,7 @@
 		"Wide"										"150"
 		"Tall"										"80"
 		"Visible"									"0"
-		"Enabled"									"1"
+		"Enabled"									"0"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
 		"Font"										"m0refont32"
