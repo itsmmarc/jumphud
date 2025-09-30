@@ -85,6 +85,27 @@
 		"textAlignment"		"West"
 		"proportionaltoparent"	"1"
 	}
+    "TargetNameLabelS"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabelS"
+		"font"			"TargetID"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"640"
+		"tall"			"35"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"0"
+		"labelText"		"%targetname%"
+        "TextColor" "Main_Shadow_Transparent"
+        "alpha" "200"
+		"textAlignment"		"West"
+		"proportionaltoparent"	"1"
+        "pin_to_sibling"    "targetnamelabel"
+	}
 	
 	"TargetDataLabel"
 	{	
@@ -95,7 +116,7 @@
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"280"
-		"tall"			"14"
+		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
