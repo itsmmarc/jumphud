@@ -36,7 +36,7 @@
 		"TextAlignment"								"east"
 		"LabelText"									"%bluescore%"
 		"Font"										"m0refont36"
-		"FGColor"									"HUDBlueTeamSolid"
+		"FGColor"									"Blue"
 
 		"if_hybrid"
 		{
@@ -144,7 +144,7 @@
 		"TextAlignment"								"west"
 		"LabelText"									"%redscore%"
 		"Font"										"m0refont36"
-		"FGColor"									"HUDRedTeamSolid"
+		"FGColor"									"Red"
 
 		"if_hybrid"
 		{
