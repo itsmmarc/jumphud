@@ -3,6 +3,8 @@
 	"CDamageAccountPanel"
 	{
 		"fieldName"									"CDamageAccountPanel"
+        "xpos"  "0"
+        "ypos"  "-20"
 		"text_x"									"0"
 		"text_y"									"0"
 		"delta_item_end_y"							"0"
