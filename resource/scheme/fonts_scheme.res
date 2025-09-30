@@ -1809,6 +1809,16 @@
                     "dropshadow"								"1"
                 }
             }
+            "DisguiseStatus_Data"
+            {
+                "1"
+                {
+                    "name"										"Steelfish ExtBd"
+                    "Tall"										"16"
+                    "antialias"									"1"
+                    "dropshadow"								"1"
+                }
+            }
             "TargetID_Big"
             {
                 "1"
