@@ -497,6 +497,23 @@
 			"LabelText"								":"
 			"TextAlignment"							"center"
 		}
+        "K/DS"   // colon between kills and deaths shadow
+		{
+			"ControlName"							"CExLabel"
+			"FieldName"								"K/DS"
+			"XPos"									"-2"
+			"YPos"									"-2"
+			"Wide"									"10"
+			"Tall"									"35"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+			"Font"									"m0refont48"
+			"FGColor"								"Main_Shadow_Transparent"
+			"LabelText"								":"
+			"TextAlignment"							"center"
+            "Pin_To_Sibling"						"K/D"
+		}
 		"Kills"
 		{
 			"ControlName"							"CExLabel"
@@ -507,7 +524,7 @@
 			"Wide"									"100"
 			"Tall"									"35"
 			"Visible"								"1"
-			"Enabled"								"1"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"m0refont48"
 			"DisabledFGColor2_Override"				"White"
@@ -517,6 +534,24 @@
 			"Pin_To_Sibling"						"K/D"
 			"Pin_Corner_To_Sibling"					"PIN_TOPRIGHT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPLEFT"
+		}
+        "KillsS"    // kills shadow
+		{
+			"ControlName"							"CExLabel"
+			"FieldName"								"KillsS"
+			"XPos"									"-2"
+			"YPos"									"-2"
+			"Wide"									"100"
+			"Tall"									"35"
+			"Visible"								"1"
+			"Enabled"								"0"
+			"ProportionalToParent"					"1"
+			"Font"									"m0refont48"
+			"DisabledFGColor2_Override"				"Main_Shadow_Transparent"
+			"LabelText"								"%kills%"
+			"TextAlignment"							"east"
+
+			"Pin_To_Sibling"						"Kills"
 		}
 		"Deaths"
 		{
@@ -528,7 +563,7 @@
 			"Wide"									"100"
 			"Tall"									"35"
 			"Visible"								"1"
-			"Enabled"								"1"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"m0refont48"
 			"DisabledFGColor2_Override"				"White"
@@ -538,6 +573,24 @@
 			"Pin_To_Sibling"						"K/D"
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
+		}
+        "DeathsS"   // deaths shadow
+		{
+			"ControlName"							"CExLabel"
+			"FieldName"								"DeathsS"
+			"XPos"									"-2"
+			"YPos"									"-2"
+			"Wide"									"100"
+			"Tall"									"35"
+			"Visible"								"1"
+			"Enabled"								"0"
+			"ProportionalToParent"					"1"
+			"Font"									"m0refont48"
+			"DisabledFGColor2_Override"				"Main_Shadow_Transparent"
+			"LabelText"								"%deaths%"
+			"TextAlignment"							"west"
+
+			"Pin_To_Sibling"						"Deaths"
 		}
 		"AssistsLabel" // disabled
 		{
