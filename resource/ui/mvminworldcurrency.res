@@ -9,8 +9,8 @@
 		"ZPos"										"0"
 		"Wide"										"f0"
 		"Tall"										"f0"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
@@ -30,7 +30,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont18"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"49 150 66 255"
 	}
 	"CurrencyBad"
@@ -47,7 +47,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont18"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"Health_Hurt"
 	}
 	"CurrencyShadow"
@@ -64,7 +64,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont18"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"Black"
 	}
 

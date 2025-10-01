@@ -284,7 +284,7 @@
 
 		"PaintBackgroundType"						"2"
 	}
-	"CurrencyStatusPanel"
+	"CurrencyStatusPanel"   // mvm total credits
 	{
 		"ControlName"								"CCurrencyStatusPanel"
 		"fieldName"									"CurrencyStatusPanel"
