@@ -3,4 +3,4 @@
 // copy the file from the folder of the aspect ratio you want to use into the SELECTED folder
 
 //16:9
-#base "../resource/ui/customization/classloadout_bg/classloadout_16x9.res"
+#base "../../resource/ui/customization/classloadout_bg/classloadout_16x9.res"

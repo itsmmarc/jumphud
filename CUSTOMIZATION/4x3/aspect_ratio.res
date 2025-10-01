@@ -3,4 +3,4 @@
 // copy the file from the folder of the aspect ratio you want to use into the SELECTED folder
 
 //4:3
-#base "../resource/ui/customization/classloadout_bg/classloadout_4x3.res"
+#base "../../resource/ui/customization/classloadout_bg/classloadout_4x3.res"
