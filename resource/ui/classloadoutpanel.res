@@ -1,5 +1,5 @@
 #base "../dev/reload_scheme.res"
-#base "../../_aspectratio/classloadout.res"
+#base "../../CUSTOMIZATION/SELECTED/aspect_ratio.res"
 "Resource/UI/ClassLoadoutPanel.res"
 {
 	//this is missing the ypos because its set by the classloadout.res aspect ratio override.
