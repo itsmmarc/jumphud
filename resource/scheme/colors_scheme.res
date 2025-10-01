@@ -177,7 +177,7 @@
 		"HudBlack"											"65 65 65 255"
 		"ProgressBarBlue"									"90 122 143 255"
 
-		"CreditsGreen"										"94 150 49 255"
+		"CreditsGreen"										"49 150 66 255"
 
 		"Gray"												"174 178 178 255"
 

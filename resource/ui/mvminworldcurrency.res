@@ -31,7 +31,7 @@
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
 		"Font"										"m0refont18"
-		"FGColor"									"White"
+		"FGColor"									"49 150 66 255"
 	}
 	"CurrencyBad"
 	{
@@ -48,7 +48,7 @@
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
 		"Font"										"m0refont18"
-		"FGColor"									"Red"
+		"FGColor"									"Health_Hurt"
 	}
 	"CurrencyShadow"
 	{
