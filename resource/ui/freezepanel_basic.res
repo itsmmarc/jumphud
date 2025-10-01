@@ -25,7 +25,7 @@
 			"XPos"									"0"
 			"YPos"									"cs-0.5+9"
 			"ZPos"									"0"
-			"Wide"									"f2"
+			"Wide"									"240"
 			"Tall"									"1"
 			"Visible"								"1"
 			"Enabled"								"1"
