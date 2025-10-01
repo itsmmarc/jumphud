@@ -64,7 +64,7 @@
 		"ControlName"								"Panel"
 		"FieldName"									"ClassesAnchor"
 		"XPos"										"cs-0.5"
-		"YPos"										"r200"
+		"YPos"										"cs-0.5-40"
         "zpos"  "15"
 		"Wide"										"1"
 		"Tall"										"1"
@@ -359,7 +359,7 @@
             "ControlName"								"CExImageButton"
             "FieldName"									"Pyro"
             "XPos"										"0"
-            "YPos"										"0"
+            "YPos"										"10"
             "ZPos"										"10"
             "Wide"										"78"
             "Tall"										"78"
@@ -380,9 +380,9 @@
             "DepressedFGColor_Override"					"98 219 220 255"
             "selectedFGColor_override"					"98 219 220 255"
 
-            "Pin_To_Sibling"							"Demoman"
-            "pin_corner_to_sibling" "PIN_CENTER_RIGHT"
-            "pin_to_sibling_corner" "PIN_CENTER_LEFT"
+            "Pin_To_Sibling"							"Engineer"
+            "pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+            "pin_to_sibling_corner" "PIN_CENTER_TOP"
         }
         "NumPyro"
         {
@@ -631,7 +631,7 @@
             "ControlName"								"CExImageButton"
             "FieldName"									"Medic"
             "XPos"										"0"
-            "YPos"										"0"
+            "YPos"										"10"
             "ZPos"										"10"
             "Wide"										"78"
             "Tall"										"78"
@@ -652,9 +652,9 @@
             "DepressedFGColor_Override"					"98 219 220 255"
             "selectedFGColor_override"					"98 219 220 255"
 
-            "Pin_To_Sibling"							"Engineer"
-            "pin_corner_to_sibling" "PIN_CENTER_LEFT"
-            "pin_to_sibling_corner" "PIN_CENTER_RIGHT"
+            "Pin_To_Sibling"							"Demoman"
+            "pin_corner_to_sibling" "PIN_CENTER_TOP"
+            "pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
         }
         "NumMedic"
         {
