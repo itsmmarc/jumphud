@@ -2,7 +2,7 @@ r_decal_cullsize 1
 
 exec joystick.cfg
 exec autoexec.cfg
-//exec m0re_customization.cfg
+tf_hud_target_id_disable_floating_health 1
 
 stuffcmds
 startupmenu

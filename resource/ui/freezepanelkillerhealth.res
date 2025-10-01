@@ -1,16 +1,16 @@
 "Resource/UI/FreezePanelKillerHealth.res"
 {
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage"  // disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthBonusImage"
 		"XPos"										"cs-0.5"
 		"YPos"										"cs-0.5"
 		"ZPos"										"19"
-		"Wide"										"20"
-		"Tall"										"20"
+		"Wide"										"0"
+		"Tall"										"0"
 		"Visible"									"0"
-		"Enabled"									"1"
+		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 		"Image"										"../hud/health_over_bg"
 		"ScaleImage"								"1"
@@ -29,7 +29,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%Health%"
-		"Font"										"m0refont24"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"Health_Numbers"
 	}
 	"HealthValue_Killer_Shadow"
@@ -46,31 +46,31 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%Health%"
-		"Font"										"m0refont24"
-		"FGColor"									"Main_Shadow"
+		"Font"										"JumpHUD_Secondary_Font"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"HealthValue_Killer"
 	}
-	"HealthValue_Killer_Shadow_Extra"
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"HealthValue_Killer_Shadow_Extra"
-		"XPos"										"0"
-		"YPos"										"0"
-		"ZPos"										"20"
-		"Wide"										"f-1"
-		"Tall"										"f-1"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"ProportionalToParent"						"1"
-		"TextAlignment"								"center"
-		"LabelText"									"%Health%"
-		"Font"										"m0refont24"
-		"FGColor"									"Extra_Health_Shadow"
-		"Alpha"										"0"
-
-		"Pin_To_Sibling"							"HealthValue_Killer_Shadow"
-	}
+	//"HealthValue_Killer_Shadow_Extra"
+	//{
+	//	"ControlName"								"CExLabel"
+	//	"FieldName"									"HealthValue_Killer_Shadow_Extra"
+	//	"XPos"										"0"
+	//	"YPos"										"0"
+	//	"ZPos"										"20"
+	//	"Wide"										"f-1"
+	//	"Tall"										"f-1"
+	//	"Visible"									"1"
+	//	"Enabled"									"1"
+	//	"ProportionalToParent"						"1"
+	//	"TextAlignment"								"center"
+	//	"LabelText"									"%Health%"
+	//	"Font"										"m0refont24"
+	//	"FGColor"									"Extra_Health_Shadow"
+	//	"Alpha"										"0"
+    //
+	//	"Pin_To_Sibling"							"HealthValue_Killer_Shadow"
+	//}
 
 
 

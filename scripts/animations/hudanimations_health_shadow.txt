@@ -14,14 +14,14 @@ event HudHealthBonusPulseShadow
 	//Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Target						FGColor		"Health_Buff_Target"				Linear	0.0		0.0
+	Animate HealthValue_Target						FGColor		"Health_Buff"				Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
 	Animate PlayerStatusHealthValueID						FGColor		"Health_Buff"				Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FGColor		"Health_Buff_Killer"				Linear	0.0		0.0
-	Animate HealthValue_Killer_Shadow_Extra			Alpha		"255"								Linear	0.0		0.0
+	Animate HealthValue_Killer				FGColor		"Health_Buff"				Linear	0.0		0.0
+	//Animate HealthValue_Killer_Shadow_Extra			Alpha		"255"								Linear	0.0		0.0
 
 	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
 	Animate FullScreen_Buff							Alpha		"80"								Linear	0.0		0.0
@@ -52,8 +52,8 @@ event HudHealthBonusPulseStopShadow
 	Animate PlayerStatusHealthValueID						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
-	Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
+	Animate HealthValue_Killer				FGColor		"Health_Numbers"						Linear	0.0		0.0
+	//Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
 
 	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
 	Animate FullScreen_Buff							Alpha		"0"									Linear	0.0		0.0
@@ -75,14 +75,14 @@ event HudHealthDyingPulseShadow
 	//Animate HealthValue_Shadow_Extra				Alpha		"255"								Linear	0.0		0.0
 
 	// TARGET HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Target						FGColor		"Health_Hurt_Target"				Linear	0.0		0.0
+	Animate HealthValue_Target						FGColor		"Health_Hurt"				Linear	0.0		0.0
 
 	// SPECTATOR HEALTH -----------------------------------------------------------------------------------------------------
 	Animate PlayerStatusHealthValueID						FGColor		"Health_Hurt"				Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FGColor		"Health_Hurt_Killer"				Linear	0.0		0.0
-	Animate HealthValue_Killer_Shadow_Extra			Alpha		"255"								Linear	0.0		0.0
+	Animate HealthValue_Killer				FGColor		"Health_Hurt"				Linear	0.0		0.0
+	//Animate HealthValue_Killer_Shadow_Extra			Alpha		"255"								Linear	0.0		0.0
 
 	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
 	Animate FullScreen_Hurt							Alpha		"80"								Linear	0.0		0.0
@@ -112,8 +112,8 @@ event HudHealthDyingPulseStopShadow
 	Animate PlayerStatusHealthValueID						FGColor		"Health_Numbers"					Linear	0.0		0.0
 
 	// KILLER HEALTH --------------------------------------------------------------------------------------------------------
-	Animate HealthValue_Killer_Shadow				FGColor		"Main_Shadow_Transparent"						Linear	0.0		0.0
-	Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
+	Animate HealthValue_Killer				FGColor		"Health_Numbers"						Linear	0.0		0.0
+	//Animate HealthValue_Killer_Shadow_Extra			Alpha		"0"									Linear	0.0		0.0
 
 	// FULLSCREEN -----------------------------------------------------------------------------------------------------------
 	Animate FullScreen_Hurt							Alpha		"0"									Linear	0.0		0.0
