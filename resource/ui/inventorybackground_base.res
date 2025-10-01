@@ -1,12 +1,12 @@
-// 16:9 loadout custom background
-"Resource/customization/classloadoutpanel_bg.res"
+// 4:3 loadout custom background
+"Resource/customization/inventorybackground_base.res"
 {
 	"LoadoutCustomBackground"
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"LoadoutCustomBackground"
 		"XPos"										"0"
-		"YPos"										"-38" //
+		//"YPos"										"-34"
 		"ZPos"										"-3"
 		"Wide"										"854"
 		"Tall"										"480"
