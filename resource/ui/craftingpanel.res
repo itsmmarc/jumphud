@@ -1,5 +1,6 @@
 #base "../dev/reload_scheme.res"
 #base "inventorybackground_base.res"
+#base "../../CUSTOMIZATION/aspect_ratio.res"
 
 "Resource/UI/CraftingPanel.res"
 {
