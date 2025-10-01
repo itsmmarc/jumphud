@@ -201,21 +201,13 @@
 				"weight"	"0"
 			}
 		}
-		"UiBold"
+		"UiBold"    // console/server browser title
 		{
-			"1"	[$WIN32]
+			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"12"
-				"weight"	"1000"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"weight"	"2000"
-				"outline"	"1"
+				"name"		"Coolvetica Italic"
+				"tall"		"18"
+				"weight"	"200"
 			}
 		}
 		"ChapterTitle"	[$X360]
