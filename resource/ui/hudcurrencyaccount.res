@@ -30,7 +30,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont16"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 	}
 	"CurrencyShadow"
@@ -47,7 +47,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont16"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"Black"
 		"Pin_To_Sibling"							"Currency"
 	}
