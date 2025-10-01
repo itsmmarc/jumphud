@@ -26,12 +26,6 @@
 	// UBERCHARGE ANIMATION
 	//===============================================================
 	"file" "scripts/animations/hudanimations_uber_shadow.txt"
-	
-	//===============================================================
-	// CROSSHAIR & HITMARKER FLASH ANIMATION
-	//===============================================================
-	"file" "scripts/animations/hudanimations_crosshairs.txt"
-	"file" "scripts/animations/hudanimations_hitmarker.txt"
 
 	//===============================================================
 	// OTHER ANIMATIONS

@@ -414,14 +414,6 @@
 		"DashHeight"								"4"
 		"BorderThickness"							"88"
 	}
-	"HudCrosshair"
-	{
-		"fieldName"									"HudCrosshair"
-		"visible"									"1"
-		"enabled"									"1"
-		"wide"										"640"
-		"tall"										"480"
-	}
 	"HudDeathNotice"
 	{
 		"fieldName"									"HudDeathNotice"
