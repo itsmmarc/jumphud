@@ -3061,12 +3061,24 @@
                     "dropshadow"								"1"
                 }
             }
-            "ItemMeterFont"
+            "LabelsFont"
             {
             "1"
                 {
                     "name"										"Coolvetica Italic"
                     "Tall"										"6"
+                    "weight"									"0"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"0"
+                }
+            }
+            "LabelsFontLarge"
+            {
+            "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"8"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"

@@ -26,7 +26,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_Ball"
 		"TextAlignment"								"center"
-		"Font"										"ScoreboardVerySmall"
+		"Font"										"LabelsFontLarge"
 		"FGColor"									"White"
 	}
 	"ItemEffectMeterCount"

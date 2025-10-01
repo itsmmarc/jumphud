@@ -26,7 +26,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_Ball"
 		"TextAlignment"								"south"
-		"Font"										"ItemMeterFont"
+		"Font"										"LabelsFont"
 		"DisabledFGColor2_Override"					"TransparentBlack"
 	}
 	"ItemEffectMeter"
