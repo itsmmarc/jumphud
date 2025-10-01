@@ -288,8 +288,8 @@
 	{
 		"ControlName"								"CCurrencyStatusPanel"
 		"fieldName"									"CurrencyStatusPanel"
-		"xpos"										"c-204"
-		"ypos"										"rs1"
+		"xpos"										"rs1"
+		"ypos"										"ls1"
 		"wide"										"60"
 		"tall"										"18"
 		"visible"									"0"

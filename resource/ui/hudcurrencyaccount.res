@@ -14,7 +14,7 @@
 		"ProportionalToParent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"BGcolor_Override"							"CreditsGreen"
+		"BGcolor_Override"							"TransparentLightBlack"
 	}
 	"Currency"
 	{
@@ -30,7 +30,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont12"
+		"Font"										"m0refont16"
 		"FGColor"									"White"
 	}
 	"CurrencyShadow"
@@ -47,7 +47,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont12"
+		"Font"										"m0refont16"
 		"FGColor"									"Black"
 		"Pin_To_Sibling"							"Currency"
 	}

@@ -21,7 +21,7 @@
 		"ControlName"								"CExLabel"
 		"FieldName"									"CurrencyGood"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"1"
 		"ZPos"										"4"
 		"Wide"										"f0"
 		"Tall"										"f1"
@@ -30,7 +30,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont12"
+		"Font"										"m0refont18"
 		"FGColor"									"White"
 	}
 	"CurrencyBad"
@@ -38,7 +38,7 @@
 		"ControlName"								"CExLabel"
 		"FieldName"									"CurrencyBad"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"1"
 		"ZPos"										"4"
 		"Wide"										"f0"
 		"Tall"										"f1"
@@ -47,7 +47,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont12"
+		"Font"										"m0refont18"
 		"FGColor"									"Red"
 	}
 	"CurrencyShadow"
@@ -55,7 +55,7 @@
 		"ControlName"								"CExLabel"
 		"FieldName"									"CurrencyShadow"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"1"
 		"ZPos"										"3"
 		"Wide"										"f-1"
 		"Tall"										"f0"
@@ -64,7 +64,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"m0refont12"
+		"Font"										"m0refont18"
 		"FGColor"									"Black"
 	}
 
