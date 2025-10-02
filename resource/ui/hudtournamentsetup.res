@@ -18,7 +18,7 @@
 		"roundedcorners"							"0"
 		"proportionaltoparent"						"1"
 		"font"										"m0refont11"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"Health_Buff"
 		"bgcolor_override"							"0 0 0 100"
 		"labelText"									"%teamname%"
 		"textAlignment"								"center"
