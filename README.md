@@ -60,16 +60,27 @@ Stripped down HUD designed to give you the ability to display exactly as much in
 
 ## Customization
 
-Change the speedo colour by editing `speedocolor.cfg` in `jumphud/cfg`.
+Swap the HUD into Casual Mode by clicking the logo on the main menu. (insert image here)
 
-Use `cl_hud_minmode 1` to hide health value and center ammo count.
+Use `cl_hud_minmode 1` or the button on the pause menu to hide health value and center ammo count. (Only works in Jump Mode)
 
 Toggle Tempus HUD, Speedos, and Chat using the buttons on the pause menu.
+
+Adjust the item menu background to your resolution by editing `CUSTOMIZATION/aspect_ratio.res`
+
+Edit and enable a custom HUD crosshair by editing `CUSTOMIZATION/crosshair.res`
+
+Change the speedo colour by editing `cfg/speedocolor.cfg`.
 
 ![Soldier Preview](/screenshots/soldier_apng.png)
 
 ![Demo Preview](/screenshots/demo_apng.png)
 
+## Recommended Addons
+
+Elandi's custom Tempus sprays https://github.com/Elandi-rj/sprays
+
+ghytd's custom Stickybomb particles https://gamebanana.com/mods/403012
 
 ## Common Issues:
 
@@ -77,13 +88,11 @@ Speedos won't be recoloured or repositioned until one of the speedo buttons on t
 
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
 
-*If you run into any other problems, please create a new issue on the github repository or message me on Discord @itsmmarc.*
+*If you run into any other problems, please leave a message in the [Discord](https://discord.gg/s6yJMGecMZ).*
 
 ## FAQ
 
-### Can I use this on casual?
 
-Not yet, since this is my first HUD I decided to keep the scope small and focus just on jump for now. The plan is to add casual support with the next major update.
 
 ***
 
