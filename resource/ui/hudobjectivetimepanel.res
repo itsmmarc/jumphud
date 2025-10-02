@@ -1,4 +1,4 @@
-"Resource/UI/HudObjectiveTimePanel_Base.res"
+"Resource/UI/HudObjectiveTimePanel.res"
 {
 	"TimePanelBG"
 	{
@@ -7,7 +7,7 @@
 		"XPos"										"cs-0.5"
 		"YPos"										"0"
 		"ZPos"										"2"
-		"Wide"										"f0"
+		"Wide"										"40"
 		"Tall"										"12"
 		"Visible"									"1"
 		"Enabled"									"1"
@@ -31,7 +31,7 @@
 		"XPos"										"cs-0.5"
 		"YPos"										"14"
 		"ZPos"										"3"
-		"Wide"										"f0"
+		"Wide"										"40"
 		"Tall"										"15"
 		"Visible"									"1"
 		"Enabled"									"1"
@@ -53,7 +53,7 @@
 		"XPos"										"cs-0.5"
 		"YPos"										"15"
 		"ZPos"										"2"
-		"Wide"										"f0"
+		"Wide"										"40"
 		"Tall"										"0"
 		"Visible"									"1"
 		"Enabled"									"1"
@@ -66,7 +66,78 @@
 		}
 	}
 
-
+    "WaitingForPlayersLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"WaitingForPlayersLabel"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#game_WaitingForPlayers"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"			"0"
+		"font"			"m0refont12Shadow"
+	}
+    "OvertimeLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"OvertimeLabel"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#game_Overtime"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"			"0"
+		"font"			"m0refont12Shadow"
+	}
+    "SuddenDeathLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"SuddenDeathLabel"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#game_SuddenDeath"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"			"0"
+		"font"			"m0refont12Shadow"
+	}
+    "SetupLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"SetupLabel"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#game_Setup"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"			"0"
+		"font"			"m0refont12Shadow"
+	}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
@@ -83,17 +154,7 @@
 		"Visible"									"0"
 		"Enabled"									"0"
 	}
-	"WaitingForPlayersLabel"
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"WaitingForPlayersLabel"
-		"XPos"										"9999"
-		"YPos"										"9999"
-		"Wide"										"0"
-		"Tall"										"0"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
+	
 	"WaitingForPlayersBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -105,17 +166,7 @@
 		"Visible"									"0"
 		"Enabled"									"0"
 	}
-	"OvertimeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"OvertimeLabel"
-		"XPos"										"9999"
-		"YPos"										"9999"
-		"Wide"										"0"
-		"Tall"										"0"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
+	
 	"OvertimeBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -127,17 +178,7 @@
 		"Visible"									"0"
 		"Enabled"									"0"
 	}
-	"SuddenDeathLabel"
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"SuddenDeathLabel"
-		"XPos"										"9999"
-		"YPos"										"9999"
-		"Wide"										"0"
-		"Tall"										"0"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
+	
 	"SuddenDeathBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -149,17 +190,7 @@
 		"Visible"									"0"
 		"Enabled"									"0"
 	}
-	"SetupLabel"
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"SetupLabel"
-		"XPos"										"9999"
-		"YPos"										"9999"
-		"Wide"										"0"
-		"Tall"										"0"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
+	
 	"SetupBG"
 	{
 		"ControlName"								"CTFImagePanel"

@@ -116,14 +116,14 @@
 		"Visible"									"1"
 		"Enabled"									"1"
 	}
-	"ObjectiveStatusTimePanel"
+	"ObjectiveStatusTimePanel"  // HudObjectiveTimePanel
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"ObjectiveStatusTimePanel"
 		"XPos"										"cs-0.5"
 		"YPos"										"1"
 		"ZPos"										"5"
-		"Wide"										"40"
+		"Wide"										"100"
 		"Tall"										"40"
 		"Visible"									"1"
 		"Enabled"									"1"
