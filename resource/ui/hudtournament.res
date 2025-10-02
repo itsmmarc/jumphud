@@ -490,6 +490,42 @@
 			"ypos"									"105"
 		}
 	}
+    "TournamentLabel"   // waiting for teams to organize
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"TournamentLabel"
+		"font"			"HudFontSmall"
+		"xpos"			"cs-0.5"
+		"ypos"			"60"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"19"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"200"
+			"visible"		"0"
+		}
+	}
 	"CountdownLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -518,17 +554,6 @@
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudTournamentBGHelp"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TournamentLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TournamentLabel"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"
