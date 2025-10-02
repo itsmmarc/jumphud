@@ -995,7 +995,7 @@
 		"enabled"									"1"
 		"xpos"										"cs-0.5"
 		"ypos"										"32"
-		"wide"										"76"
+		"wide"										"90"
 		"tall"										"25"
 	}
 	"HudStopWatch"
