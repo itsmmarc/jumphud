@@ -1794,6 +1794,16 @@
                 "1"
                 {
                     "name"										"Steelfish"
+                    "Tall"										"16"
+                    "antialias"									"1"
+                    //"dropshadow"								"1"
+                }
+            }
+            "TargetID_Medium"
+            {
+                "1"
+                {
+                    "name"										"Steelfish"
                     "Tall"										"18"
                     "antialias"									"1"
                     //"dropshadow"								"1"
@@ -1804,7 +1814,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "Tall"										"20"
+                    "Tall"										"16"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
