@@ -1,5 +1,7 @@
 // due to how the class loadout panel is designed, the bg might not align properly depending on the aspect ratio
 // replace the YPos value of LoadoutCustomBackground with the value relative to your aspect ratio from the table below
+//
+//  |-----------|-------|
 //  | Resolution| Value |
 //  |-----------|-------|
 //  | 16:9      |       |

@@ -6,9 +6,10 @@
 		// CROSSHAIR VISIBILITY
 		//=========================================================================
 		// "visible" "1" = Enabled  "visible" "0" = Disabled
+        // Use the console command "crosshair 0" to hide the default crosshair
 		//=========================================================================
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
+		"visible"	"1"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
 		
 		//=========================================================================
 		// CROSSHAIR TYPE
@@ -18,7 +19,7 @@
 		// Checkout the different options in the TF2Crosshairs.png
 		//=========================================================================
 		
-		"labelText"	"?"
+		"labelText"	"!"
 		
 		//=========================================================================
 		// CROSSHAIR SIZE & PROPERTIES
@@ -27,7 +28,7 @@
 		// The Outline can be toggled between ON and OFF
 		//=========================================================================
 		
-		"font"		"Size:18 | Outline:OFF"
+		"font"		"Size:15 | Outline:ON"
 		
 		//=========================================================================
 		// CROSSHAIR POSITION
@@ -37,7 +38,7 @@
 		// Adjust the values in order to perfectly center the crosshair
 		//=========================================================================
 		
-		"xpos"		"cs-0.4999"
+		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.4990"
 		
 		//=========================================================================
@@ -47,7 +48,7 @@
 		// Adjust each value to get the desired color
 		//=========================================================================
 		
-		"fgcolor"	"255 255 255 255"
+		"fgcolor"	"Highlight_Color_Bright"
 	}
 	
 	

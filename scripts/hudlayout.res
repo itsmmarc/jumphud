@@ -1,7 +1,7 @@
 #base "../cfg/hud_hudlayout.txt"
 #base "hudlayout_jump.res"
 
-#base "../resource/Crosshairs/crosshair.res"
+#base "../CUSTOMIZATION/crosshair.res"
 
 "Scripts/HudLayout.res"
 {
