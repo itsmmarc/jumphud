@@ -121,7 +121,7 @@
 		"ControlName"								"EditablePanel"
 		"FieldName"									"ObjectiveStatusTimePanel"
 		"XPos"										"cs-0.5"
-		"YPos"										"1"
+		"YPos"										"0"
 		"ZPos"										"5"
 		"Wide"										"100"
 		"Tall"										"40"
@@ -141,7 +141,7 @@
 			"ControlName"							"CExLabel"
 			"FieldName"								"TimePanelValue"
 			"XPos"									"cs-0.5"
-			"YPos"									"-2"
+			"YPos"									"0"
 			"ZPos"									"3"
 			"Wide"									"40"
 			"Tall"									"15"
@@ -153,12 +153,12 @@
 			"Font"									"m0refont16Shadow"
 			"FGColor"								"White"
 
-			"if_match"
-			{
-				"YPos"								"-2"
-				"Tall"								"15"
-				"Font"								"m0refont16Shadow"
-			}
+			//"if_match"
+			//{
+			//	"YPos"								"0"
+			//	"Tall"								"15"
+			//	"Font"								"m0refont16Shadow"
+			//}
 		}
 	}
 	"TeamStatus"
@@ -180,11 +180,12 @@
 
 		"team1_grow_dir"							"west"
 		"team1_base_x"								"c-25"
-		"team1_max_expand"							"150"
+		"team1_max_expand"							"200"
 
 		"team2_grow_dir"							"east"
 		"team2_base_x"								"c26"
-		"team2_max_expand"							"150"
+		"team2_max_expand"							"		"team1_max_expand"							"200"
+"
 
 		"PlayerPanels_KV"
 		{

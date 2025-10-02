@@ -8,7 +8,7 @@
 		"YPos"										"0"
 		"ZPos"										"2"
 		"Wide"										"40"
-		"Tall"										"12"
+		"Tall"										"15"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"ProportionalToParent"						"1"
@@ -43,7 +43,7 @@
 
 		"if_match"
 		{
-			"YPos"									"14"
+			"YPos"									"2"
 		}
 	}
 	"ServerTimeLimitLabelBG"
