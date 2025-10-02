@@ -21,7 +21,7 @@
 
 		"if_match"
 		{
-			"Wide"									"f0"
+			"Wide"									"40"
 		}
 	}
 	"ServerTimeLimitLabel"
