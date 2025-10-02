@@ -37,4 +37,7 @@
 	// DEFAULT TF2 ANIMATIONS
 	//===============================================================
 	"file" "scripts/hudanimations_tf.txt"
+
+    // crosshair animations
+    "file" "resource/Crosshairs/crosshair_animation.txt"
 }

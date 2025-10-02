@@ -1,6 +1,8 @@
 #base "../cfg/hud_hudlayout.txt"
 #base "hudlayout_jump.res"
 
+#base "../resource/Crosshairs/crosshair.res"
+
 "Scripts/HudLayout.res"
 {
 	"HudPlayerStatus"

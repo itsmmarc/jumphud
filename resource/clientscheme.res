@@ -16,3 +16,6 @@
 //=========================================================
 
 #base "scheme/borders_scheme.res"
+
+// Crosshairs Scheme
+#base "crosshairs/crosshair_scheme.res"
