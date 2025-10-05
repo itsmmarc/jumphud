@@ -1,5 +1,0 @@
-#base "../material.vmt"
-
-"UnlitGeneric" {
-	$frame 12
-}
