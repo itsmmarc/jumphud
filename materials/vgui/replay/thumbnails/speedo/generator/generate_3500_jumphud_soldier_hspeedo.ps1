@@ -25,10 +25,10 @@ function Get-TextColor {
     # lightness gradient formula:
     # startingBrightness +/- (($number - startingNumber) / (endingNumber - startingNumber) * (100-lowestBrightness))
     
-    if ($number -ge 0 -and $number -le 240) { # Soldier Walking Speed (0 - 240) | Grey
+    if ($number -ge 0 -and $number -le 241) { # Soldier Walking Speed (0 - 240) | Grey
         return "rgb(151, 151, 151)"  # White
     }
-    elseif ($number -ge 241 -and $number -le 850) { # (240 - 850) | White
+    elseif ($number -ge 242 -and $number -le 850) { # (242 - 850) | White
         return "rgb(255, 255 ,255)"  # White
     }
     elseif ($number -ge 850 -and $number -le 1050) { # Close to rocket speed (850 - 1050) | Blue

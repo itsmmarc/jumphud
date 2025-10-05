@@ -25,10 +25,10 @@ function Get-TextColor {
     # lightness gradient formula:
     # startingBrightness +/- (($number - startingNumber) / (endingNumber - startingNumber) * (100-lowestBrightness))
     
-    if ($number -ge 0 -and $number -le 279) { # Demo Walking Speed (0 - 279) | Grey
+    if ($number -ge 0 -and $number -le 281) { # Demo Walking Speed (0 - 280) | Grey
         return "rgb(151, 151, 151)"  # White
     }
-    elseif ($number -ge 280 -and $number -le 700) { # (279 - 700) | White
+    elseif ($number -ge 282 -and $number -le 700) { # (282 - 700) | White
         return "rgb(255, 255 ,255)"  # White
     }
     elseif ($number -ge 701 -and $number -le 860) { # Close to uncharged sticky speed (701 - 860) | Blue
