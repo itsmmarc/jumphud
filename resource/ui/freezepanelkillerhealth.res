@@ -1,20 +1,5 @@
 "Resource/UI/FreezePanelKillerHealth.res"
 {
-	"PlayerStatusHealthBonusImage"  // disabled
-	{
-		"ControlName"								"ImagePanel"
-		"FieldName"									"PlayerStatusHealthBonusImage"
-		"XPos"										"cs-0.5"
-		"YPos"										"cs-0.5"
-		"ZPos"										"19"
-		"Wide"										"0"
-		"Tall"										"0"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"ProportionalToParent"						"1"
-		"Image"										"../hud/health_over_bg"
-		"ScaleImage"								"1"
-	}
 	"HealthValue_Killer"
 	{
 		"ControlName"								"CExLabel"
@@ -110,5 +95,20 @@
 		"Tall"										"0"
 		"Visible"									"0"
 		"Enabled"									"0"
+	}
+    "PlayerStatusHealthBonusImage"  // disabled
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"PlayerStatusHealthBonusImage"
+		"XPos"										"99999"
+		"YPos"										"99999"
+		"ZPos"										"19"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
+		"ProportionalToParent"						"1"
+		"Image"										"../hud/health_over_bg"
+		"ScaleImage"								"1"
 	}
 }
