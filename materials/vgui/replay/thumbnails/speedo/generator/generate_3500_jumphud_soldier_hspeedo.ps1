@@ -15,7 +15,8 @@ $font = "Coolvetica_Italic.otf"
 $fontSize = 32
 $VTFSize = "128x32"
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
-$imagesFolder = "$PSScriptRoot\numbers"  # Assuming the images are stored in a folder named "numbers" in the script's directory
+$folder = "numbers_soldier_hspeedo"
+$imagesFolder = "$PSScriptRoot\$folder"  # Assuming the images are stored in a folder named "numbers" in the script's directory
 
 # Function to calculate the text color based on the number
 function Get-TextColor {
@@ -109,9 +110,9 @@ foreach ($entry in $numbersToCopy) {
     $number = $entry.Number
     $description = $entry.Description
 
-    $sourceFile = Join-Path -Path $PSScriptRoot -ChildPath "numbers\$number.png"
-    $destinationFile = Join-Path -Path $PSScriptRoot -ChildPath "numbers\$($number - 1).png"
-    $destinationFileAbove = Join-Path -Path $PSScriptRoot -ChildPath "numbers\$($number + 1).png"
+    $sourceFile = Join-Path -Path $PSScriptRoot -ChildPath "$folder\$number.png"
+    $destinationFile = Join-Path -Path $PSScriptRoot -ChildPath "$folder\$($number - 1).png"
+    $destinationFileAbove = Join-Path -Path $PSScriptRoot -ChildPath "$folder\$($number + 1).png"
 
     if (Test-Path $sourceFile) {
         Copy-Item -Path $sourceFile -Destination $destinationFile -Force

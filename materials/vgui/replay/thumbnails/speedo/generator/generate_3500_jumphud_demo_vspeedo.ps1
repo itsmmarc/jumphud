@@ -15,7 +15,8 @@ $font = "Coolvetica_Italic.otf"
 $fontSize = 32
 $VTFSize = "128x32"
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
-$imagesFolder = "$PSScriptRoot\numbers"  # Assuming the images are stored in a folder named "numbers" in the script's directory
+$folder = "numbers_demo_vspeedo"
+$imagesFolder = "$PSScriptRoot\$folder"  # Assuming the images are stored in a folder named "numbers" in the script's directory
 
 # Function to calculate the text color based on the number
 function Get-TextColor {
@@ -118,5 +119,5 @@ Write-Host "Script completed."
 #        Write-Host "Source file $sourceFile does not exist."
 #    }
 #}
-
-Write-Host "Copy tasks completed."
+#
+#Write-Host "Copy tasks completed."
