@@ -15,7 +15,7 @@ $font = "Coolvetica_Italic.otf"
 $fontSize = 32
 $VTFSize = "128x32"
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
-$imagesFolder = "$PSScriptRoot\numbers3500_demo_hspeedo"  # Assuming the images are stored in a folder named "numbers" in the script's directory
+$imagesFolder = "$PSScriptRoot\numbers"  # Assuming the images are stored in a folder named "numbers" in the script's directory
 
 # Function to calculate the text color based on the number
 function Get-TextColor {
@@ -100,29 +100,8 @@ Write-Host "Script completed."
 
 # Copy over specific images to prevent max run speed bouncing between values
 $numbersToCopy = @(
-    @{ Number = 750; Description = "demo charge"},
-    @{ Number = 425; Description = "deadringer/bigearner speedboost"},
-    @{ Number = 400; Description = "scout forward" },
-    @{ Number = 382; Description = "demo w/ 3 heads & boots" },
-    @{ Number = 360; Description = "scout backward" },
-    @{ Number = 347; Description = "demo w/ 3 heads"},
-    @{ Number = 345; Description = "powerjack pyro"},
-    @{ Number = 325; Description = "demo w/ 2 heads"},
-    @{ Number = 320; Description = "spy/medic forward" },
-    @{ Number = 308; Description = "demo with boots"},
-    @{ Number = 288; Description = "spy/medic backward" },
-    @{ Number = 300; Description = "sniper/engineer forward" },
-    @{ Number = 270; Description = "sniper/engineer backward" },
     @{ Number = 280; Description = "demo forward" },
-    @{ Number = 252; Description = "demo backward" },
-    @{ Number = 240; Description = "soldier forward" },
-    @{ Number = 216; Description = "soldier backward" },
-    @{ Number = 230; Description = "heavy forward" },
-    @{ Number = 207; Description = "heavy backward" },
-    @{ Number = 160; Description = "sniper huntsman pulled back"},
-    @{ Number = 110; Description = "heavy revved"},
-    @{ Number = 80; Description = "sniper scoped"},
-    @{ Number = 44; Description = "heavy revved w/ brass beast"}
+    @{ Number = 252; Description = "demo backward" }
 )
 
 # Iterate over each number and copy over the image with the number one below it
@@ -132,10 +111,13 @@ foreach ($entry in $numbersToCopy) {
 
     $sourceFile = Join-Path -Path $PSScriptRoot -ChildPath "numbers\$number.png"
     $destinationFile = Join-Path -Path $PSScriptRoot -ChildPath "numbers\$($number - 1).png"
+    $destinationFileAbove = Join-Path -Path $PSScriptRoot -ChildPath "numbers\$($number + 1).png"
 
     if (Test-Path $sourceFile) {
         Copy-Item -Path $sourceFile -Destination $destinationFile -Force
         Write-Host "Copied $sourceFile to $destinationFile ($description)"
+        Copy-Item -Path $sourceFile -Destination $destinationFileAbove -Force
+        Write-Host "Copied $sourceFile to $destinationFileAbove ($description)"
     } else {
         Write-Host "Source file $sourceFile does not exist."
     }
