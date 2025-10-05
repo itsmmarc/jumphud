@@ -12,8 +12,8 @@
 $maxNumber = 3500
 $backgroundColor = "Transparent"
 $font = "Coolvetica_Italic.otf"
-$fontSize = 32
-$VTFSize = "128x32"
+$fontSize = 64
+$VTFSize = "256x64" # 128x32 for low res
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
 $folder = "numbers_demo_hspeedo"
 $imagesFolder = "$PSScriptRoot\$folder"  # Assuming the images are stored in a folder named "numbers" in the script's directory
