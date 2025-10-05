@@ -15,7 +15,7 @@ $font = "Coolvetica_Italic.otf"
 $fontSize = 32
 $VTFSize = "128x32"
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
-$imagesFolder = "$PSScriptRoot\numbers3500"  # Assuming the images are stored in a folder named "numbers" in the script's directory
+$imagesFolder = "$PSScriptRoot\numbers3500_soldier_hspeedo"  # Assuming the images are stored in a folder named "numbers" in the script's directory
 
 # Function to calculate the text color based on the number
 function Get-TextColor {
@@ -25,43 +25,36 @@ function Get-TextColor {
     # lightness gradient formula:
     # startingBrightness +/- (($number - startingNumber) / (endingNumber - startingNumber) * (100-lowestBrightness))
     
-    if ($number -ge 0 -and $number -le 240) { # Soldier Walking Speed (0-240) | White
+    if ($number -ge 0 -and $number -le 240) { # Soldier Walking Speed (0 - 240) | Grey
+        return "rgb(151, 151, 151)"  # White
+    }
+    elseif ($number -ge 241 -and $number -le 850) { # (240 - 850) | White
         return "rgb(255, 255 ,255)"  # White
     }
-    elseif ($number -ge 241 -and $number -le 900) { # Above walking speed but below rocket speed (241-1000) | White
-        return "rgb(255, 255 ,255)"  # White
-    }
-    elseif ($number -ge 901 -and $number -le 1050) { # Ramp up to rocket speed (1001-1080) | Turning Turquoise
-        # Calculate gradient color from white to green
-        $hue = 181  # Turquoise color in HSL color space
-        $saturation = 39
-        $lightness = 100 - (($number - 900) / (1050 - 900) * 63)  # Brightness decreases from 100 to 37
-        return "hsl($hue,$saturation%,$lightness%)"
-    }
-    elseif ($number -ge 1051 -and $number -le 1090) { # Sweetspot rocket speed (1051-1150) | Brighter Turquoise
+    elseif ($number -ge 850 -and $number -le 1050) { # Close to rocket speed (850 - 1050) | Blue
         return "rgb(81, 181, 182)" # Mid Highlight Colour
     }
-    elseif ($number -ge 1090 -and $number -le 1110) { # Sweetspot rocket speed (1051-1150) | Green
-        return "rgb(168, 255, 28)"
+    elseif ($number -ge 1051 -and $number -le 1150) { # Sweetspot rocket speed (1051-1150) | Green
+        return "rgb(56, 228, 176)" # Overheal Colour
     }
-    elseif ($number -ge 1111 -and $number -le 1150) { # Sweetspot rocket speed (1051-1150) | Brighter Turquoise
+    elseif ($number -ge 1151 -and $number -le 1350) { # Close to rocket speed (1151-1350) | Blue
         return "rgb(81, 181, 182)" # Mid Highlight Colour
     }
-    elseif ($number -ge 1151 -and $number -le 1300) { # Ramp away from rocket speed (1121-1200) | Turning White
-        # Calculate gradient color from white to green
-        $hue = 181  # Turquoise color in HSL color space
-        $saturation = 39
-        $lightness = 37 + (($number - 1150) / (1300 - 1150) * 63)  # Brightness increases from 37 to 100
-        return "hsl($hue,$saturation%,$lightness%)"
-    }
-    elseif ($number -ge 1301 -and $number -le 3499) { # Above rocket speed | White
+    elseif ($number -ge 1351 -and $number -le 3350) { # Above rocket speed | White
         return "rgb(255, 255 ,255)"  # White
     }
-    elseif ($number -eq 3500) {
+    elseif ($number -ge 3351 -and $number -le 3499) { # approaching max vel | Turning Orange
+        # Calculate gradient color from white to green
+        $hue = 26  # Turquoise color in HSL color space
+        $saturation = 90
+        $lightness = 100 - (($number - 3350) / (3500 - 3350) * 50)  # Brightness decreases from 100 to 50
+        return "hsl($hue,$saturation%,$lightness%)"
+    }
+    elseif ($number -eq 3500) { # Max Vel | Red
         return "rgb(255,49,49)"   # Bright red
     }
     else {
-        return "rgb(0,0,0)"   # Black (fallback color)
+        return "rgb(255, 0, 255)"   # Pink (fallback color)
     }
 }
 

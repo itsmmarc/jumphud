@@ -1,5 +1,5 @@
 "UnlitGeneric" {
-    $basetexture "vgui/replay/thumbnails/speedo/speedo_900"
+    $basetexture "vgui/replay/thumbnails/speedo/speedo_demo_hspeedo"
 	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
 
 	"$pos" "[0.0 0.0 0.0]"

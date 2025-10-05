@@ -15,7 +15,7 @@ $font = "Coolvetica_Italic.otf"
 $fontSize = 32
 $VTFSize = "128x32"
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
-$imagesFolder = "$PSScriptRoot\numbers3500"  # Assuming the images are stored in a folder named "numbers" in the script's directory
+$imagesFolder = "$PSScriptRoot\numbers3500_demo_hspeedo"  # Assuming the images are stored in a folder named "numbers" in the script's directory
 
 # Function to calculate the text color based on the number
 function Get-TextColor {
@@ -25,37 +25,36 @@ function Get-TextColor {
     # lightness gradient formula:
     # startingBrightness +/- (($number - startingNumber) / (endingNumber - startingNumber) * (100-lowestBrightness))
     
-    if ($number -ge 0 -and $number -le 240) { # Walking Speed (0-240) | White
+    if ($number -ge 0 -and $number -le 279) { # Demo Walking Speed (0 - 279) | Grey
+        return "rgb(151, 151, 151)"  # White
+    }
+    elseif ($number -ge 280 -and $number -le 700) { # (279 - 700) | White
         return "rgb(255, 255 ,255)"  # White
     }
-    elseif ($number -ge 241 -and $number -le 800) { # (241-800) | White
-        return "rgb(255, 255 ,255)"  # White
-    }
-    elseif ($number -ge 801 -and $number -le 875) { # Ramp up to demo horizontal airpogo speed (801-875) | Turning Turquoise
-        # Calculate gradient color from white to green
-        $hue = 181  # Turquoise color in HSL color space
-        $saturation = 39
-        $lightness = 100 - (($number - 800) / (875 - 800) * 63)  # Brightness decreases from 100 to 37
-        return "hsl($hue,$saturation%,$lightness%)"
-    }
-    elseif ($number -ge 876 -and $number -le 925) { # demo horizontal airpogo speed (876-925) | Brighter Turquoise
+    elseif ($number -ge 701 -and $number -le 860) { # Close to uncharged sticky speed (701 - 860) | Blue
         return "rgb(81, 181, 182)" # Mid Highlight Colour
     }
-    elseif ($number -ge 926 -and $number -le 1000) { # Ramp away from demo horizontal airpogo speed (926-1000) | Turning White
-        # Calculate gradient color from white to green
-        $hue = 181  # Turquoise color in HSL color space
-        $saturation = 39
-        $lightness = 37 + (($number - 925) / (1000 - 925) * 63)  # Brightness increases from 37 to 100
-        return "hsl($hue,$saturation%,$lightness%)"
+    elseif ($number -ge 861 -and $number -le 910) { # Sweetspot uncharged sticky speed (861-910) | Green
+        return "rgb(56, 228, 176)" # Overheal Colour
     }
-    elseif ($number -ge 1001 -and $number -le 3499) { # Above rocket speed | White
+    elseif ($number -ge 911 -and $number -le 1200) { # Close to uncharged sticky speed (911-1200) | Blue
+        return "rgb(81, 181, 182)" # Mid Highlight Colour
+    }
+    elseif ($number -ge 1201 -and $number -le 3350) { # Above uncharged speed | White
         return "rgb(255, 255 ,255)"  # White
     }
-    elseif ($number -eq 3500) {
+    elseif ($number -ge 3351 -and $number -le 3499) { # approaching max vel | Turning Orange
+        # Calculate gradient color from white to green
+        $hue = 26  # Turquoise color in HSL color space
+        $saturation = 90
+        $lightness = 100 - (($number - 3350) / (3500 - 3350) * 50)  # Brightness decreases from 100 to 50
+        return "hsl($hue,$saturation%,$lightness%)"
+    }
+    elseif ($number -eq 3500) { # Max Vel | Red
         return "rgb(255,49,49)"   # Bright red
     }
     else {
-        return "rgb(0,0,0)"   # Black (fallback color)
+        return "rgb(255, 0, 255)"   # Pink (fallback color)
     }
 }
 
