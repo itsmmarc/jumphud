@@ -184,8 +184,7 @@
 
 		"team2_grow_dir"							"east"
 		"team2_base_x"								"c26"
-		"team2_max_expand"							"		"team1_max_expand"							"200"
-"
+		"team2_max_expand"							"200"
 
 		"PlayerPanels_KV"
 		{
