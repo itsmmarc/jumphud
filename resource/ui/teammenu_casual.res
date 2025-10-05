@@ -59,7 +59,7 @@
 
     "RedCount"
     {
-        "xpos"  "58"
+        "xpos"  "1"
         "ypos"  "-12"
         "Pin_To_Sibling"							"RedButton_casual"
         "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
@@ -68,7 +68,7 @@
 
     "BlueCount"
     {
-        "xpos"  "-55"
+        "xpos"  "-2"
         "ypos"  "-12"
         "Pin_To_Sibling"							"BlueButton_casual"
         "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"

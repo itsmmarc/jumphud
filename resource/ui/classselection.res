@@ -232,7 +232,7 @@
             "LabelText"									"1" // Scout Icon
             "TextAlignment"								"center"
             "Command"									"joinclass scout"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
@@ -300,7 +300,7 @@
             "LabelText"									"2" // Soldier Icon
             "TextAlignment"								"center"
             "Command"									"joinclass Soldier"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
@@ -368,7 +368,7 @@
             "LabelText"									"3" // Pyro Icon
             "TextAlignment"								"center"
             "Command"									"joinclass Pyro"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
@@ -436,7 +436,7 @@
             "LabelText"									"4" // Demoman Icon
             "TextAlignment"								"center"
             "Command"									"joinclass Demoman"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
@@ -504,7 +504,7 @@
             "LabelText"									"5" // Heavy Icon
             "TextAlignment"								"center"
             "Command"									"joinclass HeavyWeapons"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
@@ -572,7 +572,7 @@
             "LabelText"									"6" // Engineer Icon
             "TextAlignment"								"center"
             "Command"									"joinclass Engineer"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
@@ -640,7 +640,7 @@
             "LabelText"									"7" // Medic Icon
             "TextAlignment"								"center"
             "Command"									"joinclass Medic"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
@@ -708,7 +708,7 @@
             "LabelText"									"8" // Sniper Icon
             "TextAlignment"								"center"
             "Command"									"joinclass Sniper"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"
@@ -776,7 +776,7 @@
             "LabelText"									"9" // Spy Icon
             "TextAlignment"								"center"
             "Command"									"joinclass Spy"
-            "Font"										"ClassSymbols120"
+            "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
             "KeyboardInputEnabled"						"0"

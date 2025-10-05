@@ -60,14 +60,14 @@
 
     "RedCount"
     {
-        "XPos"										"-5-3"
+        "XPos"										"0"
         "YPos"										"15"
         "Pin_To_Sibling"							"RedButton_jump"
     }
 
     "BlueCount"
     {
-        "XPos"										"-5"
+        "XPos"										"0"
         "YPos"										"15"
         "Pin_To_Sibling"							"BlueButton_jump"
         "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"

@@ -430,12 +430,12 @@
         //==============================
         // HypnotizeHud Class Symbols
         //==============================
-            "ClassSymbols56"
+            "ClassSymbols30"
             {
                 "1"
                 {
                     "name"										"TF2 Class Icons V3"
-                    "Tall"										"56"
+                    "Tall"										"30"
                     "antialias"									"1"
                 }
             }
@@ -444,7 +444,7 @@
                 "1"
                 {
                     "name"										"TF2 Class Icons V3"
-                    "Tall"										"30"
+                    "Tall"										"80"
                     "antialias"									"1"
                 }
             }
