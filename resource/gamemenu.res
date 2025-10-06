@@ -138,14 +138,14 @@
     "SoldierSpeedo"
     {
         "label"										"7"
-		"Command"									"engine speedo_soldier_toggle; hud_reloadscheme"
+		"Command"									"engine toggle_soldier_speedos"
 		"tooltip"									"Toggle Soldier Speedo"
 		"OnlyInGame"								"1"
     }
     "DemoSpeedo"
     {
         "label"										"7"
-		"Command"									"engine speedo_demo_toggle; hud_reloadscheme"
+		"Command"									"engine toggle_demo_speedos"
 		"tooltip"									"Toggle Demo Speedo"
 		"OnlyInGame"								"1"
     }
@@ -187,21 +187,21 @@
     "HSpeedo"
 	{
 		"label"										"7"
-		"Command"									"engine sm_hspeedo;sm_speedo_yoff 0.55;exec speedocolour.cfg;"
+		"Command"									"engine toggle_tempus_hspeedo"
 		"tooltip"									"Toggle Horizontal Speedo"
 		"OnlyInGame"								"1"
 	}
     "VSpeedo"
 	{
 		"label"										"7"
-		"Command"									"engine sm_vspeedo;sm_speedo_yoff 0.55;exec speedocolour.cfg;"
+		"Command"									"engine toggle_tempus_vspeedo"
 		"tooltip"									"Toggle Vertical Speedo"
 		"OnlyInGame"								"1"
 	}
     "ASpeedo"
 	{
 		"label"										"7"
-		"Command"									"engine sm_aspeedo;sm_speedo_yoff 0.55;exec speedocolour.cfg;"
+		"Command"									"engine toggle_tempus_aspeedo"
 		"tooltip"									"Toggle Absolute Speedo"
 		"OnlyInGame"								"1"
 	}
