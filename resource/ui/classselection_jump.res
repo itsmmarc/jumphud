@@ -15,6 +15,9 @@
             "bgcolor_override"  "blank"
         }
 
+        //==================================================================================================================================================
+        // SOLDIER
+        //==================================================================================================================================================
         "Soldier"
         {
             "ControlName"								"CExImageButton"
@@ -28,7 +31,7 @@
             "Enabled"									"1"
             "LabelText"									"N" // rocket icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Soldier"
+            "Command"									"joinclass soldier"
             "Font"										"ClassSymbols120"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -65,6 +68,9 @@
             "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
             "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
         }
+        //==================================================================================================================================================
+        // DEMOMAN
+        //==================================================================================================================================================
         "Demoman"
         {
             "ControlName"								"CExImageButton"
@@ -78,7 +84,7 @@
             "Enabled"									"1"
             "LabelText"									"R" // sticky icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Demoman"
+            "Command"									"joinclass demoman"
             "Font"										"ClassSymbols120"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
