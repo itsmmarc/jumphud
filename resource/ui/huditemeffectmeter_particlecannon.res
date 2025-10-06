@@ -16,6 +16,16 @@
         //"XPos_Minmode"  "cs-0.5"
         "wide"          "50"
 	}
+    "ItemEffectMeterLabel"
+	{
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
+		"LabelText"									""
+		"Font"										""
+		"DisabledFGColor2_Override"					"blank"
+	}
 
     "Panel1"   // transparent background for loadout page
 	{
