@@ -3095,6 +3095,18 @@
                     "dropshadow"								"0"
                 }
             }
+            "KillFeed"
+            {
+            "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"10"
+                    "weight"									"0"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"0"
+                }
+            }
 	}
 	"BitmapFontFiles"
 	{

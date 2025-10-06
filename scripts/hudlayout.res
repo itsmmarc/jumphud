@@ -433,7 +433,7 @@
 		"CornerRadius"								"0"
 		"RightJustify"								"1"
 
-		"TextFont"									"m0refont11"
+		"TextFont"									"KillFeed"
 
 		"TeamBlue"									"HUDBlueTeamSolid"
 		"TeamRed"									"HUDRedTeamSolid"
