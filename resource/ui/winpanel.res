@@ -78,7 +78,7 @@
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
-			"Font"									"m0refont11"
+			"Font"									"JumpHUD_Secondary_Font"
 			"LabelText"								"%blueteamname%"
 			"TextAlignment"							"west"
 			"FGColor"								"White"
@@ -138,9 +138,10 @@
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
-			"Font"									"m0refont11"
+			"Font"									"JumpHUD_Secondary_Font"
 			"LabelText"								"%redteamname%"
 			"TextAlignment"							"east"
+            "textinsetx"    "5"
 			"FGColor"								"White"
 
 			"Pin_To_Sibling"						"RedBG"
@@ -281,7 +282,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"WinningTeamLabel"
-		"Font"										"m0refont24"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 		"XPos"										"-12"
 		"YPos"										"-4"
@@ -292,6 +293,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%WinningTeamLabel%"
 		"TextAlignment"								"east"
+        "textinsetx"    "5"
 
 		"Pin_To_Sibling"							"ShadedBar"
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMRIGHT"
@@ -301,7 +303,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"WinningTeamLabelDropshadow"
-		"Font"										"m0refont24"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"Black"
 		"XPos"										"-1"
 		"YPos"										"-1"
@@ -312,6 +314,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%WinningTeamLabel%"
 		"TextAlignment"								"east"
+        "textinsetx"    "5"
 
 		"Pin_To_Sibling"							"WinningTeamLabel"
 	}
@@ -319,7 +322,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AdvancingTeamLabel"
-		"Font"										"m0refont24"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 		"XPos"										"-12"
 		"YPos"										"-4"
@@ -329,6 +332,7 @@
 		"Visible"									"1"
 		"Enabled"									"1"
 		"LabelText"									"%AdvancingTeamLabel%"
+        "textinsetx"    "5"
 		"TextAlignment"								"east"
 
 		"Pin_To_Sibling"							"ShadedBar"
@@ -339,7 +343,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AdvancingTeamLabelDropshadow"
-		"Font"										"m0refont24"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"Black"
 		"XPos"										"-1"
 		"YPos"										"-1"
@@ -350,6 +354,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%AdvancingTeamLabel%"
 		"TextAlignment"								"east"
+        "textinsetx"    "5"
 
 		"Pin_To_Sibling"							"AdvancingTeamLabel"
 	}
@@ -400,7 +405,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"Player1Name"
-		"Font"										"m0refont11"
+		"Font"										"TargetID_Medium"
 		"XPos"										"10"
 		"YPos"										"-14"
 		"ZPos"										"3"
@@ -410,6 +415,7 @@
 		"Enabled"									"1"
 		"LabelText"									""
 		"TextAlignment"								"west"
+        "textinsetx"    "5"
 		"alpha"										"255"
 
 		"Pin_To_Sibling"							"Player1Score"
@@ -463,7 +469,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"Player2Name"
-		"Font"										"m0refont11"
+		"Font"										"TargetID_Medium"
 		"XPos"										"10"
 		"YPos"										"-14"
 		"ZPos"										"3"
@@ -473,6 +479,7 @@
 		"Enabled"									"1"
 		"LabelText"									""
 		"TextAlignment"								"west"
+        "textinsetx"    "5"
 		"alpha"										"255"
 
 		"Pin_To_Sibling"							"Player2Score"
@@ -526,7 +533,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"Player3Name"
-		"Font"										"m0refont11"
+		"Font"										"TargetID_Medium"
 		"XPos"										"10"
 		"YPos"										"-14"
 		"ZPos"										"3"
@@ -536,6 +543,7 @@
 		"Enabled"									"1"
 		"LabelText"									""
 		"TextAlignment"								"west"
+        "textinsetx"    "5"
 		"alpha"										"255"
 
 		"Pin_To_Sibling"							"Player3Score"
