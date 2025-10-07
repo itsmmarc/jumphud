@@ -156,6 +156,13 @@
 		"tooltip"									"Turn Off Speedos"
 		"OnlyInGame"								"1"
     }
+    "Toggle_HUDMessage"
+    {
+        "label"										"E"
+		"Command"									"engine hudmessage_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Map Text Pop-Ups"
+		"OnlyInGame"								"1"
+    }
     "FullBright"
 	{
 		"label"										"?"
