@@ -193,7 +193,6 @@
 			"FieldName"								"AlertTray"
 			"XPos"									"rs1-5"
 			"YPos"									"cs-0.5"
-			"YPos"									"0"
 			"ZPos"									"-2"
 			"Wide"									"o1"
 			"Tall"									"f0"
