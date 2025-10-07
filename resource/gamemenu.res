@@ -153,7 +153,7 @@
     {
         "label"										"2"
 		"Command"									"engine speedos_off; hud_reloadscheme"
-		"tooltip"									"Turn Off Speedos"
+		"tooltip"									"Disable HUD Speedos"
 		"OnlyInGame"								"1"
     }
     "Toggle_HUDMessage"
