@@ -27,7 +27,7 @@
 			"ControlName"							"CExLabel"
 			"FieldName"								"TimePanelValue"
 			"XPos"									"cs-0.5"
-			"YPos"									"-2"
+			"YPos"									"0"
 			"ZPos"									"3"
 			"Wide"									"f0"
 			"Tall"									"15"
@@ -42,7 +42,7 @@
 			"if_match"
 			{
 				"XPos"								"cs-0.5"
-				"YPos"								"-2"
+				"YPos"								"0"
 				"Tall"								"15"
 			}
 		}
@@ -65,7 +65,7 @@
 			"ControlName"							"CExLabel"
 			"FieldName"								"TimePanelValue"
 			"XPos"									"cs-0.5"
-			"YPos"									"-2"
+			"YPos"									"0"
 			"ZPos"									"3"
 			"Wide"									"f0"
 			"Tall"									"15"
@@ -80,7 +80,7 @@
 			"if_match"
 			{
 				"XPos"								"cs-0.5"
-				"YPos"								"-2"
+				"YPos"								"0"
 				"Tall"								"15"
 			}
 		}
