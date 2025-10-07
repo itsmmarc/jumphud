@@ -91,10 +91,10 @@
 		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"5"
-		"wide"			"100"
-		"tall"			"19"
+		"wide"			"0"   //100
+		"tall"			"0"    //19
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#game_Overtime"
 		"textAlignment"		"center"
 		"dulltext"		"0"
