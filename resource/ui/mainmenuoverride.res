@@ -1122,8 +1122,8 @@
             "XPos"										"0"
             "YPos"										"25"
             "ZPos"										"15"
-            "Wide"										"20"
-            "Tall"										"20"
+            "Wide"										"28"
+            "Tall"										"28"
             "Visible"									"1"
 
             "Pin_To_Sibling"							"SpeedosOff"
@@ -1143,7 +1143,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"Symbols18"
+                "Font"									"Symbols28"
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
@@ -1164,8 +1164,8 @@
             "XPos"										"0"
             "YPos"										"25"
             "ZPos"										"15"
-            "Wide"										"20"
-            "Tall"										"20"
+            "Wide"										"28"
+            "Tall"										"28"
             "Visible"									"1"
 
             "Pin_To_Sibling"							"SpeedosOff"
@@ -1185,7 +1185,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"Symbols18"
+                "Font"									"Symbols28"
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
@@ -1205,8 +1205,8 @@
             "XPos"										"0"
             "YPos"										"75"
             "ZPos"										"15"
-            "Wide"										"20"
-            "Tall"										"20"
+            "Wide"										"24"
+            "Tall"										"24"
             "Visible"									"1"
 
             "Pin_To_Sibling"							"JumpAnchor"
@@ -1226,7 +1226,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"Symbols18"
+                "Font"									"Symbols24"
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
@@ -1655,15 +1655,15 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"ToggleMinmode"
             "XPos"										"0"
-            "YPos"										"2"
+            "YPos"										"15"
             "ZPos"										"15"
-            "Wide"										"20"
-            "Tall"										"20"
+            "Wide"										"28"
+            "Tall"										"28"
             "Visible"									"1"
 
             "Pin_To_Sibling"							"ASpeedo"
-            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-            "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
 
             "SubButton"
             {
@@ -1678,7 +1678,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"Symbols18"
+                "Font"									"Symbols28"
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
