@@ -1,6 +1,10 @@
 #base "../cfg/hud_hudlayout.txt"
 #base "hudlayout_jump.res"
 
+// hud message toggle (ingame pop-up text)
+#base "../cfg/hud_hudmessage.txt"
+#base "../resource/ui/hudmessage_on.res"
+
 #base "../CUSTOMIZATION/crosshair.res"
 
 "Scripts/HudLayout.res"
@@ -488,8 +492,8 @@
 		"fieldName"									"HudMessage"
 		"visible"									"1"
 		"enabled"									"1"
-		"wide"										"f0"
-		"tall"										"480"
+		//"wide"										"f0"
+		//"tall"										"480"
 	}
 	"HudMenu"
 	{
