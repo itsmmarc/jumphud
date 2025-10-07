@@ -290,7 +290,6 @@
             "Image_DrawColor"   "255 255 255 255"
             "Image_ArmedColor"  "98 219 220 255"
             "Image_SelectColor" "98 219 220 255"
-            "command"           "engine casualtoggleon; hud_reloadscheme; toggle mat_aaquality;"
 
             "stayselectedonclick"						"0"
             "selectonhover"								"1"
@@ -320,7 +319,7 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"CasualToggle_Casual"
             "XPos"										"0"
-            "YPos"										"5"
+            "YPos"										"5+1"
             "ZPos"										"10"
             //"Wide"										"25"
             //"Tall"										"25"
