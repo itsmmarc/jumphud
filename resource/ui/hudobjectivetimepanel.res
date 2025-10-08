@@ -43,7 +43,7 @@
 
 		"if_match"
 		{
-			"YPos"									"2"
+			"YPos"									"14"
 		}
 	}
 	"ServerTimeLimitLabelBG"
