@@ -285,7 +285,7 @@
             {
                 "1"
                 {
-                    "name"										"square_edit"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"7"
                     "antialias"									"1"
                 }
@@ -294,7 +294,7 @@
             {
                 "1"
                 {
-                    "name"										"square_edit"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"8"
                     "antialias"									"1"
                 }
@@ -303,7 +303,7 @@
             {
                 "1"
                 {
-                    "name"										"square_edit"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"9"
                     "antialias"									"1"
                 }
@@ -312,7 +312,7 @@
             {
                 "1"
                 {
-                    "name"										"square_edit"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"10"
                     "antialias"									"1"
                 }
