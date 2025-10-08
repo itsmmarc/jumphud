@@ -5,7 +5,11 @@
 		"ypos"										"c105"
         "ypos_minmode"                              "c120"
 	}
-
+    "HudWeaponAmmo"
+	{
+		"xpos"										"0"
+        "xpos_minmode"								"-1"
+	}
     "CMainTargetID"
 	{
 		"ypos"										"c138"
