@@ -6,7 +6,7 @@
 		"wide" "100"
 		"tall" "50"
 		"xpos" "cs-0.5"
-		"ypos" "c60-31"//
+		"ypos" "c60-25"//
 		
 		"d1" {
 			"controlName" "CTFImagePanel"
