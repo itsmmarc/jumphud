@@ -4,14 +4,19 @@ A Team Fortress 2 HUD designed specifically for use on jump servers.
 
 ***
 
-<a href="https://github.com/itsmmarc/jumphud/archive/refs/tags/v1.0.0.zip"><img src="screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.0.0/jumphud-v2.0.0.zip"><img src="screenshots/downloadbutton.png"></a>
 <a href="SHOWCASE.md"><img src="screenshots/screenshotsbutton.png"></a>
+<a href="https://discord.gg/s6yJMGecMZ"><img src="screenshots/discord.png"></a>
 
 ***
 
 ## Features
 
-Stripped down HUD designed to give you the ability to display exactly as much information as you want, at its most bare only your clip ammo count is shown.
+Stripped down HUD designed for use on Jump servers. Now fully casual/mvm/competitive compatible!
+
+![Soldier Preview](/screenshots/jump/soldier_apng.png)
+
+![Demo Preview](/screenshots/jump/demo_apng.png)
 
 ### Useful keybinds have been added to the options menu, including but not limited to:
 
@@ -51,29 +56,21 @@ Swap the HUD into Casual Mode by clicking the logo on the main menu.
 
 ![Mode Switching Preview](screenshots/modeswitch.webp)
 
-Use `cl_hud_minmode 1` or the button on the pause menu to hide health value and center ammo count in Jump Mode.
+Use `cl_hud_minmode 1` or the button on the pause menu to hide the health value and center the ammo count in Jump Mode.
 
-Toggle Tempus HUD, Speedos, and Chat using the buttons on the pause menu.
+Toggle Custom HUD Speedos, Tempus HUD, Tempus Speedos, etc, using the buttons on the pause menu.
 
-Adjust the item menu background to your resolution by editing `CUSTOMIZATION/aspect_ratio.res`
+Adjust the item menu background to your resolution by editing `CUSTOMIZATION/aspect_ratio.res`.
 
-Enable and edit a custom HUD crosshair by editing `CUSTOMIZATION/crosshair.res`
+Edit and enable a custom HUD crosshair by editing `CUSTOMIZATION/crosshair.res`.
 
 Change the tempus speedo colour by editing `cfg/speedocolor.cfg`.
 
-![Soldier Preview](/screenshots/jump/soldier_apng.png)
-
-![Demo Preview](/screenshots/jump/demo_apng.png)
-
-## Recommended Addons
-
-Elandi's custom Tempus sprays https://github.com/Elandi-rj/sprays
-
-ghytd's custom Stickybomb particles https://gamebanana.com/mods/403012
-
 ## Known Issues:
 
-Speedos won't be recoloured or repositioned until one of the speedo buttons on the pause menu is used.
+HUD speedos start to flicker more the longer a map has been running.
+
+Tempus speedos won't be recoloured or repositioned until one of the speedo buttons on the pause menu is used.
 
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
 
@@ -83,7 +80,13 @@ Inventory menu background may not load on some `sv_pure` protected servers.
 
 ## FAQ
 
+### How do I queue for casual/MVM?
 
+Click on the JumpHUD logo icon to switch the hud into casual mode, you can switch back by clicking on the TF2 logo.
+
+## Recommended Addons
+
+Elandi's custom Tempus sprays https://github.com/Elandi-rj/sprays
 
 ***
 
