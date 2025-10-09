@@ -14,7 +14,7 @@
 		"SetTitleBarVisible"						"0"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"TransparentLightBlack"
+		"BGColor_Override"							"BarelyTransparentBlack"
 
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"1"
@@ -161,7 +161,7 @@
 			"BGColor_Override"						"TransparentBlack"
 		}
 	}
-	"Loadout_Preset_Panel"
+	"Loadout_Preset_Panel"  // disabled because it's broken because of what I did to loadoutpresetpanel.res
 	{
 		"ControlName"								"CLoadoutPresetPanel"
 		"FieldName"									"Loadout_Preset_Panel"
@@ -170,8 +170,8 @@
 		"ZPos"										"20"
 		"Wide"										"20"
 		"Tall"										"108"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 	}
 
