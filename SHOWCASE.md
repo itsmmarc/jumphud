@@ -90,7 +90,7 @@
 ![Spy HUD](/screenshots/casual/spy.jpg)
 
 ## TargetID
-![TargetID](/screenshots/casual/TargetID.jpg)
+![TargetID](/screenshots/casual/targetid.jpg)
 
 ## Scoreboard
 ![Scoreboard](/screenshots/casual/scoreboard.jpg)
