@@ -49,7 +49,7 @@ Stripped down HUD designed to give you the ability to display exactly as much in
 
 Swap the HUD into Casual Mode by clicking the logo on the main menu.
 
-<video src='screenshots/modeswitch.mp4'></video>
+![Mode Switching Preview](screenshots/modeswitch.webp)
 
 Use `cl_hud_minmode 1` or the button on the pause menu to hide health value and center ammo count in Jump Mode.
 

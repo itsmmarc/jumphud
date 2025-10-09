@@ -1,3 +1,5 @@
+<details>
+
 <summary>Jump Mode</summary>
 
 <div align="center">
@@ -80,12 +82,10 @@
 ![Demo In-Game HUD](/screenshots/jump/demo_apng.png)
 
 ## Soldier Speedo
-<video src='screenshots/jump/soldierspeedo.mp4'></video>
+![Soldier Speedo](screenshots/jump/soldierspeedo.webp)
 
 ## Demo Speedo
-<video src='screenshots/jump/demospeedo.mp4'></video>
-
-<details>
+![Demo Speedo](screenshots/jump/demospeedo.webp)
 
 ## Scoreboard
 ![Scoreboard](/screenshots/jump/scoreboard.jpg)
