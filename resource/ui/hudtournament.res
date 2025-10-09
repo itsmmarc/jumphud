@@ -30,7 +30,7 @@
 		}
 		"if_mvm"
 		{
-			"team1_player_base_y"					"75"
+			"team1_player_base_y"					"70"
 		}
 
 		"avatar_width"								"63"
@@ -54,9 +54,9 @@
 				"fieldName"							"playername"
 				"font"								"DefaultVerySmall"
 				"xpos"								"4"
-				"ypos"								"rs1-3"
+				"ypos"								"rs1-2"
 				"zpos"								"5"
-				"wide"								"f8"
+				"wide"								"f6"
 				"tall"								"7"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
@@ -487,7 +487,7 @@
 		"if_mvm"
 		{
 			"visible"								"1"
-			"ypos"									"105"
+			"ypos"									"100"
 		}
 	}
     "TournamentLabel"   // waiting for teams to organize
