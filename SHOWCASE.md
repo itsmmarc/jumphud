@@ -1,10 +1,12 @@
+<summary>Jump Mode</summary>
+
 <div align="center">
 
 ## Main Menu
-![Main Menu](/screenshots/mainmenu.png)
+![Main Menu](/screenshots/jump/mainmenu.jpg)
 
 ## Options Menu
-![Options Menu](/screenshots/settings.png)
+![Options Menu](/screenshots/jump/settings.jpg)
 
 </div>
 
@@ -33,25 +35,27 @@
 <div align="center">
 
 ## Server Browser
-![Server Browser](/screenshots/serverbrowser.png)
+![Server Browser](/screenshots/jump/serverbrowser.jpg)
 
 ## Loading Screen
-![Loading Menu](/screenshots/loadingscreen.png)
+![Loading Menu](/screenshots/jump/loadingscreen.png)
 
 ## Team Selection
-![Team Selection](/screenshots/teammenu.png)
+![Team Selection](/screenshots/jump/teammenu.jpg)
 
 ## Class Selection
-![Class Selection](/screenshots/classselection.png)
+![Class Selection](/screenshots/jump/classselection.jpg)
 
 ## Pause Menu
-![Pause Menu](/screenshots/pausemenu.jpg)
+![Pause Menu](/screenshots/jump/pausemenu.jpg)
 
 </div>
 
 ### Useful buttons have been added to the pause menu including:
 
 - Toggle HUD Min Mode (Disables health value and centers ammo count)
+
+- Toggle Custom HUD Speedos
 
 - Toggle Tempus HUD
 
@@ -69,38 +73,108 @@
 
 <div align="center">
 
-## Soldier In-Game HUD (Min-Mode, Tempus HUD Disabled)
-![Soldier In-Game HUD (Min-Mode, Tempus HUD Disabled)](/screenshots/soldier1.jpg)
+## Soldier In-Game HUD
+![Soldier In-Game HUD](/screenshots/jump/soldier_apng.png)
 
-## Soldier In-Game HUD (Min-Mode, Tempus HUD Enabled)
-![Soldier In-Game HUD (Min-Mode, Tempus HUD Enabled)](/screenshots/soldier2.jpg)
+## Demo In-Game HUD
+![Demo In-Game HUD](/screenshots/jump/demo_apng.png)
 
-## Soldier In-Game HUD (Full-Mode)
-![Soldier In-Game HUD (Full-Mode)](/screenshots/soldier3.jpg)
+## Soldier Speedo
+<video src='screenshots/jump/soldierspeedo.mp4'></video>
 
-## Soldier In-Game HUD (Full-Mode, Cow Mangler)
-![Soldier In-Game HUD (Full-Mode, Cow Mangler)](/screenshots/soldier4.jpg)
+## Demo Speedo
+<video src='screenshots/jump/demospeedo.mp4'></video>
 
-## Demo In-Game HUD (Min-Mode, Tempus HUD Disabled)
-![Demo In-Game HUD (Min-Mode, Tempus HUD Disabled)](/screenshots/demo1.jpg)
-
-## Demo In-Game HUD (Min-Mode, Tempus HUD Enabled)
-![Demo In-Game HUD (Min-Mode, Tempus HUD Enabled)](/screenshots/demo2.jpg)
-
-## Demo In-Game HUD (Full-Mode)
-![Demo In-Game HUD (Full-Mode)](/screenshots/demo3.jpg)
-
-## Demo In-Game HUD (Full-Mode, V & H Speedos Enabled)
-![Demo In-Game HUD (Full-Mode, V & H Speedos Enabled)](/screenshots/demo4.jpg)
+<details>
 
 ## Scoreboard
-![Scoreboard](/screenshots/scoreboard.jpg)
+![Scoreboard](/screenshots/jump/scoreboard.jpg)
 
 ## Spectator HUD
-![Spectator HUD](/screenshots/spectator1.jpg)
+![Spectator HUD](/screenshots/jump/spectator1.jpg)
 
 ## Spectator HUD (Tempus HUD Disabled)
-![Spectator HUD (Tempus HUD Disabled)](/screenshots/spectator2.jpg)
+![Spectator HUD (Tempus HUD Disabled)](/screenshots/jump/spectator2.jpg)
+
+</div>
+
+</details>
+
+<details>
+
+<summary>Casual Mode</summary>
+
+## Main Menu
+![Main Menu](/screenshots/casual/mainmenu.jpg)
+
+## Matchmaking
+![Matchmaking](/screenshots/casual/mmdashboard.jpg)
+
+## Team Menu
+![Team Menu](/screenshots/casual/teammenu.jpg)
+
+## Class Selection
+![Class Selection](/screenshots/casual/classselection.jpg)
+
+## Health & Ammo
+![Health & Ammo](/screenshots/casual/mainhud.jpg)
+
+## Health Buff
+![Health Buff](/screenshots/casual/healthbuff.jpg)
+
+## Low Health/Ammo
+![Low Health/Ammo](/screenshots/casual/lowhealthammo.jpg)
+
+## Ubercharge
+![Ubercharge](/screenshots/casual/fulluber.jpg)
+
+## Item Meters
+![Item Meters](/screenshots/casual/itemmeters.jpg)
+
+## Engineer HUD
+![Engineer HUD](/screenshots/casual/engineer.jpg)
+
+## Spy HUD
+![Spy HUD](/screenshots/casual/spy.jpg)
+
+## TargetID
+![TargetID](/screenshots/casual/TargetID.jpg)
+
+## Scoreboard
+![Scoreboard](/screenshots/casual/scoreboard.jpg)
+
+## Freezecam
+![Freezecam](/screenshots/casual/freezecam.png)
+
+</details>
+
+<details>
+
+<summary>Competitive</summary>
+
+## Competitive Ready Up
+![Competitive Ready Up](/screenshots/casual/compreadyup.jpg)
+
+## Competitive Spectator
+![Competitive Spectator](/screenshots/casual/compspectator.jpg)
+
+</details>
+
+<details>
+
+<summary>MVM</summary>
+
+## MVM
+![MVM](/screenshots/casual/mvm.jpg)
+
+## MVM Buy Menu
+![MVM Buy Menu](/screenshots/casual/mvmbuymenu.jpg)
+
+</details>
+
+<details>
+
+<summary>Inventory</summary>
 
 ## Items
 ![Items](/screenshots/items.png)
@@ -109,9 +183,9 @@
 ![Loadout](/screenshots/loadout.png)
 
 ## Inventory
-![Inventory](/screenshots//inventory.png)
+![Inventory](/screenshots/inventory.jpg)
+
+</details>
 
 ## Console
-![Options Menu](/screenshots/consolecredits.png)
-
-</div>
+![Console](/screenshots/consolecredits.jpg)

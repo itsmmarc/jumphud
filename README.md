@@ -13,7 +13,7 @@ A Team Fortress 2 HUD designed specifically for use on jump servers.
 
 Stripped down HUD designed to give you the ability to display exactly as much information as you want, at its most bare only your clip ammo count is shown.
 
-### Useful keybinds have been added to the options menu, including:
+### Useful keybinds have been added to the options menu, including but not limited to:
 
 - CTap
 
@@ -33,34 +33,23 @@ Stripped down HUD designed to give you the ability to display exactly as much in
 
 - Full Bright (Toggle)
 
-- Show Triggers (Toggle)
-
-- Draw Clip Brushes (Toggle)
-
-- Draw Luxels (Toggle)
-
-### Useful buttons have been added to the pause menu including:
+### Useful buttons have been added to the pause menu including but not limited to:
 
 - Toggle HUD Min Mode (Disables health value and centers ammo count)
+
+- Toggle Custom HUD Speedos
 
 - Toggle Tempus HUD
 
 - Toggle Tempus Speedo (Horizontal, Vertical, and Absolute)
 
-- Toggle Full Bright
-
 - Toggle Show Triggers
-
-- Toggle Draw Clip Brushes
-
-- Toggle Chat
-
-- Toggle Net Graph
-
 
 ## Customization
 
-Swap the HUD into Casual Mode by clicking the logo on the main menu. (insert image here)
+Swap the HUD into Casual Mode by clicking the logo on the main menu.
+
+<video src='screenshots/modeswitch.mp4'></video>
 
 Use `cl_hud_minmode 1` or the button on the pause menu to hide health value and center ammo count in Jump Mode.
 
@@ -72,9 +61,9 @@ Enable and edit a custom HUD crosshair by editing `CUSTOMIZATION/crosshair.res`
 
 Change the tempus speedo colour by editing `cfg/speedocolor.cfg`.
 
-![Soldier Preview](/screenshots/soldier_apng.png)
+![Soldier Preview](/screenshots/jump/soldier_apng.png)
 
-![Demo Preview](/screenshots/demo_apng.png)
+![Demo Preview](/screenshots/jump/demo_apng.png)
 
 ## Recommended Addons
 
@@ -82,11 +71,13 @@ Elandi's custom Tempus sprays https://github.com/Elandi-rj/sprays
 
 ghytd's custom Stickybomb particles https://gamebanana.com/mods/403012
 
-## Common Issues:
+## Known Issues:
 
 Speedos won't be recoloured or repositioned until one of the speedo buttons on the pause menu is used.
 
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
+
+Inventory menu background may not load on some `sv_pure` protected servers.
 
 *If you run into any other problems, please leave a message in the [Discord](https://discord.gg/s6yJMGecMZ).*
 
