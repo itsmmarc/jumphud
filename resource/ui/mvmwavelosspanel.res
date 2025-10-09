@@ -357,7 +357,6 @@
 		"FieldName"									"ContinueButton"
 		"XPos"										"0"
 		"YPos"										"2"
-		"YPos"										"2"
 		"ZPos"										"1000"
 		"Wide"										"440"
 		"Tall"										"16"
