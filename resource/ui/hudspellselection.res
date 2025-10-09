@@ -50,7 +50,7 @@
 		"Font"										"m0refont24"
 		"LabelText"									"%counttext%"
 		"TextAlignment"								"center"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"CountText"
 	}

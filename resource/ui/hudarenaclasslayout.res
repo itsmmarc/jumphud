@@ -53,7 +53,7 @@
 		"Font"										"m0refont18"
 		"LabelText"									"#TF_Arena_Team_Layout"
 		"TextAlignment"								"center"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"title"
 	}

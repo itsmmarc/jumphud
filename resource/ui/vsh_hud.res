@@ -197,7 +197,7 @@
 				"TextAlignment"						"center"
 				"LabelText"							"%score%"
 				"Font"								"m0refont12"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 				"Pin_To_Sibling"					"Score"
 			}
@@ -263,7 +263,7 @@
 				"TextAlignment"						"center"
 				"LabelText"							"%score%"
 				"Font"								"m0refont16"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 				"Pin_To_Sibling"					"Score"
 			}

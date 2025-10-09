@@ -32,7 +32,7 @@
 		"TextAlignment"								"east"
 		"LabelText"									"%bluescore%"
 		"Font"										"m0refont30"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"BlueScore"
 	}
@@ -68,7 +68,7 @@
 		"TextAlignment"								"west"
 		"LabelText"									"%redscore%"
 		"Font"										"m0refont30"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"RedScore"
 	}

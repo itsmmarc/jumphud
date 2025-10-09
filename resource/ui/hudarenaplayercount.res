@@ -43,7 +43,7 @@
 			"Font"									"m0refont20"
 			"LabelText"								"%blue_alive%"
 			"TextAlignment"							"center"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 
 			"Pin_To_Sibling"						"Count"
 		}
@@ -113,7 +113,7 @@
 			"Font"									"m0refont20"
 			"LabelText"								"%red_alive%"
 			"TextAlignment"							"center"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 
 			"Pin_To_Sibling"						"Count"
 		}

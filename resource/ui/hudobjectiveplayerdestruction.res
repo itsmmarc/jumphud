@@ -102,7 +102,7 @@
 			"TextAlignment"							"center"
 			"LabelText"								"%flagvalue%"
 			"Font"									"m0refont18"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"proportionalToParent"					"1"
 
 			"Pin_To_Sibling"						"FlagValue"
@@ -239,7 +239,7 @@
 				"TextAlignment"						"east"
 				"LabelText"							"%blue_escrow%"
 				"Font"								"m0refont18"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
 				"Pin_To_Sibling"					"EscrowBlue"
@@ -294,7 +294,7 @@
 				"TextAlignment"						"west"
 				"LabelText"							"%red_escrow%"
 				"Font"								"m0refont18"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
 				"Pin_To_Sibling"					"EscrowRed"
@@ -343,7 +343,7 @@
 					"TextAlignment"					"center"
 					"LabelText"						"WIN:"
 					"Font"							"m0refont12"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"proportionalToParent"			"1"
 
 					"Pin_To_Sibling"				"VictoryLabel2"
@@ -379,7 +379,7 @@
 					"TextAlignment"					"center"
 					"LabelText"						"%victorytime%"
 					"Font"							"m0refont14"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"proportionalToParent"			"1"
 
 					"Pin_To_Sibling"				"VictoryLabelTime"
@@ -451,7 +451,7 @@
 					"TextAlignment"					"center"
 					"LabelText"						"WIN:"
 					"Font"							"m0refont12"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"proportionalToParent"			"1"
 
 					"Pin_To_Sibling"				"VictoryLabel2"
@@ -487,7 +487,7 @@
 					"TextAlignment"					"center"
 					"LabelText"						"%victorytime%"
 					"Font"							"m0refont14"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"proportionalToParent"			"1"
 
 					"Pin_To_Sibling"				"VictoryLabelTime"
@@ -615,7 +615,7 @@
 				"TextAlignment"						"east"
 				"LabelText"							"%score%"
 				"Font"								"m0refont30"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
 				"Pin_To_Sibling"					"Score"
@@ -665,7 +665,7 @@
 				"TextAlignment"						"west"
 				"LabelText"							"%score%"
 				"Font"								"m0refont30"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
 				"Pin_To_Sibling"					"Score"
@@ -761,7 +761,7 @@
 				"TextAlignment"						"center"
 				"LabelText"							"%intelvalue%"
 				"Font"								"m0refont16"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
 				"Pin_To_Sibling"					"IntelValue"
@@ -857,7 +857,7 @@
 				"TextAlignment"						"center"
 				"LabelText"							"%intelvalue%"
 				"Font"								"m0refont16"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
 				"Pin_To_Sibling"					"IntelValue"
@@ -907,7 +907,7 @@
 			"TextAlignment"							"east"
 			"LabelText"								"-"
 			"Font"									"Symbols14"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"proportionalToParent"					"1"
 			"Pin_To_Sibling"						"CountdownIcon"
 		}
@@ -942,7 +942,7 @@
 			"TextAlignment"							"west"
 			"LabelText"								"%countdowntime%"
 			"Font"									"m0refont16"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"proportionalToParent"					"1"
 
 			"Pin_To_Sibling"						"CountdownLabelTime"

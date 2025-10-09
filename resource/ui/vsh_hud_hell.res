@@ -73,7 +73,7 @@
 			"TextAlignment"							"center"
 			"LabelText"								"%countdowntime%"
 			"Font"									"m0refont16"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"proportionalToParent"					"1"
 			"Pin_To_Sibling"						"CountdownLabelTime"
 		}

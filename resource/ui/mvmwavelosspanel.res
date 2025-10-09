@@ -36,7 +36,7 @@
 		"Font"										"m0refont16"
 		"LabelText"									"%waveheader%"
 		"TextAlignment"								"center"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
 		"BGColor_Override"							"Red"

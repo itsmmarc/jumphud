@@ -64,7 +64,7 @@
 			"LabelText"								"#Winpanel_PVE_Evil_Wins"
 			"TextAlignment"							"Center"
 			"Font"									"m0refont12"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 
 			"Pin_To_Sibling"						"WinningTeamLabel"
 		}
