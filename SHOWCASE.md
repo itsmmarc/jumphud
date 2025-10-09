@@ -10,32 +10,6 @@
 ## Options Menu
 ![Options Menu](/screenshots/jump/settings.jpg)
 
-</div>
-
-### Useful keybinds have been added to the options menu, including:
-
-- CTap
-
-- Thirdperson (Toggle/Hold)
-
-- Crouch (Toggle)
-
-- Tempus Spray
-
-- Restart Run
-
-- Tempus HUD (Toggle)
-
-- Bounce Check (1 & 2)
-
-- Full Bright (Toggle)
-
-- Show Triggers (Toggle)
-
-- Draw Clip Brushes (Toggle)
-
-<div align="center">
-
 ## Server Browser
 ![Server Browser](/screenshots/jump/serverbrowser.jpg)
 
@@ -50,30 +24,6 @@
 
 ## Pause Menu
 ![Pause Menu](/screenshots/jump/pausemenu.jpg)
-
-</div>
-
-### Useful buttons have been added to the pause menu including:
-
-- Toggle HUD Min Mode (Disables health value and centers ammo count)
-
-- Toggle Custom HUD Speedos
-
-- Toggle Tempus HUD
-
-- Toggle Tempus Speedo (Horizontal, Vertical, and Absolute)
-
-- Toggle Full Bright
-
-- Toggle Show Triggers
-
-- Toggle Draw Clip Brushes
-
-- Toggle Chat
-
-- Toggle Net Graph
-
-<div align="center">
 
 ## Soldier In-Game HUD
 ![Soldier In-Game HUD](/screenshots/jump/soldier_apng.png)
@@ -103,6 +53,8 @@
 <details>
 
 <summary>Casual Mode</summary>
+
+<div align="center">
 
 ## Main Menu
 ![Main Menu](/screenshots/casual/mainmenu.jpg)
@@ -146,11 +98,15 @@
 ## Freezecam
 ![Freezecam](/screenshots/casual/freezecam.png)
 
+</div>
+
 </details>
 
 <details>
 
 <summary>Competitive</summary>
+
+<div align="center">
 
 ## Competitive Ready Up
 ![Competitive Ready Up](/screenshots/casual/compreadyup.jpg)
@@ -158,11 +114,15 @@
 ## Competitive Spectator
 ![Competitive Spectator](/screenshots/casual/compspectator.jpg)
 
+</div>
+
 </details>
 
 <details>
 
 <summary>MVM</summary>
+
+<div align="center">
 
 ## MVM
 ![MVM](/screenshots/casual/mvm.jpg)
@@ -170,11 +130,15 @@
 ## MVM Buy Menu
 ![MVM Buy Menu](/screenshots/casual/mvmbuymenu.jpg)
 
+</div>
+
 </details>
 
 <details>
 
 <summary>Inventory</summary>
+
+<div align="center">
 
 ## Items
 ![Items](/screenshots/items.png)
@@ -184,6 +148,8 @@
 
 ## Inventory
 ![Inventory](/screenshots/inventory.jpg)
+
+</div>
 
 </details>
 
