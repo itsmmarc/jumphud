@@ -511,7 +511,7 @@
         "pin_to_sibling_corner"                     "PIN_TOPLEFT"
 
 		"DefaultFGColor_Override"					"White"
-		"ArmedFGColor_Override"						"Black"
+		"ArmedFGColor_Override"						"Main_Shadow_Transparent"
 		"DepressedFGColor_Override"					"Black"
 
         "DefaultBGColor_Override"					"Button_Bright"

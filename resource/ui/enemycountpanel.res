@@ -85,7 +85,7 @@
 		"TextAlignment"								"center"
 		"LabelText"									"%enemy_count%"
 		"Font"										"m0refont14"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 		"Pin_To_Sibling"							"EnemyCount"
 	}
 }

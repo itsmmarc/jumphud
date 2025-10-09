@@ -134,9 +134,9 @@
 
         "paintbackground"							"0"
 
-        "defaultFgColor_override"					"BLACK"
-        "armedFgColor_override"						"BLACK"
-        "depressedFgColor_override"					"BLACK"
+        "defaultFgColor_override"					"Main_Shadow_Transparent"
+        "armedFgColor_override"						"Main_Shadow_Transparent"
+        "depressedFgColor_override"					"Main_Shadow_Transparent"
 
         //"border_default"							"Material_Black_Light"
         //"border_armed"								"Material_Hypno"
@@ -199,9 +199,9 @@
 
         "paintbackground"							"0"
 
-        "defaultFgColor_override"					"BLACK"
-        "armedFgColor_override"						"BLACK"
-        "depressedFgColor_override"					"BLACK"
+        "defaultFgColor_override"					"Main_Shadow_Transparent"
+        "armedFgColor_override"						"Main_Shadow_Transparent"
+        "depressedFgColor_override"					"Main_Shadow_Transparent"
 
         //"border_default"							"Material_Black_Light"
         //"border_armed"								"Material_Hypno"
@@ -500,9 +500,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"BLACK"
-		"armedFgColor_override"						"BLACK"
-		"depressedFgColor_override"					"BLACK"
+		"defaultFgColor_override"					"Main_Shadow_Transparent"
+		"armedFgColor_override"						"Main_Shadow_Transparent"
+		"depressedFgColor_override"					"Main_Shadow_Transparent"
 
 		//"border_default"							"Material_Black_Light"
 		//"border_armed"								"Material_Hypno"
@@ -568,9 +568,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"BLACK"
-		"armedFgColor_override"						"BLACK"
-		"depressedFgColor_override"					"BLACK"
+		"defaultFgColor_override"					"Main_Shadow_Transparent"
+		"armedFgColor_override"						"Main_Shadow_Transparent"
+		"depressedFgColor_override"					"Main_Shadow_Transparent"
 
 		//"border_default"							"Material_Black_Light"
 		//"border_armed"								"Material_Hypno"
@@ -636,9 +636,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"BLACK"
-		"armedFgColor_override"						"BLACK"
-		"depressedFgColor_override"					"BLACK"
+		"defaultFgColor_override"					"Main_Shadow_Transparent"
+		"armedFgColor_override"						"Main_Shadow_Transparent"
+		"depressedFgColor_override"					"Main_Shadow_Transparent"
 
 		//"border_default"							"Material_Black_Light"
 		//"border_armed"								"Material_Hypno"
@@ -704,9 +704,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"BLACK"
-		"armedFgColor_override"						"BLACK"
-		"depressedFgColor_override"					"BLACK"
+		"defaultFgColor_override"					"Main_Shadow_Transparent"
+		"armedFgColor_override"						"Main_Shadow_Transparent"
+		"depressedFgColor_override"					"Main_Shadow_Transparent"
 
 		//"border_default"							"Material_Black_Light"
 		//"border_armed"								"Material_Hypno"
@@ -772,9 +772,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"BLACK"
-		"armedFgColor_override"						"BLACK"
-		"depressedFgColor_override"					"BLACK"
+		"defaultFgColor_override"					"Main_Shadow_Transparent"
+		"armedFgColor_override"						"Main_Shadow_Transparent"
+		"depressedFgColor_override"					"Main_Shadow_Transparent"
 
 		//"border_default"							"Material_Black_Light"
 		//"border_armed"								"Material_Hypno"

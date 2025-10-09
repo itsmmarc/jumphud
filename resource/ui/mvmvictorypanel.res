@@ -71,7 +71,7 @@
 				"Font"								"m0refont16"
 				"LabelText"							"%header%"
 				"TextAlignment"						"center"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 			}
 		}
 		"CreditLabel"
