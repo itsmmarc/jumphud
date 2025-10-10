@@ -9,7 +9,7 @@
         // Use the console command "crosshair 0" to hide the default crosshair
 		//=========================================================================
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
+		"visible"	"1"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
 		
 		//=========================================================================
 		// CROSSHAIR TYPE
