@@ -26,6 +26,6 @@
 
 "CUSTOMIZATION/aspect_ratio.res"{
 	"LoadoutCustomBackground"{
-		"YPos"										"-38" // EDIT ME
+		"YPos"										"-36" // EDIT ME
 	}
 }
