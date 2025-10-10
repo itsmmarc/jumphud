@@ -4,7 +4,7 @@ A Team Fortress 2 HUD designed specifically for use on jump servers.
 
 ***
 
-<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.0.0/jumphud-v2.0.0.zip"><img src="screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.0.0/jumphud-v2.0.1.zip"><img src="screenshots/downloadbutton.png"></a>
 <a href="SHOWCASE.md"><img src="screenshots/screenshotsbutton.png"></a>
 <a href="https://discord.gg/s6yJMGecMZ"><img src="screenshots/discord.png"></a>
 
