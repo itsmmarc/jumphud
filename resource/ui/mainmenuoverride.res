@@ -474,6 +474,46 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+        "Contracker"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"Contracker"
+            "XPos"										"0"
+            "YPos"										"0"
+            "ZPos"										"15"
+            "Wide"										"150"
+            "Tall"										"17"
+
+            "Pin_To_Sibling"							"Items"
+            "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+            "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                "Wide"									"f0"
+                "Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"HudFontSmallishBold"
+                "AllCaps"								"1"
+                "TextAlignment"							"west"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
+            }
+        }
         "Store" // disabled
         {
             "ControlName"								"EditablePanel"
@@ -524,7 +564,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"Items"
+            "Pin_To_Sibling"							"Contracker"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -685,46 +725,6 @@
             "Tall"										"17"
 
             "Pin_To_Sibling"							"Workshop"
-            "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-            "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
-
-            "SubButton"
-            {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                "Wide"									"f0"
-                "Tall"									"f0"
-                "Visible"								"1"
-                "Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
-                "AllCaps"								"1"
-                "TextAlignment"							"west"
-                "Sound_Depressed"						"UI/buttonclick.wav"
-
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
-
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
-            }
-        }
-        "Contracker" // disabled
-        {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"Contracker"
-            "XPos"										"99999"
-            "YPos"										"0"
-            "ZPos"										"15"
-            "Wide"										"150"
-            "Tall"										"17"
-
-            "Pin_To_Sibling"							"DemoUI"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
