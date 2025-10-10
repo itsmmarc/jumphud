@@ -729,6 +729,7 @@
 		"fieldName"									"HudControlPointIcons"
 		"xpos"										"0"
 		"ypos"										"410"
+        "zpos"                                      "10"
 		"wide"										"f0"
 		"tall"										"200"
 		"visible"									"1"
