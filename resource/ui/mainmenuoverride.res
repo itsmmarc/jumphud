@@ -264,7 +264,7 @@
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
                 "Font"									"TitleFont"
-                "AllCaps"								"1"
+                "AllCaps"								"0"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
 
