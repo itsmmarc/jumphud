@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 "resource/ui/hudarenavscript.res"
+=======
+"resource/ui/hudarenavscript.res"   // arena_afterlife
+>>>>>>> origin/dev
 {
   "ObjectiveStatusRobotDestruction"
   {
@@ -202,6 +206,7 @@
       }
     }
 
+<<<<<<< HEAD
     "ProgressBarContainer"
     {
       "ControlName"           "EditablePanel"
@@ -356,5 +361,213 @@
         "proportionalToParent"  "1"
       }
     }
+=======
+    "ProgressBarContainer"  // player count
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"ProgressBarContainer"
+			"XPos"									"cs-0.5"
+			"YPos"									"17"
+			"ZPos"									"0"
+			"Wide"									"120"
+			"Tall"									"40"
+			"Visible"								"1"
+
+            "blue_anchor"
+            {
+                "ControlName"						"Panel"
+				"FieldName"							"blue_anchor"
+				"XPos"								"7"
+				"YPos"								"0"
+				"Wide"								"1"
+				"Tall"								"1"
+				"Visible"							"1"
+				"Enabled"							"1"
+            }
+            "red_anchor"
+            {
+                "ControlName"						"Panel"
+				"FieldName"							"red_anchor"
+				"XPos"								"78"
+				"YPos"								"0"
+				"Wide"								"1"
+				"Tall"								"1"
+				"Visible"							"0"
+				"Enabled"							"0"
+            }
+			"Background_Blue"   // dead
+			{
+				"ControlName"						"CTFImagePanel"
+				"FieldName"							"Background_Blue"
+				"XPos"								"9999"
+				"YPos"								"9999"
+				"Wide"								"0"
+				"Tall"								"0"
+				"Visible"							"0"
+				"Enabled"							"0"
+			}
+			"PlayerImage_Blue"
+            {
+                "ControlName"							"CExLabel"
+                "FieldName"								"PlayerImage_Blue"
+                "XPos"									"0"
+                "YPos"									"10"
+                "ZPos"									"2"
+                "Wide"									"35"
+                "Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Font"									"Symbols28"
+                "LabelText"								"k"
+                "TextAlignment"							"center"
+                "FGColor"								"Blue"
+
+                "pin_to_sibling"    "blue_anchor"
+            }
+            "PlayerImage_Blue_Shadow"
+            {
+                "ControlName"							"CExLabel"
+                "FieldName"								"PlayerImage_Blue_Shadow"
+                "XPos"									"-1"
+                "YPos"									"-1"
+                "Wide"									"35"
+                "Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Font"									"Symbols28"
+                "LabelText"								"k"
+                "TextAlignment"							"center"
+                "FGColor"								"Main_Shadow_Transparent"
+
+                "pin_to_sibling"                        "playerimage_blue"
+            }
+			"EscrowBlue"
+			{
+				"ControlName"						"CExLabel"
+				"FieldName"							"EscrowBlue"
+				"XPos"								"1"
+				"YPos"								"-10"
+				"ZPos"								"2"
+				"Wide"								"35"
+				"Tall"								"f0"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"ProportionalToParent"				"1"
+				"Font"								"m0refont20"
+				"LabelText"							"%blue_escrow%"
+				"TextAlignment"						"center"
+				"FGColor"							"Blue"
+
+                "pin_to_sibling"    "blue_anchor"
+			}
+			"EscrowBlueShadow"
+			{
+				"ControlName"						"CExLabel"
+				"FieldName"							"EscrowBlueShadow"
+				"XPos"								"-1"
+				"YPos"								"-1"
+				"ZPos"								"2"
+				"Wide"								"35"
+				"Tall"								"f0"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"ProportionalToParent"				"1"
+				"Font"								"m0refont20"
+				"LabelText"							"%blue_escrow%"
+				"TextAlignment"						"center"
+				"FGColor"							"Main_Shadow_Transparent"
+
+				"Pin_To_Sibling"					"EscrowBlue"
+			}
+			"Background_Red"    // dead
+			{
+				"ControlName"						"CTFImagePanel"
+				"FieldName"							"Background_Red"
+				"XPos"								"9999"
+				"YPos"								"9999"
+				"Wide"								"0"
+				"Tall"								"0"
+				"Visible"							"0"
+				"Enabled"							"0"
+			}
+			"PlayerImage_Red"
+			{
+                "ControlName"							"CExLabel"
+                "FieldName"								"PlayerImage_Red"
+                "XPos"									"0"
+                "YPos"									"10"
+                "ZPos"									"2"
+                "Wide"									"35"
+                "Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Font"									"Symbols28"
+                "LabelText"								"k"
+                "TextAlignment"							"center"
+                "FGColor"								"Red"
+
+                "pin_to_sibling"    "red_anchor"
+			}
+            "PlayerImage_Red_Shadow"
+            {
+                "ControlName"							"CExLabel"
+                "FieldName"								"PlayerImage_Red_Shadow"
+                "XPos"									"-1"
+                "YPos"									"-1"
+                "Wide"									"35"
+                "Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Font"									"Symbols28"
+                "LabelText"								"k"
+                "TextAlignment"							"center"
+                "FGColor"								"Main_Shadow_Transparent"
+
+                "pin_to_sibling"                        "playerimage_red"
+            }
+			"EscrowRed"
+			{
+				"ControlName"						"CExLabel"
+				"FieldName"							"EscrowRed"
+				"XPos"								"1"
+				"YPos"								"-10"
+				"ZPos"								"2"
+				"Wide"								"35"
+				"Tall"								"f0"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"ProportionalToParent"				"1"
+				"Font"								"m0refont20"
+				"LabelText"							"%red_escrow%"
+				"TextAlignment"						"center"
+				"FGColor"							"Red"
+
+                "pin_to_sibling"    "red_anchor"
+			}
+			"EscrowRedShadow"
+			{
+				"ControlName"						"CExLabel"
+				"FieldName"							"EscrowRedShadow"
+				"XPos"								"-1"
+				"YPos"								"-1"
+				"ZPos"								"2"
+				"Wide"								"35"
+				"Tall"								"f0"
+				"Visible"							"1"
+				"Enabled"							"1"
+				"ProportionalToParent"				"1"
+				"Font"								"m0refont20"
+				"LabelText"							"%red_escrow%"
+				"TextAlignment"						"center"
+				"FGColor"							"Black"
+
+				"Pin_To_Sibling"					"EscrowRed"
+			}
+		}
+>>>>>>> origin/dev
   }
 }

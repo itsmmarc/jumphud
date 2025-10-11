@@ -333,10 +333,10 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"PlayerStatusAnchor"
-		"XPos"										"-20"
-		"YPos"										"5"
+		"XPos"										"-50"
+		"YPos"										"0"
 		"Wide"										"0"
-		"Tall"										"80"
+		"Tall"										"1"
 		"Visible"									"1"
 		"Enabled"									"1"
 
