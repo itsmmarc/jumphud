@@ -1,4 +1,4 @@
-"resource/ui/hudarenavscript.res"
+"resource/ui/hudarenavscript.res"   // arena_afterlife
 {
   "ObjectiveStatusRobotDestruction"
   {
@@ -207,7 +207,7 @@
 			"ControlName"							"EditablePanel"
 			"FieldName"								"ProgressBarContainer"
 			"XPos"									"cs-0.5"
-			"YPos"									"18"
+			"YPos"									"17"
 			"ZPos"									"0"
 			"Wide"									"120"
 			"Tall"									"40"
@@ -217,7 +217,7 @@
             {
                 "ControlName"						"Panel"
 				"FieldName"							"blue_anchor"
-				"XPos"								"6"
+				"XPos"								"7"
 				"YPos"								"0"
 				"Wide"								"1"
 				"Tall"								"1"
@@ -228,7 +228,7 @@
             {
                 "ControlName"						"Panel"
 				"FieldName"							"red_anchor"
-				"XPos"								"80"
+				"XPos"								"78"
 				"YPos"								"0"
 				"Wide"								"1"
 				"Tall"								"1"
