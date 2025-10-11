@@ -264,7 +264,7 @@
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
                 "Font"									"TitleFont"
-                "AllCaps"								"1"
+                "AllCaps"								"0"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -320,7 +320,7 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"CasualToggle_Casual"
             "XPos"										"0"
-            "YPos"										"5"
+            "YPos"										"5+1"
             "ZPos"										"10"
             //"Wide"										"25"
             //"Tall"										"25"
@@ -474,6 +474,46 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+        "Contracker"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"Contracker"
+            "XPos"										"0"
+            "YPos"										"0"
+            "ZPos"										"15"
+            "Wide"										"150"
+            "Tall"										"17"
+
+            "Pin_To_Sibling"							"Items"
+            "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+            "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                "Wide"									"f0"
+                "Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"HudFontSmallishBold"
+                "AllCaps"								"1"
+                "TextAlignment"							"west"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
+            }
+        }
         "Store" // disabled
         {
             "ControlName"								"EditablePanel"
@@ -524,7 +564,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"Items"
+            "Pin_To_Sibling"							"Contracker"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -685,46 +725,6 @@
             "Tall"										"17"
 
             "Pin_To_Sibling"							"Workshop"
-            "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-            "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
-
-            "SubButton"
-            {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                "Wide"									"f0"
-                "Tall"									"f0"
-                "Visible"								"1"
-                "Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
-                "AllCaps"								"1"
-                "TextAlignment"							"west"
-                "Sound_Depressed"						"UI/buttonclick.wav"
-
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
-
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
-            }
-        }
-        "Contracker" // disabled
-        {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"Contracker"
-            "XPos"										"99999"
-            "YPos"										"0"
-            "ZPos"										"15"
-            "Wide"										"150"
-            "Tall"										"17"
-
-            "Pin_To_Sibling"							"DemoUI"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -1100,7 +1100,7 @@
         }
 
     //======================
-    // TEMPUS BUTTONS / Utilities
+    // JUMP BUTTONS / Utilities
     //======================
         "JumpAnchor"
         {
@@ -1120,13 +1120,13 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"SoldierSpeedo"
             "XPos"										"0"
-            "YPos"										"50"
+            "YPos"										"25"
             "ZPos"										"15"
-            "Wide"										"20"
-            "Tall"										"20"
+            "Wide"										"28"
+            "Tall"										"28"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"JumpAnchor"
+            "Pin_To_Sibling"							"SpeedosOff"
             "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
             "Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 
@@ -1143,7 +1143,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"Symbols18"
+                "Font"									"Symbols28"
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
@@ -1162,13 +1162,13 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"DemoSpeedo"
             "XPos"										"0"
-            "YPos"										"50"
+            "YPos"										"25"
             "ZPos"										"15"
-            "Wide"										"20"
-            "Tall"										"20"
+            "Wide"										"28"
+            "Tall"										"28"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"JumpAnchor"
+            "Pin_To_Sibling"							"SpeedosOff"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
@@ -1185,7 +1185,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"Symbols18"
+                "Font"									"Symbols28"
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
@@ -1202,6 +1202,47 @@
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"SpeedosOff"
+            "XPos"										"0"
+            "YPos"										"75"
+            "ZPos"										"15"
+            "Wide"										"24"
+            "Tall"										"24"
+            "Visible"									"1"
+
+            "Pin_To_Sibling"							"JumpAnchor"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                "Wide"									"f0"
+                "Tall"									"f0"
+                //"Visible"								"1"
+                //"Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"Symbols24"
+                "TextAlignment"							"center"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+                
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
+            }
+        }
+        "Toggle_HUDMessage"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"Toggle_HUDMessage"
             "XPos"										"0"
             "YPos"										"25"
             "ZPos"										"15"
@@ -1239,6 +1280,7 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+        
 
 
         "TempusHud"
@@ -1613,15 +1655,15 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"ToggleMinmode"
             "XPos"										"0"
-            "YPos"										"2"
+            "YPos"										"15"
             "ZPos"										"15"
-            "Wide"										"20"
-            "Tall"										"20"
+            "Wide"										"28"
+            "Tall"										"28"
             "Visible"									"1"
 
             "Pin_To_Sibling"							"ASpeedo"
-            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-            "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
 
             "SubButton"
             {
@@ -1636,7 +1678,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"Symbols18"
+                "Font"									"Symbols28"
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 

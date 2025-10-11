@@ -11,7 +11,7 @@
 # Define parameters
 $maxNumber = 3500
 $backgroundColor = "Transparent"
-$font = "Coolvetica_Italic.otf"
+$font = "Coolvetica_Italic_Mono.otf"
 $fontSize = 64
 $VTFSize = "256x64" # 128x32 for low res
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast

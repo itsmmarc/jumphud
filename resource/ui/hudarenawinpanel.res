@@ -78,7 +78,7 @@
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
-			"Font"									"m0refont11"
+			"Font"									"JumpHUD_Secondary_Font"
 			"LabelText"								"%blueteamname%"
 			"TextAlignment"							"west"
 			"FGColor"								"White"
@@ -138,7 +138,7 @@
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
-			"Font"									"m0refont11"
+			"Font"									"JumpHUD_Secondary_Font"
 			"LabelText"								"%redteamname%"
 			"TextAlignment"							"east"
 			"FGColor"								"White"
@@ -253,7 +253,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"WinningTeamLabel"
-		"Font"										"m0refont24"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 		"XPos"										"-12"
 		"YPos"										"0"
@@ -273,8 +273,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"WinningTeamLabelDropshadow"
-		"Font"										"m0refont24"
-		"FGColor"									"Black"
+		"Font"										"JumpHUD_Secondary_Font"
+		"FGColor"									"Main_Shadow_Transparent"
 		"XPos"										"-1"
 		"YPos"										"-1"
 		"ZPos"										"1"
@@ -291,7 +291,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"LosingTeamLabel"
-		"Font"										"m0refont24"
+		"Font"										"JumpHUD_Secondary_Font"
 		"FGColor"									"White"
 		"XPos"										"-12"
 		"YPos"										"0"
@@ -311,8 +311,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"LosingTeamLabelDropshadow"
-		"Font"										"m0refont24"
-		"FGColor"									"Black"
+		"Font"										"JumpHUD_Secondary_Font"
+		"FGColor"									"Main_Shadow_Transparent"
 		"XPos"										"-1"
 		"YPos"										"-1"
 		"ZPos"										"1"
@@ -484,7 +484,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 			"alpha"									"255"
@@ -499,7 +499,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -517,7 +517,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -535,7 +535,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -553,7 +553,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -571,7 +571,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -589,7 +589,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 			"alpha"									"255"
@@ -608,7 +608,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -626,7 +626,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -644,7 +644,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -662,7 +662,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -680,7 +680,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -698,7 +698,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 			"alpha"									"255"
@@ -717,7 +717,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -735,7 +735,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -753,7 +753,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -771,7 +771,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -789,7 +789,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -857,7 +857,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 			"alpha"									"255"
@@ -872,7 +872,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -890,7 +890,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -908,7 +908,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -926,7 +926,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -944,7 +944,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -962,7 +962,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 			"alpha"									"255"
@@ -981,7 +981,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -999,7 +999,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -1017,7 +1017,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -1035,7 +1035,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -1053,7 +1053,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -1071,7 +1071,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 			"alpha"									"255"
@@ -1090,7 +1090,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -1108,7 +1108,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -1126,7 +1126,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -1144,7 +1144,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 
@@ -1162,7 +1162,7 @@
 			"Tall"									"10"
 			"Visible"								"1"
 			"Enabled"								"1"
-			"Font"									"m0refont10"
+			"Font"									"LabelsFontLarge"
 			"LabelText"								""
 			"TextAlignment"							"west"
 

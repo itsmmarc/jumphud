@@ -48,7 +48,7 @@
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
 		"Font"										"JumpHUD_Secondary_Font"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 		"Pin_To_Sibling"							"Currency"
 	}
 

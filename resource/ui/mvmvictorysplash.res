@@ -40,7 +40,7 @@
 			"Font"									"HudFontMediumBigBold"
 			"LabelText"								"#TF_MVM_Victory"
 			"TextAlignment"							"center"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"Pin_To_Sibling"						"SplashLabel"
 		}
 	}

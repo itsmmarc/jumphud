@@ -62,7 +62,7 @@
 			"Font"									"m0refont12"
 			"TextAlignment"							"center"
 			"LabelText"								"%titletext%"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"Pin_To_Sibling"						"WaveCompleteLabel"
 		}
 	}

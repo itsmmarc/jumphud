@@ -1,6 +1,10 @@
 #base "../cfg/hud_hudlayout.txt"
 #base "hudlayout_jump.res"
 
+// hud message toggle (ingame pop-up text)
+#base "../cfg/hud_hudmessage.txt"
+#base "../resource/ui/hudmessage_on.res"
+
 #base "../CUSTOMIZATION/crosshair.res"
 
 "Scripts/HudLayout.res"
@@ -20,7 +24,7 @@
 		"fieldName"									"HudWeaponAmmo"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"0"
+		//"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
@@ -488,8 +492,8 @@
 		"fieldName"									"HudMessage"
 		"visible"									"1"
 		"enabled"									"1"
-		"wide"										"f0"
-		"tall"										"480"
+		//"wide"										"f0"
+		//"tall"										"480"
 	}
 	"HudMenu"
 	{
@@ -725,6 +729,7 @@
 		"fieldName"									"HudControlPointIcons"
 		"xpos"										"0"
 		"ypos"										"410"
+        "zpos"                                      "10"
 		"wide"										"f0"
 		"tall"										"200"
 		"visible"									"1"
@@ -779,7 +784,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"c-150"
-		"ypos"										"255"
+		"ypos"										"0"
+        "zpos"  "10"
 		"wide"										"300"
 		"tall"										"215"
 	}

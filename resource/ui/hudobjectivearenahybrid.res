@@ -107,7 +107,7 @@
 			"Font"									"m0refont14"
 			"LabelText"								" "
 			"TextAlignment"							"center"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 
 			"Pin_To_Sibling"						"Count"
 		}
@@ -201,7 +201,7 @@
 			"Font"									"m0refont14"
 			"LabelText"								" "
 			"TextAlignment"							"center"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 
 			"Pin_To_Sibling"						"Count"
 		}
@@ -301,7 +301,7 @@
 			"TextAlignment"							"center"
 			"LabelText"								"%countdowntime%"
 			"Font"									"m0refont18"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"proportionalToParent"					"1"
 
 			"Pin_To_Sibling"						"CountdownLabelTime"
@@ -394,7 +394,7 @@
 			"TextAlignment"							"west"
 			"LabelText"								"%flagvalue%"
 			"Font"									"m0refont14"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"proportionalToParent"					"1"
 
 			"Pin_To_Sibling"						"FlagValue"
@@ -501,7 +501,7 @@
 				"TextAlignment"						"east"
 				"LabelText"							"%score%"
 				"Font"								"m0refont30"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
 				"Pin_To_Sibling"					"Score"
@@ -551,7 +551,7 @@
 				"TextAlignment"						"west"
 				"LabelText"							"%score%"
 				"Font"								"m0refont30"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
 				"Pin_To_Sibling"					"Score"
@@ -614,7 +614,7 @@
 					"TextAlignment"					"center"
 					"LabelText"						"WIN:"
 					"Font"							"m0refont12"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"proportionalToParent"			"1"
 
 					"Pin_To_Sibling"				"VictoryLabel2"
@@ -650,7 +650,7 @@
 					"TextAlignment"					"center"
 					"LabelText"						"%victorytime%"
 					"Font"							"m0refont14"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"proportionalToParent"			"1"
 
 					"Pin_To_Sibling"				"VictoryLabelTime"
@@ -722,7 +722,7 @@
 					"TextAlignment"					"center"
 					"LabelText"						"WIN:"
 					"Font"							"m0refont12"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"proportionalToParent"			"1"
 
 					"Pin_To_Sibling"				"VictoryLabel2"
@@ -758,7 +758,7 @@
 					"TextAlignment"					"center"
 					"LabelText"						"%victorytime%"
 					"Font"							"m0refont14"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"proportionalToParent"			"1"
 
 					"Pin_To_Sibling"				"VictoryLabelTime"

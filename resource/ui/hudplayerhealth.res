@@ -284,7 +284,7 @@
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
 		"Font"										"m0refont32"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"HealthValue"
 	}
@@ -333,10 +333,10 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"PlayerStatusAnchor"
-		"XPos"										"-20"
-		"YPos"										"5"
+		"XPos"										"-50"
+		"YPos"										"0"
 		"Wide"										"0"
-		"Tall"										"80"
+		"Tall"										"1"
 		"Visible"									"1"
 		"Enabled"									"1"
 

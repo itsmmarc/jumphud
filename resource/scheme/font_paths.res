@@ -15,22 +15,17 @@ Scheme
 			"Font"		"resource/scheme/fonts/coolvetica_regular_bold.ttf"
 			"name"		"coolvetica_rg_bold"
 		}
-        "5" // unused
-		{
-			"Font"		"resource/scheme/fonts/poppins_black.ttf"
-			"name"		"Poppins Black"
-		}
-        "6" // title font
+        "5" // title font
 		{
 			"Font"		"resource/scheme/fonts/poppins_black_italic.ttf"
 			"name"		"Poppins Black Italic"
 		}
-		"7"
+		"6"
 		{
 			"Font"		"resource/scheme/fonts/square_edit.ttf"
 			"name"		"square_edit"
 		}
-		"8"
+		"7"
 		{
 			"Font"		"resource/scheme/fonts/surface_uber_icons.ttf"
 			"name"		"surface_uber_icons"
@@ -168,45 +163,25 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-        "9"    // main hud font
+        "8"    // main hud font
         {
             "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
             "name"      "Coolvetica Italic"
         }
-        "10"
+        "9"
         {
             "Font"      "resource/scheme/fonts/steelfish_italic.otf"
             "name"      "Steelfish"
         }
-        "11"    // unused
-        {
-            "Font"      "resource/scheme/fonts/objectivity_regular.otf"
-            "name"      "Objectivity"
-        }
-        "12"    // unused
-        {
-            "Font"      "resource/scheme/fonts/inconsolata_regular.ttf"
-            "name"      "Inconsolata"
-        }
-        "13"    // unused
-        {
-            "font"      "resource/scheme/fonts/coolvetica_regular.otf"
-            "name"      "Coolvetica"
-        }
-        "14"
-        {
-            "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
-            "name"      "NK57 Monospace Sc Rg"
-        }
-        "15"    // unused
-        {
-            "font"      "resource/scheme/fonts/nk57-monospace.cdrg-regular.otf"
-            "name"      "NK57 Monospace Cd Rg"
-        }
-        "16"
+        "10"
         {
             "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
             "name"      "Steelfish ExtBd"
+        }
+        "11"
+        {
+            "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
+            "name"      "NK57 Monospace Sc Rg"
         }
         //icon fonts
         "101"

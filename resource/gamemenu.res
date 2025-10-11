@@ -5,7 +5,7 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"jumphud 2.0"
+		"label"										"JUMPHUD v2.1.0"
 		"Command"									"engine showconsole; exec jumphudversioninfo"
 		"OnlyAtMenu"								"1"
 	}
@@ -153,7 +153,14 @@
     {
         "label"										"2"
 		"Command"									"engine speedos_off; hud_reloadscheme"
-		"tooltip"									"Turn Off Speedos"
+		"tooltip"									"Disable HUD Speedos"
+		"OnlyInGame"								"1"
+    }
+    "Toggle_HUDMessage"
+    {
+        "label"										"E"
+		"Command"									"engine hudmessage_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Map Text Pop-Ups"
 		"OnlyInGame"								"1"
     }
     "FullBright"

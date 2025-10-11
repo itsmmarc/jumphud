@@ -326,7 +326,7 @@
 			"ZPos"									"2"
 			"Wide"									"f0"
 			"Tall"									"f0"
-			"FGColor"								"Black"
+			"FGColor"								"Main_Shadow_Transparent"
 			"proportionalToParent"					"1"
 		}
 		"TourProgressLabel"

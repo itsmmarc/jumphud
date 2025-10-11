@@ -42,7 +42,7 @@
 		"LabelText"									"/"
 		"TextAlignment"								"center"
 		"Font"										"Symbols14"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 	}
 	"ItemEffectMeterCount"
 	{

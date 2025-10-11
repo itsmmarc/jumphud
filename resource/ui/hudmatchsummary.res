@@ -191,7 +191,7 @@
 				"FieldName"							"StatsAndMedalsShadow"
 				"Font"								"MatchSummaryStatsAndMedals"
 				"LabelText"							"#TF_StatsAndMedals"
-				"FGColor"							"Black"
+				"FGColor"							"Main_Shadow_Transparent"
 				"TextAlignment"						"center"
 				"XPos"								"1"
 				"YPos"								"1"
@@ -278,7 +278,7 @@
 					"Visible"						"1"
 					"Enabled"						"1"
 					"Font"							"m0refont48"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"LabelText"						"%blueteamscore%"
 					"TextAlignment"					"east"
 
@@ -320,7 +320,7 @@
 					"Visible"						"1"
 					"Enabled"						"1"
 					"Font"							"m0refont24"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"LabelText"						"%blueteamwinner%"
 					"TextAlignment"					"east"
 
@@ -363,7 +363,7 @@
 					"Font"							"m0refont24"
 					"LabelText"						"%blueteamname%"
 					"TextAlignment"					"west"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"Pin_To_Sibling"				"BlueLabel"
 				}
 				"BlueTeamImage"
@@ -579,7 +579,7 @@
 					"Visible"						"1"
 					"Enabled"						"1"
 					"Font"							"m0refont48"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"LabelText"						"%redteamscore%"
 					"TextAlignment"					"west"
 
@@ -621,7 +621,7 @@
 					"Visible"						"1"
 					"Enabled"						"1"
 					"Font"							"m0refont24"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"LabelText"						"%redteamwinner%"
 					"TextAlignment"					"west"
 
@@ -664,7 +664,7 @@
 					"Font"							"m0refont24"
 					"LabelText"						"%redteamname%"
 					"TextAlignment"					"east"
-					"FGColor"						"Black"
+					"FGColor"						"Main_Shadow_Transparent"
 					"Pin_To_Sibling"				"RedLabel"
 				}
 				"RedTeamImage"

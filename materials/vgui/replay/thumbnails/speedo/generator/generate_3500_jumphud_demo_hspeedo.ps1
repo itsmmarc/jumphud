@@ -11,7 +11,7 @@
 # Define parameters
 $maxNumber = 3500
 $backgroundColor = "Transparent"
-$font = "Coolvetica_Italic.otf"
+$font = "Coolvetica_Italic_Mono.otf"
 $fontSize = 64
 $VTFSize = "256x64" # 128x32 for low res
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
@@ -84,7 +84,7 @@ for ($num = 0; $num -le $maxNumber; $num++) {
     # Display progress
     Write-Host -NoNewline "`rGenerating number $num with text color: $textColor"
     # Generate image
-    convert.exe -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity center -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
+    convert.exe -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity $VTFAlignment -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
     # Update progress bar
     $progress = ($num / $maxNumber) * 100
     Show-ProgressBar -PercentComplete $progress

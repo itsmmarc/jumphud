@@ -75,7 +75,7 @@
 		"TextAlignment"								"center"
 		"LabelText"									"%Health%"
 		"Font"										"m0refont24"
-		"FGColor"									"Black"
+		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"HealthValue_Target"
 	}
