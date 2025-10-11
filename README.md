@@ -1,6 +1,6 @@
 <a href="github.com/itsmmarc/jumphud"><img src="screenshots/logo.png"></a>
 
-A Team Fortress 2 HUD designed specifically for use on jump servers.
+A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully casual/mvm/competitive compatible!
 
 ***
 
@@ -10,13 +10,11 @@ A Team Fortress 2 HUD designed specifically for use on jump servers.
 
 ***
 
-## Features
-
-Stripped down HUD designed for use on Jump servers. Now fully casual/mvm/competitive compatible!
-
 ![Soldier Preview](/screenshots/jump/soldier_apng.png)
 
 ![Demo Preview](/screenshots/jump/demo_apng.png)
+
+## Features
 
 ### Useful keybinds have been added to the options menu, including but not limited to:
 
