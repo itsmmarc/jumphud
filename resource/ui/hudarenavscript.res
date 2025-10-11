@@ -207,13 +207,35 @@
 			"ControlName"							"EditablePanel"
 			"FieldName"								"ProgressBarContainer"
 			"XPos"									"cs-0.5"
-			"YPos"									"2"
+			"YPos"									"18"
 			"ZPos"									"0"
 			"Wide"									"120"
 			"Tall"									"40"
 			"Visible"								"1"
 
-			"Background_Blue"
+            "blue_anchor"
+            {
+                "ControlName"						"Panel"
+				"FieldName"							"blue_anchor"
+				"XPos"								"6"
+				"YPos"								"0"
+				"Wide"								"1"
+				"Tall"								"1"
+				"Visible"							"1"
+				"Enabled"							"1"
+            }
+            "red_anchor"
+            {
+                "ControlName"						"Panel"
+				"FieldName"							"red_anchor"
+				"XPos"								"80"
+				"YPos"								"0"
+				"Wide"								"1"
+				"Tall"								"1"
+				"Visible"							"0"
+				"Enabled"							"0"
+            }
+			"Background_Blue"   // dead
 			{
 				"ControlName"						"CTFImagePanel"
 				"FieldName"							"Background_Blue"
@@ -228,8 +250,8 @@
             {
                 "ControlName"							"CExLabel"
                 "FieldName"								"PlayerImage_Blue"
-                "XPos"									"cs-1"
-                "YPos"									"-10"
+                "XPos"									"0"
+                "YPos"									"10"
                 "ZPos"									"2"
                 "Wide"									"35"
                 "Tall"									"f0"
@@ -240,6 +262,8 @@
                 "LabelText"								"k"
                 "TextAlignment"							"center"
                 "FGColor"								"Blue"
+
+                "pin_to_sibling"    "blue_anchor"
             }
             "PlayerImage_Blue_Shadow"
             {
@@ -263,8 +287,8 @@
 			{
 				"ControlName"						"CExLabel"
 				"FieldName"							"EscrowBlue"
-				"XPos"								"cs-1-1"
-				"YPos"								"10"
+				"XPos"								"1"
+				"YPos"								"-10"
 				"ZPos"								"2"
 				"Wide"								"35"
 				"Tall"								"f0"
@@ -275,6 +299,8 @@
 				"LabelText"							"%blue_escrow%"
 				"TextAlignment"						"center"
 				"FGColor"							"Blue"
+
+                "pin_to_sibling"    "blue_anchor"
 			}
 			"EscrowBlueShadow"
 			{
@@ -295,7 +321,7 @@
 
 				"Pin_To_Sibling"					"EscrowBlue"
 			}
-			"Background_Red"
+			"Background_Red"    // dead
 			{
 				"ControlName"						"CTFImagePanel"
 				"FieldName"							"Background_Red"
@@ -310,8 +336,8 @@
 			{
                 "ControlName"							"CExLabel"
                 "FieldName"								"PlayerImage_Red"
-                "XPos"									"cs0"
-                "YPos"									"-10"
+                "XPos"									"0"
+                "YPos"									"10"
                 "ZPos"									"2"
                 "Wide"									"35"
                 "Tall"									"f0"
@@ -322,6 +348,8 @@
                 "LabelText"								"k"
                 "TextAlignment"							"center"
                 "FGColor"								"Red"
+
+                "pin_to_sibling"    "red_anchor"
 			}
             "PlayerImage_Red_Shadow"
             {
@@ -345,8 +373,8 @@
 			{
 				"ControlName"						"CExLabel"
 				"FieldName"							"EscrowRed"
-				"XPos"								"cs0-1"
-				"YPos"								"10"
+				"XPos"								"1"
+				"YPos"								"-10"
 				"ZPos"								"2"
 				"Wide"								"35"
 				"Tall"								"f0"
@@ -357,6 +385,8 @@
 				"LabelText"							"%red_escrow%"
 				"TextAlignment"						"center"
 				"FGColor"							"Red"
+
+                "pin_to_sibling"    "red_anchor"
 			}
 			"EscrowRedShadow"
 			{
