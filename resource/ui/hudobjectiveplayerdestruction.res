@@ -598,7 +598,7 @@
 				"TextAlignment"						"east"
 				"LabelText"							"%score%"
 				"Font"								"m0refont30"
-				"FGColor"							"HUDBlueTeamSolid"
+				"FGColor"							"Blue"
 				"proportionalToParent"				"1"
 			}
 			"ScoreShadow"
@@ -648,7 +648,7 @@
 				"TextAlignment"						"west"
 				"LabelText"							"%score%"
 				"Font"								"m0refont30"
-				"FGColor"							"HUDRedTeamSolid"
+				"FGColor"							"Red"
 				"proportionalToParent"				"1"
 			}
 			"ScoreShadow"
@@ -880,8 +880,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"CountdownIcon"
-			"XPos"									"cs-0.5"
-			"YPos"									"cs-0.5"
+			"XPos"									"cs-0.5-7"
+			"YPos"									"cs-0.5-1"
 			"ZPos"									"1"
 			"Wide"									"28"
 			"Tall"									"f0"
@@ -915,7 +915,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"CountdownLabelTime"
-			"XPos"									"rs1"
+			"XPos"									"cs-0.5+14"
 			"YPos"									"0"
 			"ZPos"									"8"
 			"Wide"									"28"
