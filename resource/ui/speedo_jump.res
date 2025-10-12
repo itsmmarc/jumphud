@@ -1,3 +1,6 @@
+#base "../../cfg/hud_speedo_absolute.txt"
+#base "speedo_absolute.res"
+
 #base "../../cfg/hud_speedo_soldier.txt"
 #base "speedo_soldier.res"
 
