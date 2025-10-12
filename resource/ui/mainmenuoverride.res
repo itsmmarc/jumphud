@@ -1119,10 +1119,10 @@
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"SoldierSpeedo"
-            "XPos"										"0"
-            "YPos"										"25"
+            "XPos"										"5"
+            "YPos"										"35"
             "ZPos"										"15"
-            "Wide"										"28"
+            "Wide"										"29"
             "Tall"										"28"
             "Visible"									"1"
 
@@ -1161,10 +1161,10 @@
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"DemoSpeedo"
-            "XPos"										"0"
-            "YPos"										"25"
+            "XPos"										"5"
+            "YPos"										"35"
             "ZPos"										"15"
-            "Wide"										"28"
+            "Wide"										"29"
             "Tall"										"28"
             "Visible"									"1"
 
@@ -1198,12 +1198,53 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+        "AbsoluteSpeedo"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"AbsoluteSpeedo"
+            "XPos"										"0"
+            "YPos"										"22"
+            "ZPos"										"15"
+            "Wide"										"19"
+            "Tall"										"18"
+            "Visible"									"1"
+
+            "Pin_To_Sibling"							"SpeedosOff"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                "Wide"									"f0"
+                "Tall"									"f0"
+                //"Visible"								"1"
+                //"Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+                
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
+            }
+        }
         "SpeedosOff"
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"SpeedosOff"
             "XPos"										"0"
-            "YPos"										"75"
+            "YPos"										"65"
             "ZPos"										"15"
             "Wide"										"24"
             "Tall"										"24"

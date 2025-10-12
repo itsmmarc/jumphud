@@ -7,8 +7,6 @@
             // ...
             "SubImage"
             {
-                "ControlName"   "ImagePanel"
-                "fieldName"      "SubImage"
                 "wide"         "25"
                 "tall"         "25"
             }
@@ -20,7 +18,6 @@
 
             "SubButton"
             {
-                "FieldName"								"SubButton"
                 "Wide"									"0"
                 "Tall"									"0"
             }
@@ -29,8 +26,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -39,8 +34,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -49,8 +42,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -59,8 +50,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -69,8 +58,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -79,8 +66,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -90,8 +75,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -100,8 +83,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -110,8 +91,6 @@
         {
             "SubButton"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
                 "Visible"								"1"
                 "Enabled"								"1"
             }
@@ -133,6 +112,14 @@
             }
         }
         "DemoSpeedo"
+        {
+            "SubButton"
+            {
+                "Visible"								"1"
+                "Enabled"								"1"
+            }
+        }
+        "AbsoluteSpeedo"
         {
             "SubButton"
             {

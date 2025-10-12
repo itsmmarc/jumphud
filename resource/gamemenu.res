@@ -146,7 +146,14 @@
     {
         "label"										"7"
 		"Command"									"engine toggle_demo_speedos"
-		"tooltip"									"Toggle Demo Speedo"
+		"tooltip"									"Toggle Demo Speedos"
+		"OnlyInGame"								"1"
+    }
+    "AbsoluteSpeedo"
+    {
+        "label"										"7"
+		"Command"									"engine toggle_absolute_speedo"
+		"tooltip"									"Toggle Absolute Speedo"
 		"OnlyInGame"								"1"
     }
     "SpeedosOff"
