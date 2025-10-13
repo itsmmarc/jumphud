@@ -1,16 +1,16 @@
-"Scheme"
+"scheme"
 {
-	"Fonts"
+	"fonts"
 	{
 		//=================================================================================================
-		// M0REHUD FONTS
+		// m0rehud fonts
 		//=================================================================================================
             "m0refont9"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"9"
+                    "tall"										"9"
                     "antialias"									"1"
                 }
             }
@@ -19,16 +19,16 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "antialias"									"1"
                 }
             }
-            "m0refont10Shadow"
+            "m0refont10shadow"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -38,16 +38,16 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"11"
+                    "tall"										"11"
                     "antialias"									"1"
                 }
             }
-            "m0refont11Shadow"
+            "m0refont11shadow"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"11"
+                    "tall"										"11"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -57,16 +57,16 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "antialias"									"1"
                 }
             }
-            "m0refont12Shadow"
+            "m0refont12shadow"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -76,16 +76,16 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "antialias"									"1"
                 }
             }
-            "m0refont14Shadow"
+            "m0refont14shadow"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -95,16 +95,16 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"16"
+                    "tall"										"16"
                     "antialias"									"1"
                 }
             }
-            "m0refont16Shadow"
+            "m0refont16shadow"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"16"
+                    "tall"										"16"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -114,36 +114,36 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "antialias"									"1"
                 }
             }
-            "m0refont18Shadow"
+            "m0refont18shadow"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "m0refont18Outline"
+            "m0refont18outline"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "antialias"									"1"
                     "outline"									"1"
                 }
             }
-            "m0refont18Numbers"
+            "m0refont18numbers"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -153,7 +153,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"20"
+                    "tall"										"20"
                     "antialias"									"1"
                 }
             }
@@ -162,36 +162,36 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "antialias"									"1"
                 }
             }
-            "m0refont24Shadow"
+            "m0refont24shadow"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "m0refont24Outline"
+            "m0refont24outline"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "antialias"									"1"
                     "outline"									"1"
                 }
             }
-            "m0refont24Numbers"
+            "m0refont24numbers"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -201,7 +201,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"26"
+                    "tall"										"26"
                     "antialias"									"1"
                 }
             }
@@ -210,26 +210,26 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"30"
+                    "tall"										"30"
                     "antialias"									"1"
                 }
             }
-            "m0refont30Outline"
+            "m0refont30outline"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"30"
+                    "tall"										"30"
                     "antialias"									"1"
                     "outline"									"1"
                 }
             }
-            "m0refont30Numbers"
+            "m0refont30numbers"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"30"
+                    "tall"										"30"
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -239,16 +239,16 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"32"
+                    "tall"										"32"
                     "antialias"									"1"
                 }
             }
-            "m0refont32Shadow"
+            "m0refont32shadow"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"32"
+                    "tall"										"32"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -258,7 +258,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"36"
+                    "tall"										"36"
                     "antialias"									"1"
                 }
             }
@@ -267,7 +267,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"48"
+                    "tall"										"48"
                     "antialias"									"1"
                 }
             }
@@ -276,513 +276,513 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"58"
+                    "tall"										"58"
                     "antialias"									"1"
                 }
             }
         //
-            "Uber_Spec_7"											//SpectatorGUI Health
+            "uber_spec_7"											//spectatorgui health
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"7"
+                    "name"										"coolvetica italic"
+                    "tall"										"7"
                     "antialias"									"1"
                 }
             }
-            "Uber_Spec_8"											//SpectatorGUI Health
+            "uber_spec_8"											//spectatorgui health
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"8"
+                    "name"										"coolvetica italic"
+                    "tall"										"8"
                     "antialias"									"1"
                 }
             }
-            "Uber_Spec"											//SpectatorGUI Health
+            "uber_spec"											//spectatorgui health
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"9"
+                    "name"										"coolvetica italic"
+                    "tall"										"9"
                     "antialias"									"1"
                 }
             }
-            "Uber_Spec_10"											//SpectatorGUI Health
+            "uber_spec_10"											//spectatorgui health
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"10"
-                    "antialias"									"1"
-                }
-            }
-        //
-            "VerdanaMenu"										//Create Server Button
-            {
-                "1"
-                {
-                    "name"										"Verdana"
-                    "Tall"										"18"
-                    "antialias"									"1"
-                }
-            }
-            "VerdanaSmallest"									//Match Status Names
-            {
-                "1"
-                {
-                    "name"										"Verdana"
-                    "Tall"										"6"
-                    "antialias"									"1"
-                }
-            }
-        // Symbols
-            "Symbols10"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"10"
-                    "antialias"									"1"
-                }
-            }
-            "Symbols12"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"12"
-                    "antialias"									"1"
-                }
-            }
-            "Symbols14"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"14"
-                    "antialias"									"1"
-                }
-            }
-            "Symbols16"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"16"
-                    "antialias"									"1"
-                }
-            }
-            "Symbols18"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"18"
-                    "antialias"									"1"
-                }
-            }
-            "Symbols20"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"20"
-                    "antialias"									"1"
-                }
-            }
-            "Symbols24"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"24"
-                    "antialias"									"1"
-                }
-            }
-            "Symbols28"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"28"
-                    "antialias"									"1"
-                }
-            }
-            "Symbols35"
-            {
-                "1"
-                {
-                    "name"										"m0rehud_icons_v13"
-                    "Tall"										"35"
+                    "name"										"coolvetica italic"
+                    "tall"										"10"
                     "antialias"									"1"
                 }
             }
         //
-            "BlocksSharp64"
+            "verdanamenu"										//create server button
+            {
+                "1"
+                {
+                    "name"										"verdana"
+                    "tall"										"18"
+                    "antialias"									"1"
+                }
+            }
+            "verdanasmallest"									//match status names
+            {
+                "1"
+                {
+                    "name"										"verdana"
+                    "tall"										"6"
+                    "antialias"									"1"
+                }
+            }
+        // symbols
+            "symbols10"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"10"
+                    "antialias"									"1"
+                }
+            }
+            "symbols12"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"12"
+                    "antialias"									"1"
+                }
+            }
+            "symbols14"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"14"
+                    "antialias"									"1"
+                }
+            }
+            "symbols16"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"16"
+                    "antialias"									"1"
+                }
+            }
+            "symbols18"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"18"
+                    "antialias"									"1"
+                }
+            }
+            "symbols20"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"20"
+                    "antialias"									"1"
+                }
+            }
+            "symbols24"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"24"
+                    "antialias"									"1"
+                }
+            }
+            "symbols28"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"28"
+                    "antialias"									"1"
+                }
+            }
+            "symbols35"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"35"
+                    "antialias"									"1"
+                }
+            }
+        //
+            "blockssharp64"
             {
                 "1"
                 {
                     "name"										"blocks"
-                    "Tall"										"64"
+                    "tall"										"64"
                 }
             }
         //==============================
-        // HypnotizeHud Class Symbols
+        // hypnotizehud class symbols
         //==============================
-            "ClassSymbols30"
+            "classsymbols30"
             {
                 "1"
                 {
-                    "name"										"TF2 Class Icons V3"
-                    "Tall"										"30"
+                    "name"										"tf2 class icons v3"
+                    "tall"										"30"
                     "antialias"									"1"
                 }
             }
-            "ClassSymbols80"
+            "classsymbols80"
             {
                 "1"
                 {
-                    "name"										"TF2 Class Icons V3"
-                    "Tall"										"80"
+                    "name"										"tf2 class icons v3"
+                    "tall"										"80"
                     "antialias"									"1"
                 }
             }
-            "ClassSymbols120"
+            "classsymbols120"
             {
                 "1"
                 {
-                    "name"										"TF2 Class Icons V3"
-                    "Tall"										"120"
+                    "name"										"tf2 class icons v3"
+                    "tall"										"120"
                     "antialias"									"1"
                 }
             }
 
         //=====================================
-        // Hypnotize Icons V8
+        // hypnotize icons v8
         //=====================================
-            "HypnotizeIcons56"
+            "hypnotizeicons56"
             {
                 "1"
                 {
-                    "name"										"Hypnotize Icons V8"
-                    "Tall"										"56"
+                    "name"										"hypnotize icons v8"
+                    "tall"										"56"
                     "antialias"									"1"
                 }
             }
-            "HypnotizeIcons80"
+            "hypnotizeicons80"
             {
                 "1"
                 {
-                    "name"										"Hypnotize Icons V8"
-                    "Tall"										"80"
+                    "name"										"hypnotize icons v8"
+                    "tall"										"80"
                     "antialias"									"1"
                 }
             }
 
 		//=================================================================================================
-		// DEFAULT TF2 FONTS
+		// default tf2 fonts
 		//=================================================================================================
-            "Default"   // right side tempus panel
+            "default"   // right side tempus panel
             {
                 "1"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"10"
-                    "range"										"0x0000 0x017F"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"10"
+                    "range"										"0x0000 0x017f"
                     "yres"										"480 599"
                     "antialias"									"1"
                 }
                 "2"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"14"
-                    "range"										"0x0000 0x017F"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"14"
+                    "range"										"0x0000 0x017f"
                     "yres"										"600 767"
                     "antialias"									"1"
                 }
                 "3"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"16"
-                    "range"										"0x0000 0x017F"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"16"
+                    "range"										"0x0000 0x017f"
                     "yres"										"768 1023"
                     "antialias"									"1"
                 }
                 "4"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"17"
-                    "range"										"0x0000 0x017F"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"17"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1024 1199"
                     "antialias"									"1"
                 }
                 "5"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"8"
-                    "range"										"0x0000 0x017F"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"8"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                 }
                 "6"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"9"
-                    "range"										"0x0000 0x00FF"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"9"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"900"
                 }
                 "7"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"9"
-                    "range"										"0x0000 0x00FF"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"9"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"800"
                 }
             }
-            "DefaultUnderline"
+            "defaultunderline"
             {
                 "1"
                 {
-                    "name"										"Tahoma"
-                    "Tall"										"12"
+                    "name"										"tahoma"
+                    "tall"										"12"
                     "weight"									"500"
                     "underline"									"1"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                 }
                 "2"
                 {
-                    "name"										"Arial"
-                    "Tall"										"11"
-                    "range"										"0x0000 0x00FF"
+                    "name"										"arial"
+                    "tall"										"11"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"800"
                 }
             }
-            "DefaultSmall"
+            "defaultsmall"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"480 599"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"13"
+                    "name"										"verdana"
+                    "tall"										"13"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"600 767"
                 }
                 "3"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"14"
+                    "name"										"verdana"
+                    "tall"										"14"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"768 1023"
                     "antialias"									"1"
                 }
                 "4"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"20"
+                    "name"										"verdana"
+                    "tall"										"20"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1024 1199"
                     "antialias"									"1"
                 }
                 "5"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"9"
+                    "name"										"verdana"
+                    "tall"										"9"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                 }
                 "6"
                 {
-                    "name"										"Arial"
-                    "Tall"										"12"
-                    "range"										"0x0000 0x00FF"
+                    "name"										"arial"
+                    "tall"										"12"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"0"
                 }
             }
-            "DefaultVerySmall"
+            "defaultverysmall"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"480 599"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"600 767"
                 }
                 "3"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"768 1023"
                     "antialias"									"1"
                 }
                 "4"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"14"
+                    "name"										"verdana"
+                    "tall"										"14"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1024 1199"
                     "antialias"									"1"
                 }
                 "5"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"9"
+                    "name"										"verdana"
+                    "tall"										"9"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                 }
             }
-            "DefaultLarge"
+            "defaultlarge"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"18"
+                    "name"										"verdana"
+                    "tall"										"18"
                     "weight"									"900"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"480 599"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"21"
+                    "name"										"verdana"
+                    "tall"										"21"
                     "weight"									"900"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"600 767"
                 }
                 "3"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"22"
+                    "name"										"verdana"
+                    "tall"										"22"
                     "weight"									"900"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"768 1023"
                     "antialias"									"1"
                 }
                 "4"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"28"
+                    "name"										"verdana"
+                    "tall"										"28"
                     "weight"									"900"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1024 1199"
                     "antialias"									"1"
                 }
                 "5"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"18"
+                    "name"										"verdana"
+                    "tall"										"18"
                     "weight"									"900"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                 }
                 "6"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"20"
-                    "range"										"0x0000 0x00FF"
+                    "name"										"verdana"
+                    "tall"										"20"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"900"
                 }
                 "7"
                 {
-                    "name"										"Arial"
-                    "Tall"										"20"
-                    "range"										"0x0000 0x00FF"
+                    "name"										"arial"
+                    "tall"										"20"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"800"
                 }
             }
-            "CenterPrintText" // tempus speedo font
+            "centerprinttext" // tempus speedo font
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"18"
+                    "name"										"coolvetica italic"
+                    "tall"										"18"
                     "weight"									"300"
                     "antialias"									"1"
                     "additive"									"1"
                 }
             }
-            "PlayerPanelPlayerName"
+            "playerpanelplayername"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"6"
+                    "name"										"verdana"
+                    "tall"										"6"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudHintText"   // center tempus panel
+            "hudhinttext"   // center tempus panel
             {
                 "1"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"12"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"12"
                     "weight"									"700"
                     "yres"										"480 599"
                     "antialias"									"1"
                 }
                 "2"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"13"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"13"
                     "weight"									"700"
                     "yres"										"600 767"
                     "antialias"									"1"
                 }
                 "3"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"14"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"14"
                     "weight"									"700"
                     "yres"										"768 1023"
                     "antialias"									"1"
                 }
                 "4"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"20"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"20"
                     "weight"									"700"
                     "yres"										"1024 1199"
                     "antialias"									"1"
                 }
                 "5"
                 {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"8"
+                    "name"										"nk57 monospace sc rg"
+                    "tall"										"8"
                     "weight"									"700"
                     "antialias"									"1"
                 }
             }
-            "HudFontGiant"
+            "hudfontgiant"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
@@ -791,7 +791,7 @@
                 "2"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"32"
+                    "tall"										"32"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
@@ -800,7 +800,7 @@
                 "3"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"44"
+                    "tall"										"44"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
@@ -809,7 +809,7 @@
                 "4"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"48"
+                    "tall"										"48"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
@@ -818,84 +818,84 @@
                 "5"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontGiantBold"
+            "hudfontgiantbold"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"44"
+                    "tall"										"44"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontBiggerBold"
+            "hudfontbiggerbold"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"35"
+                    "tall"										"35"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontBig"
+            "hudfontbig"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"36"
+                    "tall"										"36"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontMediumBig"
+            "hudfontmediumbig"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"30"
+                    "tall"										"30"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontMediumBigBold"
+            "hudfontmediumbigbold"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"30"
+                    "tall"										"30"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontMedium"
+            "hudfontmedium"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontMediumSecondary"
+            "hudfontmediumsecondary"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "weight"									"500"
                     "yres"										"1 1199"
                     "additive"									"0"
@@ -904,762 +904,762 @@
                 "2"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontMediumBold"
+            "hudfontmediumbold"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontMediumSmallBold"
+            "hudfontmediumsmallbold"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontMediumSmall"
+            "hudfontmediumsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontMediumSmallSecondary"
+            "hudfontmediumsmallsecondary"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontSmall"
+            "hudfontsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontSmallishBold"
+            "hudfontsmallishbold"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"16"
+                    "tall"										"16"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontSmallBold"
+            "hudfontsmallbold"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontSmallBoldShadow"
+            "hudfontsmallboldshadow"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
-                    "weight"									"500"
-                    "additive"									"0"
-                    "antialias"									"1"
-                    "dropshadow"								"1"
-                }
-            }
-            "HudFontSmallest"
-            {
-                "1"
-                {
-                    "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
-                    "weight"									"500"
-                    "additive"									"0"
-                    "antialias"									"1"
-                }
-            }
-            "HudFontSmallestShadow"
-            {
-                "1"
-                {
-                    "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
+                    "tall"										"14"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "HudFontSmallestBold"
+            "hudfontsmallest"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"11"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudFontVerySmallBold"
+            "hudfontsmallestshadow"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"7"
+                    "tall"										"11"
+                    "weight"									"500"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"1"
+                }
+            }
+            "hudfontsmallestbold"
+            {
+                "1"
+                {
+                    "name"										"coolvetica_rg_bold"
+                    "tall"										"12"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "PerformanceModeSmall"
+            "hudfontverysmallbold"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"4"
+                    "tall"										"7"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "StorePromotionsTitle"
+            "performancemodesmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"4"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "FontCartPrice"
+            "storepromotionstitle"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"16"
+                    "tall"										"10"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "FontStorePrice"
+            "fontcartprice"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"9"
+                    "tall"										"16"
+                    "weight"									"500"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            "fontstoreprice"
+            {
+                "1"
+                {
+                    "name"										"coolvetica_rg_bold"
+                    "tall"										"9"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "FontStoreOriginalPrice"
+            "fontstoreoriginalprice"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"9"
+                    "tall"										"9"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "FontStorePriceSmall"
+            "fontstorepricesmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"6"
+                    "tall"										"6"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "FontStorePromotion"
+            "fontstorepromotion"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "TextTooltipFont"
+            "texttooltipfont"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
+                    "tall"										"11"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "GameUIButtons"
+            "gameuibuttons"
             {
                 "1"
                 {
                     "bitmap"									"1"
-                    "name"										"Buttons"
+                    "name"										"buttons"
                     "scalex"									"0.5"
                     "scaley"									"0.5"
                 }
             }
-            "GameUIButtonsSmall"
+            "gameuibuttonssmall"
             {
-                "1"	[$X360]
+                "1"	[$x360]
                 {
                     "bitmap"									"1"
-                    "name"										"Buttons"
+                    "name"										"buttons"
                     "scalex"									"0.5"
                     "scaley"									"0.5"
                 }
             }
-            "GameUIButtonsSmallest"
+            "gameuibuttonssmallest"
             {
-                "1"	[$X360]
+                "1"	[$x360]
                 {
                     "bitmap"									"1"
-                    "name"										"Buttons"
+                    "name"										"buttons"
                     "scalex"									"0.4"
                     "scaley"									"0.4"
                 }
             }
-            "GameUIButtonsSteamController"
+            "gameuibuttonssteamcontroller"
             {
                 "1"
                 {
                     "bitmap"									"1"
-                    "name"										"ButtonsSC"
+                    "name"										"buttonssc"
                     "scalex"									"0.5"
                     "scaley"									"0.5"
                 }
             }
-            "GameUIButtonsSteamControllerSmall"
+            "gameuibuttonssteamcontrollersmall"
             {
                 "1"
                 {
                     "bitmap"									"1"
-                    "name"										"ButtonsSC"
+                    "name"										"buttonssc"
                     "scalex"									"0.25"
                     "scaley"									"0.25"
                 }
             }
-            "GameUIButtonsSteamControllerSmallest"
+            "gameuibuttonssteamcontrollersmallest"
             {
                 "1"
                 {
                     "bitmap"									"1"
-                    "name"										"ButtonsSC"
+                    "name"										"buttonssc"
                     "scalex"									"0.15"
                     "scaley"									"0.15"
                 }
             }
-            "GameUIButtonText"
+            "gameuibuttontext"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudClassHealth"
+            "hudclasshealth"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"16"
+                    "tall"										"16"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "SpectatorKeyHints"
+            "spectatorkeyhints"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ClockSubText"
+            "clocksubtext"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"9"
+                    "name"										"verdana"
+                    "tall"										"9"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ClockSubTextSuddenDeath"
+            "clocksubtextsuddendeath"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ClockSubTextTiny"
+            "clocksubtexttiny"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "HudSelectionText"
+            "hudselectiontext"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"15"
+                    "tall"										"15"
                     "weight"									"700"
                     "antialias"									"1"
                     "yres"										"1 599"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "additive"									"1"
                 }
                 "2"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"15"
+                    "tall"										"15"
                     "weight"									"700"
                     "antialias"									"1"
                     "yres"										"600 767"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "additive"									"1"
                 }
                 "3"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"900"
                     "antialias"									"1"
                     "yres"										"768 1023"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                 }
                 "4"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"21"
+                    "tall"										"21"
                     "weight"									"900"
                     "antialias"									"1"
                     "yres"										"1024 1199"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                 }
                 "5"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "weight"									"1000"
                     "antialias"									"1"
                     "yres"										"1200 10000"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                 }
             }
-            "DebugOverlay"
+            "debugoverlay"
             {
                 "1"
                 {
-                    "name"										"Courier New"
-                    "Tall"										"14"
+                    "name"										"courier new"
+                    "tall"										"14"
                     "weight"									"400"
                     "outline"									"1"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                 }
             }
-            "TFTypeDeath"
+            "tftypedeath"
             {
                 "1"
                 {
                     "name"										"tfd"
-                    "Tall"										"28"
+                    "tall"										"28"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "Icons"
+            "icons"
             {
                 "1"
                 {
-                    "name"										"Team Fortress"
-                    "Tall"										"28"
+                    "name"										"team fortress"
+                    "tall"										"28"
                     "weight"									"0"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "BetaFont"
+            "betafont"
             {
                 "1"
                 {
-                    "name"										"Courier New"
-                    "Tall"										"90"
+                    "name"										"courier new"
+                    "tall"										"90"
                     "weight"									"900"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "HudNumbers"
+            "hudnumbers"
             {
                 "1"
                 {
-                    "name"										"Team Fortress"
-                    "Tall"										"28"
+                    "name"										"team fortress"
+                    "tall"										"28"
                     "weight"									"0"
                     "additive"									"1"
                     "antialias"									"1"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"28"
+                    "name"										"verdana"
+                    "tall"										"28"
                     "weight"									"0"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "CloseCaption"
+            "closecaption"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"12"
-                    "range"										"0x0000 0x017F"
+                    "tall"										"12"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "CloseCaption_Italic"
+            "closecaption_italic"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "italic"									"1"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "CloseCaption_Bold"
+            "closecaption_bold"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"12"
-                    "range"										"0x0000 0x017F"
+                    "tall"										"12"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "CloseCaption_BoldItalic"
+            "closecaption_bolditalic"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "italic"									"1"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "CloseCaption_Small"
+            "closecaption_small"
             {
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "Tall"										"12"
-                    "range"										"0x0000 0x017F"
+                    "tall"										"12"
+                    "range"										"0x0000 0x017f"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "Marlett"
+            "marlett"
             {
                 "1"
                 {
-                    "name"										"Marlett"
-                    "Tall"										"20"
+                    "name"										"marlett"
+                    "tall"										"20"
                     "weight"									"0"
                     "symbol"									"1"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                 }
             }
-            "MarlettSmall"
+            "marlettsmall"
             {
                 "1"
                 {
-                    "name"										"Marlett"
-                    "Tall"										"14"
+                    "name"										"marlett"
+                    "tall"										"14"
                     "weight"									"0"
                     "symbol"									"1"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                 }
             }
-            "MenuMainTitle"
+            "menumaintitle"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "antialias"									"1"
                     "weight"									"500"
                 }
             }
-            "MenuClassBuckets"
+            "menuclassbuckets"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
+                    "tall"										"11"
                     "antialias"									"1"
                     "weight"									"500"
                 }
             }
-            "MenuKeys"
+            "menukeys"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "antialias"									"1"
                     "weight"									"500"
                 }
             }
-            "GoalText"
+            "goaltext"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"13"
+                    "name"										"verdana"
+                    "tall"										"13"
                     "weight"									"800"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ChalkboardTitle"
+            "chalkboardtitle"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"28"
+                    "tall"										"28"
                     "antialias"									"1"
-                    "custom"									"1"		[$OSX]
+                    "custom"									"1"		[$osx]
                     "weight"									"500"
                 }
             }
-            "ChalkboardTitleBig"
+            "chalkboardtitlebig"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"40"
+                    "tall"										"40"
                     "antialias"									"1"
-                    "custom"									"1"		[$OSX]
+                    "custom"									"1"		[$osx]
                     "weight"									"500"
                 }
             }
-            "ChalkboardTitleMedium"
+            "chalkboardtitlemedium"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "antialias"									"1"
-                    "custom"									"1"		[$OSX]
+                    "custom"									"1"		[$osx]
                     "weight"									"500"
                 }
             }
-            "ChalkboardText"
+            "chalkboardtext"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"	[!$OSX]
-                    "Tall"										"15"	[$OSX]
+                    "tall"										"14"	[!$osx]
+                    "tall"										"15"	[$osx]
                     "antialias"									"1"
-                    "custom"									"1"		[$OSX]
+                    "custom"									"1"		[$osx]
                     "weight"									"500"
                 }
             }
-            "ScoreboardSmallest"
+            "scoreboardsmallest"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"6"
+                    "name"										"verdana"
+                    "tall"										"6"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ScoreboardVerySmall"
+            "scoreboardverysmall"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ScoreboardSmall"
+            "scoreboardsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ScoreboardMediumSmall"
+            "scoreboardmediumsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"500"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "ScoreboardMedium"
+            "scoreboardmedium"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"20"
+                    "name"										"steelfish"
+                    "tall"										"20"
                     "weight"									"500"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "ScoreboardTeamName"
-            {
-                "1"
-                {
-                    "name"										"coolvetica_rg_bold"
-                    "Tall"										"20"
-                    "weight"									"500"
-                    "range"										"0x0000 0x007F"
-                    "antialias"									"1"
-                    "additive"									"0"
-                }
-            }
-            "ScoreboardTeamCountNew"
+            "scoreboardteamname"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"20"
                     "weight"									"500"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "ScoreboardTeamNameNew"
+            "scoreboardteamcountnew"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"20"
+                    "tall"										"14"
                     "weight"									"500"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "ScoreboardTeamNameLarge"
+            "scoreboardteamnamenew"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"34"
+                    "tall"										"20"
                     "weight"									"500"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "ScoreboardTeamScoreNew"
+            "scoreboardteamnamelarge"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"36"
+                    "tall"										"34"
+                    "weight"									"500"
+                    "range"										"0x0000 0x007f"
+                    "antialias"									"1"
+                    "additive"									"0"
+                }
+            }
+            "scoreboardteamscorenew"
+            {
+                "1"
+                {
+                    "name"										"coolvetica_rg_bold"
+                    "tall"										"36"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ScoreboardTeamScore"
+            "scoreboardteamscore"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"52"
-                    "range"										"0x0000 0x00FF"
+                    "tall"										"52"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"400"
                     "yres"										"1 599"
                     "antialias"									"1"
@@ -1667,8 +1667,8 @@
                 "2"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"72"
-                    "range"										"0x0000 0x00FF"
+                    "tall"										"72"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"400"
                     "yres"										"600 767"
                     "antialias"									"1"
@@ -1676,8 +1676,8 @@
                 "3"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"100"
-                    "range"										"0x0000 0x00FF"
+                    "tall"										"100"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"400"
                     "yres"										"768 1023"
                     "antialias"									"1"
@@ -1685,8 +1685,8 @@
                 "4"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"140"
-                    "range"										"0x0000 0x00FF"
+                    "tall"										"140"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"400"
                     "yres"										"1024 1199"
                     "antialias"									"1"
@@ -1694,766 +1694,766 @@
                 "5"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"180"
-                    "range"										"0x0000 0x00FF"
+                    "tall"										"180"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"400"
                     "yres"										"1200 10000"
                     "antialias"									"1"
                 }
             }
-            "MatchSummaryTeamScores"
+            "matchsummaryteamscores"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"36"
+                    "tall"										"36"
                     "weight"									"500"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "MatchSummaryStatsAndMedals"
+            "matchsummarystatsandmedals"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "MatchSummaryWinner"
+            "matchsummarywinner"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"20"
+                    "tall"										"20"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "CompMatchStartTeamNames"
+            "compmatchstartteamnames"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ControlPointTimer"
+            "controlpointtimer"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ControlPointTimerSmaller"
+            "controlpointtimersmaller"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"7"
+                    "tall"										"7"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "Link"
+            "link"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "TargetID"
+            "targetid"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"28"
+                    "name"										"steelfish"
+                    "tall"										"28"
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
             }
-            "TargetID_Small"
+            "targetid_small"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"16"
+                    "name"										"steelfish"
+                    "tall"										"16"
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
             }
-            "TargetID_Medium"
+            "targetid_medium"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"18"
+                    "name"										"steelfish"
+                    "tall"										"18"
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
             }
-            "TargetID_Data"
+            "targetid_data"
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
-                    "Tall"										"16"
+                    "name"										"steelfish extbd"
+                    "tall"										"16"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "DisguiseStatus_Data"
+            "disguisestatus_data"
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
-                    "Tall"										"16"
+                    "name"										"steelfish extbd"
+                    "tall"										"16"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "TargetID_Big"
+            "targetid_big"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"28"
+                    "name"										"steelfish"
+                    "tall"										"28"
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
             }
-            "TargetID_Minmode"
+            "targetid_minmode"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"28"
+                    "name"										"steelfish"
+                    "tall"										"28"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "TargetID_Big_Minmode"
+            "targetid_big_minmode"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"28"
+                    "name"										"steelfish"
+                    "tall"										"28"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "TargetIDIcons"
-            {
-                "1"
-                {
-                    "name"										"surface_uber_icons"
-                    "Tall"										"11"
-                    "antialias"									"1"
-                    "dropshadow"								"1"
-                }
-            }
-            "TargetIDIcons_Big"
+            "targetidicons"
             {
                 "1"
                 {
                     "name"										"surface_uber_icons"
-                    "Tall"										"18"
+                    "tall"										"11"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "TargetIDIcons_Minmode"
+            "targetidicons_big"
             {
                 "1"
                 {
                     "name"										"surface_uber_icons"
-                    "Tall"										"1"
+                    "tall"										"18"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "TargetIDIcons_Big_Minmode"
+            "targetidicons_minmode"
             {
                 "1"
                 {
                     "name"										"surface_uber_icons"
-                    "Tall"										"18"
+                    "tall"										"1"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "ChatFont"
+            "targetidicons_big_minmode"
+            {
+                "1"
+                {
+                    "name"										"surface_uber_icons"
+                    "tall"										"18"
+                    "antialias"									"1"
+                    "dropshadow"								"1"
+                }
+            }
+            "chatfont"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "weight"									"700"
                     "yres"										"480 599"
                     "dropshadow"								"1"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"13"
+                    "name"										"verdana"
+                    "tall"										"13"
                     "weight"									"700"
                     "yres"										"600 767"
                     "dropshadow"								"1"
                 }
                 "3"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"14"
+                    "name"										"verdana"
+                    "tall"										"14"
                     "weight"									"700"
                     "yres"										"768 1023"
                     "dropshadow"								"1"
                 }
                 "4"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"20"
+                    "name"										"verdana"
+                    "tall"										"20"
                     "weight"									"700"
                     "yres"										"1024 1199"
                     "dropshadow"								"1"
                 }
                 "5"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"24"
+                    "name"										"verdana"
+                    "tall"										"24"
                     "weight"									"700"
                     "yres"										"1200 10000"
                     "dropshadow"								"1"
                 }
             }
-            "ChatMiniFont"
+            "chatminifont"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"10"
+                    "name"										"verdana"
+                    "tall"										"10"
                     "weight"									"700"
                     "yres"										"480 599"
                     "dropshadow"								"1"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"10"
+                    "name"										"verdana"
+                    "tall"										"10"
                     "weight"									"700"
                     "yres"										"600 767"
                     "dropshadow"								"1"
                 }
                 "3"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"13"
+                    "name"										"verdana"
+                    "tall"										"13"
                     "weight"									"700"
                     "yres"										"768 1023"
                     "dropshadow"								"1"
                 }
                 "4"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"14"
+                    "name"										"verdana"
+                    "tall"										"14"
                     "weight"									"700"
                     "yres"										"1024 1199"
                     "dropshadow"								"1"
                 }
                 "5"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"15"
+                    "name"										"verdana"
+                    "tall"										"15"
                     "weight"									"700"
                     "yres"										"1200 10000"
                     "dropshadow"								"1"
                 }
             }
-            "MenuSmallestFont"
+            "menusmallestfont"
             {
                 "1"
                 {
-                    "name"										"Arial Black"
-                    "Tall"										"8"
-                    "range"										"0x0000 0x00FF"
+                    "name"										"arial black"
+                    "tall"										"8"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"300"
                     "antialias"									"1"
                 }
             }
-            "MenuSmallFont"
+            "menusmallfont"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
-                    "range"										"0x0000 0x00FF"
+                    "tall"										"14"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"300"
                     "antialias"									"1"
                 }
             }
-            "CapPlayerFont"
+            "capplayerfont"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "weight"									"500"
-                    "range"										"0x0000 0x017F"
-                    "TextColor"									"Black"
+                    "range"										"0x0000 0x017f"
+                    "textcolor"									"black"
                     "antialias"									"1"
                 }
             }
-            "CapPlayerFontSmall"
+            "capplayerfontsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"8"
+                    "tall"										"8"
                     "weight"									"500"
-                    "range"										"0x0000 0x017F"
-                    "TextColor"									"Black"
+                    "range"										"0x0000 0x017f"
+                    "textcolor"									"black"
                     "antialias"									"1"
                 }
             }
-            "TFFontSmall"
+            "tffontsmall"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "weight"									"0"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "TFFontMedium"
+            "tffontmedium"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"9"
+                    "name"										"verdana"
+                    "tall"										"9"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "InstructionalText"
+            "instructionaltext"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"11"	[!$OSX]
-                    "Tall"										"9"		[$OSX]
+                    "name"										"verdana"
+                    "tall"										"11"	[!$osx]
+                    "tall"										"9"		[$osx]
                     "weight"									"800"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "MatchmakingDialogTitle"
+            "matchmakingdialogtitle"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"36"
+                    "tall"										"36"
                     "weight"									"500"
                 }
             }
-            "MatchmakingDialogSessionOptionsTitle"
+            "matchmakingdialogsessionoptionstitle"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"30"
+                    "tall"										"30"
                     "weight"									"500"
                 }
             }
-            "MatchmakingDialogMenuLarge"
+            "matchmakingdialogmenularge"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"28"
+                    "tall"										"28"
                     "weight"									"500"
                 }
             }
-            "MatchmakingDialogMenuBrowserHostname"
+            "matchmakingdialogmenubrowserhostname"
             {
                 "1"
                 {
-                    "name"										"Trebuchet MS"
-                    "Tall"										"22"
+                    "name"										"trebuchet ms"
+                    "tall"										"22"
                     "weight"									"900"
                 }
             }
-            "MatchmakingDialogMenuBrowserDetails"
+            "matchmakingdialogmenubrowserdetails"
             {
                 "1"
                 {
-                    "name"										"Trebuchet MS"
-                    "Tall"										"18"
+                    "name"										"trebuchet ms"
+                    "tall"										"18"
                     "weight"									"900"
                 }
             }
-            "MatchmakingDialogMenuMedium"
+            "matchmakingdialogmenumedium"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"22"
+                    "tall"										"22"
                     "weight"									"500"
                 }
             }
-            "MatchmakingDialogMenuMediumSmall"
+            "matchmakingdialogmenumediumsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"500"
                 }
             }
-            "MatchmakingDialogMenuSmall"
+            "matchmakingdialogmenusmall"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"22"
+                    "name"										"verdana"
+                    "tall"										"22"
                     "weight"									"900"
                 }
             }
-            "MatchmakingDialogMenuSmallest"
+            "matchmakingdialogmenusmallest"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"18"
+                    "name"										"verdana"
+                    "tall"										"18"
                     "weight"									"900"
                 }
             }
-            "RankingDialogHeaders"
+            "rankingdialogheaders"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"15"
+                    "name"										"verdana"
+                    "tall"										"15"
                     "weight"									"900"
                 }
             }
-            "TeamMenuBold"
+            "teammenubold"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"36"
+                    "name"										"steelfish"
+                    "tall"										"36"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "TeamMenu"
+            "teammenu"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"42"
+                    "name"										"steelfish"
+                    "tall"										"42"
                     "weight"									"600"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "TeamMenuSmall"
+            "teammenusmall"
             {
                 "1"
                 {
-                    "name"										"Steelfish"
-                    "Tall"										"24"
+                    "name"										"steelfish"
+                    "tall"										"24"
                     "weight"									"600"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "IntroMenuCaption"
+            "intromenucaption"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "AchievementNotification"
+            "achievementnotification"
             {
                 "1"
                 {
-                    "name"										"Trebuchet MS"
-                    "Tall"										"14"
+                    "name"										"trebuchet ms"
+                    "tall"										"14"
                     "weight"									"900"
                     "antialias"									"1"
                 }
             }
-            "ImportToolSmallestBold"
+            "importtoolsmallestbold"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"10"
+                    "name"										"verdana"
+                    "tall"										"10"
                     "weight"									"600"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ImportToolSmallest"
+            "importtoolsmallest"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"10"
+                    "name"										"verdana"
+                    "tall"										"10"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "SpectatorVerySmall"
+            "spectatorverysmall"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"verdana"
+                    "tall"										"7"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "DefaultVerySmallFallBack"
+            "defaultverysmallfallback"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"10"
+                    "name"										"verdana"
+                    "tall"										"10"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"480 599"
                     "antialias"									"1"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"600 1199"
                     "antialias"									"1"
                 }
                 "3"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"15"
+                    "name"										"verdana"
+                    "tall"										"15"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1200 6000"
                     "antialias"									"1"
                 }
             }
-            "ItemFontNameSmallest"
+            "itemfontnamesmallest"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"8"
+                    "tall"										"8"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ItemFontNameSmall"
+            "itemfontnamesmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"9"
+                    "tall"										"9"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ItemFontNameLarge"
+            "itemfontnamelarge"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ItemFontNameLarger"
+            "itemfontnamelarger"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ItemFontAttribSmallest"
+            "itemfontattribsmallest"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"8"
+                    "tall"										"8"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ItemFontAttribSmallv2"
+            "itemfontattribsmallv2"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "antialias"									"1"
                     "weight"									"500"
                 }
             }
-            "ItemFontAttribSmall"
+            "itemfontattribsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"9"
-                    "weight"									"500"
-                    "additive"									"0"
-                    "antialias"									"1"
-                }
-            }
-            "ItemFontAttribLarge"
-            {
-                "1"
-                {
-                    "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"9"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ItemFontAttribLarger"
+            "itemfontattriblarge"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"12"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "AchievementTracker_Name"
+            "itemfontattriblarger"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"9"
+                    "tall"										"14"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "AchievementTracker_NameGlow"
+            "achievementtracker_name"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"9"
+                    "tall"										"9"
+                    "weight"									"500"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            "achievementtracker_nameglow"
+            {
+                "1"
+                {
+                    "name"										"coolvetica_rg_bold"
+                    "tall"										"9"
                     "weight"									"500"
                     "blur"										"3"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "AchievementTracker_Desc"
+            "achievementtracker_desc"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"verdana"
+                    "tall"										"7"
                     "weight"									"0"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "QuestObjectiveTracker_Desc"
+            "questobjectivetracker_desc"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"verdana"
+                    "tall"										"7"
                     "weight"									"0"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "QuestObjectiveTracker_DescGlow"
+            "questobjectivetracker_descglow"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"verdana"
+                    "tall"										"7"
                     "weight"									"0"
                     "antialias"									"1"
                 }
             }
-            "QuestObjectiveTracker_DescBlur"
+            "questobjectivetracker_descblur"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"verdana"
+                    "tall"										"7"
                     "weight"									"0"
                     "blur"										"3"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "ItemTrackerScore_InGame"
+            "itemtrackerscore_ingame"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"verdana"
+                    "tall"										"7"
                     "weight"									"0"
                     "antialias"									"1"
                 }
             }
-            "QuestFlavorText"
+            "questflavortext"
             {
                 "1"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"400"
                     "yres"										"480 599"
                     "additive"									"0"
@@ -2461,9 +2461,9 @@
                 }
                 "2"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"400"
                     "additive"									"0"
                     "yres"										"600 1023"
@@ -2471,22 +2471,22 @@
                 }
                 "3"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"400"
                     "additive"									"0"
                     "yres"										"1024 6000"
                     "antialias"									"1"
                 }
             }
-            "QuestObjectiveText"
+            "questobjectivetext"
             {
                 "1"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"800"
                     "yres"										"480 599"
                     "additive"									"0"
@@ -2494,9 +2494,9 @@
                 }
                 "2"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"800"
                     "additive"									"0"
                     "yres"										"600 1023"
@@ -2504,44 +2504,44 @@
                 }
                 "3"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"800"
                     "additive"									"0"
                     "yres"										"1024 6000"
                     "antialias"									"1"
                 }
             }
-            "QuestLargeText"
+            "questlargetext"
             {
                 "1"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"16"
+                    "tall"										"16"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "QuestStickyText"
+            "queststickytext"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"20"
+                    "tall"										"20"
                     "antialias"									"1"
-                    "custom"									"1"	[$OSX]
+                    "custom"									"1"	[$osx]
                     "weight"									"500"
                 }
             }
-            "QuestInstructionText_Merasmus"
+            "questinstructiontext_merasmus"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"400"
                     "yres"										"480 599"
                     "additive"									"0"
@@ -2550,7 +2550,7 @@
                 "2"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"400"
                     "additive"									"0"
                     "yres"										"600 1023"
@@ -2559,19 +2559,19 @@
                 "3"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"22"
+                    "tall"										"22"
                     "weight"									"400"
                     "additive"									"0"
                     "yres"										"1024 6000"
                     "antialias"									"1"
                 }
             }
-            "QuestFlavorText_Merasmus"
+            "questflavortext_merasmus"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"400"
                     "yres"										"480 599"
                     "additive"									"0"
@@ -2581,7 +2581,7 @@
                 "2"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"400"
                     "additive"									"0"
                     "yres"										"600 1023"
@@ -2591,7 +2591,7 @@
                 "3"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"22"
+                    "tall"										"22"
                     "weight"									"400"
                     "additive"									"0"
                     "yres"										"1024 6000"
@@ -2599,12 +2599,12 @@
                     "italic"									"1"
                 }
             }
-            "QuestObjectiveText_Merasmus"
+            "questobjectivetext_merasmus"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"800"
                     "yres"										"480 599"
                     "additive"									"0"
@@ -2613,7 +2613,7 @@
                 "2"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"800"
                     "additive"									"0"
                     "yres"										"600 1023"
@@ -2622,435 +2622,435 @@
                 "3"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"800"
                     "additive"									"0"
                     "yres"										"1024 6000"
                     "antialias"									"1"
                 }
             }
-            "QuestMediumText_Merasmus"
+            "questmediumtext_merasmus"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"13"
+                    "tall"										"13"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "QuestLargeText_Merasmus"
+            "questlargetext_merasmus"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"16"
+                    "tall"										"16"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "AdFont_ItemName"
+            "adfont_itemname"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "AdFont_AdText"
+            "adfont_adtext"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "AdFont_PurchaseButton"
+            "adfont_purchasebutton"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "weight"									"0"
                     "antialias"									"1"
                 }
             }
-            "TradeUp_Text"
+            "tradeup_text"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"8"
+                    "name"										"verdana"
+                    "tall"										"8"
                     "weight"									"400"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "TradeUp_Quote"
+            "tradeup_quote"
             {
                 "1"
                 {
-                    "name"										"Trebuchet MS"
-                    "Tall"										"9"
+                    "name"										"trebuchet ms"
+                    "tall"										"9"
                     "weight"									"400"
                     "antialias"									"1"
                     "additive"									"0"
                     "italic"									"1"
                 }
             }
-            "ReplayVerySmall"
+            "replayverysmall"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"480 599"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"600 767"
                 }
                 "3"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"768 1023"
                     "antialias"									"1"
                 }
                 "4"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"14"
+                    "name"										"verdana"
+                    "tall"										"14"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1024 1199"
                     "antialias"									"1"
                 }
                 "5"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"16"
+                    "name"										"verdana"
+                    "tall"										"16"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1200 6000"
                     "antialias"									"1"
                 }
             }
-            "ReplayBrowserSmallest"
+            "replaybrowsersmallest"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
+                    "tall"										"11"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ReplaySmaller"
+            "replaysmaller"
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"12"
+                    "name"										"verdana"
+                    "tall"										"12"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"480 599"
                 }
                 "2"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"13"
+                    "name"										"verdana"
+                    "tall"										"13"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"600 767"
                 }
                 "3"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"14"
+                    "name"										"verdana"
+                    "tall"										"14"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"768 1023"
                     "antialias"									"1"
                 }
                 "4"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"20"
+                    "name"										"verdana"
+                    "tall"										"20"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1024 1199"
                     "antialias"									"1"
                 }
                 "5"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"22"
+                    "name"										"verdana"
+                    "tall"										"22"
                     "weight"									"0"
-                    "range"										"0x0000 0x017F"
+                    "range"										"0x0000 0x017f"
                     "yres"										"1200 6000"
                     "antialias"									"1"
                 }
                 "6"
                 {
-                    "name"										"Arial"
-                    "Tall"										"12"
-                    "range"										"0x0000 0x00FF"
+                    "name"										"arial"
+                    "tall"										"12"
+                    "range"										"0x0000 0x00ff"
                     "weight"									"0"
                 }
             }
-            "ReplayMediumSmall"
+            "replaymediumsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
+                    "tall"										"11"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ReplayMedium"
+            "replaymedium"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ReplayMediumBig"
+            "replaymediumbig"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ReplayBrowserTab"
+            "replaybrowsertab"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ReplayLarger"
+            "replaylarger"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"18"
+                    "tall"										"18"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "EconFontSmall"
+            "econfontsmall"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "EconFontMedium"
+            "econfontmedium"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"24"
+                    "tall"										"24"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "ControllerHintText"
+            "controllerhinttext"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"15"
+                    "tall"										"15"
                     "weight"									"500"
-                    "range"										"0x0000 0x007F"
+                    "range"										"0x0000 0x007f"
                     "antialias"									"1"
                     "additive"									"0"
                 }
             }
-            "MMenuPlayListDesc"
+            "mmenuplaylistdesc"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"9"
+                    "tall"										"9"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "XPSource"
+            "xpsource"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
+                    "tall"										"11"
                     "weight"									"500"
                     "antialias"									"1"
                 }
             }
-            "XPSource_Glow"
+            "xpsource_glow"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"11"
+                    "tall"										"11"
                     "weight"									"500"
                     "blur"										"3"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "MapVotesPercentage"
+            "mapvotespercentage"
             {
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"12"
+                    "tall"										"12"
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "QuestMap_Small_Blur"
+            "questmap_small_blur"
             {
                 "1"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"7"
+                    "tall"										"7"
                     "weight"									"0"
                     "blur"										"3"
                     "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "QuestMap_Small"
+            "questmap_small"
             {
                 "1"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"7"
+                    "tall"										"7"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "QuestMap_Medium"
+            "questmap_medium"
             {
                 "1"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"10"
+                    "tall"										"10"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "QuestMap_Large"
+            "questmap_large"
             {
                 "1"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"14"
+                    "tall"										"14"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "QuestMap_Huge"
+            "questmap_huge"
             {
                 "1"
                 {
-                    "name"										"OCR A Extended"	[$WINDOWS]
+                    "name"										"ocr a extended"	[$windows]
                     "name"										"coolvetica_rg_bold"
-                    "Tall"										"30"
+                    "tall"										"30"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
         // itsame fonts
-            "TitleFont"
+            "titlefont"
             {
                 "1"
                 {
-                    "name"										"Poppins Black Italic"
-                    "Tall"										"30"
+                    "name"										"poppins black italic"
+                    "tall"										"30"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "JumpHUD_Main_Font"
+            "jumphud_main_font"
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"32"
+                    "name"										"coolvetica italic"
+                    "tall"										"32"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "JumpHUD_Secondary_Font"
+            "jumphud_secondary_font"
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"20"
+                    "name"										"coolvetica italic"
+                    "tall"										"20"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                 }
             }
-            "JumpHUD_Secondary_Font_Shadow"
+            "jumphud_secondary_font_shadow"
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"18"
+                    "name"										"coolvetica italic"
+                    "tall"										"18"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3059,48 +3059,48 @@
             }
             
             //techno additional custom fonts
-            "DamageFont"
+            "damagefont"
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"20"
+                    "name"										"coolvetica italic"
+                    "tall"										"20"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
             }
-            "LabelsFont"
+            "labelsfont"
             {
             "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"6"
+                    "name"										"coolvetica italic"
+                    "tall"										"6"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
                     "dropshadow"								"0"
                 }
             }
-            "LabelsFontLarge"
+            "labelsfontlarge"
             {
             "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"8"
+                    "name"										"coolvetica italic"
+                    "tall"										"8"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
                     "dropshadow"								"0"
                 }
             }
-            "KillFeed"
+            "killfeed"
             {
             "1"
                 {
-                    "name"										"Coolvetica Italic"
-                    "Tall"										"10"
+                    "name"										"coolvetica italic"
+                    "tall"										"10"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3108,9 +3108,9 @@
                 }
             }
 	}
-	"BitmapFontFiles"
+	"bitmapfontfiles"
 	{
-		"Buttons"											"materials/vgui/fonts/buttons_32.vbf"
-		"ButtonsSC"											"materials/vgui/fonts/buttons_sc.vbf"
+		"buttons"											"materials/vgui/fonts/buttons_32.vbf"
+		"buttonssc"											"materials/vgui/fonts/buttons_sc.vbf"
 	}
 }
