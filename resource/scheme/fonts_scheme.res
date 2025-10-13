@@ -10,7 +10,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"9"
+                    "tall"										"9" [$WINDOWS]
+                    "tall"										"7" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -19,7 +20,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"10"
+                    "tall"										"10" [$WINDOWS]
+                    "tall"										"8" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -28,7 +30,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"10"
+                    "tall"										"10" [$WINDOWS]
+                    "tall"										"8" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -38,7 +41,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"11"
+                    "tall"										"11" [$WINDOWS]
+                    "tall"										"9" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -47,7 +51,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"11"
+                    "tall"										"11" [$WINDOWS]
+                    "tall"										"9" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -57,7 +62,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"12"
+                    "tall"										"12" [$WINDOWS]
+                    "tall"										"10" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -66,7 +72,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"12"
+                    "tall"										"12" [$WINDOWS]
+                    "tall"										"10" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -76,7 +83,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"14"
+                    "tall"										"14" [$WINDOWS]
+                    "tall"										"11" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -85,7 +93,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"14"
+                    "tall"										"14" [$WINDOWS]
+                    "tall"										"11" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -95,7 +104,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"16"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -104,7 +114,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"16"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -114,7 +125,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"18"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -123,7 +135,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"18"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -133,7 +146,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"18"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -143,7 +157,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"18"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -153,7 +168,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"20"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -162,7 +178,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"24"
+                    "tall"										"24" [$WINDOWS]
+                    "tall"										"19" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -171,7 +188,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"24"
+                    "tall"										"24" [$WINDOWS]
+                    "tall"										"19" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -181,7 +199,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"24"
+                    "tall"										"24" [$WINDOWS]
+                    "tall"										"19" [$LINUX]
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -191,7 +210,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"24"
+                    "tall"										"24" [$WINDOWS]
+                    "tall"										"19" [$LINUX]
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -201,7 +221,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"26"
+                    "tall"										"26" [$WINDOWS]
+                    "tall"										"21" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -210,7 +231,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"30"
+                    "tall"										"30" [$WINDOWS]
+                    "tall"										"24" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -219,7 +241,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"30"
+                    "tall"										"30" [$WINDOWS]
+                    "tall"										"24" [$LINUX]
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -229,7 +252,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"30"
+                    "tall"										"30" [$WINDOWS]
+                    "tall"										"24" [$LINUX]
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -239,7 +263,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"32"
+                    "tall"										"32" [$WINDOWS]
+                    "tall"										"26" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -248,7 +273,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"32"
+                    "tall"										"32" [$WINDOWS]
+                    "tall"										"26" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -258,7 +284,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"36"
+                    "tall"										"36" [$WINDOWS]
+                    "tall"										"29" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -267,7 +294,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"48"
+                    "tall"										"48" [$WINDOWS]
+                    "tall"										"39" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -276,7 +304,8 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"58"
+                    "tall"										"58" [$WINDOWS]
+                    "tall"										"47" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -342,7 +371,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"10"
+                    "tall"										"10" [$WINDOWS]
+                    "tall"										"8" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -351,7 +381,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"12"
+                    "tall"										"12" [$WINDOWS]
+                    "tall"										"10" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -360,7 +391,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"14"
+                    "tall"										"14" [$WINDOWS]
+                    "tall"										"11" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -369,7 +401,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"16"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -378,7 +411,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"18"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -387,7 +421,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"20"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -396,7 +431,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"24"
+                    "tall"										"24" [$WINDOWS]
+                    "tall"										"19" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -405,7 +441,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"28"
+                    "tall"										"28" [$WINDOWS]
+                    "tall"										"23" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -414,7 +451,8 @@
                 "1"
                 {
                     "name"										"m0rehud_icons_v13"
-                    "tall"										"35"
+                    "tall"										"35" [$WINDOWS]
+                    "tall"										"28" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -435,7 +473,8 @@
                 "1"
                 {
                     "name"										"tf2 class icons v3"
-                    "tall"										"30"
+                    "tall"										"30" [$WINDOWS]
+                    "tall"										"24" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -444,7 +483,8 @@
                 "1"
                 {
                     "name"										"tf2 class icons v3"
-                    "tall"										"80"
+                    "tall"										"80" [$WINDOWS]
+                    "tall"										"64" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -453,7 +493,8 @@
                 "1"
                 {
                     "name"										"tf2 class icons v3"
-                    "tall"										"120"
+                    "tall"										"120" [$WINDOWS]
+                    "tall"										"96" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -466,7 +507,8 @@
                 "1"
                 {
                     "name"										"hypnotize icons v8"
-                    "tall"										"56"
+                    "tall"										"56" [$WINDOWS]
+                    "tall"										"45" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -475,7 +517,8 @@
                 "1"
                 {
                     "name"										"hypnotize icons v8"
-                    "tall"										"80"
+                    "tall"										"80" [$WINDOWS]
+                    "tall"										"64" [$LINUX]
                     "antialias"									"1"
                 }
             }
@@ -718,7 +761,8 @@
                 "1"
                 {
                     "name"										"coolvetica italic"
-                    "tall"										"18"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
                     "weight"									"300"
                     "antialias"									"1"
                     "additive"									"1"
@@ -1564,7 +1608,8 @@
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "tall"										"10"
+                    "tall"										"10" [$WINDOWS]
+                    "tall"										"8" [$LINUX]
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -1575,7 +1620,8 @@
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "tall"										"14"
+                    "tall"										"14" [$WINDOWS]
+                    "tall"										"11" [$LINUX]
                     "weight"									"500"
                     "range"										"0x0000 0x007f"
                     "antialias"									"1"
@@ -1587,7 +1633,8 @@
                 "1"
                 {
                     "name"										"steelfish"
-                    "tall"										"20"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
                     "weight"									"500"
                     "range"										"0x0000 0x007f"
                     "antialias"									"1"
@@ -1599,7 +1646,8 @@
                 "1"
                 {
                     "name"										"coolvetica_rg_bold"
-                    "tall"										"20"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
                     "weight"									"500"
                     "range"										"0x0000 0x007f"
                     "antialias"									"1"
@@ -1784,7 +1832,8 @@
                 "1"
                 {
                     "name"										"steelfish"
-                    "tall"										"28"
+                    "tall"										"28" [$WINDOWS]
+                    "tall"										"23" [$LINUX]
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
@@ -1794,7 +1843,8 @@
                 "1"
                 {
                     "name"										"steelfish"
-                    "tall"										"16"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
@@ -1804,7 +1854,8 @@
                 "1"
                 {
                     "name"										"steelfish"
-                    "tall"										"18"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
@@ -1814,7 +1865,8 @@
                 "1"
                 {
                     "name"										"steelfish extbd"
-                    "tall"										"16"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -1824,7 +1876,8 @@
                 "1"
                 {
                     "name"										"steelfish extbd"
-                    "tall"										"16"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -1834,7 +1887,8 @@
                 "1"
                 {
                     "name"										"steelfish"
-                    "tall"										"28"
+                    "tall"										"28" [$WINDOWS]
+                    "tall"										"23" [$LINUX]
                     "antialias"									"1"
                     //"dropshadow"								"1"
                 }
@@ -3017,7 +3071,8 @@
                 "1"
                 {
                     "name"										"poppins black italic"
-                    "tall"										"30"
+                    "tall"										"30" [$WINDOWS]
+                    "tall"										"24" [$LINUX]
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3028,7 +3083,8 @@
                 "1"
                 {
                     "name"										"coolvetica italic"
-                    "tall"										"32"
+                    "tall"										"32" [$WINDOWS]
+                    "tall"										"26" [$LINUX]
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3039,7 +3095,8 @@
                 "1"
                 {
                     "name"										"coolvetica italic"
-                    "tall"										"20"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3050,7 +3107,8 @@
                 "1"
                 {
                     "name"										"coolvetica italic"
-                    "tall"										"18"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3064,7 +3122,8 @@
                 "1"
                 {
                     "name"										"coolvetica italic"
-                    "tall"										"20"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3076,7 +3135,8 @@
             "1"
                 {
                     "name"										"coolvetica italic"
-                    "tall"										"6"
+                    "tall"										"6" [$WINDOWS]
+                    "tall"										"5" [$LINUX]
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3088,7 +3148,8 @@
             "1"
                 {
                     "name"										"coolvetica italic"
-                    "tall"										"8"
+                    "tall"										"8" [$WINDOWS]
+                    "tall"										"7" [$LINUX]
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -3100,7 +3161,8 @@
             "1"
                 {
                     "name"										"coolvetica italic"
-                    "tall"										"10"
+                    "tall"										"10" [$WINDOWS]
+                    "tall"										"8" [$LINUX]
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
