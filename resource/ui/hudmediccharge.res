@@ -1,7 +1,7 @@
-#base "../../cfg/hud_HudMedicCharge.txt"
-#base "HudMedicCharge_jump.res"
+#base "../../cfg/hud_hudmediccharge.txt"
+#base "hudmediccharge_jump.res"
 
-"Resource/UI/HudMedicCharge.res"
+"resource/ui/hudmediccharge.res"
 {
 	//==================================================================================================================================================
 	// UBER ANCHOR

@@ -1,6 +1,6 @@
-#base "StorePage.res"
+#base "storepage.res"
 
-"Resource/UI/Econ/Store/V2/StorePage_Maps.res"
+"resource/ui/econ/store/v2/storepage_maps.res"
 {
 	"ItemsBG"										{}
 	"FiltersBar"									{}
