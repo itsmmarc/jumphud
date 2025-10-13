@@ -5,7 +5,7 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"JUMPHUD v2.1.2"
+		"label"										"JUMPHUD v2.2.0 - LINUX ALPHA"
 		"Command"									"engine showconsole; exec jumphudversioninfo"
 		"OnlyAtMenu"								"1"
 	}
