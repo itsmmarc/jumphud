@@ -1,8 +1,8 @@
-#base "../../../cfg/jumphud/hudlayout.txt"
+#base "../../../cfg/jumphud/jh_hudlayout_casual.txt"
 #base "hudlayout_jump.res"
 
 // hud message toggle (ingame pop-up text)
-#base "../../../cfg/jumphud/hudmessage.txt"
+#base "../../../cfg/jumphud/jh_hudmessage.txt"
 #base "../resource/ui/hudmessage_on.res"
 
 #base "../CUSTOMIZATION/crosshair.res"

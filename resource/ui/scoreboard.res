@@ -1,4 +1,4 @@
-#base "../../cfg/jumphud/scoreboard.txt"
+#base "../../../../cfg/jumphud/jh_scoreboard_casual.txt"
 #base "scoreboard_jump.res"
 
 "Resource/UI/Scoreboard_Base.res"

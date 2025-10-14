@@ -1,4 +1,4 @@
-#base "../../cfg/jumphud/classselection.txt"
+#base "../../../../cfg/jumphud/jh_classmenu_casual.txt"
 #base "classselection_jump.res"
 
 "Resource/UI/ClassSelection.res"

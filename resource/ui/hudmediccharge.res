@@ -1,4 +1,4 @@
-#base "../../cfg/jumphud/hudmediccharge.txt"
+#base "../../../../cfg/jumphud/jh_uber_casual.txt"
 #base "hudmediccharge_jump.res"
 
 "resource/ui/hudmediccharge.res"

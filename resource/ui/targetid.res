@@ -1,2 +1,2 @@
-#base "../../cfg/jumphud/targetid.txt"
+#base "../../../../cfg/jumphud/jh_targetid_casual.txt"
 #base "targetid_jump.res"

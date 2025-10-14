@@ -1,4 +1,4 @@
-#base "../../cfg/jumphud/hudammoweapons.txt"
+#base "../../../../cfg/jumphud/jh_ammo_casual.txt"
 #base "hudammoweapons_jump.res"
 
 "Resource/UI/HudAmmoWeapons.res"

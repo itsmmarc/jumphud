@@ -1,4 +1,4 @@
-#base "../../cfg/jumphud/huditemeffectmeter_particlecannon.txt"
+#base "../../../../cfg/jumphud/jh_mangler_casual.txt"
 #base "huditemeffectmeter_particlecannon_jump.res"
 
 // ITEM METER POSITIONING SLOT

@@ -1,4 +1,4 @@
-#base "../../cfg/jumphud/teammenu.txt"
+#base "../../../../cfg/jumphud/jh_teammenu_casual.txt"
 #base "teammenu_jump.res"
 
 

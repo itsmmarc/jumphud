@@ -1,4 +1,4 @@
-#base "../../cfg/jumphud/huddemomanpipes.txt"
+#base "../../../../cfg/jumphud/jh_demopipes_casual.txt"
 #base "huddemomanpipes_jump.res"
 
 "Resource/UI/HudDemomanPipes.res"
