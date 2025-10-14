@@ -1,7 +1,7 @@
 #base "../dev/texture_preload.res"
 #base "../dev/reload_menu.res"
 
-#base "../../cfg/hud_mainmenuoverride.txt"
+#base "../../cfg/jumphud/mainmenuoverride.txt"
 #base "mainmenuoverride_jump.res"
 
 "Resource/UI/MainMenuOverride.res"

@@ -1,8 +1,8 @@
-#base "../../cfg/hud_speedo_absolute.txt"
+#base "../../cfg/jumphud/speedo_absolute.txt"
 #base "speedo_absolute.res"
 
-#base "../../cfg/hud_speedo_soldier.txt"
+#base "../../cfg/jumphud/speedo_soldier.txt"
 #base "speedo_soldier.res"
 
-#base "../../cfg/hud_speedo_demo.txt"
+#base "../../cfg/jumphud/speedo_demo.txt"
 #base "speedo_demo.res"

@@ -1,4 +1,4 @@
-#base "../../cfg/hud_teammenu.txt"
+#base "../../cfg/jumphud/teammenu.txt"
 #base "teammenu_jump.res"
 
 

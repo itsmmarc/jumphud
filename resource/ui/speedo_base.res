@@ -1,4 +1,4 @@
-#base "../../cfg/hud_speedo.txt"
+#base "../../cfg/jumphud/speedo.txt"
 #base "speedo_jump.res"
 
 "speedo_base.res"{
