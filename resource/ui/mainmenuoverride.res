@@ -1,7 +1,7 @@
 #base "../dev/texture_preload.res"
 #base "../dev/reload_menu.res"
 
-#base "../../cfg/jumphud/mainmenuoverride.txt"
+#base "../../../../cfg/jumphud/jh_mmoverride_casual.txt"
 #base "mainmenuoverride_jump.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -290,7 +290,7 @@
             "Image_DrawColor"   "255 255 255 255"
             "Image_ArmedColor"  "98 219 220 255"
             "Image_SelectColor" "98 219 220 255"
-            "command"           "engine casualtoggleon; hud_reloadscheme; toggle mat_aaquality;"
+            "command"           "engine jh_casual_on; fullhudreload;"
 
             "stayselectedonclick"						"0"
             "selectonhover"								"1"

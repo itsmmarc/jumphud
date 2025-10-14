@@ -12,14 +12,14 @@
     "CasualToggle_Jump"
 	{
 		"label"										""
-		"Command"									"engine casualtoggleon; hud_reloadscheme; toggle mat_aaquality;"
+		//"Command"									"engine jh_casual_on; fullhudreload;" // change this command in mainmenuoverride
 		//"OnlyAtMenu"								"1"
         //"tooltip"									"Enable Casual Mode"
 	}
     "CasualToggle_Casual"
     {
         "label"                                     "0"
-        "Command"									"engine casualtoggleoff; hud_reloadscheme; toggle mat_aaquality;"
+        "Command"									"engine jh_casual_off; fullhudreload;"
 		//"tooltip"									"Enable Jump Mode"
     }
 	"Servers"

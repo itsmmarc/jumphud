@@ -2,18 +2,8 @@ r_decal_cullsize 1
 
 exec joystick.cfg
 exec autoexec.cfg
-tf_hud_target_id_disable_floating_health 1
+exec jumphud_setup.cfg
 
 stuffcmds
 startupmenu
 sv_unlockedchapters 99
-
-exec jumpbindaliases.cfg
-
-exec logbase_setup.cfg
-hudmessage_on
-hud_reloadscheme
-// manage the firstrun file
-//alias chud_firstrun "exec hud_firstrun"
-//exec hud_has_run.txt
-//chud_firstrun
