@@ -165,22 +165,22 @@ Scheme
 		}
         "8"    // main hud font
         {
-            "Font"      "resource/scheme/fonts/coolvetica-italic.otf"
+            "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
             "name"      "coolvetica italic"
         }
         "9"
         {
-            "Font"      "resource/scheme/fonts/steelfish-italic.otf"
+            "Font"      "resource/scheme/fonts/steelfish_italic.otf"
             "name"      "steelfish"
         }
         "10"
         {
-            "Font"      "resource/scheme/fonts/steelfish-extrabolditalic.otf"
+            "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
             "name"      "steelfish extbd"
         }
         "11"
         {
-            "font"      "resource/scheme/fonts/nk57monospacescrg-regular.otf"
+            "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
             "name"      "nk57 monospace sc rg"
         }
         //icon fonts
