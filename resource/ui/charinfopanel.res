@@ -1,5 +1,8 @@
 #base "../dev/reload_scheme.res"
 
+#base "inventorybackground_base_charinfo_override.res"
+#base "inventorybackground_base.res"
+
 "Resource/UI/CharInfoPanel.res"
 {
 	"Character_Info"
@@ -29,20 +32,6 @@
 
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"18"
-	}
-    "CustomBackground"
-	{
-		"ControlName"								"ImagePanel"
-		"FieldName"									"CustomBackground"
-		"XPos"										"0"
-		"YPos"										"0"
-		"ZPos"										"-1"
-		"Wide"										"854"
-		"Tall"										"480"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"Image"										"../console/items_bg.vtf"
-		"ScaleImage"								"1"
 	}
     "TransparentBackground"   // transparent background for items page
 	{
