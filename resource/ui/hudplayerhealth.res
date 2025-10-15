@@ -1,7 +1,7 @@
-#base "../../cfg/hud_HudPlayerHealth.txt"
+#base "../../../../cfg/jumphud/jh_health_casual.txt"
 #base "hudplayerhealth_jump.res"
 
-"Resource/UI/HudPlayerHealth.res"
+"resource/ui/hudplayerhealth.res"
 {
 	"HudPlayerHealth"
 	{

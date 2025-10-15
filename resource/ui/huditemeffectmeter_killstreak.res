@@ -1,5 +1,5 @@
-#base "../../cfg/hud_Killstreak_Counter.txt"
-#base "HudItemEffectMeter_Killstreak_jump.res"
+#base "../../../../cfg/jumphud/jh_killstreak_casual.txt"
+#base "huditemeffectmeter_killstreak_jump.res"
 
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {

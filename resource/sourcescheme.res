@@ -884,5 +884,10 @@
             "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
             "name"      "NK57 Monospace Sc Rg"
         }
+		"2"    // main hud font
+        {
+            "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
+            "name"      "Coolvetica Italic"
+        }
     }
 }

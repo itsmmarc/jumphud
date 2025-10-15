@@ -1,4 +1,4 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"
 
 "Resource/UI/HudPDDrowned.res"
 {
