@@ -244,7 +244,7 @@
             "XPos"										"10"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"300"
+            "Wide"										"150"
             "Tall"										"17"
             "Visible"									"0"
 
