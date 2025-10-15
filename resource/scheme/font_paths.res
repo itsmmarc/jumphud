@@ -18,7 +18,7 @@ Scheme
         "5" // title font
 		{
 			"Font"		"resource/scheme/fonts/poppins_black_italic.ttf"
-			"name"		"poppins black italic"
+			"name"		"Poppins Black Italic"
 		}
 		"6"
 		{
@@ -166,22 +166,22 @@ Scheme
         "8"    // main hud font
         {
             "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
-            "name"      "coolvetica italic"
+            "name"      "Coolvetica Italic"
         }
         "9"
         {
             "Font"      "resource/scheme/fonts/steelfish_italic.otf"
-            "name"      "steelfish"
+            "name"      "Steelfish"
         }
         "10"
         {
             "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
-            "name"      "steelfish extbd"
+            "name"      "Steelfish ExtBd"
         }
         "11"
         {
             "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
-            "name"      "nk57 monospace sc rg"
+            "name"      "NK57 Monospace Sc Rg"
         }
         //icon fonts
         "101"
@@ -192,12 +192,12 @@ Scheme
         "102"
         {
 			"Font"		"resource/scheme/fonts/tf2_class_icons.ttf"
-			"name"		"tf2 class icons v3"
+			"name"		"TF2 Class Icons V3"
 		}
         "103"
         {
             "Font"  	"resource/scheme/fonts/hypnotize_icons.ttf"
-            "Name"  	"hypnotize icons v8"
+            "Name"  	"Hypnotize Icons V8"
         }
     }
 }
