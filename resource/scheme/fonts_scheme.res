@@ -3070,7 +3070,8 @@
             {
                 "1"
                 {
-                    "name"										"Poppins"
+                    "name"										"Poppins Black Italic" [$[$WINDOWS]
+                    "name"										"Poppins" [$LINUX]
                     "tall"										"30" [$WINDOWS]
                     "tall"										"24" [$LINUX]
                     "weight"									"400"
