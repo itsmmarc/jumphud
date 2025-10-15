@@ -1,6 +1,6 @@
-#base "QuestItemTrackerPanel_Base.res"
+#base "questitemtrackerpanel_base.res"
 
-"Resource/UI/Quests/QuestItemTrackerPanel_InGame_Base.res"
+"resource/ui/quests/questitemtrackerpanel_ingame_base.res"
 {
 	"ItemTrackerPanel"
 	{
