@@ -3070,7 +3070,7 @@
             {
                 "1"
                 {
-                    "name"										"Poppins Black Italic"
+                    "name"										"Poppins"
                     "tall"										"30" [$WINDOWS]
                     "tall"										"24" [$LINUX]
                     "weight"									"400"
