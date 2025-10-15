@@ -18,7 +18,9 @@ Scheme
         "5" // title font
 		{
 			"Font"		"resource/scheme/fonts/poppins_black_italic.ttf"
-			"name"		"Poppins Black Italic"
+			"name"		"Poppins Black Italic" [$WINDOWS]
+            "name"		"Poppins" [$LINUX]
+
 		}
 		"6"
 		{
