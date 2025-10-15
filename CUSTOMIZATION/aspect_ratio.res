@@ -1,5 +1,7 @@
 // due to how the class loadout panel is designed, the bg might not align properly depending on the aspect ratio
-// replace the YPos value of LoadoutCustomBackground with the value relative to your aspect ratio from the table below
+// replace the YPos value of LoadoutCustomBackground with the value relative to your resolution from the table below
+//
+// if you use a resolution not listed, use the value from the closest y resolution (eg: if you use 3440x1440, use the value from 2560x1440 or 1920x1440 (-36))
 //
 //  |-----------|-------|
 //  | Resolution| Value |
@@ -26,6 +28,6 @@
 
 "CUSTOMIZATION/aspect_ratio.res"{
 	"LoadoutCustomBackground"{
-		"YPos"										"-38" // EDIT ME
+		"YPos"										"-36" // EDIT ME
 	}
 }
