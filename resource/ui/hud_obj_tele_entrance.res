@@ -286,7 +286,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"FieldName"						"RechargeLabel"
-					"Font"							"DefaultVerySmall"
+					"Font"							"LabelsFontLarge"
 					"XPos"							"0"
 					"YPos"							"0"
 					"ZPos"							"3"
