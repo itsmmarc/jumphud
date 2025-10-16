@@ -760,7 +760,7 @@
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
+                    "name"										"coolvetica_italic_mono"
                     "tall"										"18" [$WINDOWS]
                     "tall"										"15" [$LINUX]
                     "weight"									"300"

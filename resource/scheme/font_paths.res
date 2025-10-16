@@ -27,7 +27,48 @@ Scheme
 			"Font"		"resource/scheme/fonts/square_edit.ttf"
 			"name"		"square_edit"
 		}
-		"7"
+        "8"    // main hud font
+        {
+            "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
+            "name"      "Coolvetica Italic"
+        }
+        "9"
+        {
+            "Font"      "resource/scheme/fonts/steelfish_italic.otf"
+            "name"      "Steelfish"
+        }
+        "10"
+        {
+            "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
+            "name"      "Steelfish ExtBd"
+        }
+        "11"
+        {
+            "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
+            "name"      "NK57 Monospace Sc Rg"
+        }
+        "12"
+        {
+            "Font"      "resource/scheme/fonts/coolvetica_italic_mono.otf"
+            "name"      "coolvetica_italic_mono"
+        }
+        //icon fonts
+        "101"
+		{
+			"Font"		"resource/scheme/fonts/m0rehud_icons.ttf"
+			"name"		"m0rehud_icons_v13"
+		}
+        "102"
+        {
+			"Font"		"resource/scheme/fonts/tf2_class_icons.ttf"
+			"name"		"TF2 Class Icons V3"
+		}
+        "103"
+        {
+            "Font"  	"resource/scheme/fonts/hypnotize_icons.ttf"
+            "Name"  	"Hypnotize Icons V8"
+        }
+        "105"
 		{
 			"Font"		"resource/scheme/fonts/surface_uber_icons.ttf"
 			"name"		"surface_uber_icons"
@@ -165,41 +206,5 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-        "8"    // main hud font
-        {
-            "Font"      "resource/scheme/fonts/coolvetica_italic.otf"
-            "name"      "Coolvetica Italic"
-        }
-        "9"
-        {
-            "Font"      "resource/scheme/fonts/steelfish_italic.otf"
-            "name"      "Steelfish"
-        }
-        "10"
-        {
-            "Font"      "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
-            "name"      "Steelfish ExtBd"
-        }
-        "11"
-        {
-            "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
-            "name"      "NK57 Monospace Sc Rg"
-        }
-        //icon fonts
-        "101"
-		{
-			"Font"		"resource/scheme/fonts/m0rehud_icons.ttf"
-			"name"		"m0rehud_icons_v13"
-		}
-        "102"
-        {
-			"Font"		"resource/scheme/fonts/tf2_class_icons.ttf"
-			"name"		"TF2 Class Icons V3"
-		}
-        "103"
-        {
-            "Font"  	"resource/scheme/fonts/hypnotize_icons.ttf"
-            "Name"  	"Hypnotize Icons V8"
-        }
     }
 }
