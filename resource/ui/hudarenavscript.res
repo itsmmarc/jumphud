@@ -67,7 +67,7 @@
     "textAlignment" "center"
     "dulltext"      "0"
     "brighttext"    "0"
-    "font"          "HudFontSmall"
+    "font"          "LabelsFontLarge"
     "fgcolor"       "TanLight"
   }
 

@@ -106,7 +106,7 @@
 			"ProportionalToParent"					"1"
 			"LabelText"								"#TF_PlayingTo"
 			"TextAlignment"							"center"
-			"Font"									"DefaultVerySmall"
+			"Font"									"LabelsFontLarge"
 			"FGColor"								"White"
 		}
 		"PlayingToBG"

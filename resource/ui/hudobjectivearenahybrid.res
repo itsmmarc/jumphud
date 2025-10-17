@@ -242,7 +242,7 @@
 		"Enabled"									"1"
 		"LabelText"									"#TF_PlayingTo"
 		"TextAlignment"								"center"
-		"Font"										"DefaultVerySmall"
+		"Font"										"LabelsFontLarge"
 		"FGColor"									"White"
 
 		"if_hybrid"
