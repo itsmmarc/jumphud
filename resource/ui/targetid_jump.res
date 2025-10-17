@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelC"
-		"xpos"										"0"
+		"xpos"										"2"
 		"ypos"										"-15"
 		"zpos"										"1"
 		"wide"										"640"
