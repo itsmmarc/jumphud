@@ -35,7 +35,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"east"
 		"LabelText"									"%bluescore%"
-		"Font"										"m0refont36"
+		"Font"										"Score_Large"
 		"FGColor"									"Blue"
 
 		"if_hybrid"
@@ -69,7 +69,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"east"
 		"LabelText"									"%bluescore%"
-		"Font"										"m0refont36"
+		"Font"										"Score_Large"
 		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"BlueScore"
@@ -143,7 +143,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"west"
 		"LabelText"									"%redscore%"
-		"Font"										"m0refont36"
+		"Font"										"Score_Large"
 		"FGColor"									"Red"
 
 		"if_hybrid"
@@ -177,7 +177,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"west"
 		"LabelText"									"%redscore%"
-		"Font"										"m0refont36"
+		"Font"										"Score_Large"
 		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"RedScore"
@@ -242,7 +242,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_PlayingTo"
 		"TextAlignment"								"center"
-		"Font"										"LabelsFontLarge"
+		"Font"										"Objective_Small"
 		"FGColor"									"White"
 
 		"if_hybrid"

@@ -14,7 +14,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%Health%"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"Health_Numbers"
 	}
 	"HealthValue_Killer_Shadow"
@@ -31,7 +31,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%Health%"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"HealthValue_Killer"

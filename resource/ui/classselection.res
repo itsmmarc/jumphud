@@ -43,38 +43,6 @@
 	}
 
 	//==================================================================================================================================================
-	// LOADOUT EDIT
-	//==================================================================================================================================================
-	"EditLoadoutButton"
-	{
-		"ControlName"								"CExButton"
-		"FieldName"									"EditLoadoutButton"
-		"XPos"										"99999"
-		"YPos"										"0"
-		"ZPos"										"6"
-		"Wide"										"65"
-		"Tall"										"10"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"LabelText"									"Loadout (&E)"
-		"TextAlignment"								"west"
-		"Command"									"openloadout"
-		"Font"										"m0refont11"
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"KeyboardInputEnabled"						"0"
-
-		"PaintBackground"							"0"
-		"FGColor"									"White"
-		"DefaultFGColor_Override"					"White"
-		"ArmedFGColor_Override"						"Class_Selection"
-		"DepressedFGColor_Override"					"Class_Selection"
-		"selectedFGColor_override"					"Class_Selection"
-
-		"Pin_To_Sibling"							"ClassesAnchor"
-	}
-
-	//==================================================================================================================================================
 	// 3D PLAYER MODEL
 	//==================================================================================================================================================
 	"TFPlayerModel"
@@ -121,7 +89,34 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
+    "EditLoadoutButton" // dead
+        {
+            "ControlName"								"CExButton"
+            "FieldName"									"EditLoadoutButton"
+            "XPos"										"99999"
+            "YPos"										"0"
+            "ZPos"										"6"
+            "Wide"										"65"
+            "Tall"										"10"
+            "Visible"									"1"
+            "Enabled"									"1"
+            "LabelText"									"Loadout (&E)"
+            "TextAlignment"								"west"
+            "Command"									"openloadout"
+            "Font"										"m0refont11"
+            "stayselectedonclick"						"1"
+            "selectonhover"								"1"
+            "KeyboardInputEnabled"						"0"
 
+            "PaintBackground"							"0"
+            "FGColor"									"White"
+            "DefaultFGColor_Override"					"White"
+            "ArmedFGColor_Override"						"Class_Selection"
+            "DepressedFGColor_Override"					"Class_Selection"
+            "selectedFGColor_override"					"Class_Selection"
+
+            "Pin_To_Sibling"							"ClassesAnchor"
+        }
     "Random"
         {
             "XPos"										"99999"

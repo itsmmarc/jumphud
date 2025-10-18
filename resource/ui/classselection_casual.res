@@ -59,7 +59,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numScout%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Scout"
@@ -127,7 +127,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numSoldier%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Soldier"
@@ -195,7 +195,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numPyro%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Pyro"
@@ -263,7 +263,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numDemoman%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Demoman"
@@ -331,7 +331,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numHeavy%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"HeavyWeapons"
@@ -399,7 +399,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numEngineer%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Engineer"
@@ -467,7 +467,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numMedic%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Medic"
@@ -535,7 +535,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numSniper%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Sniper"
@@ -603,7 +603,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numSpy%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Spy"

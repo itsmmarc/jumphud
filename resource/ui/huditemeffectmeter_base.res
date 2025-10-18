@@ -26,7 +26,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_Ball"
 		"TextAlignment"								"south"
-		"Font"										"LabelsFont"
+		"Font"										"Ingame_Tiny"
 		"DisabledFGColor2_Override"					"TransparentBlack"
 	}
 	"ItemEffectMeter"

@@ -242,7 +242,7 @@
 		"Enabled"									"1"
 		"LabelText"									"#TF_PlayingTo"
 		"TextAlignment"								"center"
-		"Font"										"LabelsFontLarge"
+		"Font"										"Objective_Small"
 		"FGColor"									"White"
 
 		"if_hybrid"
@@ -483,7 +483,7 @@
 				"Enabled"							"1"
 				"TextAlignment"						"east"
 				"LabelText"							"%score%"
-				"Font"								"m0refont30"
+				"Font"								"Score_Medium"
 				"FGColor"							"HUDBlueTeamSolid"
 				"proportionalToParent"				"1"
 			}
@@ -500,7 +500,7 @@
 				"Enabled"							"1"
 				"TextAlignment"						"east"
 				"LabelText"							"%score%"
-				"Font"								"m0refont30"
+				"Font"								"Score_Medium"
 				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
@@ -533,7 +533,7 @@
 				"Enabled"							"1"
 				"TextAlignment"						"west"
 				"LabelText"							"%score%"
-				"Font"								"m0refont30"
+				"Font"								"Score_Medium"
 				"FGColor"							"HUDRedTeamSolid"
 				"proportionalToParent"				"1"
 			}
@@ -550,7 +550,7 @@
 				"Enabled"							"1"
 				"TextAlignment"						"west"
 				"LabelText"							"%score%"
-				"Font"								"m0refont30"
+				"Font"								"Score_Medium"
 				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
