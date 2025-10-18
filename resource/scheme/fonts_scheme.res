@@ -2,7 +2,18 @@
 {
 	"Fonts"
 	{
-		//=================================================================================================
+            "QuestName"  // Contract quest name ingame
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"11" [$WINDOWS]
+                    "tall"										"9" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
 		// M0REHUD FONTS
 		//=================================================================================================
             "m0refont9"
@@ -2458,14 +2469,14 @@
                     "antialias"									"1"
                 }
             }
-            "QuestObjectiveTracker_Desc"
+            "QuestObjectiveTracker_Desc"    // contract goals ingame
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"8" [$WINDOWS]
+                    "Tall"										"7" [$LINUX]
                     "weight"									"0"
-                    "additive"									"1"
                     "antialias"									"1"
                 }
             }
@@ -2473,8 +2484,9 @@
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"8" [$WINDOWS]
+                    "Tall"										"7" [$LINUX]
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -2483,20 +2495,20 @@
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"8" [$WINDOWS]
+                    "Tall"										"7" [$LINUX]
                     "weight"									"0"
-                    "blur"										"3"
-                    "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "ItemTrackerScore_InGame"
+            "ItemTrackerScore_InGame"   // contract bar text ingame
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"7" [$WINDOWS]
+                    "Tall"										"6" [$LINUX]
                     "weight"									"0"
                     "antialias"									"1"
                 }
