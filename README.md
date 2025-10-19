@@ -4,7 +4,7 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 ***
 
-<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.2.3/jumphud-v2.2.3.zip"><img src="screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.2.4/jumphud-v2.2.4.zip"><img src="screenshots/downloadbutton.png"></a>
 <a href="SHOWCASE.md"><img src="screenshots/screenshotsbutton.png"></a>
 <a href="https://discord.gg/s6yJMGecMZ"><img src="screenshots/discord.png"></a>
 
@@ -57,6 +57,8 @@ Swap the HUD into Casual Mode by clicking the logo on the main menu.
 Use `cl_hud_minmode 1` or the button on the pause menu to hide the health value and center the ammo count in Jump Mode.
 
 Toggle Custom HUD Speedos, Tempus HUD, Tempus Speedos, etc, using the buttons on the pause menu.
+
+Change the HUD speedo size by editing `CUSTOMIZATION/speedo_size.res`
 
 Adjust the item menu background to your resolution by editing `CUSTOMIZATION/aspect_ratio.res`.
 
