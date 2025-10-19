@@ -16,6 +16,10 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 ## Features
 
+Swap the HUD into Casual Mode by clicking the logo on the main menu.
+
+![Mode Switching Preview](screenshots/modeswitch.webp)
+
 ### Useful keybinds have been added to the options menu, including but not limited to:
 
 - CTap
@@ -50,10 +54,6 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 ## Customization
 
-Swap the HUD into Casual Mode by clicking the logo on the main menu.
-
-![Mode Switching Preview](screenshots/modeswitch.webp)
-
 Use `cl_hud_minmode 1` or the button on the pause menu to hide the health value and center the ammo count in Jump Mode.
 
 Toggle Custom HUD Speedos, Tempus HUD, Tempus Speedos, etc, using the buttons on the pause menu.
@@ -63,6 +63,8 @@ Adjust the item menu background to your resolution by editing `CUSTOMIZATION/asp
 Edit and enable a custom HUD crosshair by editing `CUSTOMIZATION/crosshair.res`.
 
 Change the tempus speedo colour by editing `cfg/speedocolor.cfg`.
+
+Add any configuration you want to run while in Casual or Jump mode to `jumphud/cfg/USER_casualconfig.cfg` or `USER_jumpconfig.cfg`. The appropriate config file will also be run on launch.
 
 ## Known Issues:
 
