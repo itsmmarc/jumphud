@@ -23,7 +23,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%metal%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"White"
 	}
 	"AccountValueShadow"
@@ -39,7 +39,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%metal%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"AccountValue"

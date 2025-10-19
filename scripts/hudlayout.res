@@ -163,7 +163,7 @@
 	"CHudAccountPanel"
 	{
 		"fieldName"									"CHudAccountPanel"
-		"xpos"										"cs-0.5"
+		"xpos"										"cs-0.5-1"
 		//"ypos"										"c105"
         //"ypos_minmode"                              "c120"
 		"wide"										"200"
@@ -917,7 +917,7 @@
 		"fieldName"									"HudDemomanPipes"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"0"
+		"xpos"										"-1"
 		"ypos"										"50"
 		"wide"										"f0"
 		"tall"										"f0"

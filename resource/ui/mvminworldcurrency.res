@@ -30,7 +30,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"49 150 66 255"
 	}
 	"CurrencyBad"
@@ -47,7 +47,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"Health_Hurt"
 	}
 	"CurrencyShadow"
@@ -64,7 +64,7 @@
 		"ProportionalToParent"						"1"
 		"TextAlignment"								"center"
 		"LabelText"									"%currency%"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"Main_Shadow_Transparent"
 	}
 

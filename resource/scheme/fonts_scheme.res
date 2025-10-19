@@ -2,6 +2,202 @@
 {
 	"Fonts"
 	{
+        //=================================================================================================
+		// JumpHUD Fonts
+		//=================================================================================================
+            "TitleFont" // JumpHUD title font
+            {
+                "1"
+                {
+                    "name"										"Poppins Black Italic" [$[$WINDOWS]
+                    "name"										"Poppins" [$LINUX]
+                    "tall"										"30" [$WINDOWS]
+                    "tall"										"24" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            "Ingame_Large"   // Health, ammo, etc
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"32" [$WINDOWS]
+                    "tall"										"26" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            "Ingame_Medium"  // Metal, stickies out, etc
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            "Ingame_Small"   // Heads label, sentry kills, etc
+            {
+            "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"8" [$WINDOWS]
+                    "tall"										"7" [$LINUX]
+                    "weight"									"0"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"0"
+                }
+            }
+            "Ingame_Tiny"    // Item meter labels (inside item meter bar)
+            {
+            "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"6" [$WINDOWS]
+                    "tall"										"5" [$LINUX]
+                    "weight"									"0"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"0"
+                }
+            }
+            "Objective_Small"    // "playing to"
+            {
+            "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"8" [$WINDOWS]
+                    "tall"										"7" [$LINUX]
+                    "weight"									"0"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"0"
+                }
+            }
+            "Score_Small"   // arena player count
+            {
+                "1"
+                {
+                    "name"										"renogare_soft_regular"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
+            "Score_Medium"
+            {
+                "1"
+                {
+                    "name"										"renogare_soft_regular"
+                    "tall"										"30" [$WINDOWS]
+                    "tall"										"24" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
+            "Score_Large"
+            {
+                "1"
+                {
+                    "name"										"renogare_soft_regular"
+                    "tall"										"36" [$WINDOWS]
+                    "tall"										"29" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
+            "Score_ExtraLarge"
+            {
+                "1"
+                {
+                    "name"										"renogare_soft_regular"
+                    "tall"										"48" [$WINDOWS]
+                    "tall"										"39" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
+            "Menu_Medium"    // class/team selection counts
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            "TeamName"  // team names on scoreboard & win panels
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }            
+            "KillFeed"
+            {
+            "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"10" [$WINDOWS]
+                    "tall"										"8" [$LINUX]
+                    "weight"									"0"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"0"
+                }
+            }
+            "DisguiseStatus_Data"
+            {
+                "1"
+                {
+                    "name"										"Steelfish ExtBd"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
+                    "antialias"									"1"
+                    "dropshadow"								"1"
+                }
+            }
+            "QuestName"  // Contract quest name ingame
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"11" [$WINDOWS]
+                    "tall"										"9" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            
+            //techno additional custom fonts
+            "DamageFont"
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                    "dropshadow"								"1"
+                }
+            }
+            
+            
 		//=================================================================================================
 		// M0REHUD FONTS
 		//=================================================================================================
@@ -194,28 +390,6 @@
                     "dropshadow"								"1"
                 }
             }
-            "m0refont24Outline"
-            {
-                "1"
-                {
-                    "name"										"renogare_soft_regular"
-                    "tall"										"24" [$WINDOWS]
-                    "tall"										"19" [$LINUX]
-                    "antialias"									"1"
-                    "outline"									"1"
-                }
-            }
-            "m0refont24Numbers"
-            {
-                "1"
-                {
-                    "name"										"renogare_soft_regular"
-                    "tall"										"24" [$WINDOWS]
-                    "tall"										"19" [$LINUX]
-                    "antialias"									"1"
-                    "outline"									"1"
-                }
-            }
             "m0refont26"
             {
                 "1"
@@ -236,28 +410,6 @@
                     "antialias"									"1"
                 }
             }
-            "m0refont30Outline"
-            {
-                "1"
-                {
-                    "name"										"renogare_soft_regular"
-                    "tall"										"30" [$WINDOWS]
-                    "tall"										"24" [$LINUX]
-                    "antialias"									"1"
-                    "outline"									"1"
-                }
-            }
-            "m0refont30Numbers"
-            {
-                "1"
-                {
-                    "name"										"renogare_soft_regular"
-                    "tall"										"30" [$WINDOWS]
-                    "tall"										"24" [$LINUX]
-                    "antialias"									"1"
-                    "outline"									"1"
-                }
-            }
             "m0refont32"
             {
                 "1"
@@ -266,17 +418,6 @@
                     "tall"										"32" [$WINDOWS]
                     "tall"										"26" [$LINUX]
                     "antialias"									"1"
-                }
-            }
-            "m0refont32Shadow"
-            {
-                "1"
-                {
-                    "name"										"renogare_soft_regular"
-                    "tall"										"32" [$WINDOWS]
-                    "tall"										"26" [$LINUX]
-                    "antialias"									"1"
-                    "dropshadow"								"1"
                 }
             }
             "m0refont36"
@@ -760,7 +901,7 @@
             {
                 "1"
                 {
-                    "name"										"Coolvetica Italic"
+                    "name"										"coolvetica_italic_mono"
                     "tall"										"18" [$WINDOWS]
                     "tall"										"15" [$LINUX]
                     "weight"									"300"
@@ -1827,7 +1968,7 @@
                     "antialias"									"1"
                 }
             }
-            "TargetID"
+            "TargetID"  // Jump mode targetid name
             {
                 "1"
                 {
@@ -1838,7 +1979,7 @@
                     //"dropshadow"								"1"
                 }
             }
-            "TargetID_Small"
+            "TargetID_Small"    // Casual mode targetid name, competitive spectator player names
             {
                 "1"
                 {
@@ -1849,7 +1990,7 @@
                     //"dropshadow"								"1"
                 }
             }
-            "TargetID_Medium"
+            "TargetID_Medium"   // freezecam player name, winpanel player names
             {
                 "1"
                 {
@@ -1860,18 +2001,7 @@
                     //"dropshadow"								"1"
                 }
             }
-            "TargetID_Data"
-            {
-                "1"
-                {
-                    "name"										"Steelfish ExtBd"
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
-                    "antialias"									"1"
-                    "dropshadow"								"1"
-                }
-            }
-            "DisguiseStatus_Data"
+            "TargetID_Data" // casual targetid date
             {
                 "1"
                 {
@@ -2458,14 +2588,14 @@
                     "antialias"									"1"
                 }
             }
-            "QuestObjectiveTracker_Desc"
+            "QuestObjectiveTracker_Desc"    // contract goals ingame
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"8" [$WINDOWS]
+                    "Tall"										"7" [$LINUX]
                     "weight"									"0"
-                    "additive"									"1"
                     "antialias"									"1"
                 }
             }
@@ -2473,8 +2603,9 @@
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"8" [$WINDOWS]
+                    "Tall"										"7" [$LINUX]
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -2483,20 +2614,20 @@
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"8" [$WINDOWS]
+                    "Tall"										"7" [$LINUX]
                     "weight"									"0"
-                    "blur"										"3"
-                    "additive"									"1"
                     "antialias"									"1"
                 }
             }
-            "ItemTrackerScore_InGame"
+            "ItemTrackerScore_InGame"   // contract bar text ingame
             {
                 "1"
                 {
-                    "name"										"Verdana"
-                    "Tall"										"7"
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"7" [$WINDOWS]
+                    "Tall"										"6" [$LINUX]
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -3063,111 +3194,6 @@
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
-                }
-            }
-        // itsame fonts
-            "TitleFont"
-            {
-                "1"
-                {
-                    "name"										"Poppins Black Italic" [$[$WINDOWS]
-                    "name"										"Poppins" [$LINUX]
-                    "tall"										"30" [$WINDOWS]
-                    "tall"										"24" [$LINUX]
-                    "weight"									"400"
-                    "additive"									"0"
-                    "antialias"									"1"
-                }
-            }
-            "JumpHUD_Main_Font"
-            {
-                "1"
-                {
-                    "name"										"Coolvetica Italic"
-                    "tall"										"32" [$WINDOWS]
-                    "tall"										"26" [$LINUX]
-                    "weight"									"400"
-                    "additive"									"0"
-                    "antialias"									"1"
-                }
-            }
-            "JumpHUD_Secondary_Font"
-            {
-                "1"
-                {
-                    "name"										"Coolvetica Italic"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
-                    "weight"									"400"
-                    "additive"									"0"
-                    "antialias"									"1"
-                }
-            }
-            "JumpHUD_Secondary_Font_Shadow"
-            {
-                "1"
-                {
-                    "name"										"Coolvetica Italic"
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
-                    "weight"									"400"
-                    "additive"									"0"
-                    "antialias"									"1"
-                    "dropshadow"                                "1"
-                }
-            }
-            
-            //techno additional custom fonts
-            "DamageFont"
-            {
-                "1"
-                {
-                    "name"										"Coolvetica Italic"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
-                    "weight"									"400"
-                    "additive"									"0"
-                    "antialias"									"1"
-                    "dropshadow"								"1"
-                }
-            }
-            "LabelsFont"
-            {
-            "1"
-                {
-                    "name"										"Coolvetica Italic"
-                    "tall"										"6" [$WINDOWS]
-                    "tall"										"5" [$LINUX]
-                    "weight"									"0"
-                    "additive"									"0"
-                    "antialias"									"1"
-                    "dropshadow"								"0"
-                }
-            }
-            "LabelsFontLarge"
-            {
-            "1"
-                {
-                    "name"										"Coolvetica Italic"
-                    "tall"										"8" [$WINDOWS]
-                    "tall"										"7" [$LINUX]
-                    "weight"									"0"
-                    "additive"									"0"
-                    "antialias"									"1"
-                    "dropshadow"								"0"
-                }
-            }
-            "KillFeed"
-            {
-            "1"
-                {
-                    "name"										"Coolvetica Italic"
-                    "tall"										"10" [$WINDOWS]
-                    "tall"										"8" [$LINUX]
-                    "weight"									"0"
-                    "additive"									"0"
-                    "antialias"									"1"
-                    "dropshadow"								"0"
                 }
             }
 	}

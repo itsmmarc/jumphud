@@ -56,7 +56,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_PlayingTo"
 		"TextAlignment"								"center"
-		"Font"										"DefaultVerySmall"
+		"Font"										"Objective_Small"
 		"FGColor"									"White"
 	}
 	"CarriedContainer"
@@ -597,7 +597,7 @@
 				"Enabled"							"1"
 				"TextAlignment"						"east"
 				"LabelText"							"%score%"
-				"Font"								"m0refont30"
+				"Font"								"Score_Medium"
 				"FGColor"							"Blue"
 				"proportionalToParent"				"1"
 			}
@@ -614,7 +614,7 @@
 				"Enabled"							"1"
 				"TextAlignment"						"east"
 				"LabelText"							"%score%"
-				"Font"								"m0refont30"
+				"Font"								"Score_Medium"
 				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 
@@ -647,7 +647,7 @@
 				"Enabled"							"1"
 				"TextAlignment"						"west"
 				"LabelText"							"%score%"
-				"Font"								"m0refont30"
+				"Font"								"Score_Medium"
 				"FGColor"							"Red"
 				"proportionalToParent"				"1"
 			}
@@ -664,7 +664,7 @@
 				"Enabled"							"1"
 				"TextAlignment"						"west"
 				"LabelText"							"%score%"
-				"Font"								"m0refont30"
+				"Font"								"Score_Medium"
 				"FGColor"							"Main_Shadow_Transparent"
 				"proportionalToParent"				"1"
 

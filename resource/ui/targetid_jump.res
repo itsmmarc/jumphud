@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelC"
-		"xpos"										"0"
+		"xpos"										"2"
 		"ypos"										"-15"
 		"zpos"										"1"
 		"wide"										"640"
@@ -21,7 +21,7 @@
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
 
-    "TargetNameLabelCs"
+    "TargetNameLabelCs" // shadow
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabelCs"
@@ -40,9 +40,10 @@
 		"pin_to_sibling" "TargetNameLabelC"
 	}
 
-
-    // disabled
-
+    
+    //=================================================================================================
+    // DISABLED
+    //=================================================================================================
     "TargetDataLabel" // disabled
 	{
 		"ControlName"								"CExLabel"
@@ -60,8 +61,23 @@
 		"font"										"TargetID"
 		"disabledfgcolor2_override"					"White"
 	}
-
-// important that spectatorguihealth wide is "640" here
+    "TargetNameLabel"   // dead
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TargetNameLabel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"1"
+		"enabled"									"0"
+		"proportionaltoparent"						"1"
+		"labelText"									""
+		"textAlignment"								"west"
+		"font"										"TargetID"
+		"disabledfgcolor2_override"					"White"
+	}
     "SpectatorGUIHealth"    // used for all targetid health
 	{
 		"ControlName"								"EditablePanel"
@@ -75,7 +91,7 @@
 		"proportionaltoparent"						"1"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
-		"TFFont"									"JumpHUD_Secondary_Font"
+		"TFFont"									"Ingame_Medium"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 
@@ -92,7 +108,7 @@
             "enabled"									"1"
             "textAlignment"								"center"
             "labeltext"									"%Health%"
-            "font"										"JumpHUD_Secondary_Font"
+            "font"										"Ingame_Medium"
             "fgcolor"									"White"
         }
         "PlayerStatusHealthValueShadow"
@@ -108,28 +124,10 @@
             "enabled"									"1"
             "textAlignment"								"center"
             "labeltext"									"%Health%"
-            "font"										"JumpHUD_Secondary_Font"
+            "font"										"Ingame_Medium"
             "fgcolor"									"Main_Shadow_Transparent"
 
             "pin_to_sibling"							"PlayerStatusHealthValueID"
         }
-	}
-
-    "TargetNameLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TargetNameLabel"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"1"
-		"enabled"									"0"
-		"proportionaltoparent"						"1"
-		"labelText"									""
-		"textAlignment"								"west"
-		"font"										"TargetID"
-		"disabledfgcolor2_override"					"White"
 	}
 }

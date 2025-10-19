@@ -225,7 +225,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Main_Font"
+		"Font"										"Ingame_Large"
 		"FGColor"									"Health_Numbers"
 
 		"Pin_To_Sibling"							"HealthAnchor"
@@ -245,7 +245,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Main_Font"
+		"Font"										"Ingame_Large"
 		"FGColor"									"Main_Shadow_Transparent"
         //"Alpha"                                     "200"
 
@@ -264,29 +264,11 @@
 		"Enabled"									"0"
 		"LabelText"									"%Health%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Main_Font"
+		"Font"										"Ingame_Large"
 		"FGColor"									"Extra_Health_Shadow"
 		"Alpha"										"0"
 
 		"Pin_To_Sibling"							"HealthValue_Shadow"
-	}
-	"HealthValue_Shadow_Black"						// RANDOM NAME SO IT DOESN'T APPLY ANY ANIMATION
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"HealthValue_Shadow_Black"
-		"XPos"										"-2"
-		"YPos"										"-2"
-		"ZPos"										"5"
-		"Wide"										"150"
-		"Tall"										"80"
-		"Visible"									"0"
-		"Enabled"									"0"
-		"LabelText"									"%Health%"
-		"TextAlignment"								"center"
-		"Font"										"m0refont32"
-		"FGColor"									"Main_Shadow_Transparent"
-
-		"Pin_To_Sibling"							"HealthValue"
 	}
 
 	//==================================================================================================================================================
@@ -333,14 +315,14 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"PlayerStatusAnchor"
-		"XPos"										"-50"
-		"YPos"										"0"
-		"Wide"										"0"
+		"XPos"										"-99999"
+		"YPos"										"3"
+		"Wide"										"1"
 		"Tall"										"1"
-		"Visible"									"1"
+		"Visible"									"0"
 		"Enabled"									"1"
 
-		"Pin_To_Sibling"							"HealthValue"
+		"Pin_To_Sibling"							"HealthAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_CENTER_RIGHT"
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_LEFT"
 	}

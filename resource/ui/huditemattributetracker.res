@@ -1,3 +1,6 @@
+#base "../../../../cfg/jumphud/jh_attributetracker_casual.txt"
+#base "huditemattributetracker_jump.res"
+
 "Resource/UI/HudItemAttributeTracker.res"
 {
 	"ItemAttributeTracker"
@@ -7,7 +10,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"f0"
+		//"wide"										"f0"
 		"tall"										"f0"
 		"stats_buffer_width"						"50"
 	}
@@ -32,7 +35,7 @@
 			"wide"									"f0"
 			"tall"									"8"
 			"zpos"									"4"
-			"font"									"DefaultVerySmall"
+			"font"									"Ingame_Small"
 			"TextAlignment"							"east"
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White"
@@ -47,7 +50,7 @@
 			"wide"									"f0"
 			"tall"									"8"
 			"zpos"									"4"
-			"font"									"DefaultVerySmall"
+			"font"									"Ingame_Small"
 			"TextAlignment"							"east"
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White"

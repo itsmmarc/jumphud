@@ -64,7 +64,7 @@
 			"ProportionalToParent"					"1"
 			"LabelText"								"%activepipes%"
 			"TextAlignment"							"center"
-			"Font"									"JumpHUD_Secondary_Font"
+			"Font"									"Ingame_Medium"
 			"FGColor"								"White"
 		}
 		"NumPipesLabelDropshadow"
@@ -81,7 +81,7 @@
 			"ProportionalToParent"					"1"
 			"LabelText"								"%activepipes%"
 			"TextAlignment"							"center"
-			"Font"									"JumpHUD_Secondary_Font"
+			"Font"									"Ingame_Medium"
 			"FGColor"								"Main_Shadow_Transparent"
 
 			"Pin_To_Sibling"						"NumPipesLabel"

@@ -38,7 +38,7 @@
 
 		"Visible"									"0"
 		"Enabled"									"1"
-		"Font"										"JumpHUD_Main_Font"
+		"Font"										"Ingame_Large"
 
         "textinsetx"                                "10"
 		//"TextAlignment"								"east"
@@ -61,7 +61,7 @@
 		"Tall"										"80"
 		"Visible"									"0"
 		"Enabled"									"1"
-		"Font"										"JumpHUD_Main_Font"
+		"Font"										"Ingame_Large"
         "textinsetx"                                "10"
 		//"TextAlignment"								"east"
         //"TextAlignment_minmode"						"center"
@@ -72,7 +72,7 @@
 	}
 
 	//==================================================================================================================================================
-	// AMMO IN RESERVE  // DISABLED
+	// AMMO IN RESERVE
 	//==================================================================================================================================================
 	"AmmoInReserve"
 	{
@@ -85,7 +85,7 @@
 		//"Tall"										"80" //set to 80 to enable
 		"Visible"									"1"
 		"Enabled"									"1"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"TextAlignment"								"west"
 		"LabelText"									"%AmmoInReserve%"
 		"FGColor"									"Ammo_In_Reserve"
@@ -105,7 +105,7 @@
 		//"Tall"										"80"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"TextAlignment"								"west"
 		"LabelText"									"%AmmoInReserve%"
 		"FGColor"									"Main_Shadow_Transparent"
@@ -129,7 +129,7 @@
 
 		"Visible"									"0"
 		"Enabled"									"1"
-		"Font"										"JumpHUD_Main_Font"
+		"Font"										"Ingame_Large"
 
         "textinsetx"                                "10"
 		//"TextAlignment"								"east"
@@ -152,7 +152,7 @@
 		"Tall"										"80"
 		"Visible"									"0"
 		"Enabled"									"1"
-		"Font"										"JumpHUD_Main_Font"
+		"Font"										"Ingame_Large"
         "textinsetx"                                "10"
 		//"TextAlignment"								"east"
         //"TextAlignment_minmode"						"center"

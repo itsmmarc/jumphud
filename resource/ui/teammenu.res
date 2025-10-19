@@ -177,7 +177,7 @@
 		"MouseInputEnabled"							"0"
 		"LabelText"									"%bluecount%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Menu_Medium"
 		"FGColor"									"White"
 
 		//"Pin_To_Sibling"							"BlueButton_jump"
@@ -276,7 +276,7 @@
 		"MouseInputEnabled"							"0"
 		"LabelText"									"%redcount%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Menu_Medium"
 		"FGColor"									"White"
 
 		//"Pin_To_Sibling"							"RedButton_jump"

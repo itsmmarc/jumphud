@@ -59,7 +59,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numScout%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Scout"
@@ -97,7 +97,7 @@
             "Enabled"									"1"
             "LabelText"									"2" // Soldier Icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Soldier"
+            "Command"									"joinclass soldier"
             "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -127,7 +127,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numSoldier%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Soldier"
@@ -165,7 +165,7 @@
             "Enabled"									"1"
             "LabelText"									"3" // Pyro Icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Pyro"
+            "Command"									"joinclass pyro"
             "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -195,7 +195,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numPyro%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Pyro"
@@ -233,7 +233,7 @@
             "Enabled"									"1"
             "LabelText"									"4" // Demoman Icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Demoman"
+            "Command"									"joinclass demoman"
             "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -263,7 +263,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numDemoman%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Demoman"
@@ -301,7 +301,7 @@
             "Enabled"									"1"
             "LabelText"									"5" // Heavy Icon
             "TextAlignment"								"center"
-            "Command"									"joinclass HeavyWeapons"
+            "Command"									"joinclass heavyweapons"
             "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -331,7 +331,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numHeavy%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"HeavyWeapons"
@@ -369,7 +369,7 @@
             "Enabled"									"1"
             "LabelText"									"6" // Engineer Icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Engineer"
+            "Command"									"joinclass engineer"
             "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -399,7 +399,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numEngineer%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Engineer"
@@ -437,7 +437,7 @@
             "Enabled"									"1"
             "LabelText"									"7" // Medic Icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Medic"
+            "Command"									"joinclass medic"
             "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -467,7 +467,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numMedic%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Medic"
@@ -505,7 +505,7 @@
             "Enabled"									"1"
             "LabelText"									"8" // Sniper Icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Sniper"
+            "Command"									"joinclass sniper"
             "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -535,7 +535,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numSniper%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Sniper"
@@ -573,7 +573,7 @@
             "Enabled"									"1"
             "LabelText"									"9" // Spy Icon
             "TextAlignment"								"center"
-            "Command"									"joinclass Spy"
+            "Command"									"joinclass spy"
             "Font"										"ClassSymbols80"
             "stayselectedonclick"						"1"
             "selectonhover"								"1"
@@ -603,7 +603,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numSpy%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Spy"

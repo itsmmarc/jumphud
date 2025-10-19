@@ -401,7 +401,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"UpgradeItemsDescriptionLabel"
-			"Font"									"LabelsFontLarge"
+			"Font"									"Ingame_Small"
 			"LabelText"								"%upgrade_description%"
 			"TextAlignment"							"center"
 			"Wrap"									"1"
@@ -465,7 +465,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"UpgradeItemStatsLabel"
-			"Font"									"LabelsFontLarge"
+			"Font"									"Ingame_Small"
 			"LabelText"								""
 			"TextAlignment"							"north-west"
 			"XPos"									"4"

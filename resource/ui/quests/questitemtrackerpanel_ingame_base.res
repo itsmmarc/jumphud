@@ -261,7 +261,7 @@
 			}
 		}
 	}
-	"ItemName"
+	"ItemName"  // quest name
 	{
 		"ControlName"								"Label"
 		"FieldName"									"ItemName"
@@ -272,7 +272,7 @@
 		"ZPos"										"4"
 		"ProportionalToParent"						"1"
 		"LabelText"									"%itemname%"
-		"Font"										"m0refont10"
+		"Font"										"QuestName"
 		"TextAlignment"								"north-east"
 		"TextInsetX"								"5"
 		"FGColor_Override"							"White"
@@ -287,7 +287,7 @@
 		"Tall"										"20"
 		"ZPos"										"4"
 		"LabelText"									"#QuestPoints_Primary"
-		"Font"										"ItemTrackerScore_InGame"
+		"Font"										"ItemTrackerScore_InGame"   // hardcoded?
 		"TextAlignment"								"north-west"
 		"TextInsetX"								"0"
 		"FGColor"									"TanDark"
@@ -302,7 +302,7 @@
 		"Tall"										"20"
 		"ZPos"										"4"
 		"LabelText"									"#QuestPoints_Bonus"
-		"Font"										"ItemTrackerScore_InGame"
+		"Font"										"ItemTrackerScore_InGame"   // hardcoded?
 		"TextAlignment"								"north-west"
 		"TextInsetX"								"0"
 		"FGColor"									"TanDark"

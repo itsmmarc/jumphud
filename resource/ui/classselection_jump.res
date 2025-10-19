@@ -61,7 +61,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numSoldier%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightestWhite"
 
             "Pin_To_Sibling"							"Soldier"
@@ -114,7 +114,7 @@
             "Enabled"									"1"
             "TextAlignment"								"center"
             "LabelText"									"%numDemoman%"
-            "Font"										"JumpHUD_Secondary_Font"
+            "Font"										"Menu_Medium"
             "FGColor"									"TransparentLightWhite"
 
             "Pin_To_Sibling"							"Demoman"
