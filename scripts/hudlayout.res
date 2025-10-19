@@ -372,7 +372,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"MinimumWidth"								"15"
-		"MaximumWidth"								"35"
+		"MaximumWidth"								"15"
 		"StartRadius"								"80"
 		"EndRadius"									"80"
 		"MinimumHeight"								"30"

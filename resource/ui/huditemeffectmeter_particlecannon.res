@@ -2,21 +2,15 @@
 #base "huditemeffectmeter_particlecannon_jump.res"
 
 // ITEM METER POSITIONING SLOT
-//#base "huditemeffectmeter_#top.res"
+#base "huditemeffectmeter_#top.res"
 
 // BASE CONTENT, USE THIS TO MAKE YOUR EDITS!!
 #base "huditemeffectmeter_base.res"
 
 "Resource/UI/HudItemEffectMeter_ParticleCannon.res"
 {
-	"HudItemEffectMeter"
-	{
-		"YPos"          "r136"
-        //"Xpos"          "cs-0.5+40"
-        //"XPos_Minmode"  "cs-0.5"
-        "wide"          "50"
-	}
-    "ItemEffectMeterLabel"
+	
+    "ItemEffectMeterLabel"  // disable mangler text
 	{
 		"Wide"										"0"
 		"Tall"										"0"
@@ -27,11 +21,11 @@
 		"DisabledFGColor2_Override"					"blank"
 	}
 
-    "Panel1"   // transparent background for loadout page
+    "Panel1"
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Panel1"
-		"XPos"										"12"
+		//"XPos"										"35"
 		"YPos"										"1"
         "ZPos"                                      "2"
 		"Wide"										"1"
@@ -49,11 +43,11 @@
         "pin_to_sibling_corner" "PIN_CENTER_TOP"
 	}
 
-    "Panel2"   // transparent background for loadout page
+    "Panel2"
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Panel2"
-		"XPos"										"25"
+		//"XPos"										"70"
 		"YPos"										"1"
         "ZPos"                                      "2"
 		"Wide"										"1"
@@ -71,11 +65,11 @@
         "pin_to_sibling_corner" "PIN_CENTER_TOP"
 	}
 
-    "Panel3"   // transparent background for loadout page
+    "Panel3"
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Panel3"
-		"XPos"										"37"
+		//"XPos"										"105"
 		"YPos"										"1"
         "ZPos"                                      "2"
 		"Wide"										"1"
