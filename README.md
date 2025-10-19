@@ -10,10 +10,6 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 ***
 
-![Soldier Preview](/screenshots/jump/soldier_apng.png)
-
-![Demo Preview](/screenshots/jump/demo_apng.png)
-
 ## Features
 
 Swap the HUD into Casual Mode by clicking the logo on the main menu.
@@ -51,6 +47,10 @@ Swap the HUD into Casual Mode by clicking the logo on the main menu.
 - Toggle Tempus Speedo (Horizontal, Vertical, and Absolute)
 
 - Toggle Show Triggers
+
+![Soldier Preview](/screenshots/jump/soldier_apng.png)
+
+![Demo Preview](/screenshots/jump/demo_apng.png)
 
 ## Customization
 
