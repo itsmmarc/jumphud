@@ -315,14 +315,14 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"PlayerStatusAnchor"
-		"XPos"										"-50"
-		"YPos"										"0"
-		"Wide"										"0"
+		"XPos"										"-99999"
+		"YPos"										"3"
+		"Wide"										"1"
 		"Tall"										"1"
-		"Visible"									"1"
+		"Visible"									"0"
 		"Enabled"									"1"
 
-		"Pin_To_Sibling"							"HealthValue"
+		"Pin_To_Sibling"							"HealthAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_CENTER_RIGHT"
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_LEFT"
 	}
