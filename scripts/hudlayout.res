@@ -1,3 +1,4 @@
+// jump/casual toggle
 #base "../../../cfg/jumphud/jh_hudlayout_casual.txt"
 #base "hudlayout_jump.res"
 
@@ -5,7 +6,12 @@
 #base "../../../cfg/jumphud/jh_hudmessage.txt"
 #base "../resource/ui/hudmessage_on.res"
 
+// hud crosshair
 #base "../CUSTOMIZATION/crosshair.res"
+
+// transparent viewmodels
+#base "../CUSTOMIZATION/transparent_viewmodels.res" // set visibility here
+#base "../resource/ui/transparentviewmodels.res"
 
 "Scripts/HudLayout.res"
 {
