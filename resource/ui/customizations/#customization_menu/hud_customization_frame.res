@@ -112,7 +112,7 @@
 			"LabelText"									"Reset HUD To Default"
 			"Font"										"FontStorePrice"
 			"TextAlignment"								"center"
-			"Command"									"engine m0_customization_reset"
+			"Command"									"engine jh_customization_reset"
 			"ActionSignalLevel"							"2"
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
@@ -209,7 +209,7 @@
 				"LabelText"								"Home"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_home; hud_reloadscheme"
+				"Command"								"engine jh_custom_home; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 			}
@@ -229,7 +229,7 @@
 				"LabelText"								"Quick Settings"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_settings; hud_reloadscheme"
+				"Command"								"engine jh_custom_settings; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -253,7 +253,7 @@
 				"LabelText"								"Fonts"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_fonts; hud_reloadscheme"
+				"Command"								"engine jh_custom_fonts; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -277,7 +277,7 @@
 				"LabelText"								"Colors"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_colors; hud_reloadscheme"
+				"Command"								"engine jh_custom_colors; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -301,7 +301,7 @@
 				"LabelText"								"Health - Ammo - Uber"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_health_ammo; hud_reloadscheme"
+				"Command"								"engine jh_custom_health_ammo; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -325,7 +325,7 @@
 				"LabelText"								"Damage"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_damage; hud_reloadscheme"
+				"Command"								"engine jh_custom_damage; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -349,7 +349,7 @@
 				"LabelText"								"Match Status"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_match_status; hud_reloadscheme"
+				"Command"								"engine jh_custom_match_status; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -373,7 +373,7 @@
 				"LabelText"								"Killstreak - Meters"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_meters; hud_reloadscheme"
+				"Command"								"engine jh_custom_meters; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -397,7 +397,7 @@
 				"LabelText"								"Crosshairs - Hitmarkers"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_crosshairs; hud_reloadscheme"
+				"Command"								"engine jh_custom_crosshairs; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -421,7 +421,7 @@
 				"LabelText"								"Miscellaneous"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine m0_custom_miscellaneous; hud_reloadscheme"
+				"Command"								"engine jh_custom_miscellaneous; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 

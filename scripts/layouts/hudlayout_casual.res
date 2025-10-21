@@ -1,18 +1,17 @@
-"Scripts/HudLayout_jump.res"
+"Scripts/layouts/HudLayout_jump.res"
 {
     "CHudAccountPanel"
 	{
 		"ypos"										"c105"
-        "ypos_minmode"                              "c120"
+        "ypos_minmode"                              "c105"
 	}
     "HudWeaponAmmo"
 	{
 		"xpos"										"0"
-        "xpos_minmode"								"-1"
 	}
     "CMainTargetID"
 	{
-		"ypos"										"c138"
+		"ypos"										"c45"
 	}
 	"CSpectatorTargetID"
 	{
@@ -20,6 +19,6 @@
 	}
 	"CSecondaryTargetID"
 	{
-		"ypos"										"c-200"
+		"ypos"										"c3"
 	}
 }
