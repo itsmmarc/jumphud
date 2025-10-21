@@ -2,6 +2,6 @@
 {
 	"Colors"
 	{
-		"Hitmarker"											"0 195 200 255"
+		"Hitmarker"											"98 219 220 255"
 	}
 }

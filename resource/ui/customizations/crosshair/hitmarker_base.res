@@ -11,7 +11,7 @@
 		"XPos"		"cs-0.5"
 		"YPos"		"cs-0.5"
 
-		"FGColor"	"white" // temp
+		"FGColor"	"Hitmarker"
 
 		"Alpha"		"0"
 	}

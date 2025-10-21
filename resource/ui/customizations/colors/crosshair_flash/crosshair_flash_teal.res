@@ -2,6 +2,6 @@
 {
 	"Colors"
 	{
-		"Crosshair_Flash"									"100 180 170 255"
+		"Crosshair_Flash"									"81 181 182 255"
 	}
 }
