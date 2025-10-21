@@ -52,10 +52,9 @@
 		"label"										"Adv. Settings"
 		"Command"									"opentf2options"
 	}
-	"HUDOptions"
+	"HUDSettings"
 	{
-		"label"										"HUD Options"
-        "tooltip"                                   "Warning! Likely broken"
+		"label"										"HUD Settings"
 		"Command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0; gameui_preventescape"
 	}
 	"Workshop"

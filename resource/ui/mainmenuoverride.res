@@ -1,6 +1,8 @@
 #base "../dev/texture_preload.res"
 #base "../dev/reload_menu.res"
 
+#base "customizations/#customization_menu/hud_customization.res"
+
 #base "../../../../cfg/jumphud/jh_mmoverride_casual.txt"
 #base "mainmenuoverride_jump.res"
 
@@ -634,11 +636,11 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "HUDOptions" // disabled
+        "HUDSettings"
         {
             "ControlName"								"EditablePanel"
-            "FieldName"									"HUDOptions"
-            "XPos"										"99999"
+            "FieldName"									"HUDSettings"
+            "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
             "Wide"										"150"
@@ -684,7 +686,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"HUDOptions"
+            "Pin_To_Sibling"							"HUDSettings"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -764,7 +766,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"Advanced"
+            "Pin_To_Sibling"							"HUDSettings"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -828,7 +830,7 @@
             "Tall"										"17"
             "Visible"									"0"
 
-            "Pin_To_Sibling"							"Advanced"
+            "Pin_To_Sibling"							"HUDSettings"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
