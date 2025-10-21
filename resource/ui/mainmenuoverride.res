@@ -293,6 +293,7 @@
             "Image_ArmedColor"  "98 219 220 255"
             "Image_SelectColor" "98 219 220 255"
             "command"           "engine jh_casual_on; fullhudreload;"
+            "Sound_Depressed"						"UI/buttonclick.wav"
 
             "stayselectedonclick"						"0"
             "selectonhover"								"1"
