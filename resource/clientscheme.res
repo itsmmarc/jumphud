@@ -1,21 +1,23 @@
 //=========================================================
 // COLORS SCHEME
 //=========================================================
-
 #base "scheme/colors_scheme.res"
+#base "ui/customizations/colors/color_customization.res"
 
 //=========================================================
 // FONTS SCHEME
 //=========================================================
-
-#base "scheme/fonts_scheme.res"
 #base "scheme/font_paths.res"
+#base "scheme/fonts_scheme.res"
+#base "ui/customizations/#customization_menu/font_showcase.res"
 
 //=========================================================
 // BORDERS SCHEME
 //=========================================================
-
 #base "scheme/borders_scheme.res"
 
-// Crosshairs Scheme
-#base "crosshairs/crosshair_scheme.res"
+//=========================================================
+// CROSSHAIRS SCHEME
+//=========================================================
+#base "../../../cfg/jumphud/jh_crosshair_edge.txt"
+#base "scheme/crosshairs_scheme.res"

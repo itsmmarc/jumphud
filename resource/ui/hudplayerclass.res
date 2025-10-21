@@ -1,4 +1,5 @@
 #base "speedo_base.res"
+#base "customizations/crosshair/crosshair.res"
 
 "Resource/UI/HudPlayerClass_Base.res"
 {

@@ -11,7 +11,7 @@
 		"XPos"		"cs-0.5"
 		"YPos"		"cs-0.5"
 
-		"FGColor"	"Crosshair"
+		"FGColor"	"White" // temp
 	}
 
 	"CustomCrosshair2"
@@ -25,6 +25,6 @@
 		"XPos"		"cs-0.5"
 		"YPos"		"cs-0.5"
 
-		"FGColor"	"Crosshair"
+		"FGColor"	"White" // temp
 	}
 }

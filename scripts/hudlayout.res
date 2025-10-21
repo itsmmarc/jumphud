@@ -6,7 +6,7 @@
 #base "../../../cfg/jumphud/jh_customization_menu.txt"
 #base "layouts/hudlayout_customization.res"
 // hud crosshair
-#base "../CUSTOMIZATION/crosshair.res"
+//#base "../resource/ui/customizations/crosshair/crosshair.res"
 // hud message toggle (ingame pop-up text)
 #base "../../../cfg/jumphud/jh_hudmessage.txt"
 #base "../resource/ui/hudmessage_on.res"

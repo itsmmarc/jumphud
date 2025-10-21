@@ -1,1 +1,1 @@
-#base "../../../../../../cfg/m0rehud/m0re_crosshair_size.txt"
+#base "../../../../../../cfg/jumphud/jh_crosshair_size.txt"
