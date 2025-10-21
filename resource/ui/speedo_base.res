@@ -1,5 +1,5 @@
 // SPEEDO SIZE
-#base "../../CUSTOMIZATION/speedo_size.res"
+#base "../../../../cfg/jumphud/jh_speedo_size.txt"
 
 // BASE SPEEDOS
 #base "../../../../cfg/jumphud/jh_speedo_absolute.txt"

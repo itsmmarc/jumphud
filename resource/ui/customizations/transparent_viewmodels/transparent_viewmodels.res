@@ -11,7 +11,7 @@
 		"Tall"										"480"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"Image"										"replay/thumbnails/transparent_viewmodels/REFRACTnormal_transparent"
+		"Image"										"replay/thumbnails/transparent_viewmodels/refractnormal_transparent"
 		"ScaleImage"								"1"
 	}
 }

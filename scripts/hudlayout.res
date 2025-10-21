@@ -20,8 +20,7 @@
 //=========================================================
 // TRANSPARENT VIEWMODELS
 //=========================================================
-#base "../CUSTOMIZATION/transparent_viewmodels.res" // set visibility here
-#base "../resource/ui/transparentviewmodels.res"
+#base "../../../cfg/jumphud/jh_transparent_viewmodels.txt"
 
 //=========================================================
 // MAIN LAYOUT
