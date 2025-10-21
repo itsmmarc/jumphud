@@ -14,7 +14,24 @@
 		"ProportionalToParent"							"1"
 		"PaintBackground"								"1"
 		"PaintBackgroundType"							"0"
-		"BGcolor_Override"								"Background_Dark"
+		"BGcolor_Override"								"blank"
+
+        "Background"    // background excluding the scroll bar and header
+        {
+        "ControlName"									"Panel"
+		"FieldName"										"Background"
+		"XPos"											"150"
+		"YPos"											"22"
+		"Wide"											"f0-150"
+		"Tall"											"f0-22"
+		"ZPos"											"-2"
+		"Visible"										"1"
+		"Enabled"										"1"
+		"ProportionalToParent"							"1"
+		"PaintBackground"								"1"
+		"PaintBackgroundType"							"0"
+		"BGcolor_Override"								"IsItTransparentBlack"
+        }
 //==============================================================================================================================
 // TITLE BAR
 //==============================================================================================================================
@@ -40,7 +57,7 @@
 			"PaintBackground"							"1"
 			"paintBackgroundtype"						"0"
 			"RoundedCorners"							"0"
-			"BGColor_Override"							"Background_Bright"
+			"BGColor_Override"							"TransparentBlack"
 		}
 		"CloseButton"
 		{
@@ -169,7 +186,7 @@
 			"ProportionalToParent"						"1"
 			"PaintBackground"							"1"
 			"PaintBackgroundType"						"0"
-			"BGcolor_Override"							"Background_Darkest"
+			"BGcolor_Override"							"TransparentBlack"
 
 			"Title"
 			{
@@ -187,18 +204,18 @@
 				"LabelText"								"Select a Category:"
 				"Font"									"HudFontSmallBold"
 				"TextAlignment"							"center"
-				"FGColor"								"White"
+				"FGColor"								"Highlight_Color_Dark"
 				"PaintBackground"						"1"
 				"paintBackgroundtype"					"0"
 				"RoundedCorners"						"0"
-				"BGColor_Override"						"Black"
+				"BGColor_Override"						"blank"
 			}
 			"Home_Button"
 			{
 				"ControlName"							"CExButton"
 				"FieldName"								"Home_Button"
 				"XPos"									"cs-0.5"
-				"YPos"									"22"
+				"YPos"									"18"
 				"ZPos"									"20"
 				"Wide"									"f4"
 				"Tall"									"22"
@@ -212,6 +229,9 @@
 				"Command"								"engine jh_custom_home; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
 			}
 			"Quick_Settings_Button"
 			{
@@ -232,6 +252,9 @@
 				"Command"								"engine jh_custom_settings; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
 
 				"Pin_To_Sibling"						"Home_Button"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
@@ -257,6 +280,9 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
 				"Pin_To_Sibling"						"Quick_Settings_Button"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
@@ -280,6 +306,9 @@
 				"Command"								"engine jh_custom_colors; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
 
 				"Pin_To_Sibling"						"Fonts_Button"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
@@ -305,6 +334,9 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
 				"Pin_To_Sibling"						"Colors_Button"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
@@ -328,6 +360,9 @@
 				"Command"								"engine jh_custom_damage; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
 
 				"Pin_To_Sibling"						"Health_Ammo_Uber_Button"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
@@ -353,6 +388,9 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
 				"Pin_To_Sibling"						"Damage"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
@@ -376,6 +414,9 @@
 				"Command"								"engine jh_custom_meters; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
 
 				"Pin_To_Sibling"						"Match_Status"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
@@ -401,6 +442,9 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
 				"Pin_To_Sibling"						"Counters"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
@@ -424,6 +468,9 @@
 				"Command"								"engine jh_custom_miscellaneous; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
 
 				"Pin_To_Sibling"						"Crosshairs"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
