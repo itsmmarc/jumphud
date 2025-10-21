@@ -35,7 +35,7 @@
 					"Use_Proportional_Insets"			"1"
 					"AllCaps"							"1"
 					"LabelText"							"Welcome to JumpHUD"
-					"Font"								"HudFontMediumbold"
+					"Font"								"TitleFont"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
