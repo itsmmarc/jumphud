@@ -13,14 +13,11 @@
 			"Customizations_Panel"
 			{
 				"HUD_Customization_Home_Panel"		{Visible 0}
-				"HUD_Quick_Settings_Selection"		{Visible 0}
-				"HUD_Colors_Selection"				{Visible 0}
+                "HUD_Speedos_Soldier_Selection"		{Visible 0}
+                "HUD_Speedos_Demo_Selection"		{Visible 0}
+                "HUD_Crosshairs_Selection"			{Visible 0}
+                "HUD_Resolution_Selection"			{Visible 0}
 				"HUD_Font_Selection"				{Visible 0}
-				"HUD_Health_Ammo_Uber_Selection"	{Visible 0}
-				"HUD_Damage_Selection"				{Visible 0}
-				"HUD_Match_Status_Selection"		{Visible 0}
-				"HUD_Meters_Selection"				{Visible 0}
-				"HUD_Crosshairs_Selection"			{Visible 0}
 				"HUD_Miscellaneous_Selection"		{Visible 0}
 			}
 		}

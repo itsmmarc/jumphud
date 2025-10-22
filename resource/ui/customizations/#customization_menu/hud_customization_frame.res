@@ -233,10 +233,10 @@
                 "DefaultBGColor_Override"				"Background_Dark"
                 
 			}
-			"Quick_Settings_Button"
+			"Speedos_Soldier"
 			{
 				"ControlName"							"CExButton"
-				"FieldName"								"Quick_Settings_Button"
+				"FieldName"								"Speedos_Soldier"
 				"XPos"									"0"
 				"YPos"									"2"
 				"ZPos"									"20"
@@ -246,10 +246,10 @@
 				"Enabled"								"1"
 				"ProportionalToParent"					"1"
 				"AllCaps"								"1"
-				"LabelText"								"Quick Settings"
+				"LabelText"								"Soldier Speedos"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine jh_custom_settings; hud_reloadscheme"
+				"Command"								"engine jh_custom_speedos_soldier; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -260,10 +260,91 @@
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
-			"Fonts_Button"
+			"Speedos_Demo"
 			{
 				"ControlName"							"CExButton"
-				"FieldName"								"Fonts_Button"
+				"FieldName"								"Speedos_Demo"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Demo Speedos"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine jh_custom_speedos_demo; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
+				"Pin_To_Sibling"						"Speedos_Soldier"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Crosshairs"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Crosshairs"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Crosshairs"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine jh_custom_crosshairs; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
+				"Pin_To_Sibling"						"Speedos_Demo"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Resolutions"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Resolutions"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Resolutions"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine jh_custom_resolutions; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
+				"Pin_To_Sibling"						"Crosshairs"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Fonts"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Fonts"
 				"XPos"									"0"
 				"YPos"									"2"
 				"ZPos"									"20"
@@ -283,169 +364,7 @@
                 "DefaultBGColor_Override"				"Background_Dark"
                 
 
-				"Pin_To_Sibling"						"Quick_Settings_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
-			}
-			"Colors_Button"
-			{
-				"ControlName"							"CExButton"
-				"FieldName"								"Colors_Button"
-				"XPos"									"0"
-				"YPos"									"2"
-				"ZPos"									"20"
-				"Wide"									"f4"
-				"Tall"									"22"
-				"Visible"								"1"
-				"Enabled"								"1"
-				"ProportionalToParent"					"1"
-				"AllCaps"								"1"
-				"LabelText"								"Colors"
-				"Font"									"HudFontSmallestBold"
-				"TextAlignment"							"center"
-				"Command"								"engine jh_custom_colors; hud_reloadscheme"
-				"ActionSignalLevel"						"3"
-				"Sound_Depressed"						"UI/buttonclick.wav"
-
-                "DefaultBGColor_Override"				"Background_Dark"
-                
-
-				"Pin_To_Sibling"						"Fonts_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
-			}
-			"Health_Ammo_Uber_Button"
-			{
-				"ControlName"							"CExButton"
-				"FieldName"								"Health_Ammo_Uber_Button"
-				"XPos"									"0"
-				"YPos"									"2"
-				"ZPos"									"20"
-				"Wide"									"f4"
-				"Tall"									"22"
-				"Visible"								"1"
-				"Enabled"								"1"
-				"ProportionalToParent"					"1"
-				"AllCaps"								"1"
-				"LabelText"								"Health - Ammo - Uber"
-				"Font"									"HudFontSmallestBold"
-				"TextAlignment"							"center"
-				"Command"								"engine jh_custom_health_ammo; hud_reloadscheme"
-				"ActionSignalLevel"						"3"
-				"Sound_Depressed"						"UI/buttonclick.wav"
-
-                "DefaultBGColor_Override"				"Background_Dark"
-                
-
-				"Pin_To_Sibling"						"Colors_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
-			}
-			"Damage"
-			{
-				"ControlName"							"CExButton"
-				"FieldName"								"Damage"
-				"XPos"									"0"
-				"YPos"									"2"
-				"ZPos"									"20"
-				"Wide"									"f4"
-				"Tall"									"22"
-				"Visible"								"1"
-				"Enabled"								"1"
-				"ProportionalToParent"					"1"
-				"AllCaps"								"1"
-				"LabelText"								"Damage"
-				"Font"									"HudFontSmallestBold"
-				"TextAlignment"							"center"
-				"Command"								"engine jh_custom_damage; hud_reloadscheme"
-				"ActionSignalLevel"						"3"
-				"Sound_Depressed"						"UI/buttonclick.wav"
-
-                "DefaultBGColor_Override"				"Background_Dark"
-                
-
-				"Pin_To_Sibling"						"Health_Ammo_Uber_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
-			}
-			"Match_Status"
-			{
-				"ControlName"							"CExButton"
-				"FieldName"								"Match_Status"
-				"XPos"									"0"
-				"YPos"									"2"
-				"ZPos"									"20"
-				"Wide"									"f4"
-				"Tall"									"22"
-				"Visible"								"1"
-				"Enabled"								"1"
-				"ProportionalToParent"					"1"
-				"AllCaps"								"1"
-				"LabelText"								"Match Status"
-				"Font"									"HudFontSmallestBold"
-				"TextAlignment"							"center"
-				"Command"								"engine jh_custom_match_status; hud_reloadscheme"
-				"ActionSignalLevel"						"3"
-				"Sound_Depressed"						"UI/buttonclick.wav"
-
-                "DefaultBGColor_Override"				"Background_Dark"
-                
-
-				"Pin_To_Sibling"						"Damage"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
-			}
-			"Counters"
-			{
-				"ControlName"							"CExButton"
-				"FieldName"								"Counters"
-				"XPos"									"0"
-				"YPos"									"2"
-				"ZPos"									"20"
-				"Wide"									"f4"
-				"Tall"									"22"
-				"Visible"								"1"
-				"Enabled"								"1"
-				"ProportionalToParent"					"1"
-				"AllCaps"								"1"
-				"LabelText"								"Killstreak - Meters"
-				"Font"									"HudFontSmallestBold"
-				"TextAlignment"							"center"
-				"Command"								"engine jh_custom_meters; hud_reloadscheme"
-				"ActionSignalLevel"						"3"
-				"Sound_Depressed"						"UI/buttonclick.wav"
-
-                "DefaultBGColor_Override"				"Background_Dark"
-                
-
-				"Pin_To_Sibling"						"Match_Status"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
-			}
-			"Crosshairs"
-			{
-				"ControlName"							"CExButton"
-				"FieldName"								"Crosshairs"
-				"XPos"									"0"
-				"YPos"									"2"
-				"ZPos"									"20"
-				"Wide"									"f4"
-				"Tall"									"22"
-				"Visible"								"1"
-				"Enabled"								"1"
-				"ProportionalToParent"					"1"
-				"AllCaps"								"1"
-				"LabelText"								"Crosshairs - Hitmarkers"
-				"Font"									"HudFontSmallestBold"
-				"TextAlignment"							"center"
-				"Command"								"engine jh_custom_crosshairs; hud_reloadscheme"
-				"ActionSignalLevel"						"3"
-				"Sound_Depressed"						"UI/buttonclick.wav"
-
-                "DefaultBGColor_Override"				"Background_Dark"
-                
-
-				"Pin_To_Sibling"						"Counters"
+				"Pin_To_Sibling"						"Resolutions"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
@@ -472,7 +391,7 @@
                 "DefaultBGColor_Override"				"Background_Dark"
                 
 
-				"Pin_To_Sibling"						"Crosshairs"
+				"Pin_To_Sibling"						"Fonts"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
