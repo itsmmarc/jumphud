@@ -1,8 +1,10 @@
 #base "crosshair_visibility.res"
 
+#base "crosshair_color.res"
 #base "crosshair_style.res"
 #base "crosshair_size.res"
 
+#base "hitmarker_color.res"
 #base "hitmarker_style.res"
 #base "hitmarker_size.res"
 

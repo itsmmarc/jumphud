@@ -11,12 +11,12 @@
 		"XPos"		"cs-0.5"
 		"YPos"		"cs-0.5"
 
-		"FGColor"	"Crosshair"
+		"FGColor"	"White"
 	}
 
 	"CustomCrosshair2"
 	{
-		"Visible"	"0"																																																																			"ControlName" "CExLabel" "FieldName" "CustomCrosshair2" "Enabled" "1" "ZPos" "0" "Wide" "f0" "Tall" "f0" "TextAlignment" "center"
+		"Visible"	"1"																																																																			"ControlName" "CExLabel" "FieldName" "CustomCrosshair2" "Enabled" "1" "ZPos" "0" "Wide" "f0" "Tall" "f0" "TextAlignment" "center"
 
 		"LabelText"	"I"
 
@@ -24,7 +24,8 @@
 
 		"XPos"		"cs-0.5"
 		"YPos"		"cs-0.5"
+        "alpha"     "0"
 
-		"FGColor"	"Crosshair"
+		"FGColor"	"White"
 	}
 }
