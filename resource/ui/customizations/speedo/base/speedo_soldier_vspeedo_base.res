@@ -4,10 +4,10 @@
 	"speedos" {
         "vspeedo_container" {
             "vspeedo" {
-                "image" "replay/thumbnails/speedo/vspeedo_demo"
+                "image" "replay/thumbnails/speedo/vspeedo_basic"
             }
             "vspeedo_shadow" {
-                "image" "replay/thumbnails/speedo/vspeedo_demo"
+                "image" "replay/thumbnails/speedo/vspeedo_basic"
             }
         }
     }
