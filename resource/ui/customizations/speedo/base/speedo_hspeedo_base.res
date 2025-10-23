@@ -7,7 +7,7 @@
             "xpos" "cs-0.5"
             "wide" "f0"
             "tall" "p0.333"
-            "ypos" "0"    // set by speedo size
+            "ypos" "0"  // top
             "proportionaltoparent"  "1"
             
             "hspeedo" {
@@ -16,6 +16,7 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/speedo/hspeedo_basic"
             }
             "hspeedo_shadow" {
                 "controlName" "CTFImagePanel"
@@ -26,6 +27,7 @@
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "drawcolor" "Main_Shadow_Transparent"
+                "image" "replay/thumbnails/speedo/hspeedo_basic"
 
                 "pin_to_sibling"		"hspeedo"
             }
