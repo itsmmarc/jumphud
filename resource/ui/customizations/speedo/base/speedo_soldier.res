@@ -1,8 +1,7 @@
 // SPEEDO SIZE
-//#base "../../../../cfg/jumphud/jh_speedo_soldier_size.txt"
-#base "../speedo_size/speedo_size_large.res"
+#base "../../../../../../../cfg/jumphud/jh_speedo_s_size.txt"
 
-// VISIBILITY
+// SPEEDO VISIBILITY
 #base "../../../../../../../cfg/jumphud/jh_speedos_s_h_visibility.txt"
 #base "../../../../../../../cfg/jumphud/jh_speedos_s_v_visibility.txt"
 #base "../../../../../../../cfg/jumphud/jh_speedos_s_a_visibility.txt"

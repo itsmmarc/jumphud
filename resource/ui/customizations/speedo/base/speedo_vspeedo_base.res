@@ -5,8 +5,8 @@
             "visible" "0"
             "enabled" "1"
             "xpos" "cs-0.5"
-            "wide" "100"  // set by speedo size
-            "tall" "25"   // set by speedo size
+            "wide" "f0"
+            "tall" "p0.333"
             "ypos" "cs-0.5"    // set by speedo size
             "proportionaltoparent"  "1"
             

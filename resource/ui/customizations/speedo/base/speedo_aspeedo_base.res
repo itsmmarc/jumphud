@@ -4,8 +4,8 @@
             "controlName" "EditablePanel"
             "visible" "0"
             "enabled" "1"
-            "wide" "100"    // set by speedo size
-            "tall" "25"     // set by speedo size
+            "wide" "f0"
+            "tall" "p0.333"
             "xpos" "cs-0.5"
             "ypos" "rs1"    // bottom
             "proportionaltoparent"  "1"
