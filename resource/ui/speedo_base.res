@@ -1,15 +1,10 @@
-// SPEEDO SIZE
-#base "../../../../cfg/jumphud/jh_speedo_size.txt"
+// VISIBILITY TOGGLES FOR SOLDIER/DEMO SPEEDOS
+//#base "../../../../cfg/jumphud/jh_speedo_soldier.txt"
+//#base "../../../../cfg/jumphud/jh_speedo_demo.txt"
 
-// BASE SPEEDOS
-#base "../../../../cfg/jumphud/jh_speedo_absolute.txt"
-#base "speedo_absolute.res"
+#base "customizations/speedo/base/speedo_soldier.res"
 
-#base "../../../../cfg/jumphud/jh_speedo_soldier.txt"
-#base "speedo_soldier.res"
-
-#base "../../../../cfg/jumphud/jh_speedo_demo.txt"
-#base "speedo_demo.res"
+//#base "speedo_demo.res"
 
 // MOVE ALL SPEEDOS WITH THIS
 "speedo_base.res"{

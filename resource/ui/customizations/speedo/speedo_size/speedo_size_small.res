@@ -2,18 +2,18 @@
     "speedos" {
         "tall"  "39"    // 3x tall of speedo_absolute or speedo_soldier
 
-        "speedo_absolute" {
-            "wide" "52"
-            "tall" "13"     // 1/4 of wide
-        }
-        "speedo_soldier" {
+        "hspeedo_container" {
             "wide" "52"
             "tall" "13"     // 1/4 of wide
             "ypos" "13"     // same as tall
         }
-        "speedo_demo" {
+        "vspeedo_container" {
             "wide" "52"
-            "tall" "26"     // 1/2 of wide
+            "tall" "13"     // 1/4 of wide
+        }
+        "aspeedo_container" {
+            "wide" "52"
+            "tall" "13"     // 1/4 of wide
         }
     }
 }

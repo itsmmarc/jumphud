@@ -1,13 +1,13 @@
-"speedo_soldier.res" {
+"speedo_hspeedo_base.res" {
 	"speedos" {
-        "speedo_soldier" {
+        "hspeedo_container" {
             "controlName" "EditablePanel"
             "visible" "1"
             "enabled" "1"
             "xpos" "cs-0.5"
-            //"wide" "100"  // set by speedo size
-            //"tall" "25"   // set by speedo size
-            //"ypos" "0"    // set by speedo size
+            "wide" "100"  // set by speedo size
+            "tall" "25"   // set by speedo size
+            "ypos" "0"    // set by speedo size
             "proportionaltoparent"  "1"
             
             "hspeedo" {
@@ -15,7 +15,6 @@
                 "xpos" "0"
                 "wide" "f0"
                 "tall" "f0"
-                "image" "replay/thumbnails/speedo/hspeedo_soldier"
                 "proportionaltoparent"  "1"
             }
             "hspeedo_shadow" {
@@ -25,7 +24,6 @@
                 "zpos"  "-1"
                 "wide" "f0"
                 "tall" "f0"
-                "image" "replay/thumbnails/speedo/hspeedo_soldier"
                 "proportionaltoparent"  "1"
                 "drawcolor" "Main_Shadow_Transparent"
 

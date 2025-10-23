@@ -175,10 +175,10 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-						"Xhair_Icon"
+						"Speedo_Icon"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Icon"
+							"FieldName"					"Speedo_Icon"
 							"XPos"						"cs-0.5"
 							"YPos"						"0"
 							"ZPos"						"1"
@@ -216,10 +216,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"XHair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"XHair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -260,10 +260,10 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Xhair_Icon"
+						"Speedo_Icon"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Icon"
+							"FieldName"					"Speedo_Icon"
 							"XPos"						"cs-0.5"
 							"YPos"						"0"
 							"ZPos"						"1"
@@ -279,10 +279,10 @@
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
-						"Xhair_Disabled"
+						"Speedo_Disabled"
 						{
 							"ControlName"				"ImagePanel"
-							"FieldName"					"Xhair_Disabled"
+							"FieldName"					"Speedo_Disabled"
 							"XPos"						"cs-0.5"
 							"YPos"						"1"
 							"ZPos"						"3"
@@ -319,10 +319,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"Xhair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"Xhair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -418,10 +418,10 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-						"Xhair_Icon"
+						"Speedo_Icon"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Icon"
+							"FieldName"					"Speedo_Icon"
 							"XPos"						"cs-0.5"
 							"YPos"						"0"
 							"ZPos"						"1"
@@ -459,10 +459,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"XHair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"XHair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -503,10 +503,10 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Xhair_Icon"
+						"Speedo_Icon"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Icon"
+							"FieldName"					"Speedo_Icon"
 							"XPos"						"cs-0.5"
 							"YPos"						"0"
 							"ZPos"						"1"
@@ -544,10 +544,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"Xhair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"Xhair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -588,10 +588,10 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Xhair_Icon"
+						"Speedo_Icon"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Icon"
+							"FieldName"					"Speedo_Icon"
 							"XPos"						"cs-0.5"
 							"YPos"						"0"
 							"ZPos"						"1"
@@ -629,10 +629,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"Xhair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"Xhair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -1020,10 +1020,10 @@
 							"ProportionalToParent"		"1"
 							"Image"						"replay/thumbnails/customizations/crosshairs/hitmarker_pulse"
 						}
-						"XHair_Label"
+						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"XHair_Label"
+							"FieldName"					"Speedo_Label"
 							"XPos"						"0"
 							"YPos"						"rs1"
 							"ZPos"						"1"
@@ -1042,10 +1042,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"XHair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"XHair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -1054,7 +1054,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_hitmarker_visible"
+							"Command"					"engine jh_speedos_s_h_visible"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -1086,10 +1086,10 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Xhair_Icon"
+						"Speedo_Icon"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Icon"
+							"FieldName"					"Speedo_Icon"
 							"XPos"						"cs-0.5"
 							"YPos"						"0"
 							"ZPos"						"1"
@@ -1104,10 +1104,10 @@
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
-						"Xhair_Disabled"
+						"Speedo_Disabled"
 						{
 							"ControlName"				"ImagePanel"
-							"FieldName"					"Xhair_Disabled"
+							"FieldName"					"Speedo_Disabled"
 							"XPos"						"cs-0.5"
 							"YPos"						"1"
 							"ZPos"						"3"
@@ -1122,10 +1122,10 @@
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
 						}
-						"Xhair_Label"
+						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Label"
+							"FieldName"					"Speedo_Label"
 							"XPos"						"0"
 							"YPos"						"rs1"
 							"ZPos"						"1"
@@ -1144,10 +1144,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"Xhair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"Xhair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -1156,7 +1156,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_hitmarker_invisible"
+							"Command"					"engine jh_speedos_s_h_invisible"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -2123,10 +2123,10 @@
 							"ProportionalToParent"		"1"
 							"Image"						"replay/thumbnails/customizations/crosshairs/hitmarker_pulse"
 						}
-						"XHair_Label"
+						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"XHair_Label"
+							"FieldName"					"Speedo_Label"
 							"XPos"						"0"
 							"YPos"						"rs1"
 							"ZPos"						"1"
@@ -2145,10 +2145,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"XHair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"XHair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -2157,7 +2157,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_hitmarker_visible"
+							"Command"					"engine jh_speedos_s_v_visible"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -2189,10 +2189,10 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Xhair_Icon"
+						"Speedo_Icon"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Icon"
+							"FieldName"					"Speedo_Icon"
 							"XPos"						"cs-0.5"
 							"YPos"						"0"
 							"ZPos"						"1"
@@ -2207,10 +2207,10 @@
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
-						"Xhair_Disabled"
+						"Speedo_Disabled"
 						{
 							"ControlName"				"ImagePanel"
-							"FieldName"					"Xhair_Disabled"
+							"FieldName"					"Speedo_Disabled"
 							"XPos"						"cs-0.5"
 							"YPos"						"1"
 							"ZPos"						"3"
@@ -2225,10 +2225,10 @@
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
 						}
-						"Xhair_Label"
+						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Label"
+							"FieldName"					"Speedo_Label"
 							"XPos"						"0"
 							"YPos"						"rs1"
 							"ZPos"						"1"
@@ -2247,10 +2247,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"Xhair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"Xhair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -2259,7 +2259,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_hitmarker_invisible"
+							"Command"					"engine jh_speedos_s_v_invisible"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -3226,10 +3226,10 @@
 							"ProportionalToParent"		"1"
 							"Image"						"replay/thumbnails/customizations/crosshairs/hitmarker_pulse"
 						}
-						"XHair_Label"
+						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"XHair_Label"
+							"FieldName"					"Speedo_Label"
 							"XPos"						"0"
 							"YPos"						"rs1"
 							"ZPos"						"1"
@@ -3248,10 +3248,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"XHair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"XHair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -3260,7 +3260,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_hitmarker_visible"
+							"Command"					"engine jh_speedos_s_a_visible"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -3292,10 +3292,10 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Xhair_Icon"
+						"Speedo_Icon"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Icon"
+							"FieldName"					"Speedo_Icon"
 							"XPos"						"cs-0.5"
 							"YPos"						"0"
 							"ZPos"						"1"
@@ -3310,10 +3310,10 @@
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
-						"Xhair_Disabled"
+						"Speedo_Disabled"
 						{
 							"ControlName"				"ImagePanel"
-							"FieldName"					"Xhair_Disabled"
+							"FieldName"					"Speedo_Disabled"
 							"XPos"						"cs-0.5"
 							"YPos"						"1"
 							"ZPos"						"3"
@@ -3328,10 +3328,10 @@
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
 						}
-						"Xhair_Label"
+						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Xhair_Label"
+							"FieldName"					"Speedo_Label"
 							"XPos"						"0"
 							"YPos"						"rs1"
 							"ZPos"						"1"
@@ -3350,10 +3350,10 @@
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
-						"Xhair_Button"
+						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
-							"FieldName"					"Xhair_Button"
+							"FieldName"					"Speedo_Button"
 							"XPos"						"0"
 							"YPos"						"0"
 							"ZPos"						"5"
@@ -3362,7 +3362,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_hitmarker_invisible"
+							"Command"					"engine jh_speedos_s_a_invisible"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
