@@ -133,6 +133,18 @@
                     "antialias"									"1"
                 }
             }
+            "Menu_Small"
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"10" [$WINDOWS]
+                    "tall"										"8" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
             "TeamName"  // team names on scoreboard & win panels
             {
                 "1"
