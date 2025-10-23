@@ -228,7 +228,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_xhair_visible"
+							"Command"					"engine jh_speedos_s_preset_jumphud"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
