@@ -5,7 +5,6 @@
         "hspeedo_container" {
             "wide" "52"
             "tall" "13"     // 1/4 of wide
-            "ypos" "13"     // same as tall
         }
         "vspeedo_container" {
             "wide" "52"

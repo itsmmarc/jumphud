@@ -7,7 +7,7 @@
             "xpos" "cs-0.5"
             "wide" "100"  // set by speedo size
             "tall" "25"   // set by speedo size
-            "ypos" "0"    // set by speedo size
+            "ypos" "cs-0.5"    // set by speedo size
             "proportionaltoparent"  "1"
             
             "vspeedo" {
