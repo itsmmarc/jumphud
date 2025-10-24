@@ -1,58 +1,27 @@
-"speedo_demo.res" {
-	"speedos" {
-        "speedo_demo" {
-            "controlName" "EditablePanel"
-            "visible" "1"
-            "enabled" "1"
-            //"wide" "100"    // set by speedo size
-            //"tall" "50"     // set by speedo size
-            "xpos" "cs-0.5"
-            "ypos" "0"
-            "proportionaltoparent"  "1"
-            
-            "vspeedo" {
-                "controlName" "CTFImagePanel"
-                "xpos" "0"
-                "ypos" "rs1"
-                "wide" "f0"
-                "tall" "p0.5"
-                "image" "replay/thumbnails/speedo/vspeedo_demo"
-                "proportionaltoparent"  "1"
-            }
-            "vspeedo_shadow" {
-                "controlName" "CTFImagePanel"
-                "xpos" "-1"
-                "ypos"  "-1"
-                "zpos"  "-1"
-                "wide" "f0"
-                "tall" "p0.5"
-                "image" "replay/thumbnails/speedo/vspeedo_demo"
-                "proportionaltoparent"  "1"
-                "drawcolor" "Main_Shadow_Transparent"
-                
-                "pin_to_sibling"		"vspeedo"
-            }
-            "hspeedo" {
-                "controlName" "CTFImagePanel"
-                "xpos" "0"
-                "wide" "f0"
-                "tall" "p0.5"
-                "image" "replay/thumbnails/speedo/hspeedo_demo"
-                "proportionaltoparent"  "1"
-            }
-            "hspeedo_shadow" {
-                "controlName" "CTFImagePanel"
-                "xpos" "-1"
-                "ypos"  "-1"
-                "zpos"  "-1"
-                "wide" "f0"
-                "tall" "p0.5"
-                "image" "replay/thumbnails/speedo/hspeedo_demo"
-                "proportionaltoparent"  "1"
-                "drawcolor" "Main_Shadow_Transparent"
-                
-                "pin_to_sibling"		"hspeedo"
-            }
-        }
+// SPEEDO SIZE
+#base "../../../../../../../cfg/jumphud/jh_speedo_d_size.txt"
+
+// SPEEDO SHADOWS
+#base "../../../../../../../cfg/jumphud/jh_speedo_d_shadows.txt"
+
+// SPEEDO VISIBILITY
+#base "../../../../../../../cfg/jumphud/jh_speedos_d_h_visibility.txt"
+#base "../../../../../../../cfg/jumphud/jh_speedos_d_v_visibility.txt"
+#base "../../../../../../../cfg/jumphud/jh_speedos_d_a_visibility.txt"
+
+// SPEEDO COLORS
+#base "../../../../../../../cfg/jumphud/jh_color_speedos_d_h.txt"
+#base "../../../../../../../cfg/jumphud/jh_color_speedos_d_v.txt"
+#base "../../../../../../../cfg/jumphud/jh_color_speedos_d_a.txt"
+
+// BASE SPEEDOS
+#base "speedo_demo_hspeedo_base.res"
+#base "speedo_demo_vspeedo_base.res"
+#base "speedo_aspeedo_base.res"
+
+"speedo_base.res"{
+    "speedos"
+    {
+        "visible" "1"
     }
 }

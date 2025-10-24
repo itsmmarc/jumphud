@@ -18,3 +18,10 @@
 #base "speedo_soldier_hspeedo_base.res"
 #base "speedo_vspeedo_base.res"
 #base "speedo_soldier_aspeedo_base.res"
+
+"speedo_base.res"{
+    "speedos"
+    {
+        "visible" "1"
+    }
+}
