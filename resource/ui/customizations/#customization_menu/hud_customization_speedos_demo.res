@@ -433,7 +433,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Small"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -452,7 +452,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Small"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -539,7 +539,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Medium"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -558,7 +558,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Medium"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -645,7 +645,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -664,7 +664,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -806,7 +806,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -825,7 +825,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -912,7 +912,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -1106,7 +1106,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -1125,7 +1125,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -1212,7 +1212,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -1231,7 +1231,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -2274,7 +2274,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -2293,7 +2293,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -2380,7 +2380,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -2399,7 +2399,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -3442,7 +3442,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -3461,7 +3461,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
@@ -3548,7 +3548,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"White"
 						}
@@ -3567,7 +3567,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"1100"
+							"LabelText"					"900"
 							"TextAlignment"				"center"
 							"FGColor"					"Main_Shadow"
 
