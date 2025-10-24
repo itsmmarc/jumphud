@@ -6364,7 +6364,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
-							"Font"						"Crosshair_Size_30"
+							"Font"						"Crosshair_Showcase_NE"
 							"LabelText"					"I"
 							"TextAlignment"				"center"
 							"FGColor"					"White"

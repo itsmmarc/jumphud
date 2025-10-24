@@ -2,6 +2,43 @@
 {
 	"Fonts"
 	{
+        "Showcase_Speedo_Large"
+        {
+            "1"
+            {
+                "name"										"Coolvetica Italic"
+                "tall"										"32" [$WINDOWS]
+                "tall"										"26" [$LINUX]
+                "weight"									"400"
+                "additive"									"0"
+                "antialias"									"1"
+            }
+        }
+        "Showcase_Speedo_Medium"
+        {
+            "1"
+            {
+                "name"										"Coolvetica Italic"
+                "tall"										"20" [$WINDOWS]
+                "tall"										"16" [$LINUX]
+                "weight"									"400"
+                "additive"									"0"
+                "antialias"									"1"
+            }
+        }
+        "Showcase_Speedo_Small"
+        {
+        "1"
+            {
+                "name"										"Coolvetica Italic"
+                "tall"										"12" [$WINDOWS]
+                "tall"										"10" [$LINUX]
+                "weight"									"0"
+                "additive"									"0"
+                "antialias"									"1"
+                "dropshadow"								"0"
+            }
+        }
 		"Showcase_User_Font"
 		{
 			"1"
@@ -371,6 +408,15 @@
 			{
 				"name"										"TF2Crosshairs_m0re_V3"
 				"Tall"										"13"
+				"antialias"									"1"
+			}
+		}
+        "Crosshair_Showcase_NE"
+		{
+			"1"
+			{
+				"name"										"TF2Crosshairs_m0re_V3"
+				"Tall"										"30"
 				"antialias"									"1"
 			}
 		}
