@@ -6,6 +6,9 @@
             "aspeedo" {
                 "image" "replay/thumbnails/speedo/aspeedo_soldier"
             }
+            "aspeedo_shadow" {
+                "image" "replay/thumbnails/speedo/aspeedo_soldier"
+            }
         }
     }
 }
