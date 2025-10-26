@@ -483,15 +483,15 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "Contracker"
+        "Contracker"    // dead
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"Contracker"
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"150"
-            "Tall"										"17"
+            "Wide"										"0"
+            "Tall"										"0"
 
             "Pin_To_Sibling"							"Items"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
@@ -573,7 +573,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"Contracker"
+            "Pin_To_Sibling"							"Items"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -831,7 +831,7 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"Disconnect"
             "XPos"										"0"
-            "YPos"										"0"
+            "YPos"										"5"
             "ZPos"										"15"
             "Wide"										"150"
             "Tall"										"17"
