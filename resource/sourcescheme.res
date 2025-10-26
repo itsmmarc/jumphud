@@ -339,10 +339,10 @@
                 "yres"	    "600 767"
                 "antialias" "1"
 			}
-            "3"
+            "3" // affects 4k?
 			{
 				"name"		"NK57 Monospace Sc Rg"
-				"Tall"		"13"
+				"Tall"		"32"
 				"weight"	"0"
                 "yres"	    "768 1023"
 			}
