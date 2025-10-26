@@ -1,3 +1,5 @@
+#base "../../../../cfg/jumphud/jh_pipes_disable.txt"
+
 "Resource/UI/HudDemomanPipes_jump.res"
 {
     "PipesPresentPanel"
