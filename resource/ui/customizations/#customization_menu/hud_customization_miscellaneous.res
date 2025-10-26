@@ -176,7 +176,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/scoreboard/Scoreboard_Simple"
+							"Image"						"replay/thumbnails/customizations/scoreboard/scoreboard_simple"
 						}
 						"Scoreboard_Label"
 						{
@@ -249,16 +249,16 @@
 							"ControlName"				"ImagePanel"
 							"FieldName"					"Scoreboard_Image"
 							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.5-3"
+							"YPos"						"cs-0.5-6"
 							"ZPos"						"0"
-							"Wide"						"130"
-							"Tall"						"130"
+							"Wide"						"120"
+							"Tall"						"70"
 							"Visible"					"1"
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/scoreboard/Scoreboard_Detailed"
+							"Image"						"replay/thumbnails/customizations/scoreboard/scoreboard_detailed"
 						}
 						"Scoreboard_Label"
 						{
