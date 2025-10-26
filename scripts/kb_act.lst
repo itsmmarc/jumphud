@@ -11,6 +11,7 @@
 "blank"			"=========================="
 "sm_spray"      "Tempus Spray"
 "sm_restart"    "Restart Run"
+"sm_setstart"   "Set Start"
 "sm_hud"        "Tempus HUD (Toggle)"
 "sm_bcheck"     "Bounce Check"
 "sm_bcheck2"    "Bounce Check2"
