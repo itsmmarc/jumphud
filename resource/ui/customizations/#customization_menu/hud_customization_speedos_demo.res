@@ -71,6 +71,23 @@
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
+                "Jump_Warning"
+                {
+                    "ControlName"					"CExLabel"
+                    "FieldName"						"Jump_Warning"
+                    "XPos"							"172"
+                    "YPos"							"1"
+                    "ZPos"							"0"
+                    "Wide"							"20"
+                    "Tall"							"24"
+                    "Visible"						"1"
+                    "Enabled"						"1"
+                    "ProportionalToParent"			"1"
+                    "LabelText"						"l"
+                    "Font"							"Symbols24"
+                    "TextAlignment"					"center"
+                    "FGColor"						"Highlight_Color_Dark"
+                }
                 "SubTitle"
 				{
 					"ControlName"						"CExLabel"
