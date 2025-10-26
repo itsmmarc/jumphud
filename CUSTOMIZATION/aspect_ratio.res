@@ -7,6 +7,7 @@
 //  | Resolution| Value |
 //  |-----------|-------|
 //  | 16:9      |       |
+//  | 3840x2160 | -33   |
 //  | 2560x1440 | -36   |
 //  | 1920x1080 | -38   |
 //  | 1600x900  | -40   |
@@ -28,6 +29,6 @@
 
 "CUSTOMIZATION/aspect_ratio.res"{
 	"LoadoutCustomBackground"{
-		"YPos"										"-38" // EDIT ME
+		"YPos"										"-36" // EDIT ME
 	}
 }
