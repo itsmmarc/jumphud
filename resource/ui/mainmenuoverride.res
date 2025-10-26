@@ -6,6 +6,12 @@
 #base "../../../../cfg/jumphud/jh_mmoverride_casual.txt"
 #base "mainmenuoverride_jump.res"
 
+//==============================================================
+// FOLDER NAME MESSAGE
+//==============================================================
+#base "../../../../custom/jumphud/resource/ui/hud_folder_set.res"
+#base "hud_folder.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
     "ChatPin"
