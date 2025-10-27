@@ -2,8 +2,8 @@
 {
     "CHudAccountPanel"
 	{
-		"ypos"										"c105"
-        "ypos_minmode"                              "c105"
+		"ypos"										"c85"
+        "ypos_minmode"                              "c85"
 	}
     "HudWeaponAmmo"
 	{

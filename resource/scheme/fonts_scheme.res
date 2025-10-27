@@ -42,6 +42,18 @@
                     "antialias"									"1"
                 }
             }
+            "Ingame_MediumSmall"
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
             "Ingame_Small"   // Heads label, sentry kills, etc
             {
             "1"
