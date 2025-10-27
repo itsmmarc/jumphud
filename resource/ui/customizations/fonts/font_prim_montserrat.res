@@ -9,7 +9,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"32" [$WINDOWS]
                     "tall"										"26" [$LINUX]
                     "weight"									"400"
@@ -21,7 +21,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"20" [$WINDOWS]
                     "tall"										"16" [$LINUX]
                     "weight"									"400"
@@ -33,7 +33,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"16" [$WINDOWS]
                     "tall"										"13" [$LINUX]
                     "weight"									"400"
@@ -45,7 +45,7 @@
             {
             "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"8" [$WINDOWS]
                     "tall"										"7" [$LINUX]
                     "weight"									"0"
@@ -54,12 +54,11 @@
                     "dropshadow"								"0"
                 }
             }
-            // Steelfish is too condensed at this size and difficult to read
             "Ingame_Tiny"    // Item meter labels (inside item meter bar)
             {
             "1"
                 {
-                    "name"										"Coolvetica Italic"
+                    "name"										"Montserrat"
                     "tall"										"6" [$WINDOWS]
                     "tall"										"5" [$LINUX]
                     "weight"									"0"
@@ -72,7 +71,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"20" [$WINDOWS]
                     "tall"										"16" [$LINUX]
                     "weight"									"400"
@@ -84,7 +83,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"10" [$WINDOWS]
                     "tall"										"8" [$LINUX]
                     "weight"									"400"
@@ -96,7 +95,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"20" [$WINDOWS]
                     "tall"										"16" [$LINUX]
                     "weight"									"400"
@@ -108,7 +107,7 @@
             {
             "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"10" [$WINDOWS]
                     "tall"										"8" [$LINUX]
                     "weight"									"0"
@@ -121,7 +120,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"11" [$WINDOWS]
                     "tall"										"9" [$LINUX]
                     "weight"									"400"
@@ -135,7 +134,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"20" [$WINDOWS]
                     "tall"										"16" [$LINUX]
                     "weight"									"400"
@@ -151,7 +150,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "tall"										"18" [$WINDOWS]
                     "tall"										"15" [$LINUX]
                     "weight"									"300"
@@ -163,7 +162,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "Tall"										"8" [$WINDOWS]
                     "Tall"										"7" [$LINUX]
                     "weight"									"0"
@@ -174,7 +173,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "Tall"										"8" [$WINDOWS]
                     "Tall"										"7" [$LINUX]
                     "weight"									"0"
@@ -185,7 +184,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "Tall"										"8" [$WINDOWS]
                     "Tall"										"7" [$LINUX]
                     "weight"									"0"
@@ -196,7 +195,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Montserrat"
                     "Tall"										"7" [$WINDOWS]
                     "Tall"										"6" [$LINUX]
                     "weight"									"0"

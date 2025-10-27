@@ -103,6 +103,24 @@
 				"antialias"									"1"
 			}
 		}
+        "Showcase_Bahnschrift"
+		{
+			"1"
+			{
+				"name"										"Bahnschrift"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
+        "Showcase_Montserrat"
+		{
+			"1"
+			{
+				"name"										"Montserrat"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
 		"Showcase_TF2"
 		{
 			"1"
