@@ -13,6 +13,9 @@
 // tempus side panel bg
 #base "../../../cfg/jumphud/jh_tempusbg_panel.txt"
 
+// custom font alignment
+#base "../../../cfg/jumphud/jh_font_prim_align.txt"
+
 //=========================================================
 // JUMP/CASUAL
 //=========================================================
