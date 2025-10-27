@@ -1,6 +1,7 @@
 //=========================================================
 // COLORS SCHEME
 //=========================================================
+#base "../../../cfg/jumphud/jh_tempusbg_scheme.txt"
 #base "scheme/colors_scheme.res"
 #base "ui/customizations/colors/color_customization.res"
 

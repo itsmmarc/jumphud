@@ -524,7 +524,7 @@
 		"SelectionSelectedBoxBg"							"TransparentBlack"
 
 		"HintMessageFg"										"White"
-		"HintMessageBg"										"0 0 0 0"
+		"HintMessageBg"										"Blank"  // tempus center panel bg
 
 		"ProgressBarFg"										"Red"
 

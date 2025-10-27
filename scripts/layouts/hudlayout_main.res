@@ -665,7 +665,7 @@
 
 		"text_xpos"									"33"
 	}
-	"HudHintDisplay"
+	"HudHintDisplay"    // tempus center timer
 	{
 		"FieldName"									"HudHintDisplay"
 		"Visible"									"0"
@@ -680,7 +680,7 @@
 		"center_x"									"0"
 		"center_y"									"-1"
 	}
-	"HudHintKeyDisplay"
+	"HudHintKeyDisplay" // tempus side panel
 	{
 		"FieldName"									"HudHintKeyDisplay"
 		"Visible"									"0"
