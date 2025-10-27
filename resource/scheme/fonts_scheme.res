@@ -93,6 +93,17 @@
                     "dropshadow"								"0"
                 }
             }
+            "Time_Medium"
+            {
+                "1"
+                {
+                    "name"										"renogare_soft_regular"
+                    "tall"										"16" [$WINDOWS]
+                    "tall"										"13" [$LINUX]
+                    "antialias"									"1"
+                    "dropshadow"								"1"
+                }
+            }
             "Score_Small"   // arena player count
             {
                 "1"
