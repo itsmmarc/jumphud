@@ -2573,7 +2573,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/speedo_basic_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_demo_preview"
 						}
                         "Color_Image_Shadow"
 						{
@@ -2589,7 +2589,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/speedo_basic_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_demo_preview"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "Color_Image"
@@ -3741,7 +3741,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_demo_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/speedo_basic_preview"
 						}
                         "Color_Image_Shadow"
 						{
@@ -3757,7 +3757,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_demo_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/speedo_basic_preview"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "Color_Image"
