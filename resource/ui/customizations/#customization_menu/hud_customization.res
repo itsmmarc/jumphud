@@ -24,9 +24,14 @@
 #base "hud_customization_resolutions.res"
 
 //==============================================================
-// FONTS
+// PRIMARY FONTS
 //==============================================================
-#base "hud_customization_fonts.res"
+#base "hud_customization_fonts_primary.res"
+
+//==============================================================
+// SECONDARY FONTS
+//==============================================================
+#base "hud_customization_fonts_secondary.res"
 
 //==============================================================
 // MISCELLANEOUS

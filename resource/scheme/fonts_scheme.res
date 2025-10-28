@@ -197,7 +197,7 @@
             {
                 "1"
                 {
-                    "name"										"Steelfish ExtBd"
+                    "name"										"Steelfish"
                     "tall"										"16" [$WINDOWS]
                     "tall"										"13" [$LINUX]
                     "antialias"									"1"

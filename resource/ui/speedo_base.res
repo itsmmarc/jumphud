@@ -1,4 +1,3 @@
-// MOVE ALL SPEEDOS WITH THIS
 "speedo_base.res"{
     "speedos"
     {

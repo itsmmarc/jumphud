@@ -10,6 +10,7 @@
 //=========================================================
 #base "scheme/font_paths.res"
 #base "../../../cfg/jumphud/jh_font_primary.txt"
+#base "../../../cfg/jumphud/jh_font_secondary.txt"
 #base "scheme/fonts_scheme.res"
 #base "ui/customizations/#customization_menu/font_showcase.res"
 

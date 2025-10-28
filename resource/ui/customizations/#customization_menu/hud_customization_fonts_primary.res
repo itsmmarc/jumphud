@@ -1,13 +1,13 @@
-"Resource/UI/Customizations/#Customization_Menu/HUD_Customization_Fonts.res"
+"Resource/UI/Customizations/#Customization_Menu/HUD_Customization_Fonts_Primary.res"
 {
 	"SafeMode"
 	{
 		"Customizations_Panel"
 		{
-			"HUD_Font_Selection"
+			"HUD_Font_Primary_Selection"
 			{
 				"ControlName"							"CScrollableList"
-				"FieldName"								"HUD_Font_Selection"
+				"FieldName"								"HUD_Font_Primary_Selection"
 				"XPos"									"cs-0.5"
 				"YPos"									"cs-0.5"
 				"ZPos"									"0"
@@ -208,7 +208,7 @@
 							"ProportionalToParent"		"1"
 							"mouseinputenabled"			"0"
 							"AllCaps"					"1"
-							"LabelText"					"Coolvetica Italic"
+							"LabelText"					"Default - Coolvetica Italic"
 							"Font"						"HudFontSmall"
 							"TextAlignment"				"west"
 							"FGColor"					"White"

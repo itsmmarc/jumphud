@@ -341,10 +341,10 @@
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
-			"Fonts"
+			"Fonts_Primary"
 			{
 				"ControlName"							"CExButton"
-				"FieldName"								"Fonts"
+				"FieldName"								"Fonts_Primary"
 				"XPos"									"0"
 				"YPos"									"2"
 				"ZPos"									"20"
@@ -354,10 +354,10 @@
 				"Enabled"								"1"
 				"ProportionalToParent"					"1"
 				"AllCaps"								"1"
-				"LabelText"								"Fonts"
+				"LabelText"								"Primary Fonts"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
-				"Command"								"engine jh_custom_fonts; hud_reloadscheme"
+				"Command"								"engine jh_custom_fonts_primary; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -365,6 +365,33 @@
                 
 
 				"Pin_To_Sibling"						"Resolutions"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+            "Fonts_Secondary"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Fonts_Secondary"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Secondary Fonts"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine jh_custom_fonts_secondary; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
+				"Pin_To_Sibling"						"Fonts_Primary"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
@@ -391,7 +418,7 @@
                 "DefaultBGColor_Override"				"Background_Dark"
                 
 
-				"Pin_To_Sibling"						"Fonts"
+				"Pin_To_Sibling"						"Fonts_Secondary"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}

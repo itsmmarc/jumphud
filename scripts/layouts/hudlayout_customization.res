@@ -17,7 +17,8 @@
                 "HUD_Speedos_Demo_Selection"		{Visible 0}
                 "HUD_Crosshairs_Selection"			{Visible 0}
                 "HUD_Resolution_Selection"			{Visible 0}
-				"HUD_Font_Selection"				{Visible 0}
+				"HUD_Font_Primary_Selection"		{Visible 0}
+                "HUD_Font_Secondary_Selection"		{Visible 0}
 				"HUD_Miscellaneous_Selection"		{Visible 0}
 			}
 		}
