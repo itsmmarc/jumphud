@@ -253,8 +253,8 @@
 					{
 						"ControlName"					"EditablePanel"
 						"FieldName"						"Coolvetica_Italic"
-						"XPos"							"4"
-						"YPos"							"0"
+						"XPos"							"0"
+						"YPos"							"3"
 						"ZPos"							"0"
 						"Wide"							"f0"
 						"Tall"							"44"
@@ -350,8 +350,8 @@
 					{
 						"ControlName"					"EditablePanel"
 						"FieldName"						"Coolvetica_Rg_Bold"
-						"XPos"							"4"
-						"YPos"							"0"
+						"XPos"							"0"
+						"YPos"							"3"
 						"ZPos"							"0"
 						"Wide"							"f0"
 						"Tall"							"44"

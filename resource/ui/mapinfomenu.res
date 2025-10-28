@@ -38,7 +38,7 @@
 		"Tall"										"260"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"Font"										"m0refont11"
+		"Font"										"HudFontSmallest"
 		"TextAlignment"								"center"
 		"FGColor"									"White"
 		"PaintBackground"							"0"
@@ -57,7 +57,7 @@
 		"Enabled"									"1"
 		"LabelText"									"%mapname%"
 		"TextAlignment"								"center"
-		"Font"										"HudFontSmallishBold"
+		"Font"										"Menu_Small"
 		"FGColor"									"White"
 		"AllCaps"									"1"
 

@@ -101,7 +101,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"These settings take effect when pressing the 'Demo Speedos' button on the pause menu"
-					"Font"								"Menu_Small"
+					"Font"								"Menu_Tiny"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}

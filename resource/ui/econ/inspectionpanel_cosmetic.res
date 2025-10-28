@@ -184,7 +184,7 @@
 			"Enabled"								"1"
 			"Wrap"									"1"
 			"AllCaps"								"1"
-			"Font"									"HudFontSmallishBold"
+			"Font"									"Menu_Small"
 			"LabelText"								"%itemname%"
 			"TextAlignment"							"west"
 		}

@@ -115,7 +115,8 @@
 			"Font"									"Score_Medium"
 			"DisabledFGColor2_Override"				"White"
 			"LabelText"								"%kills%"
-			"TextAlignment"							"east"
+			"textAlignment"							"east"
+            "textInsetX"                            "2"
 
 			"Pin_To_Sibling"						"K/D"
 			"Pin_Corner_To_Sibling"					"PIN_TOPRIGHT"
@@ -135,7 +136,8 @@
 			"Font"									"Score_Medium"
 			"DisabledFGColor2_Override"				"Main_Shadow_Transparent"
 			"LabelText"								"%kills%"
-			"TextAlignment"							"east"
+			"textAlignment"							"east"
+            "textInsetX"                            "2"
 
 			"Pin_To_Sibling"						"Kills"
 		}
@@ -236,6 +238,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%assists%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"AssistsLabel"
@@ -307,6 +310,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%damage%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"DamageLabel"
@@ -379,6 +383,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%destruction%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"DestructionLabel"
@@ -451,6 +456,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%captures%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"CapturesLabel"
@@ -523,6 +529,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%defenses%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"DefensesLabel"
@@ -595,6 +602,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%dominations%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"DominationLabel"
@@ -667,6 +675,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%revenge%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"RevengeLabel"
@@ -739,6 +748,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%healing%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"HealingLabel"
@@ -811,6 +821,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%invulns%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"InvulnLabel"
@@ -883,6 +894,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%teleports%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"TeleportsLabel"
@@ -955,6 +967,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%support%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"SupportLabel"
@@ -1027,6 +1040,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%headshots%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"HeadshotsLabel"
@@ -1099,6 +1113,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%backstabs%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"BackstabsLabel"
@@ -1171,6 +1186,7 @@
 			"font"									"m0refont10"
 			"labelText"								"%bonus%"
 			"textAlignment"							"east"
+            "textInsetX"                            "2"
 			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"BonusLabel"

@@ -106,7 +106,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"If your resolution is not listed, use the one with the closest Y resolution"
-					"Font"								"Menu_Small"
+					"Font"								"Menu_Tiny"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -123,7 +123,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"(eg: if you use 3440x1440, use the button for 2560x1440)"
-					"Font"								"Menu_Small"
+					"Font"								"Menu_Tiny"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}

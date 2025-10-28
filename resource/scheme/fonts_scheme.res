@@ -54,6 +54,18 @@
                     "antialias"									"1"
                 }
             }
+            "Ingame_MediumTiny"
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "tall"										"12" [$WINDOWS]
+                    "tall"										"10" [$LINUX]
+                    "weight"									"400"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
             "Ingame_Small"   // Heads label, sentry kills, etc
             {
             "1"
@@ -97,7 +109,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"16" [$WINDOWS]
                     "tall"										"13" [$LINUX]
                     "antialias"									"1"
@@ -156,7 +168,19 @@
                     "antialias"									"1"
                 }
             }
-            "Menu_Small"
+            "Menu_Small"    // Main Menu Categories
+            {
+                "1"
+                {
+                    "name"										"Coolvetica Italic"
+                    "Tall"										"16" [$WINDOWS]
+                    "Tall"										"13" [$LINUX]
+                    "weight"									"500"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
+            "Menu_Tiny"
             {
                 "1"
                 {
@@ -182,7 +206,7 @@
             }            
             "KillFeed"
             {
-            "1"
+                "1"
                 {
                     "name"										"Coolvetica Italic"
                     "tall"										"10" [$WINDOWS]
@@ -240,7 +264,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"9" [$WINDOWS]
                     "tall"										"7" [$LINUX]
                     "antialias"									"1"
@@ -250,7 +274,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"10" [$WINDOWS]
                     "tall"										"8" [$LINUX]
                     "antialias"									"1"
@@ -260,7 +284,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"10" [$WINDOWS]
                     "tall"										"8" [$LINUX]
                     "antialias"									"1"
@@ -271,7 +295,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"11" [$WINDOWS]
                     "tall"										"9" [$LINUX]
                     "antialias"									"1"
@@ -281,7 +305,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"11" [$WINDOWS]
                     "tall"										"9" [$LINUX]
                     "antialias"									"1"
@@ -292,7 +316,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"12" [$WINDOWS]
                     "tall"										"10" [$LINUX]
                     "antialias"									"1"
@@ -302,7 +326,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"12" [$WINDOWS]
                     "tall"										"10" [$LINUX]
                     "antialias"									"1"
@@ -313,7 +337,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"14" [$WINDOWS]
                     "tall"										"11" [$LINUX]
                     "antialias"									"1"
@@ -323,7 +347,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"14" [$WINDOWS]
                     "tall"										"11" [$LINUX]
                     "antialias"									"1"
@@ -334,7 +358,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"16" [$WINDOWS]
                     "tall"										"13" [$LINUX]
                     "antialias"									"1"
@@ -344,7 +368,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"16" [$WINDOWS]
                     "tall"										"13" [$LINUX]
                     "antialias"									"1"
@@ -355,7 +379,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"18" [$WINDOWS]
                     "tall"										"15" [$LINUX]
                     "antialias"									"1"
@@ -365,7 +389,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"18" [$WINDOWS]
                     "tall"										"15" [$LINUX]
                     "antialias"									"1"
@@ -376,7 +400,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"18" [$WINDOWS]
                     "tall"										"15" [$LINUX]
                     "antialias"									"1"
@@ -387,7 +411,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"18" [$WINDOWS]
                     "tall"										"15" [$LINUX]
                     "antialias"									"1"
@@ -398,7 +422,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"20" [$WINDOWS]
                     "tall"										"16" [$LINUX]
                     "antialias"									"1"
@@ -408,7 +432,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"24" [$WINDOWS]
                     "tall"										"19" [$LINUX]
                     "antialias"									"1"
@@ -418,7 +442,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"24" [$WINDOWS]
                     "tall"										"19" [$LINUX]
                     "antialias"									"1"
@@ -429,7 +453,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"26" [$WINDOWS]
                     "tall"										"21" [$LINUX]
                     "antialias"									"1"
@@ -439,7 +463,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"30" [$WINDOWS]
                     "tall"										"24" [$LINUX]
                     "antialias"									"1"
@@ -449,7 +473,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"32" [$WINDOWS]
                     "tall"										"26" [$LINUX]
                     "antialias"									"1"
@@ -459,7 +483,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"36" [$WINDOWS]
                     "tall"										"29" [$LINUX]
                     "antialias"									"1"
@@ -469,7 +493,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"48" [$WINDOWS]
                     "tall"										"39" [$LINUX]
                     "antialias"									"1"
@@ -479,7 +503,7 @@
             {
                 "1"
                 {
-                    "name"										"renogare_soft_regular"
+                    "name"										"Coolvetica Italic"
                     "tall"										"58" [$WINDOWS]
                     "tall"										"47" [$LINUX]
                     "antialias"									"1"
@@ -2495,7 +2519,7 @@
             {
                 "1"
                 {
-                    "name"										"coolvetica_rg_bold"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"8"
                     "weight"									"500"
                     "additive"									"0"
@@ -2506,7 +2530,7 @@
             {
                 "1"
                 {
-                    "name"										"coolvetica_rg_bold"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"9"
                     "weight"									"500"
                     "additive"									"0"
@@ -2517,7 +2541,7 @@
             {
                 "1"
                 {
-                    "name"										"coolvetica_rg_bold"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"12"
                     "weight"									"500"
                     "additive"									"0"
@@ -2528,7 +2552,7 @@
             {
                 "1"
                 {
-                    "name"										"coolvetica_rg_bold"
+                    "name"										"Coolvetica Italic"
                     "Tall"										"18"
                     "weight"									"500"
                     "additive"									"0"
