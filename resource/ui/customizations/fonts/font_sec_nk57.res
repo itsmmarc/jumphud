@@ -2,17 +2,6 @@
 {
 	"Fonts"
 	{
-        "DisguiseStatus_Data"
-        {
-            "1"
-            {
-                "name"										"NK57 Monospace Sc Rg"
-                "tall"										"16" [$WINDOWS]
-                "tall"										"13" [$LINUX]
-                "antialias"									"1"
-                "dropshadow"								"1"
-            }
-        }
         "ScoreboardMedium"
         {
             "1"
@@ -66,6 +55,17 @@
                 "name"										"NK57 Monospace Sc Rg"
                 "tall"										"16" [$WINDOWS]
                 "tall"										"13" [$LINUX]
+                "antialias"									"1"
+                "dropshadow"								"1"
+            }
+        }
+        "TargetID_Data_Small" // centered disguise weapon name
+        {
+            "1"
+            {
+                "name"										"NK57 Monospace Sc Rg"
+                "tall"										"13" [$WINDOWS]
+                "tall"										"10" [$LINUX]
                 "antialias"									"1"
                 "dropshadow"								"1"
             }

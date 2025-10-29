@@ -185,6 +185,14 @@
 
             "pin_to_sibling"							"PlayerStatusHealthValueID"
         }
+        "HealthValue_Target"							// Proportional positioning doesn't work :(
+        {
+            "Visible"									"0"
+        }
+        "HealthValue_Target_Shadow"
+        {
+            "Visible"									"0"
+        }
 	}
 	
 	"AmmoIcon"

@@ -217,17 +217,6 @@
                     "dropshadow"								"0"
                 }
             }
-            "DisguiseStatus_Data"
-            {
-                "1"
-                {
-                    "name"										"Steelfish"
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
-                    "antialias"									"1"
-                    "dropshadow"								"1"
-                }
-            }
             "QuestName"  // Contract quest name ingame
             {
                 "1"
@@ -2060,13 +2049,24 @@
                     //"dropshadow"								"1"
                 }
             }
-            "TargetID_Data" // casual targetid date
+            "TargetID_Data" // casual targetid data
             {
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
                     "tall"										"16" [$WINDOWS]
                     "tall"										"13" [$LINUX]
+                    "antialias"									"1"
+                    "dropshadow"								"1"
+                }
+            }
+            "TargetID_Data_Small" // centered disguise weapon name
+            {
+                "1"
+                {
+                    "name"										"Steelfish"
+                    "tall"										"13" [$WINDOWS]
+                    "tall"										"10" [$LINUX]
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }

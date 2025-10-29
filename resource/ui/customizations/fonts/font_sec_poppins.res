@@ -2,18 +2,6 @@
 {
 	"Fonts"
 	{
-        "DisguiseStatus_Data"
-        {
-            "1"
-            {
-                "name"		"Poppins Black Italic" [$WINDOWS]
-                "name"		"Poppins" [$LINUX]
-                "tall"										"22" [$WINDOWS]
-                "tall"										"18" [$LINUX]
-                "antialias"									"1"
-                "dropshadow"								"1"
-            }
-        }
         "ScoreboardMedium"
         {
             "1"
@@ -72,6 +60,18 @@
                 "name"		"Poppins" [$LINUX]
                 "tall"										"22" [$WINDOWS]
                 "tall"										"18" [$LINUX]
+                "antialias"									"1"
+                "dropshadow"								"1"
+            }
+        }
+        "TargetID_Data_Small" // centered disguise weapon name
+        {
+            "1"
+            {
+                "name"		"Poppins Black Italic" [$WINDOWS]
+                "name"		"Poppins" [$LINUX]
+                "tall"										"17" [$WINDOWS]
+                "tall"										"13" [$LINUX]
                 "antialias"									"1"
                 "dropshadow"								"1"
             }

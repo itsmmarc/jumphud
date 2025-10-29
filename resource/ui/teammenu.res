@@ -356,7 +356,7 @@
 		"XPos"										"0"
 		"YPos"										"-50"
 		"ZPos"										"1"
-		"Wide"										"130"
+		"Wide"										"200"
 		"Tall"										"50"
 		//"Visible"									"1"
 		//"Enabled"									"1"
