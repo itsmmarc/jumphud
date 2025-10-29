@@ -1,3 +1,6 @@
+// tempus side panel bg
+#base "../../../cfg/jumphud/jh_tempusbg_panel.txt"
+
 "Scripts/layouts/HudLayout_jump.res"
 {
     "CHudAccountPanel"

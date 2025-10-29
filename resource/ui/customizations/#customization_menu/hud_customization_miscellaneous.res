@@ -1428,10 +1428,10 @@
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
-                "TF_Warning"
+                "Jump_Warning"
                 {
                     "ControlName"					"CExLabel"
-                    "FieldName"						"TF_Warning"
+                    "FieldName"						"Jump_Warning"
                     "XPos"							"96"
                     "YPos"							"145+132+3"
                     "ZPos"							"0"
@@ -2055,11 +2055,28 @@
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
+                "Jump_Warning2"
+                {
+                    "ControlName"					"CExLabel"
+                    "FieldName"						"Jump_Warning2"
+                    "XPos"							"179"
+                    "YPos"							"145+132+110+2"
+                    "ZPos"							"0"
+                    "Wide"							"20"
+                    "Tall"							"24"
+                    "Visible"						"1"
+                    "Enabled"						"1"
+                    "ProportionalToParent"			"1"
+                    "LabelText"						"l"
+                    "Font"							"Symbols24"
+                    "TextAlignment"					"center"
+                    "FGColor"						"Highlight_Color_Dark"
+                }
                 "Restart_Warning"
                 {
                     "ControlName"					"CExLabel"
                     "FieldName"						"Restart_Warning"
-                    "XPos"							"179"
+                    "XPos"							"179+24"
                     "YPos"							"145+132+110+1"
                     "ZPos"							"0"
                     "Wide"							"20"

@@ -1,5 +1,10 @@
 "Scripts/layouts/HudLayout_jump.res"
-{
+{   
+    "TransparentBackground"
+    {
+        "Visible"									"0"
+        "Enabled"									"0"
+    }
     "CHudAccountPanel"
 	{
 		"ypos"										"c80"
