@@ -79,6 +79,14 @@
                 "Enabled"								"1"
             }
         }
+        "Luxels"
+        {
+            "SubButton"
+            {
+                "Visible"								"1"
+                "Enabled"								"1"
+            }
+        }
         "ShowTriggers"
         {
             "SubButton"
