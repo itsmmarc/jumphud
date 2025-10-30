@@ -908,7 +908,7 @@
 		"fieldName"									"HudDemomanPipes"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-1"
+		"xpos"										"-4"
 		"ypos"										"50"
 		"wide"										"f0"
 		"tall"										"f0"
