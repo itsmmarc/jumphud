@@ -292,7 +292,7 @@
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"Default"
 			"fgcolor_override"			"white"
-			"xpos"			"-5"
+			"xpos"			"2"
 			"ypos"			"13"
 			"zpos"			"1"
 			"wide"			"0"
