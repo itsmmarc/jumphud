@@ -162,11 +162,11 @@
 		"tooltip"									"Toggle Map Text Pop-Ups"
 		"OnlyInGame"								"1"
     }
-    "FullBright"
+    "Luxels"
 	{
-		"label"										"?"
-		"Command"									"engine toggle mat_fullbright"
-		"tooltip"									"Toggle Full Bright"
+		"label"										"@"
+		"Command"									"engine toggle mat_luxels"
+		"tooltip"									"Toggle Luxels"
 		"OnlyInGame"								"1"
 	}
     "ShowTriggers"
@@ -209,6 +209,13 @@
 		"label"										"7"
 		"Command"									"engine toggle_tempus_aspeedo"
 		"tooltip"									"Toggle Absolute Speedo"
+		"OnlyInGame"								"1"
+	}
+    "FullBright"
+	{
+		"label"										"?"
+		"Command"									"engine toggle mat_fullbright"
+		"tooltip"									"Toggle Full Bright"
 		"OnlyInGame"								"1"
 	}
     "ToggleMinmode"

@@ -1290,8 +1290,6 @@
             }
         }
         
-
-
         "TempusHud"
         {
             "ControlName"								"EditablePanel"
@@ -1533,10 +1531,10 @@
             }
         }
         
-        "FullBright"
+        "Luxels"
         {
             "ControlName"								"EditablePanel"
-            "FieldName"									"FullBright"
+            "FieldName"									"Luxels"
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
@@ -1585,7 +1583,7 @@
             "Tall"										"20"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"FullBright"
+            "Pin_To_Sibling"							"Luxels"
             "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
 
@@ -1657,20 +1655,60 @@
             }
         }
 
-        // HUD BUTTONS
+        "FullBright"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"FullBright"
+            "XPos"										"0"
+            "YPos"										"5"
+            "ZPos"										"15"
+            "Wide"										"20"
+            "Tall"										"20"
+            "Visible"									"1"
+
+            "Pin_To_Sibling"							"ASpeedo"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                "Wide"									"f0"
+                "Tall"									"f0"
+                //"Visible"								"1"
+                //"Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+                
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
+            }
+        }
 
         "ToggleMinmode"
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"ToggleMinmode"
             "XPos"										"0"
-            "YPos"										"15"
+            "YPos"										"5"
             "ZPos"										"15"
             "Wide"										"28"
             "Tall"										"28"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"ASpeedo"
+            "Pin_To_Sibling"							"FullBright"
             "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
             "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
 
