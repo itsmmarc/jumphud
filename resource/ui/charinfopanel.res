@@ -1,7 +1,7 @@
 #base "../dev/reload_scheme.res"
 
-#base "inventorybackground_base_charinfo_override.res"
-#base "inventorybackground_base.res"
+#base "inventorybackground_charinfo_override.res"
+#base "inventorybackground.res"
 
 "Resource/UI/CharInfoPanel.res"
 {

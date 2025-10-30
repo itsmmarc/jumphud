@@ -1,14 +1,11 @@
-//#base "../../CUSTOMIZATION/aspect_ratio.res"
-#base "../../../../cfg/jumphud/jh_resolution.txt"
-
-"Resource/customization/inventorybackground_base.res"
+"Resource/customization/inventorybackground.res"
 {
 	"LoadoutCustomBackground"
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"LoadoutCustomBackground"
 		"XPos"										"cs-0.5"
-		//"YPos"										"-34"
+		"YPos"										"-38"   // default = 1080p
 		"ZPos"										"-3"
 		"Wide"										"1150"
 		"Tall"										"647"
