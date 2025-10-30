@@ -1733,6 +1733,7 @@
                 "ProportionalToParent"					"1"
                 "MouseInputEnabled"						"0"
                 "Font"									"Menu_Small"
+                "textinsetx" "4"
                 "LabelText"								"%noticount%"
                 "TextAlignment"							"east"
                 "FGColor"								"255 200 0 255"
