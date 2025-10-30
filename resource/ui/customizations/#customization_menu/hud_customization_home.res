@@ -277,12 +277,38 @@
 					"Pin_Corner_To_Sibling"				"PIN_TOPLEFT"
 					"Pin_To_Sibling_Corner"				"PIN_TOPRIGHT"
 				}
+                "Discord_Link"
+				{
+					"ControlName"						"CExButton"
+					"FieldName"							"Discord_Link"
+					"XPos"								"3"
+					"YPos"								"-3"
+					"ZPos"								"20"
+					"Wide"								"20"
+					"Tall"								"15"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+					"LabelText"							"c"
+					"Font"								"HypnotizeIcons18"
+					"TextAlignment"						"center"
+					"Command"							"url https://discord.gg/s6yJMGecMZ"
+					"PaintBackground"					"0"
+
+					"DefaultFGColor_Override"			"114 137 218 255"
+					"ArmedFGColor_Override"				"59 72 114 255"
+					"DepressedFGColor_Override"			"114 137 218 255"
+
+					"Pin_To_Sibling"					"GitHub_Link"
+					"Pin_Corner_To_Sibling"				"PIN_TOPLEFT"
+					"Pin_To_Sibling_Corner"				"PIN_TOPRIGHT"
+				}
                 "GameBanana_Link"
 				{
 					"ControlName"						"CExButton"
 					"FieldName"							"GameBanana_Link"
 					"XPos"								"3"
-					"YPos"								"-3"
+					"YPos"								"0"
 					"ZPos"								"20"
 					"Wide"								"20"
 					"Tall"								"15"
@@ -299,7 +325,7 @@
 					"ArmedFGColor_Override"				"160 125 0 255"
 					"DepressedFGColor_Override"			"255 200 0 255"
 
-					"Pin_To_Sibling"					"GitHub_Link"
+					"Pin_To_Sibling"					"Discord_Link"
 					"Pin_Corner_To_Sibling"				"PIN_TOPLEFT"
 					"Pin_To_Sibling_Corner"				"PIN_TOPRIGHT"
 				}

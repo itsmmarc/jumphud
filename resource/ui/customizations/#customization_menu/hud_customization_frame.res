@@ -99,10 +99,10 @@
 			"Visible"									"1"
 			"Enabled"									"1"
 			"ProportionalToParent"						"1"
-			"LabelText"									"HUD WIKI"
+			"LabelText"									"GITHUB"
 			"Font"										"FontStorePrice"
 			"TextAlignment"								"center"
-			"Command"									"url https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
+			"Command"									"url https://github.com/itsmmarc/jumphud"
 			"PaintBackground"							"1"
 
 			"DefaultBGColor_Override"					"Button_Dark"
