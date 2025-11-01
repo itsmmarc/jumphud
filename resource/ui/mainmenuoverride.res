@@ -14,6 +14,11 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
+    "DashboardDimmer"
+	{
+		"wide" "9999"
+		"tall" "9999"
+	}
     "ChatPin"
     {
         "ControlName"    "Panel"
