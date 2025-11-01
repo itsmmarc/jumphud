@@ -3,24 +3,6 @@
 
 "Resource/UI/ClassLoadoutPanel.res"
 {
-    "TransparentBackground"   // transparent background for loadout page
-	{
-		"ControlName"								"EditablePanel"
-		"FieldName"									"TransparentBackground"
-		"XPos"										"0"
-		"YPos"										"0"
-        "ZPos"                                      "-1"
-		"Wide"										"f0"
-		"Tall"										"640"
-        "ProportionalToParent"						"1"
-		"Visible"									"1"
-		"Enabled"									"1"
-        "PaintBackground"							"1"
-		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"TransparentBlack"
-		"InFocus_BGColor_Override"					"TransparentBlack"
-		"OutOfFocus_BGColor_Override"				"TransparentBlack"
-	}
 	"Class_Loadout_Panel"
 	{
 		"ControlName"								"Frame"

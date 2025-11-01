@@ -33,24 +33,6 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"18"
 	}
-    "TransparentBackground"   // transparent background for items page
-	{
-		"ControlName"								"EditablePanel"
-		"FieldName"									"TransparentBackground"
-		"XPos"										"0"
-		"YPos"										"0"
-        "ZPos"                                      "-1"
-		"Wide"										"f0"
-		"Tall"										"f0"
-        "ProportionalToParent"						"1"
-		"Visible"									"1"
-		"Enabled"									"1"
-        "PaintBackground"							"1"
-		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"TransparentBlack"
-		"InFocus_BGColor_Override"					"TransparentBlack"
-		"OutOfFocus_BGColor_Override"				"TransparentBlack"
-	}
 	"HeaderBG"
 	{
 		"ControlName"								"EditablePanel"
