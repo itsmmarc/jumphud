@@ -62,6 +62,11 @@ Scheme
 			"Font"		"resource/scheme/fonts/optional/Montserrat.ttf"
 			"name"		"Montserrat"
 		}
+        "22"
+		{
+			"Font"		"resource/scheme/fonts/optional/EternalUiRegular.ttf"
+			"name"		"Eternal UI Regular"
+		}
         //icon fonts
         "101"
 		{
