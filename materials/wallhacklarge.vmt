@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "sprays/wallhacklarge"
+	"$basetexture" "wallhacklarge"
 	"$translucent" 1
 	"$ignorez" 1
 }

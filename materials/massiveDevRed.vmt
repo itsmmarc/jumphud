@@ -1,9 +1,10 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "sprays/massiveWoodL"
+	"$basetexture" "massiveDevRed"
 	"$decal" 1
 	"$translucent" 1
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
  	"%keywords" "tf"
+	"$decalscale" 0.5
 }
