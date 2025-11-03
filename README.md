@@ -26,7 +26,7 @@ Swap the HUD into Casual Mode by clicking the logo on the main menu.
 
 - Draw Viewmodel (Toggle)
 
-- Tempus Spray
+- Custom Tempus Sprays
 
 - Restart Run
 
@@ -54,15 +54,11 @@ Swap the HUD into Casual Mode by clicking the logo on the main menu.
 
 ## Customization
 
+Starting with v2.3.0 the HUD now includes an ingame customization menu to modify speedos, fonts, hud crosshair, and several other features.
+
 Use `cl_hud_minmode 1` or the button on the pause menu to hide the health value and center the ammo count in Jump Mode.
 
 Toggle Custom HUD Speedos, Tempus HUD, Tempus Speedos, etc, using the buttons on the pause menu.
-
-Change the HUD speedo size by editing `CUSTOMIZATION/speedo_size.res`
-
-Adjust the item menu background to your resolution by editing `CUSTOMIZATION/aspect_ratio.res`.
-
-Edit and enable a custom HUD crosshair by editing `CUSTOMIZATION/crosshair.res`.
 
 Change the tempus speedo colour by editing `cfg/speedocolor.cfg`.
 
@@ -86,9 +82,9 @@ Inventory menu background may not load on some `sv_pure` protected servers.
 
 Click on the JumpHUD logo icon to switch the hud into casual mode, you can switch back by clicking on the TF2 logo.
 
-## Recommended Addons
+***
 
-Elandi's custom Tempus sprays https://github.com/Elandi-rj/sprays
+Includes Elandi's custom Tempus sprays https://github.com/Elandi-rj/sprays
 
 ***
 
