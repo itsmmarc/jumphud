@@ -1,11 +1,24 @@
 #base "../dev/texture_preload.res"
 #base "../dev/reload_menu.res"
 
+#base "customizations/#customization_menu/hud_customization.res"
+
 #base "../../../../cfg/jumphud/jh_mmoverride_casual.txt"
 #base "mainmenuoverride_jump.res"
 
+//==============================================================
+// FOLDER NAME MESSAGE
+//==============================================================
+#base "../../../../custom/jumphud/resource/ui/hud_folder_set.res"
+#base "hud_folder.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
+    "DashboardDimmer"
+	{
+		"wide" "9999"
+		"tall" "9999"
+	}
     "ChatPin"
     {
         "ControlName"    "Panel"
@@ -55,7 +68,7 @@
 				"Tall"								"17"
 				"Visible"							"1"
 				"Enabled"							"1"
-				"Font"								"HudFontSmallishBold"
+				"Font"								"Menu_Small"
 				"AllCaps"							"1"
 				"TextAlignment"						"west"
 				"Sound_Depressed"					"UI/buttonclick.wav"
@@ -204,7 +217,7 @@
             "MouseInputEnabled"							"0"
             "AllCaps"									"1"
 
-            "Font"										"HudFontSmallishBold"
+            "Font"										"Menu_Small"
             "FGColor"									"Red"
             "LabelText"									"No Connection To Steam"
             "TextAlignment"								"west"
@@ -291,6 +304,7 @@
             "Image_ArmedColor"  "98 219 220 255"
             "Image_SelectColor" "98 219 220 255"
             "command"           "engine jh_casual_on; fullhudreload;"
+            "Sound_Depressed"						"UI/buttonclick.wav"
 
             "stayselectedonclick"						"0"
             "selectonhover"								"1"
@@ -381,7 +395,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -461,7 +475,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -474,15 +488,15 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "Contracker"
+        "Contracker"    // dead
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"Contracker"
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"150"
-            "Tall"										"17"
+            "Wide"										"0"
+            "Tall"										"0"
 
             "Pin_To_Sibling"							"Items"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
@@ -501,7 +515,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -541,7 +555,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -564,7 +578,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"Contracker"
+            "Pin_To_Sibling"							"Items"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -581,7 +595,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -621,7 +635,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -634,11 +648,11 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "HUDOptions" // disabled
+        "HUDSettings"
         {
             "ControlName"								"EditablePanel"
-            "FieldName"									"HUDOptions"
-            "XPos"										"99999"
+            "FieldName"									"HUDSettings"
+            "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
             "Wide"										"150"
@@ -661,7 +675,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -684,7 +698,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"HUDOptions"
+            "Pin_To_Sibling"							"HUDSettings"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -701,7 +715,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -741,7 +755,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -764,7 +778,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"Advanced"
+            "Pin_To_Sibling"							"HUDSettings"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -781,7 +795,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -822,13 +836,13 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"Disconnect"
             "XPos"										"0"
-            "YPos"										"0"
+            "YPos"										"5"
             "ZPos"										"15"
             "Wide"										"150"
             "Tall"										"17"
             "Visible"									"0"
 
-            "Pin_To_Sibling"							"Advanced"
+            "Pin_To_Sibling"							"HUDSettings"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -845,7 +859,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -886,7 +900,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"
                 "Sound_Depressed"						"UI/buttonclick.wav"
@@ -1198,47 +1212,6 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "AbsoluteSpeedo"
-        {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"AbsoluteSpeedo"
-            "XPos"										"0"
-            "YPos"										"22"
-            "ZPos"										"15"
-            "Wide"										"19"
-            "Tall"										"18"
-            "Visible"									"1"
-
-            "Pin_To_Sibling"							"SpeedosOff"
-            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-            "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
-
-            "SubButton"
-            {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                "Wide"									"f0"
-                "Tall"									"f0"
-                //"Visible"								"1"
-                //"Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"Symbols18"
-                "TextAlignment"							"center"
-                "Sound_Depressed"						"UI/buttonclick.wav"
-                
-
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
-
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
-            }
-        }
         "SpeedosOff"
         {
             "ControlName"								"EditablePanel"
@@ -1322,8 +1295,6 @@
             }
         }
         
-
-
         "TempusHud"
         {
             "ControlName"								"EditablePanel"
@@ -1565,10 +1536,10 @@
             }
         }
         
-        "FullBright"
+        "Luxels"
         {
             "ControlName"								"EditablePanel"
-            "FieldName"									"FullBright"
+            "FieldName"									"Luxels"
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
@@ -1617,7 +1588,7 @@
             "Tall"										"20"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"FullBright"
+            "Pin_To_Sibling"							"Luxels"
             "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
 
@@ -1689,20 +1660,60 @@
             }
         }
 
-        // HUD BUTTONS
+        "FullBright"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"FullBright"
+            "XPos"										"0"
+            "YPos"										"5"
+            "ZPos"										"15"
+            "Wide"										"20"
+            "Tall"										"20"
+            "Visible"									"1"
+
+            "Pin_To_Sibling"							"ASpeedo"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                "Wide"									"f0"
+                "Tall"									"f0"
+                //"Visible"								"1"
+                //"Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+                
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
+            }
+        }
 
         "ToggleMinmode"
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"ToggleMinmode"
             "XPos"										"0"
-            "YPos"										"15"
+            "YPos"										"5"
             "ZPos"										"15"
             "Wide"										"28"
             "Tall"										"28"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"ASpeedo"
+            "Pin_To_Sibling"							"FullBright"
             "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
             "Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
 
@@ -1764,7 +1775,8 @@
                 "Enabled"								"1"
                 "ProportionalToParent"					"1"
                 "MouseInputEnabled"						"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
+                "textinsetx" "4"
                 "LabelText"								"%noticount%"
                 "TextAlignment"							"east"
                 "FGColor"								"255 200 0 255"
@@ -1783,7 +1795,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"HudFontSmallishBold"
+                "Font"									"Menu_Small"
                 "LabelText"								"Notification"
                 "AllCaps"								"1"
                 "TextAlignment"							"west"

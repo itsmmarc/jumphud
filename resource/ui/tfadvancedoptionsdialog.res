@@ -13,12 +13,29 @@
 		"settitlebarvisible"						""
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"BGcolor_Override"							"Background_Dark"
+		"BGcolor_Override"							"blank"
 
 		"control_w"									"500"
 		"control_h"									"25"
 		"slider_w"									"500"
 		"slider_h"									"30"
+
+        "Background"    // background excluding header
+        {
+        "ControlName"									"Panel"
+		"FieldName"										"Background"
+		"XPos"											"0"
+		"YPos"											"22"
+		"Wide"											"f0"
+		"Tall"											"f0-22"
+		"ZPos"											"-2"
+		"Visible"										"1"
+		"Enabled"										"1"
+		"ProportionalToParent"							"1"
+		"PaintBackground"								"1"
+		"PaintBackgroundType"							"0"
+		"BGcolor_Override"								"IsItTransparentBlack"
+        }
 	}
 	"TitleLabel"
 	{
@@ -41,7 +58,7 @@
 		"FGColor"									"White"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"BGcolor_Override"							"Background_Bright"
+		"BGcolor_Override"							"TransparentBlack"
 	}
 	"PanelListPanel"
 	{

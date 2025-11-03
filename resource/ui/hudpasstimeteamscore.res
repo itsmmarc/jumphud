@@ -26,7 +26,7 @@
 		"TextAlignment"								"east"
 		"LabelText"									"%bluescore%"
 		"Font"										"Score_Medium"
-		"FGColor"									"HUDBlueTeamSolid"
+		"FGColor"									"Blue"
 	}
 	"BlueScoreShadow"
 	{
@@ -60,7 +60,7 @@
 		"TextAlignment"								"west"
 		"LabelText"									"%redscore%"
 		"Font"										"Score_Medium"
-		"FGColor"									"HUDRedTeamSolid"
+		"FGColor"									"Red"
 	}
 	"RedScoreShadow"
 	{

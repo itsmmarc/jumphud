@@ -150,14 +150,14 @@
 			"ProportionalToParent"					"1"
 			"TextAlignment"							"center"
 			"LabelText"								"0:00"
-			"Font"									"m0refont16Shadow"
+			"Font"									"Time_Medium"
 			"FGColor"								"White"
 
 			//"if_match"
 			//{
 			//	"YPos"								"0"
 			//	"Tall"								"15"
-			//	"Font"								"m0refont16Shadow"
+			//	"Font"								"Time_Medium"
 			//}
 		}
 	}

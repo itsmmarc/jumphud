@@ -38,7 +38,7 @@
 		"Tall"										"260"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"Font"										"m0refont11"
+		"Font"										"HudFontSmallest"
 		"TextAlignment"								"west"
 		"FGColor"									"White"
 		"ProportionalToParent"						"1"
@@ -74,7 +74,7 @@
 		"LabelText"									"#TF_WELCOME"
 		"TextAlignment"								"center"
 		"AllCaps"									"1"
-		"Font"										"HudFontSmallishBold"
+		"Font"										"Menu_Small"
 		"FGColor"									"White"
 
 		"Pin_To_Sibling"							"TFTextMessage"

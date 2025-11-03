@@ -82,7 +82,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"m0refont12Shadow"
+		"font"			"Ingame_MediumTiny"
 	}
     "OvertimeLabel"
 	{
@@ -100,7 +100,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"m0refont12Shadow"
+		"font"			"Ingame_MediumTiny"
 	}
     "SuddenDeathLabel"
 	{
@@ -118,7 +118,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"m0refont12Shadow"
+		"font"			"Ingame_MediumTiny"
 	}
     "SetupLabel"
 	{
@@ -136,7 +136,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"m0refont12Shadow"
+		"font"			"Ingame_MediumTiny"
 	}
 
 	//==================================================================================================================================================

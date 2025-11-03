@@ -4,67 +4,75 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"8"
+		"ypos"			"-32"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"50"
+		"tall"	 		"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_clear"
 		"scaleImage"		"1"
-		"teambg_1"		""
-		"teambg_2"		""
-		"teambg_3"		""
-		"paintbackground"		"1"
-		"paintbackgroundtype"		"2"
-		"bgcolor_override"		"255 255 0 255"
+        "alpha"										"175"
+		"teambg_1"		"../hud/color_panel_clear"
+		"teambg_2"		"replay/thumbnails/panels/target_red"
+		"teambg_3"		"replay/thumbnails/panels/target_blue"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"r0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"0"
-		"tall"	 		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"ControlName"								"ScalableImagePanel"
+		"FieldName"									"TargetIDBG_Spec_Blue"
+		"XPos"										"8"
+		"YPos"										"-22"
+		"ZPos"										"-1"
+		"Wide"										"252"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"1"
+		"ScaleImage"								"1"
+		"alpha"										"175"
+
+		"Image"										"replay/thumbnails/panels/target_blue"
+		"src_corner_height"							"0"
+		"src_corner_width"							"0"
+		"draw_corner_width"							"0"
+		"draw_corner_height"						"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"r0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"0"
-		"tall"	 		"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"ControlName"								"ScalableImagePanel"
+		"FieldName"									"TargetIDBG_Spec_Red"
+		"XPos"										"8"
+		"YPos"										"-22"
+		"ZPos"										"-1"
+		"Wide"										"252"
+		"Tall"										"30"
+		"Visible"									"0"
+		"Enabled"									"1"
+		"ScaleImage"								"1"
+		"alpha"										"175"
+
+		"Image"										"replay/thumbnails/panels/target_red"
+		"src_corner_height"							"0"
+		"src_corner_width"							"0"
+		"draw_corner_width"							"0"
+		"draw_corner_height"						"0"
+	}
+	"TargetBGshade"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"TargetBGshade"
+		"XPos"										"8"
+		"YPos"										"cs-0.5-4"
+		"ZPos"										"-1"
+		"Wide"										"252"
+		"Tall"										"14"
+		"Visible"									"0"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"fillcolor"									"TransparentLightBlack"
 	}
 	
 	"TargetNameLabel"
@@ -177,6 +185,14 @@
 
             "pin_to_sibling"							"PlayerStatusHealthValueID"
         }
+        "HealthValue_Target"							// Proportional positioning doesn't work :(
+        {
+            "Visible"									"0"
+        }
+        "HealthValue_Target_Shadow"
+        {
+            "Visible"									"0"
+        }
 	}
 	
 	"AmmoIcon"
@@ -276,7 +292,7 @@
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"Default"
 			"fgcolor_override"			"white"
-			"xpos"			"-5"
+			"xpos"			"2"
 			"ypos"			"13"
 			"zpos"			"1"
 			"wide"			"0"

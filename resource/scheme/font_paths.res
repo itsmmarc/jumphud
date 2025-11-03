@@ -51,6 +51,22 @@ Scheme
             "Font"      "resource/scheme/fonts/coolvetica_italic_mono.otf"
             "name"      "coolvetica_italic_mono"
         }
+        // OPTIONAL FONTS
+        "20"
+		{
+			"Font"		"resource/scheme/fonts/optional/BAHNSCHRIFT.TTF"
+			"name"		"Bahnschrift"
+		}
+        "21"
+		{
+			"Font"		"resource/scheme/fonts/optional/Montserrat.ttf"
+			"name"		"Montserrat"
+		}
+        "22"
+		{
+			"Font"		"resource/scheme/fonts/optional/EternalUiRegular.ttf"
+			"name"		"Eternal UI Regular"
+		}
         //icon fonts
         "101"
 		{

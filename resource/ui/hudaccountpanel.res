@@ -1,21 +1,21 @@
 "Resource/UI/HudAccountPanel.res"
 {
 	"CHudAccountPanel"
-	{
-		"delta_item_x"								"130"
-		"delta_item_start_y"						"2"
+	{   
+		"delta_item_x"								"91"
+		"delta_item_start_y"						"4"
 		"delta_item_end_y"							"2"
-		"PositiveColor"								"0 255 0 155"
-		"NegativeColor"								"255 0 0 155"
+		"PositiveColor"								"Heal_Numbers"
+		"NegativeColor"								"Health_Hurt"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"m0refont18"
+		"delta_item_font"							"Ingame_MediumSmall"
 	}
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AccountValue"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"20"
 		"ZPos"										"2"
 		"Wide"										"200"
 		"Tall"										"20"
