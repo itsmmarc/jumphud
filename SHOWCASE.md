@@ -77,9 +77,6 @@
 ## Low Health/Ammo
 ![Low Health/Ammo](/screenshots/casual/lowhealthammo.jpg)
 
-## Ubercharge
-![Ubercharge](/screenshots/casual/fulluber.jpg)
-
 ## Item Meters
 ![Item Meters](/screenshots/casual/itemmeters.jpg)
 
