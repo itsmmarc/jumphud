@@ -219,7 +219,7 @@
 				"Tall"								"6"
 				"Visible"							"0"
 				"LabelText"							"%playername%"
-				"Font"								"VerdanaSmallest"
+				"Font"								"Ingame_Tiny"
 				"TextInsetX"						"1"
 				"TextAlignment"						"west"
 				"BGColor_Override"					"TransparentLightBlack"
