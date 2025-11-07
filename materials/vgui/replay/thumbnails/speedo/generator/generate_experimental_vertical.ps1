@@ -18,10 +18,6 @@ $ratio = $maxNumber/$height
 $folder = "numbers_experimental_vertical"
 $imagesFolder = "$PSScriptRoot\$folder"  # Assuming the images are stored in a folder named "numbers" in the script's directory
 
-# 1100 position
-$targetPosition = $height - 110/$ratio
-$targetPositionEnd = $targetPosition + 1
-
 # Function to calculate the text color based on the number
 function Get-Position {
     param(
@@ -57,7 +53,7 @@ for ($num = 0; $num -le $maxNumber; $num++) {
     # Generate image
     # magick.exe -background $backgroundColor -size $VTFSize -fill white -draw "rectangle 0,$linePosition $width,$linePosition" label:$num "$imagesFolder\$num.png"
     $numbig = $linePosition + 1
-    magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw "rectangle 0,$linePosition 127,$numbig" -draw "rectangle 0,$targetPosition 127,$targetPositionEnd" "$imagesFolder\$num.png"
+    magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw "rectangle 0,$linePosition 127,$numbig" "$imagesFolder\$num.png"
     # Update progress bar
     $progress = ($num / $maxNumber) * 100
     Show-ProgressBar -PercentComplete $progress

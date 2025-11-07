@@ -5,9 +5,9 @@
         "visible" "1"
         "enabled" "1"
         "wide" "300"
-        "tall" "300"
+        "tall" "400"
         "xpos" "cs-0.5"
-        "ypos" "cs-0.5+54"
+        "ypos" "cs-0.5"
 
         "vspeedo_container" {
             "controlName" "EditablePanel"
@@ -25,7 +25,15 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/experimental/vspeedo_basic"
+                "image" "replay/thumbnails/speedo/experimental/vspeedo_line"
+            }
+            "vspeedo_overlay" {
+                "controlName" "CTFImagePanel"
+                "xpos" "0"
+                "wide" "f0"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/speedo/experimental/vspeedo_overlay"
             }
         }
     }

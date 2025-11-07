@@ -1,0 +1,165 @@
+#base line_v.vmt
+
+"UnlitGeneric" {
+    $translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
+
+    // https://github.com/tekunotri/menthahud/blob/main/materials/vgui/replay/thumbnails/speedo/vertical/speedo.vmt
+	$digit 0 
+	$override 0
+	
+	$leading 0
+	$leading_check 0
+	
+	$left 0
+	$left_factor1 0
+	$left_factor2 0
+	$left_factor3 0
+	
+	$lt 9999
+	$gt -1
+
+	$const_interval	0.03 // update interval
+	$const_ten 10 $const_one 1 $const_half 0.5 $const_zero 0
+	$const_hun 100 $const_tou 1000
+
+	$value 0 $value_digit 0
+	$temp 0.0 $time 0.0 $interval 0.0 $update 0 $oldtime 0.0
+
+	$pos "[0.0 0.0 0.0]" $posz 0.0
+	$dz 0.0 $oldposz 0.0
+	$vd 0.0 $vspeed 0.0
+
+    $ten 10
+
+	Proxies {
+		// Reset oldtime on new map
+		LessOrEqual {
+			lessEqualVar $oldtime greaterVar $const_zero 
+			srcVar1 $oldtime srcVar2 $time 
+			resultVar $oldtime
+		}
+
+		// Get current time
+		CurrentTime { resultVar $time }
+
+		// Calculate current interval
+		Subtract { srcVar1 $time srcVar2 $oldtime resultVar $interval }
+
+		// Sets $update to 1 if it's time to update
+		LessOrEqual {
+			lessEqualVar $const_zero greaterVar $const_one
+			srcVar1 $interval srcVar2 $const_interval
+			resultVar $update
+		}
+
+		// Save current time if updating
+		LessOrEqual {
+			lessEqualVar $oldtime greaterVar $time
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $oldtime
+		}
+
+		// Get player's position
+		PlayerPosition { scale 1 resultVar $pos }
+		Clamp { srcVar1 $const_zero min "$pos[2]" max "$pos[2]" resultVar $posz }
+		
+		// Calculate displacement
+		Subtract { srcVar1 $posz srcVar2 $oldposz resultVar $dz }
+
+		// Store current position if updating
+		// Save current time if updating
+		LessOrEqual {
+			lessEqualVar $oldposz greaterVar $posz
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $oldposz
+		}
+
+		// Set vertical displacement
+		Equals { srcVar1 $dz resultVar $vd }
+		
+		// Get absolute value
+		Abs { srcVar1 $vd resultVar $vd }
+
+		// Calculate horizontal speed
+		Divide { srcVar1 $vd srcVar2 $interval resultVar $vspeed }
+
+		// Change display value if updating
+		LessOrEqual {
+			lessEqualVar $value greaterVar $vspeed
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $value
+		}
+
+		// Swap digits if ($left == 1)
+		Equals { srcVar1 $digit resultVar $override }
+	
+		Equals { srcVar1 $const_ten resultVar $left_factor1 }
+		Equals { srcVar1 $const_hun resultVar $left_factor2 }
+		Equals { srcVar1 $const_tou resultVar $left_factor3 }
+		Divide { srcVar1 $left_factor1 srcVar2 $digit resultVar $left_factor1 }
+		Divide { srcVar1 $left_factor2 srcVar2 $digit resultVar $left_factor2 }
+		Divide { srcVar1 $left_factor3 srcVar2 $digit resultVar $left_factor3 }
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor1
+			srcVar1 $value srcVar2 $const_ten
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor2
+			srcVar1 $value srcVar2 $const_hun
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor3
+			srcVar1 $value srcVar2 $const_tou
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $digit greaterVar $override
+			srcVar1 $left srcVar2 $const_zero
+			resultVar $override
+		}
+		
+        // clamp speed
+        "Clamp"
+        {
+            "min"                                                   "0"
+            "max"                                                   "3500"
+            "srcVar1"                                               "$value"
+            "resultVar"                                             "$frame"
+        }
+
+        Divide { srcVar1 $frame srcVar2 $ten resultVar $frame }
+
+		// Display digit
+		//Divide { srcVar1 $value srcVar2 $override resultVar $value_digit }
+		//WrapMinMax { srcVar1 $value_digit maxVal $const_ten resultVar $frame }
+		
+		//// Set to frame 10 (empty) if ($leading == 1) && digit is leading zero 
+		//Equals { srcVar1 $const_zero resultVar $leading_check }
+		//LessOrEqual {
+		//	lessEqualVar $value greaterVar $const_tou
+		//	srcVar1 $leading srcVar2 $const_zero
+		//	resultVar $leading_check
+		//}
+		//Add { srcVar1 $leading_check srcVar2 $const_one resultVar $leading_check }
+		//LessOrEqual {
+		//	lessEqualVar $const_ten greaterVar $frame
+		//	srcVar1 $leading_check srcVar2 $digit
+		//	resultVar $frame
+		//}
+		//
+		//// Set to frame 10 (empty) if (less than $lt or greater than $gt)
+		//LessOrEqual {
+		//	lessEqualVar $frame greaterVar $const_ten
+		//	srcVar1 $value srcVar2 $lt
+		//	resultVar $frame
+		//}
+		//LessOrEqual {
+		//	lessEqualVar $const_ten greaterVar $frame
+		//	srcVar1 $value srcVar2 $gt
+		//	resultVar $frame
+		//}
+	}
+
+}
