@@ -15,6 +15,14 @@
 	$left_factor2 0
 	$left_factor3 0
 	
+    "$0" 0.0
+	"$0.1" 0.1
+	"$0.5" 0.5
+	"$1" 1.0
+	"$10" 10.0
+	"$100" 100.0
+	"$1000" 1000.0
+    
 	$lt 9999
 	$gt -1
 
@@ -129,7 +137,8 @@
             "resultVar"                                             "$frame"
         }
 
-        Divide { srcVar1 $frame srcVar2 $ten resultVar $frame }
+        // Divide frames by 10
+        Divide { srcVar1 $frame srcVar2 $10 resultVar $frame }
 
 		// Display digit
 		//Divide { srcVar1 $value srcVar2 $override resultVar $value_digit }

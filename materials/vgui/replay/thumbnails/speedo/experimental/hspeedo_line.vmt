@@ -1,4 +1,4 @@
-#base test.vmt
+#base line_h.vmt
 
 "UnlitGeneric" {
 	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
@@ -197,6 +197,9 @@
             "srcVar1"                                               "$value"
             "resultVar"                                             "$frame"
         }
+
+        // Divide frames by 10
+        Divide { srcVar1 $frame srcVar2 $10 resultVar $frame }
 		
 		//// set frame at digit to value
 		//Divide { srcVar1 "$value" srcVar2 "$digit" resultVar "$tmp" }

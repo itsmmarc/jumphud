@@ -8,5 +8,6 @@ numbers_demo_vspeedo/*
 numbers/*
 numbers_basic/*
 numbers_experimental_vertical/*
+numbers_experimental_horizontal/*
 *.exe
 previews/*
