@@ -17,18 +17,20 @@
             "visible" "1"
             "enabled" "1"
             "xpos" "0"
-            "wide" "p0.25"
-            "tall" "p0.75"
+            "wide" "p0.0625"
+            "tall" "p0.9375"
             "ypos" "0"
             "proportionaltoparent"  "1"
             
             "vspeedo" {
                 "controlName" "CTFImagePanel"
                 "xpos" "0"
+                "zpos"  "-1"
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/experimental/vspeedo_line"
+                "image" "replay/thumbnails/speedo/experimental/vspeedo_bar"
+                "drawcolor" "Highlight_Color_Mid"
             }
             "vspeedo_overlay" {
                 "controlName" "CTFImagePanel"
@@ -44,8 +46,8 @@
             "visible" "1"
             "enabled" "1"
             "xpos" "rs1"
-            "wide" "p0.75"
-            "tall" "p0.25"
+            "wide" "p0.9375"
+            "tall" "p0.0625"
             "ypos" "rs1"
             "proportionaltoparent"  "1"
             
@@ -55,7 +57,8 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/experimental/hspeedo_line"
+                "image" "replay/thumbnails/speedo/experimental/hspeedo_bar"
+                "drawcolor" "Highlight_Color_Mid"
             }
             "hspeedo_overlay" {
                 "controlName" "CTFImagePanel"

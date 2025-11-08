@@ -11,9 +11,10 @@
 # Define parameters
 $maxNumber = 350
 $backgroundColor = "Transparent"
-$VTFSize = "128x512"
+$VTFSize = "4x512"
+$width = 4
 $height = 512
-$width = 128
+$bottom = $height - 1
 $ratio = $maxNumber/$height
 $folder = "numbers_experimental_vertical"
 $imagesFolder = "$PSScriptRoot\$folder"  # Assuming the images are stored in a folder named "numbers" in the script's directory
@@ -53,7 +54,8 @@ for ($num = 0; $num -le $maxNumber; $num++) {
     # Generate image
     # magick.exe -background $backgroundColor -size $VTFSize -fill white -draw "rectangle 0,$linePosition $width,$linePosition" label:$num "$imagesFolder\$num.png"
     $numbig = $linePosition + 1
-    magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw "rectangle 0,$linePosition 127,$numbig" "$imagesFolder\$num.png"
+    $bar = "rectangle 0,$bottom 127,$linePosition"
+    magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $bar "$imagesFolder\$num.png"
     # Update progress bar
     $progress = ($num / $maxNumber) * 100
     Show-ProgressBar -PercentComplete $progress
