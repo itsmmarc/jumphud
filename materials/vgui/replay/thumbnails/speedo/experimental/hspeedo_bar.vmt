@@ -1,7 +1,7 @@
 #base bar_h.vmt
 
 "UnlitGeneric" {
-	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
+	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1 $alpha 0.5
 
 	"$pos" "[0.0 0.0 0.0]"
 	"$x" 0.0 "$prev_x" 0.0 "$dx" 0.0 "$dxs" 0.0

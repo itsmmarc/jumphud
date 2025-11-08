@@ -1,7 +1,7 @@
 #base bar_v.vmt
 
 "UnlitGeneric" {
-    $translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
+    $translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1 $alpha 0.5
 
     // https://github.com/tekunotri/menthahud/blob/main/materials/vgui/replay/thumbnails/speedo/vertical/speedo.vmt
 	$digit 0 

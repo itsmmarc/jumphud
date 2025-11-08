@@ -1,5 +1,5 @@
 # Define parameters
-$name = "overlay"
+$name = "overlay_h"
 $maxNumber = 350
 $backgroundColor = "Transparent"
 $VTFSize = "512x16"
@@ -27,13 +27,16 @@ function Get-Position {
 $900 = Get-Position -number 90
 $900B = $900-1
 
+$max = Get-Position -number 180
+$maxB = $max - 1
+
 Write-Host "Starting script..."
 
-$SHAPE_sideLine     = "rectangle $end,$top $endB,$bottom"
+$SHAPE_sideLine     = "rectangle $max,$top $maxB,$bottom"
 $SHAPE_sideLineL    = "rectangle 0,$top 1,$bottom"
-$SHAPE_topLINE      = "rectangle 0,0 $end,1"
-$SHAPE_botLINE      = "rectangle 0,$bottom $end,$bottomB"
-$SHAPE_900         = "rectangle $900,$top $900b,$bottom"
+$SHAPE_topLINE      = "rectangle 0,0 $max,1"
+$SHAPE_botLINE      = "rectangle 0,$bottom $max,$bottomB"
+$SHAPE_900          = "rectangle $900,$top $900b,$bottom"
 # Generate image
 magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine -draw $SHAPE_900 -draw $SHAPE_topLine -draw $SHAPE_botLINE "$name.png"
 
