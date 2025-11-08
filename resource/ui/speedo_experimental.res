@@ -6,8 +6,8 @@
         "enabled" "1"
         "wide" "180"
         "tall" "180"
-        "xpos" "cs-0.5+40"
-        "ypos" "cs-0.5-30"
+        "xpos" "cs-0.5+45"
+        "ypos" "cs-0.5-35"
 
         "paintBackground"   "0"
         "bgcolor_override"  "red"
@@ -18,7 +18,7 @@
             "enabled" "1"
             "xpos" "0"
             "wide" "p0.03125"
-            "tall" "p0.96875"
+            "tall" "f0"
             "ypos" "0"
             "proportionaltoparent"  "1"
             
@@ -63,7 +63,7 @@
             "visible" "1"
             "enabled" "1"
             "xpos" "rs1"
-            "wide" "p0.96875"
+            "wide" "f0"
             "tall" "p0.03125"
             "ypos" "rs1"
             "proportionaltoparent"  "1"

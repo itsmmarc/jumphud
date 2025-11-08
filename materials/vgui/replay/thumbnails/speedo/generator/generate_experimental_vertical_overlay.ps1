@@ -31,12 +31,12 @@ $maxB = $max - 1
 
 Write-Host "Starting script..."
 
-$SHAPE_sideLine     = "rectangle $end,$max $endB,$height"
-$SHAPE_sideLineL    = "rectangle 0,$max 1,$height"
+$SHAPE_sideLine     = "rectangle $end,$max $endB,$height"   # dis
+$SHAPE_sideLineL    = "rectangle 0,$max 1,$height"          # dis
 $SHAPE_topLINE      = "rectangle 0,$max $end,$maxB"
 $SHAPE_botLINE      = "rectangle 0,$bottom $end,$bottomB"
 $SHAPE_1100         = "rectangle 0,$1100 $end,$1100B"
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine -draw $SHAPE_1100 -draw $SHAPE_topLine -draw $SHAPE_botLINE "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor -fill white  -draw $SHAPE_1100 -draw $SHAPE_topLine -draw $SHAPE_botLINE "$name.png"
 
 Write-Host "Script completed."

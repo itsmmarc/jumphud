@@ -34,10 +34,10 @@ Write-Host "Starting script..."
 
 $SHAPE_sideLine     = "rectangle $max,$top $maxB,$bottom"
 $SHAPE_sideLineL    = "rectangle 0,$top 1,$bottom"
-$SHAPE_topLINE      = "rectangle 0,0 $max,1"
-$SHAPE_botLINE      = "rectangle 0,$bottom $max,$bottomB"
+$SHAPE_topLINE      = "rectangle 0,0 $max,1"                # dis
+$SHAPE_botLINE      = "rectangle 0,$bottom $max,$bottomB"   # dis
 $SHAPE_900          = "rectangle $900,$top $900b,$bottom"
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine -draw $SHAPE_900 -draw $SHAPE_topLine -draw $SHAPE_botLINE "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine -draw $SHAPE_900  "$name.png"
 
 Write-Host "Script completed."
