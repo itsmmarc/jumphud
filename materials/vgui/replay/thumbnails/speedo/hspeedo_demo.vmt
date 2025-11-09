@@ -1,5 +1,7 @@
 // texture
 #base fonts/coolvetica_italic/speedo_basic.vmt
+// custom colors
+//#base colortest.vmt
 // speedo calculation
 #base hspeedo_math_demo.vmt
 // rounding
