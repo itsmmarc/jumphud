@@ -196,10 +196,10 @@
 
         //// ROUNDING
         // $frame = $frame/10
-        //Divide { srcVar1 "$frame" srcVar2 "$10" resultVar "$frame" }
+        Divide { srcVar1 "$frame" srcVar2 "$10" resultVar "$frame" }
         // discard decimals of $frame
-        
+        Int { srcVar1 "$frame" resultVar "$frame"}
         // $frame = $frame*10
-		//Multiply { srcVar1 "$frame" srcVar2 "$10" resultVar "$frame" }
+		Multiply { srcVar1 "$frame" srcVar2 "$10" resultVar "$frame" }
 	}
 }

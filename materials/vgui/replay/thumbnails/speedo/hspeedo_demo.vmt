@@ -2,6 +2,8 @@
 #base fonts/coolvetica_italic/hspeedo_demo.vmt
 // speedo calculation
 #base hspeedo_math.vmt
+// rounding
+//#base rounding.vmt
 
 "UnlitGeneric" {
 	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
