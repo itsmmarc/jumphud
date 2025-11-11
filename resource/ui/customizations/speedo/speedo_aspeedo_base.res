@@ -15,7 +15,7 @@
                 "xpos" "0"
                 "wide" "f0"
                 "tall" "f0"
-                "image" "replay/thumbnails/speedo/aspeedo_basic"
+                //"image" "replay/thumbnails/speedo/aspeedo_basic"
                 "proportionaltoparent"  "1"
             }
             "aspeedo_shadow" {
@@ -25,7 +25,7 @@
                 "zpos"  "-1"
                 "wide" "f0"
                 "tall" "f0"
-                "image" "replay/thumbnails/speedo/aspeedo_basic"
+                //"image" "replay/thumbnails/speedo/aspeedo_basic"
                 "proportionaltoparent"  "1"
                 "drawcolor" "Main_Shadow_Transparent"
                 

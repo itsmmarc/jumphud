@@ -13,37 +13,30 @@
     //==============================================================
     // SPEEDO CALCULATION VARIABLES
     //==============================================================
-	"$pos" "[0.0 0.0 0.0]"
-	"$x" 0.0 "$prev_x" 0.0 "$dx" 0.0 "$dxs" 0.0
-	"$y" 0.0 "$prev_y" 0.0 "$dy" 0.0 "$dys" 0.0
-	"$z" 0.0 "$prev_z" 0.0 "$dz" 0.0
+	$digit 0 
+	$override 0
 	
-	"$t" 0.0 "$prev_t" 0.0 "$dt" 0.0
-	"$v" 0.0 "$prev_v" 0.0 "$dv" 0.0
+	$leading 0
+	$leading_check 0
 	
-	"$timer" 0.0
-	"$total_dist" 0.0
+	$left 0
+	$left_factor1 0
+	$left_factor2 0
+	$left_factor3 0
 	
-	"$speedo" 0.0
-	"$speedo_value" 0.0
-	
-	"$prev_timer" 0.0
-	"$prev_total_dist" 0.0
-	
-	"$dist" 0.0
-	"$number" 0.0
-	"$sqrt" 0.0
-	
-	"$timer_delay" 0.1	
-	
-	"$tmp" 0.0
-	
-	"$eps" 0.001953125
-	
-	"$value" 0.0
-	
-	"$frame_empty" 10.0
-	"$frame_minus" 11.0
+	$lt 9999
+	$gt -1
+
+	$const_interval	0.03 // update interval
+	$const_ten 10 $const_one 1 $const_half 0.5 $const_zero 0
+	$const_hun 100 $const_tou 1000
+
+	$value 0 $value_digit 0
+	$temp 0.0 $time 0.0 $interval 0.0 $update 0 $oldtime 0.0
+
+	$pos "[0.0 0.0 0.0]" $posz 0.0
+	$dz 0.0 $oldposz 0.0
+	$vd 0.0 $vspeed 0.0
 
     //==============================================================
     // ROUNDING VARIABLES
@@ -62,16 +55,16 @@
     // RANGES
     //--------------------------------------------------------------
     // close range
-    $closeMin 699
-    $closeMax 850
+    $closeMin 799
+    $closeMax 1000
 
     // good range
-    $goodMin 849
-    $goodMax 901
+    $goodMin 999
+    $goodMax 1101
 
     // above range
-    $closeMinB 900
-    $closeMaxB 1200
+    $closeMinB 1100
+    $closeMaxB 1300
 
     //==============================================================
     // CONDITIONALS
@@ -91,153 +84,96 @@
 	
 	Proxies {
     //==============================================================
-    // HORIZONTAL SPEED
+    // VERTICAL SPEED
     //==============================================================
-		// get player position
-		PlayerPosition { scale 1 resultVar "$pos" }
-		Clamp { srcVar1 "$0" min "$pos[0]" max "$pos[0]" resultVar "$x" }
-		Clamp { srcVar1 "$0" min "$pos[1]" max "$pos[1]" resultVar "$y" }
-		Clamp { srcVar1 "$0" min "$pos[2]" max "$pos[2]" resultVar "$z" }
-		
-		// get player absolute velocity
-		PlayerSpeed { scale 1 resultVar "$v" }
-		
-		// get game time
-		CurrentTime { resultVar "$t" }
-		
-		// dx = x - prev_x, dy = y - prev_y, dz = z - prev_z, dt = t - prev_t, dv = abs(v - prev_v)
-		Subtract { srcVar1 "$x" srcVar2 "$prev_x" resultVar "$dx" }
-		Subtract { srcVar1 "$y" srcVar2 "$prev_y" resultVar "$dy" }
-		Subtract { srcVar1 "$z" srcVar2 "$prev_z" resultVar "$dz" }
-		Subtract { srcVar1 "$t" srcVar2 "$prev_t" resultVar "$dt" }
-		Subtract { srcVar1 "$v" srcVar2 "$prev_v" resultVar "$dv" }
-		Abs { srcVar1 "$dv" resultVar "$dv" }
-		
-		// dxs = dx*dx, dys = dy*dy
-		Multiply { srcVar1 "$dx" srcVar2 "$dx" resultVar "$dxs" }
-		Multiply { srcVar1 "$dy" srcVar2 "$dy" resultVar "$dys" }
-		
-		// dist = sqrt(dx^2 + dy^2)
-		// initial guess = abs(dx) + abs(dy)
-		Abs { srcVar1 "$dx" resultVar "$sqrt" }
-		Abs { srcVar1 "$dy" resultVar "$tmp" }
-		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$sqrt" }
-		// number we want to sqrt
-		Add { srcVar1 "$dxs" srcVar2 "$dys" resultVar "$number" }
-		// sqrt using 4 iterations of newtons method -> sqrt = 0.5(sqrt + number/sqrt)
-		Divide { srcVar1 "$number" srcVar2 "$sqrt" resultVar "$tmp" }
-		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$tmp" }
-		Multiply { srcVar1 "$tmp" srcVar2 "$0.5" resultVar "$sqrt" }
-		Divide { srcVar1 "$number" srcVar2 "$sqrt" resultVar "$tmp" }
-		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$tmp" }
-		Multiply { srcVar1 "$tmp" srcVar2 "$0.5" resultVar "$sqrt" }
-		Divide { srcVar1 "$number" srcVar2 "$sqrt" resultVar "$tmp" }
-		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$tmp" }
-		Multiply { srcVar1 "$tmp" srcVar2 "$0.5" resultVar "$sqrt" }
-		Divide { srcVar1 "$number" srcVar2 "$sqrt" resultVar "$tmp" }
-		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$tmp" }
-		Multiply { srcVar1 "$tmp" srcVar2 "$0.5" resultVar "$dist" } // dist = sqrt
-		
-		// if (dist <= 100): // not being teled
-		// total_dist += dist
+		// Reset oldtime on new map
 		LessOrEqual {
-			srcVar1 "$dist" srcVar2 "$100"
-			lessEqualVar "$dist" greaterVar "$0"
-			resultVar "$tmp"
+			lessEqualVar $oldtime greaterVar $const_zero 
+			srcVar1 $oldtime srcVar2 $time 
+			resultVar $oldtime
 		}
-		Add { srcVar1 "$total_dist" srcVar2 "$tmp" resultVar "$total_dist" }
-		// timer += dt
-		LessOrEqual {
-			srcVar1 "$dist" srcVar2 "$100"
-			lessEqualVar "$dt" greaterVar "$0"
-			resultVar "$tmp"
-		}
-		Add { srcVar1 "$timer" srcVar2 "$tmp" resultVar "$timer" }
-		
-		// if (dv >= 100): // detect getting hit by rocket/ jumping / bonking something
-		// prev_timer = 0.0
-		LessOrEqual {
-			srcVar1 "$100" srcVar2 "$dv"
-			lessEqualVar "$0" greaterVar "$prev_timer"
-			resultVar "$prev_timer"
-		}
-		// prev_total_dist = 0.0
-		LessOrEqual {
-			srcVar1 "$100" srcVar2 "$dv"
-			lessEqualVar "$0" greaterVar "$prev_total_dist"
-			resultVar "$prev_total_dist"
-		}
-		// timer = 0.0
-		LessOrEqual {
-			srcVar1 "$100" srcVar2 "$dv"
-			lessEqualVar "$0" greaterVar "$timer"
-			resultVar "$timer"
-		}
-		// total_dist = 0.0  
-		LessOrEqual {
-			srcVar1 "$100" srcVar2 "$dv"
-			lessEqualVar "$0" greaterVar "$total_dist"
-			resultVar "$total_dist"
-		}
-		
-		// speedo_value = (total_dist + prev_total_dist) / (timer + prev_timer)  
-		Add { srcVar1 "$total_dist" srcVar2 "$prev_total_dist" resultVar "$tmp" }
-		Add { srcVar1 "$timer" srcVar2 "$prev_timer" resultVar "$speedo_value" }
-		Divide { srcVar1 "$tmp" srcVar2 "$speedo_value" resultVar "$speedo_value" }
-		
-		// if (timer > 0.0):
-		// speedo = speedo_value
-		LessOrEqual {
-			srcVar1 "$timer" srcVar2 "$0"
-			lessEqualVar "$speedo" greaterVar "$speedo_value"
-			resultVar "$speedo"
-		}
-		
-		// if (timer >= 0.01):
-		// prev_timer = timer
-		LessOrEqual {
-			srcVar1 "$timer_delay" srcVar2 "$timer"
-			lessEqualVar "$timer" greaterVar "$prev_timer"
-			resultVar "$prev_timer"
-		}
-		// prev_total_dist = total_dist
-		LessOrEqual {
-			srcVar1 "$timer_delay" srcVar2 "$timer"
-			lessEqualVar "$total_dist" greaterVar "$prev_total_dist"
-			resultVar "$prev_total_dist"
-		}
-		// total_dist = 0.0
-		LessOrEqual {
-			srcVar1 "$timer_delay" srcVar2 "$timer"
-			lessEqualVar "$0" greaterVar "$total_dist"
-			resultVar "$total_dist"
-		}
-		// timer = 0.0
-		LessOrEqual {
-			srcVar1 "$timer_delay" srcVar2 "$timer"
-			lessEqualVar "$0" greaterVar "$timer"
-			resultVar "$timer"
-		}
-		
-		// if (dz <= 0.0009):
-		// speedo = v
-		Abs { srcVar1 "$dz" resultVar "$tmp" }
-		LessOrEqual {
-			srcVar1 "$tmp" srcVar2 "$eps"
-			lessEqualVar "$v" greaterVar "$speedo"
-			resultVar "$speedo"
-		}
-		
-		// prev_x = x, prev_y = y, prev_z = z, prev_t = t, prev_v = v
-		Equals { srcVar1 "$x" resultVar "$prev_x" }
-		Equals { srcVar1 "$y" resultVar "$prev_y" }
-		Equals { srcVar1 "$z" resultVar "$prev_z" }
-		Equals { srcVar1 "$t" resultVar "$prev_t" }
-		Equals { srcVar1 "$v" resultVar "$prev_v" }
-		
-		// value = speedo + 0.1
-		Add { srcVar1 "$speedo" srcVar2 "$0.1" resultVar "$value" }
 
+		// Get current time
+		CurrentTime { resultVar $time }
+
+		// Calculate current interval
+		Subtract { srcVar1 $time srcVar2 $oldtime resultVar $interval }
+
+		// Sets $update to 1 if it's time to update
+		LessOrEqual {
+			lessEqualVar $const_zero greaterVar $const_one
+			srcVar1 $interval srcVar2 $const_interval
+			resultVar $update
+		}
+
+		// Save current time if updating
+		LessOrEqual {
+			lessEqualVar $oldtime greaterVar $time
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $oldtime
+		}
+
+		// Get player's position
+		PlayerPosition { scale 1 resultVar $pos }
+		Clamp { srcVar1 $const_zero min "$pos[2]" max "$pos[2]" resultVar $posz }
+		
+		// Calculate displacement
+		Subtract { srcVar1 $posz srcVar2 $oldposz resultVar $dz }
+
+		// Store current position if updating
+		// Save current time if updating
+		LessOrEqual {
+			lessEqualVar $oldposz greaterVar $posz
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $oldposz
+		}
+
+		// Set vertical displacement
+		Equals { srcVar1 $dz resultVar $vd }
+		
+		// Get absolute value
+		Abs { srcVar1 $vd resultVar $vd }
+
+		// Calculate horizontal speed
+		Divide { srcVar1 $vd srcVar2 $interval resultVar $vspeed }
+
+		// Change display value if updating
+		LessOrEqual {
+			lessEqualVar $value greaterVar $vspeed
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $value
+		}
+
+		// Swap digits if ($left == 1)
+		Equals { srcVar1 $digit resultVar $override }
+	
+		Equals { srcVar1 $const_ten resultVar $left_factor1 }
+		Equals { srcVar1 $const_hun resultVar $left_factor2 }
+		Equals { srcVar1 $const_tou resultVar $left_factor3 }
+		Divide { srcVar1 $left_factor1 srcVar2 $digit resultVar $left_factor1 }
+		Divide { srcVar1 $left_factor2 srcVar2 $digit resultVar $left_factor2 }
+		Divide { srcVar1 $left_factor3 srcVar2 $digit resultVar $left_factor3 }
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor1
+			srcVar1 $value srcVar2 $const_ten
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor2
+			srcVar1 $value srcVar2 $const_hun
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor3
+			srcVar1 $value srcVar2 $const_tou
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $digit greaterVar $override
+			srcVar1 $left srcVar2 $const_zero
+			resultVar $override
+		}
+		
         // clamp speed
         "Clamp"
         {

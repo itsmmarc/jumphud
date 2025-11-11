@@ -1,5 +1,18 @@
 "UnlitGeneric" {
-    // https://github.com/tekunotri/menthahud/blob/main/materials/vgui/replay/thumbnails/speedo/vertical/speedo.vmt
+    //==============================================================
+    // CONSTANTS
+    //==============================================================
+    "$0" 0.0
+	"$0.1" 0.1
+	"$0.5" 0.5
+	"$1" 1.0
+	"$10" 10.0
+	"$100" 100.0
+	"$1000" 1000.0
+
+    //==============================================================
+    // SPEEDO CALCULATION VARIABLES
+    //==============================================================
 	$digit 0 
 	$override 0
 	
@@ -14,8 +27,6 @@
 	$lt 9999
 	$gt -1
 
-    $10 10
-
 	$const_interval	0.03 // update interval
 	$const_ten 10 $const_one 1 $const_half 0.5 $const_zero 0
 	$const_hun 100 $const_tou 1000
@@ -27,7 +38,25 @@
 	$dz 0.0 $oldposz 0.0
 	$vd 0.0 $vspeed 0.0
 
+    //==============================================================
+    // ROUNDING VARIABLES
+    //==============================================================
+    $roundAmount        10
+    $mapTime            0
+    $mapTimeThreshold   7200    // 2 hours
+
+    //==============================================================
+    // COLOR VARIABLES
+    //==============================================================  
+    $colorBase  "{ 255 255 255 }" // default color
+    $color      $colorBase
+
+    //==============================================================
+	
 	Proxies {
+    //==============================================================
+    // VERTICAL SPEED
+    //==============================================================
 		// Reset oldtime on new map
 		LessOrEqual {
 			lessEqualVar $oldtime greaterVar $const_zero 
@@ -125,12 +154,40 @@
             "resultVar"                                             "$frame"
         }
 
-		//// ROUNDING
+    //==============================================================
+    // ROUNDING (only if map has been running a long time)
+    //==============================================================
+        // CONDITIONALS
+        //--------------------------------------------------------------
+        CurrentTime { resultVar $mapTime }
+        // if($mapTime>mapTimeThreshold)
+            // Round
+        LessOrEqual {
+            srcVar1         "$mapTime"
+            srcVar2         "$mapTimeThreshold"
+            resultVar       "$roundAmount"
+            greaterVar      "$roundAmount"
+            lessEqualVar    "$1"
+        }
+        //==============================================================
+        // ROUNDING
+        //--------------------------------------------------------------
         // $frame = $frame/10
-        Divide { srcVar1 "$frame" srcVar2 "$10" resultVar "$frame" }
+        Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
         // discard decimals of $frame
         Int { srcVar1 "$frame" resultVar "$frame"}
         // $frame = $frame*10
-		Multiply { srcVar1 "$frame" srcVar2 "$10" resultVar "$frame" }
+		Multiply { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
+
+    //==============================================================
+    // COLORS
+    //==============================================================
+        // BASE
+        // default to white if none of the below conditions are met
+        //--------------------------------------------------------------
+        Equals {
+            srcVar1     "$colorBase"
+            resultVar   "$color"
+        }
 	}
 }

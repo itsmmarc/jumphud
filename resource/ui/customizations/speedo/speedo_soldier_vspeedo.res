@@ -1,0 +1,14 @@
+#base "speedo_vspeedo_base.res"
+
+"speedo_demo.res" {
+	"speedos" {
+        "vspeedo_container" {
+            "vspeedo" {
+                "image" "replay/thumbnails/speedo/vspeedo_soldier"
+            }
+            "vspeedo_shadow" {
+                "image" "replay/thumbnails/speedo/vspeedo_soldier"
+            }
+        }
+    }
+}

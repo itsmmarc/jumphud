@@ -16,7 +16,7 @@
 //==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS
 //--------------------------------------------------------------
-#base vspeedo_demo_math.vmt
+#base aspeedo_demo_math.vmt
 
 "UnlitGeneric" {
 	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1

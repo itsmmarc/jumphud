@@ -16,7 +16,7 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/hspeedo_basic"
+                //"image" "replay/thumbnails/speedo/hspeedo_basic"
             }
             "hspeedo_shadow" {
                 "controlName" "CTFImagePanel"
@@ -27,7 +27,7 @@
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "drawcolor" "Main_Shadow_Transparent"
-                "image" "replay/thumbnails/speedo/hspeedo_basic"
+                //"image" "replay/thumbnails/speedo/hspeedo_basic"
 
                 "pin_to_sibling"		"hspeedo"
             }

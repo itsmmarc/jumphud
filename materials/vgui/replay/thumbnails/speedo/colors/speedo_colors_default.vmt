@@ -4,8 +4,8 @@
     //==============================================================
     // COLORS
     //--------------------------------------------------------------
-    $colorBase  "{ 0 255 0 }" // default color
-    $colorClose "{ 251 255 0 }"
-    $colorGood  "{ 255 0 170 }"
+    $colorBase  "{ 255 255 255 }" // default color
+    $colorClose "{ 35 125 235 }"
+    $colorGood  "{ 0 255 85 }"
     $color      $colorBase
 }

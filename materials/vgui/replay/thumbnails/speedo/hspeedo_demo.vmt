@@ -4,9 +4,14 @@
 #base fonts/coolvetica_italic/numbers.vmt
 
 //==============================================================
-// CUSTOM COLORS
+// COLORS
 //--------------------------------------------------------------
-//#base colortest.vmt
+#base colors/speedo_colors.vmt
+
+//==============================================================
+// CONSTANTS
+//--------------------------------------------------------------
+#base constants/mapTimeThreshold.vmt
 
 //==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS
