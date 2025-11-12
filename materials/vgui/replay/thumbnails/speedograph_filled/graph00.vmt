@@ -1,0 +1,56 @@
+//SpeedoGraph by VillageGreenPreserver
+//https://github.com/VillageGreenPreserver/SpeedoGraph
+
+"UnlitGeneric"
+{
+	"$basetexture"		"vgui/replay/thumbnails/speedograph_filled/graph"
+	"$translucent"	"1"
+	"$ignorez"		"1"
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+
+	"$speed"		"0"
+	"$speedMax"		"0.965"
+	"$speedScale"	"0.0005"
+
+	"$center"		"[0.5 0.5]"
+	"$scale"		"[1 1]"
+	"$rotate"		"0"
+	"$translate"	"[0.0 0.0]"
+
+	"$zero"		"0"
+	"$one"		"1"
+
+	Proxies
+	{
+		PlayerSpeed
+		{
+			scale		"1"
+			resultVar	"$speed"
+		}
+
+		Multiply
+		{
+			srcVar1		"$speed"
+			srcVar2		"$speedScale"
+			resultVar	"$speed"
+		}
+
+		Clamp
+		{
+			min			"$zero"
+			max			"$speedMax"
+			srcVar1		"$speed"
+			resultVar	"$translate[1]"
+		}
+
+		TextureTransform
+		{
+			centerVar		"$center"
+			scaleVar		"$scale"
+			rotateVar		"$rotate"
+			translateVar	"$translate"
+			resultVar		"$basetexturetransform"
+		}
+	}
+}

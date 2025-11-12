@@ -1,0 +1,109 @@
+//SpeedoGraph by VillageGreenPreserver
+//https://github.com/VillageGreenPreserver/SpeedoGraph
+
+"UnlitGeneric"
+{
+	"$basetexture"		"vgui/replay/thumbnails/speedograph_line/graph"
+	"$translucent"		1
+	"$ignorez"			1
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+
+	"$zero"		"0"
+	"$one"		"1"
+	"$ten"		"10"
+
+	"$speed"			"0"
+	"$speedMax"			"0.965"
+	"$speedClamped"		"0.0"
+	"$speedScale"		"0.0005"
+	"$time"				"0"
+	"$delay"			"0.025"
+
+	"$bucket01"		"0"
+	"$bucket02"		"0"
+
+	"$timeDelay"		"0"
+	"$timeDelayTemp"	"0"
+
+	"$center"		"[0.5 0.5]"
+	"$scale"		"[1 1]"
+	"$rotate"		"0"
+	"$translate"	"[0.0 0.0]"
+
+	Proxies
+	{
+		CurrentTime
+		{
+			resultVar	"$time"
+		}
+
+		Add
+		{
+			srcVar1		"$time"
+			srcVar2		"$delay"
+			resultVar	"$timeDelayTemp"
+		}
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$bucket02"
+			greaterVar		"$bucket02"
+			lessEqualVar	"$bucket01"
+		}
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$bucket01"
+			greaterVar		"$bucket01"
+			lessEqualVar	"$speedClamped"
+		}
+
+		PlayerSpeed
+		{
+			scale		"1"
+			resultVar	"$speed"
+		}
+
+		Multiply
+		{
+			srcVar1		"$speed"
+			srcVar2		"$speedScale"
+			resultVar	"$speed"
+		}
+
+		Clamp
+		{
+			min			"$zero"
+			max			"$speedMax"
+			srcVar1		"$speed"
+			resultVar	"$speedClamped"
+		}
+
+		Equals
+		{
+			srcVar1		"$bucket02"
+			resultVar	"$translate[1]"
+		}
+
+		TextureTransform
+		{
+			centerVar		"$center"
+			scaleVar		"$scale"
+			rotateVar		"$rotate"
+			translateVar	"$translate"
+			resultVar		"$basetexturetransform"
+		}
+
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$timeDelay"
+			greaterVar		"$timeDelay"
+			lessEqualVar	"$timeDelayTemp"
+		}
+	}
+}
