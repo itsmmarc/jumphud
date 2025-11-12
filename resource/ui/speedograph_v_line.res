@@ -16,6 +16,19 @@
 
 		"bgcolor_override"	"0 0 0 100"
 		
+        "overlay"
+		{
+			"ControlName"	"ScalableImagePanel"
+			"xpos"			"rs1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"image"			"replay/thumbnails/speedo/vspeedograph_line/overlay"
+			"proportionaltoparent"	"1"
+
+			"drawcolor"		"255 0 0 255"
+			"alpha"			"255"
+		}
+
 		"graph00"
 		{
 			"ControlName"	"ScalableImagePanel"
