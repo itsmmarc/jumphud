@@ -1,0 +1,27 @@
+//==============================================================
+// TEXTURE
+//--------------------------------------------------------------
+#base fonts/coolvetica_italic/numbers.vmt
+
+//==============================================================
+// COLORS
+//--------------------------------------------------------------
+#base "../../../../../../../cfg/jumphud/jh_speedo_s_v_clrtype.txt"
+#base "../../../../../../../cfg/jumphud/jh_speedo_s_dynclr_main.txt"
+#base "../../../../../../../cfg/jumphud/jh_speedo_s_dynclr_close.txt"
+#base "../../../../../../../cfg/jumphud/jh_speedo_s_dynclr_good.txt"
+#base colors/speedo_colors_default.vmt
+
+//==============================================================
+// CONSTANTS
+//--------------------------------------------------------------
+#base constants/$mapTimeThreshold.vmt
+
+//==============================================================
+// SPEEDO CALCULATION, ROUNDING, & COLORS
+//--------------------------------------------------------------
+#base vspeedo_soldier_math.vmt
+
+"UnlitGeneric" {
+	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
+}
