@@ -158,7 +158,7 @@
     "Toggle_HUDMessage"
     {
         "label"										"E"
-		"Command"									"engine hudmessage_toggle; hud_reloadscheme"
+		"Command"									"engine jh_hudmessage_toggle; hud_reloadscheme"
 		"tooltip"									"Toggle Map Text Pop-Ups"
 		"OnlyInGame"								"1"
     }
