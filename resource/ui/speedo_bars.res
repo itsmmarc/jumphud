@@ -1,5 +1,5 @@
 "speedo_base.res"{
-    "speedos_experimental"
+    "barspeedos"
     {
         "controlName" "EditablePanel"
         "visible" "1"

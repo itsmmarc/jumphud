@@ -143,6 +143,14 @@
                 "Enabled"								"0"
             }
         }
+        "BarSpeedos"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
         "Toggle_HUDMessage"
         {
             "SubButton"

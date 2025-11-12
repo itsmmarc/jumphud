@@ -155,6 +155,13 @@
 		"tooltip"									"Disable HUD Speedos"
 		"OnlyInGame"								"1"
     }
+    "BarSpeedos"
+    {
+        "label"										"7"
+		"Command"									"engine jh_bspeedos_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Bar Speedos"
+		"OnlyInGame"								"1"
+    }
     "Toggle_HUDMessage"
     {
         "label"										"E"
