@@ -1,5 +1,5 @@
 #base "speedo.res"
-#base speedograph_filled.res
+#base speedograph_h_line.res
 #base "customizations/crosshair/crosshair.res"
 
 "Resource/UI/HudPlayerClass_Base.res"
