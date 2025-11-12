@@ -6,7 +6,7 @@
 //==============================================================
 // COLORS
 //--------------------------------------------------------------
-#base "../../../../../../../cfg/jumphud/jh_speedo_d_h_clrtype.txt"
+#base "../../../../../../../cfg/jumphud/jh_speedo_d_a_clrtype.txt"
 #base "../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_main.txt"
 #base "../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_close.txt"
 #base "../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_good.txt"
