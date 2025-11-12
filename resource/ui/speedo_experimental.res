@@ -29,7 +29,7 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/experimental/vspeedo_bar"
+                "image" "replay/thumbnails/speedo/bar/vspeedo_bar"
                 "drawcolor" "Highlight_Color_Bright"
             }
             "vspeedo_overlay" {
@@ -38,7 +38,7 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/experimental/vspeedo_overlay"
+                "image" "replay/thumbnails/speedo/bar/vspeedo_overlay"
             }
             "vspeedo_background" {
                 "ControlName"								"EditablePanel"
@@ -74,7 +74,7 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/experimental/hspeedo_bar"
+                "image" "replay/thumbnails/speedo/bar/hspeedo_bar"
                 "drawcolor" "Highlight_Color_Bright"
             }
             "hspeedo_overlay" {
@@ -83,7 +83,7 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/experimental/hspeedo_overlay"
+                "image" "replay/thumbnails/speedo/bar/hspeedo_overlay"
             }
             "hspeedo_background" {
                 "ControlName"								"EditablePanel"

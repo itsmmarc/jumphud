@@ -1,8 +1,20 @@
 #base bar_h.vmt
 
 "UnlitGeneric" {
-	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1 $alpha 0.5
+    //==============================================================
+    // CONSTANTS
+    //==============================================================
+    "$0" 0.0
+	"$0.1" 0.1
+	"$0.5" 0.5
+	"$1" 1.0
+	"$10" 10.0
+	"$100" 100.0
+	"$1000" 1000.0
 
+    //==============================================================
+    // SPEEDO CALCULATION VARIABLES
+    //==============================================================
 	"$pos" "[0.0 0.0 0.0]"
 	"$x" 0.0 "$prev_x" 0.0 "$dx" 0.0 "$dxs" 0.0
 	"$y" 0.0 "$prev_y" 0.0 "$dy" 0.0 "$dys" 0.0
@@ -24,15 +36,7 @@
 	"$number" 0.0
 	"$sqrt" 0.0
 	
-	"$timer_delay" 0.1
-	
-	"$0" 0.0
-	"$0.1" 0.1
-	"$0.5" 0.5
-	"$1" 1.0
-	"$10" 10.0
-	"$100" 100.0
-	"$1000" 1000.0
+	"$timer_delay" 0.1	
 	
 	"$tmp" 0.0
 	
@@ -42,8 +46,50 @@
 	
 	"$frame_empty" 10.0
 	"$frame_minus" 11.0
+
+    //==============================================================
+    // COLOR VARIABLES
+    //==============================================================  
+    $colorMain  "{ 255 255 255 }" // default color
+    $colorClose "{ 255 255 255 }"
+    $colorGood  "{ 255 255 255 }"
+    $color      $colorMain
+
+    //==============================================================
+    // RANGES
+    //--------------------------------------------------------------
+    // close range
+    $closeMin 699
+    $closeMax 850
+
+    // good range
+    $goodMin 849
+    $goodMax 901
+
+    // above range
+    $closeMinB 900
+    $closeMaxB 1200
+
+    //==============================================================
+    // CONDITIONALS
+    //--------------------------------------------------------------
+    $isAboveCloseMin 0
+    $isBelowCloseMax 0
+    $isClose 0
+
+    $isAboveGoodMin 0
+    $isBelowGoodMax 0
+    $isGood 0
+
+    $isAboveCloseMinB 0
+    $isBelowCloseMaxB 0
+    $isCloseB 0
+    //==============================================================
 	
 	Proxies {
+    //==============================================================
+    // HORIZONTAL SPEED
+    //==============================================================
 		// get player position
 		PlayerPosition { scale 1 resultVar "$pos" }
 		Clamp { srcVar1 "$0" min "$pos[0]" max "$pos[0]" resultVar "$x" }
@@ -198,24 +244,112 @@
             "resultVar"                                             "$frame"
         }
 
+    //==============================================================
+    // COLORS
+    //==============================================================
+        // BASE
+        // default to white if none of the below conditions are met
+        //--------------------------------------------------------------
+        Equals {
+            srcVar1     "$colorMain"
+            resultVar   "$color"
+        }
+
+        //==============================================================
+        // CLOSE
+        // if(speed>closeMin && speed<closeMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMin"
+            resultVar       "$isAboveCloseMin"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMax"
+            resultVar       "$isBelowCloseMax"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveCloseMin"
+            srcVar2     "$isBelowCloseMax"
+            resultVar   "$isClose"
+        }
+        LessOrEqual {
+            srcVar1         "$isClose"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorClose"
+            lessEqualVar    "$color"
+        }
+
+        //==============================================================
+        // GOOD
+        // if(speed>goodMin && speed<goodMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$goodMin"
+            resultVar       "$isAboveGoodMin"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$goodMax"
+            resultVar       "$isBelowGoodMax"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveGoodMin"
+            srcVar2     "$isBelowGoodMax"
+            resultVar   "$isGood"
+        }
+        LessOrEqual {
+            srcVar1         "$isGood"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorGood"
+            lessEqualVar    "$color"
+        }
+
+        //==============================================================
+        // ABOVE
+        // if(speed>aboveMin && speed<aboveMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMinB"
+            resultVar       "$isAboveCloseMinB"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMaxB"
+            resultVar       "$isBelowCloseMaxB"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveCloseMinB"
+            srcVar2     "$isBelowCloseMaxB"
+            resultVar   "$isCloseB"
+        }
+        LessOrEqual {
+            srcVar1         "$isCloseB"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorClose"
+            lessEqualVar    "$color"
+        }
+
+
         // Divide frames by 10
         Divide { srcVar1 $frame srcVar2 $10 resultVar $frame }
-		
-		//// set frame at digit to value
-		//Divide { srcVar1 "$value" srcVar2 "$digit" resultVar "$tmp" }
-		//WrapMinMax { srcVar1 "$tmp" maxVal "$10" resultVar "$frame" }
-		//
-		//// if (value <= digit && digit > 1): // hide leading zero
-		//// frame = frame_empty
-		//LessOrEqual {
-		//	srcVar1 "$value" srcVar2 "$digit"
-		//	lessEqualVar "$frame_empty" greaterVar "$frame"
-		//	resultVar "$tmp"
-		//}
-		//LessOrEqual {
-		//	srcVar1 "$digit" srcVar2 "$1"
-		//	lessEqualVar "$frame" greaterVar "$tmp"
-		//	resultVar "$frame"
-		//}
 	}
 }

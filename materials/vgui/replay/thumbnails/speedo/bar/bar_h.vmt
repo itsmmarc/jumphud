@@ -1,0 +1,4 @@
+"UnlitGeneric" {
+    $basetexture "vgui/replay/thumbnails/speedo/bar/bar_h.vtf"
+    $translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1 $alpha 0.5
+}
