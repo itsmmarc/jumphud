@@ -1,5 +1,0 @@
-//#base speedo_colors_custom.vmt // to implement
-#base speedo_colors_default.vmt
-
-"UnlitGeneric" {
-}

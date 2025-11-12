@@ -5,7 +5,7 @@
     // COLORS
     //--------------------------------------------------------------
     $colorMain  "{ 255 255 255 }" // default color
-    $colorClose "{ 35 125 235 }"
-    $colorGood  "{ 0 255 85 }"
+    $colorClose "{ 255 255 255 }"
+    $colorGood  "{ 255 255 255 }"
     $color      $colorMain
 }
