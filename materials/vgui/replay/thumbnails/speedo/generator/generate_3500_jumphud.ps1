@@ -15,7 +15,7 @@ $font = "Coolvetica_Italic_Mono.otf"
 $fontSize = 64
 $VTFSize = "256x64" # 128x32 for low res
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
-$folder = "numbers_soldier_hspeedo"
+$folder = "numbers"
 $imagesFolder = "$PSScriptRoot\$folder"  # Assuming the images are stored in a folder named "numbers" in the script's directory
 
 # Function to calculate the text color based on the number
@@ -26,23 +26,8 @@ function Get-TextColor {
     # lightness gradient formula:
     # startingBrightness +/- (($number - startingNumber) / (endingNumber - startingNumber) * (100-lowestBrightness))
     
-    if ($number -ge 0 -and $number -le 241) { # Soldier Walking Speed (0 - 240) | Grey
-        return "rgb(151, 151, 151)"  # White
-    }
-    elseif ($number -ge 242 -and $number -le 850) { # (242 - 850) | White
-        return "rgb(255, 255 ,255)"  # White
-    }
-    elseif ($number -ge 850 -and $number -le 1050) { # Close to rocket speed (850 - 1050) | Blue
-        return "rgb(81, 181, 182)" # Mid Highlight Colour
-    }
-    elseif ($number -ge 1051 -and $number -le 1150) { # Sweetspot rocket speed (1051-1150) | Green
-        return "rgb(56, 228, 176)" # Overheal Colour
-    }
-    elseif ($number -ge 1151 -and $number -le 1350) { # Close to rocket speed (1151-1350) | Blue
-        return "rgb(81, 181, 182)" # Mid Highlight Colour
-    }
-    elseif ($number -ge 1351 -and $number -le 3350) { # Above rocket speed | White
-        return "rgb(255, 255 ,255)"  # White
+    if ($number -ge 0 -and $number -le 3350) {
+        return "rgb(255, 255, 255)"  # White
     }
     elseif ($number -ge 3351 -and $number -le 3499) { # approaching max vel | Turning Orange
         # Calculate gradient color from white to green
@@ -84,7 +69,7 @@ for ($num = 0; $num -le $maxNumber; $num++) {
     # Display progress
     Write-Host -NoNewline "`rGenerating number $num with text color: $textColor"
     # Generate image
-    convert.exe -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity center -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
+    convert.exe -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity $VTFAlignment -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
     # Update progress bar
     $progress = ($num / $maxNumber) * 100
     Show-ProgressBar -PercentComplete $progress
@@ -101,6 +86,8 @@ Write-Host "Script completed."
 
 # Copy over specific images to prevent max run speed bouncing between values
 $numbersToCopy = @(
+    @{ Number = 280; Description = "demo forward" },
+    @{ Number = 252; Description = "demo backward" },
     @{ Number = 240; Description = "soldier forward" },
     @{ Number = 216; Description = "soldier backward" }
 )
