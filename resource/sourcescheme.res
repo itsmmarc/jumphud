@@ -116,12 +116,12 @@
 		// "dropshadow" if set to "1" will add a shadow around the text
 		// "antialias" if set to "1" will make the character edges smoother
 		//=========================================================================================================================
-		"DefaultFixedOutline"
+		"DefaultFixedOutline"   // cl_showpos & cl_showfps
 		{
 			"1"
 			{
 				"name"										"NK57 Monospace Sc Rg"
-				"Tall"										"10"
+				"Tall"										"18"
 				"outline"									"1"
 				"dropshadow"								"0"
 				"antialias"									"1"
