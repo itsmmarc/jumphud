@@ -1,4 +1,5 @@
+#base "../../../../../../../../cfg/jumphud/jh_bspeedo_v_overlay.txt" // overlay type
+#base overlay_v_minimal.vmt // default to minimal overlay
+
 "UnlitGeneric" {
-    $basetexture "vgui/replay/thumbnails/speedo/bar/overlay_v.vtf"
-    $translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
 }

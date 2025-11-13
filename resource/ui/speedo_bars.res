@@ -40,6 +40,14 @@
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/speedo/bar/vspeedo_overlay"
             }
+            "vspeedo_sweetspot" {
+                "controlName" "CTFImagePanel"
+                "xpos" "0"
+                "wide" "f0"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/speedo/bar/overlay_v_sweetspots"
+            }
             "vspeedo_background" {
                 "ControlName"								"EditablePanel"
                 "FieldName"									"vspeedo_background"
@@ -84,6 +92,14 @@
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/speedo/bar/hspeedo_overlay"
+            }
+            "hspeedo_sweetspot" {
+                "controlName" "CTFImagePanel"
+                "xpos" "0"
+                "wide" "f0"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/speedo/bar/overlay_h_sweetspots"
             }
             "hspeedo_background" {
                 "ControlName"								"EditablePanel"

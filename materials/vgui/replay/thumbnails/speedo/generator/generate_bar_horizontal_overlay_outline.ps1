@@ -1,5 +1,5 @@
 # Define parameters
-$name = "overlay_h"
+$name = "overlay_h_outline"
 $maxNumber = 350
 $backgroundColor = "Transparent"
 $VTFSize = "512x16"
@@ -37,12 +37,10 @@ Write-Host "Starting script..."
 
 $SHAPE_sideLine     = "rectangle $max,$top $maxB,$bottom"
 $SHAPE_sideLineL    = "rectangle 0,$top 1,$bottom"
-$SHAPE_topLINE      = "rectangle 0,0 $max,1"                # dis
-$SHAPE_botLINE      = "rectangle 0,$bottom $max,$bottomB"   # dis
-$SHAPE_900          = "rectangle $900,$top $900b,$bottom"
-$SHAPE_850          = "rectangle $850,$top $850b,$bottom"
+$SHAPE_topLINE      = "rectangle 0,0 $max,1"
+$SHAPE_botLINE      = "rectangle 0,$bottom $max,$bottomB"
 
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine -draw $SHAPE_900 -draw $SHAPE_850 "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine -draw $SHAPE_topLINE -draw $SHAPE_botLINE "$name.png"
 
 Write-Host "Script completed."
