@@ -19,7 +19,8 @@
                 "HUD_Resolution_Selection"			{Visible 0}
 				"HUD_Font_Primary_Selection"		{Visible 0}
                 "HUD_Font_Secondary_Selection"		{Visible 0}
-				"HUD_Miscellaneous_Selection"		{Visible 0}
+				"HUD_JumpSettings_Selection"		{Visible 0}
+                "HUD_TFSettings_Selection"		    {Visible 0}
 			}
 		}
 	}
