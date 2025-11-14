@@ -30,7 +30,7 @@
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/speedo/bar/vspeedo_bar"
-                "drawcolor" "Highlight_Color_Bright"
+                //"drawcolor" "Highlight_Color_Bright"
             }
             "vspeedo_overlay" {
                 "controlName" "CTFImagePanel"
@@ -83,7 +83,7 @@
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/speedo/bar/hspeedo_bar"
-                "drawcolor" "Highlight_Color_Bright"
+                //"drawcolor" "Highlight_Color_Bright"
             }
             "hspeedo_overlay" {
                 "controlName" "CTFImagePanel"
