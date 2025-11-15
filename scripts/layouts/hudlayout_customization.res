@@ -15,7 +15,8 @@
 				"HUD_Customization_Home_Panel"		{Visible 0}
                 "HUD_Speedos_Soldier_Selection"		{Visible 0}
                 "HUD_Speedos_Demo_Selection"		{Visible 0}
-                "HUD_Speedos_Other_Selection"		{Visible 0}
+                "HUD_Speedos_Bar_Selection"		    {Visible 0}
+                "HUD_Speedos_Graph_Selection"		{Visible 0}
                 "HUD_Crosshairs_Selection"			{Visible 0}
                 "HUD_Resolution_Selection"			{Visible 0}
 				"HUD_Font_Primary_Selection"		{Visible 0}

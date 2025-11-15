@@ -7,7 +7,7 @@
 		"XPos"											"cs-0.5"
 		"YPos"											"cs-0.5+15"
 		"Wide"											"600"
-		"Tall"											"302"
+		"Tall"											"326"
 		"ZPos"											"50"
 		"Visible"										"1"
 		"Enabled"										"1"
@@ -289,10 +289,10 @@
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
-            "Speedos_Other"
+            "Speedos_Bar"
 			{
 				"ControlName"							"CExButton"
-				"FieldName"								"Speedos_Other"
+				"FieldName"								"Speedos_Bar"
 				"XPos"									"0"
 				"YPos"									"2"
 				"ZPos"									"20"
@@ -302,10 +302,10 @@
 				"Enabled"								"1"
 				"ProportionalToParent"					"1"
 				"AllCaps"								"1"
-				"LabelText"								"Other Speedos"
+				"LabelText"								"Bar Speedos"
 				"Font"									"Menu_Small"
 				"TextAlignment"							"east"
-				"Command"								"engine jh_custom_speedos_other; hud_reloadscheme"
+				"Command"								"engine jh_custom_speedos_bar; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
@@ -313,6 +313,33 @@
                 
 
 				"Pin_To_Sibling"						"Speedos_Demo"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+            "Speedos_Graph"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Speedos_Graph"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Graph Speedos"
+				"Font"									"Menu_Small"
+				"TextAlignment"							"east"
+				"Command"								"engine jh_custom_speedos_graph; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
+				"Pin_To_Sibling"						"Speedos_Bar"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
@@ -339,7 +366,7 @@
                 "DefaultBGColor_Override"				"Background_Dark"
                 
 
-				"Pin_To_Sibling"						"Speedos_Other"
+				"Pin_To_Sibling"						"Speedos_Graph"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}

@@ -4,10 +4,10 @@
 	{
 		"Customizations_Panel"
 		{
-			"HUD_Speedos_Other_Selection"
+			"HUD_Speedos_Bar_Selection"
 			{
 				"ControlName"							"CScrollableList"
-				"FieldName"								"HUD_Speedos_Other_Selection"
+				"FieldName"								"HUD_Speedos_Bar_Selection"
 				"XPos"									"cs-0.5"
 				"YPos"									"cs-0.5"
 				"ZPos"									"0"

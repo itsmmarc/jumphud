@@ -14,9 +14,14 @@
 #base "hud_customization_speedos_demo.res"
 
 //==============================================================
-// OTHER SPEEDOS
+// BAR SPEEDOS
 //==============================================================
-#base "hud_customization_speedos_other.res"
+#base "hud_customization_speedos_bar.res"
+
+//==============================================================
+// GRAPH SPEEDOS
+//==============================================================
+#base "hud_customization_speedos_graph.res"
 
 //==============================================================
 // HUD CROSSHAIRS
