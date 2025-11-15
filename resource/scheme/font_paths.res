@@ -69,8 +69,8 @@ Scheme
 		}
         "23"
 		{
-			"Font"		"resource/scheme/fonts/optional/Roboto-SemiBold.ttf"
-			"name"		"Roboto SemiBold"
+			"Font"		"resource/scheme/fonts/optional/Roboto-Black.ttf"
+			"name"		"Roboto Black"
 		}
         //icon fonts
         "101"
