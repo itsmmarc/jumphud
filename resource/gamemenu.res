@@ -162,6 +162,13 @@
 		"tooltip"									"Toggle Bar Speedos"
 		"OnlyInGame"								"1"
     }
+    "GraphSpeedos"
+    {
+        "label"										"7"
+		"Command"									"engine jh_gspeedos_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Speed Graphs"
+		"OnlyInGame"								"1"
+    }
     "Toggle_HUDMessage"
     {
         "label"										"E"
