@@ -130,6 +130,15 @@
 				"antialias"									"1"
 			}
 		}
+        "Showcase_Roboto"
+		{
+			"1"
+			{
+				"name"										"Roboto SemiBold"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
 		"Showcase_TF2"
 		{
 			"1"
