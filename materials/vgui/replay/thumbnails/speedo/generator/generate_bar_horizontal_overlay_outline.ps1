@@ -41,6 +41,6 @@ $SHAPE_topLINE      = "rectangle 0,0 $max,1"
 $SHAPE_botLINE      = "rectangle 0,$bottom $max,$bottomB"
 
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine -draw $SHAPE_topLINE -draw $SHAPE_botLINE "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine -draw $SHAPE_topLINE -draw $SHAPE_botLINE "$name.png"
 
 Write-Host "Script completed."

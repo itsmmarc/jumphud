@@ -39,6 +39,6 @@ $SHAPE_sideLine     = "rectangle $max,$top $maxB,$bottom"
 $SHAPE_sideLineL    = "rectangle 0,$top 1,$bottom"
 
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white -draw $SHAPE_sideLineL -draw $SHAPE_sideLine "$name.png"
 
 Write-Host "Script completed."

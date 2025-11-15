@@ -39,6 +39,6 @@ $SHAPE_900          = "rectangle $900,$top $900b,$bottom"
 $SHAPE_850          = "rectangle $850,$top $850b,$bottom"
 
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_900 -draw $SHAPE_850 "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white -draw $SHAPE_900 -draw $SHAPE_850 "$name.png"
 
 Write-Host "Script completed."

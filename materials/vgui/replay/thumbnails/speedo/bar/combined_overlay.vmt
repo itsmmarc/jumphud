@@ -1,0 +1,5 @@
+#base "../../../../../../../../cfg/jumphud/jh_barspeedo_c_overlay.txt" // overlay type
+#base overlay_c_minimal.vmt // default to minimal overlay
+
+"UnlitGeneric" {
+}

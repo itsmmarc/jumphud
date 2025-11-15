@@ -35,6 +35,6 @@ $SHAPE_topLINE      = "rectangle 0,$max $end,$maxB"
 $SHAPE_botLINE      = "rectangle 0,$bottom $end,$bottomB"
 
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor -fill white -draw $SHAPE_topLine -draw $SHAPE_botLINE "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white -draw $SHAPE_topLine -draw $SHAPE_botLINE "$name.png"
 
 Write-Host "Script completed."

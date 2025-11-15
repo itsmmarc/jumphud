@@ -34,6 +34,6 @@ Write-Host "Starting script..."
 $SHAPE_1100         = "rectangle 0,$1100 $end,$1100B"
 
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor -fill white  -draw $SHAPE_1100 "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white  -draw $SHAPE_1100 "$name.png"
 
 Write-Host "Script completed."
