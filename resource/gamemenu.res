@@ -137,21 +137,21 @@
     "SoldierSpeedo"
     {
         "label"										"7"
-		"Command"									"engine jh_speedo_soldier_enable; hud_reloadscheme"
-		"tooltip"									"Enable Soldier Speedo"
+		"Command"									"engine jh_speedo_s_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Soldier Speedos"
 		"OnlyInGame"								"1"
     }
     "DemoSpeedo"
     {
         "label"										"7"
-		"Command"									"engine jh_speedo_demo_enable; hud_reloadscheme"
-		"tooltip"									"Enable Demo Speedos"
+		"Command"									"engine jh_speedo_d_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Demo Speedos"
 		"OnlyInGame"								"1"
     }
     "SpeedosOff"
     {
         "label"										"2"
-		"Command"									"engine jh_speedos_clear; hud_reloadscheme"
+		"Command"									"engine jh_speedos_off; hud_reloadscheme"
 		"tooltip"									"Disable HUD Speedos"
 		"OnlyInGame"								"1"
     }
