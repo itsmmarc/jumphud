@@ -329,7 +329,7 @@
 				"Enabled"								"1"
 				"ProportionalToParent"					"1"
 				"AllCaps"								"1"
-				"LabelText"								"Graph Speedos"
+				"LabelText"								"Speed Graphs"
 				"Font"									"Menu_Small"
 				"TextAlignment"							"east"
 				"Command"								"engine jh_custom_speedos_graph; hud_reloadscheme"
