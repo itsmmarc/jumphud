@@ -9,5 +9,17 @@
 //#base "../../../../cfg/jumphud/jh_color_bspeedo_h.txt"
 //#base "../../../../cfg/jumphud/jh_color_bspeedo_v.txt"
 
-// BASE SPEEDO BARS
-#base speedograph_v_line.res
+// GRAPHS LAYOUT
+#base speedograph_layout_vertical.res
+#base speedograph_layout_bottom.res
+
+// GRAPHS POSITION
+#base speeodgraph_position_bottomright.res
+
+// BASE GRAPHS
+#base speedograph_h.res
+#base speedograph_v.res
+#base speedograph_a.res
+
+// GRAPH CONTAINER
+#base speedograph_base.res
