@@ -10,4 +10,4 @@
 //#base "../../../../cfg/jumphud/jh_color_bspeedo_v.txt"
 
 // BASE SPEEDO BARS
-#base speedograph_h_line.res
+#base speedograph_v_line.res

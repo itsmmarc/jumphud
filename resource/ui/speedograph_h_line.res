@@ -33,7 +33,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"rs1"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph00"
 			"proportionaltoparent"	"1"
@@ -46,7 +46,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph01"
 			"visible"		"1"
@@ -62,7 +62,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph02"
 			"visible"		"1"
@@ -76,7 +76,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph03"
 			"visible"		"1"
@@ -90,7 +90,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph04"
 			"visible"		"1"
@@ -104,7 +104,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph05"
 			"visible"		"1"
@@ -118,7 +118,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph06"
 			"visible"		"1"
@@ -132,7 +132,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph07"
 			"visible"		"1"
@@ -146,7 +146,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph08"
 			"visible"		"1"
@@ -160,7 +160,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph09"
 			"visible"		"1"
@@ -174,7 +174,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph10"
 			"visible"		"1"
@@ -188,7 +188,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph11"
 			"visible"		"1"
@@ -202,7 +202,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph12"
 			"visible"		"1"
@@ -216,7 +216,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph13"
 			"visible"		"1"
@@ -230,7 +230,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph14"
 			"visible"		"1"
@@ -244,7 +244,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph15"
 			"visible"		"1"
@@ -258,7 +258,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph16"
 			"visible"		"1"
@@ -272,7 +272,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph17"
 			"visible"		"1"
@@ -286,7 +286,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph18"
 			"visible"		"1"
@@ -300,7 +300,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph19"
 			"visible"		"1"
@@ -314,7 +314,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph20"
 			"visible"		"1"
@@ -328,7 +328,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph21"
 			"visible"		"1"
@@ -342,7 +342,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph22"
 			"visible"		"1"
@@ -356,7 +356,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph23"
 			"visible"		"1"
@@ -370,7 +370,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph24"
 			"visible"		"1"
@@ -384,7 +384,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph25"
 			"visible"		"1"
@@ -398,7 +398,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph26"
 			"visible"		"1"
@@ -412,7 +412,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph27"
 			"visible"		"1"
@@ -426,7 +426,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph28"
 			"visible"		"1"
@@ -440,7 +440,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph29"
 			"visible"		"1"
@@ -454,7 +454,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph30"
 			"visible"		"1"
@@ -468,7 +468,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph31"
 			"visible"		"1"
@@ -482,7 +482,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph32"
 			"visible"		"1"
@@ -496,7 +496,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph33"
 			"visible"		"1"
@@ -510,7 +510,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph34"
 			"visible"		"1"
@@ -524,7 +524,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph35"
 			"visible"		"1"
@@ -538,7 +538,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph36"
 			"visible"		"1"
@@ -552,7 +552,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph37"
 			"visible"		"1"
@@ -566,7 +566,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph38"
 			"visible"		"1"
@@ -580,7 +580,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph39"
 			"visible"		"1"
@@ -594,7 +594,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"xpos"			"0"
-			"wide"			"1"
+			"wide"			"p0.027"
 			"tall"			"f0"
 			"image"			"replay/thumbnails/speedo/hspeedograph_line/graph40"
 			"visible"		"1"
