@@ -10,16 +10,16 @@
 //#base "../../../../cfg/jumphud/jh_color_bspeedo_v.txt"
 
 // GRAPHS LAYOUT
-#base speedograph_layout_vertical.res
-#base speedograph_layout_bottom.res
+#base customizations/speedograph/speedograph_layout_vertical.res
+#base customizations/speedograph/speedograph_layout_bottom.res
 
 // GRAPHS POSITION
-#base speeodgraph_position_bottomright.res
+#base customizations/speedograph/speeodgraph_position_bottomright.res
 
 // BASE GRAPHS
-#base speedograph_h.res
-#base speedograph_v.res
-#base speedograph_a.res
+#base customizations/speedograph/speedograph_h.res
+#base customizations/speedograph/speedograph_v.res
+#base customizations/speedograph/speedograph_a.res
 
 // GRAPH CONTAINER
-#base speedograph_base.res
+#base customizations/speedograph/speedograph_base.res
