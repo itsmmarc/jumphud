@@ -14,6 +14,9 @@
 #base customizations/speedograph/speedograph_layout_bottom.res
 
 // GRAPHS POSITION
+#base ../../../../cfg/jumphud/jh_speedograph_position.txt
+
+// DEFAULT CONFIGURATION
 #base customizations/speedograph/speeodgraph_position_bottomright.res
 
 // BASE GRAPHS
@@ -21,5 +24,5 @@
 #base customizations/speedograph/speedograph_v.res
 #base customizations/speedograph/speedograph_a.res
 
-// GRAPH CONTAINER
+// GRAPHS CONTAINER
 #base customizations/speedograph/speedograph_base.res
