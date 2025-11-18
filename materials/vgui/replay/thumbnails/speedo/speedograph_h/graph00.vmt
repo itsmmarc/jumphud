@@ -78,7 +78,6 @@
     //==============================================================  
     $colorSpeed 0
     $colorSpeed 0
-    $colorMain  "{ 255 255 255 }" // default color
     $color      $colorMain
 
 
