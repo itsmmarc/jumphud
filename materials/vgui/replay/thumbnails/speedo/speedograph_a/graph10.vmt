@@ -206,6 +206,13 @@
 			resultVar	"$translate[1]"
 		}
 
+        Divide
+        {
+            srcVar1 "$bucket10"
+            srcVar2 "$speedScale"
+            resultVar   "$colorSpeed"
+        }
+
 		TextureTransform
 		{
 			centerVar		"$center"

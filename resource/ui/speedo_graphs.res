@@ -1,6 +1,6 @@
 // SWEETSPOTS
 //#base "../../../../cfg/jumphud/jh_barspeedo_sweetspots.txt"
-#base speedograph_color.res
+
 // SPEEDO VISIBILITY
 #base "../../../../cfg/jumphud/jh_gspeedo_h_visibility.txt"
 #base "../../../../cfg/jumphud/jh_gspeedo_v_visibility.txt"
