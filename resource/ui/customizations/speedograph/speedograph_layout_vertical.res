@@ -4,17 +4,17 @@
         wide    60
         tall    180
 
-        "SpeedoGraph_V"{
+        "SpeedoGraph_H"{
             ypos    0
             wide    f0
             tall    p0.32
         }
-        "SpeedoGraph_H"{
+        "SpeedoGraph_V"{
             ypos    cs-0.5
             wide    f0
             tall    p0.32
         }
-    "SpeedoGraph_A"{
+        "SpeedoGraph_A"{
             ypos    rs1
             wide    f0
             tall    p0.32
