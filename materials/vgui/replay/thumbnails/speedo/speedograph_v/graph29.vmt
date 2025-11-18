@@ -1,6 +1,13 @@
 //SpeedoGraph by VillageGreenPreserver
 //https://github.com/VillageGreenPreserver/SpeedoGraph
-#base ../speedograph_textures/graph_type.vmt"UnlitGeneric"
+#base ../speedograph_textures/graph_type.vmt
+#base ../constants/constantNumbers.vmt
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_v_clrtype.txt"
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_main.txt"
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_close.txt"
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_good.txt"
+#base ../colors/speedo_colors_default.vmt
+"UnlitGeneric"
 {
 	
 	//==============================================================
