@@ -2,6 +2,7 @@
 //https://github.com/VillageGreenPreserver/SpeedoGraph
 #base ../speedograph_textures/graph_type.vmt
 #base ../constants/constantNumbers.vmt
+#base ../colors/ranges/hspeedo_demo.vmt
 #base "../../../../../../../cfg/jumphud/jh_gspeedo_h_clrtype.txt"
 #base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_main.txt"
 #base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_close.txt"
@@ -80,20 +81,6 @@
     $colorMain  "{ 255 255 255 }" // default color
     $color      $colorMain
 
-    //==============================================================
-    // RANGES
-    //--------------------------------------------------------------
-    // close range
-    $closeMin 849
-    $closeMax 1050
-
-    // good range
-    $goodMin 1049
-    $goodMax 1150
-
-    // above range
-    $closeMinB 1149
-    $closeMaxB 1350
 
     //==============================================================
     // CONDITIONALS
