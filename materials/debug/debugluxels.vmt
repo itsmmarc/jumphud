@@ -1,0 +1,7 @@
+#base "../../../cfg/jumphud/jh_luxels.txt"
+#base debugluxels_default.vmt
+
+DebugLuxels
+{
+    $translucent 1
+}

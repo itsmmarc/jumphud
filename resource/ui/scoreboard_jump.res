@@ -408,10 +408,28 @@
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
-    "HorizontalLine"    // neutral colour
+    "HorizontalLine"    // disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"HorizontalLine"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"2"
+		"Wide"										"p1.01"
+		"Tall"										"1"
+		"Visible"									"0" // invisible
+		"Enabled"									"1"
+		"fillcolor"									"87 108 108 200"
+		"PaintBackgroundType"						"1"
+
+		"Pin_To_Sibling"							"ShadedBar"
+		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+	}
+    "HorizontalLine_Jump"    // neutral colour
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"HorizontalLine_Jump"
 		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"2"

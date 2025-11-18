@@ -14,6 +14,16 @@
 #base "hud_customization_speedos_demo.res"
 
 //==============================================================
+// BAR SPEEDOS
+//==============================================================
+#base "hud_customization_speedos_bar.res"
+
+//==============================================================
+// GRAPH SPEEDOS
+//==============================================================
+#base "hud_customization_speedos_graph.res"
+
+//==============================================================
 // HUD CROSSHAIRS
 //==============================================================
 #base "hud_customization_crosshairs.res"
@@ -34,9 +44,14 @@
 #base "hud_customization_fonts_secondary.res"
 
 //==============================================================
-// MISCELLANEOUS
+// JUMP SETTINGS
 //==============================================================
-#base "hud_customization_miscellaneous.res"
+#base "hud_customization_jumpsettings.res"
+
+//==============================================================
+// TF2 SETTINGS
+//==============================================================
+#base "hud_customization_tfsettings.res"
 
 //==============================================================
 // FOLDER NAME MESSAGE

@@ -691,6 +691,16 @@
         //=====================================
         // Hypnotize Icons V8
         //=====================================
+            "HypnotizeIcons18"
+            {
+                "1"
+                {
+                    "name"										"Hypnotize Icons V8"
+                    "tall"										"18" [$WINDOWS]
+                    "tall"										"15" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
             "HypnotizeIcons56"
             {
                 "1"

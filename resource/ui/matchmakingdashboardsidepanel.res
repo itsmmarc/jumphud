@@ -30,9 +30,9 @@
 
 		"YPos"										"0"
 		"ZPos"										"10000"
-		"Wide"										"14"
+		"Wide"										"0"
 		"Tall"										"f3"
-		"Visible"									"1"
+		"Visible"									"0"
 		"ProportionalToParent"						"1"
 		"Command"									"nav_to"
 		"LabelText"									">"

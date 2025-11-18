@@ -5,7 +5,7 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"JUMPHUD v2.2.4"
+		"label"										"JUMPHUD v2.3.0"
 		"Command"									"engine showconsole; exec jumphud_versioninfo"
 		"OnlyAtMenu"								"1"
 	}
@@ -137,36 +137,50 @@
     "SoldierSpeedo"
     {
         "label"										"7"
-		"Command"									"engine jh_speedo_soldier_enable; hud_reloadscheme"
-		"tooltip"									"Enable Soldier Speedo"
+		"Command"									"engine jh_speedo_s_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Soldier Speedos"
 		"OnlyInGame"								"1"
     }
     "DemoSpeedo"
     {
         "label"										"7"
-		"Command"									"engine jh_speedo_demo_enable; hud_reloadscheme"
-		"tooltip"									"Enable Demo Speedos"
+		"Command"									"engine jh_speedo_d_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Demo Speedos"
 		"OnlyInGame"								"1"
     }
     "SpeedosOff"
     {
         "label"										"2"
-		"Command"									"engine jh_speedos_clear; hud_reloadscheme"
+		"Command"									"engine jh_speedos_off; hud_reloadscheme"
 		"tooltip"									"Disable HUD Speedos"
+		"OnlyInGame"								"1"
+    }
+    "BarSpeedos"
+    {
+        "label"										"7"
+		"Command"									"engine jh_bspeedos_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Bar Speedos"
+		"OnlyInGame"								"1"
+    }
+    "GraphSpeedos"
+    {
+        "label"										"7"
+		"Command"									"engine jh_gspeedos_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Speed Graphs"
 		"OnlyInGame"								"1"
     }
     "Toggle_HUDMessage"
     {
         "label"										"E"
-		"Command"									"engine hudmessage_toggle; hud_reloadscheme"
+		"Command"									"engine jh_hudmessage_toggle; hud_reloadscheme"
 		"tooltip"									"Toggle Map Text Pop-Ups"
 		"OnlyInGame"								"1"
     }
-    "FullBright"
+    "Luxels"
 	{
-		"label"										"?"
-		"Command"									"engine toggle mat_fullbright"
-		"tooltip"									"Toggle Full Bright"
+		"label"										"@"
+		"Command"									"engine toggle mat_luxels"
+		"tooltip"									"Toggle Luxels"
 		"OnlyInGame"								"1"
 	}
     "ShowTriggers"
@@ -209,6 +223,13 @@
 		"label"										"7"
 		"Command"									"engine toggle_tempus_aspeedo"
 		"tooltip"									"Toggle Absolute Speedo"
+		"OnlyInGame"								"1"
+	}
+    "FullBright"
+	{
+		"label"										"?"
+		"Command"									"engine toggle mat_fullbright"
+		"tooltip"									"Toggle Full Bright"
 		"OnlyInGame"								"1"
 	}
     "ToggleMinmode"

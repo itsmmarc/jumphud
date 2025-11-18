@@ -79,6 +79,14 @@
                 "Enabled"								"0"
             }
         }
+        "Luxels"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
         "ShowTriggers"
         {
             "SubButton"
@@ -128,6 +136,14 @@
             }
         }
         "SpeedosOff"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "BarSpeedos"
         {
             "SubButton"
             {

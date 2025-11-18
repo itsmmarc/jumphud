@@ -121,6 +121,24 @@
 				"antialias"									"1"
 			}
 		}
+        "Showcase_Eternal"
+		{
+			"1"
+			{
+				"name"										"Eternal UI Regular"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
+        "Showcase_Roboto"
+		{
+			"1"
+			{
+				"name"										"Roboto Black"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
 		"Showcase_TF2"
 		{
 			"1"

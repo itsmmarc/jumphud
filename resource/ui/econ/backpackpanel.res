@@ -1,5 +1,5 @@
 #base "../../dev/reload_scheme.res"
-#base "../inventorybackground_base.res"
+#base "../inventorybackground.res"
 
 "Resource/UI/Econ/BackPackPanel.res"
 {
