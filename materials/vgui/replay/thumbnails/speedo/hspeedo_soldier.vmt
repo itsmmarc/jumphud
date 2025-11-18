@@ -6,6 +6,7 @@
 //==============================================================
 // COLORS
 //--------------------------------------------------------------
+#base colors/ranges/hspeedo_soldier.vmt
 #base "../../../../../../../cfg/jumphud/jh_speedo_s_h_clrtype.txt"
 #base "../../../../../../../cfg/jumphud/jh_speedo_s_dynclr_main.txt"
 #base "../../../../../../../cfg/jumphud/jh_speedo_s_dynclr_close.txt"
