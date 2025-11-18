@@ -7,8 +7,9 @@
 #base "../../../../cfg/jumphud/jh_gspeedo_a_visibility.txt"
 
 // SPEEDO COLORS
-//#base "../../../../cfg/jumphud/jh_color_bspeedo_h.txt"
-//#base "../../../../cfg/jumphud/jh_color_bspeedo_v.txt"
+#base "../../../../cfg/jumphud/jh_color_gspeedo_h.txt"
+#base "../../../../cfg/jumphud/jh_color_gspeedo_v.txt"
+#base "../../../../cfg/jumphud/jh_color_gspeedo_a.txt"
 
 // GRAPHS LAYOUT
 #base ../../../../cfg/jumphud/jh_speedograph_layout_orientation.txt
