@@ -155,14 +155,14 @@
         // if(speed>closeMin && speed<closeMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$colorSpeed"
             srcVar2         "$closeMin"
             resultVar       "$isAboveCloseMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$colorSpeed"
             srcVar2         "$closeMax"
             resultVar       "$isBelowCloseMax"
             greaterVar      "$0"
@@ -186,14 +186,14 @@
         // if(speed>goodMin && speed<goodMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$colorSpeed"
             srcVar2         "$goodMin"
             resultVar       "$isAboveGoodMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$colorSpeed"
             srcVar2         "$goodMax"
             resultVar       "$isBelowGoodMax"
             greaterVar      "$0"
@@ -217,14 +217,14 @@
         // if(speed>aboveMin && speed<aboveMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$colorSpeed"
             srcVar2         "$closeMinB"
             resultVar       "$isAboveCloseMinB"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$colorSpeed"
             srcVar2         "$closeMaxB"
             resultVar       "$isBelowCloseMaxB"
             greaterVar      "$0"
