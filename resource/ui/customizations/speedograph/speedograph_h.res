@@ -11,8 +11,6 @@
 
             "xpos"				"0"
             "ypos"				"rs1"
-            "wide"				"p0.3"
-            "tall"				"p0.3"
             "proportionaltoparent"	"1"
 
             "bgcolor_override"	"0 0 0 100"

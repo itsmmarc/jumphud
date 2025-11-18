@@ -10,14 +10,14 @@
 //#base "../../../../cfg/jumphud/jh_color_bspeedo_v.txt"
 
 // GRAPHS LAYOUT
-#base customizations/speedograph/speedograph_layout_vertical.res
-#base customizations/speedograph/speedograph_layout_bottom.res
+#base ../../../../cfg/jumphud/jh_speedograph_layout_orientation.txt
 
 // GRAPHS POSITION
 #base ../../../../cfg/jumphud/jh_speedograph_position.txt
 
 // DEFAULT CONFIGURATION
-#base customizations/speedograph/speeodgraph_position_bottomright.res
+#base customizations/speedograph/speedograph_layout_vertical.res
+#base customizations/speedograph/speedograph_position_bottomright.res
 
 // BASE GRAPHS
 #base customizations/speedograph/speedograph_h.res

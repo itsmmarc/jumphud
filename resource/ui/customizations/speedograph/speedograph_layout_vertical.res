@@ -1,17 +1,23 @@
-//#base speedograph_layout_left.res
-#base speedograph_layout_right.res // default to right
-
 "speedo_base.res"{
     "SpeedoGraphs"
     {
+        wide    60
+        tall    180
+
         "SpeedoGraph_V"{
-            ypos 0
+            ypos    0
+            wide    f0
+            tall    p0.3
         }
         "SpeedoGraph_H"{
-            ypos cs-0.5
+            ypos    cs-0.5
+            wide    f0
+            tall    p0.3
         }
-        "SpeedoGraph_A"{
-            ypos rs1
+    "SpeedoGraph_A"{
+            ypos    rs1
+            wide    f0
+            tall    p0.3
         }
     }
 }
