@@ -15,6 +15,23 @@
 
             "bgcolor_override"	"0 0 0 100"
             
+            graphlabel{
+                controlname label 
+
+                labeltext V
+                font ingame_small 
+
+                textinsetx 6 
+                textinsety 1 
+                wide f0 
+                tall p0.15 
+                proportionaltoparent 1 
+
+                fgcolor_override transparentlightestwhite 
+                paintBackground 1 
+                bgcolor_override transparentlightestblack
+            }
+
             "graph00"
             {
                 "ControlName"	"ScalableImagePanel"
@@ -23,9 +40,6 @@
                 "tall"			"f0"
                 "image"			"replay/thumbnails/speedo/speedograph_v/graph00"
                 "proportionaltoparent"	"1"
-
-                "drawcolor"		"255 0 0 255"
-                "alpha"			"255"
             }
             
             "graph01"
@@ -37,8 +51,6 @@
                 "image"			"replay/thumbnails/speedo/speedograph_v/graph01"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
-
-                "drawcolor"		"255 255 255 255"
 
                 "pin_to_sibling"			"graph00"
                 "pin_corner_to_sibling"		"1"
