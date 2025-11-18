@@ -19,7 +19,7 @@
 
 // DEFAULT CONFIGURATION
 #base customizations/speedograph/speedograph_layout_vertical.res
-#base customizations/speedograph/speedograph_position_bottomright.res
+#base customizations/speedograph/speedograph_position_bottomleft.res
 
 // BASE GRAPHS
 #base customizations/speedograph/speedograph_h.res
