@@ -10,6 +10,7 @@
 //==============================================================
 // COLORS
 //--------------------------------------------------------------
+#base ../colors/ranges/vspeedo_demo.vmt
 #base "../../../../../../../cfg/jumphud/jh_bspeedo_v_clrtype.txt"
 #base "../../../../../../../cfg/jumphud/jh_bspeedo_dynclr_main.txt"
 #base "../../../../../../../cfg/jumphud/jh_bspeedo_dynclr_close.txt"
