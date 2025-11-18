@@ -7,17 +7,17 @@
         "SpeedoGraph_V"{
             ypos    0
             wide    f0
-            tall    p0.3
+            tall    p0.32
         }
         "SpeedoGraph_H"{
             ypos    cs-0.5
             wide    f0
-            tall    p0.3
+            tall    p0.32
         }
     "SpeedoGraph_A"{
             ypos    rs1
             wide    f0
-            tall    p0.3
+            tall    p0.32
         }
     }
 }

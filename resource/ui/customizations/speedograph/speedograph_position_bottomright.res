@@ -1,7 +1,7 @@
 "speedo_base.res"{
     "SpeedoGraphs"
     {
-        xpos    rs1-10
-        ypos    rs1-10
+        xpos    rs1-5
+        ypos    rs1-5
     }
 }

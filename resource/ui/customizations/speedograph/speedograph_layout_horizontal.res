@@ -6,17 +6,17 @@
 
         "SpeedoGraph_V"{
             xpos    0
-            wide    p0.3
+            wide    p0.32
             tall    f0
         }
         "SpeedoGraph_H"{
             xpos    cs-0.5
-            wide    p0.3
+            wide    p0.32
             tall    f0
         }
     "SpeedoGraph_A"{
             xpos    rs1
-            wide    p0.3
+            wide    p0.32
             tall    f0
         }
     }
