@@ -1,7 +1,8 @@
 //==============================================================
 // TEXTURE
 //--------------------------------------------------------------
-#base fonts/coolvetica_italic/numbers.vmt
+#base "../../../../../../../cfg/jumphud/jh_font_speedo.txt"
+#base fonts/coolvetica_italic/numbers.vmt   // default
 
 //==============================================================
 // COLORS
