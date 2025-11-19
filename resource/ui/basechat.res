@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"HudChat"
-		"XPos"										"2"
+		"XPos"										"5"
 		"YPos"										"17"
 		"ZPos"										"9"
 		"Wide"										"260"
@@ -13,6 +13,9 @@
 		"Enabled"									"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"2"
+        "paintborder"			"0"
+		"border"				"NoBorder"
+        "RoundedCorners"                            "0"
 		"BGColor_Override"							"Black"
 	}
 
@@ -75,6 +78,8 @@
 		"maxchars"									"-1"
 		"ProportionalToParent"						"1"
 		"PaintBackgroundType"						"2"
-		"RoundedCorners"							"3"
+        "paintborder"			"0"
+		"border"				"NoBorder"
+        "RoundedCorners"                            "0"
 	}
 }

@@ -32,7 +32,7 @@
 					"Slider"
 					{
 						"PaintBackgroundType"			"0"
-						"FGColor_Override"				"Gray"
+						"FGColor_Override"				"ScrollBar"
 					}
 
 					"nobuttons"							"1"

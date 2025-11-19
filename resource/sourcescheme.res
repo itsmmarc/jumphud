@@ -57,12 +57,12 @@
 
 		"SS_Option_Disabled"								"150 152 154 255"
 
-		"SS_ScrollBar"										"240 240 240 240"
-		"SS_ScrollBar_BG"									"18 15 14 200"
-		"SS_ScrollBar_Button_Icon"							"255 255 255 255"   // scroll up and scroll down arrows
-		"SS_ScrollBar_Button_Icon_Armed"					"255 255 255 255"   // scroll up and scroll down arrows armed
-		"SS_ScrollBar_Button_BG"							"18 15 14 255"
-		"SS_ScrollBar_Button_BG_Armed"						"81 181 182 255"    // scroll up and scroll down arrows bg
+		"SS_ScrollBar"										"255 255 255 50"
+		"SS_ScrollBar_BG"									"0 0 0 0"   // def "18 15 14 200"      
+		"SS_ScrollBar_Button_Icon"							"0 0 0 0"   // def "255 255 255 255"   // scroll up and scroll down arrows
+		"SS_ScrollBar_Button_Icon_Armed"					"0 0 0 0"   // def "255 255 255 255"   // scroll up and scroll down arrows armed
+		"SS_ScrollBar_Button_BG"							"0 0 0 0"   // def "18 15 14 255"   
+		"SS_ScrollBar_Button_BG_Armed"						"0 0 0 0"   // def "81 181 182 255"     // scroll up and scroll down arrows bg
 
 		"SS_Text_Entry"										"255 255 255 255"   // text box text
 		"SS_Text_Entry_Selected"							"18 15 14 255"      // text box highlighted text

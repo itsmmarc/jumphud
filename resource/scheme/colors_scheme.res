@@ -6,6 +6,8 @@
         "Highlight_Color_Bright"        					"98 219 220 255"
         "Highlight_Color_Mid"           					"81 181 182 255"
         "Highlight_Color_Dark"          					"58 130 131 255"
+
+        "ScrollBar" "255 255 255 50"
 		//==================================================================================
 		// COLOR CUSTOMIZATION
 		//==================================================================================
@@ -438,7 +440,7 @@
 		"RichText.SelectedTextColor"						"Black"
 		"RichText.SelectedBGColor"							"Gray"
 
-		"ScrollBar.Wide"									"10"
+		"ScrollBar.Wide"									"8"
 		"ScrollBarButton.FGColor"							"Blank"
 		"ScrollBarButton.BGColor"							"Blank"
 		"ScrollBarButton.ArmedFGColor"						"Blank"
@@ -446,7 +448,7 @@
 		"ScrollBarButton.DepressedFGColor"					"Blank"
 		"ScrollBarButton.DepressedBGColor"					"Blank"
 
-		"ScrollBarSlider.FGColor"							"Gray"
+		"ScrollBarSlider.FGColor"							"ScrollBar"
 		"ScrollBarSlider.BGColor"							"Blank"
 
 		"SectionedListPanel.HeaderTextColor"				"White"

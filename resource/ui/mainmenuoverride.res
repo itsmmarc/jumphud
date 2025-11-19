@@ -2121,7 +2121,7 @@
 
                         "Slider"
                         {
-                            "FGColor_Override"			"White"
+                            "FGColor_Override"			"ScrollBar"
                         }
                     }
                 }
