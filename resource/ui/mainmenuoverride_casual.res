@@ -151,6 +151,14 @@
                 "Enabled"								"0"
             }
         }
+        "GraphSpeedos"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
         "Toggle_HUDMessage"
         {
             "SubButton"
