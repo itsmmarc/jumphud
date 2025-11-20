@@ -2070,7 +2070,7 @@
                     "Enabled"							"1"
                     "ProportionalToParent"				"1"
                     "Use_Proportional_Insets"			"1"
-                    "Font"								"HudFontSmallBold"
+                    "Font"								"Menu_Small"
                     "LabelText"							"#TF_Competitive_Friends"
                     "TextAlignment"						"west"
                     "TextInsetX"						"3"
