@@ -1,56 +1,8 @@
 "UnlitGeneric" {
     //==============================================================
-    // CONSTANTS
-    //==============================================================
-    "$0" 0.0
-	"$0.1" 0.1
-	"$0.5" 0.5
-	"$1" 1.0
-	"$10" 10.0
-	"$100" 100.0
-	"$1000" 1000.0
-
-    //==============================================================
     // SPEEDO CALCULATION VARIABLES
     //==============================================================
-	"$pos" "[0.0 0.0 0.0]"
-	"$x" 0.0 "$prev_x" 0.0 "$dx" 0.0 "$dxs" 0.0
-	"$y" 0.0 "$prev_y" 0.0 "$dy" 0.0 "$dys" 0.0
-	"$z" 0.0 "$prev_z" 0.0 "$dz" 0.0
-	
-	"$t" 0.0 "$prev_t" 0.0 "$dt" 0.0
-	"$v" 0.0 "$prev_v" 0.0 "$dv" 0.0
-	
-	"$timer" 0.0
-	"$total_dist" 0.0
-	
-	"$speedo" 0.0
-	"$speedo_value" 0.0
-	
-	"$prev_timer" 0.0
-	"$prev_total_dist" 0.0
-	
-	"$dist" 0.0
-	"$number" 0.0
-	"$sqrt" 0.0
-	
-	"$timer_delay" 0.1
-	
-	"$tmp" 0.0
-	
-	"$eps" 0.001953125
-	
 	"$value" 0.0
-	
-	"$frame_empty" 10.0
-	"$frame_minus" 11.0
-
-    //==============================================================
-    // ROUNDING VARIABLES
-    //==============================================================
-    $roundAmount        10
-    $mapTime            0
-    $mapTimeThreshold   7200    // 2 hours
 
     //==============================================================
     // COLOR VARIABLES
@@ -60,23 +12,17 @@
 	
 	Proxies {
     //==============================================================
-    // HORIZONTAL SPEED
+    // ABSOLUTE SPEED
     //==============================================================
-		// get player position
-    PlayerPosition { scale 1 resultVar "$pos" }
-    Clamp { srcVar1 "$0" min "$pos[0]" max "$pos[0]" resultVar "$x" }
-    Clamp { srcVar1 "$0" min "$pos[1]" max "$pos[1]" resultVar "$y" }
-    Clamp { srcVar1 "$0" min "$pos[2]" max "$pos[2]" resultVar "$z" }
-    
     // get player absolute velocity
-    PlayerSpeed { scale 1 resultVar "$v" }
+    PlayerSpeed { scale 1 resultVar "$value" }
 
     // clamp speed
     "Clamp"
     {
         "min"                                                   "0"
         "max"                                                   "3500"
-        "srcVar1"                                               "$v"
+        "srcVar1"                                               "$value"
         "resultVar"                                             "$frame"
     }
 
@@ -104,7 +50,7 @@
         Int { srcVar1 "$frame" resultVar "$frame"}
         // $frame = $frame*10
 		Multiply { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
-
+    
     //==============================================================
     // COLORS
     //==============================================================

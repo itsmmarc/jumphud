@@ -13,17 +13,17 @@
 #base "../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_close.txt"
 #base "../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_good.txt"
 #base colors/speedo_colors_default.vmt
+#base colors/ranges/conditionals.vmt
 
 //==============================================================
 // CONSTANTS
 //--------------------------------------------------------------
-#base constants/$mapTimeThreshold.vmt
+#base constants/rounding.vmt
+#base constants/constantNumbers.vmt
 
 //==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS
 //--------------------------------------------------------------
 #base vspeedo_demo_math.vmt
 
-"UnlitGeneric" {
-	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
-}
+"UnlitGeneric" {}

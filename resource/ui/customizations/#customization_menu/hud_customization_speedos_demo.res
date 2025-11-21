@@ -206,7 +206,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_demo_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_demo_preview_jumphud"
 						}
                         "HSpeedo_Image_Shadow"
 						{
@@ -222,7 +222,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_demo_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_demo_preview_jumphud"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "HSpeedo_Image"
@@ -241,7 +241,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_demo_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_demo_preview_jumphud"
 						}
                         "VSpeedo_Image_Shadow"
 						{
@@ -257,7 +257,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_demo_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_demo_preview_jumphud"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "VSpeedo_Image"
@@ -3531,7 +3531,7 @@
 							"ControlName"				"ImagePanel"
 							"FieldName"					"Color_Image"
 							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.5-2"
+							"YPos"						"cs-0.5-5"
 							"ZPos"						"0"
 							"Wide"						"160"
 							"Tall"						"40"
@@ -4699,7 +4699,7 @@
 							"ControlName"				"ImagePanel"
 							"FieldName"					"Color_Image"
 							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.5-2"
+							"YPos"						"cs-0.5-5"
 							"ZPos"						"0"
 							"Wide"						"160"
 							"Tall"						"40"
@@ -5867,7 +5867,7 @@
 							"ControlName"				"ImagePanel"
 							"FieldName"					"Color_Image"
 							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.5-2"
+							"YPos"						"cs-0.5-5"
 							"ZPos"						"0"
 							"Wide"						"160"
 							"Tall"						"40"
@@ -5876,7 +5876,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/speedo_basic_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/aspeedo_demo_preview"
 						}
                         "Color_Image_Shadow"
 						{
@@ -5892,7 +5892,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/speedo_basic_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/aspeedo_demo_preview"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "Color_Image"

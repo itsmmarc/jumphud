@@ -1,4 +1,0 @@
-// the amount of time a map has been running before the speedo starts being rounded (in seconds)
-"UnlitGeneric" {
-    $mapTimeThreshold   5400    // 1.5 hours
-}

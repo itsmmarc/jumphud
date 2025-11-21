@@ -16,11 +16,16 @@
 #base "../../../../../../../cfg/jumphud/jh_bspeedo_dynclr_close.txt"
 #base "../../../../../../../cfg/jumphud/jh_bspeedo_dynclr_good.txt"
 #base ../colors/speedo_colors_default.vmt
+#base ../colors/ranges/conditionals.vmt
+
+//==============================================================
+// CONSTANTS
+//--------------------------------------------------------------
+#base ../constants/constantNumbers.vmt
 
 //==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS
 //--------------------------------------------------------------
 #base hspeedo_bar_math.vmt
 
-"UnlitGeneric" {
-}
+"UnlitGeneric" {}
