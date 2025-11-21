@@ -23,6 +23,7 @@
                 "HUD_Font_Secondary_Selection"		{Visible 0}
 				"HUD_JumpSettings_Selection"		{Visible 0}
                 "HUD_TFSettings_Selection"		    {Visible 0}
+                "HUD_Speedos_Bar_Sweetspot_Info"    {Visible 0}
 			}
 		}
 	}
