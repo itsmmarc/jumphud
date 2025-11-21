@@ -26,14 +26,19 @@ function Get-Position {
 $1100 = Get-Position -number 110
 $1100B = $1100-1
 
+# 450 position
+$450 = Get-Position -number 45
+$450B = $450-1
+
 $max = Get-Position -number 220
 $maxB = $max - 1
 
 Write-Host "Starting script..."
 
 $SHAPE_1100         = "rectangle 0,$1100 $end,$1100B"
+$SHAPE_450          = "rectangle 0,$450 $end,$450B"
 
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white  -draw $SHAPE_1100 "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white  -draw $SHAPE_1100 -draw $SHAPE_450 "$name.png"
 
 Write-Host "Script completed."
