@@ -64,7 +64,7 @@
 	"$speedMax"			"0.965"
 	"$speedClamped"		"0.0"
 	"$speedScale"		"0.00027571428"
-	"$time"				"0"
+	
 	"$delay"			"0.025"
 
 	"$bucket01"		"0"

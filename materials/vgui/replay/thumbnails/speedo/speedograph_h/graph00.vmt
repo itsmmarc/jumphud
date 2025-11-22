@@ -12,7 +12,6 @@
 #base ../colors/ranges/conditionals.vmt
 "UnlitGeneric"
 {
-	
 	//==============================================================
     // CONSTANTS
     //==============================================================
@@ -79,10 +78,7 @@
     // COLOR VARIABLES
     //==============================================================  
     $colorSpeed 0
-    $colorSpeed 0
     $color      $colorMain
-
-
 
 	Proxies
 	{
