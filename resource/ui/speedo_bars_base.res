@@ -132,7 +132,7 @@
                 "FieldName"									"hspeedo_background"
                 "XPos"										"p0.031481"
                 "YPos"										"rs1"
-                "Wide"										"p0.485"
+                "Wide"										"p0.472"
                 "Tall"										"p0.03125"
                 "ProportionalToParent"						"1"
                 "Visible"									"1"

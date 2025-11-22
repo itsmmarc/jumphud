@@ -18,7 +18,7 @@
             }
             "hspeedo_background" {
                 "XPos"										"0"
-                "Wide"										"p0.515"
+                "Wide"										"p0.5"
             }
         }
     }

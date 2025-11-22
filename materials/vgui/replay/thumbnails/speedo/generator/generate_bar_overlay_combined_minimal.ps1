@@ -44,21 +44,8 @@ function Get-VPosition {
     return $height - $number/$vratio
 }
 ############################################################################
-# HORIZONTAL SWEETSPOTS
-# 900 position
-$h900 = Get-HPosition -number 900
-$h900B = $h900-1
-
-$h850 = Get-HPosition -number 850
-$h850B = $h850-1
-
-$hmax = Get-HPosition -number 1800
+$hmax = Get-HPosition -number 1750
 $hmaxB = $hmax - 1
-
-# VERTICAL SWEETSPOTS
-# 1100 position
-$1100 = Get-VPosition -number 110
-$1100B = $1100-1
 
 $vmax = Get-VPosition -number 220
 $vmaxB = $vmax - 1
