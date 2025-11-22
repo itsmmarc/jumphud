@@ -1,6 +1,6 @@
 //SpeedoGraph by VillageGreenPreserver
 //https://github.com/VillageGreenPreserver/SpeedoGraph
-#base ../../speedo/speedograph_textures/graph_type.vmt
+#base ../../speedo/speedograph_textures/graph_filled.vmt
 #base ../../speedo/constants/constantNumbers.vmt
 #base ../../../../../../../cfg/jumphud/jh_gspeedo_range_v.txt
 #base ../../speedo/colors/ranges/vspeedo_demo.vmt
