@@ -18,8 +18,7 @@
 	"$vertexalpha"		"1"
 	"$vertexcolor"		"1"
 
-	"$zero"		"0"
-	"$one"		"1"
+	
 	"$ten"		"10"
 
 	"$speed"			"0"
@@ -259,7 +258,7 @@
 
 		Clamp
 		{
-			min			"$zero"
+			min			"$0"
 			max			"$speedMax"
 			srcVar1		"$speed"
 			resultVar	"$speedClamped"

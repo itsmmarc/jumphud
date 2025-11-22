@@ -27,8 +27,7 @@
 	"$rotate"		"0"
 	"$translate"	"[0.0 0.0]"
 
-	"$zero"		"0"
-	"$one"		"1"
+	
 
 	//==============================================================
     // COLOR VARIABLES
@@ -55,7 +54,7 @@
 
 		Clamp
 		{
-			min			"$zero"
+			min			"$0"
 			max			"$speedMax"
 			srcVar1		"$speed"
 			resultVar	"$translate[1]"
