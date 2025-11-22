@@ -13,7 +13,7 @@
             "ypos"				"rs1"
             "proportionaltoparent"	"1"
 
-            "bgcolor_override"	"0 0 0 100"
+            "bgcolor_override"	"TransparentLightBlack"
             
             graphlabel{
                 controlname label 
