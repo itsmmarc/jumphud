@@ -156,7 +156,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -238,7 +238,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Style_Normal"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -800,7 +800,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -882,7 +882,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Scoreboard_Simple"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1526,7 +1526,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1608,7 +1608,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"DisguiseStatus_Corner"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"

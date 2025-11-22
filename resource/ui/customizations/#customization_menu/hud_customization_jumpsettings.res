@@ -172,7 +172,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -276,7 +276,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Ammo_On"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -450,7 +450,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -554,7 +554,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Ammo_On"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -817,7 +817,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -899,7 +899,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"TempusBG_Off"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1105,7 +1105,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1187,7 +1187,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Luxels_Grid"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1269,7 +1269,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Luxels_Glass"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"

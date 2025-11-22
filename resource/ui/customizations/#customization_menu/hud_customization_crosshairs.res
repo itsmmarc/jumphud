@@ -152,7 +152,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -237,7 +237,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"HUD_Crosshair_ON"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6344,7 +6344,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6429,7 +6429,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Crosshair_Edge_Off"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6514,7 +6514,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Crosshair_Outline"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6652,7 +6652,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6734,7 +6734,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Crosshair_Flash_ON"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6926,7 +6926,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7008,7 +7008,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
-						"BGcolor_Override"				"104 101 100 255"
+						"BGcolor_Override"				"CustomizationOptionBG"
 
 						"Pin_To_Sibling"				"Hitmarker_ON"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
