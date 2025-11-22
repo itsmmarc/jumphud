@@ -2,6 +2,7 @@
 //https://github.com/VillageGreenPreserver/SpeedoGraph
 #base ../speedograph_textures/graph_type.vmt
 #base ../constants/constantNumbers.vmt
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_range_a.txt"
 #base ../colors/ranges/aspeedo_demo.vmt
 #base "../../../../../../../cfg/jumphud/jh_gspeedo_a_clrtype.txt"
 #base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_main.txt"
