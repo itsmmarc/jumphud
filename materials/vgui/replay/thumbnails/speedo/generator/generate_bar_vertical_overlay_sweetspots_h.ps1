@@ -1,15 +1,16 @@
 # Define parameters
-$name = "overlay_v_sweetspots"
+$name = "overlay_v_sweetspots_h"
 $maxNumber = 350
 $backgroundColor = "Transparent"
-$VTFSize = "16x512"
-$width = 16
-$height = 512
+$VTFSize = "512x16"
+$width = 512
+$height = 16
+$top = 0
 $bottom = $height - 1
 $bottomB = $bottom-1
 $end = $width - 1
 $endB = $end-1
-$ratio = $maxNumber/$height
+$ratio = $maxNumber/$width
 
 $midLine = $width/2
 $smallLine = $width*0.75
@@ -19,7 +20,7 @@ function Get-Position {
     param(
         [int]$number
     )
-    return $height - $number/10/$ratio
+    return $number/10/$ratio
 }
 
 # 1100 position
@@ -32,10 +33,10 @@ $450B = $450-1
 
 Write-Host "Starting script..."
 
-$SHAPE_1100         = "rectangle 0,$1100 $end,$1100B"
-$SHAPE_450          = "rectangle 0,$450 $end,$450B"
+$SHAPE_1100          = "rectangle $1100,$top $1100b,$bottom"
+$SHAPE_450          = "rectangle $450,$top $450b,$bottom"
 
 # Generate image
-magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white  -draw $SHAPE_1100 -draw $SHAPE_450 "$name.png"
+magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white -draw $SHAPE_1100 -draw $SHAPE_450 "$name.png"
 
 Write-Host "Script completed."

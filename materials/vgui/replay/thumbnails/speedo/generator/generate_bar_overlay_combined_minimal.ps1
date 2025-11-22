@@ -41,13 +41,13 @@ function Get-VPosition {
     param(
         [int]$number
     )
-    return $height - $number/$vratio
+    return $height - $number/10/$vratio
 }
 ############################################################################
 $hmax = Get-HPosition -number 1750
 $hmaxB = $hmax - 1
 
-$vmax = Get-VPosition -number 220
+$vmax = Get-VPosition -number 2200
 $vmaxB = $vmax - 1
 
 ############################################################################

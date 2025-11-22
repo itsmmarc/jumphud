@@ -19,14 +19,10 @@ function Get-Position {
     param(
         [int]$number
     )
-    return $height - $number/$ratio
+    return $height - $number/10/$ratio
 }
 
-# 1100 position
-$1100 = Get-Position -number 110
-$1100B = $1100-1
-
-$max = Get-Position -number 220
+$max = Get-Position -number 2200
 $maxB = $max - 1
 
 Write-Host "Starting script..."
