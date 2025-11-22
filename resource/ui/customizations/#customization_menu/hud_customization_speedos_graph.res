@@ -192,81 +192,61 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-                        "HSpeedo_Icon"
+                        "Layout_Icon1"
 						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"HSpeedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.8"
+							"ControlName"				"EditablePanel"
+							"FieldName"					"Layout_Icon1"
+							"XPos"						"0"
+							"YPos"						"2"
 							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
+							"Wide"						"8"
+							"Tall"						"8"
 							"Visible"					"1"
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Medium"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"Health_Buff"
+
+							"bgcolor_override"	        "TransparentLightBlack"
+
+                            "Pin_To_Sibling"		    "Layout_Icon2"
+                            "Pin_Corner_To_Sibling"	    "PIN_BOTTOMLEFT"
+                            "Pin_To_Sibling_Corner"	    "PIN_TOPLEFT"
 						}
-                        "HSpeedo_Icon_Shadow"
+                        "Layout_Icon2"
 						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"HSpeedo_Icon_Shadow"
-							"XPos"						"cs-0.5+1"
-							"YPos"						"cs-0.8+1"
+							"ControlName"				"EditablePanel"
+							"FieldName"					"Layout_Icon2"
+							"XPos"						"0"
+							"YPos"						"2"
 							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
+							"Wide"						"8"
+							"Tall"						"8"
 							"Visible"					"1"
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Medium"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"Main_Shadow"
+
+							"bgcolor_override"	        "TransparentLightBlack"
+
+                            "Pin_To_Sibling"		    "Layout_Icon3"
+                            "Pin_Corner_To_Sibling"	    "PIN_BOTTOMLEFT"
+                            "Pin_To_Sibling_Corner"	    "PIN_TOPLEFT"
 						}
-						"VSpeedo_Icon"
+                        "Layout_Icon3"
 						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"VSpeedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.44"
+							"ControlName"				"EditablePanel"
+							"FieldName"					"Layout_Icon3"
+							"XPos"						"2"
+							"YPos"						"rs1-12-2"
 							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
+							"Wide"						"8"
+							"Tall"						"8"
 							"Visible"					"1"
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Medium"
-							"LabelText"					"1100"
-							"TextAlignment"				"center"
-							"FGColor"					"Health_Buff"
-						}
-                        "VSpeedo_Icon_Shadow"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"VSpeedo_Icon_Shadow"
-							"XPos"						"cs-0.5+1"
-							"YPos"						"cs-0.44+1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Medium"
-							"LabelText"					"1100"
-							"TextAlignment"				"center"
-							"FGColor"					"Main_Shadow"
+
+							"bgcolor_override"	        "TransparentLightBlack"
 						}
 						"Jumphud_Preset_Label"
 						{
@@ -420,7 +400,7 @@
 					}
 				}
 //==========================================================================================================
-// GRAPH TYPE
+// HIGHLIGHT RANGE
 //==========================================================================================================
 				"Highlight_Range"
 				{
@@ -1088,7 +1068,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 
-							"bgcolor_override"	        "TransparentMediumBlack"
+							"bgcolor_override"	        "TransparentLightBlack"
 
                             "Pin_To_Sibling"		    "Layout_Icon2"
                             "Pin_Corner_To_Sibling"	    "PIN_BOTTOMLEFT"
@@ -1108,7 +1088,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 
-							"bgcolor_override"	        "TransparentMediumBlack"
+							"bgcolor_override"	        "TransparentLightBlack"
 						}
                         "Layout_Icon3"
 						{
@@ -1124,7 +1104,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 
-							"bgcolor_override"	        "TransparentMediumBlack"
+							"bgcolor_override"	        "TransparentLightBlack"
 
                             "Pin_To_Sibling"		    "Layout_Icon2"
                             "Pin_Corner_To_Sibling"	    "PIN_TOPLEFT"
@@ -1210,7 +1190,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 
-							"bgcolor_override"	        "TransparentMediumBlack"
+							"bgcolor_override"	        "TransparentLightBlack"
 
                             "Pin_To_Sibling"		    "Layout_Icon2"
                             "Pin_Corner_To_Sibling"	    "PIN_TOPRIGHT"
@@ -1230,7 +1210,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 
-							"bgcolor_override"	        "TransparentMediumBlack"
+							"bgcolor_override"	        "TransparentLightBlack"
 						}
                         "Layout_Icon3"
 						{
@@ -1246,7 +1226,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 
-							"bgcolor_override"	        "TransparentMediumBlack"
+							"bgcolor_override"	        "TransparentLightBlack"
 
                             "Pin_To_Sibling"		    "Layout_Icon2"
                             "Pin_Corner_To_Sibling"	    "PIN_TOPLEFT"
@@ -3638,7 +3618,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"AllCaps"							"1"
-					"LabelText"							"Horizontal Speedo"
+					"LabelText"							"Horizontal Speed Graph"
 					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
@@ -3730,46 +3710,50 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-						"Speedo_Icon"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"White"
-						}
-                        "Speedo_Icon_Shadow"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon_Shadow"
-							"XPos"						"-1"
-							"YPos"						"-1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"Main_Shadow"
+						"SpeedoGraph"
+                        {
+                            "ControlName"		    "EditablePanel"
+                            "xpos"				    "cs-0.5"
+                            "ypos"				    "cs-0.5-6"
+                            "wide"                  "35"
+                            "tall"                  "35"
+                            "proportionaltoparent"	"1"
 
-                            "Pin_To_Sibling"            "Speedo_Icon"
-						}
+                            "bgcolor_override"	    "TransparentLightBlack"
+                            
+                            graphlabel{
+                                controlname label 
+
+                                labeltext H 
+                                font ingame_tiny 
+
+                                textinsetx 6 
+                                
+                                wide f0 
+                                tall p0.15 
+                                proportionaltoparent 1 
+
+                                fgcolor_override transparentlightestwhite 
+                                paintBackground 1 
+                                bgcolor_override transparentlightestblack
+                            }
+                            "Graph_Image"   // dis
+                            {
+                                "ControlName"				"ImagePanel"
+                                "FieldName"					"Graph_Image"
+                                "XPos"						"0"
+                                "YPos"						"cs-0.5"
+                                "ZPos"						"0"
+                                "Wide"						"65"
+                                "Tall"						"50"
+                                "Visible"					"0"
+                                "Enabled"					"1"
+                                "MouseInputEnabled"			"0"
+                                "ScaleImage"				"1"
+                                "ProportionalToParent"		"1"
+                                "Image"						"replay/thumbnails/customizations/speedographs/graph_line"
+                            }
+                        }
 						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
@@ -3836,46 +3820,50 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Speedo_Icon"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"White"
-						}
-                        "Speedo_Icon_Shadow"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon_Shadow"
-							"XPos"						"-1"
-							"YPos"						"-1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"Main_Shadow"
+						"SpeedoGraph"
+                        {
+                            "ControlName"		    "EditablePanel"
+                            "xpos"				    "cs-0.5"
+                            "ypos"				    "cs-0.5-6"
+                            "wide"                  "35"
+                            "tall"                  "35"
+                            "proportionaltoparent"	"1"
 
-                            "Pin_To_Sibling"            "Speedo_Icon"
-						}
+                            "bgcolor_override"	    "TransparentLightBlack"
+                            
+                            graphlabel{
+                                controlname label 
+
+                                labeltext H 
+                                font ingame_tiny 
+
+                                textinsetx 6 
+                                
+                                wide f0 
+                                tall p0.15 
+                                proportionaltoparent 1 
+
+                                fgcolor_override transparentlightestwhite 
+                                paintBackground 1 
+                                bgcolor_override transparentlightestblack
+                            }
+                            "Graph_Image"   // dis
+                            {
+                                "ControlName"				"ImagePanel"
+                                "FieldName"					"Graph_Image"
+                                "XPos"						"0"
+                                "YPos"						"cs-0.5"
+                                "ZPos"						"0"
+                                "Wide"						"65"
+                                "Tall"						"50"
+                                "Visible"					"0"
+                                "Enabled"					"1"
+                                "MouseInputEnabled"			"0"
+                                "ScaleImage"				"1"
+                                "ProportionalToParent"		"1"
+                                "Image"						"replay/thumbnails/customizations/speedographs/graph_line"
+                            }
+                        }
 						"Speedo_Disabled"
 						{
 							"ControlName"				"ImagePanel"
@@ -5353,7 +5341,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"AllCaps"							"1"
-					"LabelText"							"Vertical Speedo"
+					"LabelText"							"Vertical Speed Graph"
 					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
@@ -5445,46 +5433,50 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-						"Speedo_Icon"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"White"
-						}
-                        "Speedo_Icon_Shadow"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon_Shadow"
-							"XPos"						"-1"
-							"YPos"						"-1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"Main_Shadow"
+						"SpeedoGraph"
+                        {
+                            "ControlName"		    "EditablePanel"
+                            "xpos"				    "cs-0.5"
+                            "ypos"				    "cs-0.5-6"
+                            "wide"                  "35"
+                            "tall"                  "35"
+                            "proportionaltoparent"	"1"
 
-                            "Pin_To_Sibling"            "Speedo_Icon"
-						}
+                            "bgcolor_override"	    "TransparentLightBlack"
+                            
+                            graphlabel{
+                                controlname label 
+
+                                labeltext V 
+                                font ingame_tiny 
+
+                                textinsetx 6 
+                                
+                                wide f0 
+                                tall p0.15 
+                                proportionaltoparent 1 
+
+                                fgcolor_override transparentlightestwhite 
+                                paintBackground 1 
+                                bgcolor_override transparentlightestblack
+                            }
+                            "Graph_Image"   // dis
+                            {
+                                "ControlName"				"ImagePanel"
+                                "FieldName"					"Graph_Image"
+                                "XPos"						"0"
+                                "YPos"						"cs-0.5"
+                                "ZPos"						"0"
+                                "Wide"						"65"
+                                "Tall"						"50"
+                                "Visible"					"0"
+                                "Enabled"					"1"
+                                "MouseInputEnabled"			"0"
+                                "ScaleImage"				"1"
+                                "ProportionalToParent"		"1"
+                                "Image"						"replay/thumbnails/customizations/speedographs/graph_line"
+                            }
+                        }
 						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
@@ -5551,46 +5543,50 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Speedo_Icon"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"White"
-						}
-                        "Speedo_Icon_Shadow"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon_Shadow"
-							"XPos"						"-1"
-							"YPos"						"-1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"Main_Shadow"
+						"SpeedoGraph"
+                        {
+                            "ControlName"		    "EditablePanel"
+                            "xpos"				    "cs-0.5"
+                            "ypos"				    "cs-0.5-6"
+                            "wide"                  "35"
+                            "tall"                  "35"
+                            "proportionaltoparent"	"1"
 
-                            "Pin_To_Sibling"            "Speedo_Icon"
-						}
+                            "bgcolor_override"	    "TransparentLightBlack"
+                            
+                            graphlabel{
+                                controlname label 
+
+                                labeltext V 
+                                font ingame_tiny 
+
+                                textinsetx 6 
+                                
+                                wide f0 
+                                tall p0.15 
+                                proportionaltoparent 1 
+
+                                fgcolor_override transparentlightestwhite 
+                                paintBackground 1 
+                                bgcolor_override transparentlightestblack
+                            }
+                            "Graph_Image"   // dis
+                            {
+                                "ControlName"				"ImagePanel"
+                                "FieldName"					"Graph_Image"
+                                "XPos"						"0"
+                                "YPos"						"cs-0.5"
+                                "ZPos"						"0"
+                                "Wide"						"65"
+                                "Tall"						"50"
+                                "Visible"					"0"
+                                "Enabled"					"1"
+                                "MouseInputEnabled"			"0"
+                                "ScaleImage"				"1"
+                                "ProportionalToParent"		"1"
+                                "Image"						"replay/thumbnails/customizations/speedographs/graph_line"
+                            }
+                        }
 						"Speedo_Disabled"
 						{
 							"ControlName"				"ImagePanel"
@@ -7068,7 +7064,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"AllCaps"							"1"
-					"LabelText"							"Absolute Speedo"
+					"LabelText"							"Absolute Speed Graph"
 					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
@@ -7160,46 +7156,50 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-						"Speedo_Icon"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"White"
-						}
-                        "Speedo_Icon_Shadow"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon_Shadow"
-							"XPos"						"-1"
-							"YPos"						"-1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"Main_Shadow"
+						"SpeedoGraph"
+                        {
+                            "ControlName"		    "EditablePanel"
+                            "xpos"				    "cs-0.5"
+                            "ypos"				    "cs-0.5-6"
+                            "wide"                  "35"
+                            "tall"                  "35"
+                            "proportionaltoparent"	"1"
 
-                            "Pin_To_Sibling"            "Speedo_Icon"
-						}
+                            "bgcolor_override"	    "TransparentLightBlack"
+                            
+                            graphlabel{
+                                controlname label 
+
+                                labeltext A 
+                                font ingame_tiny 
+
+                                textinsetx 6 
+                                
+                                wide f0 
+                                tall p0.15 
+                                proportionaltoparent 1 
+
+                                fgcolor_override transparentlightestwhite 
+                                paintBackground 1 
+                                bgcolor_override transparentlightestblack
+                            }
+                            "Graph_Image"   // dis
+                            {
+                                "ControlName"				"ImagePanel"
+                                "FieldName"					"Graph_Image"
+                                "XPos"						"0"
+                                "YPos"						"cs-0.5"
+                                "ZPos"						"0"
+                                "Wide"						"65"
+                                "Tall"						"50"
+                                "Visible"					"0"
+                                "Enabled"					"1"
+                                "MouseInputEnabled"			"0"
+                                "ScaleImage"				"1"
+                                "ProportionalToParent"		"1"
+                                "Image"						"replay/thumbnails/customizations/speedographs/graph_line"
+                            }
+                        }
 						"Speedo_Label"
 						{
 							"ControlName"				"CExLabel"
@@ -7266,46 +7266,50 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
 
-						"Speedo_Icon"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"White"
-						}
-                        "Speedo_Icon_Shadow"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon_Shadow"
-							"XPos"						"-1"
-							"YPos"						"-1"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Showcase_Speedo_Large"
-							"LabelText"					"900"
-							"TextAlignment"				"center"
-							"FGColor"					"Main_Shadow"
+						"SpeedoGraph"
+                        {
+                            "ControlName"		    "EditablePanel"
+                            "xpos"				    "cs-0.5"
+                            "ypos"				    "cs-0.5-6"
+                            "wide"                  "35"
+                            "tall"                  "35"
+                            "proportionaltoparent"	"1"
 
-                            "Pin_To_Sibling"            "Speedo_Icon"
-						}
+                            "bgcolor_override"	    "TransparentLightBlack"
+                            
+                            graphlabel{
+                                controlname label 
+
+                                labeltext A 
+                                font ingame_tiny 
+
+                                textinsetx 6 
+                                
+                                wide f0 
+                                tall p0.15 
+                                proportionaltoparent 1 
+
+                                fgcolor_override transparentlightestwhite 
+                                paintBackground 1 
+                                bgcolor_override transparentlightestblack
+                            }
+                            "Graph_Image"   // dis
+                            {
+                                "ControlName"				"ImagePanel"
+                                "FieldName"					"Graph_Image"
+                                "XPos"						"0"
+                                "YPos"						"cs-0.5"
+                                "ZPos"						"0"
+                                "Wide"						"65"
+                                "Tall"						"50"
+                                "Visible"					"0"
+                                "Enabled"					"1"
+                                "MouseInputEnabled"			"0"
+                                "ScaleImage"				"1"
+                                "ProportionalToParent"		"1"
+                                "Image"						"replay/thumbnails/customizations/speedographs/graph_line"
+                            }
+                        }
 						"Speedo_Disabled"
 						{
 							"ControlName"				"ImagePanel"
