@@ -667,6 +667,16 @@
                     "antialias"									"1"
                 }
             }
+            "ClassSymbols40"
+            {
+                "1"
+                {
+                    "name"										"TF2 Class Icons V3"
+                    "tall"										"40" [$WINDOWS]
+                    "tall"										"40" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
             "ClassSymbols80"
             {
                 "1"
