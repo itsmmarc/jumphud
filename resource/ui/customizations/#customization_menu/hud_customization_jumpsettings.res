@@ -743,7 +743,7 @@
 					"XPos"								"3"
 					"YPos"								"26+110"
 					"ZPos"								"0"
-					"Wide"								"f40"
+					"Wide"								"250"
 					"Tall"								"2"
 					"Visible"							"1"
 					"Enabled"							"1"
@@ -969,6 +969,183 @@
 						}
 					}
 				}
+//===============================================================================================================
+// CVARS
+//===============================================================================================================
+				"CVAR_Icon"
+				{
+					"ControlName"						"CExLabel"
+					"FieldName"							"CVAR_Icon"
+					"XPos"								"264"
+					"YPos"								"1+110"
+					"ZPos"								"0"
+					"Wide"								"20"
+					"Tall"								"25"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+					"LabelText"							"Z"
+					"Font"								"Symbols24"
+					"TextAlignment"						"center"
+					"FGColor"							"Gray"
+				}
+				"CVAR_Label"
+				{
+					"ControlName"						"CExLabel"
+					"FieldName"							"CVAR_Label"
+					"XPos"								"290"
+					"YPos"								"110"
+					"ZPos"								"0"
+					"Wide"								"f25"
+					"Tall"								"27"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+					"AllCaps"							"1"
+					"LabelText"							"CVARs"
+					"Font"								"HudFontMediumbold"
+					"TextAlignment"						"west"
+					"FGColor"							"Gray"
+				}
+				"Separator_5"
+				{
+					"ControlName"						"EditablePanel"
+					"FieldName"							"Separator_5"
+					"XPos"								"263"
+					"YPos"								"26+110"
+					"ZPos"								"0"
+					"Wide"								"f40"
+					"Tall"								"2"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+					"paintBackground"					"1"
+					"paintBackgroundtype"				"3"
+					"BGcolor_Override"					"Background_Bright"
+				}
+// CVAR SETTINGS
+				"CVAR_Settings"
+				{
+					"ControlName"						"EditablePanel"
+					"FieldName"							"CVAR_Settings"
+					"XPos"								"260"
+					"YPos"								"31+110"
+					"ZPos"								"20"
+					"Wide"								"250"
+					"Tall"								"400"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+
+					"TurnBind_Settings"
+                    {
+                        "ControlName"						"EditablePanel"
+                        "FieldName"							"TurnBind_Settings"
+                        "XPos"								"0"
+                        "YPos"								"0"
+                        "ZPos"								"20"
+                        "Wide"								"250"
+                        "Tall"								"100"
+                        "Visible"							"1"
+                        "Enabled"							"1"
+                        "ProportionalToParent"				"1"
+
+                        "Settings_Label"
+                        {
+                            "ControlName"					"CExLabel"
+                            "FieldName"						"Settings_Label"
+                            "XPos"							"0"
+                            "YPos"							"0"
+                            "ZPos"							"0"
+                            "Wide"							"f25"
+                            "Tall"							"15"
+                            "Visible"						"1"
+                            "Enabled"						"1"
+                            "ProportionalToParent"			"1"
+                            "AllCaps"						"1"
+                            "LabelText"						"Turn Bind Speed"
+                            "Font"							"HudFontSmallBold"
+                            "TextAlignment"					"west"
+                            "FGColor"						"Gray"
+                        }
+                        "Separator"
+                        {
+                            "ControlName"					"EditablePanel"
+                            "FieldName"						"Separator"
+                            "XPos"							"2"
+                            "YPos"							"1"
+                            "ZPos"							"0"
+                            "Wide"							"f15"
+                            "Tall"							"1"
+                            "Visible"						"1"
+                            "Enabled"						"1"
+                            "ProportionalToParent"			"1"
+                            "paintBackground"				"1"
+                            "paintBackgroundtype"			"3"
+                            "BGcolor_Override"				"Background_Bright"
+
+                            "Pin_To_Sibling"				"Settings_Label"
+                            "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                            "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+                        }
+                        "Speed_Slider"
+                        {
+                            "ControlName"					"EditablePanel"
+                            "FieldName"						"Speed_Slider"
+                            "XPos"							"2"
+                            "YPos"							"20"
+                            "ZPos"							"1"
+                            "Wide"							"f0"
+                            "Tall"							"30"
+                            "Visible"						"1"
+                            "Enabled"						"1"
+                            "ProportionalToParent"			"1"
+                            "PaintBackground"				"0"
+
+                            "Setting_Label"
+                            {
+                                "ControlName"				"CExLabel"
+                                "FieldName"					"Setting_Label"
+                                "XPos"						"0"
+                                "YPos"						"0"
+                                "ZPos"						"1"
+                                "Wide"						"70"
+                                "Tall"						"20"
+                                "Visible"					"1"
+                                "Enabled"					"1"
+                                "MouseInputEnabled"			"0"
+                                "ProportionalToParent"		"1"
+                                "AllCaps"					"1"
+                                "Font"						"HudFontSmallestBold"
+                                "LabelText"					"cl_yawspeed: "
+                                "TextAlignment"				"west"
+                                "FGColor"					"White"
+                            }
+                            "Setting_Slider"
+                            {
+                                "ControlName"				"CCvarSlider"
+                                "FieldName"					"Setting_Slider"
+                                "XPos"						"0"
+                                "YPos"						"2"
+                                "ZPos"						"2"
+                                "Wide"						"80"
+                                "Tall"						"30"
+                                "Visible"					"1"
+                                "Enabled"					"1"
+                                "ProportionalToParent"		"1"
+                                "minvalue"					"100"
+                                "maxvalue"					"250"
+                                "cvar_name"					"cl_yawspeed"
+
+                                "Pin_To_Sibling"				"Setting_Label"
+                                "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                                "Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+                            }
+                        }
+                    }
+				}
+// TURNBIND SPEED ----------------------------------------------------------------------------------------
+				
 //===============================================================================================================
 // LUXELS
 //===============================================================================================================
