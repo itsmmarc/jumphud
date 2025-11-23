@@ -55,6 +55,10 @@
 #base "hud_customization_tfsettings.res"
 
 //==============================================================
+// DYNAMIC COLORS INFO
+//==============================================================
+#base hud_customization_dynamiccolors_info.res
+//==============================================================
 // FOLDER NAME MESSAGE
 //==============================================================
 #base "../../../../../jumphud/resource/ui/customizations/#customization_menu/hud_customization_folder_set.res"

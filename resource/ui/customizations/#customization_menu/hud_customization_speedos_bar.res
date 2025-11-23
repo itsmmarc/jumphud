@@ -1154,6 +1154,46 @@
     "Enabled"							"1"
     "ProportionalToParent"				"1"
 
+    "Colors_Info"
+    {
+        "ControlName"								"EditablePanel"
+        "FieldName"									"Colors_Info"
+        "XPos"										"96"
+        "YPos"										"-1"
+        "ZPos"										"15"
+        "Wide"										"15"
+        "Tall"										"15"
+        "Visible"									"1"
+        "SubButton"
+        {
+            "ControlName"							"CExImageButton"
+            "FieldName"								"SubButton"
+            "XPos"									"0"
+            "YPos"									"0"
+            "Wide"									"f0"
+            "Tall"									"f0"
+            "Visible"								"1"
+            "Enabled"								"1"
+            "ProportionalToParent"					"1"
+            "Use_Proportional_Insets"				"1"
+            "TextInsetX"							"0"
+            "Font"									"HypnotizeIcons18"
+            "LabelText"                             "1"
+            "TextAlignment"							"west"
+            "Sound_Depressed"						"UI/buttonclick.wav"
+
+            "Command"                               "engine jh_custom_dynclrinfo_bar; hud_reloadscheme"
+            "ActionSignalLevel"			            "6"
+            
+
+            "PaintBackground"						"0"
+            "PaintBorder"							"0"
+
+            "DefaultFGColor_Override"				"Gray"
+            "ArmedFGColor_Override"					"Menu_Accent"
+            "DepressedFGColor_Override"				"Menu_Accent"
+        }
+    }
     "Colors_Label"
     {
         "ControlName"					"CExLabel"
