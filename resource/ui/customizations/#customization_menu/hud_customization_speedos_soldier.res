@@ -197,7 +197,7 @@
 							"ControlName"				"ImagePanel"
 							"FieldName"					"HSpeedo_Image"
 							"XPos"						"cs-0.5"
-							"YPos"						"cs-0.5-4"
+							"YPos"						"cs-0.5-6"
 							"ZPos"						"0"
 							"Wide"						"80"
 							"Tall"						"20"
