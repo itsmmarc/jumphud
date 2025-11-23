@@ -3676,6 +3676,24 @@
 
                             "Pin_To_Sibling"            "Color_Image"
 						}
+                        "Color_Image_Background"
+						{
+							"ControlName"				"EditablePanel"
+							"FieldName"					"Color_Image_Background"
+							"XPos"						"0"
+							"YPos"						"0"
+							"ZPos"						"1"
+							"Wide"						"110"
+							"Tall"						"4"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+                            "PaintBackground"           "1"
+                            "BGColor_Override"          "TransparentLightBlack"
+
+                            "Pin_To_Sibling"            "Color_Image"
+						}
 						"Color_Label"
 						{
 							"ControlName"				"CExLabel"
@@ -4540,7 +4558,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/barspeedos/barspeedo_overlay_minimal_preview"
+							"Image"						"replay/thumbnails/customizations/barspeedos/barspeedo_vertical_h_preview"
 						}
 						"Speedo_Label"
 						{
@@ -4622,7 +4640,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/barspeedos/barspeedo_overlay_minimal_preview"
+							"Image"						"replay/thumbnails/customizations/barspeedos/barspeedo_vertical_h_preview"
 						}
 						"Speedo_Disabled"
 						{
@@ -4810,6 +4828,24 @@
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
 							"Image"						"replay/thumbnails/customizations/barspeedos/barspeedo_sweetspots_vertical_h"
+
+                            "Pin_To_Sibling"            "Color_Image"
+						}
+                        "Color_Image_Background"
+						{
+							"ControlName"				"EditablePanel"
+							"FieldName"					"Color_Image_Background"
+							"XPos"						"0"
+							"YPos"						"0"
+							"ZPos"						"1"
+							"Wide"						"110"
+							"Tall"						"4"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+                            "PaintBackground"           "1"
+                            "BGColor_Override"          "TransparentLightBlack"
 
                             "Pin_To_Sibling"            "Color_Image"
 						}

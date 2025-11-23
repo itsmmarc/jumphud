@@ -34,7 +34,7 @@
 
     $frame0 280
     $frame1 600
-    $frame2 850     // close
+    $frame2 800     // close
     $frame3 900     // good
     $frame4 950     // close
     $frame5 1300
