@@ -22,6 +22,7 @@
 "sm_showtriggers"               "Show Triggers (Toggle)"
 "toggle r_drawclipsbrushes 0 2" "Draw Clip Brushes (Toggle)"
 "toggle mat_luxels"             "Draw Luxels (Toggle)"
+"jh_shader_vis_toggle; hud_reloadscheme"     "Hud Shaders (Toggle)"
 "blank"			"=========================="
 "blank"			"ELANDI TEMPUS SPRAYS"
 "blank"			"=========================="
