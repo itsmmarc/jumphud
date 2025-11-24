@@ -31,11 +31,8 @@
 ## Demo In-Game HUD
 ![Demo In-Game HUD](/screenshots/jump/demo_apng.png)
 
-## Soldier Speedo
-![Soldier Speedo](screenshots/jump/soldierspeedo.webp)
-
-## Demo Speedo
-![Demo Speedo](screenshots/jump/demospeedo.webp)
+## Speedos (Using custom font option Roboto)
+![Soldier Speedo](screenshots/jump/speedospreview.webp)
 
 ## Scoreboard
 ![Scoreboard](/screenshots/jump/scoreboard.jpg)
