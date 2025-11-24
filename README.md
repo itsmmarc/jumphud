@@ -4,11 +4,23 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 ***
 
-<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.4.0/jumphud-v2.4.0.zip"><img src="screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.4.1/jumphud-v2.4.1.zip"><img src="screenshots/downloadbutton.png"></a>
 <a href="SHOWCASE.md"><img src="screenshots/screenshotsbutton.png"></a>
 <a href="https://discord.gg/s6yJMGecMZ"><img src="screenshots/discord.png"></a>
 
 ***
+
+## Installation
+
+1. [Download](https://github.com/itsmmarc/jumphud/releases/download/v2.4.1/jumphud-v2.4.1.zip) the latest version
+
+2. Unzip the download into `tf/custom`
+
+3. Rename the folder to exactly `jumphud`
+
+4. In the end the folder structure should look like `tf/custom/jumphud/resource/`
+
+5. To enable speedos and other custom features use the buttons in the center of the pause menu
 
 ## Features
 
