@@ -115,7 +115,7 @@
 		// "dropshadow" if set to "1" will add a shadow around the text
 		// "antialias" if set to "1" will make the character edges smoother
 		//=========================================================================================================================
-		"DefaultFixedOutline"   // cl_showpos & cl_showfps
+		"DefaultFixedOutline"   // net_graph, cl_showpos & cl_showfps
 		{
 			"1"
 			{
