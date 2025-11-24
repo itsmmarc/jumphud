@@ -1,0 +1,25 @@
+"screenspace_general"
+{
+    $pixshader   "halftone_ps20"
+    $basetexture "_rt_FullFrameFB1"
+
+    $x360appchooser 1
+    $copyalpha   1
+    $ignorez     1
+
+    // Dot size in pixels (4.0 = small dots, 8.0 = large dots)
+    $c0_x     6.0
+    // Dot sharpness (0.5 = soft, 2.0 = sharp)
+    $c0_y     1.0
+    // Color saturation (1.0 = normal, 1.5 = vibrant)
+    $c0_z     1.3
+    // Paper brightness (1.0 = white, 0.95 = off-white)
+    $c0_w     0.98
+    // Color normalization strength (0.0 = original, 1.0 = fully normalized)
+    $c1_x     0.5
+
+    "<dx90"
+    {
+        $no_draw 1
+    }
+}

@@ -1,0 +1,26 @@
+screenspace_general
+{
+	$pixshader "nightmode_ps20"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+
+	// Base channel multipliers (RGB)
+	$c0_x     0.18  // Red
+	$c0_y     0.12  // Green
+	$c0_z     0.28  // Blue
+	$c0_w     0.5   // Mask threshold
+
+	// Shadow extra multipliers (RGB)
+	$c1_x     0.60  // Shadow Red
+	$c1_y     0.40  // Shadow Green
+	$c1_z     0.85  // Shadow Blue
+	$c1_w     0.8   // Mask softness
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}

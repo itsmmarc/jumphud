@@ -1,0 +1,21 @@
+screenspace_general
+{
+	$pixshader "celshade_ps20"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+
+	// Edge detection threshold: 0.1 = thick lines, 0.3 = thin lines
+	$c0_x     0.15
+	// Color bands: 0-64.0 = deep fried (few colors), 256.0 = no color banding (normal)
+	$c0_y     128.0
+	// Edge darkness: 0.0 = pure black outlines, 0.3 = softer dark gray outlines
+	$c0_z     0.0
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}

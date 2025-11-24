@@ -17,6 +17,7 @@
 // custom font alignment
 #base "../../../cfg/jumphud/jh_font_prim_align.txt"
 
+#base ../resource/ui/shader.res
 //=========================================================
 // JUMP/CASUAL
 //=========================================================

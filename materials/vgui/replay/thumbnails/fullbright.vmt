@@ -1,0 +1,29 @@
+"screenspace_general"
+{
+    $pixshader   "fullbright_ps20"
+    $basetexture "_rt_FullFrameFB1"
+
+    $x360appchooser 1
+    $copyalpha   1
+    $ignorez     1
+
+    // Output range minimum (darkest output)
+    $c0_x     0.2
+
+    // Output range maximum (brightest output)
+    $c0_y     0.4
+
+    // Max scale to prevent artifacts
+    $c0_z     15.0
+
+    // Blend back toward original (0 = full effect, 1 = original)
+    $c0_w     0.3
+
+    // Final darkness multiplier (1.0 = no change, 0.8 = darker)
+    $c1_x     1.0
+
+    "<dx90"
+    {
+        $no_draw 1
+    }
+}

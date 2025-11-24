@@ -1,0 +1,21 @@
+screenspace_general
+{
+	$pixshader "redtint_ps20"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+
+	// Posterization levels
+	$c0_x     4.0
+	// White threshold: 0.4 = more whites, 0.7 = less whites
+	$c0_y     0.5
+	// Black threshold: 0.05 = less blacks, 0.2 = more blacks
+	$c0_z     0.1
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}

@@ -1,0 +1,29 @@
+screenspace_general
+{
+	$pixshader "kitsune_ps20b"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+
+	// edgeMin - below this = 0% confidence
+	$c0_x     0.2
+
+	// edgeMax - above this = 100% confidence
+	$c0_y     0.4
+
+	// preGamma - <1 lifts darks
+	$c0_z     0.31
+
+	// edgeThreshold - cutoff on confidence
+	$c0_w     0.4
+
+	// edgePower - >1 stricter curve
+	$c1_x     1.0
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}
