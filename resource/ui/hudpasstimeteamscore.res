@@ -25,8 +25,8 @@
 		"Enabled"									"1"
 		"TextAlignment"								"east"
 		"LabelText"									"%bluescore%"
-		"Font"										"m0refont30"
-		"FGColor"									"HUDBlueTeamSolid"
+		"Font"										"Score_Medium"
+		"FGColor"									"Blue"
 	}
 	"BlueScoreShadow"
 	{
@@ -41,7 +41,7 @@
 		"Enabled"									"1"
 		"TextAlignment"								"east"
 		"LabelText"									"%bluescore%"
-		"Font"										"m0refont30"
+		"Font"										"Score_Medium"
 		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"BlueScore"
@@ -59,8 +59,8 @@
 		"Enabled"									"1"
 		"TextAlignment"								"west"
 		"LabelText"									"%redscore%"
-		"Font"										"m0refont30"
-		"FGColor"									"HUDRedTeamSolid"
+		"Font"										"Score_Medium"
+		"FGColor"									"Red"
 	}
 	"RedScoreShadow"
 	{
@@ -75,7 +75,7 @@
 		"Enabled"									"1"
 		"TextAlignment"								"west"
 		"LabelText"									"%redscore%"
-		"Font"										"m0refont30"
+		"Font"										"Score_Medium"
 		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"RedScore"
@@ -106,7 +106,7 @@
 			"ProportionalToParent"					"1"
 			"LabelText"								"#TF_PlayingTo"
 			"TextAlignment"							"center"
-			"Font"									"DefaultVerySmall"
+			"Font"									"Objective_Small"
 			"FGColor"								"White"
 		}
 		"PlayingToBG"

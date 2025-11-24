@@ -283,7 +283,7 @@
 				"Visible"							"1"
 				"Enabled"							"1"
 				"ProportionalToParent"				"1"
-				"Font"								"LabelsFont"
+				"Font"								"Ingame_Tiny"
 				"LabelText"							"Ammo"
 				"TextAlignment"						"center"
 				"AllCaps"							"1"

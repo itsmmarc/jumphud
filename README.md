@@ -4,17 +4,17 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 ***
 
-<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.2.1/jumphud-v2.2.1.zip"><img src="screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.4.0/jumphud-v2.4.0.zip"><img src="screenshots/downloadbutton.png"></a>
 <a href="SHOWCASE.md"><img src="screenshots/screenshotsbutton.png"></a>
 <a href="https://discord.gg/s6yJMGecMZ"><img src="screenshots/discord.png"></a>
 
 ***
 
-![Soldier Preview](/screenshots/jump/soldier_apng.png)
-
-![Demo Preview](/screenshots/jump/demo_apng.png)
-
 ## Features
+
+Swap the HUD into Casual Mode by clicking the logo on the main menu.
+
+![Mode Switching Preview](screenshots/modeswitch.webp)
 
 ### Useful keybinds have been added to the options menu, including but not limited to:
 
@@ -26,7 +26,7 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 - Draw Viewmodel (Toggle)
 
-- Tempus Spray
+- Custom Tempus Sprays
 
 - Restart Run
 
@@ -48,21 +48,21 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 - Toggle Show Triggers
 
+![Soldier Preview](/screenshots/jump/soldier_apng.png)
+
+![Demo Preview](/screenshots/jump/demo_apng.png)
+
 ## Customization
 
-Swap the HUD into Casual Mode by clicking the logo on the main menu.
-
-![Mode Switching Preview](screenshots/modeswitch.webp)
+Starting with v2.3.0 the HUD now includes an ingame customization menu to modify speedos, fonts, hud crosshair, and several other features.
 
 Use `cl_hud_minmode 1` or the button on the pause menu to hide the health value and center the ammo count in Jump Mode.
 
 Toggle Custom HUD Speedos, Tempus HUD, Tempus Speedos, etc, using the buttons on the pause menu.
 
-Adjust the item menu background to your resolution by editing `CUSTOMIZATION/aspect_ratio.res`.
-
-Edit and enable a custom HUD crosshair by editing `CUSTOMIZATION/crosshair.res`.
-
 Change the tempus speedo colour by editing `cfg/speedocolor.cfg`.
+
+Add any configuration you want to run while in Casual or Jump mode to `jumphud/cfg/USER_casualconfig.cfg` or `USER_jumpconfig.cfg`. The appropriate config file will also be run on launch.
 
 ## Known Issues:
 
@@ -82,9 +82,15 @@ Inventory menu background may not load on some `sv_pure` protected servers.
 
 Click on the JumpHUD logo icon to switch the hud into casual mode, you can switch back by clicking on the TF2 logo.
 
-## Recommended Addons
+***
 
-Elandi's custom Tempus sprays https://github.com/Elandi-rj/sprays
+## Credits
+
+![Elandi's custom Tempus sprays](https://github.com/Elandi-rj/sprays)
+
+![VillageGreenPreserver's SpeedoGraph](https://github.com/VillageGreenPreserver/SpeedoGraph)
+
+![cuekie's HUD Screenspace Shaders](https://github.com/cueki/hud-screenspace-shaders)
 
 ***
 

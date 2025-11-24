@@ -36,7 +36,7 @@
 			"ProportionalToParent"					"1"
 			"TextAlignment"							"center"
 			"LabelText"								"0:00"
-			"Font"									"m0refont16Shadow"
+			"Font"									"Time_Medium"
 			"FGColor"								"White"
 
 			"if_match"
@@ -74,7 +74,7 @@
 			"ProportionalToParent"					"1"
 			"TextAlignment"							"center"
 			"LabelText"								"0:00"
-			"Font"									"m0refont16Shadow"
+			"Font"									"Time_Medium"
 			"FGColor"								"White"
 
 			"if_match"

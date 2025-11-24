@@ -6,6 +6,12 @@
 	// HL2 ANIMATIONS
 	//===============================================================
 	"file" "scripts/hudanimations.txt"
+    
+	//===============================================================
+	// CUSTOMIZATIONS
+	//===============================================================
+    "file" "../../cfg/jumphud/jh_crosshair_animation.txt"
+	"file" "../../cfg/jumphud/jh_hitmarker_animation.txt"
 
 	//===============================================================
 	// HEALTH-AMMO-UBER DEFAULT ANIMATIONS
@@ -27,6 +33,12 @@
 	//===============================================================
 	"file" "scripts/animations/hudanimations_uber_shadow.txt"
 
+    //===============================================================
+	// CROSSHAIR & HITMARKER FLASH ANIMATION
+	//===============================================================
+	"file" "scripts/animations/hudanimations_crosshairs.txt"
+	"file" "scripts/animations/hudanimations_hitmarker.txt"
+
 	//===============================================================
 	// OTHER ANIMATIONS
 	//===============================================================
@@ -37,7 +49,4 @@
 	// DEFAULT TF2 ANIMATIONS
 	//===============================================================
 	"file" "scripts/hudanimations_tf.txt"
-
-    // crosshair animations
-    "file" "resource/Crosshairs/crosshair_animation.txt"
 }

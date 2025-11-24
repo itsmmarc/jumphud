@@ -71,6 +71,7 @@
 		"Background_Dark"									"16 17 17 255"
 		"Background_Darkest"								"15 15 15 255"
 		"Background_Bright"									"68 68 68 200"
+        "Background_Bright_Solid"							"68 68 68 255"
 		
 		//BUTTONS
 		"Button_Bright"										"16 17 17 255"
@@ -96,8 +97,8 @@
 		"m0reOlive"											"180 200 100 255"
 		"m0reGreen"											"0 215 0 255"
 		"m0reForest"										"0 135 55 255"
-		"m0reTeal"											"100 180 170 255"
-		"m0reCyan"											"0 195 200 255"
+		"m0reTeal"											"81 181 182 255"
+		"m0reCyan"											"98 219 220 255"
 		"m0reBlue"											"0 170 255 255"
 		"m0reNavy"											"90 120 200 255"
 		"m0rePurple"										"150 50 235 255"
@@ -151,6 +152,7 @@
 		"GreenSolid"										"76 107 34 255"
 
 		"Black"												"0 0 0 255"
+        "IsItTransparentBlack"							    "0 0 0 250"
         "BarelyTransparentBlack"							"0 0 0 240"
 		"TransparentBlack"									"0 0 0 200"
 		"TransparentMediumBlack"							"0 0 0 150"
@@ -522,7 +524,7 @@
 		"SelectionSelectedBoxBg"							"TransparentBlack"
 
 		"HintMessageFg"										"White"
-		"HintMessageBg"										"0 0 0 0"
+		"HintMessageBg"										"Blank"  // tempus center panel bg
 
 		"ProgressBarFg"										"Red"
 

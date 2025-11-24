@@ -13,7 +13,7 @@
 		"Enabled"									"1"
 		"Wrap"										"0"
 		"ProportionalToParent"						"1"
-		"Font"										"m0refont16Shadow"
+		"Font"										"Time_Medium"
 		"LabelText"									"#TF_teambalanced"
 		"TextAlignment"								"center"
 	}

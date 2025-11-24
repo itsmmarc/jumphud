@@ -23,10 +23,11 @@
 		"Tall"										"f0"
 		"Visible"									"1"
 		"Enabled"									"0"
+        "allcaps"                                   "1"
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_Ball"
 		"TextAlignment"								"south"
-		"Font"										"LabelsFont"
+		"Font"										"Ingame_Tiny"
 		"DisabledFGColor2_Override"					"TransparentBlack"
 	}
 	"ItemEffectMeter"

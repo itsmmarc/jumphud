@@ -1,14 +1,12 @@
-#base "speedo_jump.res"
-
 "speedo_base.res"{
     "speedos"
     {
         "controlName" "EditablePanel"
-        "visible" "1" // default visibility
+        "visible" "0"   // invisible until soldier or demo speedo loaded is active
         "enabled" "1"
-        "wide" "f0"
-        "tall" "f0"
-        "xpos" "0"
-        "ypos" "5"
+        "wide" "72"
+        "tall" "54"
+        "xpos" "cs-0.5"
+        "ypos" "cs-0.5+54"
     }
 }

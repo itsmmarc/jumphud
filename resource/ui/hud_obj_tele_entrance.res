@@ -286,7 +286,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"FieldName"						"RechargeLabel"
-					"Font"							"DefaultVerySmall"
+					"Font"							"Ingame_Tiny"
 					"XPos"							"0"
 					"YPos"							"0"
 					"ZPos"							"3"
@@ -318,7 +318,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"FieldName"						"Used"
-					"Font"							"LabelsFontLarge"
+					"Font"							"Ingame_Small"
 					"XPos"							"0"
 					"YPos"							"0"
 					"Wide"							"50"
@@ -335,7 +335,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"FieldName"						"TimesUsedLabel"
-					"Font"							"LabelsFontLarge"
+					"Font"							"Ingame_Small"
 					"XPos"							"20-1"
 					"YPos"							"0"
 					"Wide"							"50"

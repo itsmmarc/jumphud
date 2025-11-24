@@ -61,7 +61,7 @@
         "textinsetx"    "10"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"east"
-		"font"										"JumpHUD_Main_Font"
+		"font"										"Ingame_Large"
 		"fgcolor"									"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -83,7 +83,7 @@
         "textinsetx"    "10"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"east"
-		"font"										"JumpHUD_Main_Font"
+		"font"										"Ingame_Large"
 		"fgcolor"									"Main_Shadow_Transparent"
 
 		"pin_to_sibling"							"ChargeLabelBig"

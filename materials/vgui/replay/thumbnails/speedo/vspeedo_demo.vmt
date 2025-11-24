@@ -1,5 +1,6 @@
+#base fonts/coolvetica_italic/vspeedo_demo.vmt
+
 "UnlitGeneric" {
-    $basetexture "vgui/replay/thumbnails/speedo/speedo_demo_vspeedo"
 	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
 
     // https://github.com/tekunotri/menthahud/blob/main/materials/vgui/replay/thumbnails/speedo/vertical/speedo.vmt

@@ -123,7 +123,7 @@
 			"Visible"								"1"
 			"Enabled"								"1"
 			"LabelText"								"%title_token%"
-			"Font"									"JumpHUD_Secondary_Font"
+			"Font"									"Menu_Medium"
 			"TextAlignment"							"center"
 			"ProportionalToParent"					"1"
 			"MouseInputEnabled"						"0"

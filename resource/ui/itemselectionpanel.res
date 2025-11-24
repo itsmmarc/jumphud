@@ -1,27 +1,8 @@
 #base "../dev/reload_scheme.res"
-#base "inventorybackground_base.res"
+#base "inventorybackground.res"
 
 "Resource/UI/ItemSelectionPanel.res"
 {
-    "TransparentBackground"   // transparent background for loadout page
-	{
-		"ControlName"								"EditablePanel"
-		"FieldName"									"TransparentBackground"
-		"XPos"										"0"
-		"YPos"										"0"
-        "ZPos"                                      "-1"
-		"Wide"										"854"
-		"Tall"										"480"
-        "ProportionalToParent"						"1"
-		"Visible"									"1"
-		"Enabled"									"1"
-        "PaintBackground"							"1"
-		"PaintBackgroundType"						"0"
-		"BGColor_Override"							"TransparentBlack"
-		"InFocus_BGColor_Override"					"TransparentBlack"
-		"OutOfFocus_BGColor_Override"				"TransparentBlack"
-	}
-
 	"ItemSelectionPanel"
 	{
 		"ControlName"								"EditablePanel"

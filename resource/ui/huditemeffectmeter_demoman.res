@@ -26,7 +26,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"#TF_Ball"
 		"TextAlignment"								"center"
-		"Font"										"LabelsFontLarge"
+		"Font"										"Ingame_Small"
 		"FGColor"									"White"
 	}
 	"ItemEffectMeterCount"
@@ -43,7 +43,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"%progresscount%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"White"
 	}
 	"ItemEffectMeterCountShadow"
@@ -60,7 +60,7 @@
 		"ProportionalToParent"						"1"
 		"LabelText"									"%progresscount%"
 		"TextAlignment"								"center"
-		"Font"										"JumpHUD_Secondary_Font"
+		"Font"										"Ingame_Medium"
 		"FGColor"									"Main_Shadow_Transparent"
 
 		"Pin_To_Sibling"							"ItemEffectMeterCount"

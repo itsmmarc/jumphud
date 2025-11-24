@@ -1,23 +1,2 @@
-"Resource/UI/scoreboard_casual.res"
-{
-    "WhiteBG"
-    {
-        "ypos"  "0"
-    }
-
-    "HorizontalLine"
-    {
-        "Visible"   "1"
-        "Enabled"   "1"
-    }
-    "HorizontalLine_jump"
-    {
-        "Visible"   "0"
-        "Enabled"   "0"
-    }
-
-    "LocalPlayerStatsPanel"
-    {
-        "wide"   "f0"
-    }
-}
+#base "../../../../cfg/jumphud/jh_scoreboard_detailed.txt"
+#base scoreboard_casual_base.res
