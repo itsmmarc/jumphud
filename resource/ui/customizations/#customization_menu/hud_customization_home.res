@@ -238,7 +238,7 @@
 					"ControlName"						"CExLabel"
 					"FieldName"							"Links_Desc"
 					"XPos"								"5"
-					"YPos"								"254"
+					"YPos"								"rs1-5"
 					"ZPos"								"0"
 					"Wide"								"140"
 					"Tall"								"15"
