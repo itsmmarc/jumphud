@@ -1,4 +1,5 @@
 // Credit cueki https://github.com/cueki/hud-screenspace-shaders
+#base "../../../../cfg/jumphud/jh_shader.txt"
 Shader.res
 {
     CustomShaderOverlay
@@ -10,7 +11,7 @@ Shader.res
         "wide"          "f0"
         "tall"          "480"
         "scaleimage"    "1"
-        "image"         "replay/thumbnails/nightmode"
+        //"image"         "replay/thumbnails/shaders/sepia"
         "visible"       "1"
         "enabled"       "1"
     }
