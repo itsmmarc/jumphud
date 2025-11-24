@@ -7,7 +7,7 @@
 		"XPos"											"cs-0.5"
 		"YPos"											"cs-0.5+15"
 		"Wide"											"600"
-		"Tall"											"326"
+		"Tall"											"350"
 		"ZPos"											"50"
 		"Visible"										"1"
 		"Enabled"										"1"
@@ -502,6 +502,33 @@
                 
 
 				"Pin_To_Sibling"						"JumpSettings"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+            "Shaders"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Shaders"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Shaders"
+				"Font"									"Menu_Small"
+				"TextAlignment"							"east"
+				"Command"								"engine jh_custom_shaders; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+                "DefaultBGColor_Override"				"Background_Dark"
+                
+
+				"Pin_To_Sibling"						"TFSettings"
 				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}

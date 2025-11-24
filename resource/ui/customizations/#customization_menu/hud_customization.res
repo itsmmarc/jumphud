@@ -55,6 +55,11 @@
 #base "hud_customization_tfsettings.res"
 
 //==============================================================
+// SHADERS
+//==============================================================
+#base hud_customization_shaders.res
+
+//==============================================================
 // DYNAMIC COLORS INFO
 //==============================================================
 #base hud_customization_dynamiccolors_info.res
