@@ -32,7 +32,7 @@
 ![Demo In-Game HUD](/screenshots/jump/demo_apng.png)
 
 ## Speedos (Using custom font option Roboto)
-![Soldier Speedo](screenshots/jump/speedospreview.webp)
+![Speedos](screenshots/jump/speedospreview.webp)
 
 ## Scoreboard
 ![Scoreboard](/screenshots/jump/scoreboard.jpg)

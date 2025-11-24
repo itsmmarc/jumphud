@@ -52,6 +52,8 @@ Swap the HUD into Casual Mode by clicking the logo on the main menu.
 
 ![Demo Preview](/screenshots/jump/demo_apng.png)
 
+![Speedos Preview](screenshots/jump/speedospreview.webp)
+
 ## Customization
 
 Starting with v2.3.0 the HUD now includes an ingame customization menu to modify speedos, fonts, hud crosshair, and several other features.
@@ -64,9 +66,13 @@ Change the tempus speedo colour by editing `cfg/speedocolor.cfg`.
 
 Add any configuration you want to run while in Casual or Jump mode to `jumphud/cfg/USER_casualconfig.cfg` or `USER_jumpconfig.cfg`. The appropriate config file will also be run on launch.
 
+Adjust the highlight ranges of HUD speedo's dynamic colors by editing `jumphud/materials/vgui/replay/thumbnails/speedo/colors/ranges/`.
+
 ## Known Issues:
 
 HUD speedos start to flicker more the longer a map has been running.
+
+Speedo graphs freeze on map change, this can be fixed by refreshing the hud by entering `hud_reloadscheme` in console.
 
 Tempus speedos won't be recoloured or repositioned until one of the speedo buttons on the pause menu is used.
 
