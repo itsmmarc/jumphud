@@ -84,7 +84,13 @@ Click on the JumpHUD logo icon to switch the hud into casual mode, you can switc
 
 ***
 
-Includes Elandi's custom Tempus sprays https://github.com/Elandi-rj/sprays
+## Credits
+
+![Elandi's custom Tempus sprays](https://github.com/Elandi-rj/sprays)
+
+![VillageGreenPreserver's SpeedoGraph](https://github.com/VillageGreenPreserver/SpeedoGraph)
+
+![cuekie's HUD Screenspace Shaders](https://github.com/cueki/hud-screenspace-shaders)
 
 ***
 
