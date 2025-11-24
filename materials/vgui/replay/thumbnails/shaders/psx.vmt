@@ -1,0 +1,40 @@
+screenspace_general
+{
+	$pixshader "psx_ps20"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+
+	// Color precision (e.g., 12, 16, 32)
+	$c0_x     32.0
+
+	// Dither strength (0.0 = none, 1.0 = normal, 2.0 = strong)
+	$c0_y     1.0
+
+	// Resolution X for UV snapping
+	$c0_z     1920.0
+
+	// Resolution Y for UV snapping
+	$c0_w     270.0
+
+	// === Constants1 ($c1) ===
+
+	// Saturation boost (1.0 = normal, 1.3 = boosted, 1.5 = vibrant)
+	$c1_x     1.05
+
+	// Color temperature (-1.0 = cool/blue, 0.0 = neutral, 0.3 = warm CRT)
+	$c1_y     0.0
+
+	// Chromatic aberration strength (0.0 = none, 0.003 = subtle)
+	$c1_z     0.0
+
+	// RGB subpixel intensity (0.0 = none, 0.3 = subtle, 0.7 = strong)
+	$c1_w     0.0
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}

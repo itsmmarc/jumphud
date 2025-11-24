@@ -144,7 +144,7 @@
 
 				"Slider"
 				{
-					"FGColor_Override"				"Gray"
+					"FGColor_Override"				"ScrollBar"
 				}
 				"UpButton"
 				{

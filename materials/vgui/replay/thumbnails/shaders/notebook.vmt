@@ -1,0 +1,26 @@
+screenspace_general
+{
+	$pixshader "notebook_ps20"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+
+	// Line/edge strength: 0.3 = light pencil, 0.7 = pen, 1.0 = bold marker
+	$c0_x 0.6
+
+	// Paper grain: 0.02 = smooth, 0.05 = textured, 0.1 = rough
+	$c0_y 0.04
+
+	// Ruled lines: 0.0 = no lines, 25.0 = notebook lines, 50.0 = tight lines
+	$c0_z 0.0
+
+	// Paper tone: 0.0 = blinding white, 0.3 = normal, 0.5 = darker, 0.7 = very dark
+	$c0_w 0.35
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}

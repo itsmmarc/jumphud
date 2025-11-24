@@ -11,48 +11,120 @@
 		"Green"												"63 185 73 255"
 
 		"Blank"												"0 0 0 0"
+
+        //=========================================================================================================================
+		// SOURCE SCHEME COLOR CUSTOMIZATION
+		//=========================================================================================================================
+		"SS_Frame_Active"									"0 0 0 230" // main window background
+		"SS_Frame_Inactive"									"0 0 0 230"
+
+		"SS_Title"											"255 255 255 255"
+		"SS_Title_Disabled"									"255 255 255 255"
+
+		"SS_ListBG"											"0 0 0 100"
+		"SS_List_Text"										"255 255 255 255"
+		"SS_List_Text_Armed"								"0 0 0 255"
+		"SS_List_Button"									"0 0 0 240"         // server list background & options menu background
+		"SS_List_Button_Armed"								"81 181 182 255"
+
+		"SS_Button_Text"									"255 255 255 255"
+		"SS_Button_Text_Armed"								"0 0 0 255"
+		"SS_Button_BG"										"0 0 0 200"       // button backgrounds
+		"SS_Button_BG_Armed"								"81 181 182 255"
+
+		"SS_Sheet_Text"										"255 255 255 255"
+		"SS_Sheet_Text_Selected"							"255 255 255 255"
+
+		"SS_CloseButton"									"255 255 255 255"
+
+        // right click menu also does dropdown lists
+		"SS_RightClick_Menu_Text"							"255 255 255 255"
+		"SS_RightClick_Menu_Text_Armed"						"255 255 255 255"
+		"SS_RightClick_Menu_BG"								"0 0 0 255"
+		"SS_RightClick_Menu_BG_Armed"						"81 181 182 255"
+		"SS_RightClick_Menu_Divider"						"255 255 255 255"
+
+		"SS_CheckButton_Text"								"255 255 255 255"
+		"SS_CheckButton_Text_Armed"							"98 219 220 255"
+		"SS_CheckButton_BG"									"0 0 0 200"
+		"SS_CheckButton_Armed"								"255 255 255 255"   // checkbox tick
+
+		"SS_Combobox_BG"									"0 0 0 0"
+		"SS_Combobox_Arrow"									"255 255 255 255"
+		"SS_Combobox_Arrow_Armed"							"255 255 255 255"
+
+		"SS_Slider_Nob"										"255 255 255 255"
+		"SS_Slider_Text"									"255 255 255 255"
+		"SS_Slider_Text_Disabled"							"180 180 180 255"
+		"SS_Slider_BG"										"18 15 14 255"
+
+		"SS_Label"											"255 255 255 255"
+		"SS_Label_Selected"									"255 255 255 255"
+
+		"SS_ToolTip_Text"									"18 15 14 255"
+		"SS_ToolTip_BG"										"150 152 154 255"
+
+		"SS_Option_Disabled"								"150 152 154 255"
+
+		"SS_ScrollBar"										"255 255 255 50"
+		"SS_ScrollBar_BG"									"0 0 0 0"   // def "18 15 14 200"      
+		"SS_ScrollBar_Button_Icon"							"0 0 0 0"   // def "255 255 255 255"   // scroll up and scroll down arrows
+		"SS_ScrollBar_Button_Icon_Armed"					"0 0 0 0"   // def "255 255 255 255"   // scroll up and scroll down arrows armed
+		"SS_ScrollBar_Button_BG"							"0 0 0 0"   // def "18 15 14 255"   
+		"SS_ScrollBar_Button_BG_Armed"						"0 0 0 0"   // def "81 181 182 255"     // scroll up and scroll down arrows bg
+
+		"SS_Text_Entry"										"255 255 255 255"   // text box text
+		"SS_Text_Entry_Selected"							"18 15 14 255"      // text box highlighted text
+		"SS_Text_Entry_BG"									"0 0 0 240"         // text box background
+		"SS_Text_Entry_BG_Selected"							"58 130 131 255"    // text box selected text bg
+
+		"SS_Console_Text_BG"								"0 0 0 150"         // console background
+		"SS_Console_Text_Selected"							"18 15 14 255"      // selected text in console
+		"SS_Console_Text_BG_Selected"						"58 130 131 255"    // selected text in console bg
+		"SS_Console_User_Input"								"98 219 220 255"    // text in console that was typed by user
+
 	}
 	"BaseSettings"
 	{
-		"Border.Bright"										"200 200 200 196"
-		"Border.Dark"										"40 40 40 196"
-		"Border.Selection"									"0 0 0 196"
+		"Border.Bright"										"Blank"
+		"Border.Dark"										"Blank"
+		"Border.Selection"									"Blank"
 
-		"Button.TextColor"									"White"
-		"Button.BgColor"									"Blank"
-		"Button.ArmedTextColor"								"White"
-		"Button.ArmedBgColor"								"Blank"
-		"Button.DepressedTextColor"							"White"
-		"Button.DepressedBgColor"							"Blank"
-		"Button.FocusBorderColor"							"Black"
+		"Button.TextColor"									"SS_Button_Text"
+		"Button.BgColor"									"SS_Button_BG"
+		"Button.ArmedTextColor"								"SS_Button_Text_Armed"
+		"Button.ArmedBgColor"								"SS_Button_BG_Armed"
+		"Button.DepressedTextColor"							"SS_Button_Text_Armed"
+		"Button.DepressedBgColor"							"SS_Button_BG"
+		"Button.FocusBorderColor"							"TransparentBlack"
 
-		"CheckButton.TextColor"								"OffWhite"
-		"CheckButton.SelectedTextColor"						"White"
-		"CheckButton.BgColor"								"TransparentBlack"
+		"CheckButton.TextColor"								"SS_CheckButton_Text"
+		"CheckButton.SelectedTextColor"						"SS_CheckButton_Text"
+		"CheckButton.BgColor"								"SS_CheckButton_BG"
 		"CheckButton.Border1"								"Border.Dark"
 		"CheckButton.Border2"								"Border.Bright"
-		"CheckButton.Check"									"White"
+		"CheckButton.Check"									"SS_CheckButton_Armed"
 
-		"ComboBoxButton.ArrowColor"							"DullWhite"
-		"ComboBoxButton.ArmedArrowColor"					"White"
-		"ComboBoxButton.BgColor"							"Blank"
-		"ComboBoxButton.DisabledBgColor"					"Blank"
+		"ComboBoxButton.ArrowColor"							"SS_Combobox_Arrow"
+		"ComboBoxButton.ArmedArrowColor"					"SS_Combobox_Arrow_Armed"
+		"ComboBoxButton.BgColor"							"SS_Combobox_BG"
+		"ComboBoxButton.DisabledBgColor"					"SS_Combobox_BG"
 
 		"Chat.TypingText"									"White"
 
 		"Frame.TitleTextInsetX"								"16"
 		"Frame.ClientInsetX"								"8"
 		"Frame.ClientInsetY"								"6"
-		"Frame.BgColor"										"160 160 160 128"
-		"Frame.OutOfFocusBgColor"							"160 160 160 32"
+		"Frame.BgColor"										"SS_Frame_Active"
+		"Frame.OutOfFocusBgColor"							"SS_Frame_Inactive"
 		"Frame.FocusTransitionEffectTime"					"0.3"
 		"Frame.TransitionEffectTime"						"0.3"
 		"Frame.AutoSnapRange"								"0"
-		"FrameGrip.Color1"									"200 200 200 196"
-		"FrameGrip.Color2"									"0 0 0 196"
-		"FrameTitleButton.FgColor"							"200 200 200 196"
+		"FrameGrip.Color1"									"Blank"
+		"FrameGrip.Color2"									"Blank"
+		"FrameTitleButton.FgColor"							"SS_Close_Button"
 		"FrameTitleButton.BgColor"							"Blank"
-		"FrameTitleButton.DisabledFgColor"					"255 255 255 192"
+		"FrameTitleButton.DisabledFgColor"					"SS_Title_Disabled"
 		"FrameTitleButton.DisabledBgColor"					"Blank"
 		"FrameSystemButton.FgColor"							"Blank"
 		"FrameSystemButton.BgColor"							"Blank"
@@ -68,26 +140,26 @@
 		"GraphPanel.FgColor"								"White"
 		"GraphPanel.BgColor"								"TransparentBlack"
 
-		"Label.TextDullColor"								"DullWhite"
-		"Label.TextColor"									"OffWhite"
-		"Label.TextBrightColor"								"White"
-		"Label.SelectedTextColor"							"White"
-		"Label.BgColor"										"TransparentBlack"
-		"Label.DisabledFgColor1"							"117 117 117 255"
-		"Label.DisabledFgColor2"							"30 30 30 255"
+		"Label.TextDullColor"								"DullSS_LabelWhite"
+		"Label.TextColor"									"SS_Label"
+		"Label.TextBrightColor"								"SS_Label"
+		"Label.SelectedTextColor"							"SS_Label_Selected"
+		"Label.BgColor"										"Blank"
+		"Label.DisabledFgColor1"							"SS_Option_Disabled"
+		"Label.DisabledFgColor2"							"Blank"
 
-		"ListPanel.TextColor"								"OffWhite"
+		"ListPanel.TextColor"								"SS_List_Text"
 		"ListPanel.TextBgColor"								"Blank"
-		"ListPanel.BgColor"									"TransparentBlack"
-		"ListPanel.SelectedTextColor"						"Black"
-		"ListPanel.SelectedBgColor"							"Orange"
-		"ListPanel.SelectedOutOfFocusBgColor"				"255 155 0 128"
+		"ListPanel.BgColor"									"SS_List_Button"
+		"ListPanel.SelectedTextColor"						"SS_List_Text_Armed"
+		"ListPanel.SelectedBgColor"							"SS_List_Button_Armed"
+		"ListPanel.SelectedOutOfFocusBgColor"				"SS_List_Button_Armed"
 		"ListPanel.EmptyListInfoTextColor"					"OffWhite"
 
-		"Menu.TextColor"									"White"
-		"Menu.BgColor"										"160 160 160 64"
-		"Menu.ArmedTextColor"								"Black"
-		"Menu.ArmedBgColor"									"Orange"
+		"Menu.TextColor"									"SS_RightClick_Menu_Text"
+		"Menu.BgColor"										"SS_RightClick_Menu_BG"
+		"Menu.ArmedTextColor"								"SS_RightClick_Menu_Text_Armed"
+		"Menu.ArmedBgColor"									"SS_RightClick_Menu_BG_Armed"
 		"Menu.TextInset"									"6"
 
 		"Panel.FgColor"										"Blank"
@@ -96,8 +168,8 @@
 		"ProgressBar.FgColor"								"White"
 		"ProgressBar.BgColor"								"TransparentBlack"
 
-		"PropertySheet.TextColor"							"OffWhite"
-		"PropertySheet.SelectedTextColor"					"White"
+		"PropertySheet.TextColor"							"SS_Sheet_Text"
+		"PropertySheet.SelectedTextColor"					"SS_Sheet_Text_Selected"
 		"PropertySheet.TransitionEffectTime"				"0.25"
 
 		"RadioButton.TextColor"								"DullWhite"
@@ -108,28 +180,28 @@
 		"RichText.SelectedTextColor"						"Black"
 		"RichText.SelectedBgColor"							"Orange"
 
-		"ScrollBar.Wide"									"17"
+		"ScrollBar.Wide"									"6"
 
-		"ScrollBarButton.FgColor"							"White"
-		"ScrollBarButton.BgColor"							"Blank"
-		"ScrollBarButton.ArmedFgColor"						"White"
-		"ScrollBarButton.ArmedBgColor"						"Blank"
-		"ScrollBarButton.DepressedFgColor"					"White"
-		"ScrollBarButton.DepressedBgColor"					"Blank"
+		"ScrollBarButton.FGColor"							"SS_ScrollBar_Button_Icon"
+		"ScrollBarButton.BGColor"							"SS_ScrollBar_Button_BG"
+		"ScrollBarButton.ArmedFGColor"						"SS_ScrollBar_Button_Icon_Armed"
+		"ScrollBarButton.ArmedBGColor"						"SS_ScrollBar_Button_BG_Armed"
+		"ScrollBarButton.DepressedFGColor"					"SS_ScrollBar_Button_Icon_Armed"
+		"ScrollBarButton.DepressedBGColor"					"SS_ScrollBar_Button_BG_Armed"
 
-		"ScrollBarSlider.FgColor"							"Blank"
-		"ScrollBarSlider.BgColor"							"255 255 255 64"
+		"ScrollBarSlider.BGColor"							"SS_ScrollBar_BG"
+		"ScrollBarSlider.FGColor"							"SS_ScrollBar"
 
 		"SectionedListPanel.HeaderTextColor"				"White"
 		"SectionedListPanel.HeaderBgColor"					"Blank"
-		"SectionedListPanel.DividerColor"					"Black"
+		"SectionedListPanel.DividerColor"					"56 58 60 100"
 		"SectionedListPanel.TextColor"						"DullWhite"
 		"SectionedListPanel.BrightTextColor"				"White"
-		"SectionedListPanel.BgColor"						"TransparentBlack"
-		"SectionedListPanel.SelectedTextColor"				"Black"
-		"SectionedListPanel.SelectedBgColor"				"Orange"
-		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
-		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 155 0 128"
+		"SectionedListPanel.BgColor"						"SS_List_Button"
+		"SectionedListPanel.SelectedTextColor"				"SS_List_Text_Armed"
+		"SectionedListPanel.SelectedBgColor"				"SS_List_Button_Armed"
+		"SectionedListPanel.OutOfFocusSelectedTextColor"	"SS_List_Text_Armed"
+		"SectionedListPanel.OutOfFocusSelectedBgColor"		"SS_List_Button_Armed"
 
 		"Slider.NobColor"									"108 108 108 255"
 		"Slider.TextColor"									"180 180 180 255"
@@ -149,19 +221,19 @@
 
 		"ToggleButton.SelectedTextColor"					"White"
 
-		"Tooltip.TextColor"									"0 0 0 196"
-		"Tooltip.BgColor"									"Orange"
+		"Tooltip.TextColor"									"SS_ToolTip_Text"
+		"Tooltip.BgColor"									"SS_ToolTip_BG"
 
 		"TreeView.BgColor"									"TransparentBlack"
 
 		"WizardSubPanel.BgColor"							"Blank"
 
-		"MainMenu.TextColor"								"White"
-		"MainMenu.ArmedTextColor"							"200 200 200 255"
-		"MainMenu.DepressedTextColor"						"192 186 80 255"
+		"MainMenu.TextColor"								"SS_Label"
+		"MainMenu.ArmedTextColor"							"SS_Label_Selected"
+		"MainMenu.DepressedTextColor"						"SS_Label_Selected"
 		"MainMenu.MenuItemHeight"							"16"
 		"MainMenu.Inset"									"32"
-		"MainMenu.Backdrop"									"0 0 0 156"
+		"MainMenu.Backdrop"									"Blank"
 
 		"Console.TextColor"									"OffWhite"
 		"Console.DevTextColor"								"White"

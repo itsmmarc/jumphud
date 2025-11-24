@@ -1,0 +1,16 @@
+"UnlitGeneric" {
+    //==============================================================
+    // CONDITIONALS
+    //--------------------------------------------------------------
+    $isAboveCloseMin 0
+    $isBelowCloseMax 0
+    $isClose 0
+
+    $isAboveGoodMin 0
+    $isBelowGoodMax 0
+    $isGood 0
+
+    $isAboveCloseMinB 0
+    $isBelowCloseMaxB 0
+    $isCloseB 0
+}

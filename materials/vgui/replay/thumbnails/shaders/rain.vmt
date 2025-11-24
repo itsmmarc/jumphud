@@ -1,0 +1,27 @@
+screenspace_general
+{
+	$pixshader "rain_ps20"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+
+	$c0_x     0.0 // time
+	$c0_y     0.6 // rain intensity
+	$c0_z     1.0 // rain speed
+	$c0_w     1.5 // rain size
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+
+	Proxies
+	{
+		CurrentTime
+		{
+			resultVar		$c0_x
+		}
+	}
+}

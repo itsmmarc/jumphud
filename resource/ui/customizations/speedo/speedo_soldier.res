@@ -15,9 +15,9 @@
 #base "../../../../../../cfg/jumphud/jh_color_speedos_s_a.txt"
 
 // BASE SPEEDOS
-#base "speedo_soldier_hspeedo_base.res"
-#base "speedo_vspeedo_base.res"
-#base "speedo_soldier_aspeedo_base.res"
+#base "speedo_soldier_hspeedo.res"
+#base "speedo_soldier_vspeedo.res"
+#base "speedo_soldier_aspeedo.res"
 
 "speedo_base.res"{
     "speedos"

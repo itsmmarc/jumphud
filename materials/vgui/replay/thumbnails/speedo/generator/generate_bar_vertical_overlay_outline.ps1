@@ -1,0 +1,38 @@
+# Define parameters
+$name = "overlay_v_outline"
+$maxNumber = 350
+$backgroundColor = "Transparent"
+$VTFSize = "16x512"
+$width = 16
+$height = 512
+$bottom = $height - 1
+$bottomB = $bottom-1
+$end = $width - 1
+$endB = $end-1
+$ratio = $maxNumber/$height
+
+$midLine = $width/2
+$smallLine = $width*0.75
+
+# Function to calculate the text color based on the number
+function Get-Position {
+    param(
+        [int]$number
+    )
+    return $height - $number/10/$ratio
+}
+
+$max = Get-Position -number 2200
+$maxB = $max - 1
+
+Write-Host "Starting script..."
+
+$SHAPE_sideLine     = "rectangle $end,$max $endB,$height"
+$SHAPE_sideLineL    = "rectangle 0,$max 1,$height"
+$SHAPE_topLINE      = "rectangle 0,$max $end,$maxB"
+$SHAPE_botLINE      = "rectangle 0,$bottom $end,$bottomB"
+
+# Generate image
+magick.exe -size $VTFSize xc:$backgroundColor +antialias -fill white  -draw $SHAPE_topLine -draw $SHAPE_botLINE -draw $SHAPE_sideLine -draw $SHAPE_sideLineL "$name.png"
+
+Write-Host "Script completed."

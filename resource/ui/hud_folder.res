@@ -104,7 +104,7 @@
                 "LabelText"									"Close TF2"
                 "Font"										"HudFontSmallishBold"
                 "TextAlignment"								"center"
-                "Command"									"engine replay_confirmquit"
+                "Command"									"engine jh_welcome_reset; replay_confirmquit"
                 "ActionSignalLevel"							"2"
                 "Sound_Depressed"							"UI/buttonclick.wav"
 

@@ -16,7 +16,7 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/thumbnails/speedo/vspeedo_basic"
+                //"image" "replay/thumbnails/speedo/vspeedo_basic"
             }
             "vspeedo_shadow" {
                 "controlName" "CTFImagePanel"
@@ -27,7 +27,7 @@
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "drawcolor" "Main_Shadow_Transparent"
-                "image" "replay/thumbnails/speedo/vspeedo_basic"
+                //"image" "replay/thumbnails/speedo/vspeedo_basic"
                 
                 "pin_to_sibling"		"vspeedo"
             }

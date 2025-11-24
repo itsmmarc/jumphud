@@ -1,0 +1,16 @@
+"UnlitGeneric" {
+    //==============================================================
+    // RANGES
+    //--------------------------------------------------------------
+    // close range
+    $closeMin 99999
+    $closeMax 99999
+
+    // good range
+    $goodMin 99999
+    $goodMax 99999
+
+    // above range
+    $closeMinB 99999
+    $closeMaxB 99999
+}

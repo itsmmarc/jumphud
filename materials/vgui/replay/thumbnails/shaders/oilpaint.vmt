@@ -1,0 +1,26 @@
+screenspace_general
+{
+	$pixshader "oilpaint_ps20"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+
+	// Brush size: 1.0 = small strokes, 3.0 = medium, 5.0+ = large paint strokes
+	$c0_x     3.3
+
+	// Color quantization: 0.0 = off, 64 = very stylized, 128.0 = subtle posterization
+	$c0_y     128.0
+
+	// Vibrancy: 1.0 = normal, 1.3 = more pop, 1.5 = vibrant, 2.0 = very saturated
+	$c0_z     1.3
+
+	// Shadow floor: 0.0 = allow pure black, 0.1 = subtle lift, 0.15 = washed out
+	$c0_w     0.04
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}

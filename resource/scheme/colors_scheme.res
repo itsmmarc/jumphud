@@ -6,6 +6,9 @@
         "Highlight_Color_Bright"        					"98 219 220 255"
         "Highlight_Color_Mid"           					"81 181 182 255"
         "Highlight_Color_Dark"          					"58 130 131 255"
+
+        "ScrollBar" "255 255 255 50"
+        "CustomizationOptionBG" "104 101 100 255"
 		//==================================================================================
 		// COLOR CUSTOMIZATION
 		//==================================================================================
@@ -14,10 +17,10 @@
 		"Health_Numbers"									"255 255 255 255"
 
 		"Health_Buff"										"56 228 176 255"
-		"Health_Shadow_Buff"								"0 185 0 200"
-		"Health_Buff_Target"								"0 215 0 200"
-		"Health_Buff_Spectator"								"0 215 0 200"
-		"Health_Buff_Killer"								"0 215 0 200"
+		"Health_Shadow_Buff"								"56 228 176 255"
+		"Health_Buff_Target"								"56 228 176 255"
+		"Health_Buff_Spectator"								"56 228 176 255"
+		"Health_Buff_Killer"								"56 228 176 255"
 
 		"Health_Hurt"										"228 56 56 255"
 		"Health_Shadow_Hurt"								"255 0 0 200"
@@ -95,11 +98,11 @@
 		"m0reOrange"										"255 155 75 255"
 		"m0reYellow"										"255 190 0 255"
 		"m0reOlive"											"180 200 100 255"
-		"m0reGreen"											"0 215 0 255"
+		"m0reGreen"											"0 255 85 255"
 		"m0reForest"										"0 135 55 255"
 		"m0reTeal"											"81 181 182 255"
 		"m0reCyan"											"98 219 220 255"
-		"m0reBlue"											"0 170 255 255"
+		"m0reBlue"											"35 125 235 255"
 		"m0reNavy"											"90 120 200 255"
 		"m0rePurple"										"150 50 235 255"
 		"m0reViolet"										"190 150 210 255"
@@ -438,7 +441,7 @@
 		"RichText.SelectedTextColor"						"Black"
 		"RichText.SelectedBGColor"							"Gray"
 
-		"ScrollBar.Wide"									"10"
+		"ScrollBar.Wide"									"8"
 		"ScrollBarButton.FGColor"							"Blank"
 		"ScrollBarButton.BGColor"							"Blank"
 		"ScrollBarButton.ArmedFGColor"						"Blank"
@@ -446,7 +449,7 @@
 		"ScrollBarButton.DepressedFGColor"					"Blank"
 		"ScrollBarButton.DepressedBGColor"					"Blank"
 
-		"ScrollBarSlider.FGColor"							"Gray"
+		"ScrollBarSlider.FGColor"							"ScrollBar"
 		"ScrollBarSlider.BGColor"							"Blank"
 
 		"SectionedListPanel.HeaderTextColor"				"White"

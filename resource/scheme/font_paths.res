@@ -46,7 +46,7 @@ Scheme
             "font"      "resource/scheme/fonts/nk57-monospace.scrg-regular.otf"
             "name"      "NK57 Monospace Sc Rg"
         }
-        "12"
+        "13"
         {
             "Font"      "resource/scheme/fonts/coolvetica_italic_mono.otf"
             "name"      "coolvetica_italic_mono"
@@ -66,6 +66,11 @@ Scheme
 		{
 			"Font"		"resource/scheme/fonts/optional/EternalUiRegular.ttf"
 			"name"		"Eternal UI Regular"
+		}
+        "23"
+		{
+			"Font"		"resource/scheme/fonts/optional/Roboto-Black.ttf"
+			"name"		"Roboto Black"
 		}
         //icon fonts
         "101"

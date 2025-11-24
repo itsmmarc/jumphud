@@ -1,0 +1,388 @@
+//SpeedoGraph by VillageGreenPreserver
+//https://github.com/VillageGreenPreserver/SpeedoGraph
+#base ../speedograph_textures/graph_type.vmt
+#base ../constants/constantNumbers.vmt
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_range_v.txt"
+#base ../colors/ranges/vspeedo_demo.vmt
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_v_clrtype.txt"
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_main.txt"
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_close.txt"
+#base "../../../../../../../cfg/jumphud/jh_gspeedo_dynclr_good.txt"
+#base ../colors/speedo_colors_default.vmt
+#base ../colors/ranges/conditionals.vmt
+"UnlitGeneric"
+{
+	
+	//==============================================================
+    // CONSTANTS
+    //==============================================================
+    "$0" 0.0
+	"$0.1" 0.1
+	"$0.5" 0.5
+	"$1" 1.0
+	"$10" 10.0
+	"$100" 100.0
+	"$1000" 1000.0
+
+    //==============================================================
+    // SPEEDO CALCULATION VARIABLES
+    //==============================================================
+	$digit 0 
+	$override 0
+	
+	$leading 0
+	$leading_check 0
+	
+	$left 0
+	$left_factor1 0
+	$left_factor2 0
+	$left_factor3 0
+	
+	$lt 9999
+	$gt -1
+
+	$const_interval	0.03 // update interval
+	$const_ten 10 $const_one 1 $const_half 0.5 $const_zero 0
+	$const_hun 100 $const_tou 1000
+
+	$value 0 $value_digit 0
+	$temp 0.0 $time 0.0 $interval 0.0 $update 0 $oldtime 0.0
+
+	$pos "[0.0 0.0 0.0]" $posz 0.0
+	$dz 0.0 $oldposz 0.0
+	$vd 0.0 $vspeed 0.0
+	"$translucent"		1
+	"$ignorez"			1
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+
+	
+	"$ten"		"10"
+
+	"$speed"			"0"
+	"$speedMax"			"0.965"
+	"$speedClamped"		"0.0"
+	"$speedScale"		"0.00027571428"
+	
+	"$delay"			"0.025"
+
+	"$bucket01"		"0"
+	"$bucket02"		"0"
+	"$bucket03"		"0"
+	"$bucket04"		"0"
+
+	"$timeDelay"		"0"
+	"$timeDelayTemp"	"0"
+
+	"$center"		"[0.5 0.5]"
+	"$scale"		"[1 1]"
+	"$rotate"		"0"
+	"$translate"	"[0.0 0.0]"
+
+    //==============================================================
+    // COLOR VARIABLES
+    //==============================================================  
+    $colorSpeed 0
+    $color      $colorMain
+
+
+
+	Proxies
+	{
+
+		CurrentTime
+		{
+			resultVar	"$time"
+		}
+
+		Add
+		{
+			srcVar1		"$time"
+			srcVar2		"$delay"
+			resultVar	"$timeDelayTemp"
+		}
+
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$bucket04"
+			greaterVar		"$bucket04"
+			lessEqualVar	"$bucket03"
+		}
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$bucket03"
+			greaterVar		"$bucket03"
+			lessEqualVar	"$bucket02"
+		}
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$bucket02"
+			greaterVar		"$bucket02"
+			lessEqualVar	"$bucket01"
+		}
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$bucket01"
+			greaterVar		"$bucket01"
+			lessEqualVar	"$speedClamped"
+		}
+
+			//==============================================================
+    // VERTICAL SPEED
+    //==============================================================
+		// Reset oldtime on new map
+		LessOrEqual {
+			lessEqualVar $oldtime greaterVar $const_zero 
+			srcVar1 $oldtime srcVar2 $time 
+			resultVar $oldtime
+		}
+
+		// Get current time
+		CurrentTime { resultVar $time }
+
+		// Calculate current interval
+		Subtract { srcVar1 $time srcVar2 $oldtime resultVar $interval }
+
+		// Sets $update to 1 if it's time to update
+		LessOrEqual {
+			lessEqualVar $const_zero greaterVar $const_one
+			srcVar1 $interval srcVar2 $const_interval
+			resultVar $update
+		}
+
+		// Save current time if updating
+		LessOrEqual {
+			lessEqualVar $oldtime greaterVar $time
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $oldtime
+		}
+
+		// Get player's position
+		PlayerPosition { scale 1 resultVar $pos }
+		Clamp { srcVar1 $const_zero min "$pos[2]" max "$pos[2]" resultVar $posz }
+		
+		// Calculate displacement
+		Subtract { srcVar1 $posz srcVar2 $oldposz resultVar $dz }
+
+		// Store current position if updating
+		// Save current time if updating
+		LessOrEqual {
+			lessEqualVar $oldposz greaterVar $posz
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $oldposz
+		}
+
+		// Set vertical displacement
+		Equals { srcVar1 $dz resultVar $vd }
+		
+		// Get absolute value
+		Abs { srcVar1 $vd resultVar $vd }
+
+		// Calculate horizontal speed
+		Divide { srcVar1 $vd srcVar2 $interval resultVar $vspeed }
+
+		// Change display value if updating
+		LessOrEqual {
+			lessEqualVar $value greaterVar $vspeed
+			srcVar1 $update srcVar2 $const_zero
+			resultVar $value
+		}
+
+		// Swap digits if ($left == 1)
+		Equals { srcVar1 $digit resultVar $override }
+	
+		Equals { srcVar1 $const_ten resultVar $left_factor1 }
+		Equals { srcVar1 $const_hun resultVar $left_factor2 }
+		Equals { srcVar1 $const_tou resultVar $left_factor3 }
+		Divide { srcVar1 $left_factor1 srcVar2 $digit resultVar $left_factor1 }
+		Divide { srcVar1 $left_factor2 srcVar2 $digit resultVar $left_factor2 }
+		Divide { srcVar1 $left_factor3 srcVar2 $digit resultVar $left_factor3 }
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor1
+			srcVar1 $value srcVar2 $const_ten
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor2
+			srcVar1 $value srcVar2 $const_hun
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $override greaterVar $left_factor3
+			srcVar1 $value srcVar2 $const_tou
+			resultVar $override
+		}
+		LessOrEqual {
+			lessEqualVar $digit greaterVar $override
+			srcVar1 $left srcVar2 $const_zero
+			resultVar $override
+		}
+		
+        // clamp speed
+        "Clamp"
+        {
+            "min"                                                   "0"
+            "max"                                                   "3500"
+            "srcVar1"                                               "$value"
+            "resultVar"                                             "$speed"
+        }
+
+		Multiply
+		{
+			srcVar1		"$speed"
+			srcVar2		"$speedScale"
+			resultVar	"$speed"
+		}
+
+		Clamp
+		{
+			min			"$0"
+			max			"$speedMax"
+			srcVar1		"$speed"
+			resultVar	"$speedClamped"
+		}
+
+		Equals
+		{
+			srcVar1		"$bucket04"
+			resultVar	"$translate[1]"
+		}
+
+        Divide
+        {
+            srcVar1 "$bucket04"
+            srcVar2 "$speedScale"
+            resultVar   "$colorSpeed"
+        }
+
+		TextureTransform
+		{
+			centerVar		"$center"
+			scaleVar		"$scale"
+			rotateVar		"$rotate"
+			translateVar	"$translate"
+			resultVar		"$basetexturetransform"
+		}
+
+	//==============================================================
+    // COLORS
+    //==============================================================
+        // BASE
+        // default to white if none of the below conditions are met
+        //--------------------------------------------------------------
+        Equals {
+            srcVar1     "$colorMain"
+            resultVar   "$color"
+        }
+
+        //==============================================================
+        // CLOSE
+        // if(speed>closeMin && speed<closeMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$colorSpeed"
+            srcVar2         "$closeMin"
+            resultVar       "$isAboveCloseMin"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$colorSpeed"
+            srcVar2         "$closeMax"
+            resultVar       "$isBelowCloseMax"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveCloseMin"
+            srcVar2     "$isBelowCloseMax"
+            resultVar   "$isClose"
+        }
+        LessOrEqual {
+            srcVar1         "$isClose"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorClose"
+            lessEqualVar    "$color"
+        }
+
+        //==============================================================
+        // GOOD
+        // if(speed>goodMin && speed<goodMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$colorSpeed"
+            srcVar2         "$goodMin"
+            resultVar       "$isAboveGoodMin"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$colorSpeed"
+            srcVar2         "$goodMax"
+            resultVar       "$isBelowGoodMax"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveGoodMin"
+            srcVar2     "$isBelowGoodMax"
+            resultVar   "$isGood"
+        }
+        LessOrEqual {
+            srcVar1         "$isGood"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorGood"
+            lessEqualVar    "$color"
+        }
+
+        //==============================================================
+        // ABOVE
+        // if(speed>aboveMin && speed<aboveMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$colorSpeed"
+            srcVar2         "$closeMinB"
+            resultVar       "$isAboveCloseMinB"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$colorSpeed"
+            srcVar2         "$closeMaxB"
+            resultVar       "$isBelowCloseMaxB"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveCloseMinB"
+            srcVar2     "$isBelowCloseMaxB"
+            resultVar   "$isCloseB"
+        }
+        LessOrEqual {
+            srcVar1         "$isCloseB"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorClose"
+            lessEqualVar    "$color"
+        }
+
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$timeDelay"
+			greaterVar		"$timeDelay"
+			lessEqualVar	"$timeDelayTemp"
+		}
+	}
+}
