@@ -1,4 +1,3 @@
 #base "../../../../cfg/jumphud/jh_ammo_casual.txt"
-#base "hudammoweapons_jump.res"
-
+#base "../../../../cfg/jumphud/jh_ammo_disable.txt"
 #base "hudammoweapons_base.res"

@@ -19,15 +19,11 @@
     }
     "AmmoInReserve"
 	{
-		"FieldName"									"AmmoInReserve"
-		"Wide"										"150"
-		"Tall"										"80"
+		"Enabled"									"1"
 	}
 	"AmmoInReserveShadow"
 	{
-		"FieldName"									"AmmoInReserveShadow"
-		"Wide"										"150"
-		"Tall"										"80"
+		"Enabled"									"1"
 	}
 
     "AmmoNoClip"
