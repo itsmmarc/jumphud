@@ -4,23 +4,11 @@
         {
             "wide"          "0"
             "tall"          "0"
-            // ...
-            "SubImage"
-            {
-                "wide"         "0"
-                "tall"         "0"
-            }
         }
         "CasualToggle_Casual"
         {
             "Wide"										"25"
             "Tall"										"25"
-
-            "SubButton"
-            {
-                "Wide"									"f0"
-                "Tall"									"f0"
-            }
         }
         "TempusHud"
         {
@@ -120,14 +108,6 @@
             }
         }
         "DemoSpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "AbsoluteSpeedo"
         {
             "SubButton"
             {

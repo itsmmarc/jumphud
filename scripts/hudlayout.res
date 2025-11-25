@@ -22,7 +22,10 @@
 // JUMP/CASUAL
 //=========================================================
 #base "../../../cfg/jumphud/jh_hudlayout_casual.txt"
-#base "layouts/hudlayout_jump.res"
+//=========================================================
+// TEMPUS SIDEPANEL BG
+//=========================================================
+#base "../../../cfg/jumphud/jh_tempusbg_panel.txt"
 
 //=========================================================
 // TRANSPARENT VIEWMODELS

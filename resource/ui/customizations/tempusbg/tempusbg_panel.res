@@ -1,9 +1,9 @@
 "Resource/UI/HudHintKeyDisplayBG.res"
 {
-    "TransparentBackground"
+    "TempusSidePanelBG"
 	{
 		"ControlName"								"EditablePanel"
-		"FieldName"									"TransparentBackground"
+		"FieldName"									"TempusSidePanelBG"
 		"XPos"										"-5"
 		"YPos"										"0"
         "ZPos"                                      "-1"

@@ -1,13 +1,12 @@
 #base "../../../../cfg/jumphud/jh_mmdashboard_casual.txt"
-#base "matchmakingdashboard_jump.res"
 
 "Resource/UI/MatchMakingDashboard.res"
 {
 	"MMDashboard"
 	{
 		"FieldName"									"MMDashboard"
-		//"Visible"									"0" //change this to "1" to play casual
-		//"Enabled"									"0" //change this to "1" to play casual
+		"Visible"									"0"
+		"Enabled"									"0"
 		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"10001"
