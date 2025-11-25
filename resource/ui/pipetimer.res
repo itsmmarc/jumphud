@@ -1,5 +1,5 @@
 "speedo_base.res"{
-    "pipetimer"
+    "PipeTimerContainer"
     {
         "controlName" "EditablePanel"
         "visible" "1"
