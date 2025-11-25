@@ -3,6 +3,10 @@
 //===========================================================================================================================
 event DemoPipeTimerStart
 {
+    StopEvent DemoPipeTimerMain         0.01
+    StopEvent DemoPipeTimerFlash        0.01
+    StopEvent DemoPipeTimerEnd          0.01
+    
 	Animate	DemoPipeTimerBar			Wide    "0"             Linear	0.0		0.1
     Animate	DemoPipeTimerBarFlash		Wide    "0"             Linear	0.0		0.1
     Animate DemoPipeTimerBarFlash       Alpha   "0"             Linear	0.0		0.1
