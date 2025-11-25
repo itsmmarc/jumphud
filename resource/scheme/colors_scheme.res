@@ -420,7 +420,7 @@
 		"HTML.BGColor"										"Blank"
 
 		"ProgressBar.FGColor"								"White"
-		"ProgressBar.BGColor"								"TransparentLightestBlack"
+		"ProgressBar.BGColor"								"TransparentLightBlack"
 
 		"CircularProgressBar.FGColor"						"White"
 		"CircularProgressBar.BGColor"						"White"
