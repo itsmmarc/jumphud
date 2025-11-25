@@ -1,4 +1,4 @@
-#base "speedo.res"
+#base speedo.res
 
 "Resource/UI/HudPlayerClass_Base.res"
 {

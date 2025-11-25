@@ -39,6 +39,11 @@
 	"file" "scripts/animations/hudanimations_crosshairs.txt"
 	"file" "scripts/animations/hudanimations_hitmarker.txt"
 
+    //===============================================================
+	// JUMPHUD ANIMATIONS
+	//===============================================================
+	"file" "scripts/animations/hudanimations_pipetimer.txt"
+
 	//===============================================================
 	// OTHER ANIMATIONS
 	//===============================================================
