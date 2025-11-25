@@ -12,8 +12,8 @@ event DemoPipeTimerStart
 
 event DemoPipeTimerMain
 {
-	Animate	DemoPipeTimerBar			Wide	"25"            Linear	0.0		5.8
-    Animate	DemoPipeTimerBarFlash		Wide	"25"            Linear	0.0		5.8
+	Animate	DemoPipeTimerBar			Wide	"f0"            Linear	0.0		5.8
+    Animate	DemoPipeTimerBarFlash		Wide	"f0"            Linear	0.0		5.8
 
     RunEvent DemoPipeTimerFlash			1.8
 }
