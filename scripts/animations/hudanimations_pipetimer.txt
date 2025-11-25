@@ -6,7 +6,7 @@ event DemoPipeTimerStart
     StopEvent DemoPipeTimerMain         0.01
     StopEvent DemoPipeTimerFlash        0.01
     StopEvent DemoPipeTimerEnd          0.01
-    
+
 	Animate	DemoPipeTimerBar			Wide    "0"             Linear	0.0		0.1
     Animate	DemoPipeTimerBarFlash		Wide    "0"             Linear	0.0		0.1
     Animate DemoPipeTimerBarFlash       Alpha   "0"             Linear	0.0		0.1
@@ -20,12 +20,11 @@ event DemoPipeTimerStart
 
 event DemoPipeTimerMain
 {
-    // idk where these wide values come from
-	Animate	DemoPipeTimerBar			    Wide	"255"        Linear	0.0		5.8
-    Animate	DemoPipeTimerBarFlash		    Wide	"255"        Linear	0.0		5.8
+	Animate	DemoPipeTimerBar			    Wide	"91"        Linear	0.0		2.05
+    Animate	DemoPipeTimerBarFlash		    Wide	"91"        Linear	0.0		2.05
 
-    Animate	DemoPipeTimerBar_Charge		    Wide	"388"       Linear	0.0		5.8
-    Animate	DemoPipeTimerBarFlash_Charge    Wide	"388"       Linear	0.0		5.8
+    Animate	DemoPipeTimerBar_Charge		    Wide	"140"       Linear	0.0		2.05
+    Animate	DemoPipeTimerBarFlash_Charge    Wide	"140"       Linear	0.0		2.05
 
     RunEvent DemoPipeTimerFlash			    1.8
 }
