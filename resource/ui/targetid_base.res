@@ -1,4 +1,4 @@
-"Resource/UI/Targetid.res"
+"Resource/UI/TargetID.res"
 {
 	"TargetNameLabelC"
 	{
