@@ -3,100 +3,271 @@
 		"controlName" "EditablePanel"
 		"visible" "1" // default visibility
 		"enabled" "1"
-		"wide" "40"
-		"tall" "10"
-		"xpos" "c-20"
+		"wide" "72"
+		"tall" "18"
+		"xpos" "cs-0.5"
 		"ypos" "c80"
 		
-		"d4_4k" {
-			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d4_4k"
-		}
-		"d3_4k" {
-			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d3_4k"
-			
-			"pin_to_sibling"		"d4_4k"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
-		}
-		"d2_4k" {
-			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d2_4k"
-			
-			"pin_to_sibling"		"d3_4k"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
-		}
-		"d1_4k" {
-			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d1_4k"
-			
-			"pin_to_sibling"		"d2_4k"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
-		}
+        "Digits_4_Container"
+        {
+            "controlName" "EditablePanel"
+            "visible" "1"
+            "enabled" "1"
+            "wide" "f0"
+            "tall" "f0"
+            "proportionaltoparent"  "1"
+            "xpos" "cs-0.5"
+            "ypos" "0"
 
-		"d3_3k" {
-			"controlName" "CTFImagePanel"
-			"xpos" "5"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d3_3k"
-		}
-		"d2_3k" {
-			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d2_3k"
-			
-			"pin_to_sibling"		"d3_3k"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
-		}
-		"d1_3k" {
-			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d1_3k"
-			
-			"pin_to_sibling"		"d2_3k"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
-		}
+            "d4_4k" {
+                "controlName" "CTFImagePanel"
+                "xpos" "cs-1.2"
+                "wide" "p0.25"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d4_4k"
+            }
+            "d4_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.25"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d4_4k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d4_4k"
+            }
+            "d3_4k" {
+                "xpos" "cs-0.7"
+                "controlName" "CTFImagePanel"
+                "wide" "p0.25"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d3_4k"
+            }
+            "d3_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.25"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d3_4k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d3_4k"
+            }
+            "d2_4k" {
+                "xpos" "cs-0.2"
+                "controlName" "CTFImagePanel"
+                "wide" "p0.25"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d2_4k"
+            }
+            "d2_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.25"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d2_4k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d2_4k"
+            }
+            "d1_4k" {
+                "xpos" "cs+0.3"
+                "controlName" "CTFImagePanel"
+                "wide" "p0.25"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d1_4k"
+            }
+            "d1_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.25"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d1_4k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d1_4k"
+            }
+        }
 
-		"d2_2k" {
-			"controlName" "CTFImagePanel"
-			"xpos" "10"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d2_2k"
-		}
-		"d1_2k" {
-			"controlName" "CTFImagePanel"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d1_2k"
-			
-			"pin_to_sibling"		"d2_2k"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
-		}
+        "Digits_3_Container"
+        {
+            "controlName" "EditablePanel"
+            "visible" "1"
+            "enabled" "1"
+            "wide" "p0.75"
+            "tall" "f0"
+            "proportionaltoparent"  "1"
+            "xpos" "cs-0.5"
+            "ypos" "0"
 
-		"d1_1k" {
-			"controlName" "CTFImagePanel"
-			"xpos" "15"
-			"wide" "10"
-			"tall" "10"
-			"image" "replay/thumbnails/heighto/center/d1_1k"
-		}
+            "d3_3k" {
+                "controlName" "CTFImagePanel"
+                "xpos" "cs-1"
+                "wide" "p0.33"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d3_3k"
+            }
+            "d3_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.33"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d3_3k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d3_3k"
+            }
+            "d2_3k" {
+                "controlName" "CTFImagePanel"
+                "xpos" "cs-0.5"
+                "wide" "p0.33"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d2_3k"
+            }
+            "d2_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.33"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d2_3k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d2_3k"
+            }
+            "d1_3k" {
+                "controlName" "CTFImagePanel"
+                "xpos" "cs+0.05"
+                "wide" "p0.33"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d1_3k"
+            }
+            "d1_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.33"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d1_3k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d1_3k"
+            }
+        }
+
+        "Digits_2_Container"
+        {
+            "controlName" "EditablePanel"
+            "visible" "1"
+            "enabled" "1"
+            "wide" "p0.5"
+            "tall" "f0"
+            "proportionaltoparent"  "1"
+            "xpos" "cs-0.5"
+            "ypos" "0"
+
+            "d2_2k" {
+                "controlName" "CTFImagePanel"
+                "xpos" "cs-0.5"
+                "wide" "p0.5"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d2_2k"
+            }
+            "d2_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.5"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d2_2k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d2_2k"
+            }
+            "d1_2k" {
+                "controlName" "CTFImagePanel"
+                "xpos" "cs-0.2"
+                "wide" "p0.5"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d1_2k"
+            }
+            "d1_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "p0.5"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d1_2k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d1_2k"
+            }
+        }
+        "Digits_1_Container"
+        {
+            "controlName" "EditablePanel"
+            "visible" "1"
+            "enabled" "1"
+            "wide" "p0.25"
+            "tall" "f0"
+            "proportionaltoparent"  "1"
+            "xpos" "cs-0.5"
+            "ypos" "0"
+
+            "d1_1k"
+            {
+                "controlName" "CTFImagePanel"
+                "xpos" "0"
+                "wide" "f0"
+                "tall" "f0"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d1_1k"
+            }
+            "d1_shadow" {
+                "controlName" "CTFImagePanel"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos"  "-1"
+                "ypos"  "-1"
+                "zpos"  "-1"
+                "proportionaltoparent"  "1"
+                "image" "replay/thumbnails/heighto/center/d1_1k"
+                "drawcolor" "main_shadow"
+                
+                "pin_to_sibling"		"d1_1k"
+            }
+        }
 	} 
 }
