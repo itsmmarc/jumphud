@@ -1,221 +1,27 @@
-#base "mod.vmt"
+//==============================================================
+// TEXTURE
+//--------------------------------------------------------------
+#base "../../../../../../../cfg/jumphud/jh_font_heighto.txt"
+#base fonts/coolvetica/digits.vmt   // default
 
-"UnlitGeneric" {
-	"$digit" 0.0
-	
-	"$leading" 0.0
-	"$leading_check" 0.0
+//==============================================================
+// COLORS
+//--------------------------------------------------------------
+#base ../speedo/colors/ranges/vspeedo_demo.vmt
+#base "../../../../../../../cfg/jumphud/jh_heighto_clrtype.txt"
+#base "../../../../../../../cfg/jumphud/jh_heighto_dynclr_main.txt"
+#base "../../../../../../../cfg/jumphud/jh_heighto_dynclr_close.txt"
+#base "../../../../../../../cfg/jumphud/jh_heighto_dynclr_good.txt"
+#base ../speedo/colors/speedo_colors_default.vmt
+#base ../speedo/colors/ranges/conditionals.vmt
+//==============================================================
+// CONSTANTS
+//--------------------------------------------------------------
+#base ../speedo/constants/rounding.vmt
+#base ../speedo/constants/constantNumbers.vmt
+//==============================================================
+// HEIGHTO CALCULATION, ROUNDING, COLORS, & DIGIT SEPERATION
+//--------------------------------------------------------------
+#base heighto_math.vmt
 
-	"$lt" 9999.0
-	"$gt" -1.0
-
-	"$const_zero" 0.0
-	"$const_one" 1.0
-	"$const_two" 2.0
-	"$const_ten" 10.0
-	"$const_tou" 1000.0
-	"$const_negone" -1.0
-	"$const_eps" 0.009765625
-
-	"$value" 0.0 "$value_digit" 0.0
-	
-	"$pos" "[ 0 0 0 ]"
-	
-	"$bottom" 0.0
-	"$top" 0.0
-	
-	"$upwards_timer" 0.0
-	"$downwards_timer" 0.0
-	"$standing_timer" 0.0
-	
-	"$upwards_delay" 0.01
-	"$downwards_delay" 0.05
-	"$standing_delay" 0.1
-	
-	"$t" 0.0 "$prev_t" 0.0
-	"$x" 0.0 "$y" 0.0 "$z" 0.0
-	"$prev_z" 0.0
-	"$prev_update_z" 0.0
-	
-	"$tmp" 0.0 "$tmp2" 0.0 "$tmp3" 0.0
-
-	"$gravity" 800.0
-	
-	"$dt" 0.0 "$dz" 0.0
-	"$vertical_speed" 0.0
-	"$top_value" 0.0
-
-	Proxies {
-		// Get player position
-		
-		PlayerPosition { scale 1 resultVar "$pos" }
-		Clamp { srcVar1 "$const_zero" min "$pos[0]" max "$pos[0]" resultVar "$x" }
-		Clamp { srcVar1 "$const_zero" min "$pos[1]" max "$pos[1]" resultVar "$y" }
-		Clamp { srcVar1 "$const_zero" min "$pos[2]" max "$pos[2]" resultVar "$z" }
-
-		// Get game time
-		CurrentTime { resultVar "$t" }
-		
-		// increment timer only while player is moving vertically
-		// dt = t - prev_t
-		Subtract { srcVar1 "$t" srcVar2 "$prev_t" resultVar "$dt" }
-		
-		// if prev_z != z:
-        // upwards_timer += dt
-        // downwards_timer += dt  
-		Subtract { srcVar1 "$prev_z" srcVar2 "$z" resultVar "$tmp" }
-		Abs { srcVar1 "$tmp" resultVar "$tmp" }
-		Multiply { srcVar1 "$tmp" srcVar2 "$const_negone" resultVar "$tmp2" }
-		LessOrEqual {
-			srcVar1 "$tmp" srcVar2 "$tmp2"
-			lessEqualVar "$const_zero" greaterVar "$dt"
-			resultVar "$tmp2"
-		}
-		Add { srcVar1 "$upwards_timer" srcVar2 "$tmp2" resultVar "$upwards_timer" }
-		Add { srcVar1 "$downwards_timer" srcVar2 "$tmp2" resultVar "$downwards_timer" }
-		
-		// if abs(prev_z - z) <= eps
-		// standing_timer += dt
-		Multiply { srcVar1 "$standing_timer" srcVar2 "$const_negone" resultVar "$tmp2" }
-		LessOrEqual {
-			srcVar1 "$tmp" srcVar2 "$const_eps"
-			lessEqualVar "$dt" greaterVar "$tmp2"
-			resultVar "$tmp3"
-		}
-		Add { srcVar1 "$standing_timer" srcVar2 "$tmp3" resultVar "$standing_timer" }
-
-		// reset upwards_timer
-		// if prev_z > z:
-		// upwards_timer = 0
-		LessOrEqual {
-			srcVar1 "$prev_z" srcVar2 "$z"
-			lessEqualVar "$upwards_timer" greaterVar "$const_zero"
-			resultVar "$upwards_timer"
-		}
-		// prev_update_z = z
-		LessOrEqual {
-			srcVar1 "$prev_z" srcVar2 "$z"
-			lessEqualVar "$prev_update_z" greaterVar "$z"
-			resultVar "$prev_update_z"
-		}
-		
-		// reset downwards_timer
-		// if prev_z < z:
-        // downwards_timer = 0
-		LessOrEqual {
-			srcVar1 "$z" srcVar2 "$prev_z"
-			lessEqualVar "$downwards_timer" greaterVar "$const_zero"
-			resultVar "$downwards_timer"
-		}
-		
-		// top calculation
-		// dz = z - prev_update_z
-		Subtract { srcVar1 "$z" srcVar2 "$prev_update_z" resultVar "$dz" }
-		// vertical_speed = dz / upwards_timer - g*upwards_timer/2
-		Multiply { srcVar1 "$gravity" srcVar2 "$upwards_timer" resultVar "$tmp" }
-		Divide { srcVar1 "$tmp" srcVar2 "$const_two" resultVar "$tmp" }
-		Divide { srcVar1 "$dz" srcVar2 "$upwards_timer" resultVar "$tmp2" }
-		
-		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$vertical_speed" }
-		// top_value = z + vertical_speed^2 / (2 * g)
-		Multiply { srcVar1 "$gravity" srcVar2 "$const_two" resultVar "$tmp" }
-		Multiply { srcVar1 "$vertical_speed" srcVar2 "$vertical_speed" resultVar "$tmp2" }
-		Divide { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp" }
-		Add { srcVar1 "$z" srcVar2 "$tmp" resultVar "$top_value" }
-	   
-		// Trigger top update
-        // if upwards_timer >= 0.1:
-        // top = top_value
-        LessOrEqual {
-            srcVar1 "$upwards_delay" srcVar2 "$upwards_timer"
-            lessEqualVar "$top_value" greaterVar "$top"
-            resultVar "$top"
-        }
-        // Reset timer
-        // prev_update_z = z
-        LessOrEqual {
-            srcVar1 "$upwards_delay" srcVar2 "$upwards_timer"
-            lessEqualVar "$z" greaterVar "$prev_update_z" 
-            resultVar "$prev_update_z"
-        }
-        // upwards_timer = 0
-        LessOrEqual {
-            srcVar1 "$upwards_delay" srcVar2 "$upwards_timer"
-            lessEqualVar "$const_zero" greaterVar "$upwards_timer"
-            resultVar "$upwards_timer"
-        }
-        
-        // Trigger bottom update
-        // if downwards_timer >= 0.1:
-        // bottom = z
-        LessOrEqual {
-            srcVar1 "$downwards_delay" srcVar2 "$downwards_timer"
-            lessEqualVar "$z" greaterVar "$bottom"
-            resultVar "$bottom"
-        }
-		
-        // if standing_timer >= 0.1:
-		// trigger bottom update
-        LessOrEqual {
-            srcVar1 "$standing_delay" srcVar2 "$standing_timer"
-            lessEqualVar "$z" greaterVar "$bottom"
-            resultVar "$bottom"
-        }
-		// reset upwards timer
-        LessOrEqual {
-            srcVar1 "$standing_delay" srcVar2 "$standing_timer"
-            lessEqualVar "$z" greaterVar "$prev_update_z" 
-            resultVar "$prev_update_z"
-        }
-        LessOrEqual {
-            srcVar1 "$standing_delay" srcVar2 "$standing_timer"
-            lessEqualVar "$const_zero" greaterVar "$upwards_timer"
-            resultVar "$upwards_timer"
-        }
-		// reset downwards timer
-		LessOrEqual {
-            srcVar1 "$standing_delay" srcVar2 "$standing_timer"
-            lessEqualVar "$const_zero" greaterVar "$downwards_timer"
-            resultVar "$downwards_timer"
-        }
-
-		// prev_z = z
-		// prev_t = t
-		Equals { srcVar1 "$z" resultVar "$prev_z" }
-		Equals { srcVar1 "$t" resultVar "$prev_t" }
-		
-		// display (top - bottom + 10)
-		Subtract { srcVar1 "$top" srcVar2 "$bottom" resultVar "$tmp" } 
-		Add { srcVar1 "$tmp" srcVar2 "$const_ten" resultVar "$value" } 
-
-		// Display digit
-		Divide { srcVar1 "$value" srcVar2 "$digit" resultVar "$value_digit" }
-		WrapMinMax { srcVar1 "$value_digit" maxVal "$const_ten" resultVar "$frame" }
-		
-		// Set to frame 10 (empty) if ("$leading" == 1) && digit is leading zero 
-		Equals { srcVar1 "$const_zero" resultVar "$leading_check" }
-		LessOrEqual {
-			lessEqualVar "$value" greaterVar "$const_tou"
-			srcVar1 "$leading" srcVar2 "$const_zero"
-			resultVar "$leading_check"
-		}
-		Add { srcVar1 "$leading_check" srcVar2 "$const_one" resultVar "$leading_check" }
-		LessOrEqual {
-			lessEqualVar "$const_ten" greaterVar "$frame"
-			srcVar1 "$leading_check" srcVar2 "$digit"
-			resultVar "$frame"
-		}
-		
-		// Set to frame 10 (empty) if (less than "$lt" or greater than "$gt")
-		LessOrEqual {
-			lessEqualVar "$frame" greaterVar "$const_ten"
-			srcVar1 "$value" srcVar2 "$lt"
-			resultVar "$frame"
-		}
-		LessOrEqual {
-			lessEqualVar "$const_ten" greaterVar "$frame"
-			srcVar1 "$value" srcVar2 "$gt"
-			resultVar "$frame"
-		}
-	}
-}
+"UnlitGeneric" {}
