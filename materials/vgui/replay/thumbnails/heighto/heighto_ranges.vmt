@@ -1,0 +1,28 @@
+"UnlitGeneric" {
+    //==============================================================
+    // RANGES
+    //--------------------------------------------------------------
+    // Double Range
+    $doubleMin 1299
+    $doubleMax 2000
+
+    // Triple Range
+    $tripleMin 1999
+    $tripleMax 7500
+
+    // Max Velocity Range
+    $maxVelMin 7499
+
+    //==============================================================
+    // CONDITIONALS
+    //--------------------------------------------------------------
+    $isAboveDoubleMin 0
+    $isBelowDoubleMax 0
+    $isDouble 0
+
+    $isAboveTripleMin 0
+    $isBelowTripleMax 0
+    $isTriple 0
+
+    $isAboveMaxVelMin 0
+}
