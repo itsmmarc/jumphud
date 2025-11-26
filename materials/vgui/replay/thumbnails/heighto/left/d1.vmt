@@ -1,0 +1,7 @@
+#base "../heighto.vmt"
+
+"UnlitGeneric" {
+	$digit 1000
+	
+	$left 1
+}

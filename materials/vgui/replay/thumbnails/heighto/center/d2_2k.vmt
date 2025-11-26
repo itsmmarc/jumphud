@@ -1,0 +1,9 @@
+#base "../heighto.vmt"
+
+"UnlitGeneric" {
+	$digit 10
+	$lt 100
+	$gt 10
+	
+	$basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0.2 0"
+}

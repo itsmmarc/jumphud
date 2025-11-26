@@ -1,0 +1,7 @@
+"UnlitGeneric" {
+	$basetexture "vgui/replay/thumbnails/heighto/digits_trebuchet"
+	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
+
+	$color "[1 0.8 0.8]"
+	$alpha 0.75
+}
