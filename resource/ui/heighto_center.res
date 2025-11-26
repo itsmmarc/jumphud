@@ -21,15 +21,14 @@
 
             "d4_4k" {
                 "controlName" "CTFImagePanel"
-                "xpos" "cs-1.2"
-                "wide" "p0.25"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d4_4k"
             }
             "d4_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.25"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -41,16 +40,15 @@
                 "pin_to_sibling"		"d4_4k"
             }
             "d3_4k" {
-                "xpos" "cs-0.7"
                 "controlName" "CTFImagePanel"
-                "wide" "p0.25"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d3_4k"
             }
             "d3_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.25"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -62,16 +60,15 @@
                 "pin_to_sibling"		"d3_4k"
             }
             "d2_4k" {
-                "xpos" "cs-0.2"
                 "controlName" "CTFImagePanel"
-                "wide" "p0.25"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d2_4k"
             }
             "d2_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.25"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -83,16 +80,15 @@
                 "pin_to_sibling"		"d2_4k"
             }
             "d1_4k" {
-                "xpos" "cs+0.3"
                 "controlName" "CTFImagePanel"
-                "wide" "p0.25"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d1_4k"
             }
             "d1_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.25"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -110,7 +106,7 @@
             "controlName" "EditablePanel"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.75"
+            "wide" "f0"
             "tall" "f0"
             "proportionaltoparent"  "1"
             "xpos" "cs-0.5"
@@ -118,15 +114,14 @@
 
             "d3_3k" {
                 "controlName" "CTFImagePanel"
-                "xpos" "cs-1"
-                "wide" "p0.33"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d3_3k"
             }
             "d3_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.33"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -139,15 +134,14 @@
             }
             "d2_3k" {
                 "controlName" "CTFImagePanel"
-                "xpos" "cs-0.5"
-                "wide" "p0.33"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d2_3k"
             }
             "d2_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.33"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -160,15 +154,14 @@
             }
             "d1_3k" {
                 "controlName" "CTFImagePanel"
-                "xpos" "cs+0.05"
-                "wide" "p0.33"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d1_3k"
             }
             "d1_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.33"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -186,7 +179,7 @@
             "controlName" "EditablePanel"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.5"
+            "wide" "f0"
             "tall" "f0"
             "proportionaltoparent"  "1"
             "xpos" "cs-0.5"
@@ -194,15 +187,14 @@
 
             "d2_2k" {
                 "controlName" "CTFImagePanel"
-                "xpos" "cs-0.5"
-                "wide" "p0.5"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d2_2k"
             }
             "d2_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.5"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -215,15 +207,14 @@
             }
             "d1_2k" {
                 "controlName" "CTFImagePanel"
-                "xpos" "cs-0.2"
-                "wide" "p0.5"
+                "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
                 "image" "replay/thumbnails/heighto/center/d1_2k"
             }
             "d1_shadow" {
                 "controlName" "CTFImagePanel"
-                "wide" "p0.5"
+                "wide" "f0"
                 "tall" "f0"
                 "xpos"  "-1"
                 "ypos"  "-1"
@@ -240,7 +231,7 @@
             "controlName" "EditablePanel"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.25"
+            "wide" "f0"
             "tall" "f0"
             "proportionaltoparent"  "1"
             "xpos" "cs-0.5"
@@ -249,7 +240,6 @@
             "d1_1k"
             {
                 "controlName" "CTFImagePanel"
-                "xpos" "0"
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"

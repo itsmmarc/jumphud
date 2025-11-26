@@ -2,7 +2,7 @@
 // TEXTURE
 //--------------------------------------------------------------
 #base "../../../../../../../cfg/jumphud/jh_font_heighto.txt"
-#base fonts/coolvetica/digits.vmt   // default
+#base fonts/roboto/digits.vmt   // default
 
 //==============================================================
 // COLORS

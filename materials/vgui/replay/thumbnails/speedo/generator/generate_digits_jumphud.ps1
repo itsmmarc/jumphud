@@ -12,8 +12,8 @@
 $maxNumber = 10
 $backgroundColor = "Transparent"
 $font = "fonts/Roboto-Black.ttf"
-$fontSize = 128
-$VTFSize = "128x128"
+$fontSize = 64
+$VTFSize = "256x64"
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
 $folder = "digits"
 $imagesFolder = "$PSScriptRoot\$folder"  # Assuming the images are stored in a folder named "numbers" in the script's directory
