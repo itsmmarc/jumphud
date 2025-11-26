@@ -1,7 +1,9 @@
-"UnlitGeneric" {
-	$basetexture "vgui/replay/thumbnails/heighto/digits_trebuchet"
-	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
+//==============================================================
+// TEXTURE
+//--------------------------------------------------------------
+#base /fonts/coolvetica/digits.vmt   // default
 
-	$color "[1 0.8 0.8]"
-	$alpha 0.75
+"UnlitGeneric" {
+$color "{255 255 255}"
+	$alpha 1
 }
