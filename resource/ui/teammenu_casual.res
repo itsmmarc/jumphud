@@ -5,63 +5,125 @@
 		"FieldName"									"WhiteBar"
 		"YPos"										"90"
 	}
-    "RandomButton_jump"
+    "RandomButton"
 	{
-		"FieldName"									"RandomButton_jump"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
-    "RandomButton_casual"
-	{
-		"FieldName"									"RandomButton_casual"
+		"ControlName"								"CExButton"
+
+		"XPos"										"0"
+		"YPos"										"-40"
+		"ZPos"										"1"
+		"Wide"										"130"
+		"Tall"										"50"
 		"Visible"									"1"
 		"Enabled"									"1"
+		"LabelText"									"Random"
+		"TextAlignment"								"center"
+		"Font"										"TeamMenuSmall"
+		"Command"									"jointeam auto"
+		"Use_Proportional_Insets"					"1"
+		"ProportionalToParent"						"1"
+		"Sound_Depressed"							"UI/buttonclick.wav"
+
+		"PaintBackground"							"0"
+
+		"DefaultFGColor_Override"					"White"
+		"ArmedFGColor_Override"						"Menu_Accent"
+		"DepressedFGColor_Override"					"White"
+
+		"Pin_To_Sibling"							"TeamsAnchor"
+		"Pin_Corner_To_Sibling"						"PIN_CENTER_BOTTOM"
+		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 	}
 
-    "SpectateButton_jump"
+    "SpectateButton"
 	{
-		"FieldName"									"SpectateButton_jump"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
-    "SpectateButton_casual"
-	{
-		"FieldName"									"SpectateButton_casual"
+		"ControlName"								"CExButton"
+
+		"XPos"										"0"
+		"YPos"										"-50"
+		"ZPos"										"1"
+		"Wide"										"130"
+		"Tall"										"50"
 		"Visible"									"1"
 		"Enabled"									"1"
+		"LabelText"									"SPECTATE"
+		"TextAlignment"								"center"
+		"Font"										"TeamMenuSmall"
+		"Command"									"jointeam spectate"
+		"Use_Proportional_Insets"					"1"
+		"ProportionalToParent"						"1"
+		"Sound_Depressed"							"UI/buttonclick.wav"
+
+		"PaintBackground"							"0"
+
+		"DefaultFGColor_Override"					"White"
+		"ArmedFGColor_Override"						"Menu_Accent"
+		"DepressedFGColor_Override"					"White"
+
+		"Pin_To_Sibling"							"TeamsAnchor"
+		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+		"Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
 	}
 
-    "RedButton_jump"
+    "RedButton"
 	{
-		"FieldName"									"RedButton_jump"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
-    "RedButton_casual"
-	{
-		"FieldName"									"RedButton_casual"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"ControlName"								"CExButton"
+
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"1"
+		"Wide"										"80"
+		"Tall"										"80"
+		"LabelText"									"z"
+        "Font"                                      "ClassSymbols80"
+        "TextAlignment"								"west"
+		"Command"									"jointeam red"
+		"Use_Proportional_Insets"					"1"
+		"ProportionalToParent"						"1"
+		"RoundedCorners"							"0"
+		"Sound_Depressed"							"UI/buttonclick.wav"
+
+		"PaintBackground"							"0"
+
+		"DefaultFGColor_Override"					"TransparentBlack"
+		"ArmedFGColor_Override"						"Red"
+		"DepressedFGColor_Override"					"Red"
+
+		"Pin_To_Sibling"							"WhiteBar"
+		"Pin_Corner_To_Sibling"						"PIN_CENTER_LEFT"
+		"Pin_To_Sibling_Corner"						"PIN_CENTER_RIGHT"
 	}
 
-    "BlueButton_jump"
+    "BlueButton"
 	{
-		"FieldName"									"BlueButton_jump"
-		"Visible"									"0"
-		"Enabled"									"0"
-	}
-    "BlueButton_casual"
-	{
-		"FieldName"									"BlueButton_casual"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"ControlName"								"CExButton"
+
+		"XPos"										"0"
+		"YPos"										"0"
+		"Wide"										"80"
+		"Tall"										"80"
+		"LabelText"									"y"
+        "Font"                                      "ClassSymbols80"
+        "TextAlignment"								"east"
+		"RoundedCorners"							"0"
+		"Sound_Depressed"							"UI/buttonclick.wav"
+
+		"PaintBackground"							"0"
+
+		"DefaultFGColor_Override"					"TransparentBlack"
+		"ArmedFGColor_Override"						"Blue"
+		"DepressedFGColor_Override"					"Blue"
+
+		"Pin_To_Sibling"							"WhiteBar"
+		"Pin_Corner_To_Sibling"						"PIN_CENTER_RIGHT"
+		"Pin_To_Sibling_Corner"						"PIN_CENTER_LEFT"
 	}
 
     "RedCount"
     {
         "xpos"  "1"
         "ypos"  "-12"
-        "Pin_To_Sibling"							"RedButton_casual"
+        "Pin_To_Sibling"							"RedButton"
         "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
     }
@@ -70,7 +132,7 @@
     {
         "xpos"  "-2"
         "ypos"  "-12"
-        "Pin_To_Sibling"							"BlueButton_casual"
+        "Pin_To_Sibling"							"BlueButton"
         "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
     }

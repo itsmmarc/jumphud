@@ -7,4 +7,12 @@
         "XPos"										"0"
         "XPos_minmode"								"0"
     }
+    "PipeTimerContainer"
+    {
+        "visible" "0"
+    }
+    "PipeTimerContainer_Charge"
+    {
+        "visible" "0"
+    }
 }

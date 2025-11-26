@@ -1,6 +1,6 @@
 "Scripts/layouts/HudLayout_jump.res"
 {   
-    "TransparentBackground"
+    "TempusSidePanelBG"
     {
         "Visible"									"0"
         "Enabled"									"0"
