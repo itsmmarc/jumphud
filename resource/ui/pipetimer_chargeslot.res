@@ -6,7 +6,7 @@
         "enabled" "1"
         "wide" "140"
         "tall" "4"
-        "xpos" "cs-0.5"
+        "xpos" "cs-0.5+4"
         "ypos" "r168"
 
         "paintBackground"   "0"
