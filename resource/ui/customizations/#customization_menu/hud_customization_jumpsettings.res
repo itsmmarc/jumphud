@@ -1045,7 +1045,7 @@
                         "YPos"								"0"
                         "ZPos"								"20"
                         "Wide"								"250"
-                        "Tall"								"25"
+                        "Tall"								"27"
                         "Visible"							"1"
                         "Enabled"							"1"
                         "ProportionalToParent"				"1"
