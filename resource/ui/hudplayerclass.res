@@ -1,4 +1,5 @@
 #base speedo.res
+#base skeys.res
 
 "Resource/UI/HudPlayerClass_Base.res"
 {
