@@ -4,10 +4,10 @@
         "controlName" "EditablePanel"
         "visible" "1"
         "enabled" "1"
-        "wide" "100"
-        "tall" "100"
-        "xpos" "rs1-5"
-        "ypos" "rs1-5"
+        "wide" "70"
+        "tall" "70"
+        "xpos" "rs1-15"
+        "ypos" "rs1-10"
 
         "paintBackground"   "0"
         "bgcolor_override"  "red"
@@ -19,12 +19,15 @@
             "FieldName" "KeyPress_Forward_Container"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.33"
-            "tall" "p0.33"
+            "wide" "p0.3"
+            "tall" "p0.3"
             "xpos" "cs-0.5"
             "ypos" "0"
 
             "proportionaltoparent"  "1"
+
+            "paintBackground"   "1"
+            "bgcolor_override"  "TransparentLightBlack"
 
             KeyPress_Forward
             {
@@ -56,7 +59,7 @@
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
                 "LabelText"							"W"
-                "Font"								"Ingame_Medium"
+                "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
                 "FGColor"							"White"
             }
@@ -83,12 +86,15 @@
             "FieldName" "KeyPress_Left_Container"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.33"
-            "tall" "p0.33"
-            "xpos" "0"
+            "wide" "p0.3"
+            "tall" "p0.3"
+            "xpos" "p0.02"
             "ypos" "0"
 
             "proportionaltoparent"  "1"
+
+            "paintBackground"   "1"
+            "bgcolor_override"  "TransparentLightBlack"
 
             "Pin_To_Sibling"			"KeyPress_Back_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPRIGHT"
@@ -125,7 +131,7 @@
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
                 "LabelText"							"A"
-                "Font"								"Ingame_Medium"
+                "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
                 "FGColor"							"White"
             }
@@ -152,12 +158,15 @@
             "FieldName" "KeyPress_Back_Container"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.33"
-            "tall" "p0.33"
+            "wide" "p0.3"
+            "tall" "p0.3"
             "xpos" "0"
-            "ypos" "0"
+            "ypos" "p0.02"
 
             "proportionaltoparent"  "1"
+
+            "paintBackground"   "1"
+            "bgcolor_override"  "TransparentLightBlack"
 
             "Pin_To_Sibling"			"KeyPress_Forward_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -194,7 +203,7 @@
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
                 "LabelText"							"S"
-                "Font"								"Ingame_Medium"
+                "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
                 "FGColor"							"White"
             }
@@ -221,12 +230,15 @@
             "FieldName" "KeyPress_Right_Container"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.33"
-            "tall" "p0.33"
-            "xpos" "0"
+            "wide" "p0.3"
+            "tall" "p0.3"
+            "xpos" "p0.02"
             "ypos" "0"
 
             "proportionaltoparent"  "1"
+
+            "paintBackground"   "1"
+            "bgcolor_override"  "TransparentLightBlack"
 
             "Pin_To_Sibling"			"KeyPress_Back_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -263,7 +275,7 @@
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
                 "LabelText"							"D"
-                "Font"								"Ingame_Medium"
+                "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
                 "FGColor"							"White"
             }
@@ -290,12 +302,15 @@
             "FieldName" "KeyPress_Duck_Container"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.5"
-            "tall" "p0.33"
+            "wide" "p0.46"
+            "tall" "p0.3"
             "xpos" "0"
-            "ypos" "0"
+            "ypos" "p0.02"
 
             "proportionaltoparent"  "1"
+
+            "paintBackground"   "1"
+            "bgcolor_override"  "TransparentLightBlack"
 
             "Pin_To_Sibling"			"KeyPress_Left_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -332,7 +347,7 @@
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
                 "LabelText"							"Duck"
-                "Font"								"Ingame_Medium"
+                "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
                 "FGColor"							"White"
             }
@@ -344,16 +359,19 @@
             "FieldName" "KeyPress_Jump_Container"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.5"
-            "tall" "p0.33"
+            "wide" "p0.46"
+            "tall" "p0.3"
             "xpos" "0"
-            "ypos" "0"
+            "ypos" "p0.02"
 
             "proportionaltoparent"  "1"
 
-            "Pin_To_Sibling"			"KeyPress_Duck_Container"
-            "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-            "Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
+            "paintBackground"   "1"
+            "bgcolor_override"  "TransparentLightBlack"
+
+            "Pin_To_Sibling"			"KeyPress_Right_Container"
+            "Pin_Corner_To_Sibling"		"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"		"PIN_BOTTOMRIGHT"
 
             KeyPress_Jump
             {
@@ -385,8 +403,8 @@
                 "Visible"							"1"
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
-                "LabelText"							"Space"
-                "Font"								"Ingame_Medium"
+                "LabelText"							"Jump"
+                "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
                 "FGColor"							"White"
             }
@@ -398,12 +416,15 @@
             "FieldName" "KeyPress_Attack_Container"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.33"
-            "tall" "p0.33"
-            "xpos" "0"
+            "wide" "p0.3"
+            "tall" "p0.3"
+            "xpos" "p0.02"
             "ypos" "0"
 
             "proportionaltoparent"  "1"
+
+            "paintBackground"   "1"
+            "bgcolor_override"  "TransparentLightBlack"
 
             "Pin_To_Sibling"			"KeyPress_Forward_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPRIGHT"
@@ -439,11 +460,12 @@
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
                 "LabelText"							"M1"
-                "Font"								"Ingame_Medium"
+                "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
                 "FGColor"							"White"
             }
         }
+        
         
         KeyPress_Attack2_Container
         {
@@ -451,12 +473,15 @@
             "FieldName" "KeyPress_Attack2_Container"
             "visible" "1"
             "enabled" "1"
-            "wide" "p0.33"
-            "tall" "p0.33"
-            "xpos" "0"
+            "wide" "p0.3"
+            "tall" "p0.3"
+            "xpos" "p0.02"
             "ypos" "0"
 
             "proportionaltoparent"  "1"
+
+            "paintBackground"   "1"
+            "bgcolor_override"  "TransparentLightBlack"
 
             "Pin_To_Sibling"			"KeyPress_Forward_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
@@ -492,7 +517,7 @@
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
                 "LabelText"							"M2"
-                "Font"								"Ingame_Medium"
+                "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
                 "FGColor"							"White"
             }
