@@ -1,0 +1,18 @@
+#base ../vgui/replay/thumbnails/speedo/colors/$colorMain/m0reWhite.vmt
+
+"LightMappedGeneric"
+{
+    "$basetexture" "sprays/spraypaint"
+    "$decal" 1
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+    "$decalscale" "0.4"
+
+    $color "{255 255 255}"
+
+    Proxies
+    {
+        Equals {srcVar1 $colorMain resultVar $color}
+    }
+}
