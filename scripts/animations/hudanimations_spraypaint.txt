@@ -1,0 +1,25 @@
+//===========================================================================================================================
+// SPRAY PAINT
+//===========================================================================================================================
+event SprayPaint_On
+{
+    RunEventChild MainMenuOverride SprayPaint_Loop 0.0001
+}
+
+event SprayPaint_Loop
+{
+    FireCommand 0.0 "engine sm_spray spraypaint"
+    RunEvent SprayPaint_Loop 0.04   // spray speed, setting this too fast will kick you from most servers
+}
+
+event SprayPaint_Off
+{
+    RunEventChild MainMenuOverride SprayPaint_Stop 0.0001
+}
+    
+event SprayPaint_Stop
+{
+    StopEvent SprayPaint_On 0.0
+    StopEvent SprayPaint_Loop 0.0
+    StopEvent SprayPaint_Loop2 0.0
+}

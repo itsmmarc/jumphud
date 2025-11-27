@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+    "$basetexture" "spraypaint"
+    "$decal" 1
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+    "$decalscale" "0.5"
+}
