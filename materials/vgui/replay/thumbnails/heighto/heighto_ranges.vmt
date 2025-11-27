@@ -3,15 +3,15 @@
     // RANGES
     //--------------------------------------------------------------
     // Double Range
-    $doubleMin 1299
-    $doubleMax 2000
+    $doubleMin 1259
+    $doubleMax 2160
 
     // Triple Range
-    $tripleMin 1999
+    $tripleMin 2159
     $tripleMax 7500
 
     // Max Velocity Range
-    $maxVelMin 7499
+    $maxVelMin 7699
 
     //==============================================================
     // CONDITIONALS
