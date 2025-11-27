@@ -12,10 +12,11 @@
         "paintBackground"   "0"
         "bgcolor_override"  "red"
         
-        KeyPress_Forward
+        
+        KeyPress_Forward_Container
         {
             "controlName" "EditablePanel"
-            "FieldName" "KeyPress_Forward"
+            "FieldName" "KeyPress_Forward_Container"
             "visible" "1"
             "enabled" "1"
             "wide" "p0.33"
@@ -25,33 +26,61 @@
 
             "proportionaltoparent"  "1"
 
-            "Alpha"             "0"
-            "paintBackground"   "1"
-            "bgcolor_override"  "m0reBlue"
-        }
-        Icon_Forward
-        {
-            "ControlName"						"CExLabel"
-            "FieldName"							"Icon_Forward"
-            "XPos"								"0"
-            "YPos"								"0"
-            "ZPos"								"0"
-            "Wide"								"p0.33"
-            "Tall"								"p0.33"
-            "Visible"							"1"
-            "Enabled"							"1"
-            "ProportionalToParent"				"1"
-            "LabelText"							"W"
-            "Font"								"Ingame_Medium"
-            "TextAlignment"						"center"
-            "FGColor"							"White"
+            KeyPress_Forward
+            {
+                "controlName" "EditablePanel"
+                "FieldName" "KeyPress_Forward"
+                "visible" "1"
+                "enabled" "1"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos" "0"
+                "ypos" "0"
 
-            "Pin_To_Sibling"			"KeyPress_Forward"
+                "proportionaltoparent"  "1"
+
+                "Alpha"             "0"
+                "paintBackground"   "1"
+                "bgcolor_override"  "m0reBlue"
+            }
+            Name
+            {
+                "ControlName"						"CExLabel"
+                "FieldName"							"Name"
+                "XPos"								"0"
+                "YPos"								"0"
+                "ZPos"								"0"
+                "Wide"								"f0"
+                "Tall"								"f0"
+                "Visible"							"0"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "LabelText"							"W"
+                "Font"								"Ingame_Medium"
+                "TextAlignment"						"center"
+                "FGColor"							"White"
+            }
+            Icon
+            {
+                "ControlName"						"ImagePanel"
+                "FieldName"							"Icon"
+                "XPos"								"cs-0.5"
+                "YPos"								"cs-0.5"
+                "ZPos"								"0"
+                "Wide"								"p0.5"
+                "Tall"								"p0.5"
+                "Visible"							"1"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "Image"                             "replay/thumbnails/skeys/arrow_up"
+                "scaleimage"                        "1"
+            }
         }
-        KeyPress_Left
+        
+        KeyPress_Left_Container
         {
             "controlName" "EditablePanel"
-            "FieldName" "KeyPress_Left"
+            "FieldName" "KeyPress_Left_Container"
             "visible" "1"
             "enabled" "1"
             "wide" "p0.33"
@@ -61,37 +90,66 @@
 
             "proportionaltoparent"  "1"
 
-            "Alpha"             "0"
-            "paintBackground"   "1"
-            "bgcolor_override"  "m0reBlue"
-
-            "Pin_To_Sibling"			"KeyPress_Back"
+            "Pin_To_Sibling"			"KeyPress_Back_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPRIGHT"
             "Pin_To_Sibling_Corner"		"PIN_TOPLEFT"
-        }
-        Icon_Left
-        {
-            "ControlName"						"CExLabel"
-            "FieldName"							"Icon_Left"
-            "XPos"								"0"
-            "YPos"								"0"
-            "ZPos"								"0"
-            "Wide"								"p0.33"
-            "Tall"								"p0.33"
-            "Visible"							"1"
-            "Enabled"							"1"
-            "ProportionalToParent"				"1"
-            "LabelText"							"A"
-            "Font"								"Ingame_Medium"
-            "TextAlignment"						"center"
-            "FGColor"							"White"
 
-            "Pin_To_Sibling"			"KeyPress_Left"
+            KeyPress_Left
+            {
+                "controlName" "EditablePanel"
+                "FieldName" "KeyPress_Left"
+                "visible" "1"
+                "enabled" "1"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos" "0"
+                "ypos" "0"
+
+                "proportionaltoparent"  "1"
+
+                "Alpha"             "0"
+                "paintBackground"   "1"
+                "bgcolor_override"  "m0reBlue"
+            }
+
+            Name
+            {
+                "ControlName"						"CExLabel"
+                "FieldName"							"Name"
+                "XPos"								"0"
+                "YPos"								"0"
+                "ZPos"								"0"
+                "Wide"								"f0"
+                "Tall"								"f0"
+                "Visible"							"0"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "LabelText"							"A"
+                "Font"								"Ingame_Medium"
+                "TextAlignment"						"center"
+                "FGColor"							"White"
+            }
+            Icon
+            {
+                "ControlName"						"ImagePanel"
+                "FieldName"							"Icon"
+                "XPos"								"cs-0.5"
+                "YPos"								"cs-0.5"
+                "ZPos"								"0"
+                "Wide"								"p0.5"
+                "Tall"								"p0.5"
+                "Visible"							"1"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "Image"                             "replay/thumbnails/skeys/arrow_left"
+                "scaleimage"                        "1"
+            }
         }
-        KeyPress_Back
+        
+        KeyPress_Back_Container
         {
             "controlName" "EditablePanel"
-            "FieldName" "KeyPress_Back"
+            "FieldName" "KeyPress_Back_Container"
             "visible" "1"
             "enabled" "1"
             "wide" "p0.33"
@@ -101,37 +159,66 @@
 
             "proportionaltoparent"  "1"
 
-            "Alpha"             "0"
-            "paintBackground"   "1"
-            "bgcolor_override"  "m0reBlue"
-
-            "Pin_To_Sibling"			"KeyPress_Forward"
+            "Pin_To_Sibling"			"KeyPress_Forward_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"		"PIN_BOTTOMLEFT"
-        }
-        Icon_Back
-        {
-            "ControlName"						"CExLabel"
-            "FieldName"							"Icon_Back"
-            "XPos"								"0"
-            "YPos"								"0"
-            "ZPos"								"0"
-            "Wide"								"p0.33"
-            "Tall"								"p0.33"
-            "Visible"							"1"
-            "Enabled"							"1"
-            "ProportionalToParent"				"1"
-            "LabelText"							"S"
-            "Font"								"Ingame_Medium"
-            "TextAlignment"						"center"
-            "FGColor"							"White"
 
-            "Pin_To_Sibling"			"KeyPress_Back"
+            KeyPress_Back
+            {
+                "controlName" "EditablePanel"
+                "FieldName" "KeyPress_Back"
+                "visible" "1"
+                "enabled" "1"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos" "0"
+                "ypos" "0"
+
+                "proportionaltoparent"  "1"
+
+                "Alpha"             "0"
+                "paintBackground"   "1"
+                "bgcolor_override"  "m0reBlue"
+            }
+
+            Name
+            {
+                "ControlName"						"CExLabel"
+                "FieldName"							"Name"
+                "XPos"								"0"
+                "YPos"								"0"
+                "ZPos"								"0"
+                "Wide"								"f0"
+                "Tall"								"f0"
+                "Visible"							"0"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "LabelText"							"S"
+                "Font"								"Ingame_Medium"
+                "TextAlignment"						"center"
+                "FGColor"							"White"
+            }
+            Icon
+            {
+                "ControlName"						"ImagePanel"
+                "FieldName"							"Icon"
+                "XPos"								"cs-0.5"
+                "YPos"								"cs-0.5"
+                "ZPos"								"0"
+                "Wide"								"p0.5"
+                "Tall"								"p0.5"
+                "Visible"							"1"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "Image"                             "replay/thumbnails/skeys/arrow_down"
+                "scaleimage"                        "1"
+            }
         }
-        KeyPress_Right
+        
+        KeyPress_Right_Container
         {
             "controlName" "EditablePanel"
-            "FieldName" "KeyPress_Right"
+            "FieldName" "KeyPress_Right_Container"
             "visible" "1"
             "enabled" "1"
             "wide" "p0.33"
@@ -141,37 +228,66 @@
 
             "proportionaltoparent"  "1"
 
-            "Alpha"             "0"
-            "paintBackground"   "1"
-            "bgcolor_override"  "m0reBlue"
-
-            "Pin_To_Sibling"			"KeyPress_Back"
+            "Pin_To_Sibling"			"KeyPress_Back_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-        }
-        Icon_Right
-        {
-            "ControlName"						"CExLabel"
-            "FieldName"							"Icon_Right"
-            "XPos"								"0"
-            "YPos"								"0"
-            "ZPos"								"0"
-            "Wide"								"p0.33"
-            "Tall"								"p0.33"
-            "Visible"							"1"
-            "Enabled"							"1"
-            "ProportionalToParent"				"1"
-            "LabelText"							"D"
-            "Font"								"Ingame_Medium"
-            "TextAlignment"						"center"
-            "FGColor"							"White"
 
-            "Pin_To_Sibling"			"KeyPress_Right"
+            KeyPress_Right
+            {
+                "controlName" "EditablePanel"
+                "FieldName" "KeyPress_Right"
+                "visible" "1"
+                "enabled" "1"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos" "0"
+                "ypos" "0"
+
+                "proportionaltoparent"  "1"
+
+                "Alpha"             "0"
+                "paintBackground"   "1"
+                "bgcolor_override"  "m0reBlue"
+            }
+
+            Name
+            {
+                "ControlName"						"CExLabel"
+                "FieldName"							"Name"
+                "XPos"								"0"
+                "YPos"								"0"
+                "ZPos"								"0"
+                "Wide"								"f0"
+                "Tall"								"f0"
+                "Visible"							"0"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "LabelText"							"D"
+                "Font"								"Ingame_Medium"
+                "TextAlignment"						"center"
+                "FGColor"							"White"
+            }
+            Icon
+            {
+                "ControlName"						"ImagePanel"
+                "FieldName"							"Icon"
+                "XPos"								"cs-0.5"
+                "YPos"								"cs-0.5"
+                "ZPos"								"0"
+                "Wide"								"p0.5"
+                "Tall"								"p0.5"
+                "Visible"							"1"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "Image"                             "replay/thumbnails/skeys/arrow_right"
+                "scaleimage"                        "1"
+            }
         }
-        KeyPress_Duck
+        
+        KeyPress_Duck_Container
         {
             "controlName" "EditablePanel"
-            "FieldName" "KeyPress_Duck"
+            "FieldName" "KeyPress_Duck_Container"
             "visible" "1"
             "enabled" "1"
             "wide" "p0.5"
@@ -181,37 +297,51 @@
 
             "proportionaltoparent"  "1"
 
-            "Alpha"             "0"
-            "paintBackground"   "1"
-            "bgcolor_override"  "m0reBlue"
-
-            "Pin_To_Sibling"			"KeyPress_Left"
+            "Pin_To_Sibling"			"KeyPress_Left_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"		"PIN_BOTTOMLEFT"
-        }
-        Icon_Duck
-        {
-            "ControlName"						"CExLabel"
-            "FieldName"							"Icon_Duck"
-            "XPos"								"0"
-            "YPos"								"0"
-            "ZPos"								"0"
-            "Wide"								"p0.5"
-            "Tall"								"p0.33"
-            "Visible"							"1"
-            "Enabled"							"1"
-            "ProportionalToParent"				"1"
-            "LabelText"							"CTRL"
-            "Font"								"Ingame_Medium"
-            "TextAlignment"						"center"
-            "FGColor"							"White"
 
-            "Pin_To_Sibling"			"KeyPress_Duck"
+            KeyPress_Duck
+            {
+                "controlName" "EditablePanel"
+                "FieldName" "KeyPress_Duck"
+                "visible" "1"
+                "enabled" "1"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos" "0"
+                "ypos" "0"
+
+                "proportionaltoparent"  "1"
+
+                "Alpha"             "0"
+                "paintBackground"   "1"
+                "bgcolor_override"  "m0reBlue"
+            }
+
+            Name_Duck
+            {
+                "ControlName"						"CExLabel"
+                "FieldName"							"Name_Duck"
+                "XPos"								"0"
+                "YPos"								"0"
+                "ZPos"								"0"
+                "Wide"								"f0"
+                "Tall"								"f0"
+                "Visible"							"1"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "LabelText"							"Duck"
+                "Font"								"Ingame_Medium"
+                "TextAlignment"						"center"
+                "FGColor"							"White"
+            }
         }
-        KeyPress_Jump
+        
+        KeyPress_Jump_Container
         {
             "controlName" "EditablePanel"
-            "FieldName" "KeyPress_Jump"
+            "FieldName" "KeyPress_Jump_Container"
             "visible" "1"
             "enabled" "1"
             "wide" "p0.5"
@@ -221,37 +351,51 @@
 
             "proportionaltoparent"  "1"
 
-            "Alpha"             "0"
-            "paintBackground"   "1"
-            "bgcolor_override"  "m0reBlue"
-
-            "Pin_To_Sibling"			"KeyPress_Duck"
+            "Pin_To_Sibling"			"KeyPress_Duck_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-        }
-        Icon_Jump
-        {
-            "ControlName"						"CExLabel"
-            "FieldName"							"Icon_Jump"
-            "XPos"								"0"
-            "YPos"								"0"
-            "ZPos"								"0"
-            "Wide"								"p0.5"
-            "Tall"								"p0.33"
-            "Visible"							"1"
-            "Enabled"							"1"
-            "ProportionalToParent"				"1"
-            "LabelText"							"Space"
-            "Font"								"Ingame_Medium"
-            "TextAlignment"						"center"
-            "FGColor"							"White"
 
-            "Pin_To_Sibling"			"KeyPress_Jump"
+            KeyPress_Jump
+            {
+                "controlName" "EditablePanel"
+                "FieldName" "KeyPress_Jump"
+                "visible" "1"
+                "enabled" "1"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos" "0"
+                "ypos" "0"
+
+                "proportionaltoparent"  "1"
+
+                "Alpha"             "0"
+                "paintBackground"   "1"
+                "bgcolor_override"  "m0reBlue"
+            }
+
+            Name_Jump
+            {
+                "ControlName"						"CExLabel"
+                "FieldName"							"Name_Jump"
+                "XPos"								"0"
+                "YPos"								"0"
+                "ZPos"								"0"
+                "Wide"								"f0"
+                "Tall"								"f0"
+                "Visible"							"1"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "LabelText"							"Space"
+                "Font"								"Ingame_Medium"
+                "TextAlignment"						"center"
+                "FGColor"							"White"
+            }
         }
-        KeyPress_Attack
+        
+        KeyPress_Attack_Container
         {
             "controlName" "EditablePanel"
-            "FieldName" "KeyPress_Attack"
+            "FieldName" "KeyPress_Attack_Container"
             "visible" "1"
             "enabled" "1"
             "wide" "p0.33"
@@ -261,37 +405,50 @@
 
             "proportionaltoparent"  "1"
 
-            "Alpha"             "0"
-            "paintBackground"   "1"
-            "bgcolor_override"  "m0reBlue"
-
-            "Pin_To_Sibling"			"KeyPress_Forward"
+            "Pin_To_Sibling"			"KeyPress_Forward_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPRIGHT"
             "Pin_To_Sibling_Corner"		"PIN_TOPLEFT"
-        }
-        Icon_Attack
-        {
-            "ControlName"						"CExLabel"
-            "FieldName"							"Icon_Attack"
-            "XPos"								"0"
-            "YPos"								"0"
-            "ZPos"								"0"
-            "Wide"								"p0.33"
-            "Tall"								"p0.33"
-            "Visible"							"1"
-            "Enabled"							"1"
-            "ProportionalToParent"				"1"
-            "LabelText"							"M1"
-            "Font"								"Ingame_Medium"
-            "TextAlignment"						"center"
-            "FGColor"							"White"
+            
+            KeyPress_Attack
+            {
+                "controlName" "EditablePanel"
+                "FieldName" "KeyPress_Attack"
+                "visible" "1"
+                "enabled" "1"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos" "0"
+                "ypos" "0"
 
-            "Pin_To_Sibling"			"KeyPress_Attack"
+                "proportionaltoparent"  "1"
+
+                "Alpha"             "0"
+                "paintBackground"   "1"
+                "bgcolor_override"  "m0reBlue"
+            }
+            Name_Attack
+            {
+                "ControlName"						"CExLabel"
+                "FieldName"							"Name_Attack"
+                "XPos"								"0"
+                "YPos"								"0"
+                "ZPos"								"0"
+                "Wide"								"f0"
+                "Tall"								"f0"
+                "Visible"							"1"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "LabelText"							"M1"
+                "Font"								"Ingame_Medium"
+                "TextAlignment"						"center"
+                "FGColor"							"White"
+            }
         }
-        KeyPress_Attack2
+        
+        KeyPress_Attack2_Container
         {
             "controlName" "EditablePanel"
-            "FieldName" "KeyPress_Attack2"
+            "FieldName" "KeyPress_Attack2_Container"
             "visible" "1"
             "enabled" "1"
             "wide" "p0.33"
@@ -301,32 +458,44 @@
 
             "proportionaltoparent"  "1"
 
-            "Alpha"             "0"
-            "paintBackground"   "1"
-            "bgcolor_override"  "m0reBlue"
-
-            "Pin_To_Sibling"			"KeyPress_Forward"
+            "Pin_To_Sibling"			"KeyPress_Forward_Container"
             "Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"
-        }
-        Icon_Attack2
-        {
-            "ControlName"						"CExLabel"
-            "FieldName"							"Icon_Attack2"
-            "XPos"								"0"
-            "YPos"								"0"
-            "ZPos"								"0"
-            "Wide"								"p0.33"
-            "Tall"								"p0.33"
-            "Visible"							"1"
-            "Enabled"							"1"
-            "ProportionalToParent"				"1"
-            "LabelText"							"M2"
-            "Font"								"Ingame_Medium"
-            "TextAlignment"						"center"
-            "FGColor"							"White"
 
-            "Pin_To_Sibling"			"KeyPress_Attack2"
+            KeyPress_Attack2
+            {
+                "controlName" "EditablePanel"
+                "FieldName" "KeyPress_Attack2"
+                "visible" "1"
+                "enabled" "1"
+                "wide" "f0"
+                "tall" "f0"
+                "xpos" "0"
+                "ypos" "0"
+
+                "proportionaltoparent"  "1"
+
+                "Alpha"             "0"
+                "paintBackground"   "1"
+                "bgcolor_override"  "m0reBlue"
+            }
+            Name_Attack2
+            {
+                "ControlName"						"CExLabel"
+                "FieldName"							"Name_Attack2"
+                "XPos"								"0"
+                "YPos"								"0"
+                "ZPos"								"0"
+                "Wide"								"f0"
+                "Tall"								"f0"
+                "Visible"							"1"
+                "Enabled"							"1"
+                "ProportionalToParent"				"1"
+                "LabelText"							"M2"
+                "Font"								"Ingame_Medium"
+                "TextAlignment"						"center"
+                "FGColor"							"White"
+            }
         }
     }
 }
