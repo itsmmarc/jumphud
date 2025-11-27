@@ -43,6 +43,7 @@
 	// JUMPHUD ANIMATIONS
 	//===============================================================
 	"file" "scripts/animations/hudanimations_pipetimer.txt"
+	"file" "scripts/animations/hudanimations_skeys.txt"
     "file" "scripts/animations/hudanimations_spraypaint.txt"
 	//===============================================================
 	// OTHER ANIMATIONS
