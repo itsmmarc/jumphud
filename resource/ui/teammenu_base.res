@@ -88,7 +88,7 @@
 	{
 		"ControlName"								"CExButton"
 		"FieldName"									"BlueButton"
-		"XPos"										"100"
+		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"1"
 		"Wide"										"40"
