@@ -12,14 +12,5 @@
     "HudDemomanPipes"
 	{
 		"xpos"										"0"
-
-        PipeTimerContainer
-        {
-            "xpos"  "cs-0.5"
-        }
-        PipeTimerContainer_Charge
-        {
-            "xpos"  "cs-0.5"
-        }
 	}
 }
