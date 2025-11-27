@@ -1,12 +1,16 @@
 "Heighto_Center.res" {
-	"heighto_center" {
+	"heighto" {
 		"controlName" "EditablePanel"
 		"visible" "1" // default visibility
 		"enabled" "1"
 		"wide" "72"
 		"tall" "18"
-		"xpos" "cs-0.5"
-		"ypos" "c80"
+		"xpos" "0"
+		"ypos" "0"
+
+        "Pin_To_Sibling"					"Speedos"
+        "Pin_Corner_To_Sibling"				"PIN_CENTER_BOTTOM"
+        "Pin_To_Sibling_Corner"				"PIN_CENTER_TOP"
 		
         "Digits_4_Container"
         {
