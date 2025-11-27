@@ -44,7 +44,7 @@
 
                 "Alpha"             "0"
                 "paintBackground"   "1"
-                "bgcolor_override"  "m0reBlue"
+                "bgcolor_override"  "m0reWhite"
             }
             Name
             {
@@ -77,6 +77,8 @@
                 "ProportionalToParent"				"1"
                 "Image"                             "replay/thumbnails/skeys/arrow_up"
                 "scaleimage"                        "1"
+
+                "DrawColor" "Black"
             }
         }
         
@@ -115,7 +117,7 @@
 
                 "Alpha"             "0"
                 "paintBackground"   "1"
-                "bgcolor_override"  "m0reBlue"
+                "bgcolor_override"  "m0reWhite"
             }
 
             Name
@@ -149,6 +151,8 @@
                 "ProportionalToParent"				"1"
                 "Image"                             "replay/thumbnails/skeys/arrow_left"
                 "scaleimage"                        "1"
+                
+                "DrawColor" "Black"
             }
         }
         
@@ -187,7 +191,7 @@
 
                 "Alpha"             "0"
                 "paintBackground"   "1"
-                "bgcolor_override"  "m0reBlue"
+                "bgcolor_override"  "m0reWhite"
             }
 
             Name
@@ -221,6 +225,8 @@
                 "ProportionalToParent"				"1"
                 "Image"                             "replay/thumbnails/skeys/arrow_down"
                 "scaleimage"                        "1"
+                
+                "DrawColor" "Black"
             }
         }
         
@@ -259,7 +265,7 @@
 
                 "Alpha"             "0"
                 "paintBackground"   "1"
-                "bgcolor_override"  "m0reBlue"
+                "bgcolor_override"  "m0reWhite"
             }
 
             Name
@@ -293,6 +299,8 @@
                 "ProportionalToParent"				"1"
                 "Image"                             "replay/thumbnails/skeys/arrow_right"
                 "scaleimage"                        "1"
+                
+                "DrawColor" "Black"
             }
         }
         
@@ -331,7 +339,7 @@
 
                 "Alpha"             "0"
                 "paintBackground"   "1"
-                "bgcolor_override"  "m0reBlue"
+                "bgcolor_override"  "m0reWhite"
             }
 
             Name_Duck
@@ -349,7 +357,7 @@
                 "LabelText"							"Duck"
                 "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
-                "FGColor"							"White"
+                "FGColor"							"TransparentBlack"
             }
         }
         
@@ -388,7 +396,7 @@
 
                 "Alpha"             "0"
                 "paintBackground"   "1"
-                "bgcolor_override"  "m0reBlue"
+                "bgcolor_override"  "m0reWhite"
             }
 
             Name_Jump
@@ -406,7 +414,7 @@
                 "LabelText"							"Jump"
                 "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
-                "FGColor"							"White"
+                "FGColor"							"TransparentBlack"
             }
         }
         
@@ -445,7 +453,7 @@
 
                 "Alpha"             "0"
                 "paintBackground"   "1"
-                "bgcolor_override"  "m0reBlue"
+                "bgcolor_override"  "m0reWhite"
             }
             Name_Attack
             {
@@ -459,10 +467,10 @@
                 "Visible"							"1"
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
-                "LabelText"							"M1"
+                "LabelText"							"A1"
                 "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
-                "FGColor"							"White"
+                "FGColor"							"TransparentBlack"
             }
         }
         
@@ -502,7 +510,7 @@
 
                 "Alpha"             "0"
                 "paintBackground"   "1"
-                "bgcolor_override"  "m0reBlue"
+                "bgcolor_override"  "m0reWhite"
             }
             Name_Attack2
             {
@@ -516,10 +524,10 @@
                 "Visible"							"1"
                 "Enabled"							"1"
                 "ProportionalToParent"				"1"
-                "LabelText"							"M2"
+                "LabelText"							"A2"
                 "Font"								"Ingame_Small"
                 "TextAlignment"						"center"
-                "FGColor"							"White"
+                "FGColor"							"TransparentBlack"
             }
         }
     }
