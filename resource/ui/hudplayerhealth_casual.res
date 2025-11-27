@@ -3,5 +3,6 @@
     "HealthValue"
     {
         "XPos"										"15"
+        "XPos_Minmode"								"15"
     }
 }
