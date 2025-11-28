@@ -139,6 +139,15 @@
 				"antialias"									"1"
 			}
 		}
+        "Showcase_Quake"
+		{
+			"1"
+			{
+				"name"										"HandelGothic BT"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
 		"Showcase_TF2"
 		{
 			"1"

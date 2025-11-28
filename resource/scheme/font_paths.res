@@ -72,6 +72,11 @@ Scheme
 			"Font"		"resource/scheme/fonts/optional/Roboto-Black.ttf"
 			"name"		"Roboto Black"
 		}
+        "24"    // Quake Font
+		{
+			"Font"      "resource/scheme/fonts/optional/handelgothic.ttf"
+			"name"      "HandelGothic BT"
+		}
         //icon fonts
         "101"
 		{
