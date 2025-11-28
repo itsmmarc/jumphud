@@ -1,5 +1,4 @@
-"UnlitGeneric" {
-	$digit 10
-	$lt 1000
-	$gt 100
-}
+
+#base wide/d2_3k.vmt
+#base base/d2_3k.vmt
+"UnlitGeneric" {}
