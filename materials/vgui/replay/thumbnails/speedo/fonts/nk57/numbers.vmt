@@ -1,4 +1,0 @@
-"UnlitGeneric" {
-    $basetexture "vgui/replay/thumbnails/speedo/fonts/nk57/numbers.vtf"
-    $translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
-}

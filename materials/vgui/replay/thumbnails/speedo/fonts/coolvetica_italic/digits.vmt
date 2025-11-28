@@ -1,0 +1,4 @@
+"UnlitGeneric" {
+    $basetexture "vgui/replay/thumbnails/speedo/fonts/coolvetica_italic/digits.vtf"
+    $translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
+}
