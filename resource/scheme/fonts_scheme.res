@@ -229,6 +229,17 @@
                     "antialias"									"1"
                 }
             }
+
+            "JumpHUDIcons28"
+            {
+                "1"
+                {
+                    "name"										"JumpHUDIcons"
+                    "tall"										"28" [$WINDOWS]
+                    "tall"										"23" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
             
             //techno additional custom fonts
             "DamageFont"

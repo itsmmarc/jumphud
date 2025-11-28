@@ -169,6 +169,13 @@
 		"tooltip"									"Toggle Speed Graphs"
 		"OnlyInGame"								"1"
     }
+    "ShowKeys"
+    {
+        "label"										"0"
+		"Command"									"engine jh_skeys_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Show Keys"
+		"OnlyInGame"								"1"
+    }
     "Toggle_HUDMessage"
     {
         "label"										"E"

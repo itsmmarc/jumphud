@@ -88,6 +88,11 @@ Scheme
             "Font"  	"resource/scheme/fonts/hypnotize_icons.ttf"
             "Name"  	"Hypnotize Icons V8"
         }
+        "104"
+        {
+            "Font"  	"resource/scheme/fonts/jumphud_icons.otf"
+            "Name"  	"JumpHUDIcons"
+        }
         "105"
 		{
 			"Font"		"resource/scheme/fonts/surface_uber_icons.ttf"
