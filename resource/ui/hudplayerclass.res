@@ -1,6 +1,5 @@
 #base speedo.res
 #base skeys.res
-#base heighto.res
 
 "Resource/UI/HudPlayerClass_Base.res"
 {

@@ -2,7 +2,7 @@
     "speedos"
     {
         "controlName" "EditablePanel"
-        "visible" "0"   // invisible until soldier or demo speedo loaded is active
+        "visible" "1"
         "enabled" "1"
         "wide" "72"
         "tall" "54"

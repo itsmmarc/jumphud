@@ -3,6 +3,8 @@
 "speedo_absolute.res" {
     "speedos" {
         "hspeedo_container" {
+            "tall" "p0.25"
+            "ypos" "rs3"    // 3rd bottom
             "Digits_Container" {            
                 "Digits_4_Container"
                 {
