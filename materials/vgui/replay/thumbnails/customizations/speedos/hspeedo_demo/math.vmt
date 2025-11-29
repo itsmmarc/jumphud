@@ -1,0 +1,251 @@
+"UnlitGeneric" {
+    //==============================================================
+    // DIGIT SEPERATION VARIABLES
+    //==============================================================
+    "$digit" 0.0
+	
+	"$leading" 0.0
+	"$leading_check" 0.0
+
+	"$lt" 9999.0
+	"$gt" -1.0
+
+	"$const_eps" 0.009765625
+
+	"$value" 0.0 "$value_digit" 0.0
+
+    //==============================================================
+    // PREVIEW VARIABLES
+    //==============================================================
+    $index  0
+
+    $frameRate  4
+    $numFrames  7
+
+    $frame0 300
+    $frame1 600
+    $frame2 900     // close
+    $frame3 1100    // good
+    $frame4 1200    // close
+    $frame5 1300
+    $frame6 3495    // max
+
+    //==============================================================
+    // COLOR VARIABLES
+    //==============================================================  
+    $colorMain  "{ 255 255 255 }" // default color
+    $color      $colorMain
+
+    //==============================================================
+	
+	Proxies {
+        // for(i=0; i<=numFrames; i++)
+		LinearRamp {
+            rate        $frameRate
+            resultVar   $index
+        }
+
+        "WrapMinMax"
+        {
+            "minVal"        "0"
+            "maxVal"        "$numFrames"
+            "srcVar1"       "$index"
+            "resultVar"     "$index"
+        }
+
+        // frame[i]
+        LessOrEqual {
+            srcVar1         $index
+            srcVar2         $0
+            resultVar       $frame
+            lessEqualVar    $frame
+            greaterVar      $frame0
+        }
+        LessOrEqual {
+            srcVar1         $index
+            srcVar2         $1
+            resultVar       $frame
+            lessEqualVar    $frame
+            greaterVar      $frame1
+        }
+        LessOrEqual {
+            srcVar1         $index
+            srcVar2         $2
+            resultVar       $frame
+            lessEqualVar    $frame
+            greaterVar      $frame2
+        }
+        LessOrEqual {
+            srcVar1         $index
+            srcVar2         $3
+            resultVar       $frame
+            lessEqualVar    $frame
+            greaterVar      $frame3
+        }
+        LessOrEqual {
+            srcVar1         $index
+            srcVar2         $4
+            resultVar       $frame
+            lessEqualVar    $frame
+            greaterVar      $frame4
+        }
+        LessOrEqual {
+            srcVar1         $index
+            srcVar2         $5
+            resultVar       $frame
+            lessEqualVar    $frame
+            greaterVar      $frame5
+        }
+        LessOrEqual {
+            srcVar1         $index
+            srcVar2         $6
+            resultVar       $frame
+            lessEqualVar    $frame
+            greaterVar      $frame6
+        }
+
+        "Clamp"
+        {
+            "min"           "0"
+            "max"           "3500"
+            "srcVar1"       "$frame"
+            "resultVar"     "$frame"
+        }
+
+    //==============================================================
+    // COLORS
+    //==============================================================
+        // BASE
+        // default to white if none of the below conditions are met
+        //--------------------------------------------------------------
+        Equals {
+            srcVar1     "$colorMain"
+            resultVar   "$color"
+        }
+
+        //==============================================================
+        // CLOSE
+        // if(speed>closeMin && speed<closeMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMin"
+            resultVar       "$isAboveCloseMin"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMax"
+            resultVar       "$isBelowCloseMax"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveCloseMin"
+            srcVar2     "$isBelowCloseMax"
+            resultVar   "$isClose"
+        }
+        LessOrEqual {
+            srcVar1         "$isClose"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorClose"
+            lessEqualVar    "$color"
+        }
+
+        //==============================================================
+        // GOOD
+        // if(speed>goodMin && speed<goodMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$goodMin"
+            resultVar       "$isAboveGoodMin"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$goodMax"
+            resultVar       "$isBelowGoodMax"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveGoodMin"
+            srcVar2     "$isBelowGoodMax"
+            resultVar   "$isGood"
+        }
+        LessOrEqual {
+            srcVar1         "$isGood"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorGood"
+            lessEqualVar    "$color"
+        }
+
+        //==============================================================
+        // ABOVE
+        // if(speed>aboveMin && speed<aboveMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMinB"
+            resultVar       "$isAboveCloseMinB"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMaxB"
+            resultVar       "$isBelowCloseMaxB"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveCloseMinB"
+            srcVar2     "$isBelowCloseMaxB"
+            resultVar   "$isCloseB"
+        }
+        LessOrEqual {
+            srcVar1         "$isCloseB"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorClose"
+            lessEqualVar    "$color"
+        }
+    //==============================================================
+    // DIGIT SEPERATION
+    //==============================================================  
+		// Display digit
+		Divide { srcVar1 "$frame" srcVar2 "$digit" resultVar "$value_digit" }
+		WrapMinMax { srcVar1 "$value_digit" maxVal "$10" resultVar "$frame" }
+		
+		// Set to frame 10 (empty) if ("$leading" == 1) && digit is leading zero 
+		Equals { srcVar1 "$0" resultVar "$leading_check" }
+		LessOrEqual {
+			lessEqualVar "$value" greaterVar "$1000"
+			srcVar1 "$leading" srcVar2 "$0"
+			resultVar "$leading_check"
+		}
+		Add { srcVar1 "$leading_check" srcVar2 "$1" resultVar "$leading_check" }
+		LessOrEqual {
+			lessEqualVar "$10" greaterVar "$frame"
+			srcVar1 "$leading_check" srcVar2 "$digit"
+			resultVar "$frame"
+		}
+		
+		// Set to frame 10 (empty) if (less than "$lt" or greater than "$gt")
+		LessOrEqual {
+			lessEqualVar "$frame" greaterVar "$10"
+			srcVar1 "$value" srcVar2 "$lt"
+			resultVar "$frame"
+		}
+		LessOrEqual {
+			lessEqualVar "$10" greaterVar "$frame"
+			srcVar1 "$value" srcVar2 "$gt"
+			resultVar "$frame"
+		}
+	}
+}
