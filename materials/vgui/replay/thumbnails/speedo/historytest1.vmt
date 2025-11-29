@@ -1,0 +1,203 @@
+screenspace_general
+{
+	$pixshader "historytest_ps20b"
+	// $basetexture "_rt_PowerOfTwoFB"
+
+	$x360appchooser 1
+	$copyalpha 0
+	$ignorez 1
+	$translucent 0
+	$alpha_blend 1
+
+	// History variables
+	$h0 "0"
+	$h1 "0"
+	$h2 "0"
+	$h3 "0"
+	$h4 "0"
+	$h5 "0"
+	$h6 "0"
+	$h7 "0"
+	$h8 "0"
+	$h9 "0"
+	$h10 "0"
+	$h11 "0"
+
+	$ramp "0"
+	$rampcorr "0"
+	$sampletime "0"
+
+	$one "1"
+	$zero "0"
+	$samplerate "0.25"
+
+	// Settings in c3
+	// $c3_x = maxSpeed, $c3_y = sampleTime, $c3_z = sampleRate, $c3_w = liveSpeed
+	$c3_x 3500
+	$liveSpeed "0"
+
+	Proxies
+	{
+		LinearRamp
+		{
+			rate "1"
+			resultVar "$ramp"
+		}
+
+		Subtract
+		{
+			srcVar1 "$ramp"
+			srcVar2 "$rampcorr"
+			resultVar "$sampletime"
+		}
+
+		// Shift history
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h11"
+			greaterVar "$h10"
+			LessEqualVar "$h11"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h10"
+			greaterVar "$h9"
+			LessEqualVar "$h10"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h9"
+			greaterVar "$h8"
+			LessEqualVar "$h9"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h8"
+			greaterVar "$h7"
+			LessEqualVar "$h8"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h7"
+			greaterVar "$h6"
+			LessEqualVar "$h7"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h6"
+			greaterVar "$h5"
+			LessEqualVar "$h6"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h5"
+			greaterVar "$h4"
+			LessEqualVar "$h5"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h4"
+			greaterVar "$h3"
+			LessEqualVar "$h4"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h3"
+			greaterVar "$h2"
+			LessEqualVar "$h3"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h2"
+			greaterVar "$h1"
+			LessEqualVar "$h2"
+		}
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h1"
+			greaterVar "$h0"
+			LessEqualVar "$h1"
+		}
+
+		// Get current speed (into h0 only on sample tick, but always into liveSpeed)
+		PlayerSpeed
+		{
+			scale 1.0
+			resultVar "$liveSpeed"
+		}
+
+		// Only update h0 on sample tick
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$h0"
+			greaterVar "$liveSpeed"
+			LessEqualVar "$h0"
+		}
+
+		// Reset timer
+		LessOrEqual
+		{
+			srcVar1 "$sampletime"
+			srcVar2 "$samplerate"
+			resultVar "$rampcorr"
+			greaterVar "$ramp"
+			LessEqualVar "$rampcorr"
+		}
+
+		// Pass history to shader
+		Equals { srcVar1 "$h0" resultVar "$c0_x" }
+		Equals { srcVar1 "$h1" resultVar "$c0_y" }
+		Equals { srcVar1 "$h2" resultVar "$c0_z" }
+		Equals { srcVar1 "$h3" resultVar "$c0_w" }
+		Equals { srcVar1 "$h4" resultVar "$c1_x" }
+		Equals { srcVar1 "$h5" resultVar "$c1_y" }
+		Equals { srcVar1 "$h6" resultVar "$c1_z" }
+		Equals { srcVar1 "$h7" resultVar "$c1_w" }
+		Equals { srcVar1 "$h8" resultVar "$c2_x" }
+		Equals { srcVar1 "$h9" resultVar "$c2_y" }
+		Equals { srcVar1 "$h10" resultVar "$c2_z" }
+		Equals { srcVar1 "$h11" resultVar "$c2_w" }
+
+		// Recalculate sampletime after potential reset
+		Subtract
+		{
+			srcVar1 "$ramp"
+			srcVar2 "$rampcorr"
+			resultVar "$sampletime"
+		}
+
+		// Pass interpolation data
+		Equals { srcVar1 "$sampletime" resultVar "$c3_y" }
+		Equals { srcVar1 "$samplerate" resultVar "$c3_z" }
+		Equals { srcVar1 "$liveSpeed" resultVar "$c3_w" }
+	}
+
+	"<dx90"
+	{
+		$no_draw 1
+	}
+}
