@@ -251,7 +251,7 @@
 				"LabelText"								"Soldier Speedos"
 				"Font"									"Menu_Small"
 				"TextAlignment"							"east"
-				"Command"								"engine jh_custom_speedos_soldier; hud_reloadscheme"
+				"Command"								"engine jh_custom_speedos_sol; hud_reloadscheme"
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 

@@ -546,7 +546,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_gspeedo_ranges_soldier"
+							"Command"					"engine jh_gspeedo_ranges_sol"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"

@@ -807,7 +807,7 @@
                     "LabelText"									"X"
                     "Font"										"Symbols16" // this doesn't work for some reason, change in jumphud_customization_general -> jh_custom_dynclrinfo_soldier
                     "TextAlignment"								"center"
-                    "Command"									"engine jh_custom_speedos_soldier; hud_reloadscheme" 
+                    "Command"									"engine jh_custom_speedos_sol; hud_reloadscheme" 
                     "ActionSignalLevel"							"4"
                     "Sound_Depressed"							"UI/buttonclick.wav"
                     "PaintBackground"							"1"

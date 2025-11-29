@@ -206,7 +206,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_soldier_preview_jumphud"
+							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_sol_preview_jumphud"
 						}
                         "HSpeedo_Image_Shadow"
 						{
@@ -222,7 +222,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_soldier_preview_jumphud"
+							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_sol_preview_jumphud"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "HSpeedo_Image"
@@ -1042,7 +1042,7 @@
             "TextAlignment"							"west"
             "Sound_Depressed"						"UI/buttonclick.wav"
 
-            "Command"                               "engine jh_custom_dynclrinfo_soldier; hud_reloadscheme"
+            "Command"                               "engine jh_custom_dynclrinfo_sol; hud_reloadscheme"
             "ActionSignalLevel"			            "6"
             
 
@@ -3547,7 +3547,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_soldier_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_sol_preview"
 						}
                         "Color_Image_Shadow"
 						{
@@ -3563,7 +3563,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_soldier_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_sol_preview"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "Color_Image"
@@ -4715,7 +4715,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_soldier_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_sol_preview"
 						}
                         "Color_Image_Shadow"
 						{
@@ -4731,7 +4731,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_soldier_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/vspeedo_sol_preview"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "Color_Image"
@@ -5883,7 +5883,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_soldier_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_sol_preview"
 						}
                         "Color_Image_Shadow"
 						{
@@ -5899,7 +5899,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_soldier_preview"
+							"Image"						"replay/thumbnails/customizations/speedos/hspeedo_sol_preview"
                             "drawcolor"                 "main_shadow"
 
                             "Pin_To_Sibling"            "Color_Image"
