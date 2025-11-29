@@ -1,3 +1,3 @@
-#base wide/d4_4k.vmt
+#base "../../../../../../../../cfg/jumphud/jh_font_speedo_d4_4k.txt"
 #base base/d4_4k.vmt
 "UnlitGeneric" {}

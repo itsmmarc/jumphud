@@ -36,28 +36,28 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d4_4k"
+                        //d4_4k"
                     }
                     "d3_4k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d3_4k"
+                        //d3_4k"
                     }
                     "d2_4k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d2_4k"
+                        //d2_4k"
                     }
                     "d1_4k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d1_4k"
+                        //d1_4k"
                     }
                 }
                 "Digits_3_Container"
@@ -76,21 +76,21 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d3_3k"
+                        //d3_3k"
                     }
                     "d2_3k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d2_3k"
+                        //d2_3k"
                     }
                     "d1_3k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d1_3k"
+                        //d1_3k"
                     }
                 }
                 "Digits_2_Container"
@@ -109,14 +109,14 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d2_2k"
+                        //d2_2k"
                     }
                     "d1_2k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d1_2k"
+                        //d1_2k"
                     }
                 }
                 "Digits_1_Container"
@@ -136,7 +136,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d1_1k"
+                        //d1_1k"
                     }
                 }
             }
@@ -167,7 +167,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d4_4k"
+                        //d4_4k"
                         "drawcolor" "main_shadow"
                     }
                     "d3_4k" {
@@ -175,7 +175,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d3_4k"
+                        //d3_4k"
                         "drawcolor" "main_shadow"
                     }
                     "d2_4k" {
@@ -183,7 +183,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d2_4k"
+                        //d2_4k"
                         "drawcolor" "main_shadow"
                     }
                     "d1_4k" {
@@ -191,7 +191,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d1_4k"
+                        //d1_4k"
                         "drawcolor" "main_shadow"
                     }
                 }
@@ -211,7 +211,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d3_3k"
+                        //d3_3k"
                         "drawcolor" "main_shadow"
                     }
                     "d2_3k" {
@@ -219,7 +219,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d2_3k"
+                        //d2_3k"
                         "drawcolor" "main_shadow"
                     }
                     "d1_3k" {
@@ -227,7 +227,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d1_3k"
+                        //d1_3k"
                         "drawcolor" "main_shadow"
                     }
                 }
@@ -247,7 +247,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d2_2k"
+                        //d2_2k"
                         "drawcolor" "main_shadow"
                     }
                     "d1_2k" {
@@ -255,7 +255,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d1_2k"
+                        //d1_2k"
                         "drawcolor" "main_shadow"
                     }
                 }
@@ -276,7 +276,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/heighto/center/d1_1k"
+                        //d1_1k"
                         "drawcolor" "main_shadow"
                     }
                 }
