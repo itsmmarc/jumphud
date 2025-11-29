@@ -8,7 +8,7 @@
 // COLORS
 //--------------------------------------------------------------
 #base ../colors/ranges/hspeedo_demo.vmt
-#base ../../../../../../../cfg/jumphud/jh_speedo_d_h_clrtype.txt
+#base ../../../../../../../cfg/jumphud/jh_color_speedos_d_h.txt
 #base ../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_main.txt
 #base ../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_close.txt
 #base ../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_good.txt
