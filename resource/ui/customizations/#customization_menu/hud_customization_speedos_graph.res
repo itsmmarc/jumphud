@@ -2951,7 +2951,7 @@
     {
         "ControlName"					"EditablePanel"
         "FieldName"						"Color_Good"
-        "XPos"							"3"
+        "XPos"							"0"
         "YPos"							"0"
         "ZPos"							"12"
         "Wide"							"114"

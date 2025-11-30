@@ -258,7 +258,7 @@
             srcVar1         "$isDouble"
             srcVar2         "$0"
             resultVar       "$color"
-            greaterVar      "$colorDouble"
+            greaterVar      "$colorClose"
             lessEqualVar    "$color"
         }
 
@@ -289,7 +289,7 @@
             srcVar1         "$isTriple"
             srcVar2         "$0"
             resultVar       "$color"
-            greaterVar      "$colorTriple"
+            greaterVar      "$colorGood"
             lessEqualVar    "$color"
         }
 

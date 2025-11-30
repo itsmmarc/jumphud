@@ -917,7 +917,7 @@
                     {
                         "ControlName"								"EditablePanel"
                         "FieldName"									"Sweetspot_Info"
-                        "XPos"										"121"
+                        "XPos"										"119"
                         "YPos"										"-1"
                         "ZPos"										"15"
                         "Wide"										"15"
@@ -2589,7 +2589,7 @@
     {
         "ControlName"					"EditablePanel"
         "FieldName"						"Color_Good"
-        "XPos"							"3"
+        "XPos"							"0"
         "YPos"							"0"
         "ZPos"							"12"
         "Wide"							"114"

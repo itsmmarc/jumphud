@@ -12,7 +12,7 @@
 #base ../../../../../../../cfg/jumphud/jh_heighto_dynclr_main.txt
 #base ../../../../../../../cfg/jumphud/jh_heighto_dynclr_double.txt
 #base ../../../../../../../cfg/jumphud/jh_heighto_dynclr_triple.txt
-#base ../../../../../../../cfg/jumphud/jh_heighto_dynclr_maxVel.txt
+#base ../../../../../../../cfg/jumphud/jh_heighto_dynclr_maxvel.txt
 #base ../colors/heighto_colors_default.vmt
 //==============================================================
 // CONSTANTS

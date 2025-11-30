@@ -3,8 +3,8 @@
     // COLORS
     //--------------------------------------------------------------
     $colorMain      "{ 255 255 255 }" // default color
-    $colorDouble    "{ 35 125 235 }"
-    $colorTriple    "{ 0 255 85 }"
+    $colorClose     "{ 35 125 235 }"
+    $colorGood      "{ 0 255 85 }"
     $colorMaxVel    "{ 255 190 0 }"
     $color          $colorMain
 }
