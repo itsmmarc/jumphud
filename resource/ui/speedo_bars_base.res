@@ -27,6 +27,7 @@
             "visible" "1"
             "enabled" "1"
             "xpos" "0"
+            "zpos"  "1"
             "wide" "p0.03125"   // 4
             "tall" "f0"
             "ypos" "0"
@@ -66,7 +67,6 @@
             "visible" "1"
             "enabled" "1"
             "xpos" "rs1"
-            "zpos"  "1"
             "wide" "f0"
             "tall" "p0.03125"
             "ypos" "rs1"
