@@ -12,7 +12,6 @@
         "paintBackground"   "0"
         "bgcolor_override"  "red"
         
-        
         KeyPress_Forward_Container
         {
             "controlName" "EditablePanel"
