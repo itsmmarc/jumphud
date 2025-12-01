@@ -79,7 +79,7 @@
                 {
                     "ControlName"					"CExLabel"
                     "FieldName"						"Jump_Warning"
-                    "XPos"							"96"
+                    "XPos"							"94"
                     "YPos"							"3"
                     "ZPos"							"0"
                     "Wide"							"20"
