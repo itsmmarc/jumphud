@@ -15,7 +15,7 @@
 		"painbackgroundtype"						"0"
 		"BGColor_Override"							"TransparentLightBlack"
 	}
-    "HorizontalLine"    // team coloured, enabled in casual
+    "HorizontalLine"
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"HorizontalLine"
@@ -33,7 +33,7 @@
 		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 	}
-	"PopFileLabel"
+	"PopFileLabel"  // map/mission name
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"PopFileLabel"
@@ -68,7 +68,7 @@
 
 		"Pin_To_Sibling"							"ShadedBar"
 
-		"DifficultyLabel"
+		"DifficultyLabel"   // dead
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"DifficultyLabel"
@@ -77,7 +77,7 @@
 			"TextAlignment"							"west"
 			"XPos"									"0"
 			"YPos"									"0"
-			"Wide"									"55"
+			"Wide"									"0"
 			"Tall"									"20"
 			"AllCaps"								"0"
 			"FGColor"								"White"
@@ -90,9 +90,9 @@
 			"Font"									"ScoreboardMedium"
 			"LabelText"								"%difficultyvalue%"
 			"TextAlignment"							"west"
-			"XPos"									"-10"
+			"XPos"									"0"
 			"YPos"									"0"
-			"Wide"									"120"
+			"Wide"									"140"
 			"Tall"									"20"
 			"AllCaps"								"1"
 			"FGColor"								"White"
@@ -139,7 +139,7 @@
 		"ControlName"								"EditablePanel"
 		"FieldName"									"PlaylistBG"
 		"XPos"										"-3"
-		"YPos"										"-11"
+		"YPos"										"-12"
 		"ZPos"										"-1"
 		"Wide"										"524"
 		"Tall"										"150"
@@ -207,7 +207,7 @@
 					"ZPos"							"0"
 					"Wide"							"20"
 					"Tall"							"12"
-					"Visible"						"1"
+					"Visible"						"0"
 					"Enabled"						"1"
 					"ProportionalToParent"			"1"
 					"PaintBackground"				"1"
@@ -291,7 +291,7 @@
 					"ZPos"							"0"
 					"Wide"							"20"
 					"Tall"							"12"
-					"Visible"						"1"
+					"Visible"						"0"
 					"Enabled"						"1"
 					"ProportionalToParent"			"1"
 					"PaintBackground"				"1"
@@ -352,7 +352,7 @@
 		{
 			"ControlName"							"CCreditDisplayPanel"
 			"FieldName"								"PreviousWaveCreditInfoPanel"
-			"XPos"									"0"
+			"XPos"									"5"
 			"YPos"									"0"
 			"Wide"									"262"
 			"Tall"									"44"
@@ -362,7 +362,7 @@
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"FieldName"								"PreviousWaveCreditSpendPanel"
-			"XPos"									"0"
+			"XPos"									"10"
 			"YPos"									"0"
 			"Wide"									"262"
 			"Tall"									"44"
@@ -373,7 +373,7 @@
 		{
 			"ControlName"							"CCreditDisplayPanel"
 			"FieldName"								"TotalGameCreditInfoPanel"
-			"XPos"									"2"
+			"XPos"									"12"
 			"YPos"									"0"
 			"Wide"									"262"
 			"Tall"									"44"
@@ -387,7 +387,7 @@
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"FieldName"								"TotalGameCreditSpendPanel"
-			"XPos"									"0"
+			"XPos"									"10"
 			"YPos"									"0"
 			"Wide"									"262"
 			"Tall"									"44"
