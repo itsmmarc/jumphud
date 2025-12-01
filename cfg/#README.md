@@ -87,7 +87,7 @@ bind q pt_qs
 bind mouse2 +skey_attack2
 ```
 
-### USER_casualconfig.cfg
+### #casualconfig.cfg
 
 ```
 bind mouse1 +attack
@@ -106,7 +106,7 @@ bind r +reload
 bind b lastdisguise
 ```
 
-### USER_jumpconfig.cfg
+### #jumpconfig.cfg
 
 ```
 bind mouse1 +skey_attack
