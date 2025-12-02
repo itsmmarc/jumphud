@@ -4808,7 +4808,7 @@
             "TextAlignment"							"west"
             "Sound_Depressed"						"UI/buttonclick.wav"
 
-            "Command"                               "engine jh_custom_dynclrinfo_sol; hud_reloadscheme"
+            "Command"                               "engine jh_custom_heighto_info; hud_reloadscheme"
             "ActionSignalLevel"			            "6"
             
 

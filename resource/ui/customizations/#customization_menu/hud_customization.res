@@ -7,6 +7,7 @@
 // SOLDIER SPEEDOS
 //==============================================================
 #base "hud_customization_speedos_soldier.res"
+#base hud_customization_heighto_info.res
 
 //==============================================================
 // DEMO SPEEDOS
