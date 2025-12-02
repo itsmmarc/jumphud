@@ -1,2 +1,3 @@
-//#base pipetimer_center.res
-#base pipetimer_chargeslot.res
+#base "../../../../cfg/jumphud/jh_color_pipetimer_main.txt"
+#base "../../../../cfg/jumphud/jh_color_pipetimer_flash.txt"
+#base "../../../../cfg/jumphud/jh_pipetimer_type.txt"
