@@ -1,3 +1,5 @@
+#base "../../../cfg/jumphud/jh_spraypaint_size.txt"
+#base spraypaint_size_medium.vmt
 #base ../vgui/replay/thumbnails/speedo/colors/$colorMain/m0reWhite.vmt
 
 "LightMappedGeneric"
@@ -7,7 +9,6 @@
 	"$translucent" 1
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
-    "$decalscale" "0.4"
 
     $color "{255 255 255}"
 
