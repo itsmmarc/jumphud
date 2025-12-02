@@ -39,8 +39,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"PipesPresentPanel"
-		"XPos"										"0"
-        "XPos_minmode"								"0"
+		"XPos"										"-3"
+        "XPos_minmode"								"-3"
 		"YPos"										"0"
         "ypos_minmode"                              "27"
 		"ZPos"										"1"
