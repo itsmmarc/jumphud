@@ -45,38 +45,6 @@
             "paintBackground"   "1"
             "bgcolor_override"  "m0reGreen"
         }
-        OverlayStart
-        {
-            "controlName" "EditablePanel"
-            "visible" "1"
-            "enabled" "1"
-            "wide" "1"
-            "tall" "f0"
-            "xpos" "0"
-            "ypos" "0"
-            "zpos" "2"
-
-            "proportionaltoparent"  "1"
-
-            "paintBackground"   "1"
-            "bgcolor_override"  "White"
-        }
-        OverlayEnd
-        {
-            "controlName" "EditablePanel"
-            "visible" "1"
-            "enabled" "1"
-            "wide" "1"
-            "tall" "f0"
-            "xpos" "rs1"
-            "ypos" "0"
-            "zpos" "2"
-
-            "proportionaltoparent"  "1"
-
-            "paintBackground"   "1"
-            "bgcolor_override"  "White"
-        }
         TransparentBackground
         {
             "controlName" "EditablePanel"

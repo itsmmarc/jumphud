@@ -229,7 +229,17 @@
                     "antialias"									"1"
                 }
             }
-
+            
+            "JumpHUDIcons24"
+            {
+                "1"
+                {
+                    "name"										"JumpHUDIcons"
+                    "tall"										"24" [$WINDOWS]
+                    "tall"										"19" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
             "JumpHUDIcons28"
             {
                 "1"
@@ -668,6 +678,16 @@
         //==============================
         // HypnotizeHud Class Symbols
         //==============================
+            "ClassSymbols28"
+            {
+                "1"
+                {
+                    "name"										"TF2 Class Icons V3"
+                    "tall"										"28" [$WINDOWS]
+                    "tall"										"23" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
             "ClassSymbols30"
             {
                 "1"
@@ -719,6 +739,16 @@
                     "name"										"Hypnotize Icons V8"
                     "tall"										"18" [$WINDOWS]
                     "tall"										"15" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
+            "HypnotizeIcons24"
+            {
+                "1"
+                {
+                    "name"										"Hypnotize Icons V8"
+                    "tall"										"24" [$WINDOWS]
+                    "tall"										"19" [$LINUX]
                     "antialias"									"1"
                 }
             }
