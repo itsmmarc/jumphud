@@ -570,7 +570,7 @@
 			"LabelText"									"Reload to Apply Changes"
 			"Font"										"HudFontSmallBold"
 			"TextAlignment"								"center"
-			"Command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; exec jumphud_reloadkeymaterials; hud_reloadscheme"
+			"Command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme; exec jumphud_reloadkeymaterials"
 			"ActionSignalLevel"							"2"
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
