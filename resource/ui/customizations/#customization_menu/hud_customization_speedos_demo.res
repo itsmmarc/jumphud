@@ -192,12 +192,12 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-                        "Digits_Container" {
+                        "Digits_Container_H" {
                             "controlName" "EditablePanel"
                             "visible" "1"
                             "enabled" "1"
-                            "wide" "160"
-                            "tall" "40"
+                            "wide" "80"
+                            "tall" "20"
                             "xpos" "cs-0.5"
                             "ypos" "0"
                             "proportionaltoparent"  "1"
@@ -218,28 +218,28 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d4_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d4_4k"
                                 }
                                 "d3_4k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d3_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d3_4k"
                                 }
                                 "d2_4k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d2_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d2_4k"
                                 }
                                 "d1_4k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d1_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d1_4k"
                                 }
                             }
                             "Digits_3_Container"
@@ -258,21 +258,21 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d3_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d3_3k"
                                 }
                                 "d2_3k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d2_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d2_3k"
                                 }
                                 "d1_3k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d1_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d1_3k"
                                 }
                             }
                             "Digits_2_Container"
@@ -291,14 +291,14 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d2_2k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d2_2k"
                                 }
                                 "d1_2k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d1_2k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d1_2k"
                                 }
                             }
                             "Digits_1_Container"
@@ -318,16 +318,16 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d1_1k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d1_1k"
                                 }
                             }
                         }
-                        "Shadows_Container" {
+                        "Shadows_Container_H" {
                             "controlName" "EditablePanel"
                             "visible" "1"
                             "enabled" "1"
-                            "wide" "160"
-                            "tall" "40"
+                            "wide" "80"
+                            "tall" "20"
                             "xpos" "cs-0.5+1"
                             "ypos" "1"
                             "zpos" "-1"
@@ -349,7 +349,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d4_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d4_4k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d3_4k" {
@@ -357,7 +357,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d3_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d3_4k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d2_4k" {
@@ -365,7 +365,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d2_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d2_4k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d1_4k" {
@@ -373,7 +373,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d1_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d1_4k"
                                     "drawcolor" "main_shadow"
                                 }
                             }
@@ -393,7 +393,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d3_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d3_3k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d2_3k" {
@@ -401,7 +401,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d2_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d2_3k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d1_3k" {
@@ -409,7 +409,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d1_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d1_3k"
                                     "drawcolor" "main_shadow"
                                 }
                             }
@@ -429,7 +429,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d2_2k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d2_2k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d1_2k" {
@@ -437,7 +437,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d1_2k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d1_2k"
                                     "drawcolor" "main_shadow"
                                 }
                             }
@@ -458,17 +458,17 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo/d1_1k"
+                                    "image" "replay/thumbnails/customizations/speedos/hspeedo_demo_jh/d1_1k"
                                     "drawcolor" "main_shadow"
                                 }
                             }
                         }
-                        "Digits_Container" {
+                        "Digits_Container_V" {
                             "controlName" "EditablePanel"
                             "visible" "1"
                             "enabled" "1"
-                            "wide" "160"
-                            "tall" "40"
+                            "wide" "80"
+                            "tall" "20"
                             "xpos" "cs-0.5"
                             "ypos" "rs1-12"
                             "proportionaltoparent"  "1"
@@ -489,28 +489,28 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d4_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d4_4k"
                                 }
                                 "d3_4k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d3_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d3_4k"
                                 }
                                 "d2_4k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d2_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d2_4k"
                                 }
                                 "d1_4k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d1_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d1_4k"
                                 }
                             }
                             "Digits_3_Container"
@@ -529,21 +529,21 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d3_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d3_3k"
                                 }
                                 "d2_3k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d2_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d2_3k"
                                 }
                                 "d1_3k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d1_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d1_3k"
                                 }
                             }
                             "Digits_2_Container"
@@ -562,14 +562,14 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d2_2k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d2_2k"
                                 }
                                 "d1_2k" {
                                     "controlName" "CTFImagePanel"
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d1_2k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d1_2k"
                                 }
                             }
                             "Digits_1_Container"
@@ -589,16 +589,16 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d1_1k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d1_1k"
                                 }
                             }
                         }
-                        "Shadows_Container" {
+                        "Shadows_Container_V" {
                             "controlName" "EditablePanel"
                             "visible" "1"
                             "enabled" "1"
-                            "wide" "160"
-                            "tall" "40"
+                            "wide" "80"
+                            "tall" "20"
                             "xpos" "cs-0.5+1"
                             "ypos" "rs1-11"
                             "zpos" "-1"
@@ -620,7 +620,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d4_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d4_4k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d3_4k" {
@@ -628,7 +628,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d3_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d3_4k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d2_4k" {
@@ -636,7 +636,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d2_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d2_4k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d1_4k" {
@@ -644,7 +644,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d1_4k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d1_4k"
                                     "drawcolor" "main_shadow"
                                 }
                             }
@@ -664,7 +664,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d3_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d3_3k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d2_3k" {
@@ -672,7 +672,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d2_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d2_3k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d1_3k" {
@@ -680,7 +680,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d1_3k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d1_3k"
                                     "drawcolor" "main_shadow"
                                 }
                             }
@@ -700,7 +700,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d2_2k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d2_2k"
                                     "drawcolor" "main_shadow"
                                 }
                                 "d1_2k" {
@@ -708,7 +708,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d1_2k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d1_2k"
                                     "drawcolor" "main_shadow"
                                 }
                             }
@@ -729,7 +729,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo/d1_1k"
+                                    "image" "replay/thumbnails/customizations/speedos/vspeedo_demo_jh/d1_1k"
                                     "drawcolor" "main_shadow"
                                 }
                             }

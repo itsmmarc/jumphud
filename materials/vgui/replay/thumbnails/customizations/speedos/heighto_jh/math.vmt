@@ -26,13 +26,13 @@
     $frameRate  4
     $numFrames  7
 
-    $frame0 280
-    $frame1 600
-    $frame2 800     // close
-    $frame3 900     // good
-    $frame4 950     // close
-    $frame5 1300
-    $frame6 3495    // max
+    $frame0 500
+    $frame1 1260    // double
+    $frame2 1900
+    $frame3 2160    // triple
+    $frame4 3800
+    $frame5 6700
+    $frame6 7700    // max
 
     //==============================================================
     // COLOR VARIABLES
@@ -40,8 +40,6 @@
     $colorMain  "{ 255 255 255 }" // default color
     $color      $colorMain
 
-    //==============================================================
-	
 	Proxies {
         // for(i=0; i<=numFrames; i++)
 		LinearRamp {
@@ -108,14 +106,6 @@
             greaterVar      $frame6
         }
 
-        "Clamp"
-        {
-            "min"           "0"
-            "max"           "3500"
-            "srcVar1"       "$frame"
-            "resultVar"     "$frame"
-        }
-
     //==============================================================
     // COLORS
     //==============================================================
@@ -128,30 +118,30 @@
         }
 
         //==============================================================
-        // CLOSE
-        // if(speed>closeMin && speed<closeMax)
+        // DOUBLE
+        // if(speed>doubleMin && speed<doubleMax)
         //--------------------------------------------------------------
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$closeMin"
-            resultVar       "$isAboveCloseMin"
+            srcVar2         "$doubleMin"
+            resultVar       "$isAboveDoubleMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$closeMax"
-            resultVar       "$isBelowCloseMax"
+            srcVar2         "$doubleMax"
+            resultVar       "$isBelowDoubleMax"
             greaterVar      "$0"
             lessEqualVar    "$1"
         }
         Multiply {
-            srcVar1     "$isAboveCloseMin"
-            srcVar2     "$isBelowCloseMax"
-            resultVar   "$isClose"
+            srcVar1     "$isAboveDoubleMin"
+            srcVar2     "$isBelowDoubleMax"
+            resultVar   "$isDouble"
         }
         LessOrEqual {
-            srcVar1         "$isClose"
+            srcVar1         "$isDouble"
             srcVar2         "$0"
             resultVar       "$color"
             greaterVar      "$colorClose"
@@ -159,30 +149,30 @@
         }
 
         //==============================================================
-        // GOOD
-        // if(speed>goodMin && speed<goodMax)
+        // TRIPLE
+        // if(speed>tripleMin && speed<tripleMax)
         //--------------------------------------------------------------
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$goodMin"
-            resultVar       "$isAboveGoodMin"
+            srcVar2         "$tripleMin"
+            resultVar       "$isAboveTripleMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$goodMax"
-            resultVar       "$isBelowGoodMax"
+            srcVar2         "$tripleMax"
+            resultVar       "$isBelowTripleMax"
             greaterVar      "$0"
             lessEqualVar    "$1"
         }
         Multiply {
-            srcVar1     "$isAboveGoodMin"
-            srcVar2     "$isBelowGoodMax"
-            resultVar   "$isGood"
+            srcVar1     "$isAboveTripleMin"
+            srcVar2     "$isBelowTripleMax"
+            resultVar   "$isTriple"
         }
         LessOrEqual {
-            srcVar1         "$isGood"
+            srcVar1         "$isTriple"
             srcVar2         "$0"
             resultVar       "$color"
             greaterVar      "$colorGood"
@@ -195,30 +185,19 @@
         //--------------------------------------------------------------
         LessOrEqual {
             srcVar1         "$frame"
-            srcVar2         "$closeMinB"
-            resultVar       "$isAboveCloseMinB"
+            srcVar2         "$maxVelMin"
+            resultVar       "$isAboveMaxVelMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$frame"
-            srcVar2         "$closeMaxB"
-            resultVar       "$isBelowCloseMaxB"
-            greaterVar      "$0"
-            lessEqualVar    "$1"
-        }
-        Multiply {
-            srcVar1     "$isAboveCloseMinB"
-            srcVar2     "$isBelowCloseMaxB"
-            resultVar   "$isCloseB"
-        }
-        LessOrEqual {
-            srcVar1         "$isCloseB"
+            srcVar1         "$isAboveMaxVelMin"
             srcVar2         "$0"
             resultVar       "$color"
-            greaterVar      "$colorClose"
+            greaterVar      "$colorMaxVel"
             lessEqualVar    "$color"
         }
+
     //==============================================================
     // DIGIT SEPERATION
     //==============================================================
