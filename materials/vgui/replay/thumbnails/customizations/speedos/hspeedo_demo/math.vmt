@@ -251,18 +251,24 @@
         }
         // Discard decimals of $frame
         Int { srcVar1 $frame resultVar $frame }
-        // $frame = $frame/10
+        // $leading = $frame/10
         Divide {
             srcVar1         "$frame"
             srcVar2         "$10"
-            resultVar       "$frame"
+            resultVar       "$leading"
         }
-        // Get only decimals of $frame
-        Frac { srcVar1 $frame resultVar $frame }
-        // $frame = $frame*10
+        // Discard decimals of $leading
+        Int { srcVar1 $leading resultVar $leading }
+        // $leading = $leading * 10
         Multiply {
-            srcVar1         "$frame"
+            srcVar1         "$leading"
             srcVar2         "$10"
+            resultVar       "$leading"
+        }
+        // $frame = $frame - $leading
+        Subtract {
+            srcVar1         "$frame"
+            srcVar2         "$leading"
             resultVar       "$frame"
         }
 
