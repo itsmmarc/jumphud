@@ -1,5 +1,1 @@
-"UnlitGeneric" {
-	$digit 1
-	$leading 1
-	$lt 10
-}
+"UnlitGeneric" {}
