@@ -14,6 +14,10 @@
     $isCorrectSizeB 0
     $isCorrectSize 0
 
+    $isCorrectSizeA 0
+    $isCorrectSizeB 0
+    $isCorrectSize 0
+
 	"$const_eps" 0.009765625
 
 	"$value" 0.0 "$value_digit" 0.0

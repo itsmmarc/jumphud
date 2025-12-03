@@ -9,6 +9,10 @@
 
 	"$lt" 9999.0
 	"$gt" -1.0
+    
+    $isCorrectSizeA 0
+    $isCorrectSizeB 0
+    $isCorrectSize 0
 
 	"$const_eps" 0.009765625
 
@@ -172,35 +176,58 @@
         }
     //==============================================================
     // DIGIT SEPERATION
-    //==============================================================  
-		// Display digit
-		Divide { srcVar1 "$frame" srcVar2 "$digit" resultVar "$value_digit" }
-		WrapMinMax { srcVar1 "$value_digit" maxVal "$10" resultVar "$frame" }
-		
-		// Set to frame 10 (empty) if ("$leading" == 1) && digit is leading zero 
-		Equals { srcVar1 "$0" resultVar "$leading_check" }
-		LessOrEqual {
-			lessEqualVar "$value" greaterVar "$1000"
-			srcVar1 "$leading" srcVar2 "$0"
-			resultVar "$leading_check"
-		}
-		Add { srcVar1 "$leading_check" srcVar2 "$1" resultVar "$leading_check" }
-		LessOrEqual {
-			lessEqualVar "$10" greaterVar "$frame"
-			srcVar1 "$leading_check" srcVar2 "$digit"
-			resultVar "$frame"
-		}
-		
-		// Set to frame 10 (empty) if (less than "$lt" or greater than "$gt")
-		LessOrEqual {
-			lessEqualVar "$frame" greaterVar "$10"
-			srcVar1 "$value" srcVar2 "$lt"
-			resultVar "$frame"
-		}
-		LessOrEqual {
-			lessEqualVar "$10" greaterVar "$frame"
-			srcVar1 "$value" srcVar2 "$gt"
-			resultVar "$frame"
-		}
+    //==============================================================
+    // Check if speed is the right size (eg; if digit is _4k, check if the speed is 4 digits long)
+        // if($frame<$lt){ $isCorrectSizeA = 1}
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$lt"
+            resultVar       "$isCorrectSizeA"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        // if($frame>$gt){ $isCorrectSizeB = 1}
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$gt"
+            resultVar       "$isCorrectSizeB"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        // if($isCorrectSizeA && $isCorrectSizeB){ $isCorrectSize = 1}
+        Multiply{srcVar1 $isCorrectSizeA srcVar2 $isCorrectSizeB resultVar $isCorrectSize}
+    
+    // Find digit value (eg; if digit is d3, find the value of the speed in the hundreds place)
+        // $frame = $frame/$digit
+        Divide {
+            srcVar1         "$frame"
+            srcVar2         "$digit"
+            resultVar       "$frame"
+        }
+        // Discard decimals of $frame
+        Int { srcVar1 $frame resultVar $frame }
+        // $frame = $frame/10
+        Divide {
+            srcVar1         "$frame"
+            srcVar2         "$10"
+            resultVar       "$frame"
+        }
+        // Get only decimals of $frame
+        Frac { srcVar1 $frame resultVar $frame }
+        // $frame = $frame*10
+        Multiply {
+            srcVar1         "$frame"
+            srcVar2         "$10"
+            resultVar       "$frame"
+        }
+
+        // if($isCorrectSize){ $frame = $frame } else { $frame = 10 (invisible) }
+        LessOrEqual {
+            srcVar1         "$isCorrectSize"
+            srcVar2         "$0"
+            resultVar       "$frame"
+            greaterVar      "$frame"
+            lessEqualVar    "$10"
+        }
 	}
 }
