@@ -157,7 +157,7 @@
 				"underline" "1"
 			}
 		}
-		"DefaultSmall"
+		"DefaultSmall"  // server browser font
 		{
 			"1"
 			{
@@ -179,13 +179,13 @@
 				"dropshadow" "1"
 			}
 		}
-		"DefaultVerySmall"
+		"DefaultVerySmall"  // settings header
 		{
 			"1"
 			{
 				"name"		"Tahoma" [!$POSIX]
 				"name"		"Verdana" [$POSIX]
-				"tall"		"12"
+				"tall"		"16"
 				"weight"	"0"
 			}
 		}
@@ -815,7 +815,7 @@
 		"ListPanel.SelectedBGColor"							"SS_List_Button_Armed"
 		"ListPanel.SelectedOutOfFocusBGColor"				"SS_List_Button_Armed"
 
-		"SectionedListPanel.HeaderTextColor"				"White"
+		"SectionedListPanel.HeaderTextColor"				"255 255 255 100"
 		"SectionedListPanel.HeaderBGColor"					"Blank"
 		"SectionedListPanel.DividerColor"					"56 58 60 100"    // options menu header underline
 		"SectionedListPanel.TextColor"						"DullWhite"
