@@ -2883,7 +2883,7 @@
             "Visible"									"0"
             "PaintBackground"							"1"
             "PaintBackgroundType"						"0"
-            "BGColor_Override"							"TransparentLightBlack"
+            "BGColor_Override"							"TransparentBlack"
 
             "TipSubLabel"
             {
