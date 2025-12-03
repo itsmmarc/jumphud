@@ -26,13 +26,13 @@
     $frameRate  4
     $numFrames  7
 
-    $frame0 300
-    $frame1 600
-    $frame2 900     // close
-    $frame3 1100    // good
-    $frame4 1200    // close
-    $frame5 1300
-    $frame6 3495    // max
+    $frame0 500
+    $frame1 1260    // double
+    $frame2 1900
+    $frame3 2160    // triple
+    $frame4 3800
+    $frame5 6700
+    $frame6 7700    // max
 
     //==============================================================
     // COLOR VARIABLES
@@ -106,14 +106,6 @@
             greaterVar      $frame6
         }
 
-        "Clamp"
-        {
-            "min"           "0"
-            "max"           "3500"
-            "srcVar1"       "$frame"
-            "resultVar"     "$frame"
-        }
-
     //==============================================================
     // COLORS
     //==============================================================
@@ -130,14 +122,14 @@
         // if(speed>doubleMin && speed<doubleMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$doubleMin"
             resultVar       "$isAboveDoubleMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$doubleMax"
             resultVar       "$isBelowDoubleMax"
             greaterVar      "$0"
@@ -161,14 +153,14 @@
         // if(speed>tripleMin && speed<tripleMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$tripleMin"
             resultVar       "$isAboveTripleMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$tripleMax"
             resultVar       "$isBelowTripleMax"
             greaterVar      "$0"
@@ -192,7 +184,7 @@
         // if(speed>aboveMin && speed<aboveMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$maxVelMin"
             resultVar       "$isAboveMaxVelMin"
             greaterVar      "$1"

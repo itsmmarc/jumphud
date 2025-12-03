@@ -26,11 +26,11 @@
     $frameRate  4
     $numFrames  7
 
-    $frame0 300
+    $frame0 280
     $frame1 600
-    $frame2 900     // close
-    $frame3 1100    // good
-    $frame4 1200    // close
+    $frame2 800     // close
+    $frame3 900     // good
+    $frame4 950     // close
     $frame5 1300
     $frame6 3495    // max
 

@@ -30,7 +30,7 @@
     $frameRate  4
     $numFrames  7
 
-    $frame0 300
+    $frame0 240
     $frame1 600
     $frame2 900     // close
     $frame3 1100    // good
