@@ -1,8 +1,30 @@
 # Guide for adjusting configs for JumpHUD
 
+# CONFIG FILES
+
+## #jumpconfig.cfg & #casualconfig.cfg
+
+These files will be automatically executed when switching modes and on startup for the currently active mode.
+
+## ##jump_class_config/ & #casual_class_config/
+
+These function like normal class config files except the files in ##jump_class_config/ & ##casual_class_config/ will only be executed while their respective mode is enabled. For these to function you must add the following aliases to their respective config files in `tf/cfg` (eg; add `jh_scout_config` to `tf/cfg/scout.cfg`)
+
+- jh_scout_config
+- jh_soldier_config
+- jh_pyro_config
+- jh_demo_config
+- jh_heavy_config
+- jh_engineer_config
+- jh_medic_config
+- jh_sniper_config
+- jh_spy_config
+
+# BINDS
+
 ## SKeys Binds
 
-Use the following aliases to bind your movement & attack keys for skeys to function. *Due to limitations with TF2's code `+skey_jump` will not cancel taunts (eg exiting conga).*
+Use the following aliases to bind your movement & attack keys for skeys to function. *Due to limitations with TF2's code `+skey_jump` will not cancel taunts (eg; exiting conga).*
 
 - +skey_attack      // Attack
 - +skey_attack2     // Secondary Attack
@@ -24,7 +46,7 @@ Use the following aliases to bind your attack & weapon slot keys for the pipe ti
 - pt_slot3          // Equip Melee
 - pt_qs             // Equip Last Used Weapon
 
-## Save Locations
+## Save Location Binds
 
 The following binds are updated to use the currently selected save location slot from the pause menu.
 
@@ -70,9 +92,9 @@ The following aliases can be used to toggle speedos on & off. They all require h
 
 - jh_speedos_off
 
-## Example Configs
+# Example Configs
 
-### soldier.cfg
+## soldier.cfg
 
 ```
 jh_speedos_off
@@ -83,7 +105,7 @@ bind q lastinv
 bind mouse2 +skey_ctap
 ```
 
-### demoman.cfg
+## demoman.cfg
 
 ```
 jh_speedos_off
@@ -94,7 +116,7 @@ bind q pt_qs
 bind mouse2 +skey_attack2
 ```
 
-### #casualconfig.cfg
+## #casualconfig.cfg
 
 ```
 bind mouse1 +attack
@@ -113,7 +135,7 @@ bind r +reload
 bind b lastdisguise
 ```
 
-### #jumpconfig.cfg
+## #jumpconfig.cfg
 
 ```
 bind mouse1 +skey_attack
