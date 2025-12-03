@@ -29,6 +29,8 @@
 "blank"			"=========================="
 "+spraypaint"   "Spraypaint"
 "sm_spray"      "Tempus Spray"
+"jh_save"       "Save Location"
+"jh_tele"       "Teleport to Saved Location"
 "sm_restart"    "Restart Run"
 "sm_setstart"   "Set Start"
 "sm_hud"        "Tempus HUD (Toggle)"

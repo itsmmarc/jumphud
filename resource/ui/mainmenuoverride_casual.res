@@ -18,6 +18,11 @@
                 "Enabled"								"0"
             }
         }
+        "SavelocContainer"
+        {
+            "Visible"								"0"
+            "Enabled"								"0"
+        }
         "Toggle_Netgraph"
         {
             "SubButton"

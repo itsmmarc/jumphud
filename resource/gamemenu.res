@@ -134,6 +134,90 @@
 		"OnlyInGame"								"1"
 	}
     // Jump Buttons
+    "SaveLocation"
+    {
+        "label"										"a"
+		"Command"									"engine jh_save"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "LoadLocation"
+    {
+        "label"										"e"
+		"Command"									"engine jh_tele"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_1"
+    {
+        "label"										"1"
+		"Command"									"engine jh_saveloc_1"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_2"
+    {
+        "label"										"2"
+		"Command"									"engine jh_saveloc_2"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_3"
+    {
+        "label"										"3"
+		"Command"									"engine jh_saveloc_3"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_4"
+    {
+        "label"										"4"
+		"Command"									"engine jh_saveloc_4"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_5"
+    {
+        "label"										"5"
+		"Command"									"engine jh_saveloc_5"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_6"
+    {
+        "label"										"6"
+		"Command"									"engine jh_saveloc_6"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_7"
+    {
+        "label"										"7"
+		"Command"									"engine jh_saveloc_7"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_8"
+    {
+        "label"										"8"
+		"Command"									"engine jh_saveloc_8"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_9"
+    {
+        "label"										"9"
+		"Command"									"engine jh_saveloc_9"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "Saveloc_10"
+    {
+        "label"										"10"
+		"Command"									"engine jh_saveloc_10"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
     "SoldierSpeedo"
     {
         "label"										"7"
