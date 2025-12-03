@@ -197,7 +197,7 @@
 		
 		// display (top - bottom + 10)
 		Subtract { srcVar1 "$top" srcVar2 "$bottom" resultVar "$tmp" } 
-		Add { srcVar1 "$tmp" srcVar2 "$10" resultVar "$value" } 
+		Add { srcVar1 "$tmp" srcVar2 "$10" resultVar "$frame" } 
 
     //==============================================================
     // ROUNDING (only if map has been running a long time)
@@ -217,12 +217,12 @@
         //==============================================================
         // ROUNDING
         //--------------------------------------------------------------
-        // $value = $value/10
-        Divide { srcVar1 "$value" srcVar2 "$roundAmount" resultVar "$value" }
-        // discard decimals of $value
-        Int { srcVar1 "$value" resultVar "$value"}
-        // $value = $value*10
-		Multiply { srcVar1 "$value" srcVar2 "$roundAmount" resultVar "$value" }
+        // $frame = $frame/10
+        Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
+        // discard decimals of $frame
+        Int { srcVar1 "$frame" resultVar "$frame"}
+        // $frame = $frame*10
+		Multiply { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
 
     //==============================================================
     // COLORS
@@ -240,14 +240,14 @@
         // if(speed>doubleMin && speed<doubleMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$doubleMin"
             resultVar       "$isAboveDoubleMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$doubleMax"
             resultVar       "$isBelowDoubleMax"
             greaterVar      "$0"
@@ -271,14 +271,14 @@
         // if(speed>tripleMin && speed<tripleMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$tripleMin"
             resultVar       "$isAboveTripleMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$tripleMax"
             resultVar       "$isBelowTripleMax"
             greaterVar      "$0"
@@ -302,7 +302,7 @@
         // if(speed>aboveMin && speed<aboveMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$value"
+            srcVar1         "$frame"
             srcVar2         "$maxVelMin"
             resultVar       "$isAboveMaxVelMin"
             greaterVar      "$1"
