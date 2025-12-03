@@ -1,6 +1,6 @@
 "UnlitGeneric" {
 	$digit 1
 	$leading 1
-	$gt 0
+	$gt -1
     $lt 10
 }

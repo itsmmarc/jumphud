@@ -9,6 +9,7 @@
 
 	"$lt" 9999.0
 	"$gt" -1.0
+    
     $isCorrectSizeA 0
     $isCorrectSizeB 0
     $isCorrectSize 0
