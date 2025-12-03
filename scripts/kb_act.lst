@@ -14,7 +14,7 @@
 "pt_slot3"      "Slot 3"
 "pt_qs"         "Quickswitch"
 "blank"			"=========================="
-"blank"			"JUMP MOVEMENT"
+"blank"			"JUMP"
 "blank"			"=========================="
 "+skey_ctap"    "CTap"
 "+tphold"       "Thirdperson (Hold)"
