@@ -134,6 +134,20 @@
 		"OnlyInGame"								"1"
 	}
     // Jump Buttons
+    "TransparentBG_Saveloc"
+    {
+        "label"										""
+		"Command"									"engine"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "TitleLabel_Saveloc"
+    {
+        "label"										"SAVE LOCATIONS"
+		"Command"									"engine"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
     "SaveLocation"
     {
         "label"										"a"

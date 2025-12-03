@@ -1152,34 +1152,99 @@
             "Tall"									"34"
             "Visible"								"1"
             "ProportionalToParent"					"1"
-            "PaintBackground"						"1"
-            "PaintBackgroundType"					"0"
-            "BGColor_Override"						"TransparentLightBlack"
+            "PaintBackground"						"0"
 
             "Pin_To_Sibling"							"SavelocAnchor"
             "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
             "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 
-            "TitleLabel"
+            "TransparentBG_Saveloc"
             {
-                "ControlName"						"CExLabel"
-                "FieldName"							"TitleLabel"
-                "XPos"								"0"
-                "YPos"								"0"
-                "Wide"								"f0"
-                "Tall"								"16"
-                "Visible"							"1"
-                "Enabled"							"1"
-                "ProportionalToParent"				"1"
-                "Use_Proportional_Insets"			"1"
-                "Font"								"Menu_Small"
-                "LabelText"							"SAVE LOCATIONS"
-                "TextAlignment"						"center"
-                "TextInsetX"						"3"
-                "FGColor"							"White"
-                "PaintBackground"					"1"
-                "PaintBackgroundType"				"0"
-                "BGColor_Override"					"TransparentLightBlack"
+                "ControlName"								"EditablePanel"
+                "FieldName"									"TransparentBG_Saveloc"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"-1"
+                "Wide"										"f0"
+                "Tall"										"f0"
+                "proportionaltoparent"                      "1"
+                "Visible"									"1"
+
+                "MouseInputEnabled"						"0"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"3"
+                    "Font"								    ""
+                    "TextAlignment"							"center"
+
+
+                    "PaintBackground"						"1"
+                    "PaintBackgroundType"				    "0"
+                    "DefaultBGColor_Override"				"TransparentLightBlack"
+                    "ArmedBGColor_Override"					"TransparentLightBlack"
+                    "DepressedBGColor_Override"				"TransparentLightBlack"
+
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"White"
+                    "DepressedFGColor_Override"				"White"
+                }
+            }
+            "TitleLabel_Saveloc"
+            {
+                "ControlName"								"EditablePanel"
+                "FieldName"									"TitleLabel_Saveloc"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"15"
+                "Wide"										"f0"
+                "Tall"										"16"
+                "proportionaltoparent"                      "1"
+                "Visible"									"1"
+
+                "MouseInputEnabled"						"0"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"3"
+                    "Font"								    "Menu_Small"
+                    "TextAlignment"							"center"
+
+
+                    "PaintBackground"						"1"
+                    "PaintBackgroundType"				    "0"
+                    "DefaultBGColor_Override"				"TransparentLightBlack"
+                    "ArmedBGColor_Override"					"TransparentLightBlack"
+                    "DepressedBGColor_Override"				"TransparentLightBlack"
+
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"White"
+                    "DepressedFGColor_Override"				"White"
+                }
             }
             "SaveLocation"
             {
@@ -1269,7 +1334,7 @@
                 "proportionaltoparent"                      "1"
                 "Visible"									"1"
 
-                "Pin_To_Sibling"							"TitleLabel"
+                "Pin_To_Sibling"							"TitleLabel_Saveloc"
                 "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
                 "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
