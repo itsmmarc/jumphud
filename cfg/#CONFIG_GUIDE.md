@@ -2,7 +2,7 @@
 
 ## SKeys Binds
 
-Use the following aliases to bind your movement & attack keys for skeys to function. Due to limitations with TF2's code `+skey_jump` will not cancel taunts (eg exiting conga).
+Use the following aliases to bind your movement & attack keys for skeys to function. *Due to limitations with TF2's code `+skey_jump` will not cancel taunts (eg exiting conga).*
 
 - +skey_attack      // Attack
 - +skey_attack2     // Secondary Attack
@@ -16,13 +16,20 @@ Use the following aliases to bind your movement & attack keys for skeys to funct
 
 ## Pipe Timer Binds
 
-Use the following aliases to bind your attack & weapon slot keys for the pipe timer to function. Due to limitations with TF2's code `pt_qs` will not exit the taunt/disguise menus.
+Use the following aliases to bind your attack & weapon slot keys for the pipe timer to function. *Due to limitations with TF2's code `pt_qs` will not exit the taunt/disguise menus.*
 
 - +skey_attack      // Attack
 - pt_slot1          // Equip Primary
 - pt_slot2          // Equip Secondary
 - pt_slot3          // Equip Melee
 - pt_qs             // Equip Last Used Weapon
+
+## Save Locations
+
+The following binds are updated to use the currently selected save location slot from the pause menu.
+
+- jh_save           // Save Location
+- jh_tele           // Teleport to Saved Location
 
 ## Other Useful Binds
 
