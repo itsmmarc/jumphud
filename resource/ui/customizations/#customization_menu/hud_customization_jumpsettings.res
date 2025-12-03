@@ -1814,10 +1814,10 @@
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
-                "Jump_Warning3"
+                "Jump_Warning4"
                 {
                     "ControlName"					"CExLabel"
-                    "FieldName"						"Jump_Warning3"
+                    "FieldName"						"Jump_Warning4"
                     "XPos"							"140+195"
                     "YPos"							"2+110"
                     "ZPos"							"0"
@@ -2884,10 +2884,10 @@
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
-                "Jump_Warning4"
+                "Jump_Warning5"
                 {
                     "ControlName"					"CExLabel"
-                    "FieldName"						"Jump_Warning4"
+                    "FieldName"						"Jump_Warning5"
                     "XPos"							"128"
                     "YPos"							"2+110+110"
                     "ZPos"							"0"
@@ -5434,10 +5434,10 @@
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
-                "Jump_Warning3"
+                "Jump_Warning1"
                 {
                     "ControlName"					"CExLabel"
-                    "FieldName"						"Jump_Warning3"
+                    "FieldName"						"Jump_Warning1"
                     "XPos"							"100"
                     "YPos"							"2+130+120+110+110"
                     "ZPos"							"0"
