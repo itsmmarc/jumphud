@@ -362,7 +362,7 @@
             "XPos"										"-10"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"150"
+            "Wide"										"74"
             "Tall"										"17"
 
             "Pin_To_Sibling"							"Version"
@@ -399,15 +399,15 @@
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"Create"
-            "XPos"										"-91"
+            "XPos"										"2"
             "YPos"										"-1"
             "ZPos"										"16"
             "Wide"										"22"
             "Tall"										"17"
 
             "Pin_To_Sibling"							"Servers"
-            "Pin_Corner_To_Sibling"						"PIN_CENTER_LEFT"
-            "Pin_To_Sibling_Corner"						"PIN_CENTER_RIGHT"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_RIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_LEFT"
 
             "SubButton"
             {
@@ -424,7 +424,7 @@
                 "TextInsetX"							"0"
                 "Font"									"VerdanaMenu"
                 "AllCaps"								"1"
-                "TextAlignment"							"west"
+                "TextAlignment"							"east"
                 "Sound_Depressed"						"UI/buttonclick.wav"
 
                 "PaintBackground"						"0"
@@ -442,7 +442,7 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"150"
+            "Wide"										"50"
             "Tall"										"17"
 
             "Pin_To_Sibling"							"Servers"
@@ -562,7 +562,7 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"150"
+            "Wide"										"76"
             "Tall"										"17"
 
             "Pin_To_Sibling"							"Items"
@@ -602,7 +602,7 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"150"
+            "Wide"										"113"
             "Tall"										"17"
 
             "Pin_To_Sibling"							"Settings"
@@ -642,7 +642,7 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"150"
+            "Wide"										"113"
             "Tall"										"17"
 
             "Pin_To_Sibling"							"Advanced"
@@ -762,7 +762,7 @@
             "XPos"										"0"
             "YPos"										"5"
             "ZPos"										"15"
-            "Wide"										"150"
+            "Wide"										"40"
             "Tall"										"17"
 
             "Pin_To_Sibling"							"HUDSettings"
@@ -825,7 +825,7 @@
             "XPos"										"0"
             "YPos"										"5"
             "ZPos"										"15"
-            "Wide"										"150"
+            "Wide"										"95"
             "Tall"										"17"
             "Visible"									"0"
 
@@ -866,7 +866,7 @@
             "XPos"										"0"
             "YPos"										"5"
             "ZPos"										"15"
-            "Wide"										"150"
+            "Wide"										"40"
             "Tall"										"17"
             "Visible"									"0"
 
@@ -904,7 +904,7 @@
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"Vote"
-            "XPos"										"0"
+            "XPos"										"10"
             "YPos"										"1"
             "ZPos"										"15"
             "Wide"										"20"
@@ -1253,7 +1253,7 @@
                 "XPos"										"0"
                 "YPos"										"0"
                 "ZPos"										"15"
-                "Wide"										"p0.12"
+                "Wide"										"p0.1"
                 "Tall"										"16"
                 "proportionaltoparent"                      "1"
                 "Visible"									"1"
@@ -1291,7 +1291,7 @@
                 "XPos"										"rs1"
                 "YPos"										"0"
                 "ZPos"										"15"
-                "Wide"										"p0.12"
+                "Wide"										"p0.1"
                 "Tall"										"16"
                 "proportionaltoparent"                      "1"
                 "Visible"									"1"
