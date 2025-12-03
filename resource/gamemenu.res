@@ -152,84 +152,84 @@
     {
         "label"										"a"
 		"Command"									"engine jh_save"
-		"tooltip"									""
+		"tooltip"									"Save Current Location"
 		"OnlyInGame"								"1"
     }
     "LoadLocation"
     {
         "label"										"e"
 		"Command"									"engine jh_tele"
-		"tooltip"									""
+		"tooltip"									"Load Saved Location"
 		"OnlyInGame"								"1"
     }
     "Saveloc_1"
     {
         "label"										"1"
 		"Command"									"engine jh_saveloc_1"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 1"
 		"OnlyInGame"								"1"
     }
     "Saveloc_2"
     {
         "label"										"2"
 		"Command"									"engine jh_saveloc_2"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 2"
 		"OnlyInGame"								"1"
     }
     "Saveloc_3"
     {
         "label"										"3"
 		"Command"									"engine jh_saveloc_3"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 3"
 		"OnlyInGame"								"1"
     }
     "Saveloc_4"
     {
         "label"										"4"
 		"Command"									"engine jh_saveloc_4"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 4"
 		"OnlyInGame"								"1"
     }
     "Saveloc_5"
     {
         "label"										"5"
 		"Command"									"engine jh_saveloc_5"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 5"
 		"OnlyInGame"								"1"
     }
     "Saveloc_6"
     {
         "label"										"6"
 		"Command"									"engine jh_saveloc_6"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 6"
 		"OnlyInGame"								"1"
     }
     "Saveloc_7"
     {
         "label"										"7"
 		"Command"									"engine jh_saveloc_7"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 7"
 		"OnlyInGame"								"1"
     }
     "Saveloc_8"
     {
         "label"										"8"
 		"Command"									"engine jh_saveloc_8"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 8"
 		"OnlyInGame"								"1"
     }
     "Saveloc_9"
     {
         "label"										"9"
 		"Command"									"engine jh_saveloc_9"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 9"
 		"OnlyInGame"								"1"
     }
     "Saveloc_10"
     {
         "label"										"10"
 		"Command"									"engine jh_saveloc_10"
-		"tooltip"									""
+		"tooltip"									"Select Saveloc 10"
 		"OnlyInGame"								"1"
     }
     "SoldierSpeedo"
