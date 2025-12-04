@@ -31,6 +31,22 @@
                 "Enabled"								"0"
             }
         }
+        "Clear_Sprays"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "BounceCheck"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
         "Toggle_Chat"
         {
             "SubButton"

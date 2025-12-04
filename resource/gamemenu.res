@@ -295,6 +295,13 @@
 		"tooltip"									"Toggle Show Triggers"
 		"OnlyInGame"								"1"
 	}
+    "BounceCheck"
+	{
+		"label"										"?"
+		"command"									"engine sm_bcheck2"
+		"tooltip"									"Bounce Check"
+		"OnlyInGame"								"1"
+	}
     "DrawClipBrushes"
 	{
 		"label"										"@"
@@ -366,6 +373,13 @@
 		"label"										"F"
 		"command"									"engine toggle net_graph 0 1"
 		"tooltip"									"Toggle NetGraph"
+		"OnlyInGame"								"1"
+	}
+    "Clear_Sprays"
+	{
+		"label"										"D"
+		"command"									"engine r_cleardecals permanent"
+		"tooltip"									"Clear Sprays"
 		"OnlyInGame"								"1"
 	}
 	"Toggle_Chat"

@@ -1108,7 +1108,7 @@
             "ControlName"								"ImagePanel"
             "FieldName"									"JumpAnchor"
             "XPos"										"cs-0.5"
-            "YPos"										"cs-1+100"
+            "YPos"										"rs1-135"
             "fillcolor"                                 "blank"
             "Wide"										"1"
             "Tall"										"1"
@@ -1954,7 +1954,7 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"ShowKeys"
             "XPos"										"0"
-            "YPos"										"36"
+            "YPos"										"41"
             "ZPos"										"15"
             "Wide"										"35"
             "Tall"										"28"
@@ -1995,14 +1995,14 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"Toggle_HUDMessage"
             "XPos"										"0"
-            "YPos"										"25"
+            "YPos"										"0"
             "ZPos"										"15"
             "Wide"										"20"
             "Tall"										"20"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"JumpAnchor"
-            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling"							"HSpeedo"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_BOTTOM"
             "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 
             "SubButton"
@@ -2137,6 +2137,44 @@
                 "enabled"								"1"
                 "proportionaltoparent"					"1"
                 "font"									"Symbols18"
+                "textAlignment"							"center"
+                "sound_depressed"						"UI/buttonclick.wav"
+                "sound_released"						"UI/buttonclickrelease.wav"
+
+                "paintbackground"						"0"
+                "paintborder"							"0"
+
+                "defaultFGColor_override"				"White"
+                "armedFGColor_override"					"Menu_Accent"
+                "depressedFGColor_override"				"Menu_Accent"
+            }
+        }
+        "BounceCheck"
+        {
+            "ControlName"								"EditablePanel"
+            "fieldname"									"BounceCheck"
+            "xpos"										"0"
+            "ypos"										"0"
+            "zpos"										"16"
+            "wide"										"20"
+            "tall"										"20"
+
+            "Pin_To_Sibling"							"Toggle_Netgraph"
+            "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+            "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "fieldName"								"SubButton"
+                "xpos"									"0"
+                "ypos"									"0"
+                "wide"									"f0"
+                "tall"									"f0"
+                "visible"								"1"
+                "enabled"								"1"
+                "proportionaltoparent"					"1"
+                "font"									"HypnotizeIcons18"
                 "textAlignment"							"center"
                 "sound_depressed"						"UI/buttonclick.wav"
                 "sound_released"						"UI/buttonclickrelease.wav"
@@ -2355,6 +2393,44 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+        "Clear_Sprays"
+        {
+            "ControlName"								"EditablePanel"
+            "fieldname"									"Clear_Sprays"
+            "xpos"										"0"
+            "ypos"										"0"
+            "zpos"										"16"
+            "wide"										"20"
+            "tall"										"20"
+
+            "Pin_To_Sibling"							"ShowTriggers"
+            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "fieldName"								"SubButton"
+                "xpos"									"0"
+                "ypos"									"0"
+                "wide"									"f0"
+                "tall"									"f0"
+                "visible"								"1"
+                "enabled"								"1"
+                "proportionaltoparent"					"1"
+                "font"									"Symbols18"
+                "textAlignment"							"center"
+                "sound_depressed"						"UI/buttonclick.wav"
+                "sound_released"						"UI/buttonclickrelease.wav"
+
+                "paintbackground"						"0"
+                "paintborder"							"0"
+
+                "defaultFGColor_override"				"White"
+                "armedFGColor_override"					"Menu_Accent"
+                "depressedFGColor_override"				"Menu_Accent"
+            }
+        }
         "DrawClipBrushes"
         {
             "ControlName"								"EditablePanel"
@@ -2402,7 +2478,7 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"FullBright"
             "XPos"										"0"
-            "YPos"										"5"
+            "YPos"										"0"
             "ZPos"										"15"
             "Wide"										"20"
             "Tall"										"20"
