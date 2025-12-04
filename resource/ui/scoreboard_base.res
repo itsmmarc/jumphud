@@ -310,7 +310,7 @@
 		"FieldName"									"ServerLabel"
 		"XPos"										"-9"
 		"YPos"										"0"
-		"Wide"										"500"
+		"Wide"										"550"
 		"Tall"										"20"
 		"Visible"									"1"
 		"Enabled"									"1"
