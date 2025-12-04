@@ -49,28 +49,28 @@
     //==============================================================
     // ROUNDING (only if map has been running a long time)
     //==============================================================
-    //    // CONDITIONALS
-    //    //--------------------------------------------------------------
-    //    CurrentTime { resultVar $mapTime }
-    //    // if($mapTime>mapTimeThreshold)
-    //        // Round
-    //    LessOrEqual {
-    //        srcVar1         "$mapTime"
-    //        srcVar2         "$mapTimeThreshold"
-    //        resultVar       "$roundAmount"
-    //        greaterVar      "$roundAmount"
-    //        lessEqualVar    "$1"
-    //    }
-    //    //==============================================================
-    //    // ROUNDING
-    //    //--------------------------------------------------------------
-    //    // $frame = $frame/10
-    //    Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
-    //    // discard decimals of $frame
-    //    Int { srcVar1 "$frame" resultVar "$frame"}
-    //    // $frame = $frame*10
-	//	Multiply { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
-    //
+        // CONDITIONALS
+        //--------------------------------------------------------------
+        CurrentTime { resultVar $mapTime }
+        // if($mapTime>mapTimeThreshold)
+            // Round
+        LessOrEqual {
+            srcVar1         "$mapTime"
+            srcVar2         "$mapTimeThreshold"
+            resultVar       "$roundAmount"
+            greaterVar      "$roundAmount"
+            lessEqualVar    "$1"
+        }
+        //==============================================================
+        // ROUNDING
+        //--------------------------------------------------------------
+        // $frame = $frame/10
+        Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
+        // discard decimals of $frame
+        Int { srcVar1 "$frame" resultVar "$frame"}
+        // $frame = $frame*10
+		Multiply { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
+    
     //==============================================================
     // COLORS
     //==============================================================
