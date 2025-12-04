@@ -450,6 +450,7 @@
 
 //      Max double = ~1900 units
 //      Max triple = ~3800 units?
+//      Max water double = ~3100 units
 //      Max water triple = ~6700 units?
 //      Max quad = max vel??
 //      
@@ -521,34 +522,12 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
-                    "Info_1"
-                    {
-                        "ControlName"						"CExLabel"
-                        "FieldName"							"Info_1"
-                        "XPos"								"0"
-                        "YPos"								"-5"
-                        "ZPos"								"0"
-                        "Wide"								"f0"
-                        "Tall"								"15"
-                        "Visible"							"1"
-                        "Enabled"							"1"
-                        "ProportionalToParent"				"1"
-                        "LabelText"							""
-                        "Font"								"HudFontSmallest"
-                        "TextAlignment"						"west"
-                        "wrap"                              "1"
-                        "FGColor"							"Gray"
-
-                        "Pin_To_Sibling"				"Range_1"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
-                    }
                     "Subheading_2"
                     {
                         "ControlName"						"CExLabel"
                         "FieldName"							"Subheading_2"
                         "XPos"								"0"
-                        "YPos"								"1"
+                        "YPos"								"-3"
                         "ZPos"								"0"
                         "Wide"								"f0"
                         "Tall"								"20"
@@ -560,7 +539,7 @@
                         "TextAlignment"						"west"
                         "FGColor"							"Gray"
 
-                        "Pin_To_Sibling"				"Info_1"
+                        "Pin_To_Sibling"				"Range_1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
@@ -606,46 +585,24 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
-                    "Info_2"
-                    {
-                        "ControlName"						"CExLabel"
-                        "FieldName"							"Info_2"
-                        "XPos"								"0"
-                        "YPos"								"-5"
-                        "ZPos"								"0"
-                        "Wide"								"f0"
-                        "Tall"								"15"
-                        "Visible"							"1"
-                        "Enabled"							"1"
-                        "ProportionalToParent"				"1"
-                        "LabelText"							""
-                        "Font"								"HudFontSmallest"
-                        "TextAlignment"						"west"
-                        "wrap"                              "1"
-                        "FGColor"							"Gray"
-
-                        "Pin_To_Sibling"				"Range_2"
-						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
-                    }
                     "Subheading_3"
                     {
                         "ControlName"						"CExLabel"
                         "FieldName"							"Subheading_3"
                         "XPos"								"0"
-                        "YPos"								"1"
+                        "YPos"								"-3"
                         "ZPos"								"0"
                         "Wide"								"f0"
                         "Tall"								"20"
                         "Visible"							"1"
                         "Enabled"							"1"
                         "ProportionalToParent"				"1"
-                        "LabelText"							"Max Water Triple Height"
+                        "LabelText"							"Max Water Double Height"
                         "Font"								"HudFontSmallBold"
                         "TextAlignment"						"west"
                         "FGColor"							"Gray"
 
-                        "Pin_To_Sibling"				"Info_2"
+                        "Pin_To_Sibling"				"Range_2"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
@@ -681,7 +638,7 @@
                         "Visible"							"1"
                         "Enabled"							"1"
                         "ProportionalToParent"				"1"
-                        "LabelText"							"~6700 units"
+                        "LabelText"							"~3100 units"
                         "Font"								"HudFontSmall"
                         "TextAlignment"						"west"
                         "wrap"                              "1"
@@ -691,25 +648,66 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
-                    "Info_3"
+                    "Subheading_4"
                     {
                         "ControlName"						"CExLabel"
-                        "FieldName"							"Info_3"
+                        "FieldName"							"Subheading_4"
                         "XPos"								"0"
-                        "YPos"								"-5"
+                        "YPos"								"-3"
                         "ZPos"								"0"
                         "Wide"								"f0"
-                        "Tall"								"15"
+                        "Tall"								"20"
                         "Visible"							"1"
                         "Enabled"							"1"
                         "ProportionalToParent"				"1"
-                        "LabelText"							""
-                        "Font"								"HudFontSmallest"
+                        "LabelText"							"Max Water Triple Height"
+                        "Font"								"HudFontSmallBold"
                         "TextAlignment"						"west"
-                        "wrap"                              "1"
                         "FGColor"							"Gray"
 
                         "Pin_To_Sibling"				"Range_3"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+                    }
+                    "Separator_4"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Separator_4"
+						"XPos"							"2"
+						"YPos"							"-1"
+						"ZPos"							"0"
+						"Wide"							"f40"
+						"Tall"							"1"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"paintBackground"				"1"
+						"paintBackgroundtype"			"3"
+						"BGcolor_Override"				"Background_Bright"
+
+						"Pin_To_Sibling"				"Subheading_4"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+					}
+                    "Range_4"
+                    {
+                        "ControlName"						"CExLabel"
+                        "FieldName"							"Range_4"
+                        "XPos"								"0"
+                        "YPos"								"-2"
+                        "ZPos"								"0"
+                        "Wide"								"f0"
+                        "Tall"								"20"
+                        "Visible"							"1"
+                        "Enabled"							"1"
+                        "ProportionalToParent"				"1"
+                        "LabelText"							"~6700 units"
+                        "Font"								"HudFontSmall"
+                        "TextAlignment"						"west"
+                        "wrap"                              "1"
+                        "FGColor"							"White"
+
+                        "Pin_To_Sibling"				"Subheading_4"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
