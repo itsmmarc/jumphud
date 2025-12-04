@@ -129,7 +129,7 @@
 					"XPos"								"4"
 					"YPos"								"41"
 					"ZPos"								"20"
-					"Wide"								"f0"
+					"Wide"								"170"
 					"Tall"								"80"
 					"Visible"							"1"
 					"Enabled"							"1"
@@ -781,66 +781,82 @@
 							"border_armed"				"BorderSelectionGray"
 						}
 					}
-					"MMOD_Preset"
+				}
+// ROUNDING ------------------------------------------------------------------------------------------------------------
+                "Speedo_Rounding"
+				{
+					"ControlName"						"EditablePanel"
+					"FieldName"							"Speedo_Rounding"
+					"XPos"								"250"
+					"YPos"								"41"
+					"ZPos"								"20"
+					"Wide"								"180"
+					"Tall"								"80"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+
+					"Rounding_Label"
+					{
+						"ControlName"					"CExLabel"
+						"FieldName"						"Rounding_Label"
+						"XPos"							"0"
+						"YPos"							"0"
+						"ZPos"							"0"
+						"Wide"							"f25"
+						"Tall"							"15"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"AllCaps"						"1"
+						"LabelText"						"Rounding"
+						"Font"							"HudFontSmallBold"
+						"TextAlignment"					"west"
+						"FGColor"						"Gray"
+					}
+					"Separator"
 					{
 						"ControlName"					"EditablePanel"
-						"FieldName"						"MMOD_Preset"
-						"XPos"							"5"
-						"YPos"							"0"
+						"FieldName"						"Separator"
+						"XPos"							"2"
+						"YPos"							"1"
+						"ZPos"							"0"
+						"Wide"							"f40"
+						"Tall"							"1"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"paintBackground"				"1"
+						"paintBackgroundtype"			"3"
+						"BGcolor_Override"				"Background_Bright"
+
+						"Pin_To_Sibling"				"Rounding_Label"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+					}
+                    "Rounding_Always"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Rounding_Always"
+						"XPos"							"-2"
+						"YPos"							"5"
 						"ZPos"							"1"
 						"Wide"							"68"
 						"Tall"							"50"
-						"Visible"						"0"
+						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
 						"BGcolor_Override"				"CustomizationOptionBG"
 
-						"Pin_To_Sibling"				"Jumphud_Preset"
+						"Pin_To_Sibling"				"Separator"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
-						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-						"Speedo_Icon"
+						"Rounding_label"
 						{
 							"ControlName"				"CExLabel"
-							"FieldName"					"Speedo_Icon"
-							"XPos"						"cs-0.5"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"f0"
-							"Tall"						"f12"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"AllCaps"					"1"
-							"Font"						"Crosshair_Size_30"
-							"LabelText"					"V"
-							"TextAlignment"				"center"
-							"FGColor"					"White"
-						}
-						"Speedo_Disabled"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Speedo_Disabled"
-							"XPos"						"cs-0.5"
-							"YPos"						"1"
-							"ZPos"						"3"
-							"Wide"						"64"
-							"Tall"						"36"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
-							"ScaleImage"				"1"
-							"Drawcolor"					"Red"
-							"Alpha"						"200"
-						}
-						"MMOD_Preset_Label"
-						{
-							"ControlName"				"CExLabel"
-							"FieldName"					"MMOD_Preset_Label"
+							"FieldName"					"Rounding_label"
 							"XPos"						"0"
 							"YPos"						"rs1"
 							"ZPos"						"1"
@@ -852,13 +868,284 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"FontStorePrice"
-							"LabelText"					"MMOD"
+							"LabelText"					"Enabled"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
 							"BGColor_Override"			"Background_Darkest"
 						}
+                        "Digits_Container_Rounding" {
+                            "controlName" "EditablePanel"
+                            "visible" "1"
+                            "enabled" "1"
+                            "wide" "80"
+                            "tall" "20"
+                            "xpos" "cs-0.5"
+                            "ypos" "cs-0.5-5"
+                            "proportionaltoparent"  "1"
+                        
+                            "Digits_4_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d4_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d4_4k"
+                                }
+                                "d3_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d3_4k"
+                                }
+                                "d2_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d2_4k"
+                                }
+                                "d1_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d1_4k"
+                                }
+                            }
+                            "Digits_3_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d3_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d3_3k"
+                                }
+                                "d2_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d2_3k"
+                                }
+                                "d1_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d1_3k"
+                                }
+                            }
+                            "Digits_2_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d2_2k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d2_2k"
+                                }
+                                "d1_2k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d1_2k"
+                                }
+                            }
+                            "Digits_1_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d1_1k"
+                                {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d1_1k"
+                                }
+                            }
+                        }
+                        "Shadows_Container_Rounding" {
+                            "controlName" "EditablePanel"
+                            "visible" "1"
+                            "enabled" "1"
+                            "wide" "80"
+                            "tall" "20"
+                            "xpos" "cs-0.5+1"
+                            "ypos" "cs-0.5-5+1"
+                            "zpos" "-1"
+                            "proportionaltoparent"  "1"
+                        
+                            "Digits_4_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d4_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d4_4k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d3_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d3_4k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d2_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d2_4k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d1_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d1_4k"
+                                    "drawcolor" "main_shadow"
+                                }
+                            }
+                            "Digits_3_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d3_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d3_3k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d2_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d2_3k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d1_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d1_3k"
+                                    "drawcolor" "main_shadow"
+                                }
+                            }
+                            "Digits_2_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d2_2k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d2_2k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d1_2k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d1_2k"
+                                    "drawcolor" "main_shadow"
+                                }
+                            }
+                            "Digits_1_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d1_1k"
+                                {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_always/d1_1k"
+                                    "drawcolor" "main_shadow"
+                                }
+                            }
+                        }
 						"Speedo_Button"
 						{
 							"ControlName"				"CExButton"
@@ -871,7 +1158,344 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_xhair_invisible"
+							"Command"					"engine jh_speedo_d_round_always"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"0"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionGray"
+						}
+					}
+                    "Rounding_Never"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Rounding_Never"
+						"XPos"							"5"
+						"YPos"							"0"
+						"ZPos"							"1"
+						"Wide"							"68"
+						"Tall"							"50"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"PaintBackground"				"1"
+						"BGcolor_Override"				"CustomizationOptionBG"
+
+						"Pin_To_Sibling"				"Rounding_Always"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+
+						"Rounding_label"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Rounding_label"
+							"XPos"						"0"
+							"YPos"						"rs1"
+							"ZPos"						"1"
+							"Wide"						"f0"
+							"Tall"						"12"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+							"AllCaps"					"1"
+							"Font"						"FontStorePrice"
+							"LabelText"					"Disabled"
+							"TextAlignment"				"center"
+							"FGColor"					"Gray"
+							"PaintBackground"			"1"
+							"PaintBackgroundType"		"0"
+							"BGColor_Override"			"Background_Darkest"
+						}
+                        "Digits_Container_Rounding" {
+                            "controlName" "EditablePanel"
+                            "visible" "1"
+                            "enabled" "1"
+                            "wide" "80"
+                            "tall" "20"
+                            "xpos" "cs-0.5"
+                            "ypos" "cs-0.5-5"
+                            "proportionaltoparent"  "1"
+                        
+                            "Digits_4_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d4_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d4_4k"
+                                }
+                                "d3_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d3_4k"
+                                }
+                                "d2_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d2_4k"
+                                }
+                                "d1_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d1_4k"
+                                }
+                            }
+                            "Digits_3_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d3_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d3_3k"
+                                }
+                                "d2_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d2_3k"
+                                }
+                                "d1_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d1_3k"
+                                }
+                            }
+                            "Digits_2_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d2_2k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d2_2k"
+                                }
+                                "d1_2k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d1_2k"
+                                }
+                            }
+                            "Digits_1_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d1_1k"
+                                {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d1_1k"
+                                }
+                            }
+                        }
+                        "Shadows_Container_Rounding" {
+                            "controlName" "EditablePanel"
+                            "visible" "1"
+                            "enabled" "1"
+                            "wide" "80"
+                            "tall" "20"
+                            "xpos" "cs-0.5+1"
+                            "ypos" "cs-0.5-5+1"
+                            "zpos" "-1"
+                            "proportionaltoparent"  "1"
+                        
+                            "Digits_4_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d4_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d4_4k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d3_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d3_4k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d2_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d2_4k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d1_4k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d1_4k"
+                                    "drawcolor" "main_shadow"
+                                }
+                            }
+                            "Digits_3_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d3_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d3_3k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d2_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d2_3k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d1_3k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d1_3k"
+                                    "drawcolor" "main_shadow"
+                                }
+                            }
+                            "Digits_2_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d2_2k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d2_2k"
+                                    "drawcolor" "main_shadow"
+                                }
+                                "d1_2k" {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d1_2k"
+                                    "drawcolor" "main_shadow"
+                                }
+                            }
+                            "Digits_1_Container"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
+                                "xpos" "cs-0.5"
+                                "ypos" "0"
+
+                                "d1_1k"
+                                {
+                                    "controlName" "CTFImagePanel"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/customizations/speedos/round_never/d1_1k"
+                                    "drawcolor" "main_shadow"
+                                }
+                            }
+                        }
+						"Speedo_Button"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Speedo_Button"
+							"XPos"						"0"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"f0"
+							"Tall"						"f0"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine jh_speedo_d_round_never"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -914,7 +1538,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"AllCaps"						"1"
-						"LabelText"						"Speedo Size"
+						"LabelText"						"Size"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
 						"FGColor"						"Gray"
@@ -1287,7 +1911,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"AllCaps"						"1"
-						"LabelText"						"Speedo Shadows"
+						"LabelText"						"Shadows"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
 						"FGColor"						"Gray"

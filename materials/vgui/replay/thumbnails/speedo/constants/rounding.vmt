@@ -4,7 +4,4 @@
     // ROUNDING VARIABLES
     //==============================================================
     $roundAmount        10
-    $mapTime            0
-    // the amount of time a map has been running before the speedo starts being rounded (in seconds)
-    $mapTimeThreshold   5400    // 1.5 hours
 }
