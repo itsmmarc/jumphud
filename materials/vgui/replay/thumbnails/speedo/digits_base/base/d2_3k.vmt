@@ -1,5 +1,5 @@
 "UnlitGeneric" {
 	$digit 10
 	$gt 99
-    $lt 1000
+    $lt 999
 }
