@@ -37,7 +37,7 @@
 					"LabelText"							"Welcome to JumpHUD"
 					"Font"								"TitleFont"
 					"TextAlignment"						"west"
-					"FGColor"							"Gray"
+					"FGColor"							"White"
 				}
 				"Description"
 				{
