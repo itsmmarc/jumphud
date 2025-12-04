@@ -1,5 +1,23 @@
 "Resource/UI/Scoreboard_Casual_Detailed.res"
 {
+    "ShadedBar"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"ShadedBar"
+		"XPos"										"5"
+		"YPos"										"6"
+		"ZPos"										"2"
+		"Wide"										"p1.01"
+		"Tall"										"25"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"fillcolor"									"TransparentLightBlack"
+		"PaintBackgroundType"						"0"
+
+		"Pin_To_Sibling"							"LocalPlayerStatsPanel"
+		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+	}
 	"LocalPlayerStatsPanel"
 	{
 		"ControlName"								"EditablePanel"
