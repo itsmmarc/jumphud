@@ -1977,7 +1977,7 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"JumpHUDIcons28"
+                "Font"									"JumpHUDIcons24"
                 "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
