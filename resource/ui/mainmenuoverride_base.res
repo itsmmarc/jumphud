@@ -1954,7 +1954,7 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"ShowKeys"
             "XPos"										"0"
-            "YPos"										"41"
+            "YPos"										"34"
             "ZPos"										"15"
             "Wide"										"35"
             "Tall"										"28"
