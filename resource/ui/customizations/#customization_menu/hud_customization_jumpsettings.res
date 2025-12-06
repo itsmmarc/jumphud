@@ -671,8 +671,8 @@
 				{
 					"ControlName"						"CExLabel"
 					"FieldName"							"SKeys_Icon"
-					"XPos"								"1"
-					"YPos"								"4+110"
+					"XPos"								"3"
+					"YPos"								"-2+110"
 					"ZPos"								"0"
 					"Wide"								"26"
 					"Tall"								"25"
@@ -688,7 +688,7 @@
 				{
 					"ControlName"						"CExLabel"
 					"FieldName"							"SKeys_Label"
-					"XPos"								"30"
+					"XPos"								"31"
 					"YPos"								"110"
 					"ZPos"								"0"
 					"Wide"								"f25"
@@ -706,7 +706,7 @@
                 {
                     "ControlName"					"CExLabel"
                     "FieldName"						"Jump_Warning3"
-                    "XPos"							"140"
+                    "XPos"							"141"
                     "YPos"							"2+110"
                     "ZPos"							"0"
                     "Wide"							"20"
