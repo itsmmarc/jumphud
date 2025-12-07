@@ -10,116 +10,7 @@
             "Wide"										"25"
             "Tall"										"25"
         }
-        "TempusHud"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "SavelocContainer"
-        {
-            "Visible"								"0"
-            "Enabled"								"0"
-        }
-        "Toggle_Netgraph"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "Clear_Sprays"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "BounceCheck"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "Toggle_Chat"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "HSpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "VSpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "ASpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        
-        "FullBright"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "Luxels"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "ShowTriggers"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "DrawClipBrushes"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "ToggleMinmode"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
+        // Main speedos
         "SoldierSpeedo"
         {
             "SubButton"
@@ -168,6 +59,50 @@
                 "Enabled"								"0"
             }
         }
+        "ToggleMinmode"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        // Savelocs
+        "SavelocContainer"
+        {
+            "Visible"								"0"
+            "Enabled"								"0"
+        }
+        // Jump Util
+        "UtilityContainer"
+        {
+            "Visible"								"0"
+            "Enabled"								"0"
+        }
+        "TempusHud"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "Toggle_Netgraph"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "Toggle_Chat"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
         "Toggle_HUDMessage"
         {
             "SubButton"
@@ -176,4 +111,78 @@
                 "Enabled"								"0"
             }
         }
+        "BounceCheck"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        
+        "Luxels"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "ShowTriggers"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "DrawClipBrushes"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "FullBright"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+        "Clear_Sprays"
+        {
+            "SubButton"
+            {
+                "Visible"								"0"
+                "Enabled"								"0"
+            }
+        }
+                
+        //"HSpeedo"
+        //{
+        //    "SubButton"
+        //    {
+        //        "Visible"								"0"
+        //        "Enabled"								"0"
+        //    }
+        //}
+        //"VSpeedo"
+        //{
+        //    "SubButton"
+        //    {
+        //        "Visible"								"0"
+        //        "Enabled"								"0"
+        //    }
+        //}
+        //"ASpeedo"
+        //{
+        //    "SubButton"
+        //    {
+        //        "Visible"								"0"
+        //        "Enabled"								"0"
+        //    }
+        //}
     }

@@ -134,6 +134,7 @@
 		"OnlyInGame"								"1"
 	}
     // Jump Buttons
+    // Saveloc
     "TransparentBG_Saveloc"
     {
         "label"										""
@@ -232,6 +233,7 @@
 		"tooltip"									"Select Saveloc 10"
 		"OnlyInGame"								"1"
     }
+    // Main Speedos
     "SoldierSpeedo"
     {
         "label"										"7"
@@ -260,9 +262,24 @@
 		"tooltip"									"Toggle Bar Speedos"
 		"OnlyInGame"								"1"
     }
+    // Utilities
+    "TransparentBG_Util"
+    {
+        "label"										""
+		"Command"									"engine"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "ToggleMinmode"
+	{
+		"label"										"g"
+		"Command"									"engine toggle cl_hud_minmode"
+		"tooltip"									"Toggle HUD Minmode"
+		"OnlyInGame"								"1"
+	}
     "GraphSpeedos"
     {
-        "label"										"7"
+        "label"										"G"
 		"Command"									"engine jh_gspeedos_toggle; hud_reloadscheme"
 		"tooltip"									"Toggle Speed Graphs"
 		"OnlyInGame"								"1"
@@ -295,46 +312,11 @@
 		"tooltip"									"Toggle Show Triggers"
 		"OnlyInGame"								"1"
 	}
-    "BounceCheck"
-	{
-		"label"										"?"
-		"command"									"engine sm_bcheck2"
-		"tooltip"									"Bounce Check"
-		"OnlyInGame"								"1"
-	}
     "DrawClipBrushes"
 	{
 		"label"										"@"
 		"Command"									"engine toggle r_drawclipbrushes 0 2"
 		"tooltip"									"Toggle Clip Brushes"
-		"OnlyInGame"								"1"
-	}
-    "TempusHud"
-	{
-		"label"										"'"
-		"Command"									"engine sm_hud"
-		"tooltip"									"Toggle Tempus HUD"
-		"OnlyInGame"								"1"
-	}
-    "HSpeedo"
-	{
-		"label"										"7"
-		"Command"									"engine toggle_tempus_hspeedo"
-		"tooltip"									"Toggle Horizontal Speedo"
-		"OnlyInGame"								"1"
-	}
-    "VSpeedo"
-	{
-		"label"										"7"
-		"Command"									"engine toggle_tempus_vspeedo"
-		"tooltip"									"Toggle Vertical Speedo"
-		"OnlyInGame"								"1"
-	}
-    "ASpeedo"
-	{
-		"label"										"7"
-		"Command"									"engine toggle_tempus_aspeedo"
-		"tooltip"									"Toggle Absolute Speedo"
 		"OnlyInGame"								"1"
 	}
     "FullBright"
@@ -344,13 +326,63 @@
 		"tooltip"									"Toggle Full Bright"
 		"OnlyInGame"								"1"
 	}
-    "ToggleMinmode"
+    "BounceCheck"   // hypnotizeicons28
 	{
-		"label"										"g"
-		"Command"									"engine toggle cl_hud_minmode"
-		"tooltip"									"Toggle HUD Minmode"
+		"label"										"?"
+		"command"									"engine sm_bcheck2"
+		"tooltip"									"Bounce Check"
 		"OnlyInGame"								"1"
 	}
+    "Clear_Sprays"
+	{
+		"label"										"D"
+		"command"									"engine r_cleardecals permanent"
+		"tooltip"									"Clear Sprays"
+		"OnlyInGame"								"1"
+	}    
+    "TempusHud"
+	{
+		"label"										"'"
+		"Command"									"engine sm_hud"
+		"tooltip"									"Toggle Tempus HUD"
+		"OnlyInGame"								"1"
+	}
+    "Toggle_Netgraph"
+	{
+		"label"										"F"
+		"command"									"engine toggle net_graph 0 1"
+		"tooltip"									"Toggle NetGraph"
+		"OnlyInGame"								"1"
+	}
+	"Toggle_Chat"
+	{
+		"label"										"A"
+		"command"									"engine toggle hud_saytext_time 0 12"
+		"tooltip"									"Toggle Chat"
+		"OnlyInGame"								"1"
+    }
+    //"HSpeedo"
+	//{
+	//	"label"										"7"
+	//	"Command"									"engine toggle_tempus_hspeedo"
+	//	"tooltip"									"Toggle Horizontal Speedo"
+	//	"OnlyInGame"								"1"
+	//}
+    //"VSpeedo"
+	//{
+	//	"label"										"7"
+	//	"Command"									"engine toggle_tempus_vspeedo"
+	//	"tooltip"									"Toggle Vertical Speedo"
+	//	"OnlyInGame"								"1"
+	//}
+    //"ASpeedo"
+	//{
+	//	"label"										"7"
+	//	"Command"									"engine toggle_tempus_aspeedo"
+	//	"tooltip"									"Toggle Absolute Speedo"
+	//	"OnlyInGame"								"1"
+	//}
+    
     //====================================================================================================================================================
 	// TOOLS BAR - from m0rehud 6.5 classic
 	//====================================================================================================================================================
@@ -366,27 +398,6 @@
 		"label"										"%"
 		"Command"									"engine hud_reloadscheme; snd_restart"
 		"tooltip"									"Reload HUD and Sound"
-		"OnlyInGame"								"1"
-	}
-	"Toggle_Netgraph"
-	{
-		"label"										"F"
-		"command"									"engine toggle net_graph 0 1"
-		"tooltip"									"Toggle NetGraph"
-		"OnlyInGame"								"1"
-	}
-    "Clear_Sprays"
-	{
-		"label"										"D"
-		"command"									"engine r_cleardecals permanent"
-		"tooltip"									"Clear Sprays"
-		"OnlyInGame"								"1"
-	}
-	"Toggle_Chat"
-	{
-		"label"										"A"
-		"command"									"engine toggle hud_saytext_time 0 12"
-		"tooltip"									"Toggle Chat"
 		"OnlyInGame"								"1"
 	}
 
