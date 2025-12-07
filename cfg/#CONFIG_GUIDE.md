@@ -122,9 +122,9 @@ bind mouse2 +skey_attack2
 bind mouse1 +attack
 bind mouse2 +attack2
 bind w +forward
-bind a +left
+bind a +moveleft
 bind s +back
-bind d +right
+bind d +moveright
 bind space +jump
 bind ctrl +duck
 bind 1 slot1
