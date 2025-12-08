@@ -43,6 +43,18 @@
                 "Enabled"								"0"
             }
         }
+        // Savelocs
+        "SavelocContainer"
+        {
+            "Visible"								"0"
+            "Enabled"								"0"
+        }
+        // Jump Util
+        "UtilityContainer"
+        {
+            "Visible"								"0"
+            "Enabled"								"0"
+        }
         "GraphSpeedos"
         {
             "SubButton"
@@ -66,18 +78,6 @@
                 "Visible"								"0"
                 "Enabled"								"0"
             }
-        }
-        // Savelocs
-        "SavelocContainer"
-        {
-            "Visible"								"0"
-            "Enabled"								"0"
-        }
-        // Jump Util
-        "UtilityContainer"
-        {
-            "Visible"								"0"
-            "Enabled"								"0"
         }
         "TempusHud"
         {
