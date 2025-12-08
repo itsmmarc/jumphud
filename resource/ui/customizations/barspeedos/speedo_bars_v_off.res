@@ -17,7 +17,7 @@
                 "visible"   "0"
             }
             "hspeedo_background" {
-                "XPos"										"0"
+                "XPos"										"1"
                 "Wide"										"p0.5"
             }
         }

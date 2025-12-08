@@ -47,9 +47,6 @@
     $colorClose "{ 255 255 255 }"
     $colorGood  "{ 255 255 255 }"
     $color      $colorMain
-
-    
-    //==============================================================
 	
 	Proxies {
     //==============================================================
@@ -155,6 +152,14 @@
     //==============================================================
     // TRANSFORM TEXTURE
     //==============================================================
+        // if speed is 0, make bar invisible
+        LessOrEqual {
+            srcVar1         "$speed"
+            srcVar2         "$0"
+            resultVar       "$alpha"
+            greaterVar      "$prealpha"
+            lessEqualVar    "$0"
+        }
         Multiply
 		{
 			srcVar1		"$speed"
@@ -282,4 +287,5 @@
             greaterVar      "$colorClose"
             lessEqualVar    "$color"
         }
+    }
 }

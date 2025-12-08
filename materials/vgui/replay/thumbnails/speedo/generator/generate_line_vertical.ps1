@@ -12,11 +12,12 @@ $VTFSize = "4x512"
 $width = 4
 $height = 512
 $heightB = $height - 1
+$heightBB = $heightB - 1
 $end = $width - 1
 $folder = "line"
 $imagesFolder = "$PSScriptRoot\$folder"
 
-$bar = "rectangle 0,$height $end,$heightB"
+$bar = "rectangle 0,$heightB $end,$heightBB"
 
 Write-Host "Starting script..."
 

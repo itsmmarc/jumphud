@@ -2,12 +2,12 @@
     "barspeedos"
     {
         "vspeedo_container" {
-            "vspeedo_sweetspot" {
+            "vspeedo_sweetspots" {
                 "visible"   "0"
             }
         }
         "hspeedo_container" {
-            "hspeedo_sweetspot" {
+            "hspeedo_sweetspots" {
                 "visible"   "0"
             }
         }
