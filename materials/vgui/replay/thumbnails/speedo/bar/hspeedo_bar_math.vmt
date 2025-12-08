@@ -30,9 +30,20 @@
 	"$eps" 0.001953125
 	
 	"$value" 0.0
-	
-	"$frame_empty" 10.0
-	"$frame_minus" 11.0
+
+    //==============================================================
+    // TEXTURE TRANSFORMATION VARIABLES
+    //==============================================================
+    "$speed"		"0"
+    "$speedScaled"  "0"
+	"$speedMax"		"-1"
+	"$speedScale"		"-0.000285714285714"
+
+	"$center"		"[0.5 0.5]"
+	"$scale"		"[1 1]"
+	"$rotate"		"0"
+	"$translate"	"[0.0 0.0]"
+
 
     //==============================================================
     // COLOR VARIABLES
@@ -198,8 +209,34 @@
             "min"                                                   "0"
             "max"                                                   "3500"
             "srcVar1"                                               "$value"
-            "resultVar"                                             "$frame"
+            "resultVar"                                             "$speed"
         }
+    //==============================================================
+    // TRANSFORM TEXTURE
+    //==============================================================
+        Multiply
+		{
+			srcVar1		"$speed"
+			srcVar2		"$speedScale"
+			resultVar	"$speedScaled"
+		}
+
+		Clamp
+		{
+			min			"$0"
+			max			"$speedMax"
+			srcVar1		"$speedScaled"
+			resultVar	"$translate[0]"
+		}
+
+		TextureTransform
+		{
+			centerVar		"$center"
+			scaleVar		"$scale"
+			rotateVar		"$rotate"
+			translateVar	"$translate"
+			resultVar		"$basetexturetransform"
+		}
 
     //==============================================================
     // COLORS
@@ -217,14 +254,14 @@
         // if(speed>closeMin && speed<closeMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$speed"
             srcVar2         "$closeMin"
             resultVar       "$isAboveCloseMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$speed"
             srcVar2         "$closeMax"
             resultVar       "$isBelowCloseMax"
             greaterVar      "$0"
@@ -248,14 +285,14 @@
         // if(speed>goodMin && speed<goodMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$speed"
             srcVar2         "$goodMin"
             resultVar       "$isAboveGoodMin"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$speed"
             srcVar2         "$goodMax"
             resultVar       "$isBelowGoodMax"
             greaterVar      "$0"
@@ -279,14 +316,14 @@
         // if(speed>aboveMin && speed<aboveMax)
         //--------------------------------------------------------------
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$speed"
             srcVar2         "$closeMinB"
             resultVar       "$isAboveCloseMinB"
             greaterVar      "$1"
             lessEqualVar    "$0"
         }
         LessOrEqual {
-            srcVar1         "$frame"
+            srcVar1         "$speed"
             srcVar2         "$closeMaxB"
             resultVar       "$isBelowCloseMaxB"
             greaterVar      "$0"
@@ -304,9 +341,4 @@
             greaterVar      "$colorClose"
             lessEqualVar    "$color"
         }
-
-
-        // Divide frames by 10
-        Divide { srcVar1 $frame srcVar2 $10 resultVar $frame }
-	}
 }
