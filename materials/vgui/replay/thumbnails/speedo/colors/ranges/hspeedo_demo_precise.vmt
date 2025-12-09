@@ -3,14 +3,14 @@
     // RANGES
     //--------------------------------------------------------------
     // close range
-    $closeMin 799
-    $closeMax 1100
+    $closeMin 699
+    $closeMax 860
 
     // good range
-    $goodMin 1099
-    $goodMax 1201
+    $goodMin 859
+    $goodMax 891
 
     // above range
-    $closeMinB 1200
-    $closeMaxB 1500
+    $closeMinB 890
+    $closeMaxB 1200
 }
