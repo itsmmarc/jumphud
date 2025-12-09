@@ -37,7 +37,7 @@
     "$speed"		"0"
     "$speedScaled"  "0"
 	"$speedMax"		"-1"
-	"$speedScale"		"-0.000285714285714"
+	"$speedScale"	"-0.000285714285714"
 
 	"$center"		"[0.5 0.5]"
 	"$scale"		"[1 1]"

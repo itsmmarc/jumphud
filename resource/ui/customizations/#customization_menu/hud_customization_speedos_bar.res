@@ -3521,76 +3521,114 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-						"Color_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Color_Image"
-							"XPos"						"4"
-							"YPos"						"cs-0.5-5"
-							"ZPos"						"0"
-							"Wide"						"220"
-							"Tall"						"4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ScaleImage"				"1"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/barspeedos/hspeedo_bar_preview"
-						}
-                        "Color_Image_Overlay"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Color_Image_Overlay"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"220"
-							"Tall"						"4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ScaleImage"				"1"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/speedo/bar/overlay_h_minimal"
+						"hspeedo_container" {
+                            "controlName" "EditablePanel"
+                            "xpos"  "5"
+                            "ypos" "cs-0.5-6"
+                            "visible" "1"
+                            "enabled" "1"
+                            "wide" "p1.8"
+                            "tall" "5"
+                            
 
-                            "Pin_To_Sibling"            "Color_Image"
-						}
-                        "Color_Image_Sweetspot"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Color_Image_Sweetspot"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"220"
-							"Tall"						"4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ScaleImage"				"1"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/speedo/bar/overlay_h_sweetspots"
+                            "proportionaltoparent"  "1"
+                            
+                            "hspeedo" {
+                                "controlName" "CTFImagePanel"
+                                "xpos" "0"
+                                "ypos" "0"
+                                "tall" "f0"
+                                "zpos"  "-1"
+                                "wide" "f0"
+                                "proportionaltoparent"  "1"
+                                "image" "replay/thumbnails/customizations/barspeedos/hspeedo_bar_preview"
+                            }
+                            "hspeedo_overlay"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "xpos" "0"
+                                "zpos"  "2"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "ypos" "0"
+                                "proportionaltoparent"  "1"
 
-                            "Pin_To_Sibling"            "Color_Image"
-						}
-                        "Color_Image_Background"
-						{
-							"ControlName"				"EditablePanel"
-							"FieldName"					"Color_Image_Background"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"-1"
-							"Wide"						"110"
-							"Tall"						"4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-                            "PaintBackground"           "1"
-                            "BGColor_Override"          "TransparentLightBlack"
+                                "hspeedo_overlay_left" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "ypos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_minimal_left"
+                                }
+                                "hspeedo_overlay_right" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "ypos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_minimal_right"
+                                }
+                                "hspeedo_overlay_top" {
+                                    "controlName" "CTFImagePanel"
+                                    "visible" "0"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "1"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                }
+                                "hspeedo_overlay_bottom" { 
+                                    "controlName" "CTFImagePanel"
+                                    "visible" "0"
+                                    "xpos" "0"
+                                    "ypos" "rs1"
+                                    "wide" "f0"
+                                    "tall" "1"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                }
+                            }
+                            "hspeedo_sweetspots" {
+                                "controlName" "EditablePanel"
+                                "xpos" "0"
+                                "ypos" "0"
+                                "zpos"  "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
 
-                            "Pin_To_Sibling"            "Color_Image"
-						}
+                                "hspeedo_sweetspot_1" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/sweetspot_h_1"
+                                }
+                                "hspeedo_sweetspot_2" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/sweetspot_h_2"
+                                }
+                            }
+                            "hspeedo_background"
+                            {
+                                "controlName" "editablepanel"
+                                "wide" "p0.5"
+                                "tall" "f0"
+                                "proportionaltoparent" "1"
+                                "paintbackground" "1"
+                                "bgcolor_override" "TransparentLightBlack"
+                            }
+                        }
 						"Color_Label"
 						{
 							"ControlName"				"CExLabel"
@@ -4676,76 +4714,113 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 
-						"Color_Image"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Color_Image"
-							"XPos"						"4"
-							"YPos"						"cs-0.5-5"
-							"ZPos"						"0"
-							"Wide"						"175"
-							"Tall"						"4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ScaleImage"				"1"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/barspeedos/vspeedo_bar_preview"
-						}
-                        "Color_Image_Overlay"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Color_Image_Overlay"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"175"
-							"Tall"						"4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ScaleImage"				"1"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/barspeedos/barspeedo_overlay_minimal_vertical_h"
+						"vspeedo_container" {
+                            "controlName" "EditablePanel"
+                            "xpos"  "5"
+                            "ypos" "cs-0.5-6"
+                            "visible" "1"
+                            "enabled" "1"
+                            "wide" "p1.45"
+                            "tall" "5"
 
-                            "Pin_To_Sibling"            "Color_Image"
-						}
-                        "Color_Image_Sweetspot"
-						{
-							"ControlName"				"ImagePanel"
-							"FieldName"					"Color_Image_Sweetspot"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"1"
-							"Wide"						"175"
-							"Tall"						"4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ScaleImage"				"1"
-							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/barspeedos/barspeedo_sweetspots_vertical_h"
+                            "proportionaltoparent"  "1"
+                            
+                            "vspeedo" {
+                                "controlName" "CTFImagePanel"
+                                "xpos" "0"
+                                "ypos" "0"
+                                "tall" "f0"
+                                "zpos"  "-1"
+                                "wide" "f0"
+                                "proportionaltoparent"  "1"
+                                "image" "replay/thumbnails/customizations/barspeedos/vspeedo_bar_preview"
+                            }
+                            "hspeedo_overlay"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
+                                "xpos" "0"
+                                "zpos"  "2"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "ypos" "0"
+                                "proportionaltoparent"  "1"
 
-                            "Pin_To_Sibling"            "Color_Image"
-						}
-                        "Color_Image_Background"
-						{
-							"ControlName"				"EditablePanel"
-							"FieldName"					"Color_Image_Background"
-							"XPos"						"0"
-							"YPos"						"0"
-							"ZPos"						"-1"
-							"Wide"						"110"
-							"Tall"						"4"
-							"Visible"					"1"
-							"Enabled"					"1"
-							"MouseInputEnabled"			"0"
-							"ProportionalToParent"		"1"
-                            "PaintBackground"           "1"
-                            "BGColor_Override"          "TransparentLightBlack"
+                                "hspeedo_overlay_left" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "ypos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_minimal_left"
+                                }
+                                "hvspeedo_overlay_right" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "ypos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_v_h_minimal_right"
+                                }
+                                "hspeedo_overlay_top" {
+                                    "controlName" "CTFImagePanel"
+                                    "visible" "0"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "1"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                }
+                                "hspeedo_overlay_bottom" { 
+                                    "controlName" "CTFImagePanel"
+                                    "visible" "0"
+                                    "xpos" "0"
+                                    "ypos" "rs1"
+                                    "wide" "f0"
+                                    "tall" "1"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                }
+                            }
+                            "vspeedo_sweetspots" {
+                                "controlName" "EditablePanel"
+                                "xpos" "0"
+                                "ypos" "0"
+                                "zpos"  "1"
+                                "wide" "f0"
+                                "tall" "f0"
+                                "proportionaltoparent"  "1"
 
-                            "Pin_To_Sibling"            "Color_Image"
-						}
+                                "vspeedo_sweetspot_1" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/sweetspot_v_h_1"
+                                }
+                                "vspeedo_sweetspot_2" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/sweetspot_v_h_2"
+                                }
+                            }
+                            "vspeedo_background"
+                            {
+                                "controlName" "editablepanel"
+                                "wide" "p0.63"
+                                "tall" "f0"
+                                "proportionaltoparent" "1"
+                                "paintbackground" "1"
+                                "bgcolor_override" "TransparentLightBlack"
+                            }
+                        }
 						"Color_Label"
 						{
 							"ControlName"				"CExLabel"
