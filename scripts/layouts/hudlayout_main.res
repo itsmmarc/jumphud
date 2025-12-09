@@ -686,7 +686,7 @@
 		"FieldName"									"HudHintKeyDisplay"
 		"Visible"									"0"
 		"Enabled"									"1"
-		"XPos"										"r120"
+		"XPos"										"rs1-3"
 		"YPos"										"r340"
 		"Wide"										"100"
 		"Tall"										"200"
@@ -696,7 +696,7 @@
 		"text_ygap"									"8"
 		"TextColor"									"255 170 0 220"
 
-		"PaintBackgroundType"						"2"
+        "paintbackground" "0"
 	}
 	"overview"
 	{
