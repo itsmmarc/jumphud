@@ -8,11 +8,12 @@
 # Define parameters
 $maxNumber = 1
 $backgroundColor = "Transparent"
-$VTFSize = "4x512"
+$VTFSize = "4x2048"
+$thickness = 8
 $width = 4
-$height = 512
+$height = 2048
 $heightB = $height - 1
-$heightBB = $heightB - 1
+$heightBB = $heightB - $thickness
 $end = $width - 1
 $folder = "line"
 $imagesFolder = "$PSScriptRoot\$folder"

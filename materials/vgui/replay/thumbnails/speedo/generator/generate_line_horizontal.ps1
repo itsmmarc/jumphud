@@ -8,14 +8,15 @@
 # Define parameters
 $maxNumber = 1
 $backgroundColor = "Transparent"
-$VTFSize = "512x4"
-$width = 512
+$VTFSize = "2048x4"
+$thickness = 8
+$width = 2048
 $height = 4
 $bottom = $height - 1
 $folder = "line"
 $imagesFolder = "$PSScriptRoot\$folder"
 
-$bar = "rectangle 0,0 1,$bottom"
+$bar = "rectangle 0,0 $thickness,$bottom"
 
 
 Write-Host "Starting script..."
