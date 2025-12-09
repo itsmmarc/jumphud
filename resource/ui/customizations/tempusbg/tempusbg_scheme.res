@@ -3,6 +3,6 @@
 	"Colors"
 	{   
         
-		"HintMessageBg"										"TransparentLightBlack"  // tempus center panel bg
+		"HintMessageBg"										"0 0 0 100"  // tempus center panel bg // TransparentLightBlack
 	}
 }
