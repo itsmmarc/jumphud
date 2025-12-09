@@ -8,6 +8,7 @@
         "tall" "4"
         "xpos" "cs-0.5"
         "ypos" "r168"
+        "alpha" "0"
 
         "paintBackground"   "0"
         "bgcolor_override"  "red"
