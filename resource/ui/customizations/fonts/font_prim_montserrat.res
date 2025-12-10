@@ -127,6 +127,46 @@
                     "dropshadow"								"1"
                 }
             }
+            "Score_Small"   // arena player count
+            {
+                "1"
+                {
+                    "name"										"Montserrat"
+                    "tall"										"20" [$WINDOWS]
+                    "tall"										"16" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
+            "Score_Medium"
+            {
+                "1"
+                {
+                    "name"										"Montserrat"
+                    "tall"										"30" [$WINDOWS]
+                    "tall"										"24" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
+            "Score_Large"
+            {
+                "1"
+                {
+                    "name"										"Montserrat"
+                    "tall"										"36" [$WINDOWS]
+                    "tall"										"29" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
+            "Score_ExtraLarge"
+            {
+                "1"
+                {
+                    "name"										"Montserrat"
+                    "tall"										"48" [$WINDOWS]
+                    "tall"										"39" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
             "Menu_Medium"    // class/team selection counts
             {
                 "1"
