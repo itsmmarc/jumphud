@@ -251,6 +251,17 @@
                 }
             }
             
+            "SquarePositionSymbol"  // used for these symbols: □▫◻⬜
+            {   // the actual font does not matter here, only the tall and weight
+                "1"
+                {
+                    "name"										"coolvetica_rg_bold"
+                    "Tall"										"50"
+                    "weight"									"500"
+                    "additive"									"0"
+                    "antialias"									"1"
+                }
+            }
             //techno additional custom fonts
             "DamageFont"
             {

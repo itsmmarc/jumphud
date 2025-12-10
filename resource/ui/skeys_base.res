@@ -154,7 +154,6 @@
                 "DrawColor" "Black"
             }
         }
-        
         KeyPress_Back_Container
         {
             "controlName" "EditablePanel"
@@ -228,7 +227,6 @@
                 "DrawColor" "Black"
             }
         }
-        
         KeyPress_Right_Container
         {
             "controlName" "EditablePanel"
@@ -359,7 +357,6 @@
                 "FGColor"							"TransparentBlack"
             }
         }
-        
         KeyPress_Jump_Container
         {
             "controlName" "EditablePanel"
@@ -472,8 +469,6 @@
                 "FGColor"							"TransparentBlack"
             }
         }
-        
-        
         KeyPress_Attack2_Container
         {
             "controlName" "EditablePanel"
