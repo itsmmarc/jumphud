@@ -119,7 +119,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoNoClip"
-		"XPos"										"-10"
+		"XPos"										"-23"
 	    "Xpos_minmode"                              "-75"
 		"YPos"										"0"
 		"ZPos"										"5"

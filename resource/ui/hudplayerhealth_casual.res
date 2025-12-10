@@ -2,7 +2,7 @@
 {
     "HealthValue"
     {
-        "XPos"										"15"
-        "XPos_Minmode"								"15"
+        "XPos"										"70"
+        "XPos_Minmode"								"70"
     }
 }

@@ -41,7 +41,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"HealthValue"
-		"XPos"										"15"
+		"XPos"										"70"
 		"XPos_Minmode"								"99999"
 		"YPos"										"-1"
 		"ZPos"										"7"
@@ -50,7 +50,7 @@
 		"Visible"									"1"
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
-		"TextAlignment"								"center"
+		"TextAlignment"								"west"
 		"Font"										"Ingame_Large"
 		"FGColor"									"Health_Numbers"
 
@@ -70,7 +70,7 @@
 		"Visible"									"1"
 		"Enabled"									"1"
 		"LabelText"									"%Health%"
-		"TextAlignment"								"center"
+		"TextAlignment"								"west"
 		"Font"										"Ingame_Large"
 		"FGColor"									"Main_Shadow_Transparent"
         //"Alpha"                                     "200"
