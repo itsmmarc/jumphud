@@ -4,6 +4,11 @@
 // SPEEDO SHADOWS
 #base ../../../../../../cfg/jumphud/jh_speedo_d_shadows.txt
 
+// SPEEDO SLOTS
+#base ../../../../../../cfg/jumphud/jh_speedos_d_h_slot.txt
+#base ../../../../../../cfg/jumphud/jh_speedos_d_v_slot.txt
+#base ../../../../../../cfg/jumphud/jh_speedos_d_a_slot.txt
+
 // SPEEDO VISIBILITY
 #base ../../../../../../cfg/jumphud/jh_speedos_d_h_visibility.txt
 #base ../../../../../../cfg/jumphud/jh_speedos_d_v_visibility.txt
