@@ -77,6 +77,11 @@ Scheme
 			"Font"      "resource/scheme/fonts/optional/handelgothic.ttf"
 			"name"      "HandelGothic BT"
 		}
+        "25"    // m0rehud font
+        {
+            "Font"      "resource/scheme/fonts/optional/surface_medium.otf"
+            "name"      "Surface-Medium"
+        }
         //icon fonts
         "101"
 		{

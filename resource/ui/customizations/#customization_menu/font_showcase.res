@@ -148,6 +148,15 @@
 				"antialias"									"1"
 			}
 		}
+        "Showcase_Surface"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"Tall"										"24"
+				"antialias"									"1"
+			}
+		}
 		"Showcase_TF2"
 		{
 			"1"
