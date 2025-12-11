@@ -270,7 +270,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -392,7 +392,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -548,7 +548,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -670,7 +670,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -892,7 +892,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -974,7 +974,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -1056,7 +1056,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -1217,7 +1217,7 @@
                             "Visible"						"1"
                             "Enabled"						"1"
                             "ProportionalToParent"			"1"
-                            "ActionSignalLevel"				"5"
+                            "ActionSignalLevel"				"6"
                             "LabelText"						""
                             "TextAlignment"					"center"
                             "Command"						"engine jh_sprayp_size_small"
@@ -1287,7 +1287,7 @@
                             "Visible"						"1"
                             "Enabled"						"1"
                             "ProportionalToParent"			"1"
-                            "ActionSignalLevel"				"5"
+                            "ActionSignalLevel"				"6"
                             "LabelText"						""
                             "TextAlignment"					"center"
                             "Command"						"engine jh_sprayp_size_medium"
@@ -1361,7 +1361,7 @@
                             "Visible"						"1"
                             "Enabled"						"1"
                             "ProportionalToParent"			"1"
-                            "ActionSignalLevel"				"5"
+                            "ActionSignalLevel"				"6"
                             "LabelText"						""
                             "TextAlignment"					"center"
                             "Command"						"engine jh_sprayp_size_large"
@@ -1531,7 +1531,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1559,7 +1559,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1591,7 +1591,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1623,7 +1623,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1655,7 +1655,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1687,7 +1687,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1719,7 +1719,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1751,7 +1751,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1783,7 +1783,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1815,7 +1815,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1847,7 +1847,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1879,7 +1879,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1911,7 +1911,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1943,7 +1943,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -1975,7 +1975,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -2007,7 +2007,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -2039,7 +2039,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -2071,7 +2071,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -2103,7 +2103,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -2135,7 +2135,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -2389,7 +2389,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -2495,7 +2495,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -2686,7 +2686,7 @@
                                 "Tall"						"f0"
                                 "Visible"					"1"
                                 "Enabled"					"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
                                 "ProportionalToParent"		"1"
                                 "LabelText"					""
                                 "TextAlignment"				"west"
@@ -2769,7 +2769,7 @@
                                 "Tall"						"f0"
                                 "Visible"					"1"
                                 "Enabled"					"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
                                 "ProportionalToParent"		"1"
                                 "LabelText"					""
                                 "TextAlignment"				"west"
@@ -2852,7 +2852,7 @@
                                 "Tall"						"f0"
                                 "Visible"					"1"
                                 "Enabled"					"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
                                 "ProportionalToParent"		"1"
                                 "LabelText"					""
                                 "TextAlignment"				"west"
@@ -2935,7 +2935,7 @@
                                 "Tall"						"f0"
                                 "Visible"					"1"
                                 "Enabled"					"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
                                 "ProportionalToParent"		"1"
                                 "LabelText"					""
                                 "TextAlignment"				"west"
@@ -3018,7 +3018,7 @@
                                 "Tall"						"f0"
                                 "Visible"					"1"
                                 "Enabled"					"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
                                 "ProportionalToParent"		"1"
                                 "LabelText"					""
                                 "TextAlignment"				"west"
@@ -3285,7 +3285,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -3367,7 +3367,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -3449,7 +3449,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -3566,7 +3566,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -3631,7 +3631,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -3696,7 +3696,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -3761,7 +3761,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -3878,7 +3878,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -3906,7 +3906,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -3938,7 +3938,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -3970,7 +3970,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4002,7 +4002,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4034,7 +4034,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4066,7 +4066,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4098,7 +4098,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4130,7 +4130,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4162,7 +4162,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4194,7 +4194,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4226,7 +4226,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4258,7 +4258,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4290,7 +4290,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4322,7 +4322,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4354,7 +4354,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4386,7 +4386,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4418,7 +4418,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4450,7 +4450,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4482,7 +4482,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -4712,7 +4712,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -4794,7 +4794,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -4876,7 +4876,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -4993,7 +4993,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5021,7 +5021,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5053,7 +5053,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5085,7 +5085,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5117,7 +5117,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5149,7 +5149,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5181,7 +5181,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5213,7 +5213,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5245,7 +5245,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5277,7 +5277,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5309,7 +5309,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5341,7 +5341,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5373,7 +5373,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5405,7 +5405,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5437,7 +5437,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5469,7 +5469,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5501,7 +5501,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5533,7 +5533,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5565,7 +5565,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5597,7 +5597,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5670,7 +5670,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5698,7 +5698,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5730,7 +5730,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5762,7 +5762,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5794,7 +5794,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5826,7 +5826,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5858,7 +5858,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5890,7 +5890,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5922,7 +5922,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5954,7 +5954,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -5986,7 +5986,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6018,7 +6018,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6050,7 +6050,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6082,7 +6082,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6114,7 +6114,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6146,7 +6146,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6178,7 +6178,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6210,7 +6210,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6242,7 +6242,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6274,7 +6274,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"1"
                                 "PaintBorder"				"1"
@@ -6487,7 +6487,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -6552,7 +6552,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -6638,7 +6638,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -6724,7 +6724,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -6789,7 +6789,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -6854,7 +6854,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -7005,7 +7005,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
@@ -7087,7 +7087,7 @@
                                 "LabelText"					""
                                 "Sound_Depressed"			"UI/buttonclick.wav"
                                 "ProportionalToParent"		"1"
-                                "ActionSignalLevel"			"6"
+                                "ActionSignalLevel"			"7"
 
                                 "PaintBackground"			"0"
                                 "PaintBorder"				"1"
