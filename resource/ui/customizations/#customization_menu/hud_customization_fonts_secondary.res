@@ -151,7 +151,7 @@
 					"YPos"								"53"
 					"ZPos"								"20"
 					"Wide"								"f7"
-					"Tall"								"576"
+					"Tall"								"624"   // 48 per font
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
