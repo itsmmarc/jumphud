@@ -520,8 +520,8 @@
 		"fieldName"									"HudCloseCaption"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c-215"
-		"ypos"										"r95"
+		"xpos"										"c75"
+		"ypos"										"r170"
 		"wide"										"150"
 		"tall"										"50"
 
@@ -530,7 +530,7 @@
 		"GrowTime"									"0"
 		"ItemHiddenTime"							"0"
 		"ItemFadeInTime"							"0"
-		"ItemFadeOutTime"							"0.2"
+		"ItemFadeOutTime"							"0.3"
 		"topoffset"									"0"
 	}
 	"HudHistoryResource"
