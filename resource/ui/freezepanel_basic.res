@@ -197,7 +197,7 @@
 			"YPos"									"3"
 			"ZPos"									"1"
 			"Wide"									"270"
-			"Tall"									"9"
+			"Tall"									"12"
 			"Visible"								"1"
 			"Enabled"								"1"
 			"Font"									"m0refont11"
