@@ -914,6 +914,26 @@
                         "textinsetx"                "20"
                         "FGColor"					"White"
                     }
+                    "Selected_None"
+                    {
+                        "ControlName"				"CExLabel"
+                        "FieldName"					"Selected_None"
+                        "XPos"						"cs-0.5"
+                        "YPos"						"0"
+                        "ZPos"						"1"
+                        "Wide"						"f0"
+                        "Tall"						"f0"
+                        "Visible"					"0"
+                        "Enabled"					"1"
+                        "MouseInputEnabled"			"0"
+                        "ProportionalToParent"		"1"
+                        "AllCaps"					"1"
+                        "Font"						"HudFontSmallestBold"   // change in hudlayout_customization.res
+                        "LabelText"					"None"
+                        "TextAlignment"				"west"
+                        "textinsetx"                "20"
+                        "FGColor"					"White"
+                    }
                     "Arrow_Container"
                     {
                         "ControlName"				"EditablePanel"
@@ -982,16 +1002,16 @@
                     "YPos"							"41+16+5"
                     "ZPos"							"3"
                     "Wide"							"120"
-                    "Tall"							"120"
+                    "Tall"							"126"
                     "Visible"						"0"
                     "Enabled"						"1"
                     "ProportionalToParent"			"1"
                     "PaintBackground"				"0"
 
-                    "Option_None_Button"
+                    "Option_Current_Button"
                     {
                         "ControlName"				"CExButton"
-                        "FieldName"					"Option_None_Button"
+                        "FieldName"					"Option_Current_Button"
                         "XPos"						"0"
                         "YPos"						"0"
                         "ZPos"						"5"
@@ -1012,10 +1032,10 @@
                         "border_default"			"NoBorder"
                         "border_armed"				"BorderSelectionGray"
                     }
-                    "Option_None_BG"
+                    "Option_Current_BG"
                     {
                         "ControlName"				"EditablePanel"
-                        "FieldName"					"Option_None_BG"
+                        "FieldName"					"Option_Current_BG"
                         "XPos"						"0"
                         "YPos"						"0"
                         "ZPos"						"4"
@@ -1029,7 +1049,7 @@
                         "PaintBackground"			"1"
                         "BGColor_Override"          "TransparentLightBlack"
 
-                        "Pin_To_Sibling"				"Option_None_Button"
+                        "Pin_To_Sibling"				"Option_Current_Button"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
                     }
@@ -1041,7 +1061,7 @@
                         "YPos"						"0"
                         "ZPos"						"4"
                         "Wide"						"f0"
-                        "Tall"						"84"
+                        "Tall"						"104"
                         "Visible"					"1"
                         "Enabled"					"1"
                         "LabelText"					""
@@ -1050,16 +1070,61 @@
                         "PaintBackground"			"1"
                         "BGColor_Override"          "Black"
 
-                        "Pin_To_Sibling"				"Option_None_BG"
+                        "Pin_To_Sibling"				"Option_Current_BG"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+                    }
+                    "Option_None"
+                    {
+                        "ControlName"				"CExLabel"
+                        "FieldName"					"Option_None"
+                        "XPos"						"cs-0.5"
+                        "YPos"						"21"
+                        "ZPos"						"6"
+                        "Wide"						"f0"
+                        "Tall"						"20"
+                        "Visible"					"1"
+                        "Enabled"					"1"
+                        "MouseInputEnabled"			"0"
+                        "ProportionalToParent"		"1"
+                        "AllCaps"					"1"
+                        "Font"						"HudFontSmallestBold"
+                        "LabelText"					"None"
+                        "TextAlignment"				"west"
+                        "textinsetx"                "20"
+                        "FGColor"					"White"
+                    }
+                    "Option_None_Button"
+                    {
+                        "ControlName"				"CExButton"
+                        "FieldName"					"Option_None_Button"
+                        "XPos"						"0"
+                        "YPos"						"0"
+                        "ZPos"						"5"
+                        "Wide"						"f0"
+                        "Tall"						"20"
+                        "Visible"					"1"
+                        "Enabled"					"1"
+                        "Font"						""
+                        "Command"					"engine jh_slot1_s_select_none; jh_order_menu_clear; hud_reloadscheme"
+                        "LabelText"					""
+                        "Sound_Depressed"			"UI/buttonclick.wav"
+                        "ProportionalToParent"		"1"
+                        "ActionSignalLevel"			"5"
+
+                        "PaintBackground"			"1"
+                        "PaintBorder"				"0"
+
+                        "Pin_To_Sibling"				"Option_None"
+                        "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                        "Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
                     }
                     "Option_Heighto"
                     {
                         "ControlName"				"CExLabel"
                         "FieldName"					"Option_Heighto"
-                        "XPos"						"cs-0.5"
-                        "YPos"						"21"
+                        "XPos"						"0"
+                        "YPos"						"0"
                         "ZPos"						"6"
                         "Wide"						"f0"
                         "Tall"						"20"
@@ -1073,6 +1138,10 @@
                         "TextAlignment"				"west"
                         "textinsetx"                "20"
                         "FGColor"					"White"
+
+                        "Pin_To_Sibling"				"Option_None"
+                        "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                        "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
                     "Option_Heighto_Button"
                     {
@@ -1093,10 +1162,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_Heighto"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1145,10 +1211,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_HSpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1197,10 +1260,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_VSpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1249,10 +1309,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_ASpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1354,6 +1411,26 @@
                         "textinsetx"                "20"
                         "FGColor"					"White"
                     }
+                    "Selected_None"
+                    {
+                        "ControlName"				"CExLabel"
+                        "FieldName"					"Selected_None"
+                        "XPos"						"cs-0.5"
+                        "YPos"						"0"
+                        "ZPos"						"1"
+                        "Wide"						"f0"
+                        "Tall"						"f0"
+                        "Visible"					"0"
+                        "Enabled"					"1"
+                        "MouseInputEnabled"			"0"
+                        "ProportionalToParent"		"1"
+                        "AllCaps"					"1"
+                        "Font"						"HudFontSmallestBold"   // change in hudlayout_customization.res
+                        "LabelText"					"None"
+                        "TextAlignment"				"west"
+                        "textinsetx"                "20"
+                        "FGColor"					"White"
+                    }
                     "Arrow_Container"
                     {
                         "ControlName"				"EditablePanel"
@@ -1422,16 +1499,16 @@
                     "YPos"							"41+16+5+21"
                     "ZPos"							"3"
                     "Wide"							"120"
-                    "Tall"							"120"
+                    "Tall"							"126"
                     "Visible"						"0"
                     "Enabled"						"1"
                     "ProportionalToParent"			"1"
                     "PaintBackground"				"0"
 
-                    "Option_None_Button"
+                    "Option_Current_Button"
                     {
                         "ControlName"				"CExButton"
-                        "FieldName"					"Option_None_Button"
+                        "FieldName"					"Option_Current_Button"
                         "XPos"						"0"
                         "YPos"						"0"
                         "ZPos"						"5"
@@ -1452,10 +1529,10 @@
                         "border_default"			"NoBorder"
                         "border_armed"				"BorderSelectionGray"
                     }
-                    "Option_None_BG"
+                    "Option_Current_BG"
                     {
                         "ControlName"				"EditablePanel"
-                        "FieldName"					"Option_None_BG"
+                        "FieldName"					"Option_Current_BG"
                         "XPos"						"0"
                         "YPos"						"0"
                         "ZPos"						"4"
@@ -1469,7 +1546,7 @@
                         "PaintBackground"			"1"
                         "BGColor_Override"          "TransparentLightBlack"
 
-                        "Pin_To_Sibling"				"Option_None_Button"
+                        "Pin_To_Sibling"				"Option_Current_Button"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
                     }
@@ -1481,7 +1558,7 @@
                         "YPos"						"0"
                         "ZPos"						"4"
                         "Wide"						"f0"
-                        "Tall"						"84"
+                        "Tall"						"104"
                         "Visible"					"1"
                         "Enabled"					"1"
                         "LabelText"					""
@@ -1490,16 +1567,61 @@
                         "PaintBackground"			"1"
                         "BGColor_Override"          "Black"
 
-                        "Pin_To_Sibling"				"Option_None_BG"
+                        "Pin_To_Sibling"				"Option_Current_BG"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+                    }
+                    "Option_None"
+                    {
+                        "ControlName"				"CExLabel"
+                        "FieldName"					"Option_None"
+                        "XPos"						"cs-0.5"
+                        "YPos"						"21"
+                        "ZPos"						"6"
+                        "Wide"						"f0"
+                        "Tall"						"20"
+                        "Visible"					"1"
+                        "Enabled"					"1"
+                        "MouseInputEnabled"			"0"
+                        "ProportionalToParent"		"1"
+                        "AllCaps"					"1"
+                        "Font"						"HudFontSmallestBold"
+                        "LabelText"					"None"
+                        "TextAlignment"				"west"
+                        "textinsetx"                "20"
+                        "FGColor"					"White"
+                    }
+                    "Option_None_Button"
+                    {
+                        "ControlName"				"CExButton"
+                        "FieldName"					"Option_None_Button"
+                        "XPos"						"0"
+                        "YPos"						"0"
+                        "ZPos"						"5"
+                        "Wide"						"f0"
+                        "Tall"						"20"
+                        "Visible"					"1"
+                        "Enabled"					"1"
+                        "Font"						""
+                        "Command"					"engine jh_slot1_s_select_none; jh_order_menu_clear; hud_reloadscheme"
+                        "LabelText"					""
+                        "Sound_Depressed"			"UI/buttonclick.wav"
+                        "ProportionalToParent"		"1"
+                        "ActionSignalLevel"			"5"
+
+                        "PaintBackground"			"1"
+                        "PaintBorder"				"0"
+
+                        "Pin_To_Sibling"				"Option_None"
+                        "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                        "Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
                     }
                     "Option_Heighto"
                     {
                         "ControlName"				"CExLabel"
                         "FieldName"					"Option_Heighto"
-                        "XPos"						"cs-0.5"
-                        "YPos"						"21"
+                        "XPos"						"0"
+                        "YPos"						"0"
                         "ZPos"						"6"
                         "Wide"						"f0"
                         "Tall"						"20"
@@ -1513,6 +1635,10 @@
                         "TextAlignment"				"west"
                         "textinsetx"                "20"
                         "FGColor"					"White"
+
+                        "Pin_To_Sibling"				"Option_None"
+                        "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                        "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
                     "Option_Heighto_Button"
                     {
@@ -1533,10 +1659,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_Heighto"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1585,10 +1708,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_HSpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1637,10 +1757,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_VSpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1689,10 +1806,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_ASpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1794,6 +1908,26 @@
                         "textinsetx"                "20"
                         "FGColor"					"White"
                     }
+                    "Selected_None"
+                    {
+                        "ControlName"				"CExLabel"
+                        "FieldName"					"Selected_None"
+                        "XPos"						"cs-0.5"
+                        "YPos"						"0"
+                        "ZPos"						"1"
+                        "Wide"						"f0"
+                        "Tall"						"f0"
+                        "Visible"					"0"
+                        "Enabled"					"1"
+                        "MouseInputEnabled"			"0"
+                        "ProportionalToParent"		"1"
+                        "AllCaps"					"1"
+                        "Font"						"HudFontSmallestBold"   // change in hudlayout_customization.res
+                        "LabelText"					"None"
+                        "TextAlignment"				"west"
+                        "textinsetx"                "20"
+                        "FGColor"					"White"
+                    }
                     "Arrow_Container"
                     {
                         "ControlName"				"EditablePanel"
@@ -1862,16 +1996,16 @@
                     "YPos"							"41+16+5+21+21"
                     "ZPos"							"3"
                     "Wide"							"120"
-                    "Tall"							"120"
+                    "Tall"							"126"
                     "Visible"						"0"
                     "Enabled"						"1"
                     "ProportionalToParent"			"1"
                     "PaintBackground"				"0"
 
-                    "Option_None_Button"
+                    "Option_Current_Button"
                     {
                         "ControlName"				"CExButton"
-                        "FieldName"					"Option_None_Button"
+                        "FieldName"					"Option_Current_Button"
                         "XPos"						"0"
                         "YPos"						"0"
                         "ZPos"						"5"
@@ -1892,10 +2026,10 @@
                         "border_default"			"NoBorder"
                         "border_armed"				"BorderSelectionGray"
                     }
-                    "Option_None_BG"
+                    "Option_Current_BG"
                     {
                         "ControlName"				"EditablePanel"
-                        "FieldName"					"Option_None_BG"
+                        "FieldName"					"Option_Current_BG"
                         "XPos"						"0"
                         "YPos"						"0"
                         "ZPos"						"4"
@@ -1909,7 +2043,7 @@
                         "PaintBackground"			"1"
                         "BGColor_Override"          "TransparentLightBlack"
 
-                        "Pin_To_Sibling"				"Option_None_Button"
+                        "Pin_To_Sibling"				"Option_Current_Button"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
                     }
@@ -1921,7 +2055,7 @@
                         "YPos"						"0"
                         "ZPos"						"4"
                         "Wide"						"f0"
-                        "Tall"						"84"
+                        "Tall"						"104"
                         "Visible"					"1"
                         "Enabled"					"1"
                         "LabelText"					""
@@ -1930,16 +2064,61 @@
                         "PaintBackground"			"1"
                         "BGColor_Override"          "Black"
 
-                        "Pin_To_Sibling"				"Option_None_BG"
+                        "Pin_To_Sibling"				"Option_Current_BG"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+                    }
+                    "Option_None"
+                    {
+                        "ControlName"				"CExLabel"
+                        "FieldName"					"Option_None"
+                        "XPos"						"cs-0.5"
+                        "YPos"						"21"
+                        "ZPos"						"6"
+                        "Wide"						"f0"
+                        "Tall"						"20"
+                        "Visible"					"1"
+                        "Enabled"					"1"
+                        "MouseInputEnabled"			"0"
+                        "ProportionalToParent"		"1"
+                        "AllCaps"					"1"
+                        "Font"						"HudFontSmallestBold"
+                        "LabelText"					"None"
+                        "TextAlignment"				"west"
+                        "textinsetx"                "20"
+                        "FGColor"					"White"
+                    }
+                    "Option_None_Button"
+                    {
+                        "ControlName"				"CExButton"
+                        "FieldName"					"Option_None_Button"
+                        "XPos"						"0"
+                        "YPos"						"0"
+                        "ZPos"						"5"
+                        "Wide"						"f0"
+                        "Tall"						"20"
+                        "Visible"					"1"
+                        "Enabled"					"1"
+                        "Font"						""
+                        "Command"					"engine jh_slot1_s_select_none; jh_order_menu_clear; hud_reloadscheme"
+                        "LabelText"					""
+                        "Sound_Depressed"			"UI/buttonclick.wav"
+                        "ProportionalToParent"		"1"
+                        "ActionSignalLevel"			"5"
+
+                        "PaintBackground"			"1"
+                        "PaintBorder"				"0"
+
+                        "Pin_To_Sibling"				"Option_None"
+                        "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                        "Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
                     }
                     "Option_Heighto"
                     {
                         "ControlName"				"CExLabel"
                         "FieldName"					"Option_Heighto"
-                        "XPos"						"cs-0.5"
-                        "YPos"						"21"
+                        "XPos"						"0"
+                        "YPos"						"0"
                         "ZPos"						"6"
                         "Wide"						"f0"
                         "Tall"						"20"
@@ -1953,6 +2132,10 @@
                         "TextAlignment"				"west"
                         "textinsetx"                "20"
                         "FGColor"					"White"
+
+                        "Pin_To_Sibling"				"Option_None"
+                        "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                        "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
                     "Option_Heighto_Button"
                     {
@@ -1973,10 +2156,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_Heighto"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2025,10 +2205,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_HSpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2077,10 +2254,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_VSpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2129,10 +2303,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_ASpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2234,6 +2405,26 @@
                         "textinsetx"                "20"
                         "FGColor"					"White"
                     }
+                    "Selected_None"
+                    {
+                        "ControlName"				"CExLabel"
+                        "FieldName"					"Selected_None"
+                        "XPos"						"cs-0.5"
+                        "YPos"						"0"
+                        "ZPos"						"1"
+                        "Wide"						"f0"
+                        "Tall"						"f0"
+                        "Visible"					"0"
+                        "Enabled"					"1"
+                        "MouseInputEnabled"			"0"
+                        "ProportionalToParent"		"1"
+                        "AllCaps"					"1"
+                        "Font"						"HudFontSmallestBold"   // change in hudlayout_customization.res
+                        "LabelText"					"None"
+                        "TextAlignment"				"west"
+                        "textinsetx"                "20"
+                        "FGColor"					"White"
+                    }
                     "Arrow_Container"
                     {
                         "ControlName"				"EditablePanel"
@@ -2302,16 +2493,16 @@
                     "YPos"							"41+16+5+21+21+21"
                     "ZPos"							"3"
                     "Wide"							"120"
-                    "Tall"							"120"
+                    "Tall"							"126"
                     "Visible"						"0"
                     "Enabled"						"1"
                     "ProportionalToParent"			"1"
                     "PaintBackground"				"0"
 
-                    "Option_None_Button"
+                    "Option_Current_Button"
                     {
                         "ControlName"				"CExButton"
-                        "FieldName"					"Option_None_Button"
+                        "FieldName"					"Option_Current_Button"
                         "XPos"						"0"
                         "YPos"						"0"
                         "ZPos"						"5"
@@ -2332,10 +2523,10 @@
                         "border_default"			"NoBorder"
                         "border_armed"				"BorderSelectionGray"
                     }
-                    "Option_None_BG"
+                    "Option_Current_BG"
                     {
                         "ControlName"				"EditablePanel"
-                        "FieldName"					"Option_None_BG"
+                        "FieldName"					"Option_Current_BG"
                         "XPos"						"0"
                         "YPos"						"0"
                         "ZPos"						"4"
@@ -2349,7 +2540,7 @@
                         "PaintBackground"			"1"
                         "BGColor_Override"          "TransparentLightBlack"
 
-                        "Pin_To_Sibling"				"Option_None_Button"
+                        "Pin_To_Sibling"				"Option_Current_Button"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
                     }
@@ -2361,7 +2552,7 @@
                         "YPos"						"0"
                         "ZPos"						"4"
                         "Wide"						"f0"
-                        "Tall"						"84"
+                        "Tall"						"104"
                         "Visible"					"1"
                         "Enabled"					"1"
                         "LabelText"					""
@@ -2370,16 +2561,61 @@
                         "PaintBackground"			"1"
                         "BGColor_Override"          "Black"
 
-                        "Pin_To_Sibling"				"Option_None_BG"
+                        "Pin_To_Sibling"				"Option_Current_BG"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+                    }
+                    "Option_None"
+                    {
+                        "ControlName"				"CExLabel"
+                        "FieldName"					"Option_None"
+                        "XPos"						"cs-0.5"
+                        "YPos"						"21"
+                        "ZPos"						"6"
+                        "Wide"						"f0"
+                        "Tall"						"20"
+                        "Visible"					"1"
+                        "Enabled"					"1"
+                        "MouseInputEnabled"			"0"
+                        "ProportionalToParent"		"1"
+                        "AllCaps"					"1"
+                        "Font"						"HudFontSmallestBold"
+                        "LabelText"					"None"
+                        "TextAlignment"				"west"
+                        "textinsetx"                "20"
+                        "FGColor"					"White"
+                    }
+                    "Option_None_Button"
+                    {
+                        "ControlName"				"CExButton"
+                        "FieldName"					"Option_None_Button"
+                        "XPos"						"0"
+                        "YPos"						"0"
+                        "ZPos"						"5"
+                        "Wide"						"f0"
+                        "Tall"						"20"
+                        "Visible"					"1"
+                        "Enabled"					"1"
+                        "Font"						""
+                        "Command"					"engine jh_slot4_s_select_none; jh_order_menu_clear; hud_reloadscheme"
+                        "LabelText"					""
+                        "Sound_Depressed"			"UI/buttonclick.wav"
+                        "ProportionalToParent"		"1"
+                        "ActionSignalLevel"			"5"
+
+                        "PaintBackground"			"1"
+                        "PaintBorder"				"0"
+
+                        "Pin_To_Sibling"				"Option_None"
+                        "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                        "Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
                     }
                     "Option_Heighto"
                     {
                         "ControlName"				"CExLabel"
                         "FieldName"					"Option_Heighto"
-                        "XPos"						"cs-0.5"
-                        "YPos"						"21"
+                        "XPos"						"0"
+                        "YPos"						"0"
                         "ZPos"						"6"
                         "Wide"						"f0"
                         "Tall"						"20"
@@ -2393,6 +2629,10 @@
                         "TextAlignment"				"west"
                         "textinsetx"                "20"
                         "FGColor"					"White"
+
+                        "Pin_To_Sibling"				"Option_None"
+                        "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+                        "Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
                     }
                     "Option_Heighto_Button"
                     {
@@ -2413,10 +2653,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_Heighto"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2465,10 +2702,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_HSpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2517,10 +2751,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_VSpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2569,10 +2800,7 @@
                         "ActionSignalLevel"			"5"
 
                         "PaintBackground"			"1"
-                        "PaintBorder"				"1"
-
-                        "border_default"			"NoBorder"
-                        "border_armed"				"BorderSelectionGray"
+                        "PaintBorder"				"0"
 
                         "Pin_To_Sibling"				"Option_ASpeedo"
                         "Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
