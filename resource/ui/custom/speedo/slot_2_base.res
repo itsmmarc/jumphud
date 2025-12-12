@@ -1,14 +1,13 @@
-"Heighto_base.res" {
-    "speedos"{
-        "heighto_container" {
-            // digits from left to right: d4, d3, d2, d1
+"speedo_hspeedo_base.res" {
+	"speedos" {
+        "slot_2_container" {
             "controlName" "EditablePanel"
             "visible" "1"
             "enabled" "1"
+            "xpos" "cs-0.5"
             "wide" "f0"
             "tall" "p0.25"
-            "xpos" "cs-0.5"
-            "ypos" "0"  // top
+            "ypos" "rs3"  // top
             "proportionaltoparent"  "1"
             
             "Digits_Container" {
@@ -37,28 +36,28 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d4_4k"
+                        //d4_4k"
                     }
                     "d3_4k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d3_4k"
+                        //d3_4k"
                     }
                     "d2_4k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d2_4k"
+                        //d2_4k"
                     }
                     "d1_4k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d1_4k"
+                        //d1_4k"
                     }
                 }
                 "Digits_3_Container"
@@ -77,21 +76,21 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d3_3k"
+                        //d3_3k"
                     }
                     "d2_3k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d2_3k"
+                        //d2_3k"
                     }
                     "d1_3k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d1_3k"
+                        //d1_3k"
                     }
                 }
                 "Digits_2_Container"
@@ -110,14 +109,14 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d2_2k"
+                        //d2_2k"
                     }
                     "d1_2k" {
                         "controlName" "CTFImagePanel"
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d1_2k"
+                        //d1_2k"
                     }
                 }
                 "Digits_1_Container"
@@ -137,7 +136,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d1_1k"
+                        //d1_1k"
                     }
                 }
             }
@@ -168,7 +167,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d4_4k"
+                        //d4_4k"
                         "drawcolor" "main_shadow"
                     }
                     "d3_4k" {
@@ -176,7 +175,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d3_4k"
+                        //d3_4k"
                         "drawcolor" "main_shadow"
                     }
                     "d2_4k" {
@@ -184,7 +183,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d2_4k"
+                        //d2_4k"
                         "drawcolor" "main_shadow"
                     }
                     "d1_4k" {
@@ -192,7 +191,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d1_4k"
+                        //d1_4k"
                         "drawcolor" "main_shadow"
                     }
                 }
@@ -212,7 +211,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d3_3k"
+                        //d3_3k"
                         "drawcolor" "main_shadow"
                     }
                     "d2_3k" {
@@ -220,7 +219,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d2_3k"
+                        //d2_3k"
                         "drawcolor" "main_shadow"
                     }
                     "d1_3k" {
@@ -228,7 +227,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d1_3k"
+                        //d1_3k"
                         "drawcolor" "main_shadow"
                     }
                 }
@@ -248,7 +247,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d2_2k"
+                        //d2_2k"
                         "drawcolor" "main_shadow"
                     }
                     "d1_2k" {
@@ -256,7 +255,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d1_2k"
+                        //d1_2k"
                         "drawcolor" "main_shadow"
                     }
                 }
@@ -277,7 +276,7 @@
                         "wide" "f0"
                         "tall" "f0"
                         "proportionaltoparent"  "1"
-                        "image" "replay/thumbnails/speedo/heighto/d1_1k"
+                        //d1_1k"
                         "drawcolor" "main_shadow"
                     }
                 }

@@ -1,13 +1,13 @@
 "speedo_hspeedo_base.res" {
 	"speedos" {
-        "hspeedo_container" {
+        "slot_3_container" {
             "controlName" "EditablePanel"
             "visible" "1"
             "enabled" "1"
             "xpos" "cs-0.5"
             "wide" "f0"
-            "tall" "p0.333"
-            "ypos" "0"  // top
+            "tall" "p0.25"
+            "ypos" "rs2"  // top
             "proportionaltoparent"  "1"
             
             "Digits_Container" {
