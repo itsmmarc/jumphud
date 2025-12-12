@@ -11,4 +11,4 @@
 
 #base mainmenuoverride_base.res
 
-#base "customizations/#customization_menu/hud_customization.res"
+#base "custom/#customization_menu/hud_customization.res"

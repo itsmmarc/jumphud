@@ -13,13 +13,13 @@
 #base ../../../../cfg/jumphud/jh_speedograph_position.txt
 
 // DEFAULT CONFIGURATION
-#base customizations/speedograph/speedograph_layout_vertical.res
-#base customizations/speedograph/speedograph_position_bottomleft.res
+#base custom/speedograph/speedograph_layout_vertical.res
+#base custom/speedograph/speedograph_position_bottomleft.res
 
 // BASE GRAPHS
-#base customizations/speedograph/speedograph_h.res
-#base customizations/speedograph/speedograph_v.res
-#base customizations/speedograph/speedograph_a.res
+#base custom/speedograph/speedograph_h.res
+#base custom/speedograph/speedograph_v.res
+#base custom/speedograph/speedograph_a.res
 
 // GRAPHS CONTAINER
-#base customizations/speedograph/speedograph_base.res
+#base custom/speedograph/speedograph_base.res

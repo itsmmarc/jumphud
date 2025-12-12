@@ -1,5 +1,5 @@
 // MOVE NUMBER SPEEDOS TO LEFT OF VERTICAL SPEEDOBAR TO AVOID OVERLAPPING HORIZONTAL BAR
-#base customizations/speedo/speedo_numbers_centerleft.res
+#base custom/speedo/speedo_numbers_centerleft.res
 
 // SWEETSPOTS
 #base "../../../../cfg/jumphud/jh_barspeedo_sweetspots.txt"

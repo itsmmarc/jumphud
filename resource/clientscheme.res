@@ -3,7 +3,7 @@
 //=========================================================
 #base "../../../cfg/jumphud/jh_tempusbg_scheme.txt"
 #base "scheme/colors_scheme.res"
-#base "ui/customizations/colors/color_customization.res"
+#base "ui/custom/colors/color_customization.res"
 
 //=========================================================
 // FONTS SCHEME
@@ -12,7 +12,7 @@
 #base "../../../cfg/jumphud/jh_font_primary.txt"
 #base "../../../cfg/jumphud/jh_font_secondary.txt"
 #base "scheme/fonts_scheme.res"
-#base "ui/customizations/#customization_menu/font_showcase.res"
+#base "ui/custom/#customization_menu/font_showcase.res"
 
 //=========================================================
 // BORDERS SCHEME
