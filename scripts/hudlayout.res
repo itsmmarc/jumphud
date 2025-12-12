@@ -4,12 +4,22 @@
 //=========================================================
 #base ../resource/ui/custom/crosshair/crosshair.res
 //=========================================================
-// CUSTOMIZATIONS
+// CUSTOMIZATIONS MENU
 //=========================================================
-// customizations menu
+#base ../../../cfg/jumphud/jh_custom_speedo_s_slot_1_selected.txt
+#base ../../../cfg/jumphud/jh_custom_speedo_s_slot_2_selected.txt
+#base ../../../cfg/jumphud/jh_custom_speedo_s_slot_3_selected.txt
+#base ../../../cfg/jumphud/jh_custom_speedo_s_slot_4_selected.txt
+#base ../../../cfg/jumphud/jh_custom_speedo_d_slot_1_selected.txt
+#base ../../../cfg/jumphud/jh_custom_speedo_d_slot_2_selected.txt
+#base ../../../cfg/jumphud/jh_custom_speedo_d_slot_3_selected.txt
+#base ../../../cfg/jumphud/jh_custom_speedo_order_menu.txt
 #base ../../../cfg/jumphud/jh_customization_menu.txt
 #base layouts/hudlayout_customization.res
 
+//=========================================================
+// CUSTOMIZATIONS
+//=========================================================
 // hud message toggle (ingame pop-up text)
 #base ../../../cfg/jumphud/jh_hudmessage.txt
 #base ../resource/ui/hudmessage_on.res
@@ -20,6 +30,7 @@
 // custom font alignment
 #base ../../../cfg/jumphud/jh_font_prim_align_hudlayout.txt
 
+// active shader
 #base ../resource/ui/shader.res
 //=========================================================
 // JUMP/CASUAL

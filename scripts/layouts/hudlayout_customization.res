@@ -13,7 +13,12 @@
 			"Customizations_Panel"
 			{
 				"HUD_Customization_Home_Panel"		{Visible 0}
-                "HUD_Speedos_Soldier_Selection"		{Visible 0}
+                "HUD_Speedos_Soldier_Selection"
+                {
+                    Visible 0 
+                    Slot_1{Selected_Heighto{Visible 0 Font HudFontSmallestBold} Selected_HSpeedo{Visible 0 Font HudFontSmallestBold} Selected_VSpeedo{Visible 0 Font HudFontSmallestBold} Selected_ASpeedo{Visible 0 Font HudFontSmallestBold}}
+                    Slot_1_Menu{Visible 0} Slot_2_Menu{Visible 0} Slot_3_Menu{Visible 0} Slot_4_Menu{Visible 0}
+                }
                 "HUD_Speedos_Demo_Selection"		{Visible 0}
                 "HUD_Speedos_Bar_Selection"		    {Visible 0}
                 "HUD_Speedos_Graph_Selection"		{Visible 0}
