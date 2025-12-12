@@ -7,7 +7,7 @@
             "xpos" "cs-0.5"
             "wide" "f0"
             "tall" "p0.25"
-            "ypos" "rs1"  // top
+            "ypos" "rs1"  // bottom
             "proportionaltoparent"  "1"
             
             "Digits_Container" {
