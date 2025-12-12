@@ -4,8 +4,8 @@
         "controlName" "EditablePanel"
         "visible" "1"
         "enabled" "1"
-        "wide" "70"
-        "tall" "70"
+        "wide" "90"
+        "tall" "90"
         "xpos" "rs1-15"
         "ypos" "rs1-10"
 
