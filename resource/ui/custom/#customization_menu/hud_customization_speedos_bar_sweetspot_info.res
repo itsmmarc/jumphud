@@ -233,25 +233,81 @@
                             "ypos" "rs1"
                             "proportionaltoparent"  "1"
 
-                            "hspeedo_overlay" {
-                                "controlName" "CTFImagePanel"
+                            "hspeedo_overlay"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
                                 "xpos" "0"
                                 "zpos"  "2"
                                 "wide" "f0"
                                 "tall" "f0"
+                                "ypos" "0"
                                 "proportionaltoparent"  "1"
-                                "image" "replay/thumbnails/speedo/bar/overlay_h_outline"
-                                "visible"   "1"
+
+                                "hspeedo_overlay_left" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "ypos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_minimal_left"
+                                }
+                                "hspeedo_overlay_right" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "ypos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_minimal_right"
+                                }
+                                "hspeedo_overlay_top" {
+                                    "controlName" "CTFImagePanel"
+                                    "visible" "1"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "1"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                }
+                                "hspeedo_overlay_bottom" { 
+                                    "controlName" "CTFImagePanel"
+                                    "visible" "1"
+                                    "xpos" "0"
+                                    "ypos" "rs1"
+                                    "wide" "f0"
+                                    "tall" "1"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                }
                             }
-                            "hspeedo_sweetspot" {
-                                "controlName" "CTFImagePanel"
+                            "hspeedo_sweetspots" {
+                                "controlName" "EditablePanel"
                                 "xpos" "0"
+                                "ypos" "0"
                                 "zpos"  "1"
                                 "wide" "f0"
                                 "tall" "f0"
                                 "proportionaltoparent"  "1"
-                                "image" "replay/thumbnails/speedo/bar/overlay_h_sweetspots"
-                                "visible"   "1"
+
+                                "hspeedo_sweetspot_1" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/sweetspot_h_1"
+                                }
+                                "hspeedo_sweetspot_2" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/sweetspot_h_2"
+                                }
                             }
                         }
                         "background_container" {
@@ -531,25 +587,77 @@
                             "ypos" "0"
                             "proportionaltoparent"  "1"
 
-                            "vspeedo_overlay" {
-                                "controlName" "CTFImagePanel"
+                            "vspeedo_overlay"
+                            {
+                                "controlName" "EditablePanel"
+                                "visible" "1"
+                                "enabled" "1"
                                 "xpos" "0"
                                 "zpos"  "2"
                                 "wide" "f0"
                                 "tall" "f0"
+                                "ypos" "0"
                                 "proportionaltoparent"  "1"
-                                "image" "replay/thumbnails/speedo/bar/overlay_v_outline"
-                                "visible"   "1"
+
+                                "vspeedo_overlay_top" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "1"
+                                    "wide" "4"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_v_minimal_top"
+                                }
+                                "vspeedo_overlay_bottom" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "1"
+                                    "wide" "4"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_v_minimal_bot"
+                                }
+                                "vspeedo_overlay_left" {
+                                    "controlName" "CTFImagePanel"
+                                    "visible" "1"
+                                    "xpos" "0"
+                                    "wide" "1"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_v_outline_side"
+                                }
+                                "vspeedo_overlay_right" {
+                                    "controlName" "CTFImagePanel"
+                                    "visible" "1"
+                                    "xpos" "rs1"
+                                    "wide" "1"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/overlay_v_outline_side"
+                                }
                             }
-                            "vspeedo_sweetspot" {
-                                "controlName" "CTFImagePanel"
+                            "vspeedo_sweetspots" {
+                                "controlName" "EditablePanel"
                                 "xpos" "0"
                                 "zpos"  "1"
                                 "wide" "f0"
                                 "tall" "f0"
                                 "proportionaltoparent"  "1"
-                                "image" "replay/thumbnails/speedo/bar/overlay_v_sweetspots"
-                                "visible"   "1"
+
+                                "vspeedo_sweetspot_1" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/sweetspot_v_1"
+                                }
+                                "vspeedo_sweetspot_2" {
+                                    "controlName" "CTFImagePanel"
+                                    "xpos" "0"
+                                    "wide" "f0"
+                                    "tall" "f0"
+                                    "proportionaltoparent"  "1"
+                                    "image" "replay/thumbnails/speedo/bar/sweetspot_v_2"
+                                }
                             }
                         }
                         "background_container" {
