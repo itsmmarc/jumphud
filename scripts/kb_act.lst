@@ -25,6 +25,7 @@
 "+tphold"       "Thirdperson (Hold)"
 "tptoggle"      "Thirdperson (Toggle)"
 "toggle_duck"   "Crouch (Toggle)"
+"+teb"          "Texture Edge Bug"
 "+left"         "Turn Left"
 "+right"        "Turn Right"
 "viewmodeltoggle"    "Draw Viewmodel (Toggle)"
