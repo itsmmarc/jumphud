@@ -22,6 +22,7 @@
 "blank"			"=========================="
 "+skey_ctap"    "CTap"
 "+crouchjump"   "Crouch Jump"
+"+jds"          "JDS (Jump Duck Shoot)"
 "+tphold"       "Thirdperson (Hold)"
 "tptoggle"      "Thirdperson (Toggle)"
 "toggle_duck"   "Crouch (Toggle)"
