@@ -129,7 +129,7 @@
 			"LabelText"									"Reset HUD To Default"
 			"Font"										"FontStorePrice"
 			"TextAlignment"								"center"
-			"Command"									"engine jh_customization_reset"
+			"Command"									"engine jh_custom_confirm_reset_hud; hud_reloadscheme"
 			"ActionSignalLevel"							"2"
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
@@ -157,7 +157,7 @@
 			"LabelText"									"Restart TF2"
 			"Font"										"FontStorePrice"
 			"TextAlignment"								"center"
-			"Command"									"engine gameui_allowescape; mat_queue_mode -1; gamemenucommand RestartWithNewLanguage"
+			"Command"									"engine jh_custom_confirm_reload_game; hud_reloadscheme"
 			"ActionSignalLevel"							"2"
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
