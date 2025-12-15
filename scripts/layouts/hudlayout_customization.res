@@ -47,7 +47,9 @@
                 "HUD_Shaders_Selection"		        {Visible 0}
                 "HUD_Speedos_Bar_Sweetspot_Info"    {Visible 0}
                 "HUD_Speedos_Heighto_Info"          {Visible 0}
-                "HUD_Speedos_DynamicColors_Info"    {Visible 0  CloseButton_Soldier{Visible 0} CloseButton_Demo{Visible 0} CloseButton_Bar{Visible 0} CloseButton_Graph{Visible 0}}
+                "HUD_Speedos_DynamicColors_Info"    {Visible 0}
+                "HUD_Speedos_Confirm_Dialog"        {Visible 0}
+
 			}
 		}
 	}

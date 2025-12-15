@@ -704,7 +704,7 @@
                     "LabelText"									"X"
                     "Font"										"Symbols16"
                     "TextAlignment"								"center"
-                    "Command"									"engine jh_custom_speedos_bar; hud_reloadscheme"
+                    "Command"									"engine jh_customization_submenu_clear; hud_reloadscheme"
                     "ActionSignalLevel"							"4"
                     "Sound_Depressed"							"UI/buttonclick.wav"
                     "PaintBackground"							"1"

@@ -13,7 +13,7 @@
 #base ../../../cfg/jumphud/jh_custom_speedo_d_slot_1_selected.txt
 #base ../../../cfg/jumphud/jh_custom_speedo_d_slot_2_selected.txt
 #base ../../../cfg/jumphud/jh_custom_speedo_d_slot_3_selected.txt
-#base ../../../cfg/jumphud/jh_custom_speedo_order_menu.txt
+#base ../../../cfg/jumphud/jh_customization_submenu.txt
 #base ../../../cfg/jumphud/jh_customization_menu.txt
 #base layouts/hudlayout_customization.res
 
