@@ -768,7 +768,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_custom_confirm; hud_reloadscheme"
+							"Command"					"engine jh_custom_confirm_s_s_p_jh; hud_reloadscheme"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"

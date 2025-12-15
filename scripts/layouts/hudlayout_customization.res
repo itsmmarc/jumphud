@@ -48,7 +48,7 @@
                 "HUD_Speedos_Bar_Sweetspot_Info"    {Visible 0}
                 "HUD_Speedos_Heighto_Info"          {Visible 0}
                 "HUD_Speedos_DynamicColors_Info"    {Visible 0}
-                "HUD_Speedos_Confirm_Dialog"        {Visible 0}
+                "HUD_Speedos_Confirm_Dialog"        {Visible 0 ConfirmButton_Soldier_Preset_JH {Visible 0 Font HudFontSmall} ConfirmButton_Demo_Preset_JH {Visible 0 Font HudFontSmall}}
 
 			}
 		}

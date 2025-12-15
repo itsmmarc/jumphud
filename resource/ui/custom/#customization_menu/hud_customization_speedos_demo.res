@@ -768,7 +768,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_speedos_d_preset_jumphud; hud_reloadscheme"
+							"Command"					"engine jh_custom_confirm_s_d_p_jh; hud_reloadscheme"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
