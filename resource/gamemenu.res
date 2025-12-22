@@ -75,7 +75,7 @@
 	"Quit"
 	{
 		"label"										"Quit"
-		"Command"									"engine replay_confirmquit"
+		"Command"									"quit"
 		"OnlyAtMenu"								"1"
 	}
 
@@ -109,7 +109,7 @@
 	"QuitGame"
 	{
 		"label"										"Quit"
-		"Command"									"engine replay_confirmquit"
+		"Command"									"quit"
 		"OnlyInGame"								"1"
 	}
 	"Vote"
