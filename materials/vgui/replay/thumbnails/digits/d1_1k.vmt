@@ -1,0 +1,3 @@
+#base ../../../../../../../cfg/jumphud/jh_d1_1k.txt
+#base base/d1_1k.vmt
+"UnlitGeneric" {}

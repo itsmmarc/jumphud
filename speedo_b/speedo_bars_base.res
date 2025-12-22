@@ -40,7 +40,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_v_minimal_bot"
+                    "image" "replay/thumbnails/s/bar/overlay_v_minimal_bot"
                 }
                 "vspeedo_overlay_top" {
                     "controlName" "CTFImagePanel"
@@ -48,7 +48,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_v_minimal_top"
+                    "image" "replay/thumbnails/s/bar/overlay_v_minimal_top"
                 }
                 "vspeedo_overlay_left" {
                     "controlName" "CTFImagePanel"
@@ -56,7 +56,7 @@
                     "wide" "1"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_v_outline_side"
+                    "image" "replay/thumbnails/s/bar/overlay_v_outline_side"
                 }
                 "vspeedo_overlay_right" {
                     "controlName" "CTFImagePanel"
@@ -65,7 +65,7 @@
                     "wide" "1"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_v_c_outline_side"
+                    "image" "replay/thumbnails/s/bar/overlay_v_c_outline_side"
                 }
             }
             "hspeedo_overlay"
@@ -88,7 +88,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_h_minimal_left"
+                    "image" "replay/thumbnails/s/bar/overlay_h_minimal_left"
                 }
                 "hspeedo_overlay_right" {
                     "controlName" "CTFImagePanel"
@@ -97,7 +97,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_h_minimal_right"
+                    "image" "replay/thumbnails/s/bar/overlay_h_minimal_right"
                 }
                 "hspeedo_overlay_top" {
                     "controlName" "CTFImagePanel"
@@ -105,7 +105,7 @@
                     "wide" "f0"
                     "tall" "1"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_h_c_outline_top"
+                    "image" "replay/thumbnails/s/bar/overlay_h_c_outline_top"
                 }
                 "hspeedo_overlay_bottom" {
                     "controlName" "CTFImagePanel"
@@ -114,7 +114,7 @@
                     "wide" "f0"
                     "tall" "1"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_h_outline_top"
+                    "image" "replay/thumbnails/s/bar/overlay_h_outline_top"
                 }
             }
         }
@@ -137,7 +137,7 @@
                 "wide" "f0"
                 "tall" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/s/bar/vspeedo_bar"
+                "image" "replay/thumbnails/s/bar/vspeedo_bar"
             }
             "vspeedo_overlay" // visible when hspeedo is disabled
             {
@@ -157,7 +157,7 @@
                     "wide" "4"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_v_minimal_top"
+                    "image" "replay/thumbnails/s/bar/overlay_v_minimal_top"
                 }
                 "vspeedo_overlay_bottom" {
                     "controlName" "CTFImagePanel"
@@ -165,7 +165,7 @@
                     "wide" "4"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_v_minimal_bot"
+                    "image" "replay/thumbnails/s/bar/overlay_v_minimal_bot"
                 }
                 "vspeedo_overlay_left" {
                     "controlName" "CTFImagePanel"
@@ -174,7 +174,7 @@
                     "wide" "1"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_v_outline_side"
+                    "image" "replay/thumbnails/s/bar/overlay_v_outline_side"
                 }
                 "vspeedo_overlay_right" {
                     "controlName" "CTFImagePanel"
@@ -183,7 +183,7 @@
                     "wide" "1"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_v_outline_side"
+                    "image" "replay/thumbnails/s/bar/overlay_v_outline_side"
                 }
             }
             "vspeedo_sweetspots" {
@@ -200,7 +200,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/sweetspot_v_1"
+                    "image" "replay/thumbnails/s/bar/sweetspot_v_1"
                 }
                 "vspeedo_sweetspot_2" {
                     "controlName" "CTFImagePanel"
@@ -208,7 +208,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/sweetspot_v_2"
+                    "image" "replay/thumbnails/s/bar/sweetspot_v_2"
                 }
             }
         }
@@ -231,7 +231,7 @@
                 "zpos"  "-1"
                 "wide" "f0"
                 "proportionaltoparent"  "1"
-                "image" "replay/s/bar/hspeedo_bar"
+                "image" "replay/thumbnails/s/bar/hspeedo_bar"
             }
             "hspeedo_overlay" // visible when vspeedo is disabled
             {
@@ -252,7 +252,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_h_minimal_left"
+                    "image" "replay/thumbnails/s/bar/overlay_h_minimal_left"
                 }
                 "hspeedo_overlay_right" {
                     "controlName" "CTFImagePanel"
@@ -261,7 +261,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_h_minimal_right"
+                    "image" "replay/thumbnails/s/bar/overlay_h_minimal_right"
                 }
                 "hspeedo_overlay_top" {
                     "controlName" "CTFImagePanel"
@@ -270,7 +270,7 @@
                     "wide" "f0"
                     "tall" "1"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_h_outline_top"
+                    "image" "replay/thumbnails/s/bar/overlay_h_outline_top"
                 }
                 "hspeedo_overlay_bottom" { 
                     "controlName" "CTFImagePanel"
@@ -280,7 +280,7 @@
                     "wide" "f0"
                     "tall" "1"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/overlay_h_outline_top"
+                    "image" "replay/thumbnails/s/bar/overlay_h_outline_top"
                 }
             }
             "hspeedo_sweetspots" {
@@ -298,7 +298,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/sweetspot_h_1"
+                    "image" "replay/thumbnails/s/bar/sweetspot_h_1"
                 }
                 "hspeedo_sweetspot_2" {
                     "controlName" "CTFImagePanel"
@@ -306,7 +306,7 @@
                     "wide" "f0"
                     "tall" "f0"
                     "proportionaltoparent"  "1"
-                    "image" "replay/s/bar/sweetspot_h_2"
+                    "image" "replay/thumbnails/s/bar/sweetspot_h_2"
                 }
             }
         }

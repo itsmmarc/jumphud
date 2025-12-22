@@ -1,6 +1,6 @@
 #base "../../../cfg/jumphud/jh_spraypaint_size.txt"
 #base spraypaint_size_medium.vmt
-#base ../vgui/replay/s/colors/$colorMain/m0reWhite.vmt
+#base ../vgui/replay/thumbnails/s/colors/$colorMain/m0reWhite.vmt
 
 "LightMappedGeneric"
 {
