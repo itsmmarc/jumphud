@@ -1,5 +1,5 @@
 "UnlitGeneric" {
-    $basetexture "vgui/replay/thumbnails/speedo/bar/line_h.vtf"
+    $basetexture "vgui/replay/thumbnails/s/bar/line_h.vtf"
     "$translucent"	"1"
 	"$ignorez"		"1"
 	"$vertexalpha"		"1"

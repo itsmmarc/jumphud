@@ -3562,7 +3562,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/overlay_h_minimal_left"
+                                    "image" "replay/thumbnails/s/bar/overlay_h_minimal_left"
                                 }
                                 "hspeedo_overlay_right" {
                                     "controlName" "CTFImagePanel"
@@ -3571,7 +3571,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/overlay_h_minimal_right"
+                                    "image" "replay/thumbnails/s/bar/overlay_h_minimal_right"
                                 }
                                 "hspeedo_overlay_top" {
                                     "controlName" "CTFImagePanel"
@@ -3580,7 +3580,7 @@
                                     "wide" "f0"
                                     "tall" "1"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                    "image" "replay/thumbnails/s/bar/overlay_h_outline_top"
                                 }
                                 "hspeedo_overlay_bottom" { 
                                     "controlName" "CTFImagePanel"
@@ -3590,7 +3590,7 @@
                                     "wide" "f0"
                                     "tall" "1"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                    "image" "replay/thumbnails/s/bar/overlay_h_outline_top"
                                 }
                             }
                             "hspeedo_sweetspots" {
@@ -3608,7 +3608,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/sweetspot_h_1"
+                                    "image" "replay/thumbnails/s/bar/sweetspot_h_1"
                                 }
                                 "hspeedo_sweetspot_2" {
                                     "controlName" "CTFImagePanel"
@@ -3616,7 +3616,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/sweetspot_h_2"
+                                    "image" "replay/thumbnails/s/bar/sweetspot_h_2"
                                 }
                             }
                             "hspeedo_background"
@@ -4755,7 +4755,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/overlay_h_minimal_left"
+                                    "image" "replay/thumbnails/s/bar/overlay_h_minimal_left"
                                 }
                                 "hvspeedo_overlay_right" {
                                     "controlName" "CTFImagePanel"
@@ -4764,7 +4764,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/overlay_v_h_minimal_right"
+                                    "image" "replay/thumbnails/s/bar/overlay_v_h_minimal_right"
                                 }
                                 "hspeedo_overlay_top" {
                                     "controlName" "CTFImagePanel"
@@ -4773,7 +4773,7 @@
                                     "wide" "f0"
                                     "tall" "1"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                    "image" "replay/thumbnails/s/bar/overlay_h_outline_top"
                                 }
                                 "hspeedo_overlay_bottom" { 
                                     "controlName" "CTFImagePanel"
@@ -4783,7 +4783,7 @@
                                     "wide" "f0"
                                     "tall" "1"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/overlay_h_outline_top"
+                                    "image" "replay/thumbnails/s/bar/overlay_h_outline_top"
                                 }
                             }
                             "vspeedo_sweetspots" {
@@ -4801,7 +4801,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/sweetspot_v_h_1"
+                                    "image" "replay/thumbnails/s/bar/sweetspot_v_h_1"
                                 }
                                 "vspeedo_sweetspot_2" {
                                     "controlName" "CTFImagePanel"
@@ -4809,7 +4809,7 @@
                                     "wide" "f0"
                                     "tall" "f0"
                                     "proportionaltoparent"  "1"
-                                    "image" "replay/thumbnails/speedo/bar/sweetspot_v_h_2"
+                                    "image" "replay/thumbnails/s/bar/sweetspot_v_h_2"
                                 }
                             }
                             "vspeedo_background"

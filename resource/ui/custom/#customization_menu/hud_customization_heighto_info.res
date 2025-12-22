@@ -66,7 +66,7 @@
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
-					"LabelText"							"These ranges can be adjusted in jumphud/materials/vgui/replay/thumbnails/speedo/color/ranges/"
+					"LabelText"							"These ranges can be adjusted in jumphud/materials/vgui/replay/thumbnails/s/color/ranges/"
 					"Font"								"HudFontVerySmallBold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
