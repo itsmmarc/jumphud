@@ -1,4 +1,4 @@
-#base ../vgui/replay/thumbnails/s/colors/$colorMain/m0reTeal.vmt
+#base ../vgui/replay/s/colors/$colorMain/m0reTeal.vmt
 #base spraypaint.vmt
 
 "LightMappedGeneric"{}

@@ -2,20 +2,20 @@
 // TEXTURE
 //--------------------------------------------------------------
 #base ../../../../../../../../cfg/jumphud/jh_font_speedo.txt
-#base ../../../s/fonts/coolvetica_italic/digits.vmt   // default
+#base ../../../../s/fonts/coolvetica_italic/digits.vmt   // default
 
 //==============================================================
 // COLORS
 //--------------------------------------------------------------
-#base ../../../s/colors/ranges/vspeedo_demo.vmt
-#base ../../../s/colors/speedo_colors_default.vmt
-#base ../../../s/colors/ranges/conditionals.vmt
+#base ../../../../s/colors/ranges/vspeedo_demo.vmt
+#base ../../../../s/colors/speedo_colors_default.vmt
+#base ../../../../s/colors/ranges/conditionals.vmt
 
 //==============================================================
 // CONSTANTS
 //--------------------------------------------------------------
-#base ../../../s/constants/rounding.vmt
-#base ../../../s/constants/constantNumbers.vmt
+#base ../../../../s/constants/rounding.vmt
+#base ../../../../s/constants/constantNumbers.vmt
 
 //==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS
