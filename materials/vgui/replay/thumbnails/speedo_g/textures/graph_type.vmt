@@ -1,0 +1,4 @@
+#base ../../../../../../cfg/jumphud/jh_speedograph_type.txt
+#base graph_line.vmt    // default to line
+
+"UnlitGeneric"{}

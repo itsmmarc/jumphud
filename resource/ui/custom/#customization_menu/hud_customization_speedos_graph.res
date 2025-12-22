@@ -1264,7 +1264,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/custom/speedographs/graph_line"
+							"Image"						"replay/thumbnails/custom/speedo_g/graph_line"
 						}
 						"Graph_Type_Label"
 						{
@@ -1346,7 +1346,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/custom/speedographs/graph_filled"
+							"Image"						"replay/thumbnails/custom/speedo_g/graph_filled"
 						}
 						"Graph_Type_Label"
 						{
@@ -3675,22 +3675,7 @@
                                 paintBackground 1 
                                 bgcolor_override transparentlightestblack
                             }
-                            "Graph_Image"   // dis
-                            {
-                                "ControlName"				"ImagePanel"
-                                "FieldName"					"Graph_Image"
-                                "XPos"						"0"
-                                "YPos"						"cs-0.5"
-                                "ZPos"						"0"
-                                "Wide"						"65"
-                                "Tall"						"50"
-                                "Visible"					"0"
-                                "Enabled"					"1"
-                                "MouseInputEnabled"			"0"
-                                "ScaleImage"				"1"
-                                "ProportionalToParent"		"1"
-                                "Image"						"replay/thumbnails/custom/speedographs/graph_line"
-                            }
+                            
                         }
 						"Speedo_Label"
 						{
@@ -3785,22 +3770,7 @@
                                 paintBackground 1 
                                 bgcolor_override transparentlightestblack
                             }
-                            "Graph_Image"   // dis
-                            {
-                                "ControlName"				"ImagePanel"
-                                "FieldName"					"Graph_Image"
-                                "XPos"						"0"
-                                "YPos"						"cs-0.5"
-                                "ZPos"						"0"
-                                "Wide"						"65"
-                                "Tall"						"50"
-                                "Visible"					"0"
-                                "Enabled"					"1"
-                                "MouseInputEnabled"			"0"
-                                "ScaleImage"				"1"
-                                "ProportionalToParent"		"1"
-                                "Image"						"replay/thumbnails/custom/speedographs/graph_line"
-                            }
+                            
                         }
 						"Speedo_Disabled"
 						{
@@ -3957,7 +3927,7 @@
                                 "xpos"			"rs1"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph00"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph00"
                                 "proportionaltoparent"	"1"
                             }
                             
@@ -3967,7 +3937,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph01"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph01"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -3981,7 +3951,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph02"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph02"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -3995,7 +3965,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph03"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph03"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4009,7 +3979,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph04"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph04"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4023,7 +3993,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph05"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph05"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4037,7 +4007,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph06"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph06"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4051,7 +4021,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph07"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph07"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4065,7 +4035,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph08"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph08"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4079,7 +4049,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph09"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph09"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4093,7 +4063,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph10"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph10"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4107,7 +4077,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph11"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph11"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4121,7 +4091,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph12"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph12"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4135,7 +4105,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph13"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph13"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4149,7 +4119,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph14"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph14"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4163,7 +4133,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph15"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph15"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4177,7 +4147,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph16"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph16"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4191,7 +4161,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph17"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph17"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4205,7 +4175,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph18"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph18"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4219,7 +4189,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph19"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph19"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4233,7 +4203,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph20"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph20"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4247,7 +4217,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph21"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph21"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4261,7 +4231,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph22"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph22"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4275,7 +4245,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph23"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph23"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4289,7 +4259,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph24"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph24"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4303,7 +4273,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph25"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph25"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4317,7 +4287,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph26"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph26"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4331,7 +4301,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph27"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph27"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4345,7 +4315,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph28"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph28"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4359,7 +4329,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph29"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph29"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4373,7 +4343,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph30"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph30"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4387,7 +4357,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph31"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph31"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4401,7 +4371,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph32"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph32"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4415,7 +4385,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph33"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph33"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4429,7 +4399,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph34"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph34"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4443,7 +4413,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph35"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph35"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4457,7 +4427,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph36"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph36"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4471,7 +4441,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph37"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph37"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4485,7 +4455,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph38"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph38"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4499,7 +4469,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph39"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph39"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -4513,7 +4483,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_h_preview/graph40"
+                                "image"			"replay/thumbnails/custom/speedo_g/h_preview/graph40"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5398,22 +5368,7 @@
                                 paintBackground 1 
                                 bgcolor_override transparentlightestblack
                             }
-                            "Graph_Image"   // dis
-                            {
-                                "ControlName"				"ImagePanel"
-                                "FieldName"					"Graph_Image"
-                                "XPos"						"0"
-                                "YPos"						"cs-0.5"
-                                "ZPos"						"0"
-                                "Wide"						"65"
-                                "Tall"						"50"
-                                "Visible"					"0"
-                                "Enabled"					"1"
-                                "MouseInputEnabled"			"0"
-                                "ScaleImage"				"1"
-                                "ProportionalToParent"		"1"
-                                "Image"						"replay/thumbnails/custom/speedographs/graph_line"
-                            }
+                            
                         }
 						"Speedo_Label"
 						{
@@ -5508,22 +5463,7 @@
                                 paintBackground 1 
                                 bgcolor_override transparentlightestblack
                             }
-                            "Graph_Image"   // dis
-                            {
-                                "ControlName"				"ImagePanel"
-                                "FieldName"					"Graph_Image"
-                                "XPos"						"0"
-                                "YPos"						"cs-0.5"
-                                "ZPos"						"0"
-                                "Wide"						"65"
-                                "Tall"						"50"
-                                "Visible"					"0"
-                                "Enabled"					"1"
-                                "MouseInputEnabled"			"0"
-                                "ScaleImage"				"1"
-                                "ProportionalToParent"		"1"
-                                "Image"						"replay/thumbnails/custom/speedographs/graph_line"
-                            }
+                            
                         }
 						"Speedo_Disabled"
 						{
@@ -5680,7 +5620,7 @@
                                 "xpos"			"rs1"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph00"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph00"
                                 "proportionaltoparent"	"1"
                             }
                             
@@ -5690,7 +5630,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph01"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph01"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5704,7 +5644,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph02"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph02"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5718,7 +5658,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph03"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph03"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5732,7 +5672,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph04"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph04"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5746,7 +5686,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph05"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph05"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5760,7 +5700,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph06"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph06"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5774,7 +5714,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph07"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph07"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5788,7 +5728,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph08"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph08"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5802,7 +5742,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph09"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph09"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5816,7 +5756,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph10"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph10"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5830,7 +5770,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph11"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph11"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5844,7 +5784,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph12"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph12"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5858,7 +5798,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph13"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph13"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5872,7 +5812,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph14"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph14"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5886,7 +5826,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph15"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph15"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5900,7 +5840,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph16"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph16"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5914,7 +5854,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph17"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph17"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5928,7 +5868,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph18"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph18"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5942,7 +5882,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph19"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph19"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5956,7 +5896,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph20"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph20"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5970,7 +5910,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph21"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph21"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5984,7 +5924,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph22"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph22"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -5998,7 +5938,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph23"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph23"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6012,7 +5952,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph24"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph24"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6026,7 +5966,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph25"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph25"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6040,7 +5980,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph26"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph26"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6054,7 +5994,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph27"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph27"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6068,7 +6008,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph28"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph28"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6082,7 +6022,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph29"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph29"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6096,7 +6036,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph30"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph30"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6110,7 +6050,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph31"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph31"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6124,7 +6064,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph32"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph32"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6138,7 +6078,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph33"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph33"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6152,7 +6092,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph34"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph34"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6166,7 +6106,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph35"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph35"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6180,7 +6120,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph36"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph36"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6194,7 +6134,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph37"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph37"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6208,7 +6148,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph38"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph38"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6222,7 +6162,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph39"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph39"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -6236,7 +6176,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_v_preview/graph40"
+                                "image"			"replay/thumbnails/custom/speedo_g/v_preview/graph40"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7121,22 +7061,7 @@
                                 paintBackground 1 
                                 bgcolor_override transparentlightestblack
                             }
-                            "Graph_Image"   // dis
-                            {
-                                "ControlName"				"ImagePanel"
-                                "FieldName"					"Graph_Image"
-                                "XPos"						"0"
-                                "YPos"						"cs-0.5"
-                                "ZPos"						"0"
-                                "Wide"						"65"
-                                "Tall"						"50"
-                                "Visible"					"0"
-                                "Enabled"					"1"
-                                "MouseInputEnabled"			"0"
-                                "ScaleImage"				"1"
-                                "ProportionalToParent"		"1"
-                                "Image"						"replay/thumbnails/custom/speedographs/graph_line"
-                            }
+                            
                         }
 						"Speedo_Label"
 						{
@@ -7231,22 +7156,7 @@
                                 paintBackground 1 
                                 bgcolor_override transparentlightestblack
                             }
-                            "Graph_Image"   // dis
-                            {
-                                "ControlName"				"ImagePanel"
-                                "FieldName"					"Graph_Image"
-                                "XPos"						"0"
-                                "YPos"						"cs-0.5"
-                                "ZPos"						"0"
-                                "Wide"						"65"
-                                "Tall"						"50"
-                                "Visible"					"0"
-                                "Enabled"					"1"
-                                "MouseInputEnabled"			"0"
-                                "ScaleImage"				"1"
-                                "ProportionalToParent"		"1"
-                                "Image"						"replay/thumbnails/custom/speedographs/graph_line"
-                            }
+                            
                         }
 						"Speedo_Disabled"
 						{
@@ -7403,7 +7313,7 @@
                                 "xpos"			"rs1"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph00"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph00"
                                 "proportionaltoparent"	"1"
                             }
                             
@@ -7413,7 +7323,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph01"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph01"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7427,7 +7337,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph02"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph02"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7441,7 +7351,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph03"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph03"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7455,7 +7365,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph04"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph04"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7469,7 +7379,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph05"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph05"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7483,7 +7393,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph06"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph06"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7497,7 +7407,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph07"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph07"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7511,7 +7421,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph08"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph08"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7525,7 +7435,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph09"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph09"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7539,7 +7449,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph10"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph10"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7553,7 +7463,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph11"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph11"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7567,7 +7477,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph12"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph12"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7581,7 +7491,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph13"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph13"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7595,7 +7505,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph14"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph14"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7609,7 +7519,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph15"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph15"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7623,7 +7533,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph16"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph16"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7637,7 +7547,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph17"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph17"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7651,7 +7561,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph18"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph18"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7665,7 +7575,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph19"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph19"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7679,7 +7589,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph20"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph20"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7693,7 +7603,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph21"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph21"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7707,7 +7617,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph22"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph22"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7721,7 +7631,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph23"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph23"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7735,7 +7645,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph24"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph24"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7749,7 +7659,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph25"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph25"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7763,7 +7673,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph26"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph26"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7777,7 +7687,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph27"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph27"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7791,7 +7701,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph28"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph28"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7805,7 +7715,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph29"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph29"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7819,7 +7729,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph30"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph30"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7833,7 +7743,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph31"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph31"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7847,7 +7757,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph32"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph32"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7861,7 +7771,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph33"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph33"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7875,7 +7785,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph34"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph34"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7889,7 +7799,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph35"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph35"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7903,7 +7813,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph36"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph36"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7917,7 +7827,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph37"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph37"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7931,7 +7841,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph38"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph38"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7945,7 +7855,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph39"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph39"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
@@ -7959,7 +7869,7 @@
                                 "xpos"			"0"
                                 "wide"			"p0.025"
                                 "tall"			"f0"
-                                "image"			"replay/thumbnails/custom/speedograph_a_preview/graph40"
+                                "image"			"replay/thumbnails/custom/speedo_g/a_preview/graph40"
                                 "visible"		"1"
                                 "proportionaltoparent"	"1"
 
