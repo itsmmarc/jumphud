@@ -1,7 +1,7 @@
 #base "../dev/texture_preload.res"
 #base "../dev/reload_menu.res"
 
-#base "../../../../cfg/jumphud/jh_mmoverride_casual.txt"
+#base ../../../../cfg/jumphud/jh_mmoverride_casual.txt
 
 //==============================================================
 // FOLDER NAME MESSAGE
