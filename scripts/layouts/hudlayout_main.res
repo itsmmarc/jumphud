@@ -219,7 +219,7 @@
 		"priority"									"40"
 
 		"x_offset"									"20"
-		"y_offset"									"20"
+		"y_offset"									"45"    // does nothing in my game but affects some players
 	}
 	"CSecondaryTargetID"
 	{
