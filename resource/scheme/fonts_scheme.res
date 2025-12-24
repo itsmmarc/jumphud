@@ -787,60 +787,13 @@
 		//=================================================================================================
 		// DEFAULT TF2 FONTS
 		//=================================================================================================
-            "Default"   // right side tempus panel
+            "Default"   // tempus side panel
             {
                 "1"
                 {
                     "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"10"
-                    "range"										"0x0000 0x017F"
-                    "yres"										"480 599"
-                    "antialias"									"1"
-                }
-                "2"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"14"
-                    "range"										"0x0000 0x017F"
-                    "yres"										"600 767"
-                    "antialias"									"1"
-                }
-                "3"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"16"
-                    "range"										"0x0000 0x017F"
-                    "yres"										"768 1023"
-                    "antialias"									"1"
-                }
-                "4"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"17"
-                    "range"										"0x0000 0x017F"
-                    "yres"										"1024 1199"
-                    "antialias"									"1"
-                }
-                "5"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"8"
-                    "range"										"0x0000 0x017F"
-                    "antialias"									"1"
-                }
-                "6"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
                     "Tall"										"9"
-                    "range"										"0x0000 0x00FF"
-                    "weight"									"900"
-                }
-                "7"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"9"
-                    "range"										"0x0000 0x00FF"
-                    "weight"									"800"
+                    "antialias"									"1"
                 }
             }
             "DefaultUnderline"
@@ -1045,40 +998,7 @@
                 "1"
                 {
                     "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"12"
-                    "weight"									"700"
-                    "yres"										"480 599"
-                    "antialias"									"1"
-                }
-                "2"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"13"
-                    "weight"									"700"
-                    "yres"										"600 767"
-                    "antialias"									"1"
-                }
-                "3"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"14"
-                    "weight"									"700"
-                    "yres"										"768 1023"
-                    "antialias"									"1"
-                }
-                "4"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"20"
-                    "weight"									"700"
-                    "yres"										"1024 1199"
-                    "antialias"									"1"
-                }
-                "5"
-                {
-                    "name"										"NK57 Monospace Sc Rg"
-                    "Tall"										"8"
-                    "weight"									"700"
+                    "Tall"										"9"
                     "antialias"									"1"
                 }
             }
@@ -1853,12 +1773,12 @@
                     "antialias"									"1"
                 }
             }
-            "ScoreboardVerySmall"
+            "ScoreboardVerySmall"   // spectators
             {
                 "1"
                 {
                     "name"										"Verdana"
-                    "Tall"										"8"
+                    "Tall"										"9"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"

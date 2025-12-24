@@ -213,7 +213,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"xpos"										"0"
-		"ypos"										"c110"
+		"ypos"										"c100"
 		"wide"										"300"
 		"tall"										"50"
 		"priority"									"40"
