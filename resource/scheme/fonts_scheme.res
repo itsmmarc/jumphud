@@ -657,6 +657,16 @@
                     "antialias"									"1"
                 }
             }
+            "Symbols26"
+            {
+                "1"
+                {
+                    "name"										"m0rehud_icons_v13"
+                    "tall"										"26" [$WINDOWS]
+                    "tall"										"21" [$LINUX]
+                    "antialias"									"1"
+                }
+            }
             "Symbols28"
             {
                 "1"

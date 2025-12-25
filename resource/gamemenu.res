@@ -133,7 +133,9 @@
 		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
 	}
-    // Jump Buttons
+	//====================================================================================================================================================
+    // JUMP BUTTONS
+    //====================================================================================================================================================
     // Saveloc
     "TransparentBG_Saveloc"
     {
@@ -233,19 +235,40 @@
 		"tooltip"									"Select Saveloc 10"
 		"OnlyInGame"								"1"
     }
-    // Main Speedos
+    // Speedos
+    "TransparentBG_Speedos"
+    {
+        "label"										""
+		"Command"									"engine"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "TitleLabel_Speedos"
+    {
+        "label"										"SPEEDOS"
+		"Command"									"engine"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
     "SoldierSpeedo"
     {
-        "label"										"7"
+        "label"										"N"
 		"Command"									"engine jh_speedo_s_toggle; hud_reloadscheme"
 		"tooltip"									"Toggle Soldier Speedos"
 		"OnlyInGame"								"1"
     }
     "DemoSpeedo"
     {
-        "label"										"7"
+        "label"										"R"
 		"Command"									"engine jh_speedo_d_toggle; hud_reloadscheme"
 		"tooltip"									"Toggle Demo Speedos"
+		"OnlyInGame"								"1"
+    }
+    "BarSpeedos"
+    {
+        "label"										"F"
+		"Command"									"engine jh_bspeedos_toggle; hud_reloadscheme"
+		"tooltip"									"Toggle Bar Speedos"
 		"OnlyInGame"								"1"
     }
     "SpeedosOff"
@@ -255,17 +278,46 @@
 		"tooltip"									"Disable HUD Speedos"
 		"OnlyInGame"								"1"
     }
-    "BarSpeedos"
-    {
-        "label"										"7"
-		"Command"									"engine jh_bspeedos_toggle; hud_reloadscheme"
-		"tooltip"									"Toggle Bar Speedos"
+    // tempus speedos
+    "HSpeedo"
+	{
+		"label"										"H"
+		"Command"									"engine toggle_tempus_hspeedo"
+		"tooltip"									"Toggle Horizontal Speedo"
 		"OnlyInGame"								"1"
-    }
+	}
+    "VSpeedo"
+	{
+		"label"										"V"
+		"Command"									"engine toggle_tempus_vspeedo"
+		"tooltip"									"Toggle Vertical Speedo"
+		"OnlyInGame"								"1"
+	}
+    "ASpeedo"
+	{
+		"label"										"A"
+		"Command"									"engine toggle_tempus_aspeedo"
+		"tooltip"									"Toggle Absolute Speedo"
+		"OnlyInGame"								"1"
+	}
+    "TempusSpeedosOff"
+	{
+		"label"										"2"
+		"Command"									"engine sm_speedo off"
+		"tooltip"									"Disable Tempus Speedos"
+		"OnlyInGame"								"1"
+	}
     // Utilities
     "TransparentBG_Util"
     {
         "label"										""
+		"Command"									"engine"
+		"tooltip"									""
+		"OnlyInGame"								"1"
+    }
+    "TitleLabel_Util"
+    {
+        "label"										"UTILITIES"
 		"Command"									"engine"
 		"tooltip"									""
 		"OnlyInGame"								"1"
@@ -361,27 +413,6 @@
 		"tooltip"									"Toggle Chat"
 		"OnlyInGame"								"1"
     }
-    //"HSpeedo"
-	//{
-	//	"label"										"7"
-	//	"Command"									"engine toggle_tempus_hspeedo"
-	//	"tooltip"									"Toggle Horizontal Speedo"
-	//	"OnlyInGame"								"1"
-	//}
-    //"VSpeedo"
-	//{
-	//	"label"										"7"
-	//	"Command"									"engine toggle_tempus_vspeedo"
-	//	"tooltip"									"Toggle Vertical Speedo"
-	//	"OnlyInGame"								"1"
-	//}
-    //"ASpeedo"
-	//{
-	//	"label"										"7"
-	//	"Command"									"engine toggle_tempus_aspeedo"
-	//	"tooltip"									"Toggle Absolute Speedo"
-	//	"OnlyInGame"								"1"
-	//}
     
     //====================================================================================================================================================
 	// TOOLS BAR - from m0rehud 6.5 classic

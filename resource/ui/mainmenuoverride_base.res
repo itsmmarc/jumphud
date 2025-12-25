@@ -1100,22 +1100,9 @@
             }
         }
 
-    //======================
+	//==================================================================================================================================================
     // JUMP BUTTONS / Utilities
-    //======================
-
-        "SpeedoAnchor"
-        {
-            "ControlName"								"ImagePanel"
-            "FieldName"									"SpeedoAnchor"
-            "XPos"										"cs-0.5"
-            "YPos"										"cs-0.5+54"
-            "fillcolor"                                 "blank"
-            "Wide"										"1"
-            "Tall"										"1"
-            "Visible"									"0"
-            "Enabled"									"1"
-        }
+	//==================================================================================================================================================
         "SavelocContainer"
         {
             "ControlName"							"EditablePanel"
@@ -1722,10 +1709,9 @@
             "YPos"									"rs1-30"
             "ZPos"									"0"
             "Wide"									"120"
-            "Tall"									"72"
+            "Tall"									"88"
             "Visible"								"1"
             "ProportionalToParent"					"1"
-            "PaintBackground"						"0"
 
             "TransparentBG_Util"
             {
@@ -1771,8 +1757,52 @@
                     "DepressedFGColor_Override"				"White"
                 }
             }
+            "TitleLabel_Util"
+            {
+                "ControlName"								"EditablePanel"
+                "FieldName"									"TitleLabel_Util"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"15"
+                "Wide"										"f0"
+                "Tall"										"16"
+                "proportionaltoparent"                      "1"
+                "Visible"									"1"
+
+                "MouseInputEnabled"						"0"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"3"
+                    "Font"								    "Menu_Small"
+                    "TextAlignment"							"center"
+
+
+                    "PaintBackground"						"1"
+                    "PaintBackgroundType"				    "0"
+                    "DefaultBGColor_Override"				"TransparentLightBlack"
+                    "ArmedBGColor_Override"					"TransparentLightBlack"
+                    "DepressedBGColor_Override"				"TransparentLightBlack"
+
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"White"
+                    "DepressedFGColor_Override"				"White"
+                }
+            }
+
             // top layer
-            
             "ToggleMinmode"
             {
                 "ControlName"								"EditablePanel"
@@ -1820,7 +1850,7 @@
                 "ControlName"								"EditablePanel"
                 "FieldName"									"ShowKeys"
                 "XPos"										"cs-0.5"
-                "YPos"										"0"
+                "YPos"										"rs3"
                 "ZPos"										"15"
                 "Wide"										"p0.2"
                 "Tall"										"24"
@@ -2312,170 +2342,438 @@
                 }
             }
         }
-
-        // MAIN SPEEDOS
-        "SpeedosOff"
+        "SpeedosContainer"
         {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"SpeedosOff"
-            "XPos"										"0"
-            "YPos"										"65"
-            "ZPos"										"15"
-            "Wide"										"24"
-            "Tall"										"24"
-            "Visible"									"1"
+            "ControlName"							"EditablePanel"
+            "FieldName"								"SpeedosContainer"
+            "XPos"									"cs-0.5"
+            "YPos"									"cs-0.5+54"
+            "ZPos"									"0"
+            "Wide"									"120"
+            "Tall"									"68"
+            "Visible"								"1"
+            "ProportionalToParent"					"1"
+            "PaintBackground"						"0"
 
-            "Pin_To_Sibling"							"SpeedoAnchor"
-            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-            "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
-
-            "SubButton"
+            "TransparentBG_Speedos"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                "Wide"									"f0"
-                "Tall"									"f0"
-                "Visible"								"1"
-                "Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"Symbols24"
-                "TextAlignment"							"center"
-                "Sound_Depressed"						"UI/buttonclick.wav"
-                
+                "ControlName"								"EditablePanel"
+                "FieldName"									"TransparentBG_Speedos"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"-1"
+                "Wide"										"f0"
+                "Tall"										"f0"
+                "proportionaltoparent"                      "1"
+                "Visible"									"1"
 
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
+                "MouseInputEnabled"						"0"
 
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"3"
+                    "Font"								    ""
+                    "TextAlignment"							"center"
+
+
+                    "PaintBackground"						"1"
+                    "PaintBackgroundType"				    "0"
+                    "DefaultBGColor_Override"				"TransparentLightBlack"
+                    "ArmedBGColor_Override"					"TransparentLightBlack"
+                    "DepressedBGColor_Override"				"TransparentLightBlack"
+
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"White"
+                    "DepressedFGColor_Override"				"White"
+                }
             }
-        }
-        "SoldierSpeedo"
-        {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"SoldierSpeedo"
-            "XPos"										"10"
-            "YPos"										"5"
-            "ZPos"										"15"
-            "Wide"										"29"
-            "Tall"										"28"
-            "Visible"									"1"
-
-            "Pin_To_Sibling"							"SpeedosOff"
-            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-            "Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
-
-            "SubButton"
+            "TitleLabel_Speedos"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                "Wide"									"f0"
-                "Tall"									"f0"
-                "Visible"								"1"
-                "Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"Symbols28"
-                "TextAlignment"							"center"
-                "Sound_Depressed"						"UI/buttonclick.wav"
-                
+                "ControlName"								"EditablePanel"
+                "FieldName"									"TitleLabel_Speedos"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"15"
+                "Wide"										"f0"
+                "Tall"										"16"
+                "proportionaltoparent"                      "1"
+                "Visible"									"1"
 
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
+                "MouseInputEnabled"						"0"
 
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"3"
+                    "Font"								    "Menu_Small"
+                    "TextAlignment"							"center"
+
+
+                    "PaintBackground"						"1"
+                    "PaintBackgroundType"				    "0"
+                    "DefaultBGColor_Override"				"TransparentLightBlack"
+                    "ArmedBGColor_Override"					"TransparentLightBlack"
+                    "DepressedBGColor_Override"				"TransparentLightBlack"
+
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"White"
+                    "DepressedFGColor_Override"				"White"
+                }
             }
-        }
-        "DemoSpeedo"
-        {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"DemoSpeedo"
-            "XPos"										"10"
-            "YPos"										"5"
-            "ZPos"										"15"
-            "Wide"										"29"
-            "Tall"										"28"
-            "Visible"									"1"
 
-            "Pin_To_Sibling"							"SpeedosOff"
-            "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-            "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
-
-            "SubButton"
+            // middle row / hud speedos
+            "SoldierSpeedo"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                "Wide"									"f0"
-                "Tall"									"f0"
-                "Visible"								"1"
-                "Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"Symbols28"
-                "TextAlignment"							"center"
-                "Sound_Depressed"						"UI/buttonclick.wav"
-                
+                "ControlName"								"EditablePanel"
+                "FieldName"									"SoldierSpeedo"
+                "XPos"										"3"
+                "YPos"										"rs2+1"
+                "ZPos"										"15"
+                "ProportionalToParent"                      "1"
+                "Wide"										"28"
+                "Tall"										"28"
+                "Visible"									"1"
 
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"0"
+                    "Font"									"ClassSymbols28"
+                    "TextAlignment"							"center"
+                    "Sound_Depressed"						"UI/buttonclick.wav"
+                    
 
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
+                    "PaintBackground"						"0"
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"Menu_Accent"
+                    "DepressedFGColor_Override"				"Menu_Accent"
+                }
             }
-        }
-        "BarSpeedos"
-        {
-            "ControlName"								"EditablePanel"
-            "FieldName"									"BarSpeedos"
-            "XPos"										"0"
-            "YPos"										"10"
-            "ZPos"										"15"
-            "Wide"										"29"
-            "Tall"										"28"
-            "Visible"									"1"
-
-            "Pin_To_Sibling"							"SpeedosOff"
-            "Pin_Corner_To_Sibling"						"PIN_CENTER_BOTTOM"
-            "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
-
-            "SubButton"
+            "DemoSpeedo"
             {
-                "ControlName"							"CExImageButton"
-                "FieldName"								"SubButton"
-                "XPos"									"0"
-                "YPos"									"0"
-                "Wide"									"f0"
-                "Tall"									"f0"
-                "Visible"								"1"
-                "Enabled"								"1"
-                "ProportionalToParent"					"1"
-                "Use_Proportional_Insets"				"1"
-                "TextInsetX"							"0"
-                "Font"									"Symbols28"
-                "TextAlignment"							"center"
-                "Sound_Depressed"						"UI/buttonclick.wav"
-                
+                "ControlName"								"EditablePanel"
+                "FieldName"									"DemoSpeedo"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"15"
+                "ProportionalToParent"                      "1"
+                "Wide"										"28"
+                "Tall"										"28"
+                "Visible"									"1"
 
-                "PaintBackground"						"0"
-                "PaintBorder"							"0"
+                "Pin_To_Sibling"							"SoldierSpeedo"
+                "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+                "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
-                "DefaultFGColor_Override"				"White"
-                "ArmedFGColor_Override"					"Menu_Accent"
-                "DepressedFGColor_Override"				"Menu_Accent"
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"0"
+                    "Font"									"ClassSymbols28"
+                    "TextAlignment"							"center"
+                    "Sound_Depressed"						"UI/buttonclick.wav"
+                    
+
+                    "PaintBackground"						"0"
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"Menu_Accent"
+                    "DepressedFGColor_Override"				"Menu_Accent"
+                }
+            }
+            "BarSpeedos"
+            {
+                "ControlName"								"EditablePanel"
+                "FieldName"									"BarSpeedos"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"15"
+                "ProportionalToParent"                      "1"
+                "Wide"										"28"
+                "Tall"										"28"
+                "Visible"									"1"
+
+                "Pin_To_Sibling"							"DemoSpeedo"
+                "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+                "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"0"
+                    "Font"									"Symbols28"
+                    "TextAlignment"							"center"
+                    "Sound_Depressed"						"UI/buttonclick.wav"
+                    
+
+                    "PaintBackground"						"0"
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"Menu_Accent"
+                    "DepressedFGColor_Override"				"Menu_Accent"
+                }
+            }
+            "SpeedosOff"
+            {
+                "ControlName"								"EditablePanel"
+                "FieldName"									"SpeedosOff"
+                "XPos"										"0"
+                "YPos"										"1"
+                "ZPos"										"15"
+                "ProportionalToParent"                      "1"
+                "Wide"										"26"
+                "Tall"										"26"
+                "Visible"									"1"
+
+                "Pin_To_Sibling"							"BarSpeedos"
+                "Pin_Corner_To_Sibling"						"PIN_CENTER_LEFT"
+                "Pin_To_Sibling_Corner"						"PIN_CENTER_RIGHT"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"0"
+                    "Font"									"Symbols26"
+                    "TextAlignment"							"center"
+                    "Sound_Depressed"						"UI/buttonclick.wav"
+                    
+
+                    "PaintBackground"						"0"
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"Menu_Accent"
+                    "DepressedFGColor_Override"				"Menu_Accent"
+                }
+            }
+
+            // bottom row / tempus speedos
+            "HSpeedo"
+            {
+                "ControlName"								"EditablePanel"
+                "FieldName"									"HSpeedo"
+                "XPos"										"3"
+                "YPos"										"rs1+1"
+                "ZPos"										"15"
+                "ProportionalToParent"                      "1"
+                "Wide"										"28"
+                "Tall"										"28"
+                "Visible"									"1"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"0"
+                    "Font"									"Menu_Medium"
+                    "TextAlignment"							"center"
+                    "Sound_Depressed"						"UI/buttonclick.wav"
+                    
+
+                    "PaintBackground"						"0"
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"Menu_Accent"
+                    "DepressedFGColor_Override"				"Menu_Accent"
+                }
+            }
+            "VSpeedo"
+            {
+                "ControlName"								"EditablePanel"
+                "FieldName"									"VSpeedo"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"15"
+                "ProportionalToParent"                      "1"
+                "Wide"										"28"
+                "Tall"										"28"
+                "Visible"									"1"
+
+                "Pin_To_Sibling"							"HSpeedo"
+                "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+                "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"0"
+                    "Font"									"Menu_Medium"
+                    "TextAlignment"							"center"
+                    "Sound_Depressed"						"UI/buttonclick.wav"
+                    
+
+                    "PaintBackground"						"0"
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"Menu_Accent"
+                    "DepressedFGColor_Override"				"Menu_Accent"
+                }
+            }
+            "ASpeedo"
+            {
+                "ControlName"								"EditablePanel"
+                "FieldName"									"ASpeedo"
+                "XPos"										"0"
+                "YPos"										"0"
+                "ZPos"										"15"
+                "ProportionalToParent"                      "1"
+                "Wide"										"28"
+                "Tall"										"28"
+                "Visible"									"1"
+
+                "Pin_To_Sibling"							"VSpeedo"
+                "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+                "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"0"
+                    "Font"									"Menu_Medium"
+                    "TextAlignment"							"center"
+                    "Sound_Depressed"						"UI/buttonclick.wav"
+                    
+
+                    "PaintBackground"						"0"
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"Menu_Accent"
+                    "DepressedFGColor_Override"				"Menu_Accent"
+                }
+            }
+            "TempusSpeedosOff"
+            {
+                "ControlName"								"EditablePanel"
+                "FieldName"									"TempusSpeedosOff"
+                "XPos"										"0"
+                "YPos"										"1"
+                "ZPos"										"15"
+                "ProportionalToParent"                      "1"
+                "Wide"										"26"
+                "Tall"										"26"
+                "Visible"									"1"
+
+                "Pin_To_Sibling"							"ASpeedo"
+                "Pin_Corner_To_Sibling"						"PIN_CENTER_LEFT"
+                "Pin_To_Sibling_Corner"						"PIN_CENTER_RIGHT"
+
+                "SubButton"
+                {
+                    "ControlName"							"CExImageButton"
+                    "FieldName"								"SubButton"
+                    "XPos"									"0"
+                    "YPos"									"0"
+                    "Wide"									"f0"
+                    "Tall"									"f0"
+                    "Visible"								"1"
+                    "Enabled"								"1"
+                    "ProportionalToParent"					"1"
+                    "Use_Proportional_Insets"				"1"
+                    "TextInsetX"							"0"
+                    "Font"									"Symbols26"
+                    "TextAlignment"							"center"
+                    "Sound_Depressed"						"UI/buttonclick.wav"
+                    
+
+                    "PaintBackground"						"0"
+                    "PaintBorder"							"0"
+
+                    "DefaultFGColor_Override"				"White"
+                    "ArmedFGColor_Override"					"Menu_Accent"
+                    "DepressedFGColor_Override"				"Menu_Accent"
+                }
             }
         }
 
