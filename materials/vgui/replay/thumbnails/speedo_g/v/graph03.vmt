@@ -177,35 +177,7 @@
 			resultVar $value
 		}
 
-		// Swap digits if ($left == 1)
-		Equals { srcVar1 $digit resultVar $override }
-	
-		Equals { srcVar1 $const_ten resultVar $left_factor1 }
-		Equals { srcVar1 $const_hun resultVar $left_factor2 }
-		Equals { srcVar1 $const_tou resultVar $left_factor3 }
-		Divide { srcVar1 $left_factor1 srcVar2 $digit resultVar $left_factor1 }
-		Divide { srcVar1 $left_factor2 srcVar2 $digit resultVar $left_factor2 }
-		Divide { srcVar1 $left_factor3 srcVar2 $digit resultVar $left_factor3 }
-		LessOrEqual {
-			lessEqualVar $override greaterVar $left_factor1
-			srcVar1 $value srcVar2 $const_ten
-			resultVar $override
-		}
-		LessOrEqual {
-			lessEqualVar $override greaterVar $left_factor2
-			srcVar1 $value srcVar2 $const_hun
-			resultVar $override
-		}
-		LessOrEqual {
-			lessEqualVar $override greaterVar $left_factor3
-			srcVar1 $value srcVar2 $const_tou
-			resultVar $override
-		}
-		LessOrEqual {
-			lessEqualVar $digit greaterVar $override
-			srcVar1 $left srcVar2 $const_zero
-			resultVar $override
-		}
+		
 		
         // clamp speed
         "Clamp"
