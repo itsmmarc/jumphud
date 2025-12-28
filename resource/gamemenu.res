@@ -352,28 +352,28 @@
     }
     "Luxels"
 	{
-		"label"										"@"
+		"label"										"L"
 		"Command"									"engine toggle mat_luxels"
 		"tooltip"									"Toggle Luxels"
 		"OnlyInGame"								"1"
 	}
     "ShowTriggers"
 	{
-		"label"										"@"
+		"label"										"|"
 		"Command"									"engine sm_showtriggers"
 		"tooltip"									"Toggle Show Triggers"
 		"OnlyInGame"								"1"
 	}
     "DrawClipBrushes"
 	{
-		"label"										"@"
+		"label"										"B"
 		"Command"									"engine toggle r_drawclipbrushes 0 2"
 		"tooltip"									"Toggle Clip Brushes"
 		"OnlyInGame"								"1"
 	}
     "FullBright"
 	{
-		"label"										"?"
+		"label"										"F"
 		"Command"									"engine toggle mat_fullbright"
 		"tooltip"									"Toggle Full Bright"
 		"OnlyInGame"								"1"

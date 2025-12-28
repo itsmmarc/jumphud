@@ -2160,7 +2160,7 @@
                     "ProportionalToParent"					"1"
                     "Use_Proportional_Insets"				"1"
                     "TextInsetX"							"0"
-                    "Font"									"Symbols24"
+                    "Font"									"JumpHUDIcons24"
                     "TextAlignment"							"center"
                     "Sound_Depressed"						"UI/buttonclick.wav"
                     
@@ -2244,7 +2244,7 @@
                     "ProportionalToParent"					"1"
                     "Use_Proportional_Insets"				"1"
                     "TextInsetX"							"0"
-                    "Font"									"Symbols24"
+                    "Font"									"JumpHUDIcons24"
                     "TextAlignment"							"center"
                     "Sound_Depressed"						"UI/buttonclick.wav"
                     
@@ -2286,7 +2286,7 @@
                     "ProportionalToParent"					"1"
                     "Use_Proportional_Insets"				"1"
                     "TextInsetX"							"0"
-                    "Font"									"Symbols24"
+                    "Font"									"JumpHUDIcons24"
                     "TextAlignment"							"center"
                     "Sound_Depressed"						"UI/buttonclick.wav"
                     
