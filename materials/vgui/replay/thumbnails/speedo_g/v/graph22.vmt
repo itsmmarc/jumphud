@@ -33,8 +33,8 @@
 	$gt -1
 
 	$const_interval	0.03 // update interval
-	$const_ten 10 $const_one 1 $const_half 0.5 $const_zero 0
-	$const_hun 100 $const_tou 1000
+	   
+	 
 
 	$value 0 $value_digit 0
 	$temp 0.0 $time 0.0 $interval 0.0 $update 0 $oldtime 0.0
@@ -369,7 +369,7 @@
     //==============================================================
 		// Reset oldtime on new map
 		LessOrEqual {
-			lessEqualVar $oldtime greaterVar $const_zero 
+			lessEqualVar $oldtime greaterVar $0 
 			srcVar1 $oldtime srcVar2 $time 
 			resultVar $oldtime
 		}
@@ -382,7 +382,7 @@
 
 		// Sets $update to 1 if it's time to update
 		LessOrEqual {
-			lessEqualVar $const_zero greaterVar $const_one
+			lessEqualVar $0 greaterVar $1
 			srcVar1 $interval srcVar2 $const_interval
 			resultVar $update
 		}
@@ -390,13 +390,13 @@
 		// Save current time if updating
 		LessOrEqual {
 			lessEqualVar $oldtime greaterVar $time
-			srcVar1 $update srcVar2 $const_zero
+			srcVar1 $update srcVar2 $0
 			resultVar $oldtime
 		}
 
 		// Get player's position
 		PlayerPosition { scale 1 resultVar $pos }
-		Clamp { srcVar1 $const_zero min "$pos[2]" max "$pos[2]" resultVar $posz }
+		Clamp { srcVar1 $0 min "$pos[2]" max "$pos[2]" resultVar $posz }
 		
 		// Calculate displacement
 		Subtract { srcVar1 $posz srcVar2 $oldposz resultVar $dz }
@@ -405,7 +405,7 @@
 		// Save current time if updating
 		LessOrEqual {
 			lessEqualVar $oldposz greaterVar $posz
-			srcVar1 $update srcVar2 $const_zero
+			srcVar1 $update srcVar2 $0
 			resultVar $oldposz
 		}
 
@@ -421,7 +421,7 @@
 		// Change display value if updating
 		LessOrEqual {
 			lessEqualVar $value greaterVar $vspeed
-			srcVar1 $update srcVar2 $const_zero
+			srcVar1 $update srcVar2 $0
 			resultVar $value
 		}
 
