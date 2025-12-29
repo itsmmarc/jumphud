@@ -18,7 +18,7 @@
     $isCorrectSizeB 0
     $isCorrectSize 0
 
-	"$const_eps" 0.009765625
+	
 
     //==============================================================
     // UPDATE RATE VARIABLES
@@ -65,9 +65,6 @@
 	"$value" 0.0
 
     $speed 0
-	
-	"$frame_empty" 10.0
-	"$frame_minus" 11.0
 
     //==============================================================
     // COLOR VARIABLES

@@ -17,8 +17,8 @@
 //==============================================================
 // CONSTANTS
 //--------------------------------------------------------------
-#base ../../../s/constants/rounding.vmt
-#base ../../../s/constants/constantNumbers.vmt
+#base ../../../s/const/rounding.vmt
+#base ../../../s/const/constantNumbers.vmt
 
 //==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS

@@ -1,5 +1,5 @@
 #base bar_v.vmt
-#base ../constants/constantNumbers.vmt
+#base ../const/constantNumbers.vmt
 
 "UnlitGeneric" {
     //==============================================================

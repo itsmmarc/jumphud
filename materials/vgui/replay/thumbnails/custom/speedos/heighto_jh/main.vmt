@@ -12,8 +12,8 @@
 //==============================================================
 // CONSTANTS
 //--------------------------------------------------------------
-#base ../../../s/constants/rounding.vmt
-#base ../../../s/constants/constantNumbers.vmt
+#base ../../../s/const/rounding.vmt
+#base ../../../s/const/constantNumbers.vmt
 //==============================================================
 // HEIGHTO CALCULATION, ROUNDING, COLORS, & DIGIT SEPERATION
 //--------------------------------------------------------------

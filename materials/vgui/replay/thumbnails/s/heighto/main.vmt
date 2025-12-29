@@ -18,8 +18,8 @@
 // CONSTANTS
 //--------------------------------------------------------------
 #base ../../../../../../../cfg/jumphud/jh_speedo_s_rounding.txt
-#base ../constants/rounding.vmt
-#base ../constants/constantNumbers.vmt
+#base ../const/rounding.vmt
+#base ../const/constantNumbers.vmt
 //==============================================================
 // HEIGHTO CALCULATION, ROUNDING, COLORS, & DIGIT SEPERATION
 //--------------------------------------------------------------

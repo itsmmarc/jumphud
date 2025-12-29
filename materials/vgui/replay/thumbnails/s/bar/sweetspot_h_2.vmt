@@ -1,5 +1,5 @@
 #base line_h.vmt
-#base ../constants/constantNumbers.vmt
+#base ../const/constantNumbers.vmt
 #base ../colors/ranges/hspeedo_demo.vmt
 
 "UnlitGeneric" {

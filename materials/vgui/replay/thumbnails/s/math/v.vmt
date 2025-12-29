@@ -14,7 +14,7 @@
     $isCorrectSizeB 0
     $isCorrectSize 0
 
-	"$const_eps" 0.009765625
+	
 
     //==============================================================
     // UPDATE RATE VARIABLES
@@ -31,25 +31,6 @@
     //==============================================================
     // SPEEDO CALCULATION VARIABLES
     //==============================================================
-	$digit 0 
-	$override 0
-	
-	$leading 0
-	$leading_check 0
-	
-	$left 0
-	$left_factor1 0
-	$left_factor2 0
-	$left_factor3 0
-	
-	$lt 9999
-	$gt -1
-
-	   
-	 
-
-	$value 0 $value_digit 0
-
 	$pos "[0.0 0.0 0.0]" $posz 0.0
 	$dz 0.0 $oldposz 0.0
 	$vd 0.0 $speed 0.0

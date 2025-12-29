@@ -1,5 +1,5 @@
 #base ../textures/graph_type.vmt
-#base ../../s/constants/constantNumbers.vmt
+#base ../../s/const/constantNumbers.vmt
 #base ../../../../../../cfg/jumphud/jh_gspeedo_range_h.txt
 #base ../../s/colors/ranges/aspeedo_demo.vmt
 #base ../../../../../../cfg/jumphud/jh_color_gspeedo_h.txt
