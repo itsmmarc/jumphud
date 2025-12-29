@@ -20,6 +20,17 @@
 
 	"$const_eps" 0.009765625
 
+    //==============================================================
+    // UPDATE RATE VARIABLES
+    //==============================================================
+    $framerate 15
+    $fullframe 0
+
+    $time 0
+    $oldtime 0
+    $interval 0
+    $const_interval 0
+    $update 0
 
     //==============================================================
     // SPEEDO CALCULATION VARIABLES
@@ -29,7 +40,7 @@
 	"$y" 0.0 "$prev_y" 0.0 "$dy" 0.0 "$dys" 0.0
 	"$z" 0.0 "$prev_z" 0.0 "$dz" 0.0
 	
-	"$t" 0.0 "$prev_t" 0.0 "$dt" 0.0
+	"$time" 0.0 "$prev_t" 0.0 "$dt" 0.0
 	"$v" 0.0 "$prev_v" 0.0 "$dv" 0.0
 	
 	"$timer" 0.0
@@ -52,6 +63,8 @@
 	"$eps" 0.001953125
 	
 	"$value" 0.0
+
+    $speed 0
 	
 	"$frame_empty" 10.0
 	"$frame_minus" 11.0
@@ -66,6 +79,54 @@
 	
 	Proxies {
     //==============================================================
+    // UPDATE RATE
+    //==============================================================
+        // get const_interval
+        // const_interval = 1/framerate
+        Divide {
+            srcVar1 "$1"
+            srcVar2 "$framerate"
+            resultVar "$const_interval"
+        }
+
+        // Reset oldtime on new map
+        // if(oldtime>time){oldtime=0}
+        LessOrEqual {
+            srcVar1         "$oldtime"
+            srcVar2         "$time"
+            resultVar       "$oldtime"
+            greaterVar      "$0"
+            lessEqualVar    "$oldtime"
+        }
+
+		// Get current time
+		CurrentTime { resultVar $time }
+
+		// Calculate current interval
+        // interval = time - oldtime
+		Subtract { srcVar1 $time srcVar2 $oldtime resultVar $interval }
+
+		// Sets $update to 1 if it's time to update
+        // if(interval>const_interval){update=1}
+        LessOrEqual {
+            srcVar1         "$interval"
+            srcVar2         "$const_interval"
+            resultVar       "$update"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+    
+		// Save current time if updating
+        // if(update==1){oldtime=time}
+        LessOrEqual {
+            srcVar1         "$update"
+            srcVar2         "$0"
+            resultVar       "$oldtime"
+            greaterVar      "$time"
+            lessEqualVar    "$oldtime"
+        }
+
+    //==============================================================
     // HORIZONTAL SPEED
     //==============================================================
 		// get player position
@@ -78,13 +139,13 @@
 		PlayerSpeed { scale 1 resultVar "$v" }
 		
 		// get game time
-		CurrentTime { resultVar "$t" }
+		CurrentTime { resultVar "$time" }
 		
 		// dx = x - prev_x, dy = y - prev_y, dz = z - prev_z, dt = t - prev_t, dv = abs(v - prev_v)
 		Subtract { srcVar1 "$x" srcVar2 "$prev_x" resultVar "$dx" }
 		Subtract { srcVar1 "$y" srcVar2 "$prev_y" resultVar "$dy" }
 		Subtract { srcVar1 "$z" srcVar2 "$prev_z" resultVar "$dz" }
-		Subtract { srcVar1 "$t" srcVar2 "$prev_t" resultVar "$dt" }
+		Subtract { srcVar1 "$time" srcVar2 "$prev_t" resultVar "$dt" }
 		Subtract { srcVar1 "$v" srcVar2 "$prev_v" resultVar "$dv" }
 		Abs { srcVar1 "$dv" resultVar "$dv" }
 		
@@ -207,7 +268,7 @@
 		Equals { srcVar1 "$x" resultVar "$prev_x" }
 		Equals { srcVar1 "$y" resultVar "$prev_y" }
 		Equals { srcVar1 "$z" resultVar "$prev_z" }
-		Equals { srcVar1 "$t" resultVar "$prev_t" }
+		Equals { srcVar1 "$time" resultVar "$prev_t" }
 		Equals { srcVar1 "$v" resultVar "$prev_v" }
 		
 		// value = speedo + 0.1
@@ -219,12 +280,29 @@
             "min"                                                   "0"
             "max"                                                   "3500"
             "srcVar1"                                               "$value"
-            "resultVar"                                             "$frame"
+            "resultVar"                                             "$speed"
         }
 
     //==============================================================
-        // ROUNDING
-        //--------------------------------------------------------------
+    // UPDATE FRAME
+    //==============================================================
+        // change display value if updating
+        // if(update==1){fullframe=speed}
+        LessOrEqual {
+            srcVar1         "$update"
+            srcVar2         "$0"
+            resultVar       "$fullframe"
+            greaterVar      "$speed"
+            lessEqualVar    "$fullframe"
+        }
+        Equals {
+            srcVar1 "$fullframe"
+            resultVar "$frame"
+        }
+
+    //==============================================================
+    // ROUNDING
+    //==============================================================
         // $frame = $frame/10
         Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
         // discard decimals of $frame

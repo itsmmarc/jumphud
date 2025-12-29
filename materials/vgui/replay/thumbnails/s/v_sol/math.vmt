@@ -16,6 +16,17 @@
 
 	"$const_eps" 0.009765625
 
+    //==============================================================
+    // UPDATE RATE VARIABLES
+    //==============================================================
+    $framerate 15
+    $fullframe 0
+
+    $time 0
+    $oldtime 0
+    $interval 0
+    $const_interval 0
+    $update 0
 
     //==============================================================
     // SPEEDO CALCULATION VARIABLES
@@ -34,16 +45,14 @@
 	$lt 9999
 	$gt -1
 
-	$const_interval	0.03 // update interval
 	   
 	 
 
 	$value 0 $value_digit 0
-	$time 0.0 $interval 0.0 $update 0 $oldtime 0.0
 
 	$pos "[0.0 0.0 0.0]" $posz 0.0
 	$dz 0.0 $oldposz 0.0
-	$vd 0.0 $vspeed 0.0
+	$vd 0.0 $speed 0.0
 
     //==============================================================
     // COLOR VARIABLES
@@ -55,35 +64,56 @@
 	
 	Proxies {
     //==============================================================
-    // VERTICAL SPEED
+    // UPDATE RATE
     //==============================================================
-		// Reset oldtime on new map
-		LessOrEqual {
-			lessEqualVar $oldtime greaterVar $0 
-			srcVar1 $oldtime srcVar2 $time 
-			resultVar $oldtime
-		}
+        // get const_interval
+        // const_interval = 1/framerate
+        Divide {
+            srcVar1 "$1"
+            srcVar2 "$framerate"
+            resultVar "$const_interval"
+        }
+
+        // Reset oldtime on new map
+        // if(oldtime>time){oldtime=0}
+        LessOrEqual {
+            srcVar1         "$oldtime"
+            srcVar2         "$time"
+            resultVar       "$oldtime"
+            greaterVar      "$0"
+            lessEqualVar    "$oldtime"
+        }
 
 		// Get current time
 		CurrentTime { resultVar $time }
 
 		// Calculate current interval
+        // interval = time - oldtime
 		Subtract { srcVar1 $time srcVar2 $oldtime resultVar $interval }
 
 		// Sets $update to 1 if it's time to update
-		LessOrEqual {
-			lessEqualVar $0 greaterVar $1
-			srcVar1 $interval srcVar2 $const_interval
-			resultVar $update
-		}
-
+        // if(interval>const_interval){update=1}
+        LessOrEqual {
+            srcVar1         "$interval"
+            srcVar2         "$const_interval"
+            resultVar       "$update"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+    
 		// Save current time if updating
-		LessOrEqual {
-			lessEqualVar $oldtime greaterVar $time
-			srcVar1 $update srcVar2 $0
-			resultVar $oldtime
-		}
+        // if(update==1){oldtime=time}
+        LessOrEqual {
+            srcVar1         "$update"
+            srcVar2         "$0"
+            resultVar       "$oldtime"
+            greaterVar      "$time"
+            lessEqualVar    "$oldtime"
+        }
 
+    //==============================================================
+    // VERTICAL SPEED
+    //==============================================================
 		// Get player's position
 		PlayerPosition { scale 1 resultVar $pos }
 		Clamp { srcVar1 $0 min "$pos[2]" max "$pos[2]" resultVar $posz }
@@ -106,24 +136,32 @@
 		Abs { srcVar1 $vd resultVar $vd }
 
 		// Calculate horizontal speed
-		Divide { srcVar1 $vd srcVar2 $interval resultVar $vspeed }
+		Divide { srcVar1 $vd srcVar2 $interval resultVar $speed }
 
-		// Change display value if updating
-		LessOrEqual {
-			lessEqualVar $value greaterVar $vspeed
-			srcVar1 $update srcVar2 $0
-			resultVar $value
-		}
-
-		
-		
         // clamp speed
         "Clamp"
         {
             "min"                                                   "0"
             "max"                                                   "3500"
-            "srcVar1"                                               "$value"
-            "resultVar"                                             "$frame"
+            "srcVar1"                                               "$speed"
+            "resultVar"                                             "$speed"
+        }
+
+    //==============================================================
+    // UPDATE FRAME
+    //==============================================================
+        // change display value if updating
+        // if(update==1){fullframe=speed}
+        LessOrEqual {
+            srcVar1         "$update"
+            srcVar2         "$0"
+            resultVar       "$fullframe"
+            greaterVar      "$speed"
+            lessEqualVar    "$fullframe"
+        }
+        Equals {
+            srcVar1 "$fullframe"
+            resultVar "$frame"
         }
 
     //==============================================================
