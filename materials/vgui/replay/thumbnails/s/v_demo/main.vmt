@@ -18,13 +18,13 @@
 //==============================================================
 // CONSTANTS
 //--------------------------------------------------------------
-#base ../../../../../../../cfg/jumphud/jh_speedojh_speedo_d_roundings_rounding.txt
+#base ../../../../../../../cfg/jumphud/jh_speedo_d_rounding.txt
 #base ../constants/rounding.vmt
 #base ../constants/constantNumbers.vmt
 
 //==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS
 //--------------------------------------------------------------
-#base math.vmt
+#base ../math/v.vmt
 
 "UnlitGeneric" {}
