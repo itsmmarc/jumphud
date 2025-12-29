@@ -15,8 +15,22 @@
     $isCorrectSize 0
 
     //==============================================================
+    // UPDATE RATE VARIABLES
+    //==============================================================
+    $framerate 15
+    $fullframe 0
+
+    $time 0
+    $oldtime 0
+    $interval 0
+    $const_interval 0
+    $update 0
+
+    //==============================================================
     // HEIGHTO CALCULATION VARIABLES
     //==============================================================
+    $heighto 0
+
 	"$const_eps" 0.009765625
 
 	"$pos" "[ 0 0 0 ]"
@@ -52,6 +66,54 @@
     $color      $colorMain
 
 	Proxies {
+    //==============================================================
+    // UPDATE RATE
+    //==============================================================
+        // get const_interval
+        // const_interval = 1/framerate
+        Divide {
+            srcVar1 "$1"
+            srcVar2 "$framerate"
+            resultVar "$const_interval"
+        }
+
+        // Reset oldtime on new map
+        // if(oldtime>time){oldtime=0}
+        LessOrEqual {
+            srcVar1         "$oldtime"
+            srcVar2         "$time"
+            resultVar       "$oldtime"
+            greaterVar      "$0"
+            lessEqualVar    "$oldtime"
+        }
+
+		// Get current time
+		CurrentTime { resultVar $time }
+
+		// Calculate current interval
+        // interval = time - oldtime
+		Subtract { srcVar1 $time srcVar2 $oldtime resultVar $interval }
+
+		// Sets $update to 1 if it's time to update
+        // if(interval>const_interval){update=1}
+        LessOrEqual {
+            srcVar1         "$interval"
+            srcVar2         "$const_interval"
+            resultVar       "$update"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+    
+		// Save current time if updating
+        // if(update==1){oldtime=time}
+        LessOrEqual {
+            srcVar1         "$update"
+            srcVar2         "$0"
+            resultVar       "$oldtime"
+            greaterVar      "$time"
+            lessEqualVar    "$oldtime"
+        }
+        
     //==============================================================
     // HEIGHTO
     //==============================================================
@@ -194,11 +256,28 @@
 		
 		// display (top - bottom + 10)
 		Subtract { srcVar1 "$top" srcVar2 "$bottom" resultVar "$tmp" } 
-		Add { srcVar1 "$tmp" srcVar2 "$10" resultVar "$frame" } 
+		Add { srcVar1 "$tmp" srcVar2 "$10" resultVar "$heighto" } 
 
-        //==============================================================
-        // ROUNDING
-        //--------------------------------------------------------------
+    //==============================================================
+    // UPDATE FRAME
+    //==============================================================
+        // change display value if updating
+        // if(update==1){fullframe=heighto}
+        LessOrEqual {
+            srcVar1         "$update"
+            srcVar2         "$0"
+            resultVar       "$fullframe"
+            greaterVar      "$heighto"
+            lessEqualVar    "$fullframe"
+        }
+        Equals {
+            srcVar1 "$fullframe"
+            resultVar "$frame"
+        }
+
+    //==============================================================
+    // ROUNDING
+    //==============================================================
         // $frame = $frame/10
         Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
         // discard decimals of $frame
