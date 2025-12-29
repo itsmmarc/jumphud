@@ -21,7 +21,7 @@
 	 
 
 	$value 0 $value_digit 0
-	$temp 0.0 $time 0.0 $interval 0.0 $update 0 $oldtime 0.0
+	$time 0.0 $interval 0.0 $update 0 $oldtime 0.0
 
 	$pos "[0.0 0.0 0.0]" $posz 0.0
 	$dz 0.0 $oldposz 0.0
