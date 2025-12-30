@@ -575,7 +575,7 @@
                         "Visible"							"1"
                         "Enabled"							"1"
                         "ProportionalToParent"				"1"
-                        "LabelText"							"~3800 units"
+                        "LabelText"							"~4100 units"
                         "Font"								"HudFontSmall"
                         "TextAlignment"						"west"
                         "wrap"                              "1"
