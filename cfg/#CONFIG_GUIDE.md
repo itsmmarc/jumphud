@@ -50,7 +50,7 @@ Use the following aliases to bind your attack & weapon slot keys for the pipe ti
 
 The following binds are updated to use the currently selected save location slot from the pause menu.
 
-- jh_save           // Save Location
+- jh_saveloc           // Save Location
 - jh_tele           // Teleport to Saved Location
 
 ## Other Useful Binds

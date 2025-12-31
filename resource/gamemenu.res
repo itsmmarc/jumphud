@@ -154,7 +154,7 @@
     "SaveLocation"
     {
         "label"										"a"
-		"Command"									"engine jh_save"
+		"Command"									"engine jh_saveloc"
 		"tooltip"									"Save Current Location"
 		"OnlyInGame"								"1"
     }
