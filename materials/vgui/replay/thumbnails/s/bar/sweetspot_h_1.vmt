@@ -1,5 +1,6 @@
 #base line_h.vmt
 #base ../const/constantNumbers.vmt
+#base ../../../../../../../cfg/jumphud/jh_hspeedo_demo_range.txt
 #base ../colors/ranges/hspeedo_demo.vmt
 
 "UnlitGeneric" {
