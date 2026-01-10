@@ -378,13 +378,6 @@
 		"tooltip"									"Toggle Full Bright"
 		"OnlyInGame"								"1"
 	}
-    "BounceCheck"   // hypnotizeicons28
-	{
-		"label"										"?"
-		"command"									"engine sm_bcheck2"
-		"tooltip"									"Bounce Check"
-		"OnlyInGame"								"1"
-	}
     "Clear_Sprays"
 	{
 		"label"										"D"
@@ -399,20 +392,6 @@
 		"tooltip"									"Toggle Tempus HUD"
 		"OnlyInGame"								"1"
 	}
-    "Toggle_Netgraph"
-	{
-		"label"										"F"
-		"command"									"engine toggle net_graph 0 1"
-		"tooltip"									"Toggle NetGraph"
-		"OnlyInGame"								"1"
-	}
-	"Toggle_Chat"
-	{
-		"label"										"A"
-		"command"									"engine toggle hud_saytext_time 0 12"
-		"tooltip"									"Toggle Chat"
-		"OnlyInGame"								"1"
-    }
     
     //====================================================================================================================================================
 	// TOOLS BAR - from m0rehud 6.5 classic
