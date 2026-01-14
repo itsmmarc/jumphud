@@ -1,0 +1,4 @@
+#base ../../../../cfg/jumphud/jh_bubbles.txt
+#base bubble_base.vmt
+"SpriteCard"
+{}
