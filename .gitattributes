@@ -10,3 +10,6 @@ resource/chat_english.txt diff
 
 .gitattributes export-ignore
 .gitignore export-ignore
+.wiki export-ignore
+/screenshots export-ignore
+SHOWCASE.md export-ignore
