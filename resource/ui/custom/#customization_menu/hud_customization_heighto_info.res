@@ -448,17 +448,13 @@
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 					}
 
-//      Max double = ~1900 units
-//      Max triple = ~3800 units?
-//      Max water double = ~3100 units
-//      Max water triple = ~6700 units?
-//      Max quad = max vel??
-//      
-//
-//
-//
-//
-//
+// ILDPRUT (pinned in tempus discord general)
+// c-tap
+// 1x 691.86
+// 2x 2093.50
+// 3x 4257.14
+// 4x 7182.79
+// 
                     "Subheading_1"
                     {
                         "ControlName"						"CExLabel"
@@ -512,7 +508,7 @@
                         "Visible"							"1"
                         "Enabled"							"1"
                         "ProportionalToParent"				"1"
-                        "LabelText"							"~1900 units"
+                        "LabelText"							"~2090 units"
                         "Font"								"HudFontSmall"
                         "TextAlignment"						"west"
                         "wrap"                              "1"
@@ -575,7 +571,7 @@
                         "Visible"							"1"
                         "Enabled"							"1"
                         "ProportionalToParent"				"1"
-                        "LabelText"							"~4100 units"
+                        "LabelText"							"~4250 units"
                         "Font"								"HudFontSmall"
                         "TextAlignment"						"west"
                         "wrap"                              "1"
