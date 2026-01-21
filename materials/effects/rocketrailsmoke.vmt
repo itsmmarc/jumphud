@@ -1,5 +1,4 @@
 #base ../../../cfg/jumphud/jh_rocketrails.txt
-// #base ../vgui/replay/thumbnails/blank.vmt
 #base rocketrailsmoke_base.vmt
 "SpriteCard"
 {}
