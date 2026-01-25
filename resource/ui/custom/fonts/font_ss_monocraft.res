@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"          "HandelGothic BT"
+                "name"          "Monocraft"
                 "tall"          "18"
                 "weight"        "200"
             }
@@ -16,8 +16,8 @@
     {
         "3"	// Quake Font
         {
-            "Font"          "resource/scheme/fonts/optional/handelgothic.ttf"
-            "name"          "HandelGothic BT"
+            "Font"          "resource/scheme/fonts/optional/Monocraft-SemiBold.otf"
+            "name"          "Monocraft"
         }
     }
 }

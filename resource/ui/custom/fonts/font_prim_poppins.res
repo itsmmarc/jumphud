@@ -8,9 +8,10 @@
         {
             "1"
             {
-                "name"										"Coolvetica Italic"
-                "tall"										"32" [$WINDOWS]
-                "tall"										"26" [$LINUX]
+                "name"		"Poppins Black Italic" [$WINDOWS]
+                    "name"		"Poppins" [$LINUX]
+                "tall"										"43" [$WINDOWS]
+                "tall"										"35" [$LINUX]
                 "weight"									"400"
                 "additive"									"0"
                 "antialias"									"1"
@@ -20,9 +21,10 @@
         {
             "1"
             {
-                "name"										"Coolvetica Italic"
-                "tall"										"20" [$WINDOWS]
-                "tall"										"16" [$LINUX]
+                "name"		"Poppins Black Italic" [$WINDOWS]
+                    "name"		"Poppins" [$LINUX]
+                "tall"										"27" [$WINDOWS]
+                "tall"										"22" [$LINUX]
                 "weight"									"400"
                 "additive"									"0"
                 "antialias"									"1"
@@ -32,9 +34,10 @@
         {
         "1"
             {
-                "name"										"Coolvetica Italic"
-                "tall"										"12" [$WINDOWS]
-                "tall"										"10" [$LINUX]
+                "name"		"Poppins Black Italic" [$WINDOWS]
+                    "name"		"Poppins" [$LINUX]
+                "tall"										"16" [$WINDOWS]
+                "tall"										"13" [$LINUX]
                 "weight"									"0"
                 "additive"									"0"
                 "antialias"									"1"

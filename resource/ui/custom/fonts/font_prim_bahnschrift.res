@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"										"Montserrat"
+                "name"										"Bahnschrift"
                 "tall"										"32" [$WINDOWS]
                 "tall"										"26" [$LINUX]
                 "weight"									"400"
@@ -18,7 +18,7 @@
         {
             "1"
             {
-                "name"										"Montserrat"
+                "name"										"Bahnschrift"
                 "tall"										"20" [$WINDOWS]
                 "tall"										"16" [$LINUX]
                 "weight"									"400"
@@ -30,7 +30,7 @@
         {
         "1"
             {
-                "name"										"Montserrat"
+                "name"										"Bahnschrift"
                 "tall"										"12" [$WINDOWS]
                 "tall"										"10" [$LINUX]
                 "weight"									"0"

@@ -11,7 +11,7 @@
 # Define parameters
 $maxNumber = 10
 $backgroundColor = "Transparent"
-$font = "fonts/Roboto-Black.ttf"
+$font = "fonts/Monocraft-SemiBold.otf"
 $fontSize = 64
 $VTFSize = "256x64"
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
