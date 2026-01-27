@@ -24,40 +24,40 @@ These function like normal class config files except the files in `#jump_class_c
 
 ## SKeys Binds
 
-Use the following aliases to bind your movement & attack keys for skeys to function. *Due to limitations with TF2's code `+skey_jump` will not cancel taunts (eg; exiting conga).*
+Use the following aliases to bind your movement & attack keys for skeys to function. _Due to limitations with TF2's code `+jh_jump` will not cancel taunts (eg; exiting conga)._
 
-- +skey_attack      // Attack
-- +skey_attack2     // Secondary Attack
-- +skey_forward     // Move Forward
-- +skey_back        // Move Backward
-- +skey_left        // Move Left
-- +skey_right       // Move Right
-- +skey_jump        // Jump
-- +skey_duck        // Duck
-- +skey_ctap        // CTap
+- +jh_attack // Attack
+- +jh_attack2 // Secondary Attack
+- +jh_forward // Move Forward
+- +jh_back // Move Backward
+- +jh_moveleft // Move Left
+- +jh_moveright // Move Right
+- +jh_jump // Jump
+- +jh_duck // Duck
+- +jh_ctap // CTap
 
 ## Pipe Timer Binds
 
-Use the following aliases to bind your attack & weapon slot keys for the pipe timer to function. *Due to limitations with TF2's code `pt_qs` will not exit the taunt/disguise menus.*
+Use the following aliases to bind your attack & weapon slot keys for the pipe timer to function. _Due to limitations with TF2's code `jh_pt_qs` will not exit the taunt/disguise menus._
 
-- +skey_attack      // Attack
-- pt_slot1          // Equip Primary
-- pt_slot2          // Equip Secondary
-- pt_slot3          // Equip Melee
-- pt_qs             // Equip Last Used Weapon
+- +jh_attack // Attack
+- jh_slot1 // Equip Primary
+- jh_slot2 // Equip Secondary
+- jh_slot3 // Equip Melee
+- jh_pt_qs // Equip Last Used Weapon
 
 ## Save Location Binds
 
 The following binds are updated to use the currently selected save location slot from the pause menu.
 
-- jh_saveloc           // Save Location
-- jh_tele           // Teleport to Saved Location
+- jh_saveloc // Save Location
+- jh_tele // Teleport to Saved Location
 
 ## Other Useful Binds
 
-- +tphold           // Thirdperson (Hold)
-- tptoggle          // Thirdperson (Toggle)
-- toggle_duck       // Crouch (Toggle)
+- +jh_tphold // Thirdperson (Hold)
+- jh_tptoggle // Thirdperson (Toggle)
+- toggle_duck // Crouch (Toggle)
 
 ## Enabling/Disabling Speedos
 
@@ -102,7 +102,7 @@ jh_speedo_s_toggle_on
 hud_reloadscheme
 
 bind q lastinv
-bind mouse2 +skey_ctap
+bind mouse2 +jh_ctap
 ```
 
 ## demoman.cfg
@@ -112,8 +112,8 @@ jh_speedos_off
 jh_bspeedos_toggle_on
 hud_reloadscheme
 
-bind q pt_qs
-bind mouse2 +skey_attack2
+bind q jh_pt_qs
+bind mouse2 +jh_attack2
 ```
 
 ## #casualconfig.cfg
@@ -138,18 +138,18 @@ bind b lastdisguise
 ## #jumpconfig.cfg
 
 ```
-bind mouse1 +skey_attack
-bind mouse2 +skey_attack2
-bind w +skey_forward
-bind a +skey_left
-bind s +skey_back
-bind d +skey_right
-bind space +skey_jump
-bind ctrl +skey_duck
-bind 1 pt_slot1
-bind 2 pt_slot2
-bind 3 pt_slot3
-bind q pt_qs
+bind mouse1 +jh_attack
+bind mouse2 +jh_attack2
+bind w +jh_forward
+bind a +jh_moveleft
+bind s +jh_back
+bind d +jh_moveright
+bind space +jh_jump
+bind ctrl +jh_duck
+bind 1 jh_slot1
+bind 2 jh_slot2
+bind 3 jh_slot3
+bind q jh_pt_qs
 bind r sm_restart
 bind b sm_bcheck
 ```
