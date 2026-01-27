@@ -2589,7 +2589,7 @@
         }
         "FriendsContainer"
         {
-            "ControlName"                   "CMatchHistoryEntryPanel"
+            "ControlName"                   "EditablePanel"
             "FieldName"                     "FriendsContainer"
             "XPos"                          "cs-0.5"
             "YPos"                          "cs-0.5"
@@ -2601,21 +2601,9 @@
             "PaintBackground"               "1"
             "PaintBackgroundType"           "0"
             "BGColor_Override"              "TransparentLightBlack"
-            "collapsed_height"              "16"
-            "expanded_height"               "214"
-            "resize_time"                   "0.2"
-            "ignorescheme"                  "1"
-            "container"
-            {
-                "visible"           "0"
-            }
-            "BottomStats"
-            {
-                "visible"           "0"
-            }
             "TitleLabel"
             {
-                "ControlName"                       "Button"
+                "ControlName"                       "CExLabel"
                 "FieldName"                         "TitleLabel"
                 "XPos"                              "0"
                 "YPos"                              "0"
@@ -2629,19 +2617,10 @@
                 "LabelText"                         "#TF_Competitive_Friends"
                 "TextAlignment"                     "west"
                 "TextInsetX"                        "3"
+                "FGColor"                           "White"
                 "PaintBackground"                   "1"
                 "PaintBackgroundType"               "0"
-                "DefaultBGColor_Override"           "TransparentLightBlack"
-                "ArmedBGColor_Override"             "TransparentLightBlack"
-                "DepressedBGColor_Override"         "TransparentLightBlack"
-                "PaintBorder"                       "0"
-                "DefaultFGColor_Override"           "White"
-                "ArmedFGColor_Override"             "White"
-                "DepressedFGColor_Override"         "White"
-                "button_activation_type"            "1"
-                "command"                           "toggle_collapse"
-                "sound_depressed"                   "UI/buttonclick.wav"
-                "sound_released"                    "UI/buttonclickrelease.wav"
+                "BGColor_Override"                  "TransparentLightBlack"
             }
             "SteamFriendsList"
             {
