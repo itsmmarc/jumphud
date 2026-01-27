@@ -36,6 +36,7 @@
 "blank"			"JUMP SERVER"
 "blank"			"=========================="
 "sm_restart"    "Restart run"
+"+holdreset"    "Restart run (hold)"
 "sm_setstart"   "Set start"
 "sm_timer"      "Toggle timer"
 "jh_saveloc"    "Save location"

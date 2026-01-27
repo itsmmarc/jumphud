@@ -1,271 +1,291 @@
-//===========================================================================================================================
+// ===========================================================================================================================
 // SPRAY PAINT
-//===========================================================================================================================
+// ===========================================================================================================================
 // White
 event SprayPaint_On_White
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_White 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_White                              0.0001
 }
 
 event SprayPaint_Loop_White
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reWhite"
-    RunEvent SprayPaint_Loop_White 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reWhite"
+    RunEvent         SprayPaint_Loop_White      0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Tan
 event SprayPaint_On_Tan
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Tan 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Tan                                0.0001
 }
 
 event SprayPaint_Loop_Tan
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reTan"
-    RunEvent SprayPaint_Loop_Tan 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reTan"
+    RunEvent         SprayPaint_Loop_Tan        0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Grey
 event SprayPaint_On_Grey
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Grey 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Grey                               0.0001
 }
 
 event SprayPaint_Loop_Grey
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reGrey"
-    RunEvent SprayPaint_Loop_Grey 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reGrey"
+    RunEvent         SprayPaint_Loop_Grey       0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Black
 event SprayPaint_On_Black
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Black 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Black                              0.0001
 }
 
 event SprayPaint_Loop_Black
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reBlack"
-    RunEvent SprayPaint_Loop_Black 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reBlack"
+    RunEvent         SprayPaint_Loop_Black      0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Maroon
 event SprayPaint_On_Maroon
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Maroon 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Maroon                             0.0001
 }
 
 event SprayPaint_Loop_Maroon
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reMaroon"
-    RunEvent SprayPaint_Loop_Maroon 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reMaroon"
+    RunEvent         SprayPaint_Loop_Maroon     0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Red
 event SprayPaint_On_Red
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Red 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Red                                0.0001
 }
 
 event SprayPaint_Loop_Red
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reRed"
-    RunEvent SprayPaint_Loop_Red 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reRed"
+    RunEvent         SprayPaint_Loop_Red        0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Salmon
 event SprayPaint_On_Salmon
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Salmon 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Salmon                             0.0001
 }
 
 event SprayPaint_Loop_Salmon
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reSalmon"
-    RunEvent SprayPaint_Loop_Salmon 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reSalmon"
+    RunEvent         SprayPaint_Loop_Salmon     0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Orange
 event SprayPaint_On_Orange
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Orange 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Orange                             0.0001
 }
 
 event SprayPaint_Loop_Orange
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reOrange"
-    RunEvent SprayPaint_Loop_Orange 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reOrange"
+    RunEvent         SprayPaint_Loop_Orange     0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Yellow
 event SprayPaint_On_Yellow
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Yellow 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Yellow                             0.0001
 }
 
 event SprayPaint_Loop_Yellow
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reYellow"
-    RunEvent SprayPaint_Loop_Yellow 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reYellow"
+    RunEvent         SprayPaint_Loop_Yellow     0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Olive
 event SprayPaint_On_Olive
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Olive 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Olive                              0.0001
 }
 
 event SprayPaint_Loop_Olive
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reOlive"
-    RunEvent SprayPaint_Loop_Olive 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reOlive"
+    RunEvent         SprayPaint_Loop_Olive      0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Green
 event SprayPaint_On_Green
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Green 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Green                              0.0001
 }
 
 event SprayPaint_Loop_Green
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reGreen"
-    RunEvent SprayPaint_Loop_Green 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reGreen"
+    RunEvent         SprayPaint_Loop_Green      0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Forest
 event SprayPaint_On_Forest
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Forest 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Forest                             0.0001
 }
 
 event SprayPaint_Loop_Forest
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reForest"
-    RunEvent SprayPaint_Loop_Forest 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reForest"
+    RunEvent         SprayPaint_Loop_Forest     0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Teal
 event SprayPaint_On_Teal
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Teal 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Teal                               0.0001
 }
 
 event SprayPaint_Loop_Teal
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reTeal"
-    RunEvent SprayPaint_Loop_Teal 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reTeal"
+    RunEvent         SprayPaint_Loop_Teal       0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Cyan
 event SprayPaint_On_Cyan
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Cyan 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Cyan                               0.0001
 }
 
 event SprayPaint_Loop_Cyan
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reCyan"
-    RunEvent SprayPaint_Loop_Cyan 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reCyan"
+    RunEvent         SprayPaint_Loop_Cyan       0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Blue
 event SprayPaint_On_Blue
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Blue 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Blue                               0.0001
 }
 
 event SprayPaint_Loop_Blue
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reBlue"
-    RunEvent SprayPaint_Loop_Blue 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reBlue"
+    RunEvent         SprayPaint_Loop_Blue       0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Navy
 event SprayPaint_On_Navy
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Navy 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Navy                               0.0001
 }
 
 event SprayPaint_Loop_Navy
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reNavy"
-    RunEvent SprayPaint_Loop_Navy 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reNavy"
+    RunEvent         SprayPaint_Loop_Navy       0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Purple
 event SprayPaint_On_Purple
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Purple 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Purple                             0.0001
 }
 
 event SprayPaint_Loop_Purple
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0rePurple"
-    RunEvent SprayPaint_Loop_Purple 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0rePurple"
+    RunEvent         SprayPaint_Loop_Purple     0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Violet
 event SprayPaint_On_Violet
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Violet 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Violet                             0.0001
 }
 
 event SprayPaint_Loop_Violet
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reViolet"
-    RunEvent SprayPaint_Loop_Violet 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reViolet"
+    RunEvent         SprayPaint_Loop_Violet     0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Pink
 event SprayPaint_On_Pink
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Pink 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Pink                               0.0001
 }
 
 event SprayPaint_Loop_Pink
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0rePink"
-    RunEvent SprayPaint_Loop_Pink 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0rePink"
+    RunEvent         SprayPaint_Loop_Pink       0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 // Magenta
 event SprayPaint_On_Magenta
 {
-    RunEventChild MainMenuOverride SprayPaint_Loop_Magenta 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Loop_Magenta                            0.0001
 }
 
 event SprayPaint_Loop_Magenta
 {
-    FireCommand 0.0 "engine sm_spray sprays/spraypaint_m0reMagenta"
-    RunEvent SprayPaint_Loop_Magenta 0.03   // spray speed, setting this too fast will kick you from most servers
+    FireCommand      0.0                        "engine sm_spray sprays/spraypaint_m0reMagenta"
+    RunEvent         SprayPaint_Loop_Magenta    0.03 // spray speed, setting this too fast will kick you from most servers
 }
-//---------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------
 event SprayPaint_Off
 {
-    RunEventChild MainMenuOverride SprayPaint_Stop 0.0001
+    RunEventChild    MainMenuOverride           SprayPaint_Stop                                    0.0001
 }
-    
+
 event SprayPaint_Stop
 {
-    StopEvent SprayPaint_Loop_White	    0.0
-    StopEvent SprayPaint_Loop_Tan	    0.0
-    StopEvent SprayPaint_Loop_Grey	    0.0
-    StopEvent SprayPaint_Loop_Black	    0.0
-    StopEvent SprayPaint_Loop_Maroon    0.0
-    StopEvent SprayPaint_Loop_Red	    0.0
-    StopEvent SprayPaint_Loop_Salmon    0.0
-    StopEvent SprayPaint_Loop_Orange    0.0
-    StopEvent SprayPaint_Loop_Yellow    0.0
-    StopEvent SprayPaint_Loop_Olive	    0.0
-    StopEvent SprayPaint_Loop_Green	    0.0
-    StopEvent SprayPaint_Loop_Forest    0.0
-    StopEvent SprayPaint_Loop_Teal	    0.0
-    StopEvent SprayPaint_Loop_Cyan	    0.0
-    StopEvent SprayPaint_Loop_Blue	    0.0
-    StopEvent SprayPaint_Loop_Navy	    0.0
-    StopEvent SprayPaint_Loop_Purple    0.0
-    StopEvent SprayPaint_Loop_Violet    0.0
-    StopEvent SprayPaint_Loop_Pink	    0.0
-    StopEvent SprayPaint_Loop_Magenta   0.0
+    StopEvent        SprayPaint_Loop_White      0.0
+    StopEvent        SprayPaint_Loop_Tan        0.0
+    StopEvent        SprayPaint_Loop_Grey       0.0
+    StopEvent        SprayPaint_Loop_Black      0.0
+    StopEvent        SprayPaint_Loop_Maroon     0.0
+    StopEvent        SprayPaint_Loop_Red        0.0
+    StopEvent        SprayPaint_Loop_Salmon     0.0
+    StopEvent        SprayPaint_Loop_Orange     0.0
+    StopEvent        SprayPaint_Loop_Yellow     0.0
+    StopEvent        SprayPaint_Loop_Olive      0.0
+    StopEvent        SprayPaint_Loop_Green      0.0
+    StopEvent        SprayPaint_Loop_Forest     0.0
+    StopEvent        SprayPaint_Loop_Teal       0.0
+    StopEvent        SprayPaint_Loop_Cyan       0.0
+    StopEvent        SprayPaint_Loop_Blue       0.0
+    StopEvent        SprayPaint_Loop_Navy       0.0
+    StopEvent        SprayPaint_Loop_Purple     0.0
+    StopEvent        SprayPaint_Loop_Violet     0.0
+    StopEvent        SprayPaint_Loop_Pink       0.0
+    StopEvent        SprayPaint_Loop_Magenta    0.0
 }

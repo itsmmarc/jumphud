@@ -1,5 +1,5 @@
 event CrosshairFlash
 {
-	Animate "CustomCrosshair2"				Alpha		"255"						Linear	0.0		0.00001
-	Animate "CustomCrosshair2"				Alpha		"0"							Linear	0.10	0.10001
+    Animate    CustomCrosshair2    Alpha    255    Linear    0.0     0.00001
+    Animate    CustomCrosshair2    Alpha    0      Linear    0.10    0.10001
 }

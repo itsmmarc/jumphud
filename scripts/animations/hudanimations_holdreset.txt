@@ -1,0 +1,27 @@
+// ===========================================================================================================================
+// HOLD RESET
+// ===========================================================================================================================
+event HoldReset_Start
+{
+    Animate          HoldReset_Bar       Wide                   20        Linear    0.0    1.0
+    RunEventChild    MainMenuOverride    HoldReset_Inner        0.0001
+    RunEvent         HoldReset_Off       1.0
+}
+
+event HoldReset_Inner
+{
+    FireCommand      1.0                 "engine sm_restart"
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+event HoldReset_Off
+{
+    Animate          HoldReset_Bar       Wide                   0         Linear    0.0    0.0002
+    StopEvent        HoldReset_Start     0.0
+    RunEventChild    MainMenuOverride    HoldReset_Stop         0.0001
+}
+
+event HoldReset_Stop
+{
+    StopEvent        HoldReset_Inner     0.0
+}
