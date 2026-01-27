@@ -83,8 +83,8 @@
         }
         "26"
         {
-            "Font"          "resource/scheme/fonts/optional/Monocraft-SemiBold.otf"
-            "name"          "Monocraft"
+            "Font"          "resource/scheme/fonts/optional/Minecraftia-Regular.ttf"
+            "name"          "Minecraftia 2.0"
         }
         // icon fonts
         "101"

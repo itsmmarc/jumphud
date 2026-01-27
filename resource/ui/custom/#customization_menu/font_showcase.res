@@ -157,11 +157,11 @@
                 "antialias"         "1"
             }
         }
-        "Showcase_Monocraft"
+        "Showcase_Minecraft"
         {
             "1"
             {
-                "name"              "Monocraft"
+                "name"              "Minecraftia 2.0"
                 "Tall"              "24"
                 "antialias"         "1"
             }

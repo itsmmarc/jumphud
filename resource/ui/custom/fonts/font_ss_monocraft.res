@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"          "Monocraft"
+                "name"          "Minecraftia 2.0"
                 "tall"          "18"
                 "weight"        "200"
             }
@@ -16,8 +16,8 @@
     {
         "3"	// Quake Font
         {
-            "Font"          "resource/scheme/fonts/optional/Monocraft-SemiBold.otf"
-            "name"          "Monocraft"
+            "Font"          "resource/scheme/fonts/optional/Minecraftia-Regular.ttf"
+            "name"          "Minecraftia 2.0"
         }
     }
 }

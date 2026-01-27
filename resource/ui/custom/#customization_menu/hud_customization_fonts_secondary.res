@@ -1413,10 +1413,10 @@
 							"BGcolor_Override"			"Gray"
 						}
 					}
-                    "Monocraft"
+                    "Minecraftia 2.0"
 					{
 						"ControlName"					"EditablePanel"
-						"FieldName"						"Monocraft"
+						"FieldName"						"Minecraftia 2.0"
 						"XPos"							"0"
 						"YPos"							"3"
 						"ZPos"							"0"
@@ -1442,7 +1442,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jh_font_sec_monocraft"
+							"Command"					"engine jh_font_sec_minecraft"
 							"LabelText"					""
 							"TextAlignment"				"center"
 							"Sound_Depressed"			"UI/buttonclick.wav"
@@ -1469,7 +1469,7 @@
 							"ProportionalToParent"		"1"
 							"mouseinputenabled"			"0"
 							"AllCaps"					"1"
-							"LabelText"					"Monocraft"
+							"LabelText"					"Minecraftia 2.0"
 							"Font"						"HudFontSmall"
 							"TextAlignment"				"west"
 							"FGColor"					"White"
@@ -1488,7 +1488,7 @@
 							"ProportionalToParent"		"1"
 							"mouseinputenabled"			"0"
 							"LabelText"					"1234567890 - The quick brown fox jumps over the lazy dog"
-							"Font"						"Showcase_Monocraft"
+							"Font"						"Showcase_Minecraft"
 							"TextAlignment"				"west"
 							"FGColor"					"Gray"
 						}

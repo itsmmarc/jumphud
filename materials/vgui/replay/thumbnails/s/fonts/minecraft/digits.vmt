@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-        "$basetexture"                  "vgui/replay/thumbnails/s/fonts/monocraft/digits.vtf"
+        "$basetexture"                  "vgui/replay/thumbnails/s/fonts/minecraft/digits.vtf"
         "$translucent"                  "1"
         "$vertexcolor"                  "1"
         "$no_fullbright"                "1"
