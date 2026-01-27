@@ -1357,10 +1357,10 @@
                             "BGcolor_Override"              "Gray"
                         }
                     }
-                    "Minecraftia 2.0"
+                    "Minecraft"
                     {
                         "ControlName"                   "EditablePanel"
-                        "FieldName"                     "Minecraftia 2.0"
+                        "FieldName"                     "Minecraft"
                         "XPos"                          "0"
                         "YPos"                          "3"
                         "ZPos"                          "0"
@@ -1409,7 +1409,7 @@
                             "ProportionalToParent"          "1"
                             "mouseinputenabled"             "0"
                             "AllCaps"                       "1"
-                            "LabelText"                     "Minecraftia 2.0"
+                            "LabelText"                     "Minecraft"
                             "Font"                          "HudFontSmall"
                             "TextAlignment"                 "west"
                             "FGColor"                       "White"

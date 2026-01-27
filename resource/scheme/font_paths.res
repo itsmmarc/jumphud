@@ -83,8 +83,8 @@
         }
         "26"
         {
-            "Font"          "resource/scheme/fonts/optional/Minecraftia-Regular.ttf"
-            "name"          "Minecraftia 2.0"
+            "Font"          "resource/scheme/fonts/optional/1_Minecraft-Regular.otf"
+            "name"          "Minecraft-Regular"
         }
         // icon fonts
         "101"

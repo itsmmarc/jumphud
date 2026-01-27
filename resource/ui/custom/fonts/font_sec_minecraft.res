@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "tall"              "20" [$WINDOWS]
                 "tall"              "16" [$LINUX]
                 "weight"            "500"
@@ -19,7 +19,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "tall"              "28" [$WINDOWS]
                 "tall"              "23" [$LINUX]
                 "antialias"         "1"
@@ -30,7 +30,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "tall"              "16" [$WINDOWS]
                 "tall"              "13" [$LINUX]
                 "antialias"         "1"
@@ -41,7 +41,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "tall"              "18" [$WINDOWS]
                 "tall"              "15" [$LINUX]
                 "antialias"         "1"
@@ -52,7 +52,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "tall"              "16" [$WINDOWS]
                 "tall"              "13" [$LINUX]
                 "antialias"         "1"
@@ -63,7 +63,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "tall"              "13" [$WINDOWS]
                 "tall"              "10" [$LINUX]
                 "antialias"         "1"
@@ -74,7 +74,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "tall"              "28" [$WINDOWS]
                 "tall"              "23" [$LINUX]
                 "antialias"         "1"
@@ -85,7 +85,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "Tall"              "28"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -95,7 +95,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "Tall"              "28"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -105,7 +105,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "Tall"              "36"
                 "weight"            "500"
                 "additive"          "0"
@@ -116,7 +116,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "Tall"              "42"
                 "weight"            "600"
                 "additive"          "0"
@@ -127,7 +127,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "Tall"              "24"
                 "weight"            "600"
                 "additive"          "0"

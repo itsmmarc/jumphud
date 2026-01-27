@@ -161,7 +161,7 @@
         {
             "1"
             {
-                "name"              "Minecraftia 2.0"
+                "name"              "Minecraft-Regular"
                 "Tall"              "24"
                 "antialias"         "1"
             }
