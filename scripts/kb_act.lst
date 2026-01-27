@@ -56,6 +56,8 @@
 "blank"			"=========================="
 "+spraypaint"           "Spraypaint"
 "sm_spray"              "Tempus spray"
+"spray_massiveConcrete"         "Spray concrete"
+"spray_massiveConcreteFB"       "Spray concrete (full bright)"
 "spray_massiveWood"     "Spray wood"
 "spray_WoodFB"          "Spray wood (full bright)"
 "spray_massiveWoodL"    "Spray wood alt"
