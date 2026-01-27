@@ -135,6 +135,13 @@
     // JUMP BUTTONS
     // ====================================================================================================================================================
     // Saveloc
+    "SavelocContainer"
+    {
+        "label"             ""
+        "Command"           "engine"
+        "tooltip"           ""
+        "OnlyInGame"        "1"
+    }
     "TransparentBG_Saveloc"
     {
         "label"             ""
@@ -234,6 +241,13 @@
         "OnlyInGame"        "1"
     }
     // Speedos
+    "SpeedoContainer"
+    {
+        "label"             ""
+        "Command"           "engine"
+        "tooltip"           ""
+        "OnlyInGame"        "1"
+    }
     "TransparentBG_Speedos"
     {
         "label"             ""
@@ -306,6 +320,13 @@
         "OnlyInGame"        "1"
     }
     // Utilities
+    "UtilityContainer"
+    {
+        "label"             ""
+        "Command"           "engine"
+        "tooltip"           ""
+        "OnlyInGame"        "1"
+    }
     "TransparentBG_Util"
     {
         "label"             ""

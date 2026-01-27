@@ -2003,10 +2003,10 @@
             }
         }
     }
-    "SpeedosContainer"
+    "SpeedoContainer"
     {
         "ControlName"                   "CMatchHistoryEntryPanel"
-        "FieldName"                     "SpeedosContainer"
+        "FieldName"                     "SpeedoContainer"
         "XPos"                          "cs-0.5"
         "YPos"                          "cs-0.5+54"
         "ZPos"                          "0"
