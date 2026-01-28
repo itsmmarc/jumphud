@@ -1,6 +1,6 @@
 // "#base"                 "../vgui/replay/thumbnails/blank.vmt"	// testing
 "#base"                 "../../../cfg/jumphud/jh_water_particles.txt"
-"#base"                 "splash_cluster_base.vmt"
-"Spritecard"
+"#base"                 "softglow_translucent_base.vmt"
+"UnlitGeneric"
 {
 }
