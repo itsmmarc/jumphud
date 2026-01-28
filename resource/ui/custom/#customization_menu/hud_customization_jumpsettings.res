@@ -2982,6 +2982,105 @@
                                 "FGColor"                       "White"
                             }
                         }
+                        "Rocket_Trails_Toggle"
+                        {
+                            "ControlName"                   "EditablePanel"
+                            "FieldName"                     "Rocket_Trails_Toggle"
+                            "XPos"                          "0"
+                            "YPos"                          "0"
+                            "ZPos"                          "1"
+                            "Wide"                          "150"
+                            "Tall"                          "22"
+                            "Visible"                       "1"
+                            "Enabled"                       "1"
+                            "ProportionalToParent"          "1"
+                            "PaintBackground"               "0"
+                            "Pin_To_Sibling"                "Water_Particles_Toggle"	// set in hudlayout_customization.res
+                            "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"	// set in hudlayout_customization.res
+                            "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"	// set in hudlayout_customization.res
+                            "Toggle_Button"
+                            {
+                                "ControlName"                       "CExButton"
+                                "FieldName"                         "Toggle_Button"
+                                "XPos"                              "cs-0.5"
+                                "YPos"                              "cs-0.5"
+                                "ZPos"                              "20"
+                                "Wide"                              "f0"
+                                "Tall"                              "f0"
+                                "Visible"                           "1"
+                                "Enabled"                           "1"
+                                "ActionSignalLevel"                 "7"
+                                "ProportionalToParent"              "1"
+                                "LabelText"                         ""
+                                "TextAlignment"                     "west"
+                                "Command"                           "engine jh_rocket_trails_toggle; hud_reloadscheme"
+                                "Sound_Depressed"                   "UI/buttonclick.wav"
+                                "PaintBackground"                   "1"
+                                "PaintBorder"                       "0"
+                                "border_default"                    "NoBorder"
+                                "border_armed"                      "BorderSelectionWhite"
+                                "DefaultBGColor_Override"           "Blank"
+                                "ArmedBGColor_Override"             "Button_Hover"
+                                "DepressedBGColor_Override"         "Button_Hover"
+                            }
+                            "Check"
+                            {
+                                "ControlName"                   "CExLabel"
+                                "FieldName"                     "Check"
+                                "XPos"                          "-2"
+                                "YPos"                          "cs-0.5"
+                                "ZPos"                          "21"
+                                "Wide"                          "22"
+                                "Tall"                          "22"
+                                "Visible"                       "0"
+                                "Enabled"                       "1"
+                                "AllCaps"                       "1"
+                                "MouseInputEnabled"             "0"
+                                "ProportionalToParent"          "1"
+                                "Font"                          "HudFontSmall"	// set in hudlayout_customization.res
+                                "LabelText"                     "✔"
+                                "TextAlignment"                 "center"
+                                "Wrap"                          "0"
+                                "FGColor"                       "White"
+                            }
+                            "Setting_Checkbox"	// dummy
+                            {
+                                "ControlName"                   "CvarToggleCheckButton"
+                                "FieldName"                     "Setting_Checkbox"
+                                "XPos"                          "-2"
+                                "YPos"                          "cs-0.5"
+                                "ZPos"                          "21"
+                                "Wide"                          "22"
+                                "Tall"                          "22"
+                                "ProportionalToParent"          "1"
+                                "LabelText"                     ""
+                                "TextAlignment"                 "west"
+                                "SmallCheckImage"               "0"
+                                "button_activation_type"        "1"
+                                "cvar_name"                     ""
+                                "MouseInputEnabled"             "0"
+                            }
+                            "Setting_Label"
+                            {
+                                "ControlName"                   "CExLabel"
+                                "FieldName"                     "Setting_Label"
+                                "XPos"                          "24"
+                                "YPos"                          "cs-0.5"
+                                "ZPos"                          "21"
+                                "Wide"                          "f24"
+                                "Tall"                          "f0"
+                                "Visible"                       "1"
+                                "Enabled"                       "1"
+                                "AllCaps"                       "1"
+                                "MouseInputEnabled"             "0"
+                                "ProportionalToParent"          "1"
+                                "Font"                          "HudFontSmallest"
+                                "LabelText"                     "Draw Rocket Trails"
+                                "TextAlignment"                 "west"
+                                "Wrap"                          "0"
+                                "FGColor"                       "White"
+                            }
+                        }
                     }
                 }
                 // ===============================================================================================================
