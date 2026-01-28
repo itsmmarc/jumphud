@@ -12,7 +12,7 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 ## Installation
 
-1. [Download](https://github.com/itsmmarc/jumphud/releases/download/v2.4.1/jumphud-v2.4.1.zip) the latest version
+1. Download the latest [full release](https://github.com/itsmmarc/jumphud/releases/tag/v2.4.1) or [pre-release](https://github.com/itsmmarc/jumphud/releases/tag/v2.5.0-Pre-Release-3)
 
 2. Unzip the download into `tf/custom`, you can access this folder by right-clicking on Team Fortress 2 in your steam library and selecting `Manage->Browse local files`
 
