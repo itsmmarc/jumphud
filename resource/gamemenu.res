@@ -170,6 +170,13 @@
         "tooltip"           "Load Saved Location"
         "OnlyInGame"        "1"
     }
+    "Saveloc_0"
+    {
+        "label"             "0"
+        "Command"           "engine jh_saveloc_0"
+        "tooltip"           "Select Saveloc 0"
+        "OnlyInGame"        "1"
+    }
     "Saveloc_1"
     {
         "label"             "1"
