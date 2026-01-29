@@ -6,7 +6,7 @@
     "Version"
     {
         "label"             "JUMPHUD v2.5.0 Pre-Release 3"
-        "Command"           "engine showconsole; exec jumphud_versioninfo"
+        "Command"           "engine showconsole; jh_version"
         "OnlyAtMenu"        "1"
     }
     "CasualToggle_Jump"
