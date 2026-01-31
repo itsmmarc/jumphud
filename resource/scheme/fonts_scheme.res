@@ -215,7 +215,8 @@
             "1"
             {
                 "name"              "JumpHUDIcons"
-                "tall"              "24"
+                "tall"              "24" [$WINDOWS]
+                "tall"              "18" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -224,7 +225,8 @@
             "1"
             {
                 "name"              "JumpHUDIcons"
-                "tall"              "28"
+                "tall"              "28" [$WINDOWS]
+                "tall"              "21" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -543,7 +545,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "10" 
+                "tall"              "10" [$WINDOWS]
+                "tall"              "8" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -552,7 +555,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "12" 
+                "tall"              "12" [$WINDOWS]
+                "tall"              "10" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -561,7 +565,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "14" 
+                "tall"              "14" [$WINDOWS]
+                "tall"              "11" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -570,7 +575,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "16" 
+                "tall"              "16" [$WINDOWS]
+                "tall"              "13" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -579,7 +585,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "18" 
+                "tall"              "18" [$WINDOWS]
+                "tall"              "15" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -588,7 +595,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "20" 
+                "tall"              "20" [$WINDOWS]
+                "tall"              "16" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -597,7 +605,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "24" 
+                "tall"              "24" [$WINDOWS]
+                "tall"              "19" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -606,7 +615,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "26" 
+                "tall"              "26" [$WINDOWS]
+                "tall"              "21" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -615,7 +625,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "28" 
+                "tall"              "28" [$WINDOWS]
+                "tall"              "23" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -624,7 +635,8 @@
             "1"
             {
                 "name"              "m0rehud_icons_v13"
-                "tall"              "35" 
+                "tall"              "35" [$WINDOWS]
+                "tall"              "28" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -645,7 +657,8 @@
             "1"
             {
                 "name"              "TF2 Class Icons V3"
-                "tall"              "28" 
+                "tall"              "28" [$WINDOWS]
+                "tall"              "23" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -654,7 +667,8 @@
             "1"
             {
                 "name"              "TF2 Class Icons V3"
-                "tall"              "30" 
+                "tall"              "30" [$WINDOWS]
+                "tall"              "24" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -663,7 +677,8 @@
             "1"
             {
                 "name"              "TF2 Class Icons V3"
-                "tall"              "40" 
+                "tall"              "40" [$WINDOWS]
+                "tall"              "40" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -672,7 +687,8 @@
             "1"
             {
                 "name"              "TF2 Class Icons V3"
-                "tall"              "80" 
+                "tall"              "80" [$WINDOWS]
+                "tall"              "64" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -681,7 +697,8 @@
             "1"
             {
                 "name"              "TF2 Class Icons V3"
-                "tall"              "120" 
+                "tall"              "120" [$WINDOWS]
+                "tall"              "96" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -693,7 +710,8 @@
             "1"
             {
                 "name"              "Hypnotize Icons V8"
-                "tall"              "18" 
+                "tall"              "18" [$WINDOWS]
+                "tall"              "15" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -702,7 +720,8 @@
             "1"
             {
                 "name"              "Hypnotize Icons V8"
-                "tall"              "24" 
+                "tall"              "24" [$WINDOWS]
+                "tall"              "19" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -711,7 +730,8 @@
             "1"
             {
                 "name"              "Hypnotize Icons V8"
-                "tall"              "56" 
+                "tall"              "56" [$WINDOWS]
+                "tall"              "45" [$LINUX]
                 "antialias"         "1"
             }
         }
@@ -720,7 +740,8 @@
             "1"
             {
                 "name"              "Hypnotize Icons V8"
-                "tall"              "80" 
+                "tall"              "80" [$WINDOWS]
+                "tall"              "64" [$LINUX]
                 "antialias"         "1"
             }
         }
