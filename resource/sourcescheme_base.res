@@ -326,46 +326,9 @@
             "1"
 			{
 				"name"		"NK57 Monospace Sc Rg"
-				"Tall"		"13"
+				"Tall"		"16"
 				"weight"	"0"
-                "yres"	    "480 599"
 			}
-            "2" // affects 1440p?
-			{
-				"name"		"NK57 Monospace Sc Rg"
-				"Tall"		"24"
-				"weight"	"0"
-                "yres"	    "600 767"
-                "antialias" "1"
-			}
-            "3" // affects 4k?
-			{
-				"name"		"NK57 Monospace Sc Rg"
-				"Tall"		"32"
-				"weight"	"0"
-                "yres"	    "768 1023"
-			}
-			"4"
-			{
-				"name"		"NK57 Monospace Sc Rg"
-				"Tall"		"14"
-				"weight"	"0"
-                "yres"	    "1024 1199"
-                "antialias" "1"
-			}
-            "5"
-			{
-				"name"		"NK57 Monospace Sc Rg"
-				"Tall"		"18"
-				"weight"	"0"
-                "yres"	    "1200 6000"
-			}
-                //"yres"	"480 599"
-				//"yres"	"600 767"
-				//"yres"	"768 1023"
-				//"yres"	"1024 1199"
-				//"yres"	"1200 6000"
-
 		}
  
 		// this is the symbol font

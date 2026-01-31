@@ -442,42 +442,9 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"tall"										"12"
+				"tall"										"9"
 				"weight"									"700"
-				"yres"										"480 599"
 				"dropshadow"								"1"
-			}
-			"2"
-			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"weight"									"700"
-				"yres"										"600 767"
-				"dropshadow"								"1"
-			}
-			"3"
-			{
-				"name"										"Verdana"
-				"tall"										"15"
-				"weight"									"700"
-				"yres"										"768 1023"
-				"dropshadow"								"1"
-			}
-			"4"
-			{
-				"name"										"Verdana"
-				"tall"										"17"
-				"weight"									"700"
-				"yres"										"1024 1199"
-				"dropshadow"								"1"
-			}
-			"5"
-			{
-				"name"										"Verdana"
-				"tall"										"8"
-				"weight"									"300"
-				"dropshadow"								"1"
-				"antilias"									"1"
 			}
 		}
 	}
