@@ -7,8 +7,7 @@
             "1"
             {
                 "name"										"HandelGothic BT"
-                "tall"										"20" [$WINDOWS]
-                "tall"										"16" [$LINUX]
+                "tall"										"20" 
                 "weight"									"500"
                 "range"										"0x0000 0x007F"
                 "antialias"									"1"
@@ -20,8 +19,7 @@
             "1"
             {
                 "name"										"HandelGothic BT"
-                "tall"										"28" [$WINDOWS]
-                "tall"										"23" [$LINUX]
+                "tall"										"28" 
                 "antialias"									"1"
                 //"dropshadow"								"1"
             }
@@ -31,8 +29,7 @@
             "1"
             {
                 "name"										"HandelGothic BT"
-                "tall"										"16" [$WINDOWS]
-                "tall"										"13" [$LINUX]
+                "tall"										"16" 
                 "antialias"									"1"
                 //"dropshadow"								"1"
             }
@@ -42,8 +39,7 @@
             "1"
             {
                 "name"										"HandelGothic BT"
-                "tall"										"18" [$WINDOWS]
-                "tall"										"15" [$LINUX]
+                "tall"										"18" 
                 "antialias"									"1"
                 //"dropshadow"								"1"
             }
@@ -53,8 +49,7 @@
             "1"
             {
                 "name"										"HandelGothic BT"
-                "tall"										"16" [$WINDOWS]
-                "tall"										"13" [$LINUX]
+                "tall"										"16" 
                 "antialias"									"1"
                 "dropshadow"								"1"
             }
@@ -64,8 +59,7 @@
             "1"
             {
                 "name"										"HandelGothic BT"
-                "tall"										"13" [$WINDOWS]
-                "tall"										"10" [$LINUX]
+                "tall"										"13" 
                 "antialias"									"1"
                 "dropshadow"								"1"
             }
@@ -75,8 +69,7 @@
             "1"
             {
                 "name"										"HandelGothic BT"
-                "tall"										"28" [$WINDOWS]
-                "tall"										"23" [$LINUX]
+                "tall"										"28" 
                 "antialias"									"1"
                 //"dropshadow"								"1"
             }

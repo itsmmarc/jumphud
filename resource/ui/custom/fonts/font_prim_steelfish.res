@@ -7,8 +7,7 @@
             "1"
             {
                 "name"										"Coolvetica Italic"
-                "tall"										"32" [$WINDOWS]
-                "tall"										"26" [$LINUX]
+                "tall"										"32" 
                 "weight"									"400"
                 "additive"									"0"
                 "antialias"									"1"
@@ -19,8 +18,7 @@
             "1"
             {
                 "name"										"Coolvetica Italic"
-                "tall"										"20" [$WINDOWS]
-                "tall"										"16" [$LINUX]
+                "tall"										"20" 
                 "weight"									"400"
                 "additive"									"0"
                 "antialias"									"1"
@@ -31,8 +29,7 @@
         "1"
             {
                 "name"										"Coolvetica Italic"
-                "tall"										"12" [$WINDOWS]
-                "tall"										"10" [$LINUX]
+                "tall"										"12" 
                 "weight"									"0"
                 "additive"									"0"
                 "antialias"									"1"
@@ -47,8 +44,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"32" [$WINDOWS]
-                    "tall"										"26" [$LINUX]
+                    "tall"										"32" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -59,8 +55,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
+                    "tall"										"20" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -71,8 +66,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
+                    "tall"										"16" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -83,8 +77,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"12" [$WINDOWS]
-                    "tall"										"10" [$LINUX]
+                    "tall"										"12" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -95,8 +88,7 @@
             "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"8" [$WINDOWS]
-                    "tall"										"7" [$LINUX]
+                    "tall"										"8" 
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -109,8 +101,7 @@
             "1"
                 {
                     "name"										"Coolvetica Italic"
-                    "tall"										"6" [$WINDOWS]
-                    "tall"										"5" [$LINUX]
+                    "tall"										"6" 
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -122,8 +113,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
+                    "tall"										"16" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -133,8 +123,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
+                    "tall"										"20" 
                     "antialias"									"1"
                 }
             }
@@ -143,8 +132,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"30" [$WINDOWS]
-                    "tall"										"24" [$LINUX]
+                    "tall"										"30" 
                     "antialias"									"1"
                 }
             }
@@ -153,8 +141,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"36" [$WINDOWS]
-                    "tall"										"29" [$LINUX]
+                    "tall"										"36" 
                     "antialias"									"1"
                 }
             }
@@ -163,8 +150,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"48" [$WINDOWS]
-                    "tall"										"39" [$LINUX]
+                    "tall"										"48" 
                     "antialias"									"1"
                 }
             }
@@ -173,8 +159,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
+                    "tall"										"20" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -185,8 +170,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "Tall"										"16" [$WINDOWS]
-                    "Tall"										"13" [$LINUX]
+                    "Tall"										"16" 
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
@@ -197,8 +181,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"10" [$WINDOWS]
-                    "tall"										"8" [$LINUX]
+                    "tall"										"10" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -209,8 +192,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
+                    "tall"										"20" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -221,8 +203,7 @@
             "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"10" [$WINDOWS]
-                    "tall"										"8" [$LINUX]
+                    "tall"										"10" 
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -234,8 +215,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"11" [$WINDOWS]
-                    "tall"										"9" [$LINUX]
+                    "tall"										"11" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -248,8 +228,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
+                    "tall"										"20" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -264,8 +243,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"9" [$WINDOWS]
-                    "tall"										"7" [$LINUX]
+                    "tall"										"9" 
                     "antialias"									"1"
                 }
             }
@@ -274,8 +252,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"10" [$WINDOWS]
-                    "tall"										"8" [$LINUX]
+                    "tall"										"10" 
                     "antialias"									"1"
                 }
             }
@@ -284,8 +261,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"10" [$WINDOWS]
-                    "tall"										"8" [$LINUX]
+                    "tall"										"10" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -295,8 +271,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"11" [$WINDOWS]
-                    "tall"										"9" [$LINUX]
+                    "tall"										"11" 
                     "antialias"									"1"
                 }
             }
@@ -305,8 +280,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"11" [$WINDOWS]
-                    "tall"										"9" [$LINUX]
+                    "tall"										"11" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -316,8 +290,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"12" [$WINDOWS]
-                    "tall"										"10" [$LINUX]
+                    "tall"										"12" 
                     "antialias"									"1"
                 }
             }
@@ -326,8 +299,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"12" [$WINDOWS]
-                    "tall"										"10" [$LINUX]
+                    "tall"										"12" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -337,8 +309,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"14" [$WINDOWS]
-                    "tall"										"11" [$LINUX]
+                    "tall"										"14" 
                     "antialias"									"1"
                 }
             }
@@ -347,8 +318,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"14" [$WINDOWS]
-                    "tall"										"11" [$LINUX]
+                    "tall"										"14" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -358,8 +328,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
+                    "tall"										"16" 
                     "antialias"									"1"
                 }
             }
@@ -368,8 +337,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
+                    "tall"										"16" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -379,8 +347,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
+                    "tall"										"18" 
                     "antialias"									"1"
                 }
             }
@@ -389,8 +356,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
+                    "tall"										"18" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -400,8 +366,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
+                    "tall"										"18" 
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -411,8 +376,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
+                    "tall"										"18" 
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -422,8 +386,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
+                    "tall"										"20" 
                     "antialias"									"1"
                 }
             }
@@ -432,8 +395,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"24" [$WINDOWS]
-                    "tall"										"19" [$LINUX]
+                    "tall"										"24" 
                     "antialias"									"1"
                 }
             }
@@ -442,8 +404,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"24" [$WINDOWS]
-                    "tall"										"19" [$LINUX]
+                    "tall"										"24" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -453,8 +414,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"26" [$WINDOWS]
-                    "tall"										"21" [$LINUX]
+                    "tall"										"26" 
                     "antialias"									"1"
                 }
             }
@@ -463,8 +423,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"30" [$WINDOWS]
-                    "tall"										"24" [$LINUX]
+                    "tall"										"30" 
                     "antialias"									"1"
                 }
             }
@@ -473,8 +432,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"32" [$WINDOWS]
-                    "tall"										"26" [$LINUX]
+                    "tall"										"32" 
                     "antialias"									"1"
                 }
             }
@@ -483,8 +441,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"36" [$WINDOWS]
-                    "tall"										"29" [$LINUX]
+                    "tall"										"36" 
                     "antialias"									"1"
                 }
             }
@@ -493,8 +450,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"48" [$WINDOWS]
-                    "tall"										"39" [$LINUX]
+                    "tall"										"48" 
                     "antialias"									"1"
                 }
             }
@@ -503,8 +459,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"58" [$WINDOWS]
-                    "tall"										"47" [$LINUX]
+                    "tall"										"58" 
                     "antialias"									"1"
                 }
             }
@@ -554,8 +509,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
+                    "tall"										"18" 
                     "weight"									"300"
                     "antialias"									"1"
                     "additive"									"1"
@@ -566,8 +520,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "Tall"										"8" [$WINDOWS]
-                    "Tall"										"7" [$LINUX]
+                    "Tall"										"8" 
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -577,8 +530,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "Tall"										"8" [$WINDOWS]
-                    "Tall"										"7" [$LINUX]
+                    "Tall"										"8" 
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -588,8 +540,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "Tall"										"8" [$WINDOWS]
-                    "Tall"										"7" [$LINUX]
+                    "Tall"										"8" 
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -599,8 +550,7 @@
                 "1"
                 {
                     "name"										"Steelfish ExtBd"
-                    "Tall"										"7" [$WINDOWS]
-                    "Tall"										"6" [$LINUX]
+                    "Tall"										"7" 
                     "weight"									"0"
                     "antialias"									"1"
                 }

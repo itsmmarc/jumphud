@@ -10,8 +10,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                "tall"										"43" [$WINDOWS]
-                "tall"										"35" [$LINUX]
+                "tall"										"43"
                 "weight"									"400"
                 "additive"									"0"
                 "antialias"									"1"
@@ -23,8 +22,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                "tall"										"27" [$WINDOWS]
-                "tall"										"22" [$LINUX]
+                "tall"										"27"
                 "weight"									"400"
                 "additive"									"0"
                 "antialias"									"1"
@@ -36,8 +34,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                "tall"										"16" [$WINDOWS]
-                "tall"										"13" [$LINUX]
+                "tall"										"16"
                 "weight"									"0"
                 "additive"									"0"
                 "antialias"									"1"
@@ -53,8 +50,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"43" [$WINDOWS]
-                    "tall"										"35" [$LINUX]
+                    "tall"										"43"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -66,8 +62,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"27" [$WINDOWS]
-                    "tall"										"22" [$LINUX]
+                    "tall"										"27"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -79,8 +74,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"22" [$WINDOWS]
-                    "tall"										"18" [$LINUX]
+                    "tall"										"22"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -92,8 +86,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
+                    "tall"										"16" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -105,8 +98,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"11" [$WINDOWS]
-                    "tall"										"8" [$LINUX]
+                    "tall"										"11"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -119,8 +111,7 @@
             "1"
                 {
                     "name"		                                "Coolvetica Italic"
-                    "tall"										"6" [$WINDOWS]
-                    "tall"										"5" [$LINUX]
+                    "tall"										"6"
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -133,8 +124,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"22" [$WINDOWS]
-                    "tall"										"18" [$LINUX]
+                    "tall"										"22"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -144,8 +134,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"20" [$WINDOWS]
-                    "tall"										"16" [$LINUX]
+                    "tall"										"20"
                     "antialias"									"1"
                 }
             }
@@ -154,8 +143,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"30" [$WINDOWS]
-                    "tall"										"24" [$LINUX]
+                    "tall"										"30"
                     "antialias"									"1"
                 }
             }
@@ -164,8 +152,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"36" [$WINDOWS]
-                    "tall"										"29" [$LINUX]
+                    "tall"										"36" 
                     "antialias"									"1"
                 }
             }
@@ -174,8 +161,7 @@
                 "1"
                 {
                     "name"										"renogare_soft_regular"
-                    "tall"										"48" [$WINDOWS]
-                    "tall"										"39" [$LINUX]
+                    "tall"										"48" 
                     "antialias"									"1"
                 }
             }
@@ -185,8 +171,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"27" [$WINDOWS]
-                    "tall"										"22" [$LINUX]
+                    "tall"										"27" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -198,8 +183,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "Tall"										"22" [$WINDOWS]
-                    "Tall"										"18" [$LINUX]
+                    "Tall"										"22" 
                     "weight"									"500"
                     "additive"									"0"
                     "antialias"									"1"
@@ -211,8 +195,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"13" [$WINDOWS]
-                    "tall"										"11" [$LINUX]
+                    "tall"										"13"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -224,8 +207,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"27" [$WINDOWS]
-                    "tall"										"22" [$LINUX]
+                    "tall"										"27" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -237,8 +219,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"13" [$WINDOWS]
-                    "tall"										"11" [$LINUX]
+                    "tall"										"13" 
                     "weight"									"0"
                     "additive"									"0"
                     "antialias"									"1"
@@ -251,8 +232,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"15" [$WINDOWS]
-                    "tall"										"12" [$LINUX]
+                    "tall"										"15"
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -266,8 +246,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"27" [$WINDOWS]
-                    "tall"										"22" [$LINUX]
+                    "tall"										"27" 
                     "weight"									"400"
                     "additive"									"0"
                     "antialias"									"1"
@@ -283,8 +262,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"12" [$WINDOWS]
-                    "tall"										"9" [$LINUX]
+                    "tall"										"12"
                     "antialias"									"1"
                 }
             }
@@ -294,8 +272,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"13" [$WINDOWS]
-                    "tall"										"11" [$LINUX]
+                    "tall"										"13"
                     "antialias"									"1"
                 }
             }
@@ -305,8 +282,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"13" [$WINDOWS]
-                    "tall"										"11" [$LINUX]
+                    "tall"										"13"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -317,8 +293,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"15" [$WINDOWS]
-                    "tall"										"12" [$LINUX]
+                    "tall"										"15"
                     "antialias"									"1"
                 }
             }
@@ -328,8 +303,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"15" [$WINDOWS]
-                    "tall"										"12" [$LINUX]
+                    "tall"										"15"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -340,8 +314,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
+                    "tall"										"16" 
                     "antialias"									"1"
                 }
             }
@@ -351,8 +324,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"16" [$WINDOWS]
-                    "tall"										"13" [$LINUX]
+                    "tall"										"16" 
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -363,8 +335,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
+                    "tall"										"18" 
                     "antialias"									"1"
                 }
             }
@@ -374,8 +345,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
+                    "tall"										"18"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -386,8 +356,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"21" [$WINDOWS]
-                    "tall"										"17" [$LINUX]
+                    "tall"										"21"
                     "antialias"									"1"
                 }
             }
@@ -397,8 +366,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"21" [$WINDOWS]
-                    "tall"										"17" [$LINUX]
+                    "tall"										"21"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -409,8 +377,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"18" [$WINDOWS]
-                    "tall"										"15" [$LINUX]
+                    "tall"										"18"
                     "antialias"									"1"
                 }
             }
@@ -420,8 +387,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"24" [$WINDOWS]
-                    "tall"										"20" [$LINUX]
+                    "tall"										"24"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -432,8 +398,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"24" [$WINDOWS]
-                    "tall"										"20" [$LINUX]
+                    "tall"										"24" 
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -444,8 +409,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"24" [$WINDOWS]
-                    "tall"										"20" [$LINUX]
+                    "tall"										"24" 
                     "antialias"									"1"
                     "outline"									"1"
                 }
@@ -456,8 +420,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"27" [$WINDOWS]
-                    "tall"										"22" [$LINUX]
+                    "tall"										"27" 
                     "antialias"									"1"
                 }
             }
@@ -467,8 +430,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"32" [$WINDOWS]
-                    "tall"										"25" [$LINUX]
+                    "tall"										"32" 
                     "antialias"									"1"
                 }
             }
@@ -478,8 +440,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"32" [$WINDOWS]
-                    "tall"										"25" [$LINUX]
+                    "tall"										"32"
                     "antialias"									"1"
                     "dropshadow"								"1"
                 }
@@ -490,8 +451,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"35" [$WINDOWS]
-                    "tall"										"28" [$LINUX]
+                    "tall"										"35" 
                     "antialias"									"1"
                 }
             }
@@ -501,8 +461,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"40" [$WINDOWS]
-                    "tall"										"32" [$LINUX]
+                    "tall"										"40"
                     "antialias"									"1"
                 }
             }
@@ -512,8 +471,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"43" [$WINDOWS]
-                    "tall"										"35" [$LINUX]
+                    "tall"										"43" 
                     "antialias"									"1"
                 }
             }
@@ -523,8 +481,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"48" [$WINDOWS]
-                    "tall"										"39" [$LINUX]
+                    "tall"										"48"
                     "antialias"									"1"
                 }
             }
@@ -534,8 +491,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"64" [$WINDOWS]
-                    "tall"										"52" [$LINUX]
+                    "tall"										"64"
                     "antialias"									"1"
                 }
             }
@@ -545,8 +501,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"77" [$WINDOWS]
-                    "tall"										"63" [$LINUX]
+                    "tall"										"77"
                     "antialias"									"1"
                 }
             }
@@ -601,8 +556,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "tall"										"24" [$WINDOWS]
-                    "tall"										"19" [$LINUX]
+                    "tall"										"24" 
                     "weight"									"300"
                     "antialias"									"1"
                     "additive"									"1"
@@ -614,8 +568,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "Tall"										"11" [$WINDOWS]
-                    "Tall"										"9" [$LINUX]
+                    "Tall"										"11" 
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -626,8 +579,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "Tall"										"11" [$WINDOWS]
-                    "Tall"										"9" [$LINUX]
+                    "Tall"										"11"
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -638,8 +590,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "Tall"										"11" [$WINDOWS]
-                    "Tall"										"9" [$LINUX]
+                    "Tall"										"11" 
                     "weight"									"0"
                     "antialias"									"1"
                 }
@@ -650,8 +601,7 @@
                 {
                     "name"		"Poppins Black Italic" [$WINDOWS]
                     "name"		"Poppins" [$LINUX]
-                    "Tall"										"9" [$WINDOWS]
-                    "Tall"										"7" [$LINUX]
+                    "Tall"										"9" 
                     "weight"									"0"
                     "antialias"									"1"
                 }
