@@ -384,6 +384,17 @@
                                     "Font"              "HudFontSmall"
                                 }
                             }
+                            "Mirror_World_Toggle"
+                            {
+                                "Pin_To_Sibling"                "Rocket_Trails_Toggle"
+                                "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
+                                "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
+                                "Check"
+                                {
+                                    "Visible"           "0"
+                                    "Font"              "HudFontSmall"
+                                }
+                            }
                         }
                     }
                 }
