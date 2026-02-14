@@ -16,6 +16,7 @@
 "#base"         "../../../cfg/jumphud/jh_water_particles_check.txt"
 "#base"         "../../../cfg/jumphud/jh_rocket_trails_check.txt"
 "#base"         "../../../cfg/jumphud/jh_mirrorworld_check.txt"
+"#base"         "../../../cfg/jumphud/jh_shader_mirrorworld_menu.txt"
 "#base"         "../../../cfg/jumphud/jh_customization_submenu.txt"
 "#base"         "../../../cfg/jumphud/jh_customization_menu.txt"
 "#base"         "layouts/hudlayout_customization.res"
