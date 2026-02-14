@@ -369,7 +369,7 @@
                                 "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
                                 "Check"
                                 {
-                                    "Visible"           "0"
+                                    "Visible"           "1"
                                     "Font"              "HudFontSmall"
                                 }
                             }
@@ -380,7 +380,7 @@
                                 "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
                                 "Check"
                                 {
-                                    "Visible"           "0"
+                                    "Visible"           "1"
                                     "Font"              "HudFontSmall"
                                 }
                             }
