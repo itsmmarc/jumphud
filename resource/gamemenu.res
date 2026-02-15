@@ -391,7 +391,7 @@
     }
     "ShowTriggers"
     {
-        "label"             "|"
+        "label"             "@"
         "Command"           "engine sm_showtriggers"
         "tooltip"           "Toggle Show Triggers"
         "OnlyInGame"        "1"
@@ -412,7 +412,7 @@
     }
     "Clear_Sprays"
     {
-        "label"             "D"
+        "label"             "E"
         "command"           "engine r_cleardecals permanent"
         "tooltip"           "Clear Sprays"
         "OnlyInGame"        "1"
