@@ -173,84 +173,161 @@
     {
         "label"             "e"
         "Command"           "engine jh_tele"
-        "tooltip"           "Load Saved Location"
+        "tooltip"           "Teleport to Saved Location"
         "OnlyInGame"        "1"
     }
-    "Saveloc_0"
+    "Save_0"
     {
         "label"             "0"
-        "Command"           "engine jh_saveloc_0"
-        "tooltip"           "Select Saveloc 0"
+        "Command"           "engine jh_Save_0"
+        "tooltip"           "Select Save 0"
         "OnlyInGame"        "1"
     }
-    "Saveloc_1"
+    "Save_1"
     {
         "label"             "1"
-        "Command"           "engine jh_saveloc_1"
-        "tooltip"           "Select Saveloc 1"
+        "Command"           "engine jh_Save_1"
+        "tooltip"           "Select Save 1"
         "OnlyInGame"        "1"
     }
-    "Saveloc_2"
+    "Save_2"
     {
         "label"             "2"
-        "Command"           "engine jh_saveloc_2"
-        "tooltip"           "Select Saveloc 2"
+        "Command"           "engine jh_Save_2"
+        "tooltip"           "Select Save 2"
         "OnlyInGame"        "1"
     }
-    "Saveloc_3"
+    "Save_3"
     {
         "label"             "3"
-        "Command"           "engine jh_saveloc_3"
-        "tooltip"           "Select Saveloc 3"
+        "Command"           "engine jh_Save_3"
+        "tooltip"           "Select Save 3"
         "OnlyInGame"        "1"
     }
-    "Saveloc_4"
+    "Save_4"
     {
         "label"             "4"
-        "Command"           "engine jh_saveloc_4"
-        "tooltip"           "Select Saveloc 4"
+        "Command"           "engine jh_Save_4"
+        "tooltip"           "Select Save 4"
         "OnlyInGame"        "1"
     }
-    "Saveloc_5"
+    "Save_5"
     {
         "label"             "5"
-        "Command"           "engine jh_saveloc_5"
-        "tooltip"           "Select Saveloc 5"
+        "Command"           "engine jh_Save_5"
+        "tooltip"           "Select Save 5"
         "OnlyInGame"        "1"
     }
-    "Saveloc_6"
+    "Save_6"
     {
         "label"             "6"
-        "Command"           "engine jh_saveloc_6"
-        "tooltip"           "Select Saveloc 6"
+        "Command"           "engine jh_Save_6"
+        "tooltip"           "Select Save 6"
         "OnlyInGame"        "1"
     }
-    "Saveloc_7"
+    "Save_7"
     {
         "label"             "7"
-        "Command"           "engine jh_saveloc_7"
-        "tooltip"           "Select Saveloc 7"
+        "Command"           "engine jh_Save_7"
+        "tooltip"           "Select Save 7"
         "OnlyInGame"        "1"
     }
-    "Saveloc_8"
+    "Save_8"
     {
         "label"             "8"
-        "Command"           "engine jh_saveloc_8"
-        "tooltip"           "Select Saveloc 8"
+        "Command"           "engine jh_Save_8"
+        "tooltip"           "Select Save 8"
         "OnlyInGame"        "1"
     }
-    "Saveloc_9"
+    "Save_9"
     {
         "label"             "9"
-        "Command"           "engine jh_saveloc_9"
-        "tooltip"           "Select Saveloc 9"
+        "Command"           "engine jh_Save_9"
+        "tooltip"           "Select Save 9"
         "OnlyInGame"        "1"
     }
-    "Saveloc_10"
+    "Save_10"
     {
         "label"             "10"
-        "Command"           "engine jh_saveloc_10"
-        "tooltip"           "Select Saveloc 10"
+        "Command"           "engine jh_Save_10"
+        "tooltip"           "Select Save 10"
+        "OnlyInGame"        "1"
+    }
+    "Load_0"
+    {
+        "label"             "0"
+        "Command"           "engine jh_Tele_0"
+        "tooltip"           "Select Tele 0"
+        "OnlyInGame"        "1"
+    }
+    "Load_1"
+    {
+        "label"             "1"
+        "Command"           "engine jh_Tele_1"
+        "tooltip"           "Select Tele 1"
+        "OnlyInGame"        "1"
+    }
+    "Load_2"
+    {
+        "label"             "2"
+        "Command"           "engine jh_Tele_2"
+        "tooltip"           "Select Tele 2"
+        "OnlyInGame"        "1"
+    }
+    "Load_3"
+    {
+        "label"             "3"
+        "Command"           "engine jh_Tele_3"
+        "tooltip"           "Select Tele 3"
+        "OnlyInGame"        "1"
+    }
+    "Load_4"
+    {
+        "label"             "4"
+        "Command"           "engine jh_Tele_4"
+        "tooltip"           "Select Tele 4"
+        "OnlyInGame"        "1"
+    }
+    "Load_5"
+    {
+        "label"             "5"
+        "Command"           "engine jh_Tele_5"
+        "tooltip"           "Select Tele 5"
+        "OnlyInGame"        "1"
+    }
+    "Load_6"
+    {
+        "label"             "6"
+        "Command"           "engine jh_Tele_6"
+        "tooltip"           "Select Tele 6"
+        "OnlyInGame"        "1"
+    }
+    "Load_7"
+    {
+        "label"             "7"
+        "Command"           "engine jh_Tele_7"
+        "tooltip"           "Select Tele 7"
+        "OnlyInGame"        "1"
+    }
+    "Load_8"
+    {
+        "label"             "8"
+        "Command"           "engine jh_Tele_8"
+        "tooltip"           "Select Tele 8"
+        "OnlyInGame"        "1"
+    }
+    "Load_9"
+    {
+        "label"             "9"
+        "Command"           "engine jh_Tele_9"
+        "tooltip"           "Select Tele 9"
+        "OnlyInGame"        "1"
+    }
+    "Load_10"
+    {
+        "label"             "10"
+        "Command"           "engine jh_Tele_10"
+        "tooltip"           "Select Tele 10"
         "OnlyInGame"        "1"
     }
     // Speedos
