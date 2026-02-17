@@ -2,18 +2,18 @@
 // TEXTURE
 //--------------------------------------------------------------
 #base ../../../../../../../../cfg/jumphud/jh_font_speedo.txt
-#base ../../../s/fonts/coolvetica_italic/digits.vmt   // default
+#base ../../../../../../speedo/fonts/coolvetica_italic.vmt   // default
 
 //==============================================================
 // COLORS
 //--------------------------------------------------------------
-#base ../../../s/colors/ranges/heighto_ranges.vmt
-#base ../../../s/colors/heighto_colors_default.vmt
+#base ../../../../../../speedo/colors/ranges/heighto_ranges.vmt
+#base ../../../../../../speedo/colors/heighto_colors_default.vmt
 //==============================================================
 // CONSTANTS
 //--------------------------------------------------------------
-#base ../../../s/const/rounding.vmt
-#base ../../../s/const/constantNumbers.vmt
+#base ../../../../../../speedo/const/rounding.vmt
+#base ../../../../../../speedo/const/constantNumbers.vmt
 //==============================================================
 // HEIGHTO CALCULATION, ROUNDING, COLORS, & DIGIT SEPERATION
 //--------------------------------------------------------------
