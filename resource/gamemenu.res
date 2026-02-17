@@ -162,6 +162,13 @@
         "tooltip"           ""
         "OnlyInGame"        "1"
     }
+    "DropDownIcon_Saveloc"
+    {
+        "label"             "u"
+        "Command"           "engine"
+        "tooltip"           ""
+        "OnlyInGame"        "1"
+    }
     "SaveLocation"
     {
         "label"             "a"
@@ -352,6 +359,13 @@
         "tooltip"           ""
         "OnlyInGame"        "1"
     }
+    "DropDownIcon_Speedos"
+    {
+        "label"             "u"
+        "Command"           "engine"
+        "tooltip"           ""
+        "OnlyInGame"        "1"
+    }
     "SoldierSpeedo"
     {
         "label"             "N"
@@ -427,6 +441,13 @@
     "TitleLabel_Util"
     {
         "label"             ""
+        "Command"           "engine"
+        "tooltip"           ""
+        "OnlyInGame"        "1"
+    }
+    "DropDownIcon_Util"
+    {
+        "label"             "u"
         "Command"           "engine"
         "tooltip"           ""
         "OnlyInGame"        "1"
