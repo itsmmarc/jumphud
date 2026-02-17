@@ -38,7 +38,7 @@
                 "xpos"			"rs1"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph00"
+                "image"			"../speedo/graph/v/graph00"
                 "proportionaltoparent"	"1"
             }
             
@@ -48,7 +48,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph01"
+                "image"			"../speedo/graph/v/graph01"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -62,7 +62,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph02"
+                "image"			"../speedo/graph/v/graph02"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -76,7 +76,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph03"
+                "image"			"../speedo/graph/v/graph03"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -90,7 +90,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph04"
+                "image"			"../speedo/graph/v/graph04"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -104,7 +104,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph05"
+                "image"			"../speedo/graph/v/graph05"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -118,7 +118,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph06"
+                "image"			"../speedo/graph/v/graph06"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -132,7 +132,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph07"
+                "image"			"../speedo/graph/v/graph07"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -146,7 +146,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph08"
+                "image"			"../speedo/graph/v/graph08"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -160,7 +160,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph09"
+                "image"			"../speedo/graph/v/graph09"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -174,7 +174,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph10"
+                "image"			"../speedo/graph/v/graph10"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -188,7 +188,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph11"
+                "image"			"../speedo/graph/v/graph11"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -202,7 +202,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph12"
+                "image"			"../speedo/graph/v/graph12"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -216,7 +216,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph13"
+                "image"			"../speedo/graph/v/graph13"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -230,7 +230,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph14"
+                "image"			"../speedo/graph/v/graph14"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -244,7 +244,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph15"
+                "image"			"../speedo/graph/v/graph15"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -258,7 +258,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph16"
+                "image"			"../speedo/graph/v/graph16"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -272,7 +272,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph17"
+                "image"			"../speedo/graph/v/graph17"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -286,7 +286,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph18"
+                "image"			"../speedo/graph/v/graph18"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -300,7 +300,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph19"
+                "image"			"../speedo/graph/v/graph19"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -314,7 +314,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph20"
+                "image"			"../speedo/graph/v/graph20"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -328,7 +328,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph21"
+                "image"			"../speedo/graph/v/graph21"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -342,7 +342,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph22"
+                "image"			"../speedo/graph/v/graph22"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -356,7 +356,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph23"
+                "image"			"../speedo/graph/v/graph23"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -370,7 +370,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph24"
+                "image"			"../speedo/graph/v/graph24"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -384,7 +384,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph25"
+                "image"			"../speedo/graph/v/graph25"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -398,7 +398,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph26"
+                "image"			"../speedo/graph/v/graph26"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -412,7 +412,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph27"
+                "image"			"../speedo/graph/v/graph27"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -426,7 +426,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph28"
+                "image"			"../speedo/graph/v/graph28"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -440,7 +440,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph29"
+                "image"			"../speedo/graph/v/graph29"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -454,7 +454,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph30"
+                "image"			"../speedo/graph/v/graph30"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -468,7 +468,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph31"
+                "image"			"../speedo/graph/v/graph31"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -482,7 +482,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph32"
+                "image"			"../speedo/graph/v/graph32"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -496,7 +496,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph33"
+                "image"			"../speedo/graph/v/graph33"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -510,7 +510,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph34"
+                "image"			"../speedo/graph/v/graph34"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -524,7 +524,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph35"
+                "image"			"../speedo/graph/v/graph35"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -538,7 +538,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph36"
+                "image"			"../speedo/graph/v/graph36"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -552,7 +552,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph37"
+                "image"			"../speedo/graph/v/graph37"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -566,7 +566,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph38"
+                "image"			"../speedo/graph/v/graph38"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -580,7 +580,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph39"
+                "image"			"../speedo/graph/v/graph39"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
@@ -594,7 +594,7 @@
                 "xpos"			"0"
                 "wide"			"p0.034"
                 "tall"			"f0"
-                "image"			"replay/thumbnails/speedo_g/v/graph40"
+                "image"			"../speedo/graph/v/graph40"
                 "visible"		"1"
                 "proportionaltoparent"	"1"
 
