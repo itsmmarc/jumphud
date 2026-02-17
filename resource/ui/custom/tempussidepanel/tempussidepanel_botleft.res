@@ -1,7 +1,8 @@
-"HudLayout"{
-    "HudHintKeyDisplay" // tempus side panel
+"HudLayout"
+{
+    "HudHintKeyDisplay"	// tempus side panel
     {
-        "XPos"										"10"
-        "YPos"										"rs1-10"
+        "XPos"          "5"
+        "YPos"          "rs1-5"
     }
 }
