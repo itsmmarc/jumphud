@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "vgui/replay/thumbnails/custom/teamstatus/teamstatus_names"
-    "$vertexalpha"			"1"
-	"$alpha"				"1"
-	"$translucent"			"1"
-	"$vertexcolor"			"1"
-}

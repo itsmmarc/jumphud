@@ -38,13 +38,13 @@ Use the following aliases to bind your movement & attack keys for skeys to funct
 
 ## Pipe Timer Binds
 
-Use the following aliases to bind your attack & weapon slot keys for the pipe timer to function. _Due to limitations with TF2's code `jh_pt_qs` will not exit the taunt/disguise menus._
+Use the following aliases to bind your attack & weapon slot keys for the pipe timer to function. _Due to limitations with TF2's code `jh_lastinv` will not exit the taunt/disguise menus._
 
 - +jh_attack // Attack
 - jh_slot1 // Equip Primary
 - jh_slot2 // Equip Secondary
 - jh_slot3 // Equip Melee
-- jh_pt_qs // Equip Last Used Weapon
+- jh_lastinv // Equip Last Used Weapon
 
 ## Save Location Binds
 
@@ -112,7 +112,7 @@ jh_speedos_off
 jh_bspeedos_toggle_on
 hud_reloadscheme
 
-bind q jh_pt_qs
+bind q jh_lastinv
 bind mouse2 +jh_attack2
 ```
 
@@ -149,7 +149,7 @@ bind ctrl +jh_duck
 bind 1 jh_slot1
 bind 2 jh_slot2
 bind 3 jh_slot3
-bind q jh_pt_qs
+bind q jh_lastinv
 bind r sm_restart
 bind b sm_bcheck
 ```

@@ -1,7 +1,8 @@
-"speedo_base.res"{
+"speedo_base.res"
+{
     "skeys_container"
     {
-        xpos    rs1-15
-        ypos    10
+        "xpos"          "rs1-5"
+        "ypos"          "5"
     }
 }

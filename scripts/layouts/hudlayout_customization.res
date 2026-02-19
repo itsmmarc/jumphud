@@ -7,6 +7,33 @@
     {
         "ControlName"           "CHudMainMenuOverride"
         "Enabled"               "1"
+        "CustomShaderOverlay"
+        {
+            "ControlName"                   "EditablePanel"
+            "FieldName"                     "CustomShaderOverlay"
+            "xpos"                          "0"
+            "ypos"                          "0"
+            "zpos"                          "-10000"
+            "wide"                          "f0"
+            "tall"                          "480"
+            "proportionaltoparent"          "1"
+            "Visible"                       "1"
+            "MouseInputEnabled"             "0"
+            "SubButton"
+            {
+                "FieldName"             "SubButton"
+                "ControlName"           "ImagePanel"
+                "xpos"                  "0"
+                "ypos"                  "0"
+                "zpos"                  "-10000"
+                "wide"                  "f0"
+                "tall"                  "480"
+                "scaleimage"            "1"
+                "image"                 "replay/thumbnails/shaders/flipy"
+                "visible"               "0"
+                "enabled"               "1"
+            }
+        }
         "SafeMode"
         {
             "Customizations_Panel"
@@ -369,13 +396,24 @@
                                 "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
                                 "Check"
                                 {
-                                    "Visible"           "0"
+                                    "Visible"           "1"
                                     "Font"              "HudFontSmall"
                                 }
                             }
                             "Rocket_Trails_Toggle"
                             {
                                 "Pin_To_Sibling"                "Water_Particles_Toggle"
+                                "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
+                                "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
+                                "Check"
+                                {
+                                    "Visible"           "1"
+                                    "Font"              "HudFontSmall"
+                                }
+                            }
+                            "Mirror_World_Toggle"
+                            {
+                                "Pin_To_Sibling"                "Rocket_Trails_Toggle"
                                 "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
                                 "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
                                 "Check"

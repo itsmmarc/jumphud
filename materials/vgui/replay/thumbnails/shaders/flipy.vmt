@@ -1,0 +1,9 @@
+screenspace_general
+{
+	$pixshader "flipy_ps20b"
+	$basetexture "_rt_FullFrameFB1"
+
+	$x360appchooser 1
+	$copyalpha 1
+	$ignorez 1
+}
