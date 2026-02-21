@@ -310,7 +310,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "12" 
+                "tall"              "12"
                 "antialias"         "1"
             }
         }
@@ -319,7 +319,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "12" 
+                "tall"              "12"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -329,7 +329,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "14" 
+                "tall"              "14"
                 "antialias"         "1"
             }
         }
@@ -338,7 +338,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "14" 
+                "tall"              "14"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -348,7 +348,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "16" 
+                "tall"              "16"
                 "antialias"         "1"
             }
         }
@@ -357,7 +357,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "16" 
+                "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -367,7 +367,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "18" 
+                "tall"              "18"
                 "antialias"         "1"
             }
         }
@@ -376,7 +376,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "18" 
+                "tall"              "18"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -386,7 +386,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "18" 
+                "tall"              "18"
                 "antialias"         "1"
                 "outline"           "1"
             }
@@ -396,7 +396,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "18" 
+                "tall"              "18"
                 "antialias"         "1"
                 "outline"           "1"
             }
@@ -406,7 +406,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "20" 
+                "tall"              "20"
                 "antialias"         "1"
             }
         }
@@ -415,7 +415,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "24" 
+                "tall"              "24"
                 "antialias"         "1"
             }
         }
@@ -424,7 +424,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "24" 
+                "tall"              "24"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -434,7 +434,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "26" 
+                "tall"              "26"
                 "antialias"         "1"
             }
         }
@@ -443,7 +443,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "30" 
+                "tall"              "30"
                 "antialias"         "1"
             }
         }
@@ -452,7 +452,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "32" 
+                "tall"              "32"
                 "antialias"         "1"
             }
         }
@@ -461,7 +461,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "36" 
+                "tall"              "36"
                 "antialias"         "1"
             }
         }
@@ -470,7 +470,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "48" 
+                "tall"              "48"
                 "antialias"         "1"
             }
         }
@@ -479,7 +479,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "58" 
+                "tall"              "58"
                 "antialias"         "1"
             }
         }
@@ -945,7 +945,7 @@
             "1"
             {
                 "name"              "coolvetica_italic_mono"
-                "tall"              "18" 
+                "tall"              "18"
                 "weight"            "300"
                 "antialias"         "1"
                 "additive"          "1"
@@ -1758,7 +1758,7 @@
             "1"
             {
                 "name"              "coolvetica_rg_bold"
-                "tall"              "10" 
+                "tall"              "10"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -1769,7 +1769,7 @@
             "1"
             {
                 "name"              "coolvetica_rg_bold"
-                "tall"              "14" 
+                "tall"              "14"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"
                 "antialias"         "1"
@@ -1781,7 +1781,7 @@
             "1"
             {
                 "name"              "Steelfish"
-                "tall"              "20" 
+                "tall"              "20"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"
                 "antialias"         "1"
@@ -1793,7 +1793,7 @@
             "1"
             {
                 "name"              "coolvetica_rg_bold"
-                "tall"              "20" 
+                "tall"              "20"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"
                 "antialias"         "1"
@@ -1978,7 +1978,7 @@
             "1"
             {
                 "name"              "Steelfish"
-                "tall"              "28" 
+                "tall"              "28"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -1988,7 +1988,7 @@
             "1"
             {
                 "name"              "Steelfish"
-                "tall"              "16" 
+                "tall"              "16"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -1998,7 +1998,7 @@
             "1"
             {
                 "name"              "Steelfish"
-                "tall"              "18" 
+                "tall"              "18"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -2008,7 +2008,7 @@
             "1"
             {
                 "name"              "Steelfish ExtBd"
-                "tall"              "16" 
+                "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -2018,7 +2018,7 @@
             "1"
             {
                 "name"              "Steelfish"
-                "tall"              "13" 
+                "tall"              "13"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -2028,7 +2028,7 @@
             "1"
             {
                 "name"              "Steelfish"
-                "tall"              "28" 
+                "tall"              "28"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -2603,7 +2603,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "Tall"              "8" 
+                "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
             }
@@ -2613,7 +2613,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "Tall"              "8" 
+                "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
             }
@@ -2623,7 +2623,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "Tall"              "8" 
+                "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
             }
@@ -2633,7 +2633,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "Tall"              "7" 
+                "Tall"              "7"
                 "weight"            "0"
                 "antialias"         "1"
             }
@@ -2642,7 +2642,7 @@
         {
             "1"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "10"
                 "weight"            "400"
@@ -2652,7 +2652,7 @@
             }
             "2"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "14"
                 "weight"            "400"
@@ -2662,7 +2662,7 @@
             }
             "3"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "18"
                 "weight"            "400"
@@ -2675,7 +2675,7 @@
         {
             "1"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "10"
                 "weight"            "800"
@@ -2685,7 +2685,7 @@
             }
             "2"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "14"
                 "weight"            "800"
@@ -2695,7 +2695,7 @@
             }
             "3"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "18"
                 "weight"            "800"
@@ -2708,7 +2708,7 @@
         {
             "1"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "16"
                 "weight"            "400"
@@ -3145,7 +3145,7 @@
         {
             "1"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "7"
                 "weight"            "0"
@@ -3158,7 +3158,7 @@
         {
             "1"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "7"
                 "weight"            "400"
@@ -3170,7 +3170,7 @@
         {
             "1"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "10"
                 "weight"            "400"
@@ -3182,7 +3182,7 @@
         {
             "1"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "14"
                 "weight"            "400"
@@ -3194,7 +3194,7 @@
         {
             "1"
             {
-                "name"              "OCR A Extended" 
+                "name"              "OCR A Extended"
                 "name"              "coolvetica_rg_bold"
                 "Tall"              "30"
                 "weight"            "400"

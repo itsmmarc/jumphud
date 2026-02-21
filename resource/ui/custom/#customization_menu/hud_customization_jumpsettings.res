@@ -2870,9 +2870,10 @@
                                 "AllCaps"                       "1"
                                 "MouseInputEnabled"             "0"
                                 "ProportionalToParent"          "1"
-                                "Font"                          "HudFontSmall"	// set in hudlayout_customization.res
-                                "LabelText"                     "✔"
-                                "TextAlignment"                 "center"
+                                "Font"                          "Marlett"	// set in hudlayout_customization.res
+                                "LabelText"                     "b"
+                                "TextAlignment"                 "east"
+                                "textinsetx"                    "1"
                                 "Wrap"                          "0"
                                 "FGColor"                       "White"
                             }
@@ -2969,9 +2970,10 @@
                                 "AllCaps"                       "1"
                                 "MouseInputEnabled"             "0"
                                 "ProportionalToParent"          "1"
-                                "Font"                          "HudFontSmall"	// set in hudlayout_customization.res
-                                "LabelText"                     "✔"
-                                "TextAlignment"                 "center"
+                                "Font"                          "Marlett"	// set in hudlayout_customization.res
+                                "LabelText"                     "b"
+                                "TextAlignment"                 "east"
+                                "textinsetx"                    "1"
                                 "Wrap"                          "0"
                                 "FGColor"                       "White"
                             }
@@ -3068,9 +3070,10 @@
                                 "AllCaps"                       "1"
                                 "MouseInputEnabled"             "0"
                                 "ProportionalToParent"          "1"
-                                "Font"                          "HudFontSmall"	// set in hudlayout_customization.res
-                                "LabelText"                     "✔"
-                                "TextAlignment"                 "center"
+                                "Font"                          "Marlett"	// set in hudlayout_customization.res
+                                "LabelText"                     "b"
+                                "TextAlignment"                 "east"
+                                "textinsetx"                    "1"
                                 "Wrap"                          "0"
                                 "FGColor"                       "White"
                             }
