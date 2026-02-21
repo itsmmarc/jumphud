@@ -1,10 +1,7 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "WoodL"
-	"$decal" 1
-	"$decalscale" 0.5
-	"$translucent" 1
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
- 	"%keywords" "tf"
+        "$basetexture"                          "wood/wall007a"
+        "$decal"                                "1"
+        "$decalscale"                           "4"
+        "$basetexturetransform"                 "center .5 .5 scale 8 8 rotate 0 translate 0 0"
 }

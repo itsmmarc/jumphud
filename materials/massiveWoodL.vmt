@@ -1,9 +1,9 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "massiveWoodL"
-	"$decal" 1
-	"$translucent" 1
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
- 	"%keywords" "tf"
+        "$basetexture"                  "wood/wall007a"
+        "$decal"                        "1"
+        "$translucent"                  "1"
+        "$vertexcolor"                  "1"
+        "$vertexalpha"                  "1"
+        "%keywords"                     "tf"
 }

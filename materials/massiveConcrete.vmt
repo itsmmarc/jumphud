@@ -1,11 +1,8 @@
 // modified version of concretefloor006
 "LightmappedGeneric"
 {
-        "$basetexture"                  "massiveConcrete"
-        "$decal"                        "1"
-        "$decalscale"                   "0.5"
-        "$translucent"                  "1"
-        "$vertexcolor"                  "1"
-        "$vertexalpha"                  "1"
-        "%keywords"                     "tf"
+        "$basetexture"                          "concrete"
+        "$decal"                                "1"
+        "$decalscale"                           "8"
+        "$basetexturetransform"                 "center .5 .5 scale 16 16 rotate 0 translate 0 0"
 }
