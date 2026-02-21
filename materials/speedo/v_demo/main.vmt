@@ -16,7 +16,7 @@
 // ==============================================================
 // CONSTANTS
 // --------------------------------------------------------------
-"#base"         "../../../../cfg/jumphud/jh_speedo_d_rounding.txt"
+"#base"         "../../../../../cfg/jumphud/jh_speedo_d_rounding.txt"
 "#base"         "../const/rounding.vmt"
 "#base"         "../const/constantNumbers.vmt"
 // ==============================================================
