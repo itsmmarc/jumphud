@@ -1,8 +1,8 @@
 // ==============================================================
 // TEXTURE
 // --------------------------------------------------------------
-"#base"                 "../../../../../../../cfg/jumphud/jh_font_speedo.txt"
-"#base"                 "../../vgui/replay/thumbnails/s/fonts/coolvetica_italic/digits.vmt"	// default
+"#base"                 "../../../../cfg/jumphud/jh_font_speedo.txt"
+"#base"                 "../fonts/coolvetica_italic.vmt"	// default
 // ==============================================================
 // COLORS
 // --------------------------------------------------------------
