@@ -6,8 +6,8 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
-                "tall"              "20" 
+                "name"              "Minecraft"
+                "tall"              "20"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"
                 "antialias"         "1"
@@ -18,8 +18,8 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
-                "tall"              "28" 
+                "name"              "Minecraft"
+                "tall"              "28"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -28,8 +28,8 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
-                "tall"              "16" 
+                "name"              "Minecraft"
+                "tall"              "16"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -38,8 +38,8 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
-                "tall"              "18" 
+                "name"              "Minecraft"
+                "tall"              "18"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -48,8 +48,8 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
-                "tall"              "16" 
+                "name"              "Minecraft"
+                "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -58,8 +58,8 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
-                "tall"              "13" 
+                "name"              "Minecraft"
+                "tall"              "13"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -68,8 +68,8 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
-                "tall"              "28" 
+                "name"              "Minecraft"
+                "tall"              "28"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -78,7 +78,7 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
+                "name"              "Minecraft"
                 "Tall"              "28"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -88,7 +88,7 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
+                "name"              "Minecraft"
                 "Tall"              "28"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -98,7 +98,7 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
+                "name"              "Minecraft"
                 "Tall"              "36"
                 "weight"            "500"
                 "additive"          "0"
@@ -109,7 +109,7 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
+                "name"              "Minecraft"
                 "Tall"              "42"
                 "weight"            "600"
                 "additive"          "0"
@@ -120,7 +120,7 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
+                "name"              "Minecraft"
                 "Tall"              "24"
                 "weight"            "600"
                 "additive"          "0"

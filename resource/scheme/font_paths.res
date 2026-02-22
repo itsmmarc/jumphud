@@ -84,7 +84,7 @@
         "26"
         {
             "Font"          "resource/scheme/fonts/optional/1_Minecraft-Regular.otf"
-            "name"          "Minecraft-Regular"
+            "name"          "Minecraft"
         }
         // icon fonts
         "101"
