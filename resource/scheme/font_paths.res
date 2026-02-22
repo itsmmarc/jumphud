@@ -64,7 +64,7 @@
         "22"
         {
             "Font"          "resource/scheme/fonts/optional/EternalUiRegular.ttf"
-            "name"          "Eternal UI Regular"
+            "name"          "Eternal UI"
         }
         "23"
         {
