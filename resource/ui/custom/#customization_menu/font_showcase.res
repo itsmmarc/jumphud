@@ -149,7 +149,7 @@
         {
             "1"
             {
-                "name"              "Surface-Medium"
+                "name"              "Surface"
                 "Tall"              "24"
                 "antialias"         "1"
             }

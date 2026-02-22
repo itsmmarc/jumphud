@@ -79,7 +79,7 @@
         "25"	// m0rehud font
         {
             "Font"          "resource/scheme/fonts/optional/surface_medium.otf"
-            "name"          "Surface-Medium"
+            "name"          "Surface"
         }
         "26"
         {
