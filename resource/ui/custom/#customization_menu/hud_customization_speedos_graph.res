@@ -6278,10 +6278,10 @@
 					"TextAlignment"				"west"
 					"FGColor"					"Gray"
 				}
-				"Separator_5"
+				"Separator_6"
 				{
 					"ControlName"				"EditablePanel"
-					"FieldName"					"Separator_5"
+					"FieldName"					"Separator_6"
 					"XPos"						"3"
 					"YPos"						"-3+41+81+88+66+120+120"
 					"ZPos"						"0"
