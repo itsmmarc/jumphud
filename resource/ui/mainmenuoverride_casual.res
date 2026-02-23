@@ -31,4 +31,16 @@
         "Enabled"           "0"
         "xpos"              "99999"
     }
+    "Vote"
+    {
+        "Wide"              "20"
+        "Tall"              "17"
+        "Visible"           "1"
+    }
+    "Mute"
+    {
+        "Pin_To_Sibling"                "Vote"
+        "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
+        "Pin_To_Sibling_Corner"         "PIN_TOPRIGHT"
+    }
 }
