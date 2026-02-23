@@ -17,16 +17,15 @@
     }
     "CasualToggle_Jump"
     {
-        "label"         ""
-        // "Command"									"engine jh_mode_casual; fullhudreload;" // change this command in mainmenuoverride
-        // "OnlyAtMenu"								"1"
-        // "tooltip"									"Enable Casual Mode"
+        "label"             " "
+        "Command"           "engine jh_mode_casual; fullhudreload;"
+        "tooltip"           "Enable Casual Mode"
     }
     "CasualToggle_Casual"
     {
         "label"             "0"
         "Command"           "engine jh_mode_jump; fullhudreload;"
-        // "tooltip"									"Enable Jump Mode"
+        "tooltip"           "Enable Jump Mode"
     }
     "Servers"
     {
