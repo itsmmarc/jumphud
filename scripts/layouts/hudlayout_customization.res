@@ -382,6 +382,10 @@
                 {
                     "Visible"           "0"
                 }
+                "HUD_Font_Mono_Selection"
+                {
+                    "Visible"           "0"
+                }
                 "HUD_JumpSettings_Selection"
                 {
                     "Visible"           "0"

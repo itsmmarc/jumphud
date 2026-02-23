@@ -14,9 +14,9 @@
     }
     "CustomFontFiles"
     {
-        "3"	// Quake Font
+        "3"
         {
-            "Font"          "resource/scheme/fonts/optional/Minecraftia-Regular.ttf"
+            "Font"          "resource/scheme/fonts/optional/1_Minecraft-Regular.otf"
             "name"          "Minecraft"
         }
     }
