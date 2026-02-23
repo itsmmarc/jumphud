@@ -7,8 +7,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "32" [$WINDOWS]
-                "tall"              "26" [$LINUX]
+                "tall"              "32"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -19,8 +18,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "20" [$WINDOWS]
-                "tall"              "16" [$LINUX]
+                "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -31,8 +29,7 @@
             "1"
             {
                 "name"              "Coolvetica Italic"
-                "tall"              "12" [$WINDOWS]
-                "tall"              "10" [$LINUX]
+                "tall"              "12"
                 "weight"            "0"
                 "additive"          "0"
                 "antialias"         "1"
@@ -125,7 +122,7 @@
         {
             "1"
             {
-                "name"              "Eternal UI Regular"
+                "name"              "Eternal UI"
                 "Tall"              "24"
                 "antialias"         "1"
             }
@@ -152,7 +149,7 @@
         {
             "1"
             {
-                "name"              "Surface-Medium"
+                "name"              "Surface"
                 "Tall"              "24"
                 "antialias"         "1"
             }
@@ -161,7 +158,7 @@
         {
             "1"
             {
-                "name"              "Minecraft-Regular"
+                "name"              "Minecraft"
                 "Tall"              "24"
                 "antialias"         "1"
             }

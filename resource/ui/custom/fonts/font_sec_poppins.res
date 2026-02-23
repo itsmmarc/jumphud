@@ -8,8 +8,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                 "name"		"Poppins" [$LINUX]
-                "tall"										"27" [$WINDOWS]
-                "tall"										"22" [$LINUX]
+                "tall"										"27" 
                 "weight"									"500"
                 "range"										"0x0000 0x007F"
                 "antialias"									"1"
@@ -22,8 +21,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                 "name"		"Poppins" [$LINUX]
-                "tall"										"38" [$WINDOWS]
-                "tall"										"31" [$LINUX]
+                "tall"										"38" 
                 "antialias"									"1"
                 //"dropshadow"								"1"
             }
@@ -34,8 +32,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                 "name"		"Poppins" [$LINUX]
-                "tall"										"22" [$WINDOWS]
-                "tall"										"18" [$LINUX]
+                "tall"										"22" 
                 "antialias"									"1"
                 //"dropshadow"								"1"
             }
@@ -46,8 +43,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                 "name"		"Poppins" [$LINUX]
-                "tall"										"24" [$WINDOWS]
-                "tall"										"19" [$LINUX]
+                "tall"										"24" 
                 "antialias"									"1"
                 //"dropshadow"								"1"
             }
@@ -58,8 +54,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                 "name"		"Poppins" [$LINUX]
-                "tall"										"22" [$WINDOWS]
-                "tall"										"18" [$LINUX]
+                "tall"										"22" 
                 "antialias"									"1"
                 "dropshadow"								"1"
             }
@@ -70,8 +65,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                 "name"		"Poppins" [$LINUX]
-                "tall"										"17" [$WINDOWS]
-                "tall"										"13" [$LINUX]
+                "tall"										"17" 
                 "antialias"									"1"
                 "dropshadow"								"1"
             }
@@ -82,8 +76,7 @@
             {
                 "name"		"Poppins Black Italic" [$WINDOWS]
                 "name"		"Poppins" [$LINUX]
-                "tall"										"38" [$WINDOWS]
-                "tall"										"31" [$LINUX]
+                "tall"										"38" 
                 "antialias"									"1"
                 //"dropshadow"								"1"
             }

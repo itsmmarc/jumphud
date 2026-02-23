@@ -53,6 +53,7 @@
 "blank"			"JUMP SPRAYS"
 "blank"			"=========================="
 "+jh_spraypaint"                "Spraypaint"
+"+jh_spraypaintrainbow"         "Spraypaint (rainbow)"
 "sm_spray"                      "Tempus spray"
 "sm_spray massiveWood"          "Spray wood"
 "sm_spray WoodFB"               "Spray wood (full bright)"

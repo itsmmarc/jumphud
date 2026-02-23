@@ -38,6 +38,7 @@
     "file"          "scripts/animations/hudanimations_pipetimer.txt"
     "file"          "scripts/animations/hudanimations_skeys.txt"
     "file"          "scripts/animations/hudanimations_spraypaint.txt"
+    "file"          "scripts/animations/hudanimations_spraypaint_rainbow.txt"
     "file"          "scripts/animations/hudanimations_holdreset.txt"
     // ===============================================================
     // OTHER ANIMATIONS

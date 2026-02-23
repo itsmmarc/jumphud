@@ -1,4 +1,5 @@
-#base ../vgui/replay/thumbnails/s/colors/$colorMain/m0reBlue.vmt
-#base spraypaint.vmt
-
-"LightMappedGeneric"{}
+"#base"                 "../speedo/colors/$colorMain/m0reBlue.vmt"
+"#base"                 "spraypaint.vmt"
+"LightMappedGeneric"
+{
+}

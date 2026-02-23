@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"          "Minecraft-Regular"
+                "name"          "Minecraft"
                 "tall"          "18"
                 "weight"        "200"
             }
@@ -17,7 +17,7 @@
         "3"	// Quake Font
         {
             "Font"          "resource/scheme/fonts/optional/Minecraftia-Regular.ttf"
-            "name"          "Minecraft-Regular"
+            "name"          "Minecraft"
         }
     }
 }

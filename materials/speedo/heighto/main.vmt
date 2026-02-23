@@ -1,28 +1,28 @@
 // ==============================================================
 // TEXTURE
 // --------------------------------------------------------------
-"#base"                 "../../../../cfg/jumphud/jh_font_speedo.txt"
-"#base"                 "../fonts/coolvetica_italic.vmt"	// default
+"#base"         "../../../../../cfg/jumphud/jh_font_speedo.txt"
+"#base"         "../fonts/coolvetica_italic.vmt"	// default
 // ==============================================================
 // COLORS
 // --------------------------------------------------------------
-"#base"                 "../colors/ranges/heighto_ranges.vmt"
-"#base"                 "../../../../cfg/jumphud/jh_color_heighto.txt"
-"#base"                 "../../../../cfg/jumphud/jh_heighto_dynclr_main.txt"
-"#base"                 "../../../../cfg/jumphud/jh_heighto_dynclr_double.txt"
-"#base"                 "../../../../cfg/jumphud/jh_heighto_dynclr_triple.txt"
-"#base"                 "../../../../cfg/jumphud/jh_heighto_dynclr_maxvel.txt"
-"#base"                 "../colors/heighto_colors_default.vmt"
+"#base"         "../colors/ranges/heighto_ranges.vmt"
+"#base"         "../../../../cfg/jumphud/jh_color_heighto.txt"
+"#base"         "../../../../cfg/jumphud/jh_heighto_dynclr_main.txt"
+"#base"         "../../../../cfg/jumphud/jh_heighto_dynclr_double.txt"
+"#base"         "../../../../cfg/jumphud/jh_heighto_dynclr_triple.txt"
+"#base"         "../../../../cfg/jumphud/jh_heighto_dynclr_maxvel.txt"
+"#base"         "../colors/heighto_colors_default.vmt"
 // ==============================================================
 // CONSTANTS
 // --------------------------------------------------------------
-"#base"                 "../../../../cfg/jumphud/jh_speedo_s_rounding.txt"
-"#base"                 "../const/rounding.vmt"
-"#base"                 "../const/constantNumbers.vmt"
+"#base"         "../../../../../cfg/jumphud/jh_speedo_s_rounding.txt"
+"#base"         "../const/rounding.vmt"
+"#base"         "../const/constantNumbers.vmt"
 // ==============================================================
 // HEIGHTO CALCULATION, ROUNDING, COLORS, & DIGIT SEPERATION
 // --------------------------------------------------------------
-"#base"                 "math.vmt"
+"#base"         "math.vmt"
 "UnlitGeneric"
 {
 }

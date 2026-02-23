@@ -1,11 +1,13 @@
-#base ../textures/graph_type.vmt
-#base ../../const/constantNumbers.vmt
-#base ../../../../cfg/jumphud/jh_gspeedo_range_a.txt
-#base ../.../colors/ranges/aspeedo_demo.vmt
-#base ../../../../cfg/jumphud/jh_color_gspeedo_a.txt
-#base ../../../../cfg/jumphud/jh_gspeedo_dynclr_main.txt
-#base ../../../../cfg/jumphud/jh_gspeedo_dynclr_close.txt
-#base ../../../../cfg/jumphud/jh_gspeedo_dynclr_good.txt
-#base ../../colors/speedo_colors_default.vmt
-#base ../../colors/ranges/conditionals.vmt
-"UnlitGeneric"{}
+"#base"         "../textures/graph_type.vmt"
+"#base"         "../../const/constantNumbers.vmt"
+"#base"         "../../../../cfg/jumphud/jh_gspeedo_range_a.txt"
+"#base"         "../../colors/ranges/aspeedo_demo.vmt"
+"#base"         "../../../../cfg/jumphud/jh_color_gspeedo_a.txt"
+"#base"         "../../../../cfg/jumphud/jh_gspeedo_dynclr_main.txt"
+"#base"         "../../../../cfg/jumphud/jh_gspeedo_dynclr_close.txt"
+"#base"         "../../../../cfg/jumphud/jh_gspeedo_dynclr_good.txt"
+"#base"         "../../colors/speedo_colors_default.vmt"
+"#base"         "../../colors/ranges/conditionals.vmt"
+"UnlitGeneric"
+{
+}

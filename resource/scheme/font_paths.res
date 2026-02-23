@@ -64,7 +64,7 @@
         "22"
         {
             "Font"          "resource/scheme/fonts/optional/EternalUiRegular.ttf"
-            "name"          "Eternal UI Regular"
+            "name"          "Eternal UI"
         }
         "23"
         {
@@ -79,12 +79,12 @@
         "25"	// m0rehud font
         {
             "Font"          "resource/scheme/fonts/optional/surface_medium.otf"
-            "name"          "Surface-Medium"
+            "name"          "Surface"
         }
         "26"
         {
             "Font"          "resource/scheme/fonts/optional/1_Minecraft-Regular.otf"
-            "name"          "Minecraft-Regular"
+            "name"          "Minecraft"
         }
         // icon fonts
         "101"

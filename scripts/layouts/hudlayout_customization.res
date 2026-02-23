@@ -397,7 +397,7 @@
                                 "Check"
                                 {
                                     "Visible"           "1"
-                                    "Font"              "HudFontSmall"
+                                    "Font"              "Marlett"
                                 }
                             }
                             "Rocket_Trails_Toggle"
@@ -408,7 +408,7 @@
                                 "Check"
                                 {
                                     "Visible"           "1"
-                                    "Font"              "HudFontSmall"
+                                    "Font"              "Marlett"
                                 }
                             }
                             "Mirror_World_Toggle"
@@ -419,7 +419,7 @@
                                 "Check"
                                 {
                                     "Visible"           "0"
-                                    "Font"              "HudFontSmall"
+                                    "Font"              "Marlett"
                                 }
                             }
                         }
