@@ -11,7 +11,7 @@
     // ====================================================================================================================================================
     "Version"
     {
-        "label"             "JUMPHUD v2.5.0 Pre-Release 3"
+        "label"             "JUMPHUD v2.5.0 Graph Nuke Test"
         "Command"           "engine showconsole; jh_version"
         "OnlyAtMenu"        "1"
     }
