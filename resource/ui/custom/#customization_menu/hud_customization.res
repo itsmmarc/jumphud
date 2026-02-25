@@ -17,10 +17,6 @@
 "#base"         "hud_customization_speedos_bar.res"
 "#base"         "hud_customization_speedos_bar_sweetspot_info.res"
 // ==============================================================
-// GRAPH SPEEDOS
-// ==============================================================
-"#base"         "hud_customization_speedos_graph.res"
-// ==============================================================
 // HUD CROSSHAIRS
 // ==============================================================
 "#base"         "hud_customization_crosshairs.res"

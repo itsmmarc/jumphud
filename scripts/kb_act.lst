@@ -72,7 +72,6 @@
 "jh_speedo_s_toggle"    "Toggle soldier speedos"
 "jh_speedo_d_toggle"    "Toggle demo speedos"
 "jh_bspeedos_toggle"    "Toggle bar speedos"
-"jh_gspeedos_toggle"    "Toggle speedo graphs"
 "toggle_tempus_hspeedo"      "Toggle Tempus horizontal speedo"
 "toggle_tempus_vspeedo"      "Toggle Tempus vertical speedo"
 "toggle_tempus_aspeedo"      "Toggle Tempus absolute speedo"

@@ -458,13 +458,6 @@
         "tooltip"           "Toggle HUD Minmode"
         "OnlyInGame"        "1"
     }
-    "GraphSpeedos"
-    {
-        "label"             "G"
-        "Command"           "engine jh_gspeedos_toggle; hud_reloadscheme"
-        "tooltip"           "Toggle Speed Graphs"
-        "OnlyInGame"        "1"
-    }
     "ShowKeys"
     {
         "label"             "0"
