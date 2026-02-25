@@ -191,7 +191,7 @@
         "visible"           "1"
         "enabled"           "1"
         "xpos"              "0"
-        "ypos"              "-14"
+        "ypos"              "-18"
         "wide"              "f0"
         "tall"              "f0"
     }
