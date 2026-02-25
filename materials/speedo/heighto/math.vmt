@@ -430,29 +430,6 @@
                         "resultVar"                     "$frame"
                 }
                 // ==============================================================
-                // ROUNDING
-                // ==============================================================
-                // $frame = $frame/10
-                "Divide"
-                {
-                        "srcVar1"                       "$frame"
-                        "srcVar2"                       "$roundAmount"
-                        "resultVar"                     "$frame"
-                }
-                // discard decimals of $frame
-                "Int"
-                {
-                        "srcVar1"                       "$frame"
-                        "resultVar"                     "$frame"
-                }
-                // $frame = $frame*10
-                "Multiply"
-                {
-                        "srcVar1"                       "$frame"
-                        "srcVar2"                       "$roundAmount"
-                        "resultVar"                     "$frame"
-                }
-                // ==============================================================
                 // COLORS
                 // ==============================================================
                 // BASE
@@ -594,6 +571,29 @@
                 "Equals"
                 {
                         "srcVar1"                       "$max_speed"
+                        "resultVar"                     "$frame"
+                }
+                // ==============================================================
+                // ROUNDING
+                // ==============================================================
+                // $frame = $frame/10
+                "Divide"
+                {
+                        "srcVar1"                       "$frame"
+                        "srcVar2"                       "$roundAmount"
+                        "resultVar"                     "$frame"
+                }
+                // discard decimals of $frame
+                "Int"
+                {
+                        "srcVar1"                       "$frame"
+                        "resultVar"                     "$frame"
+                }
+                // $frame = $frame*10
+                "Multiply"
+                {
+                        "srcVar1"                       "$frame"
+                        "srcVar2"                       "$roundAmount"
                         "resultVar"                     "$frame"
                 }
                 // ==============================================================
