@@ -72,7 +72,7 @@
                 {
                     "ControlName"                   "CExLabel"
                     "FieldName"                     "Restart_Warning"
-                    "XPos"                          "-102"
+                    "XPos"                          "132"
                     "YPos"                          "0"
                     "ZPos"                          "0"
                     "Wide"                          "25"
@@ -85,9 +85,6 @@
                     "Font"                          "Symbols20"
                     "TextAlignment"                 "center"
                     "FGColor"                       "Red"
-                    "Pin_To_Sibling"                "Title"
-                    "Pin_Corner_To_Sibling"         "PIN_CENTER_LEFT"
-                    "Pin_To_Sibling_Corner"         "PIN_CENTER_LEFT"
                 }
                 "SubTitle"
                 {
