@@ -54,6 +54,7 @@
         "$tickbuffer"                           "100"
         "$max_speed"                            "0"
         "$prev_vertical_speed"                  "0"
+        "$useVelocity"                          "0"
         // ==============================================================
         // COLOR VARIABLES
         // ==============================================================
@@ -568,9 +569,12 @@
                         "resultVar"                     "$prev_vertical_speed"
                 }
                 // frame = max_speed
-                "Equals"
+                "LessOrEqual"
                 {
-                        "srcVar1"                       "$max_speed"
+                        "srcVar1"                       "$useVelocity"
+                        "srcVar2"                       "$0"
+                        "greaterVar"                    "$max_speed"
+                        "lessEqualVar"                  "$frame"
                         "resultVar"                     "$frame"
                 }
                 // ==============================================================
