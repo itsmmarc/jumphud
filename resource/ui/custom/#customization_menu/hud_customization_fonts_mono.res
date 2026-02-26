@@ -98,7 +98,7 @@
                     "Visible"                       "1"
                     "Enabled"                       "1"
                     "ProportionalToParent"          "1"
-                    "LabelText"                     "Affects console, tempus panels, cl_showpos and net_graph"
+                    "LabelText"                     "Affects console, tempus panels, scoreboard, cl_showpos and net_graph"
                     "Font"                          "Menu_Tiny"
                     "TextAlignment"                 "west"
                     "FGColor"                       "Gray"
