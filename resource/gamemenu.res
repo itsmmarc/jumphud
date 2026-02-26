@@ -455,7 +455,7 @@
     {
         "label"             "g"
         "Command"           "engine toggle cl_hud_minmode"
-        "tooltip"           "Toggle HUD Minmode"
+        "tooltip"           "Toggle Health Value"
         "OnlyInGame"        "1"
     }
     "GraphSpeedos"
