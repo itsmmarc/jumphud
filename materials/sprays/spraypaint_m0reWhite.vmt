@@ -1,5 +1,5 @@
-"#base"                 "../speedo/colors/$colorMain/m0reWhite.vmt"
-"#base"                 "spraypaint.vmt"
+"#base"         "color/m0reWhite.vmt"
+"#base"         "spraypaint.vmt"
 "LightMappedGeneric"
 {
 }

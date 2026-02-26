@@ -1,6 +1,6 @@
 "#base"                 "../../../cfg/jumphud/jh_spraypaint_size.txt"
 "#base"                 "spraypaint_size_medium.vmt"
-"#base"                 "../speedo/colors/$colorMain/m0reWhite.vmt"
+"#base"                 "color/m0reBlue.vmt"
 "LightMappedGeneric"
 {
         "$basetexture"                  "sprays/spraypaint"
@@ -9,12 +9,4 @@
         "$vertexcolor"                  "1"
         "$vertexalpha"                  "1"
         "$color"                        "{255 255 255}"
-        "Proxies"
-        {
-                "Equals"
-                {
-                        "srcVar1"                       "$colorMain"
-                        "resultVar"                     "$color"
-                }
-        }
 }
