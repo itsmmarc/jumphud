@@ -2,6 +2,10 @@
 
 # CONFIG FILES
 
+## #tempus_speedo_config.cfg
+
+This file is executed when using the tempus speedo buttons on the pause menu (H, V, A). You can modify your tempus speedo's colour and vertical position here.
+
 ## #jumpconfig.cfg & #casualconfig.cfg
 
 These files will be automatically executed when switching modes and on startup for the currently active mode.
