@@ -155,7 +155,7 @@
                             "Visible"                           "1"
                             "Enabled"                           "1"
                             "Font"                              ""
-                            "Command"                           "engine jh_font_prim_cool_italic"
+                            "Command"                           "engine jh_font_prim_default"
                             "LabelText"                         ""
                             "TextAlignment"                     "center"
                             "Sound_Depressed"                   "UI/buttonclick.wav"
