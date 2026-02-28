@@ -608,6 +608,25 @@
                         "Pin_To_Sibling"                "Renogare"
                         "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
+                        "Disabled_Cross"
+                        {
+                            "ControlName"                   "ImagePanel"
+                            "FieldName"                     "Disabled_Cross"
+                            "XPos"                          "cs-0.5"
+                            "YPos"                          "cs-0.5"
+                            "ZPos"                          "99"
+                            "Tall"                          "f0"
+                            "Wide"                          "f0"
+                            "Visible"                       "1" [$LINUX]
+                            "Visible"                       "0" [$WINDOWS]
+                            "Enabled"                       "1"
+                            "MouseInputEnabled"             "0"
+                            "ProportionalToParent"          "1"
+                            "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                            "ScaleImage"                    "1"
+                            "Drawcolor"                     "Red"
+                            "Alpha"                         "200"
+                        }
                         "Font_Button"
                         {
                             "ControlName"                       "CExButton"
@@ -701,6 +720,25 @@
                         "Pin_To_Sibling"                "Bahnschrift"
                         "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
                         "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
+                        "Disabled_Cross"
+                        {
+                            "ControlName"                   "ImagePanel"
+                            "FieldName"                     "Disabled_Cross"
+                            "XPos"                          "cs-0.5"
+                            "YPos"                          "cs-0.5"
+                            "ZPos"                          "99"
+                            "Tall"                          "f0"
+                            "Wide"                          "f0"
+                            "Visible"                       "1" [$LINUX]
+                            "Visible"                       "0" [$WINDOWS]
+                            "Enabled"                       "1"
+                            "MouseInputEnabled"             "0"
+                            "ProportionalToParent"          "1"
+                            "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                            "ScaleImage"                    "1"
+                            "Drawcolor"                     "Red"
+                            "Alpha"                         "200"
+                        }
                         "Font_Button"
                         {
                             "ControlName"                       "CExButton"

@@ -297,6 +297,25 @@
 					"Visible"					"1"
 					"Enabled"					"1"
 					"ProportionalToParent"		"1"
+					"Disabled_Cross"
+					{
+						"ControlName"				"ImagePanel"
+						"FieldName"					"Disabled_Cross"
+						"XPos"						"cs-0.5"
+						"YPos"						"cs-0.5"
+						"ZPos"						"99"
+						"Tall"						"f0"
+						"Wide"						"f0"
+						"Visible"					"1" [$LINUX]
+						"Visible"					"0" [$WINDOWS]
+						"Enabled"					"1"
+						"MouseInputEnabled"			"0"
+						"ProportionalToParent"		"1"
+						"Image"						"replay/thumbnails/custom/general/disabled_cross"
+						"ScaleImage"				"1"
+						"Drawcolor"					"Red"
+						"Alpha"						"200"
+					}
 					"Highlight_Range_Label"
 					{
 						"ControlName"				"CExLabel"
@@ -1172,6 +1191,25 @@
 					"Visible"					"1"
 					"Enabled"					"1"
 					"ProportionalToParent"		"1"
+					"Disabled_Cross"
+					{
+						"ControlName"				"ImagePanel"
+						"FieldName"					"Disabled_Cross"
+						"XPos"						"cs-0.5"
+						"YPos"						"cs-0.5"
+						"ZPos"						"99"
+						"Tall"						"f0"
+						"Wide"						"f0"
+						"Visible"					"1" [$LINUX]
+						"Visible"					"0" [$WINDOWS]
+						"Enabled"					"1"
+						"MouseInputEnabled"			"0"
+						"ProportionalToParent"		"1"
+						"Image"						"replay/thumbnails/custom/general/disabled_cross"
+						"ScaleImage"				"1"
+						"Drawcolor"					"Red"
+						"Alpha"						"200"
+					}
 					"Graph_Type_Label"
 					{
 						"ControlName"				"CExLabel"
@@ -1381,6 +1419,25 @@
 					"Visible"					"1"
 					"Enabled"					"1"
 					"ProportionalToParent"		"1"
+					"Disabled_Cross"
+					{
+						"ControlName"				"ImagePanel"
+						"FieldName"					"Disabled_Cross"
+						"XPos"						"cs-0.5"
+						"YPos"						"cs-0.5"
+						"ZPos"						"99"
+						"Tall"						"f0"
+						"Wide"						"f0"
+						"Visible"					"1" [$LINUX]
+						"Visible"					"0" [$WINDOWS]
+						"Enabled"					"1"
+						"MouseInputEnabled"			"0"
+						"ProportionalToParent"		"1"
+						"Image"						"replay/thumbnails/custom/general/disabled_cross"
+						"ScaleImage"				"1"
+						"Drawcolor"					"Red"
+						"Alpha"						"200"
+					}
 					"Colors_Info"
 					{
 						"ControlName"		"EditablePanel"
@@ -3546,6 +3603,25 @@
 					"Visible"					"1"
 					"Enabled"					"1"
 					"ProportionalToParent"		"1"
+					"Disabled_Cross"
+					{
+						"ControlName"				"ImagePanel"
+						"FieldName"					"Disabled_Cross"
+						"XPos"						"cs-0.5"
+						"YPos"						"cs-0.5"
+						"ZPos"						"99"
+						"Tall"						"f0"
+						"Wide"						"f0"
+						"Visible"					"1" [$LINUX]
+						"Visible"					"0" [$WINDOWS]
+						"Enabled"					"1"
+						"MouseInputEnabled"			"0"
+						"ProportionalToParent"		"1"
+						"Image"						"replay/thumbnails/custom/general/disabled_cross"
+						"ScaleImage"				"1"
+						"Drawcolor"					"Red"
+						"Alpha"						"200"
+					}
 					"Color_Label"
 					{
 						"ControlName"				"CExLabel"
@@ -5046,6 +5122,25 @@
 					"Visible"					"1"
 					"Enabled"					"1"
 					"ProportionalToParent"		"1"
+					"Disabled_Cross"
+					{
+						"ControlName"				"ImagePanel"
+						"FieldName"					"Disabled_Cross"
+						"XPos"						"cs-0.5"
+						"YPos"						"cs-0.5"
+						"ZPos"						"99"
+						"Tall"						"f0"
+						"Wide"						"f0"
+						"Visible"					"1" [$LINUX]
+						"Visible"					"0" [$WINDOWS]
+						"Enabled"					"1"
+						"MouseInputEnabled"			"0"
+						"ProportionalToParent"		"1"
+						"Image"						"replay/thumbnails/custom/general/disabled_cross"
+						"ScaleImage"				"1"
+						"Drawcolor"					"Red"
+						"Alpha"						"200"
+					}
 					"Color_Label"
 					{
 						"ControlName"				"CExLabel"
@@ -6546,6 +6641,25 @@
 					"Visible"					"1"
 					"Enabled"					"1"
 					"ProportionalToParent"		"1"
+					"Disabled_Cross"
+					{
+						"ControlName"				"ImagePanel"
+						"FieldName"					"Disabled_Cross"
+						"XPos"						"cs-0.5"
+						"YPos"						"cs-0.5"
+						"ZPos"						"99"
+						"Tall"						"f0"
+						"Wide"						"f0"
+						"Visible"					"1" [$LINUX]
+						"Visible"					"0" [$WINDOWS]
+						"Enabled"					"1"
+						"MouseInputEnabled"			"0"
+						"ProportionalToParent"		"1"
+						"Image"						"replay/thumbnails/custom/general/disabled_cross"
+						"ScaleImage"				"1"
+						"Drawcolor"					"Red"
+						"Alpha"						"200"
+					}
 					"Color_Label"
 					{
 						"ControlName"				"CExLabel"

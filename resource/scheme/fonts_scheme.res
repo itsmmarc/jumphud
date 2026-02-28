@@ -711,6 +711,7 @@
             {
                 "name"              "Hypnotize Icons V8"
                 "tall"              "16" [$WINDOWS]
+                "tall"              "13" [$LINUX]
                 "antialias"         "1"
             }
         }

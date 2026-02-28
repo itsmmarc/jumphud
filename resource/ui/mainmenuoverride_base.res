@@ -2380,6 +2380,25 @@
             "Tall"                          "24"
             "proportionaltoparent"          "1"
             "Visible"                       "1"
+            "Disabled_Cross"
+                    {
+                        "ControlName"                   "ImagePanel"
+                        "FieldName"                     "Disabled_Cross"
+                        "XPos"                          "cs-0.5"
+                        "YPos"                          "cs-0.5"
+                        "ZPos"                          "99"
+                        "Tall"                          "f0"
+                        "Wide"                          "f0"
+                        "Visible"                       "1" [$LINUX]
+                        "Visible"                       "0" [$WINDOWS]
+                        "Enabled"                       "1"
+                        "MouseInputEnabled"             "0"
+                        "ProportionalToParent"          "1"
+                        "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                        "ScaleImage"                    "1"
+                        "Drawcolor"                     "Red"
+                        "Alpha"                         "200"
+                    }
             "SubButton"
             {
                 "ControlName"                       "CExImageButton"

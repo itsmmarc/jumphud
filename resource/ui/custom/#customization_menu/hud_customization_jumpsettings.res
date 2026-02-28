@@ -673,6 +673,25 @@
                     "ProportionalToParent"          "1"
                     "PaintBackground"               "0"
                     "BGColor_Override"              "Red"
+                    "Disabled_Cross"
+                    {
+                        "ControlName"                   "ImagePanel"
+                        "FieldName"                     "Disabled_Cross"
+                        "XPos"                          "cs-0.5"
+                        "YPos"                          "cs-0.5"
+                        "ZPos"                          "99"
+                        "Tall"                          "f0"
+                        "Wide"                          "f0"
+                        "Visible"                       "1" [$LINUX]
+                        "Visible"                       "0" [$WINDOWS]
+                        "Enabled"                       "1"
+                        "MouseInputEnabled"             "0"
+                        "ProportionalToParent"          "1"
+                        "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                        "ScaleImage"                    "1"
+                        "Drawcolor"                     "Red"
+                        "Alpha"                         "200"
+                    }
                     "Luxels_Icon"
                     {
                         "ControlName"                   "CExLabel"
@@ -2831,6 +2850,25 @@
                             "Pin_To_Sibling"                "Drawoverlayfragment_Toggle"	// set in hudlayout_customization.res
                             "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"	// set in hudlayout_customization.res
                             "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"	// set in hudlayout_customization.res
+                            "Disabled_Cross"
+                            {
+                                "ControlName"                   "ImagePanel"
+                                "FieldName"                     "Disabled_Cross"
+                                "XPos"                          "cs-0.5"
+                                "YPos"                          "cs-0.5"
+                                "ZPos"                          "99"
+                                "Tall"                          "f0"
+                                "Wide"                          "f0"
+                                "Visible"                       "1" [$LINUX]
+                                "Visible"                       "0" [$WINDOWS]
+                                "Enabled"                       "1"
+                                "MouseInputEnabled"             "0"
+                                "ProportionalToParent"          "1"
+                                "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                                "ScaleImage"                    "1"
+                                "Drawcolor"                     "Red"
+                                "Alpha"                         "200"
+                            }
                             "Toggle_Button"
                             {
                                 "ControlName"                       "CExButton"
@@ -2931,6 +2969,25 @@
                             "Pin_To_Sibling"                "Water_Particles_Toggle"	// set in hudlayout_customization.res
                             "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"	// set in hudlayout_customization.res
                             "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"	// set in hudlayout_customization.res
+                            "Disabled_Cross"
+                            {
+                                "ControlName"                   "ImagePanel"
+                                "FieldName"                     "Disabled_Cross"
+                                "XPos"                          "cs-0.5"
+                                "YPos"                          "cs-0.5"
+                                "ZPos"                          "99"
+                                "Tall"                          "f0"
+                                "Wide"                          "f0"
+                                "Visible"                       "1" [$LINUX]
+                                "Visible"                       "0" [$WINDOWS]
+                                "Enabled"                       "1"
+                                "MouseInputEnabled"             "0"
+                                "ProportionalToParent"          "1"
+                                "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                                "ScaleImage"                    "1"
+                                "Drawcolor"                     "Red"
+                                "Alpha"                         "200"
+                            }
                             "Toggle_Button"
                             {
                                 "ControlName"                       "CExButton"
