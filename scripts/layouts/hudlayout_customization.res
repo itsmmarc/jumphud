@@ -452,6 +452,10 @@
                 "HUD_Speedos_Confirm_Dialog"
                 {
                     "Visible"           "0"
+                    "ExplanationLabel"
+                    {
+                        "Font"          "HudFontSmall"
+                    }
                     "ConfirmButton_Soldier_Preset_JH"
                     {
                         "Visible"           "0"
