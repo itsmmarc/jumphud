@@ -27,6 +27,8 @@ A Team Fortress 2 HUD packed with features designed for use on Tempus jump serve
 
 7. _**\[linux\]** install the fonts located in `resource/scheme/fonts/`_
 
+8. If you experience issues after updating the HUD from a previous version, reset your HUD config by deleting the `jumphud` folder from `tf/cfg/`
+
 ## Features
 
 ![Speedos Preview](https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/jump/speedospreview.webp)
