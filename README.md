@@ -43,13 +43,13 @@ A Team Fortress 2 HUD packed with features designed for use on Tempus jump serve
 
 - Many useful binds added to the settings menu such as ctap, toggle thirdperson, and hold to restart run
 
-- Utility buttons added to the pause many for settings such as toggling speedos, enabling clip brushes, and managing save locations
+- Utility buttons added to the pause many for settings such as toggling speedos, showing map triggers, and managing save locations
 
 ## Customization
 
 Swap the HUD into Casual Mode by clicking the logo on the main menu
 
-The HUD includes a thorough ingame customization menu with options for speedos, fonts, crosshairs, shaders, and many more
+The HUD includes a thorough ingame customization menu with options for speedos, fonts, crosshairs, shaders, and more
 
 Modify the Tempus speedo colour & position in `cfg/#tempus_speedo_config.cfg`
 
