@@ -469,7 +469,7 @@
     {
         "label"             "0"
         "Command"           "engine jh_skeys_toggle; hud_reloadscheme"
-        "tooltip"           "Toggle Show Keys"
+        "tooltip"           "Toggle Input Display"
         "OnlyInGame"        "1"
     }
     "Toggle_HUDMessage"

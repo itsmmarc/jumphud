@@ -3221,7 +3221,7 @@
                         "Enabled"                       "1"
                         "ProportionalToParent"          "1"
                         "AllCaps"                       "1"
-                        "LabelText"                     "Show Keys"
+                        "LabelText"                     "Input Display"
                         "Font"                          "HudFontMediumbold"
                         "TextAlignment"                 "west"
                         "FGColor"                       "Gray"
@@ -3230,7 +3230,7 @@
                     {
                         "ControlName"                   "CExLabel"
                         "FieldName"                     "Jump_Warning3"
-                        "XPos"                          "141"
+                        "XPos"                          "163"
                         "YPos"                          "2"
                         "ZPos"                          "0"
                         "Wide"                          "20"
