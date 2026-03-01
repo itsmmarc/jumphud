@@ -4,15 +4,15 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 ---
 
-<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.4.1/jumphud-v2.4.1.zip"><img src="screenshots/downloadbutton.png"></a>
-<a href="SHOWCASE.md"><img src="screenshots/screenshotsbutton.png"></a>
-<a href="https://discord.gg/s6yJMGecMZ"><img src="screenshots/discord.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.5.0/jumphud-v2.5.0.zip"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/wiki/SHOWCASE"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/screenshotsbutton.png"></a>
+<a href="https://discord.gg/s6yJMGecMZ"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/discord.png"></a>
 
 ---
 
 ## Installation
 
-1. Download the latest [full release](https://github.com/itsmmarc/jumphud/releases/tag/v2.4.1) or [pre-release](https://github.com/itsmmarc/jumphud/releases/tag/v2.5.0-Pre-Release-3)
+1. Download the latest [full release](https://github.com/itsmmarc/jumphud/releases/tag/v2.5.0) or [pre-release](https://github.com/itsmmarc/jumphud/releases/tag/v2.5.0-Pre-Release-3)
 
 2. Unzip the download into `tf/custom`, you can access this folder by right-clicking on Team Fortress 2 in your steam library and selecting `Manage->Browse local files`
 
@@ -26,7 +26,7 @@ A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully c
 
 Swap the HUD into Casual Mode by clicking the logo on the main menu.
 
-![Mode Switching Preview](screenshots/modeswitch.webp)
+![Mode Switching Preview](https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/modeswitch.webp)
 
 ### Useful keybinds have been added to the options menu, including but not limited to:
 
@@ -60,11 +60,11 @@ Swap the HUD into Casual Mode by clicking the logo on the main menu.
 
 - Toggle Show Triggers
 
-![Soldier Preview](/screenshots/jump/soldier_apng.png)
+![Soldier Preview](https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/jump/soldier_apng.png)
 
-![Demo Preview](/screenshots/jump/demo_apng.png)
+![Demo Preview](https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/jump/demo_apng.png)
 
-![Speedos Preview](screenshots/jump/speedospreview.webp)
+![Speedos Preview](https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/jump/speedospreview.webp)
 
 ## Customization
 
@@ -104,7 +104,7 @@ Click on the JumpHUD logo icon to switch the hud into casual mode, you can switc
 
 ## Credits
 
-[Pear's horizontal and vertical HUD speedos](https://github.com/bakapear/hudmods)
+[Pear's heighto and horizontal/vertical HUD speedos](https://github.com/bakapear/hudmods)
 
 [Elandi's custom Tempus sprays](https://github.com/Elandi-rj/sprays)
 
