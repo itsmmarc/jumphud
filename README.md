@@ -25,6 +25,8 @@ A Team Fortress 2 HUD packed with features designed for use on Tempus jump serve
 
 6. To use input display, pipe timer, or mirror world, you must rebind your keys with the binds found at the top of the settings menu. Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see how to update your config to use these.
 
+7. _**\[linux\]** install the fonts located in `resource/scheme/fonts/`_
+
 ## Features
 
 ![Speedos Preview](https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/jump/speedospreview.webp)
