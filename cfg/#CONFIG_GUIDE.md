@@ -10,7 +10,7 @@ This file is executed when using the tempus speedo buttons on the pause menu (H,
 
 These files will be automatically executed when switching modes and on startup for the currently active mode.
 
-## ##jump_class_config/ & #casual_class_config/
+## #jump_class_config/ & #casual_class_config/
 
 These function like normal class config files except the files in `#jump_class_config/` & `#casual_class_config/` will only be executed while their respective mode is enabled. For these to function you must add the following aliases to their respective config files in `tf/cfg` (eg; add `jh_scout_config` to `tf/cfg/scout.cfg`)
 
