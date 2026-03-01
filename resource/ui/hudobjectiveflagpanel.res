@@ -351,7 +351,7 @@
 		"ControlName"								"CExLabel"
 		"FieldName"									"PoisonTimeLabel"
 		"XPos"										"cs-0.5"
-		"YPos"										"r71"
+		"YPos"										"r57"
 		"ZPos"										"7"
 		"Wide"										"40"
 		"Tall"										"20"

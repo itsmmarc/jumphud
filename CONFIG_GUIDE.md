@@ -1,0 +1,158 @@
+# Guide for adjusting configs for JumpHUD
+
+# CONFIG FILES
+
+## #tempus_speedo_config.cfg
+
+This file is executed when using the tempus speedo buttons on the pause menu (H, V, A). You can modify your tempus speedo's colour and vertical position here.
+
+## #jumpconfig.cfg & #casualconfig.cfg
+
+These files will be automatically executed when switching modes and on startup for the currently active mode.
+
+## #jump_class_config/ & #casual_class_config/
+
+These function like normal class config files except the files in `#jump_class_config/` & `#casual_class_config/` will only be executed while their respective mode is enabled. For these to function you must add the following aliases to their respective config files in `tf/cfg` (eg; add `jh_scout_config` to `tf/cfg/scout.cfg`)
+
+- jh_scout_config
+- jh_soldier_config
+- jh_pyro_config
+- jh_demo_config
+- jh_heavy_config
+- jh_engineer_config
+- jh_medic_config
+- jh_sniper_config
+- jh_spy_config
+
+# BINDS
+
+A full list of the binds added to the settings menu can be seen in `jumphud/scripts/kb_act.lst`
+
+## SKeys Binds
+
+Use the following aliases to bind your movement & attack keys for skeys to function. _Due to limitations with TF2's code `+jh_jump` will not cancel taunts (eg; exiting conga)._
+
+- +jh_attack // Attack
+- +jh_attack2 // Secondary Attack
+- +jh_forward // Move Forward
+- +jh_back // Move Backward
+- +jh_moveleft // Move Left
+- +jh_moveright // Move Right
+- +jh_jump // Jump
+- +jh_duck // Duck
+- +jh_ctap // CTap
+
+## Pipe Timer Binds
+
+Use the following aliases to bind your attack & weapon slot keys for the pipe timer to function. _Due to limitations with TF2's code `jh_lastinv` will not exit the taunt/disguise menus._
+
+- +jh_attack // Attack
+- jh_slot1 // Equip Primary
+- jh_slot2 // Equip Secondary
+- jh_slot3 // Equip Melee
+- jh_lastinv // Equip Last Used Weapon
+
+## Save Location Binds
+
+The following binds are updated to use the currently selected save location slot from the pause menu.
+
+- jh_saveloc // Save Location
+- jh_tele // Teleport to Saved Location
+
+## Other Useful Binds
+
+- +jh_tphold // Thirdperson (Hold)
+- jh_tptoggle // Thirdperson (Toggle)
+- toggle_duck // Crouch (Toggle)
+
+## Enabling/Disabling Speedos
+
+The following aliases can be used to toggle speedos on & off. They all require hud_reloadscheme afterwards to apply the changes.
+
+**Toggle Soldier Speedos**
+
+- jh_speedo_s_toggle
+- jh_speedo_s_toggle_on
+- jh_speedo_s_toggle_off
+
+**Toggle Demo Speedos**
+
+- jh_speedo_d_toggle
+
+**Toggle Bar Speedos**
+
+- jh_bspeedos_toggle
+
+**Toggle Speed Graphs**
+
+- jh_gspeedos_toggle
+
+**Toggle SKeys**
+
+- jh_skeys_toggle
+
+**Disable All Speedos**
+
+- jh_speedos_off
+
+# Example Configs
+
+## soldier.cfg
+
+```
+jh_speedos_off
+jh_speedo_s_toggle_on
+hud_reloadscheme
+
+bind q lastinv
+bind mouse2 +jh_ctap
+```
+
+## demoman.cfg
+
+```
+jh_speedos_off
+jh_bspeedos_toggle_on
+hud_reloadscheme
+
+bind q jh_lastinv
+bind mouse2 +jh_attack2
+```
+
+## #casualconfig.cfg
+
+```
+bind mouse1 +attack
+bind mouse2 +attack2
+bind w +forward
+bind a +moveleft
+bind s +back
+bind d +moveright
+bind space +jump
+bind ctrl +duck
+bind 1 slot1
+bind 2 slot2
+bind 3 slot3
+bind q lastinv
+bind r +reload
+bind b lastdisguise
+```
+
+## #jumpconfig.cfg
+
+```
+bind mouse1 +jh_attack
+bind mouse2 +jh_attack2
+bind w +jh_forward
+bind a +jh_moveleft
+bind s +jh_back
+bind d +jh_moveright
+bind space +jh_jump
+bind ctrl +jh_duck
+bind 1 jh_slot1
+bind 2 jh_slot2
+bind 3 jh_slot3
+bind q jh_lastinv
+bind r sm_restart
+bind b sm_bcheck
+```

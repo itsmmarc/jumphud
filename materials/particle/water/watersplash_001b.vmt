@@ -1,0 +1,6 @@
+// "#base"                 "../vgui/replay/thumbnails/blank.vmt"	// testing
+"#base"                 "../../../../cfg/jumphud/jh_water_particles.txt"
+"#base"                 "watersplash_001b_base.vmt"
+"Spritecard"
+{
+}

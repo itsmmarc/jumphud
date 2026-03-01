@@ -1,98 +1,75 @@
-<a href="https://github.com/itsmmarc/jumphud"><img src="screenshots/logo.png"></a>
+<a href="https://github.com/itsmmarc/jumphud"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/logo.png"></a>
 
-A Team Fortress 2 HUD designed specifically for use on jump servers. Now fully casual/mvm/competitive compatible!
+A Team Fortress 2 HUD packed with features designed for use on Tempus jump servers.
 
-***
+---
 
-<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.4.1/jumphud-v2.4.1.zip"><img src="screenshots/downloadbutton.png"></a>
-<a href="SHOWCASE.md"><img src="screenshots/screenshotsbutton.png"></a>
-<a href="https://discord.gg/s6yJMGecMZ"><img src="screenshots/discord.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.5.0/jumphud-v2.5.0.zip"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/wiki/SHOWCASE"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/screenshotsbutton.png"></a>
+<a href="https://discord.gg/s6yJMGecMZ"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/discord.png"></a>
+<a href="https://ko-fi.com/itsmmarc"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/kofi.png"></a>
 
-***
+---
 
 ## Installation
 
-1. Download the latest [full release](https://github.com/itsmmarc/jumphud/releases/tag/v2.4.1) or [pre-release](https://github.com/itsmmarc/jumphud/releases/tag/v2.5.0-Pre-Release-3)
+1. Download the [latest release](https://github.com/itsmmarc/jumphud/releases/tag/v2.5.0)
 
-2. Unzip the download into `tf/custom`, you can access this folder by right-clicking on Team Fortress 2 in your steam library and selecting `Manage->Browse local files`
+2. Navigate to your Team Fortress 2 installation. The easiest way is to right click on the game in your Steam library and select `Manage > Browse local files`
 
-3. Rename the folder to exactly `jumphud`
+3. Unzip the download into `tf/custom`
 
-4. In the end the folder structure should look like `tf/custom/jumphud/resource/`
+4. Rename the folder to exactly `jumphud`
 
-5. To enable speedos and other custom features use the buttons in the center of the pause menu
+5. In the end, the folder structure should look like `Steam/steamapps/common/Team Fortress 2/tf/custom/jumphud/resource/`
+
+6. To use input display, pipe timer, or mirror world, you must rebind your keys with the binds found at the top of the settings menu. Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see how to update your config to use these.
+
+7. _**\[linux\]** install the fonts located in `resource/scheme/fonts/`_
 
 ## Features
 
-Swap the HUD into Casual Mode by clicking the logo on the main menu.
+![Speedos Preview](https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/jump/speedospreview.webp)
 
-![Mode Switching Preview](screenshots/modeswitch.webp)
+- Modular design allowing you to declutter or enable elements as you wish
 
-### Useful keybinds have been added to the options menu, including but not limited to:
+- Fully customizable speedos with dynamic color ranges
 
-- CTap
+- Bar speedos designed to assist in demoman airpogo
 
-- Thirdperson (Toggle/Hold)
+- Spraypaint bind with various colours and sizes
 
-- Crouch (Toggle)
+- Many useful binds added to the settings menu such as ctap, toggle thirdperson, and hold to restart run
 
-- Draw Viewmodel (Toggle)
-
-- Custom Tempus Sprays
-
-- Restart Run
-
-- Tempus HUD (Toggle)
-
-- Bounce Check (1 & 2)
-
-- Full Bright (Toggle)
-
-### Useful buttons have been added to the pause menu including but not limited to:
-
-- Toggle HUD Min Mode (Disables health value and centers ammo count)
-
-- Toggle Custom HUD Speedos
-
-- Toggle Tempus HUD
-
-- Toggle Tempus Speedo (Horizontal, Vertical, and Absolute)
-
-- Toggle Show Triggers
-
-![Soldier Preview](/screenshots/jump/soldier_apng.png)
-
-![Demo Preview](/screenshots/jump/demo_apng.png)
-
-![Speedos Preview](screenshots/jump/speedospreview.webp)
+- Utility buttons added to the pause many for settings such as toggling speedos, enabling clip brushes, and managing save locations
 
 ## Customization
 
-Starting with v2.3.0 the HUD now includes an ingame customization menu to modify speedos, fonts, hud crosshair, and several other features.
+Swap the HUD into Casual Mode by clicking the logo on the main menu
 
-Use `cl_hud_minmode 1` or the button on the pause menu to hide the health value and center the ammo count in Jump Mode.
+The HUD includes a thorough ingame customization menu with options for speedos, fonts, crosshairs, shaders, and many more
 
-Toggle Custom HUD Speedos, Tempus HUD, Tempus Speedos, etc, using the buttons on the pause menu.
+Modify the Tempus speedo colour & position in `cfg/#tempus_speedo_config.cfg`
 
-Change the tempus speedo colour by editing `cfg/speedocolor.cfg`.
+Adjust the highlight ranges of HUD speedo's dynamic colors in `jumphud/materials/speedo/colors/ranges/`
 
-Add any configuration you want to run while in Casual or Jump mode to `jumphud/cfg/USER_casualconfig.cfg` or `USER_jumpconfig.cfg`. The appropriate config file will also be run on launch.
-
-Adjust the highlight ranges of HUD speedo's dynamic colors by editing `jumphud/materials/vgui/replay/thumbnails/speedo/colors/ranges/`.
+Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see what else you can modify to take full advantage of JumpHUD
 
 ## Known Issues:
 
-HUD speedos start to flicker more the longer a map has been running.
+Some customization options are not supported on Linux. There is a large cross covering these options when running the HUD on a Linux system.
 
-Speedo graphs freeze on map change, this can be fixed by refreshing the hud by entering `hud_reloadscheme` in console.
+Mirror world does not flip the game's audio or damage numbers.
+
+HUD speedos start to flicker more the longer a map has been running. This is due to limitations with VMT material proxy scripting.
+
+Speedo graphs freeze on map change, this can be fixed by entering `hud_reloadscheme` in console or turning the speedo graphs off and on again.
 
 Tempus speedos won't be recoloured or repositioned until one of the speedo buttons on the pause menu is used.
 
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
 
-Inventory menu background may not load on some `sv_pure` protected servers.
-
-*If you run into any other problems, please leave a message in the [Discord](https://discord.gg/s6yJMGecMZ).*
+_If you run into any other problems, please leave a message in the [Discord](https://discord.gg/s6yJMGecMZ)._
 
 ## FAQ
 
@@ -100,11 +77,19 @@ Inventory menu background may not load on some `sv_pure` protected servers.
 
 Click on the JumpHUD logo icon to switch the hud into casual mode, you can switch back by clicking on the TF2 logo.
 
-***
+### Why isn't the HUD's input display working?
+
+### Why isn't the HUD's pipe timer working?
+
+### Why can't I move properly with mirror world enabled?
+
+For input display, pipe timer, and mirror world, you must rebind your keys with the binds found at the top of the settings menu. Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see how to update your config to use these.
+
+---
 
 ## Credits
 
-[Pear's horizontal and vertical HUD speedos](https://github.com/bakapear/hudmods)
+[Pear's heighto and horizontal/vertical HUD speedos](https://github.com/bakapear/hudmods)
 
 [Elandi's custom Tempus sprays](https://github.com/Elandi-rj/sprays)
 
@@ -112,7 +97,7 @@ Click on the JumpHUD logo icon to switch the hud into casual mode, you can switc
 
 [cuekie's HUD screenspace shaders](https://github.com/cueki/hud-screenspace-shaders)
 
-***
+---
 
 This project would not have been possible without m0rehud.
 

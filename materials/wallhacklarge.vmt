@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "wallhacklarge"
-	"$translucent" 1
-	"$ignorez" 1
+        "$basetexture"                  "hud/obj_circle_blue"
+        "$translucent"                  "1"
+        "$ignorez"                      "1"
 }

@@ -1,170 +1,46 @@
 "Resource/UI/mainmenuoverride_casual.res"
+{
+    "CasualToggle_Jump"
     {
-        "CasualToggle_Jump"
-        {
-            "wide"          "0"
-            "tall"          "0"
-            // ...
-            "SubImage"
-            {
-                "wide"         "0"
-                "tall"         "0"
-            }
-        }
-        "CasualToggle_Casual"
-        {
-            "Wide"										"25"
-            "Tall"										"25"
-
-            "SubButton"
-            {
-                "Wide"									"f0"
-                "Tall"									"f0"
-            }
-        }
-        "TempusHud"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "Toggle_Netgraph"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "Toggle_Chat"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "HSpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "VSpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "ASpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        
-        "FullBright"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "Luxels"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "ShowTriggers"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "DrawClipBrushes"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "ToggleMinmode"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "SoldierSpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "DemoSpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "AbsoluteSpeedo"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "SpeedosOff"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "BarSpeedos"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "GraphSpeedos"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
-        "Toggle_HUDMessage"
-        {
-            "SubButton"
-            {
-                "Visible"								"0"
-                "Enabled"								"0"
-            }
-        }
+        "wide"          "0"
+        "tall"          "0"
     }
+    "CasualToggle_Casual"
+    {
+        "Wide"          "25"
+        "Tall"          "25"
+    }
+    // Savelocs
+    "SavelocContainer"
+    {
+        "Visible"           "0"
+        "Enabled"           "0"
+        "xpos"              "99999"
+    }
+    // Speedos
+    "SpeedoContainer"
+    {
+        "Visible"           "0"
+        "Enabled"           "0"
+        "xpos"              "99999"
+    }
+    // Jump Util
+    "UtilityContainer"
+    {
+        "Visible"           "0"
+        "Enabled"           "0"
+        "xpos"              "99999"
+    }
+    "Vote"
+    {
+        "Wide"              "20"
+        "Tall"              "17"
+        "Visible"           "1"
+    }
+    "Mute"
+    {
+        "Pin_To_Sibling"                "Vote"
+        "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
+        "Pin_To_Sibling_Corner"         "PIN_TOPRIGHT"
+    }
+}

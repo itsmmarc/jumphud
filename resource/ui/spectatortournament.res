@@ -21,7 +21,7 @@
 		"PlayerPanels_KV"
 		{
 			"Visible"								"0"
-			"Wide"									"130"
+			"Wide"									"140"
 			"Tall"									"17"
 			"ZPos"									"1"
 
@@ -62,10 +62,10 @@
 			{
 				"ControlName"						"CExLabel"
 				"FieldName"							"PlayerName"
-				"XPos"								"21"
+				"XPos"								"2"
 				"YPos"								"0"
 				"ZPos"								"1"
-				"Wide"								"113"
+				"Wide"								"98"
 				"Tall"								"f0"
 				"Visible"							"1"
 				"ProportionalToParent"				"1"
@@ -73,15 +73,37 @@
 				"LabelText"							"%playername%"
 				"TextAlignment"						"west"
 				"FGColor"							"White"
+
+                "Pin_To_Sibling"					"HealthIcon"
+				"Pin_Corner_To_Sibling"				"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"				"PIN_TOPRIGHT"
+			}
+            "PlayerName_Shadow"
+			{
+				"ControlName"						"CExLabel"
+				"FieldName"							"PlayerName_Shadow"
+				"XPos"								"-1"
+				"YPos"								"-1"
+				"ZPos"								"1"
+				"Wide"								"98"
+				"Tall"								"f0"
+				"Visible"							"1"
+				"ProportionalToParent"				"1"
+				"Font"								"TargetID_Small"
+				"LabelText"							"%playername%"
+				"TextAlignment"						"west"
+				"FGColor"							"Main_Shadow_Transparent"
+
+                "Pin_To_Sibling"					"PlayerName"
 			}
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"FieldName"							"HealthIcon"
-				"XPos"								"rs1"
-				"YPos"								"cs-0.5"
+				"XPos"								"0"
+				"YPos"								"0"
 				"ZPos"								"1"
-				"Wide"								"0"
+				"Wide"								"22"
 				"Tall"								"f0"
 				"Visible"							"1"
 				"Enabled"							"1"
@@ -91,6 +113,10 @@
 				"TFFont"							"HudFontSmallest"
 				"HealthDeathWarningColor"			"HUDDeathWarning"
 				"TextColor"							"HudOffWhite"
+
+                "Pin_To_Sibling"					"ClassImage"
+				"Pin_Corner_To_Sibling"				"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"				"PIN_TOPRIGHT"
 			}
 			"RespawnTime"
 			{
@@ -99,7 +125,7 @@
 				"XPos"								"0"
 				"YPos"								"0"
 				"ZPos"								"2"
-				"Wide"								"26"
+				"Wide"								"22"
 				"Tall"								"f0"
 				"Visible"							"1"
 				"ProportionalToParent"				"1"
@@ -141,7 +167,25 @@
 				"LabelText"							"%chargeamount%"
 				"Font"								"Uber_Spec_10"
 				"TextAlignment"						"center"
-				"FGColor"							"Black"
+				"FGColor"							"White"
+			}
+            "ChargeAmount_Shadow"
+			{
+				"ControlName"						"CExLabel"
+				"FieldName"							"ChargeAmount_Shadow"
+				"XPos"								"-1"
+				"YPos"								"-1"
+				"ZPos"								"3"
+				"Wide"								"18"
+				"Tall"								"f0"
+				"Visible"							"1"
+				"ProportionalToParent"				"1"
+				"LabelText"							"%chargeamount%"
+				"Font"								"Uber_Spec_10"
+				"TextAlignment"						"center"
+				"FGColor"							"Main_Shadow_Transparent"
+
+                "Pin_To_Sibling"					"ChargeAmount"
 			}
 			"BottomLine"
 			{

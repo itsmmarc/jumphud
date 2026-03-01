@@ -2,7 +2,7 @@
 {
 	"HudItemEffectMeter"
 	{
-        "XPos"          "cs-0.5"
+        "Xpos"          "cs-0.5"
         "wide"          "140"
         "wide_minmode"  "140"
 	}

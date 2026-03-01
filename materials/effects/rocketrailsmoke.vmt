@@ -1,0 +1,4 @@
+#base ../../../cfg/jumphud/jh_rocketrails.txt
+#base rocketrailsmoke_base.vmt
+"SpriteCard"
+{}

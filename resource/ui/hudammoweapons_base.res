@@ -9,7 +9,7 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"AmmoAnchor"
-		"xpos"										"c40+13"
+		"xpos"										"c40"
 		"Xpos_minmode"								"cs-0.5"
 		"YPos"										"c66"
 		"ZPos"										"0"
@@ -26,7 +26,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoInClip"
-		"XPos"										"-10"
+		"XPos"										"-23"
         "Xpos_minmode"                              "-75"
 		"YPos"										"0"
 		"ZPos"										"5"
@@ -81,11 +81,12 @@
 		"Wide"										"150"
 		"Tall"										"80"
 		"Visible"									"1"
-		"Enabled"									"1"
+		"Enabled"									"0"
 		"Font"										"Ingame_Medium"
 		"TextAlignment"								"west"
 		"LabelText"									"%AmmoInReserve%"
 		"FGColor"									"Ammo_In_Reserve"
+        "DisabledFGColor2_Override"  "blank"
 
 		"Pin_To_Sibling"							"AmmoInClip"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
@@ -101,11 +102,12 @@
 		"Wide"										"150"
 		"Tall"										"80"
 		"Visible"									"1"
-		"Enabled"									"1"
+		"Enabled"									"0"
 		"Font"										"Ingame_Medium"
 		"TextAlignment"								"west"
 		"LabelText"									"%AmmoInReserve%"
 		"FGColor"									"Main_Shadow_Transparent"
+        "DisabledFGColor2_Override"  "blank"
 
 		"Pin_To_Sibling"							"AmmoInReserve"
 	}
@@ -117,7 +119,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoNoClip"
-		"XPos"										"-10"
+		"XPos"										"-23"
 	    "Xpos_minmode"                              "-75"
 		"YPos"										"0"
 		"ZPos"										"5"

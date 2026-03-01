@@ -22,19 +22,19 @@
 
         "Background"    // background excluding header
         {
-        "ControlName"									"Panel"
-		"FieldName"										"Background"
-		"XPos"											"0"
-		"YPos"											"22"
-		"Wide"											"f0"
-		"Tall"											"f0-22"
-		"ZPos"											"-2"
-		"Visible"										"1"
-		"Enabled"										"1"
-		"ProportionalToParent"							"1"
-		"PaintBackground"								"1"
-		"PaintBackgroundType"							"0"
-		"BGcolor_Override"								"IsItTransparentBlack"
+            "ControlName"									"Panel"
+            "FieldName"										"Background"
+            "XPos"											"0"
+            "YPos"											"22"
+            "Wide"											"f0"
+            "Tall"											"f0-22"
+            "ZPos"											"-2"
+            "Visible"										"1"
+            "Enabled"										"1"
+            "ProportionalToParent"							"1"
+            "PaintBackground"								"1"
+            "PaintBackgroundType"							"0"
+            "BGcolor_Override"								"IsItTransparentBlack"
         }
 	}
 	"TitleLabel"

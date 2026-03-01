@@ -1,7 +1,7 @@
 "Resource/UI/HudItemEffectMeter_Middle.res"
 {
-	"HudItemEffectMeter"
-	{
-		"YPos"										"r111"
-	}
+    "HudItemEffectMeter"
+    {
+        "YPos"          "r115"
+    }
 }

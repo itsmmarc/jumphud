@@ -1,0 +1,46 @@
+#base bar_h.vmt
+#base ../const/constantNumbers.vmt
+
+"UnlitGeneric" {
+    //==============================================================
+    // TEXTURE TRANSFORMATION VARIABLES
+    //==============================================================
+    "$speed"		"1652" // line position is based off this
+    "$speedScaled"  "0"
+	"$speedMax"		"-1"
+	"$speedScale"	"-0.000285714285714"
+
+	"$center"		"[0.5 0.5]"
+	"$scale"		"[1 1]"
+	"$rotate"		"0"
+	"$translate"	"[0.1 0.0]"
+
+    "Proxies" {
+    //==============================================================
+    // TRANSFORM TEXTURE
+    //==============================================================
+        Multiply
+		{
+			srcVar1		"$speed"
+			srcVar2		"$speedScale"
+			resultVar	"$speedScaled"
+		}
+
+		Clamp
+		{
+			min			"$0"
+			max			"$speedMax"
+			srcVar1		"$speedScaled"
+			resultVar	"$translate[0]"
+		}
+
+		TextureTransform
+		{
+			centerVar		"$center"
+			scaleVar		"$scale"
+			rotateVar		"$rotate"
+			translateVar	"$translate"
+			resultVar		"$basetexturetransform"
+		}
+    }
+}

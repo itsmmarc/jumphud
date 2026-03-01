@@ -193,7 +193,7 @@
 			{
 				"ControlName"						"ImagePanel"
 				"FieldName"							"FlagImageBlue"
-				"XPos"								"cs-0.5-25"
+				"XPos"								"cs-0.5-33"
 				"YPos"								"rs1-30"
 				"ZPos"								"4"
 				"Wide"								"12"
@@ -248,7 +248,7 @@
 			{
 				"ControlName"						"ImagePanel"
 				"FieldName"							"FlagImageRed"
-				"XPos"								"cs-0.5+25"
+				"XPos"								"cs-0.5+33"
 				"YPos"								"rs1-30"
 				"ZPos"								"4"
 				"Wide"								"12"

@@ -1,4 +1,0 @@
-#base ../../speedo/colors/speedo_colors_default.vmt
-#base vspeedo_demo_preview.vmt
-
-UnlitGeneric {}

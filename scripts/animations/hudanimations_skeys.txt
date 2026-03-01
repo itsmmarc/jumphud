@@ -1,0 +1,109 @@
+// ===========================================================================================================================
+// SKEYS
+// ===========================================================================================================================
+// FORWARD
+event KeyPress_Forward
+{
+    Animate     KeyPress_Forward       Alpha    255    Linear    0.0    0.0001
+}
+
+event KeyRelease_Forward
+{
+    Animate     KeyPress_Forward       Alpha    0      Linear    0.0    0.0001
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+// LEFT
+event KeyPress_Left
+{
+    Animate     KeyPress_Left          Alpha    255    Linear    0.0    0.0001
+}
+
+event KeyRelease_Left
+{
+    Animate     KeyPress_Left          Alpha    0      Linear    0.0    0.0001
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+// BACK
+event KeyPress_Back
+{
+    Animate     KeyPress_Back          Alpha    255    Linear    0.0    0.0001
+}
+
+event KeyRelease_Back
+{
+    Animate     KeyPress_Back          Alpha    0      Linear    0.0    0.0001
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+// RIGHT
+event KeyPress_Right
+{
+    Animate     KeyPress_Right         Alpha    255    Linear    0.0    0.0001
+}
+
+event KeyRelease_Right
+{
+    Animate     KeyPress_Right         Alpha    0      Linear    0.0    0.0001
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+// DUCK
+event KeyPress_Duck
+{
+    Animate     KeyPress_Duck          Alpha    255    Linear    0.0    0.0001
+}
+
+event KeyRelease_Duck
+{
+    Animate     KeyPress_Duck          Alpha    0      Linear    0.0    0.0001
+}
+
+// CTAP DUCK
+event KeyPress_CTapDuck
+{
+    Animate     KeyPress_Duck          Alpha    255    Linear    0.0    0.0001
+    RunEvent    KeyRelease_CTapDuck    0.05
+}
+
+event KeyRelease_CTapDuck
+{
+    Animate     KeyPress_Duck          Alpha    0      Linear    0.0    0.0001
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+// JUMP
+event KeyPress_Jump
+{
+    Animate     KeyPress_Jump          Alpha    255    Linear    0.0    0.0001
+}
+
+event KeyRelease_Jump
+{
+    Animate     KeyPress_Jump          Alpha    0      Linear    0.0    0.0001
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+// ATTACK
+event KeyPress_Attack
+{
+    Animate     KeyPress_Attack        Alpha    255    Linear    0.0    0.0001
+}
+
+event KeyRelease_Attack
+{
+    Animate     KeyPress_Attack        Alpha    0      Linear    0.0    0.0001
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+// ATTACK2
+event KeyPress_Attack2
+{
+    Animate     KeyPress_Attack2       Alpha    255    Linear    0.0    0.0001
+}
+
+event KeyRelease_Attack2
+{
+    Animate     KeyPress_Attack2       Alpha    0      Linear    0.0    0.0001
+}

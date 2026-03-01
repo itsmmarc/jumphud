@@ -1,0 +1,56 @@
+// ===========================================================================================================================
+// DEMO PIPE TIMER
+// ===========================================================================================================================
+event DemoPipeTimerStart
+{
+    StopEvent    DemoPipeTimerMain               0.01
+    StopEvent    DemoPipeTimerFlash              0.01
+    StopEvent    DemoPipeTimerEnd                0.01
+    Animate      DemoPipeTimerBar                Wide     0      Linear    0.0    0.1
+    Animate      DemoPipeTimerBarFlash           Wide     0      Linear    0.0    0.1
+    Animate      DemoPipeTimerBarFlash           Alpha    0      Linear    0.0    0.1
+    Animate      DemoPipeTimerBar_Charge         Wide     0      Linear    0.0    0.1
+    Animate      DemoPipeTimerBarFlash_Charge    Wide     0      Linear    0.0    0.1
+    Animate      DemoPipeTimerBarFlash_Charge    Alpha    0      Linear    0.0    0.1
+    RunEvent     DemoPipeTimerMain               0.1
+}
+
+event DemoPipeTimerMain
+{
+    Animate      DemoPipeTimerBar                Wide     91     Linear    0.0    2.05
+    Animate      DemoPipeTimerBarFlash           Wide     91     Linear    0.0    2.05
+    Animate      DemoPipeTimerBar_Charge         Wide     140    Linear    0.0    2.05
+    Animate      DemoPipeTimerBarFlash_Charge    Wide     140    Linear    0.0    2.05
+    RunEvent     DemoPipeTimerFlash              1.8
+}
+
+event DemoPipeTimerFlash
+{
+    Animate      DemoPipeTimerBarFlash           Alpha    255    Linear    0.0    0.01
+    Animate      DemoPipeTimerBarFlash_Charge    Alpha    255    Linear    0.0    0.01
+    RunEvent     DemoPipeTimerEnd                0.3
+}
+
+event DemoPipeTimerEnd
+{
+    StopEvent    DemoPipeTimerMain               0.01
+    Animate      DemoPipeTimerBar                Wide     0      Linear    0.0    0.01
+    Animate      DemoPipeTimerBarFlash           Wide     0      Linear    0.0    0.01
+    Animate      DemoPipeTimerBarFlash           Alpha    0      Linear    0.0    0.01
+    Animate      DemoPipeTimerBar_Charge         Wide     0      Linear    0.0    0.01
+    Animate      DemoPipeTimerBarFlash_Charge    Wide     0      Linear    0.0    0.01
+    Animate      DemoPipeTimerBarFlash_Charge    Alpha    0      Linear    0.0    0.01
+}
+
+// ===========================================================================================================================
+// HIDE/SHOW DEMO PIPE TIMER
+// ===========================================================================================================================
+event DemoPipeTimerHide
+{
+    Animate      PipeTimerContainer_Charge       Alpha    0      Linear    0.0    0.01
+}
+
+event DemoPipeTimerShow
+{
+    Animate      PipeTimerContainer_Charge       Alpha    255    Linear    0.0    0.01
+}

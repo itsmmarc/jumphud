@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+        "$basetexture"                          "noise"
+        "$decal"                                "1"
+        "$decalscale"                           "2"
+        "$basetexturetransform"                 "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+}

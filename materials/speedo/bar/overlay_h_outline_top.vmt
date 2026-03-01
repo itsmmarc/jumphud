@@ -1,0 +1,4 @@
+#base bar_h.vmt
+#base overlay_h_minimal_right.vmt
+
+UnlitGeneric{}

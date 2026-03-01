@@ -1,0 +1,7 @@
+"UnlitGeneric" {
+    $basetexture "vgui/replay/thumbnails/s/bar/line_h.vtf"
+    "$translucent"	"1"
+	"$ignorez"		"1"
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+}

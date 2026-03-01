@@ -1,0 +1,475 @@
+"UnlitGeneric" {
+    //==============================================================
+    // DIGIT SEPERATION VARIABLES
+    //==============================================================
+    "$digit" 0.0
+	
+	"$leading" 0.0
+	"$leading_check" 0.0
+
+	"$lt" 9999.0
+	"$gt" -1.0
+    
+    $isCorrectSizeA 0
+    $isCorrectSizeB 0
+    $isCorrectSize 0
+    
+    $isCorrectSizeA 0
+    $isCorrectSizeB 0
+    $isCorrectSize 0
+
+	
+
+    //==============================================================
+    // UPDATE RATE VARIABLES
+    //==============================================================
+    $framerate 30
+    $fullframe 0
+
+    $time 0
+    $oldtime 0
+    $interval 0
+    $const_interval 0
+    $update 0
+
+    //==============================================================
+    // SPEEDO CALCULATION VARIABLES
+    //==============================================================
+	"$pos" "[0.0 0.0 0.0]"
+	"$x" 0.0 "$prev_x" 0.0 "$dx" 0.0 "$dxs" 0.0
+	"$y" 0.0 "$prev_y" 0.0 "$dy" 0.0 "$dys" 0.0
+	"$z" 0.0 "$prev_z" 0.0 "$dz" 0.0
+	
+	"$time" 0.0 "$prev_t" 0.0 "$dt" 0.0
+	"$v" 0.0 "$prev_v" 0.0 "$dv" 0.0
+	
+	"$timer" 0.0
+	"$total_dist" 0.0
+	
+	"$speedo" 0.0
+	"$speedo_value" 0.0
+	
+	"$prev_timer" 0.0
+	"$prev_total_dist" 0.0
+	
+	"$dist" 0.0
+	"$number" 0.0
+	"$sqrt" 0.0
+	
+	"$timer_delay" 0.1	
+	
+	"$tmp" 0.0
+	
+	"$eps" 0.001953125
+	
+	"$value" 0.0
+
+    $speed 0
+
+    //==============================================================
+    // COLOR VARIABLES
+    //==============================================================  
+    $colorMain  "{ 255 255 255 }" // default color
+    $color      $colorMain
+
+    //==============================================================
+	
+	Proxies {
+    //==============================================================
+    // UPDATE RATE
+    //==============================================================
+        // get const_interval
+        // const_interval = 1/framerate
+        Divide {
+            srcVar1 "$1"
+            srcVar2 "$framerate"
+            resultVar "$const_interval"
+        }
+
+        // Reset oldtime on new map
+        // if(oldtime>time){oldtime=0}
+        LessOrEqual {
+            srcVar1         "$oldtime"
+            srcVar2         "$time"
+            resultVar       "$oldtime"
+            greaterVar      "$0"
+            lessEqualVar    "$oldtime"
+        }
+
+		// Get current time
+		CurrentTime { resultVar $time }
+
+		// Calculate current interval
+        // interval = time - oldtime
+		Subtract { srcVar1 $time srcVar2 $oldtime resultVar $interval }
+
+		// Sets $update to 1 if it's time to update
+        // if(interval>const_interval){update=1}
+        LessOrEqual {
+            srcVar1         "$interval"
+            srcVar2         "$const_interval"
+            resultVar       "$update"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+    
+		// Save current time if updating
+        // if(update==1){oldtime=time}
+        LessOrEqual {
+            srcVar1         "$update"
+            srcVar2         "$0"
+            resultVar       "$oldtime"
+            greaterVar      "$time"
+            lessEqualVar    "$oldtime"
+        }
+
+    //==============================================================
+    // HORIZONTAL SPEED
+    //==============================================================
+		// get player position
+		PlayerPosition { scale 1 resultVar "$pos" }
+		Clamp { srcVar1 "$0" min "$pos[0]" max "$pos[0]" resultVar "$x" }
+		Clamp { srcVar1 "$0" min "$pos[1]" max "$pos[1]" resultVar "$y" }
+		Clamp { srcVar1 "$0" min "$pos[2]" max "$pos[2]" resultVar "$z" }
+		
+		// get player absolute velocity
+		PlayerSpeed { scale 1 resultVar "$v" }
+		
+		// get game time
+		CurrentTime { resultVar "$time" }
+		
+		// dx = x - prev_x, dy = y - prev_y, dz = z - prev_z, dt = t - prev_t, dv = abs(v - prev_v)
+		Subtract { srcVar1 "$x" srcVar2 "$prev_x" resultVar "$dx" }
+		Subtract { srcVar1 "$y" srcVar2 "$prev_y" resultVar "$dy" }
+		Subtract { srcVar1 "$z" srcVar2 "$prev_z" resultVar "$dz" }
+		Subtract { srcVar1 "$time" srcVar2 "$prev_t" resultVar "$dt" }
+		Subtract { srcVar1 "$v" srcVar2 "$prev_v" resultVar "$dv" }
+		Abs { srcVar1 "$dv" resultVar "$dv" }
+		
+		// dxs = dx*dx, dys = dy*dy
+		Multiply { srcVar1 "$dx" srcVar2 "$dx" resultVar "$dxs" }
+		Multiply { srcVar1 "$dy" srcVar2 "$dy" resultVar "$dys" }
+		
+		// dist = sqrt(dx^2 + dy^2)
+		// initial guess = abs(dx) + abs(dy)
+		Abs { srcVar1 "$dx" resultVar "$sqrt" }
+		Abs { srcVar1 "$dy" resultVar "$tmp" }
+		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$sqrt" }
+		// number we want to sqrt
+		Add { srcVar1 "$dxs" srcVar2 "$dys" resultVar "$number" }
+		// sqrt using 4 iterations of newtons method -> sqrt = 0.5(sqrt + number/sqrt)
+		Divide { srcVar1 "$number" srcVar2 "$sqrt" resultVar "$tmp" }
+		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$tmp" }
+		Multiply { srcVar1 "$tmp" srcVar2 "$0.5" resultVar "$sqrt" }
+		Divide { srcVar1 "$number" srcVar2 "$sqrt" resultVar "$tmp" }
+		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$tmp" }
+		Multiply { srcVar1 "$tmp" srcVar2 "$0.5" resultVar "$sqrt" }
+		Divide { srcVar1 "$number" srcVar2 "$sqrt" resultVar "$tmp" }
+		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$tmp" }
+		Multiply { srcVar1 "$tmp" srcVar2 "$0.5" resultVar "$sqrt" }
+		Divide { srcVar1 "$number" srcVar2 "$sqrt" resultVar "$tmp" }
+		Add { srcVar1 "$tmp" srcVar2 "$sqrt" resultVar "$tmp" }
+		Multiply { srcVar1 "$tmp" srcVar2 "$0.5" resultVar "$dist" } // dist = sqrt
+		
+		// if (dist <= 100): // not being teled
+		// total_dist += dist
+		LessOrEqual {
+			srcVar1 "$dist" srcVar2 "$100"
+			lessEqualVar "$dist" greaterVar "$0"
+			resultVar "$tmp"
+		}
+		Add { srcVar1 "$total_dist" srcVar2 "$tmp" resultVar "$total_dist" }
+		// timer += dt
+		LessOrEqual {
+			srcVar1 "$dist" srcVar2 "$100"
+			lessEqualVar "$dt" greaterVar "$0"
+			resultVar "$tmp"
+		}
+		Add { srcVar1 "$timer" srcVar2 "$tmp" resultVar "$timer" }
+		
+		// if (dv >= 100): // detect getting hit by rocket/ jumping / bonking something
+		// prev_timer = 0.0
+		LessOrEqual {
+			srcVar1 "$100" srcVar2 "$dv"
+			lessEqualVar "$0" greaterVar "$prev_timer"
+			resultVar "$prev_timer"
+		}
+		// prev_total_dist = 0.0
+		LessOrEqual {
+			srcVar1 "$100" srcVar2 "$dv"
+			lessEqualVar "$0" greaterVar "$prev_total_dist"
+			resultVar "$prev_total_dist"
+		}
+		// timer = 0.0
+		LessOrEqual {
+			srcVar1 "$100" srcVar2 "$dv"
+			lessEqualVar "$0" greaterVar "$timer"
+			resultVar "$timer"
+		}
+		// total_dist = 0.0  
+		LessOrEqual {
+			srcVar1 "$100" srcVar2 "$dv"
+			lessEqualVar "$0" greaterVar "$total_dist"
+			resultVar "$total_dist"
+		}
+		
+		// speedo_value = (total_dist + prev_total_dist) / (timer + prev_timer)  
+		Add { srcVar1 "$total_dist" srcVar2 "$prev_total_dist" resultVar "$tmp" }
+		Add { srcVar1 "$timer" srcVar2 "$prev_timer" resultVar "$speedo_value" }
+		Divide { srcVar1 "$tmp" srcVar2 "$speedo_value" resultVar "$speedo_value" }
+		
+		// if (timer > 0.0):
+		// speedo = speedo_value
+		LessOrEqual {
+			srcVar1 "$timer" srcVar2 "$0"
+			lessEqualVar "$speedo" greaterVar "$speedo_value"
+			resultVar "$speedo"
+		}
+		
+		// if (timer >= 0.01):
+		// prev_timer = timer
+		LessOrEqual {
+			srcVar1 "$timer_delay" srcVar2 "$timer"
+			lessEqualVar "$timer" greaterVar "$prev_timer"
+			resultVar "$prev_timer"
+		}
+		// prev_total_dist = total_dist
+		LessOrEqual {
+			srcVar1 "$timer_delay" srcVar2 "$timer"
+			lessEqualVar "$total_dist" greaterVar "$prev_total_dist"
+			resultVar "$prev_total_dist"
+		}
+		// total_dist = 0.0
+		LessOrEqual {
+			srcVar1 "$timer_delay" srcVar2 "$timer"
+			lessEqualVar "$0" greaterVar "$total_dist"
+			resultVar "$total_dist"
+		}
+		// timer = 0.0
+		LessOrEqual {
+			srcVar1 "$timer_delay" srcVar2 "$timer"
+			lessEqualVar "$0" greaterVar "$timer"
+			resultVar "$timer"
+		}
+		
+		// if (dz <= 0.0009):
+		// speedo = v
+		Abs { srcVar1 "$dz" resultVar "$tmp" }
+		LessOrEqual {
+			srcVar1 "$tmp" srcVar2 "$eps"
+			lessEqualVar "$v" greaterVar "$speedo"
+			resultVar "$speedo"
+		}
+		
+		// prev_x = x, prev_y = y, prev_z = z, prev_t = t, prev_v = v
+		Equals { srcVar1 "$x" resultVar "$prev_x" }
+		Equals { srcVar1 "$y" resultVar "$prev_y" }
+		Equals { srcVar1 "$z" resultVar "$prev_z" }
+		Equals { srcVar1 "$time" resultVar "$prev_t" }
+		Equals { srcVar1 "$v" resultVar "$prev_v" }
+		
+		// value = speedo + 0.1
+		Add { srcVar1 "$speedo" srcVar2 "$0.1" resultVar "$value" }
+
+        // clamp speed
+        "Clamp"
+        {
+            "min"                                                   "0"
+            "max"                                                   "3500"
+            "srcVar1"                                               "$value"
+            "resultVar"                                             "$speed"
+        }
+
+    //==============================================================
+    // UPDATE FRAME
+    //==============================================================
+        // change display value if updating
+        // if(update==1){fullframe=speed}
+        LessOrEqual {
+            srcVar1         "$update"
+            srcVar2         "$0"
+            resultVar       "$fullframe"
+            greaterVar      "$speed"
+            lessEqualVar    "$fullframe"
+        }
+        Equals {
+            srcVar1 "$fullframe"
+            resultVar "$frame"
+        }
+
+    //==============================================================
+    // ROUNDING
+    //==============================================================
+        // $frame = $frame/10
+        Divide { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
+        // discard decimals of $frame
+        Int { srcVar1 "$frame" resultVar "$frame"}
+        // $frame = $frame*10
+		Multiply { srcVar1 "$frame" srcVar2 "$roundAmount" resultVar "$frame" }
+
+    //==============================================================
+    // COLORS
+    //==============================================================
+        // BASE
+        // default to white if none of the below conditions are met
+        //--------------------------------------------------------------
+        Equals {
+            srcVar1     "$colorMain"
+            resultVar   "$color"
+        }
+
+        //==============================================================
+        // CLOSE
+        // if(speed>closeMin && speed<closeMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMin"
+            resultVar       "$isAboveCloseMin"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMax"
+            resultVar       "$isBelowCloseMax"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveCloseMin"
+            srcVar2     "$isBelowCloseMax"
+            resultVar   "$isClose"
+        }
+        LessOrEqual {
+            srcVar1         "$isClose"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorClose"
+            lessEqualVar    "$color"
+        }
+
+        //==============================================================
+        // GOOD
+        // if(speed>goodMin && speed<goodMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$goodMin"
+            resultVar       "$isAboveGoodMin"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$goodMax"
+            resultVar       "$isBelowGoodMax"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveGoodMin"
+            srcVar2     "$isBelowGoodMax"
+            resultVar   "$isGood"
+        }
+        LessOrEqual {
+            srcVar1         "$isGood"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorGood"
+            lessEqualVar    "$color"
+        }
+
+        //==============================================================
+        // ABOVE
+        // if(speed>aboveMin && speed<aboveMax)
+        //--------------------------------------------------------------
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMinB"
+            resultVar       "$isAboveCloseMinB"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$closeMaxB"
+            resultVar       "$isBelowCloseMaxB"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        Multiply {
+            srcVar1     "$isAboveCloseMinB"
+            srcVar2     "$isBelowCloseMaxB"
+            resultVar   "$isCloseB"
+        }
+        LessOrEqual {
+            srcVar1         "$isCloseB"
+            srcVar2         "$0"
+            resultVar       "$color"
+            greaterVar      "$colorClose"
+            lessEqualVar    "$color"
+        }
+    //==============================================================
+    // DIGIT SEPERATION
+    //==============================================================
+    // Check if speed is the right size (eg; if digit is _4k, check if the speed is 4 digits long)
+        // if($frame<$lt){ $isCorrectSizeA = 1}
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$lt"
+            resultVar       "$isCorrectSizeA"
+            greaterVar      "$0"
+            lessEqualVar    "$1"
+        }
+        // if($frame>$gt){ $isCorrectSizeB = 1}
+        LessOrEqual {
+            srcVar1         "$frame"
+            srcVar2         "$gt"
+            resultVar       "$isCorrectSizeB"
+            greaterVar      "$1"
+            lessEqualVar    "$0"
+        }
+        // if($isCorrectSizeA && $isCorrectSizeB){ $isCorrectSize = 1}
+        Multiply{srcVar1 $isCorrectSizeA srcVar2 $isCorrectSizeB resultVar $isCorrectSize}
+    
+    // Find digit value (eg; if digit is d3, find the value of the speed in the hundreds place)
+        // $frame = $frame/$digit
+        Divide {
+            srcVar1         "$frame"
+            srcVar2         "$digit"
+            resultVar       "$frame"
+        }
+        // Discard decimals of $frame
+        Int { srcVar1 $frame resultVar $frame }
+        // $leading = $frame/10
+        Divide {
+            srcVar1         "$frame"
+            srcVar2         "$10"
+            resultVar       "$leading"
+        }
+        // Discard decimals of $leading
+        Int { srcVar1 $leading resultVar $leading }
+        // $leading = $leading * 10
+        Multiply {
+            srcVar1         "$leading"
+            srcVar2         "$10"
+            resultVar       "$leading"
+        }
+        // $frame = $frame - $leading
+        Subtract {
+            srcVar1         "$frame"
+            srcVar2         "$leading"
+            resultVar       "$frame"
+        }
+
+        // if($isCorrectSize){ $frame = $frame } else { $frame = 10 (invisible) }
+        LessOrEqual {
+            srcVar1         "$isCorrectSize"
+            srcVar2         "$0"
+            resultVar       "$frame"
+            greaterVar      "$frame"
+            lessEqualVar    "$10"
+        }
+	}
+}

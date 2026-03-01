@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/#Customization_Menu/HUD_Customization_Folder.res"
+"Resource/UI/custom/#Customization_Menu/HUD_Customization_Folder.res"
 {
 	"MainMenuOverride"
 	{

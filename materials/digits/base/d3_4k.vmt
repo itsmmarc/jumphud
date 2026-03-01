@@ -1,0 +1,7 @@
+"UnlitGeneric" {
+	$digit 100
+	$gt 999
+    $lt 9999
+
+    $basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0.070 0"
+}

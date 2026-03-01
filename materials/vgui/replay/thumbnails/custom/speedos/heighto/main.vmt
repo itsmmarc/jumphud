@@ -1,0 +1,26 @@
+// ==============================================================
+// TEXTURE
+// --------------------------------------------------------------
+"#base"         "../../../../../../../../../cfg/jumphud/jh_font_speedo.txt"
+"#base"         "../../../../../../speedo/fonts/coolvetica_italic.vmt"	// default
+// ==============================================================
+// COLORS
+// --------------------------------------------------------------
+"#base"         "../../../../../../speedo/colors/ranges/heighto_ranges.vmt"
+"#base"         "../../../../../../../../cfg/jumphud/jh_heighto_dynclr_main.txt"
+"#base"         "../../../../../../../../cfg/jumphud/jh_heighto_dynclr_double.txt"
+"#base"         "../../../../../../../../cfg/jumphud/jh_heighto_dynclr_triple.txt"
+"#base"         "../../../../../../../../cfg/jumphud/jh_heighto_dynclr_maxvel.txt"
+"#base"         "../../../../../../speedo/colors/heighto_colors_default.vmt"
+// ==============================================================
+// CONSTANTS
+// --------------------------------------------------------------
+"#base"         "../../../../../../speedo/const/rounding.vmt"
+"#base"         "../../../../../../speedo/const/constantNumbers.vmt"
+// ==============================================================
+// HEIGHTO CALCULATION, ROUNDING, COLORS, & DIGIT SEPERATION
+// --------------------------------------------------------------
+"#base"         "math.vmt"
+"UnlitGeneric"
+{
+}

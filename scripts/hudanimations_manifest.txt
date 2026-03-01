@@ -1,52 +1,52 @@
-//animations are loaded on a first come first serve basis, therefore the shadow animations were always loaded first.
-//so now everything else is removed
+// animations are loaded on a first come first serve basis, therefore the shadow animations were always loaded first.
+// so now everything else is removed
 "HudAnimations_Manifest"
 {
-	//===============================================================
-	// HL2 ANIMATIONS
-	//===============================================================
-	"file" "scripts/hudanimations.txt"
-    
-	//===============================================================
-	// CUSTOMIZATIONS
-	//===============================================================
-    "file" "../../cfg/jumphud/jh_crosshair_animation.txt"
-	"file" "../../cfg/jumphud/jh_hitmarker_animation.txt"
-
-	//===============================================================
-	// HEALTH-AMMO-UBER DEFAULT ANIMATIONS
-	//===============================================================
-	"file" "scripts/animations/hudanimations_defaults.txt"
-
-	//===============================================================
-	// HEALTH ANIMATION
-	//===============================================================
-	"file" "scripts/animations/hudanimations_health_shadow.txt"
-
-	//===============================================================
-	// AMMO ANIMATION
-	//===============================================================
-	"file" "scripts/animations/hudanimations_ammo_shadow.txt"
-
-	//===============================================================
-	// UBERCHARGE ANIMATION
-	//===============================================================
-	"file" "scripts/animations/hudanimations_uber_shadow.txt"
-
-    //===============================================================
-	// CROSSHAIR & HITMARKER FLASH ANIMATION
-	//===============================================================
-	"file" "scripts/animations/hudanimations_crosshairs.txt"
-	"file" "scripts/animations/hudanimations_hitmarker.txt"
-
-	//===============================================================
-	// OTHER ANIMATIONS
-	//===============================================================
-	"file" "scripts/animations/hudanimations_misc.txt"
-	"file" "scripts/animations/hudanimations_removed.txt"
-
-	//===============================================================
-	// DEFAULT TF2 ANIMATIONS
-	//===============================================================
-	"file" "scripts/hudanimations_tf.txt"
+    // ===============================================================
+    // HL2 ANIMATIONS
+    // ===============================================================
+    "file"          "scripts/hudanimations.txt"
+    // ===============================================================
+    // CUSTOMIZATIONS
+    // ===============================================================
+    "file"          "../../cfg/jumphud/jh_crosshair_animation.txt"
+    "file"          "../../cfg/jumphud/jh_hitmarker_animation.txt"
+    // ===============================================================
+    // HEALTH-AMMO-UBER DEFAULT ANIMATIONS
+    // ===============================================================
+    "file"          "scripts/animations/hudanimations_defaults.txt"
+    // ===============================================================
+    // HEALTH ANIMATION
+    // ===============================================================
+    "file"          "scripts/animations/hudanimations_health_shadow.txt"
+    // ===============================================================
+    // AMMO ANIMATION
+    // ===============================================================
+    "file"          "scripts/animations/hudanimations_ammo_shadow.txt"
+    // ===============================================================
+    // UBERCHARGE ANIMATION
+    // ===============================================================
+    "file"          "scripts/animations/hudanimations_uber_shadow.txt"
+    // ===============================================================
+    // CROSSHAIR & HITMARKER FLASH ANIMATION
+    // ===============================================================
+    "file"          "scripts/animations/hudanimations_crosshairs.txt"
+    "file"          "scripts/animations/hudanimations_hitmarker.txt"
+    // ===============================================================
+    // JUMPHUD ANIMATIONS
+    // ===============================================================
+    "file"          "scripts/animations/hudanimations_pipetimer.txt"
+    "file"          "scripts/animations/hudanimations_skeys.txt"
+    "file"          "scripts/animations/hudanimations_spraypaint.txt"
+    "file"          "scripts/animations/hudanimations_spraypaint_rainbow.txt"
+    "file"          "scripts/animations/hudanimations_holdreset.txt"
+    // ===============================================================
+    // OTHER ANIMATIONS
+    // ===============================================================
+    "file"          "scripts/animations/hudanimations_misc.txt"
+    "file"          "scripts/animations/hudanimations_removed.txt"
+    // ===============================================================
+    // DEFAULT TF2 ANIMATIONS
+    // ===============================================================
+    "file"          "scripts/hudanimations_tf.txt"
 }

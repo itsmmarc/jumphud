@@ -1,6 +1,6 @@
 #base "../../dev/reload_scheme.res"
 
-#base "../inventorybackground.res"
+//#base "../inventorybackground.res"
 
 "Resource/UI/Econ/InspectionPanel.res"
 {

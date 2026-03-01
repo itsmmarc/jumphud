@@ -2,7 +2,7 @@ r_decal_cullsize 1
 
 exec joystick.cfg
 exec autoexec.cfg
-exec jumphud_setup.cfg
+exec jh_setup.cfg
 
 stuffcmds
 startupmenu

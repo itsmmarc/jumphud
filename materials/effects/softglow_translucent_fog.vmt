@@ -1,0 +1,6 @@
+// "#base"                 "../vgui/replay/thumbnails/blank.vmt"	// testing
+"#base"                 "../../../cfg/jumphud/jh_rocketrails.txt"
+"#base"                 "softglow_translucent_fog_base.vmt"
+"UnlitGeneric"
+{
+}
