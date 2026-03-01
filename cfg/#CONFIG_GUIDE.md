@@ -26,6 +26,8 @@ These function like normal class config files except the files in `#jump_class_c
 
 # BINDS
 
+A full list of the binds added to the settings menu can be seen in `jumphud/scripts/kb_act.lst`
+
 ## SKeys Binds
 
 Use the following aliases to bind your movement & attack keys for skeys to function. _Due to limitations with TF2's code `+jh_jump` will not cancel taunts (eg; exiting conga)._
