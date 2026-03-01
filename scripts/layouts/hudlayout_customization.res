@@ -436,6 +436,20 @@
                 "HUD_Shaders_Selection"
                 {
                     "Visible"           "0"
+                    "Mirror_World"
+                    {
+                        "Mirror_World_Toggle"
+                        {
+                            "Pin_To_Sibling"                "Separator"
+                            "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
+                            "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"
+                            "Check"
+                            {
+                                "Visible"           "0"
+                                "Font"              "Marlett"
+                            }
+                        }
+                    }
                 }
                 "HUD_Speedos_Bar_Sweetspot_Info"
                 {
