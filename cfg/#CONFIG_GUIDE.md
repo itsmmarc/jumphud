@@ -69,28 +69,25 @@ The following aliases can be used to toggle speedos on & off. They all require h
 
 **Toggle Soldier Speedos**
 
+- jh_speedo_s_toggle
 - jh_speedo_s_toggle_on
 - jh_speedo_s_toggle_off
 
 **Toggle Demo Speedos**
 
-- jh_speedo_d_toggle_on
-- jh_speedo_d_toggle_off
+- jh_speedo_d_toggle
 
 **Toggle Bar Speedos**
 
-- jh_bspeedos_toggle_on
-- jh_bspeedos_toggle_off
+- jh_bspeedos_toggle
 
 **Toggle Speed Graphs**
 
-- jh_gspeedos_toggle_on
-- jh_gspeedos_toggle_off
+- jh_gspeedos_toggle
 
 **Toggle SKeys**
 
-- jh_skeys_toggle_on
-- jh_skeys_toggle_off
+- jh_skeys_toggle
 
 **Disable All Speedos**
 
