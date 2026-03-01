@@ -33,7 +33,7 @@ A Team Fortress 2 HUD packed with features designed for use on Tempus jump serve
 
 - Bar speedos designed to assist in demoman airpogo
 
-- Spraypaint bind with many various colours and sizes
+- Spraypaint bind with various colours and sizes
 
 - Many useful binds added to the settings menu such as ctap, toggle thirdperson, and hold to restart run
 
@@ -54,6 +54,8 @@ Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_gui
 ## Known Issues:
 
 Some customization options are not supported on Linux. There is a large cross covering these options when running the HUD on a Linux system.
+
+Mirror world does not flip the game's audio or damage numbers.
 
 HUD speedos start to flicker more the longer a map has been running. This is due to limitations with VMT material proxy scripting.
 
