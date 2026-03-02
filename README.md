@@ -99,6 +99,8 @@ For input display, pipe timer, and mirror world, you must rebind your keys with 
 
 [cuekie's HUD screenspace shaders](https://github.com/cueki/hud-screenspace-shaders)
 
+[Tekunotri](https://github.com/tekunotri) - Porting JumpHUD v1.0.0 from m0rehud 7.3 to m0rehud 6.5 classic
+
 ---
 
 This project would not have been possible without m0rehud.
