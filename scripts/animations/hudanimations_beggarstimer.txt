@@ -1,0 +1,49 @@
+// ===========================================================================================================================
+// HOLD RESET
+// ===========================================================================================================================
+event Beggars_Start
+{
+    RunEvent    Beggars_ReloadFirst    0.0001
+}
+
+event Beggars_ReloadFirst
+{
+    Animate     Beggars_Bar_Small          Wide     20     Linear    0.0      0.690
+    Animate     Beggars_Bar_Large          Wide     91     Linear    0.0      0.690
+    Animate     Beggars_Bar_Flash_Large    Wide     91     Linear    0.0      0.690
+    Animate     Beggars_Bar_Flash_Large    Alpha    255    Linear    0.620    0.0001
+    RunEvent    Beggars_ReloadMain         0.7
+}
+
+event Beggars_ReloadMain
+{
+    RunEvent    Beggars_Reset          0.0
+    RunEvent    Beggars_ReloadMain2    0.01
+}
+
+event Beggars_ReloadMain2
+{
+    Animate     Beggars_Bar_Small          Wide     20     Linear    0.0      1.025
+    Animate     Beggars_Bar_Large          Wide     91     Linear    0.0      1.025
+    Animate     Beggars_Bar_Flash_Large    Wide     91     Linear    0.0      1.025
+    Animate     Beggars_Bar_Flash_Large    Alpha    255    Linear    0.955    0.0001
+    RunEvent    Beggars_ReloadMain         1.035
+}
+
+event Beggars_Reset
+{
+    Animate    Beggars_Bar_Small          Wide     0     Linear    0.0    0.0001
+    Animate    Beggars_Bar_Large          Wide     0     Linear    0.0    0.0001
+    Animate    Beggars_Bar_Flash_Large    Wide     91    Linear    0.0    0.0001
+    Animate    Beggars_Bar_Flash_Large    Alpha    0     Linear    0.0    0.0001
+}
+
+// ---------------------------------------------------------------------------------------------------------------------------
+event Beggars_Stop
+{
+    StopEvent    Beggars_Start          0.0001
+    StopEvent    Beggars_ReloadFirst    0.0001
+    StopEvent    Beggars_ReloadMain     0.0001
+    StopEvent    Beggars_ReloadMain2    0.0001
+    RunEvent     Beggars_Reset          0.0003
+}

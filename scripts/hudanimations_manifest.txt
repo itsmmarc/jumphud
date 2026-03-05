@@ -40,6 +40,7 @@
     "file"          "scripts/animations/hudanimations_spraypaint.txt"
     "file"          "scripts/animations/hudanimations_spraypaint_rainbow.txt"
     "file"          "scripts/animations/hudanimations_holdreset.txt"
+    "file"          "scripts/animations/hudanimations_beggarstimer.txt"
     // ===============================================================
     // OTHER ANIMATIONS
     // ===============================================================

@@ -1,6 +1,7 @@
 "#base"         "speedo.res"
 "#base"         "skeys.res"
 "#base"         "holdreset.res"
+"#base"         "beggarstimer.res"
 "Resource/UI/HudPlayerClass_Base.res"
 {
     "HudPlayerClass"
