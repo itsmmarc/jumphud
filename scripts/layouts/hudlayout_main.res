@@ -654,7 +654,7 @@
         "FieldName"                 "HudHintKeyDisplay"
         "Visible"                   "0"
         "Enabled"                   "1"
-        "XPos"                      "rs1-3"
+        "XPos"                      "rs1-5"
         "YPos"                      "r340"
         "Wide"                      "100"
         "Tall"                      "200"
