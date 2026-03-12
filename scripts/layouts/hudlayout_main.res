@@ -399,7 +399,7 @@
         "visible"                       "1"
         "enabled"                       "1"
         "XPos"                          "r640"
-        "YPos"                          "22"
+        "YPos"                          "24"
         "Wide"                          "628"
         "Tall"                          "468"
         "MaxDeathNotices"               "8"
@@ -949,7 +949,7 @@
         "enabled"           "1"
         "xpos"              "0"
         "ypos"              "0"
-        "zpos"              "20"
+        "zpos"              "3"
         "wide"              "f0"
         "tall"              "f0"
     }
@@ -959,9 +959,9 @@
         "visible"           "0"
         "enabled"           "1"
         "xpos"              "cs-0.5"
-        "ypos"              "32"
+        "ypos"              "36"
         "wide"              "90"
-        "tall"              "25"
+        "tall"              "27"
     }
     "HudStopWatch"
     {
@@ -1265,7 +1265,7 @@
         "enabled"           "1"
         "xpos"              "0"
         "ypos"              "0"
-        "zpos"              "3"
+        "zpos"              "11"
         "wide"              "f0"
         "tall"              "f0"
     }

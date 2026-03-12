@@ -18,12 +18,12 @@ event HudSpyDisguiseHide
 event HudTournamentSetupPanelOpen
 {
     Animate       HudTournamentSetup             ypos        -50                  Linear    0.0      0.001
-    Animate       HudTournamentSetup             ypos        32                   Spline    0.001    0.1
+    Animate       HudTournamentSetup             ypos        36                   Spline    0.001    0.1
 }
 
 event HudTournamentSetupPanelClose
 {
-    Animate       HudTournamentSetup             ypos        32                   Linear    0.0      0.001
+    Animate       HudTournamentSetup             ypos        36                   Linear    0.0      0.001
     Animate       HudTournamentSetup             ypos        -50                  Spline    0.001    0.6
 }
 
