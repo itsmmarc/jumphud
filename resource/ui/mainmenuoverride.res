@@ -1,4 +1,5 @@
 "#base"         "../dev/texture_preload.res"
+"#base"         "preload.res"
 "#base"         "../dev/reload_menu.res"
 "#base"         "../../../../cfg/jumphud/jh_mmoverride_casual.txt"
 // ==============================================================
