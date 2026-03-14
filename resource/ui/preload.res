@@ -808,10 +808,10 @@
                 "enabled"               "1"
                 "image"                 "../speedo/bar/overlay_h_outline_top"
             }
-            "vspeedo"
+            "vspeedo_bar"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "vspeedo"
+                "fieldName"             "vspeedo_bar"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
@@ -835,10 +835,10 @@
                 "enabled"               "1"
                 "image"                 "../speedo/bar/sweetspot_v_2"
             }
-            "hspeedo"
+            "hspeedo_bar"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "hspeedo"
+                "fieldName"             "hspeedo_bar"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
