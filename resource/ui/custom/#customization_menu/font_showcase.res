@@ -163,21 +163,12 @@
                 "antialias"         "1"
             }
         }
-        "Showcase_TF2"
-        {
-            "1"
-            {
-                "name"              "TF2 Secondary"
-                "Tall"              "28"
-                "antialias"         "1"
-            }
-        }
-        "Showcase_TF2_Bold"
+        "Showcase_TF"
         {
             "1"
             {
                 "name"              "TF2 Build"
-                "Tall"              "22"
+                "Tall"              "28"
                 "antialias"         "1"
             }
         }

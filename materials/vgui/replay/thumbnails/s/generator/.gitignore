@@ -9,6 +9,8 @@ numbers/*
 numbers_basic/*
 numbers_experimental_vertical/*
 numbers_experimental_horizontal/*
-*.exe
 previews/*
+*.exe
 *.png
+*.ttf
+*.otf

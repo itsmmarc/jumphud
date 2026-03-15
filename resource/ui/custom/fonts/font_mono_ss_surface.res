@@ -23,4 +23,12 @@
             }
         }
     }
+    "CustomFontFiles"
+    {
+        "4"
+        {
+            "Font"          "resource/scheme/fonts/optional/surface_medium.otf"
+            "name"          "Surface"
+        }
+    }
 }

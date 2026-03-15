@@ -583,7 +583,7 @@
         "XPos"                          "0"
         "YPos"                          "0"
         "ZPos"                          "15"
-        "Wide"                          "113"
+        "Wide"                          "123"
         "Tall"                          "17"
         "Pin_To_Sibling"                "Settings"
         "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"
