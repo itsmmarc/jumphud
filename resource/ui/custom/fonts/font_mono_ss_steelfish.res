@@ -23,4 +23,12 @@
             }
         }
     }
+    "CustomFontFiles"
+    {
+        "4"
+        {
+            "Font"          "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
+            "name"          "Steelfish ExtBd"
+        }
+    }
 }

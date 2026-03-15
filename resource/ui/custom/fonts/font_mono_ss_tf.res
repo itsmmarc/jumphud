@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"              "Steelfish ExtBd"
+                "name"              "TF2 Build"
                 "Tall"              "18"
                 "outline"           "1"
                 "dropshadow"        "0"
@@ -17,7 +17,7 @@
         {
             "1"
             {
-                "name"          "Steelfish ExtBd"
+                "name"          "TF2 Build"
                 "Tall"          "16"
                 "weight"        "0"
             }
@@ -27,8 +27,8 @@
     {
         "4"
         {
-            "Font"          "resource/scheme/fonts/steelfish_extra-bold-italic.otf"
-            "name"          "Steelfish ExtBd"
+            "Font"          "resource/scheme/fonts/optional/tf2build.ttf"
+            "name"          "TF2 Build"
         }
     }
 }

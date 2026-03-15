@@ -86,6 +86,11 @@
             "Font"          "resource/scheme/fonts/optional/1_Minecraft-Regular.otf"
             "name"          "Minecraft"
         }
+        "27"
+        {
+            "Font"          "resource/scheme/fonts/optional/tf2build.ttf"
+            "name"          "TF2 Build"
+        }
         // icon fonts
         "101"
         {
