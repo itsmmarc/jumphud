@@ -5,7 +5,7 @@ A Team Fortress 2 HUD packed with features designed for use on Tempus jump serve
 ---
 
 <a href="https://github.com/itsmmarc/jumphud/releases/download/v2.5.0/jumphud-v2.5.0.zip"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/downloadbutton.png"></a>
-<a href="https://github.com/itsmmarc/jumphud/wiki/SHOWCASE"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/screenshotsbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/wiki/SHOWCASE"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/screenshotsbutton.png"></a><br>
 <a href="https://discord.gg/s6yJMGecMZ"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/discord.png"></a>
 <a href="https://ko-fi.com/itsmmarc"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/kofi.png"></a>
 
@@ -26,6 +26,18 @@ A Team Fortress 2 HUD packed with features designed for use on Tempus jump serve
 6. To use input display, pipe timer, or mirror world, you must rebind your keys with the binds found at the top of the settings menu. Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see how to update your config to use these.
 
 7. _**\[linux\]** install the fonts located in `resource/scheme/fonts/`_
+
+## Troubleshooting
+
+#### When I click the _X_ button nothing happens.
+
+Add `exec jh_setup` to `tf/cfg/autoexec.cfg` and restart the game. This is usually caused by clashes with another mod using the `valve.rc` file to run commands on startup.
+
+#### _X_ is broken after updating the HUD.
+
+Try deleting the `tf/cfg/jumphud/` folder. This stores your selected customizations and can sometimes break between updates.
+
+_If you run into any other problems, please leave a message in the [Discord](https://discord.gg/s6yJMGecMZ)._
 
 ## Features
 
@@ -73,21 +85,19 @@ _If you run into any other problems, please leave a message in the [Discord](htt
 
 ## FAQ
 
-### How do I queue for casual/MVM?
+#### How do I queue for casual/MVM?
 
 Click on the JumpHUD logo icon to switch the hud into casual mode, you can switch back by clicking on the TF2 logo.
 
-### Why isn't the HUD's input display working?
-
-### Why isn't the HUD's pipe timer working?
-
-### Why can't I move properly with mirror world enabled?
+#### Why isn't the HUD's input display / pipe timer / mirror world working?
 
 For input display, pipe timer, and mirror world, you must rebind your keys with the binds found at the top of the settings menu. Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_guide) to see how to update your config to use these.
 
 ---
 
 ## Credits
+
+[m0rehud](https://github.com/Hypnootize/m0rehud)
 
 [Pear's heighto and horizontal/vertical HUD speedos](https://github.com/bakapear/hudmods)
 
@@ -96,9 +106,3 @@ For input display, pipe timer, and mirror world, you must rebind your keys with 
 [VillageGreenPreserver's speedograph](https://github.com/VillageGreenPreserver/SpeedoGraph)
 
 [cuekie's HUD screenspace shaders](https://github.com/cueki/hud-screenspace-shaders)
-
----
-
-This project would not have been possible without m0rehud.
-
-<a href="https://github.com/Hypnootize/m0rehud"><img src="https://i.imgur.com/HVyxIC3.png"></a>
