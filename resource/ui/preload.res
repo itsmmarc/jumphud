@@ -2054,5 +2054,45 @@
                 "Image"                 "replay/thumbnails/skeys/arrow_right"
             }
         }
+
+        "CustomizationMenuPL"
+        {
+            "ControlName"           "EditablePanel"
+            "fieldName"             "CustomizationMenuPL"
+            "xpos"                  "0"
+            "ypos"                  "0"
+            "zpos"                  "0"
+            "wide"                  "0"
+            "tall"                  "0"
+            "visible"               "1"
+            "enabled"               "1"
+            "SpraypaintPL"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "SpraypaintPL"
+                "xpos"                  "9999"
+                "visible"               "1"
+                "enabled"               "1"
+                "image"                 "../sprays/spraypaint"
+            }
+            "SpraypaintPreviewPL"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "SpraypaintPreviewPL"
+                "xpos"                  "9999"
+                "visible"               "1"
+                "enabled"               "1"
+                "image"                 "replay/thumbnails/custom/sprays/spraypaint_preview"
+            }
+            "VSpeedoBarPL"
+            {
+                "ControlName"           "ImagePanel"
+                "fieldName"             "VSpeedoBarPL"
+                "xpos"                  "9999"
+                "visible"               "1"
+                "enabled"               "1"
+                "image"			    	"replay/thumbnails/custom/barspeedos/vspeedo_bar_preview"
+            }
+        }
     }
 }
