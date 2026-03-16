@@ -49,7 +49,7 @@
 "jh_viewmodeltoggle"    "Draw viewmodel (toggle)"
 "toggle mat_fullbright"         "Full bright (toggle)"
 "sm_showtriggers"               "Show triggers (toggle)"
-"toggle r_drawclipsbrushes 0 2" "Draw clip brushes (toggle)"
+"toggle r_drawclipbrushes 0 2" "Draw clip brushes (toggle)"
 "toggle mat_luxels"             "Draw luxels (toggle)"
 "blank"			"=========================="
 "blank"			"JUMP SPRAYPAINT"
