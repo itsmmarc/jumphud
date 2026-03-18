@@ -172,6 +172,15 @@
                 "antialias"         "1"
             }
         }
+        "Showcase_Freeman"
+        {
+            "1"
+            {
+                "name"              "Freeman Regular"
+                "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
         "Crosshair_Showcase"
         {
             "1"

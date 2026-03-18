@@ -91,6 +91,11 @@
             "Font"          "resource/scheme/fonts/optional/tf2build.ttf"
             "name"          "TF2 Build"
         }
+        "28"
+        {
+            "Font"          "resource/scheme/fonts/optional/Freeman-Regular.ttf"
+            "name"          "Freeman Regular"
+        }
         // icon fonts
         "101"
         {
