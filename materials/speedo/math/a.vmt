@@ -1,7 +1,5 @@
 "UnlitGeneric"
 {
-        "$vertexalpha"                          "1"
-        "$alpha"                                "0.7"
         // ==============================================================
         // DIGIT SEPERATION VARIABLES
         // ==============================================================
@@ -33,7 +31,7 @@
         "$colorMain"                            "{ 255 255 255 }"	// default color
         "$color"                                "$colorMain"
         // rainbow color vars
-        "$enableRainbow"                        "1"
+        "$enableRainbow"                        "0"
         "$rainbowColor"                         "[1 1 1]"
         "$iRandRedBool"                         "0"
         "$rainbowRed"                           "1.0"
@@ -48,8 +46,6 @@
         "$rainbowBlueI"                         "0.0"
         "$rainbowBlueD"                         "0.0"
         "$diff"                                 "0.004"	// 0.004
-        "$255"                                  "255"
-        // ==============================================================
         "Proxies"
         {
                 // ==============================================================

@@ -60,6 +60,22 @@
         // ==============================================================
         "$colorMain"                            "{ 255 255 255 }"	// default color
         "$color"                                "$colorMain"
+        // rainbow color vars
+        "$enableRainbow"                        "0"
+        "$rainbowColor"                         "[1 1 1]"
+        "$iRandRedBool"                         "0"
+        "$rainbowRed"                           "1.0"
+        "$rainbowRedI"                          "0.0"
+        "$rainbowRedD"                          "0.0"
+        "$iRandGreenBool"                       "0"
+        "$rainbowGreen"                         "1.0"
+        "$rainbowGreenI"                        "0.0"
+        "$rainbowGreenD"                        "0.0"
+        "$iRandBlueBool"                        "0"
+        "$rainbowBlue"                          "1.0"
+        "$rainbowBlueI"                         "0.0"
+        "$rainbowBlueD"                         "0.0"
+        "$diff"                                 "0.004"	// 0.004
         "Proxies"
         {
                 // ==============================================================
@@ -599,6 +615,143 @@
                         "srcVar1"                       "$frame"
                         "srcVar2"                       "$roundAmount"
                         "resultVar"                     "$frame"
+                }
+                // ==============================================================
+                // SPEEDO RAINBOW
+                // ==============================================================
+                // RED
+                // iRandRedBool = random(0,1)
+                "UniformNoise"
+                {
+                        "minVal"                        "$0"
+                        "maxVal"                        "$2"
+                        "resultVar"                     "$iRandRedBool"
+                }
+                "Clamp"
+                {
+                        "min"                           "$0"
+                        "max"                           "$1"
+                        "srcVar1"                       "$rainbowRed"
+                        "resultVar"                     "$rainbowRed"
+                }
+                "Add"
+                {
+                        "srcVar1"                       "$rainbowRed"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowRedI"
+                }
+                "Subtract"
+                {
+                        "srcVar1"                       "$rainbowRed"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowRedD"
+                }
+                // if(iRandRedBool){rainbowRed++} else {rainbowRed--}
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$iRandRedBool"
+                        "srcVar2"                       "$1"
+                        "resultVar"                     "$rainbowRed"
+                        "greaterVar"                    "$rainbowRedI"
+                        "lessEqualVar"                  "$rainbowRedD"
+                }
+                "Equals"
+                {
+                        "srcVar1"                       "$rainbowRed"
+                        "resultVar"                     "$rainbowColor[0]"
+                }
+                // GREEN
+                // iRandGreenBool = random(0,1)
+                "UniformNoise"
+                {
+                        "minVal"                        "$0"
+                        "maxVal"                        "$2"
+                        "resultVar"                     "$iRandGreenBool"
+                }
+                "Clamp"
+                {
+                        "min"                           "$0"
+                        "max"                           "$1"
+                        "srcVar1"                       "$rainbowGreen"
+                        "resultVar"                     "$rainbowGreen"
+                }
+                "Add"
+                {
+                        "srcVar1"                       "$rainbowGreen"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowGreenI"
+                }
+                "Subtract"
+                {
+                        "srcVar1"                       "$rainbowGreen"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowGreenD"
+                }
+                // if(iRandGreenBool){rainbowGreen++} else {rainbowGreen--}
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$iRandGreenBool"
+                        "srcVar2"                       "$1"
+                        "resultVar"                     "$rainbowGreen"
+                        "greaterVar"                    "$rainbowGreenI"
+                        "lessEqualVar"                  "$rainbowGreenD"
+                }
+                "Equals"
+                {
+                        "srcVar1"                       "$rainbowGreen"
+                        "resultVar"                     "$rainbowColor[1]"
+                }
+                // BLUE
+                // iRandBlueBool = random(0,1)
+                "UniformNoise"
+                {
+                        "minVal"                        "$0"
+                        "maxVal"                        "$2"
+                        "resultVar"                     "$iRandBlueBool"
+                }
+                "Clamp"
+                {
+                        "min"                           "$0"
+                        "max"                           "$1"
+                        "srcVar1"                       "$rainbowBlue"
+                        "resultVar"                     "$rainbowBlue"
+                }
+                "Add"
+                {
+                        "srcVar1"                       "$rainbowBlue"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowBlueI"
+                }
+                "Subtract"
+                {
+                        "srcVar1"                       "$rainbowBlue"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowBlueD"
+                }
+                // if(iRandBlueBool){rainbowBlue++} else {rainbowBlue--}
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$iRandBlueBool"
+                        "srcVar2"                       "$1"
+                        "resultVar"                     "$rainbowBlue"
+                        "greaterVar"                    "$rainbowBlueI"
+                        "lessEqualVar"                  "$rainbowBlueD"
+                }
+                "Equals"
+                {
+                        "srcVar1"                       "$rainbowBlue"
+                        "resultVar"                     "$rainbowColor[2]"
+                }
+                // ==============================================================
+                // RAINBOW COLOR TOGGLE
+                // ==============================================================
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$enableRainbow"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$color"
+                        "greaterVar"                    "$rainbowColor"
+                        "lessEqualVar"                  "$color"
                 }
                 // ==============================================================
                 // DIGIT SEPERATION
