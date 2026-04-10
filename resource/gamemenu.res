@@ -489,7 +489,7 @@
     "ShowTriggers"
     {
         "label"             "@"
-        "Command"           "engine sm_showtriggers"
+        "Command"           "engine jh_showtriggers"
         "tooltip"           "Toggle Show Triggers"
         "OnlyInGame"        "1"
     }
