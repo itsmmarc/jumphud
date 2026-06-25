@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$basetexture" "forcefield_by_200/hex_blue_distant"
+        $basetexturetransform "center .5 .5 scale 0.25 0.25 rotate 0 translate 0 0"
+        
+	"$translucent" 1
+        // "$additive" "1"
+        // "$vertexcolor" 1
+        // $color "{50 50 255}"
+	"Proxies"
+	{
+		"TextureScroll"
+                {
+                        "Texturescrollvar" "$basetexturetransform"
+                        "Texturescrollrate" "0.1"
+                        "Texturescrollangle" "45"
+                }
+	}
+}
