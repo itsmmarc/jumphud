@@ -199,6 +199,15 @@
                 "antialias"         "1"
             }
         }
+        "Showcase_SpaceGrotesk"
+        {
+            "1"
+            {
+                "name"              "Chivo Mono Regular"
+                "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
         "Crosshair_Showcase"
         {
             "1"

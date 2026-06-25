@@ -106,6 +106,11 @@
             "Font"          "resource/scheme/fonts/optional/SpaceGrotesk-SemiBold.ttf"
             "name"          "Space Grotesk SemiBold"
         }
+        "30"
+        {
+            "Font"          "resource/scheme/fonts/optional/ChivoMono-Regular.ttf"
+            "name"          "Chivo Mono Regular"
+        }
         // icon fonts
         "101"
         {
