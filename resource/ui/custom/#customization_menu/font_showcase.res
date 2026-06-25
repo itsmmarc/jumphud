@@ -181,6 +181,15 @@
                 "antialias"         "1"
             }
         }
+        "Showcase_Comfortaa"
+        {
+            "1"
+            {
+                "name"              "Comfortaa SemiBold"
+                "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
         "Crosshair_Showcase"
         {
             "1"

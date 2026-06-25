@@ -11,7 +11,7 @@
 # Define parameters
 $maxNumber = 10
 $backgroundColor = "Transparent"
-$font = "fonts/Freeman-Regular.ttf"
+$font = "Comfortaa-SemiBold.ttf"
 $fontSize = 64
 $VTFSize = "256x64"
 $VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast

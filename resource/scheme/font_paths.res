@@ -96,6 +96,11 @@
             "Font"          "resource/scheme/fonts/optional/Freeman-Regular.ttf"
             "name"          "Freeman Regular"
         }
+        "29"
+        {
+            "Font"          "resource/scheme/fonts/optional/Comfortaa-SemiBold.ttf"
+            "name"          "Comfortaa SemiBold"
+        }
         // icon fonts
         "101"
         {
