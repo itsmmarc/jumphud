@@ -101,6 +101,11 @@
             "Font"          "resource/scheme/fonts/optional/Comfortaa-SemiBold.ttf"
             "name"          "Comfortaa SemiBold"
         }
+        "30"
+        {
+            "Font"          "resource/scheme/fonts/optional/SpaceGrotesk-SemiBold.ttf"
+            "name"          "Space Grotesk SemiBold"
+        }
         // icon fonts
         "101"
         {

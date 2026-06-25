@@ -190,6 +190,15 @@
                 "antialias"         "1"
             }
         }
+        "Showcase_SpaceGrotesk"
+        {
+            "1"
+            {
+                "name"              "Space Grotesk SemiBold"
+                "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
         "Crosshair_Showcase"
         {
             "1"
