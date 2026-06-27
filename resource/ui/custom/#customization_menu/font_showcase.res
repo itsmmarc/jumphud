@@ -199,7 +199,7 @@
                 "antialias"         "1"
             }
         }
-        "Showcase_SpaceGrotesk"
+        "Showcase_ChivoMono"
         {
             "1"
             {
