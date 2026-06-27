@@ -1,10 +1,4 @@
-"UnlitGeneric" // main rocket trail
-{
-	"$basetexture"	"Effects/brightglow_y"
-	"$surfaceprop"	"no_decal"
-	"$additive"	1
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-
-        "$color" "{255 222 0}"
-}
+#base ../../../cfg/jumphud/jh_rocketfiretrails.txt
+#base sc_brightglow_y_nomodel_default.vmt
+"UnlitGeneric"
+{}
