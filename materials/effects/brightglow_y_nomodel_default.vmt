@@ -1,6 +1,6 @@
 "UnlitGeneric" // rocket trail inner spark
 {
-	"$basetexture"	"Effects/brightglow_y"
+	"$basetexture"	"effects/brightglow_y_white"
 	"$surfaceprop"	"no_decal"
 	"$additive"	1
 	"$vertexcolor"	1

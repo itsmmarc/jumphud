@@ -1,4 +1,5 @@
 "UnlitGeneric"
 {
+        "$basetexture"	"effects/brightglow_y_white"
     "$color"        "{ 255 0 127 }"
 }
