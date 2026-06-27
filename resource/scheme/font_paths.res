@@ -106,10 +106,15 @@
             "Font"          "resource/scheme/fonts/optional/SpaceGrotesk-SemiBold.ttf"
             "name"          "Space Grotesk SemiBold"
         }
-        "30"
+        "31"
         {
             "Font"          "resource/scheme/fonts/optional/ChivoMono-Regular.ttf"
             "name"          "Chivo Mono Regular"
+        }
+        "32"
+        {
+            "Font"          "resource/scheme/fonts/optional/Kodchasan-Bold.ttf"
+            "name"          "Kodchasan Bold"
         }
         // icon fonts
         "101"

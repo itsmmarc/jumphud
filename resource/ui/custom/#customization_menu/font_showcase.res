@@ -208,6 +208,15 @@
                 "antialias"         "1"
             }
         }
+        "Showcase_Kodchasan"
+        {
+            "1"
+            {
+                "name"              "Kodchasan Bold"
+                "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
         "Crosshair_Showcase"
         {
             "1"
