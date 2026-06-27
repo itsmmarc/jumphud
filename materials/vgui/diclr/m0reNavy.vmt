@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+        "$basetexture"	"vgui/damageindicator_white"
+    "$color"        "{ 90 120 200 }"
+}
