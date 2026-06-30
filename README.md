@@ -101,7 +101,7 @@ For input display, pipe timer, and mirror world, you must rebind your keys with 
 
 [m0rehud](https://github.com/Hypnootize/m0rehud)
 
-[Pear's heighto and horizontal/vertical HUD speedos](https://github.com/bakapear/hudmods)
+[SUthrey & Pear's heighto and horizontal/vertical HUD speedos](https://github.com/bakapear/hudmods)
 
 [Elandi's custom Tempus sprays](https://github.com/Elandi-rj/sprays)
 
