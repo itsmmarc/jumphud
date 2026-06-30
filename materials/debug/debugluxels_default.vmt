@@ -1,4 +1,4 @@
-"LightmappedGeneric"
+"UnlitGeneric"
 {
 	"$basetexture" "debug/debugluxels_default"
 	"$translucent" 1
