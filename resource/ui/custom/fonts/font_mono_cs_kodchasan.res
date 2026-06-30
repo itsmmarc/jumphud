@@ -6,8 +6,9 @@
         {
             "1"
             {
-                "name"              "Kodchasan Bold"
-                "Tall"              "11"
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+               "Tall"              "11"
                 "antialias"         "1"
             }
         }
@@ -15,8 +16,9 @@
         {
             "1"
             {
-                "name"              "Kodchasan Bold"
-                "Tall"              "11"
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+               "Tall"              "11"
                 "antialias"         "1"
             }
         }

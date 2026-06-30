@@ -214,8 +214,9 @@
         {
             "1"
             {
-                "name"              "Kodchasan Bold"
-                "Tall"              "28"
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+               "Tall"              "28"
                 "antialias"         "1"
             }
         }

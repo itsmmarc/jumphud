@@ -6,8 +6,9 @@
         {
             "1"
             {
-                "name"              "Kodchasan Bold"
-                "Tall"              "22"
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+               "Tall"              "22"
                 "outline"           "1"
                 "dropshadow"        "0"
                 "antialias"         "1"
@@ -17,8 +18,9 @@
         {
             "1"
             {
-                "name"          "Kodchasan Bold"
-                "Tall"          "20"
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+               "Tall"          "20"
                 "weight"        "0"
             }
         }
@@ -28,7 +30,8 @@
         "4"
         {
             "Font"          "resource/scheme/fonts/optional/Kodchasan-Bold.ttf"
-            "name"          "Kodchasan Bold"
-        }
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+       }
     }
 }

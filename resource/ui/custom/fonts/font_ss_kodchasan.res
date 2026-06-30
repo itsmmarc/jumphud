@@ -18,7 +18,8 @@
 		"3"    // main hud font
         {
             "Font"      "resource/scheme/fonts/optional/Kodchasan-Bold.ttf"
-            "name"      "Kodchasan Bold"
-        }
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+       }
     }
 }

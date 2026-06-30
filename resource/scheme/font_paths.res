@@ -116,8 +116,9 @@
         "32"
         {
             "Font"          "resource/scheme/fonts/optional/Kodchasan-Bold.ttf"
-            "name"          "Kodchasan Bold"
-        }
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+       }
         // icon fonts
         "101"
         {
