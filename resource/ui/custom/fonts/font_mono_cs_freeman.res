@@ -6,8 +6,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "12"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "12"
                 "antialias"         "1"
             }
         }
@@ -15,8 +16,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "12"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "12"
                 "antialias"         "1"
             }
         }

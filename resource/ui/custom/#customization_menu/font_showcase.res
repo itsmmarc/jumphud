@@ -176,8 +176,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "28"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "28"
                 "antialias"         "1"
             }
         }

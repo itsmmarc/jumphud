@@ -6,8 +6,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "22"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "22"
                 "outline"           "1"
                 "dropshadow"        "0"
                 "antialias"         "1"
@@ -17,8 +18,9 @@
         {
             "1"
             {
-                "name"          "Freeman Regular"
-                "Tall"          "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"          "20"
                 "weight"        "0"
             }
         }
@@ -28,7 +30,8 @@
         "4"
         {
             "Font"          "resource/scheme/fonts/optional/Freeman-Regular.ttf"
-            "name"          "Freeman Regular"
-        }
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+       }
     }
 }

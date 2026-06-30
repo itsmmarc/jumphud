@@ -6,8 +6,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "32"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "32"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -17,8 +18,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -28,8 +30,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "12"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "12"
                 "weight"            "0"
                 "additive"          "0"
                 "antialias"         "1"
@@ -43,8 +46,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "32"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "32"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -54,8 +58,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -65,8 +70,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "16"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "16"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -76,8 +82,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "12"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "12"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -87,8 +94,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "8"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "8"
                 "weight"            "0"
                 "additive"          "0"
                 "antialias"         "1"
@@ -99,8 +107,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "6"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "6"
                 "weight"            "0"
                 "additive"          "0"
                 "antialias"         "1"
@@ -111,8 +120,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "16"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -121,8 +131,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "20"
                 "antialias"         "1"
             }
         }
@@ -130,8 +141,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "30"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "30"
                 "antialias"         "1"
             }
         }
@@ -139,8 +151,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "36"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "36"
                 "antialias"         "1"
             }
         }
@@ -148,8 +161,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "48"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "48"
                 "antialias"         "1"
             }
         }
@@ -157,8 +171,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -168,8 +183,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "16"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "16"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -179,8 +195,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "10"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "10"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -190,8 +207,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -201,8 +219,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "10"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "10"
                 "weight"            "0"
                 "additive"          "0"
                 "antialias"         "1"
@@ -213,8 +232,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "11"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "11"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -225,8 +245,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
                 "antialias"         "1"
@@ -240,8 +261,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "9"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "9"
                 "antialias"         "1"
             }
         }
@@ -249,8 +271,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "10"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "10"
                 "antialias"         "1"
             }
         }
@@ -258,8 +281,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "10"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "10"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -268,8 +292,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "11"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "11"
                 "antialias"         "1"
             }
         }
@@ -277,8 +302,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "11"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "11"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -287,8 +313,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "12"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "12"
                 "antialias"         "1"
             }
         }
@@ -296,8 +323,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "12"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "12"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -306,8 +334,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "14"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "14"
                 "antialias"         "1"
             }
         }
@@ -315,8 +344,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "14"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "14"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -325,8 +355,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "16"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "16"
                 "antialias"         "1"
             }
         }
@@ -334,8 +365,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "16"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -344,8 +376,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "18"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "18"
                 "antialias"         "1"
             }
         }
@@ -353,8 +386,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "18"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "18"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -363,8 +397,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "18"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "18"
                 "antialias"         "1"
                 "outline"           "1"
             }
@@ -373,8 +408,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "18"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "18"
                 "antialias"         "1"
                 "outline"           "1"
             }
@@ -383,8 +419,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "20"
                 "antialias"         "1"
             }
         }
@@ -392,8 +429,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "24"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "24"
                 "antialias"         "1"
             }
         }
@@ -401,8 +439,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "24"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "24"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -411,8 +450,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "26"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "26"
                 "antialias"         "1"
             }
         }
@@ -420,8 +460,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "30"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "30"
                 "antialias"         "1"
             }
         }
@@ -429,8 +470,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "32"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "32"
                 "antialias"         "1"
             }
         }
@@ -438,8 +480,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "36"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "36"
                 "antialias"         "1"
             }
         }
@@ -447,8 +490,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "48"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "48"
                 "antialias"         "1"
             }
         }
@@ -456,8 +500,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "58"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "58"
                 "antialias"         "1"
             }
         }
@@ -466,8 +511,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "7"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "7"
                 "antialias"         "1"
             }
         }
@@ -475,8 +521,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "8"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "8"
                 "antialias"         "1"
             }
         }
@@ -484,8 +531,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "9"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "9"
                 "antialias"         "1"
             }
         }
@@ -493,8 +541,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "10"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "10"
                 "antialias"         "1"
             }
         }
@@ -505,8 +554,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "18"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "18"
                 "weight"            "300"
                 "antialias"         "1"
                 "additive"          "1"
@@ -516,8 +566,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "8"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
             }
@@ -526,8 +577,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "8"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
             }
@@ -536,8 +588,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "8"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
             }
@@ -546,8 +599,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "7"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "7"
                 "weight"            "0"
                 "antialias"         "1"
             }
@@ -556,8 +610,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "8"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "8"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -567,8 +622,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "9"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "9"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -578,8 +634,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "12"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "12"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -589,8 +646,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "18"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "18"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -600,8 +658,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "20"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "20"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"
                 "antialias"         "1"
@@ -612,8 +671,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "28"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "28"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -622,8 +682,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "16"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "16"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -632,8 +693,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "18"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "18"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -642,8 +704,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "16"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -652,8 +715,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "13"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "13"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -662,8 +726,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "tall"              "28"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "tall"              "28"
                 "antialias"         "1"
                 // "dropshadow"								"1"
             }
@@ -672,8 +737,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "28"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "28"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -682,8 +748,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "28"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "28"
                 "antialias"         "1"
                 "dropshadow"        "1"
             }
@@ -692,8 +759,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "36"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "36"
                 "weight"            "500"
                 "additive"          "0"
                 "antialias"         "1"
@@ -703,8 +771,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "42"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "42"
                 "weight"            "600"
                 "additive"          "0"
                 "antialias"         "1"
@@ -714,8 +783,9 @@
         {
             "1"
             {
-                "name"              "Freeman Regular"
-                "Tall"              "24"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "24"
                 "weight"            "600"
                 "additive"          "0"
                 "antialias"         "1"

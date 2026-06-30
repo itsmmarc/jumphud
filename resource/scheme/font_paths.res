@@ -94,8 +94,9 @@
         "28"
         {
             "Font"          "resource/scheme/fonts/optional/Freeman-Regular.ttf"
-            "name"          "Freeman Regular"
-        }
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+       }
         "29"
         {
             "Font"          "resource/scheme/fonts/optional/Comfortaa-SemiBold.ttf"
