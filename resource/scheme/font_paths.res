@@ -110,8 +110,9 @@
         "31"
         {
             "Font"          "resource/scheme/fonts/optional/ChivoMono-Regular.ttf"
-            "name"          "Chivo Mono Regular"
-        }
+            "name"          "Chivo Mono Regular" [$WINDOWS]
+            "name"          "Chivo Mono" [$LINUX]
+       }
         "32"
         {
             "Font"          "resource/scheme/fonts/optional/Kodchasan-Bold.ttf"

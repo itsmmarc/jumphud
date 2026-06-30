@@ -18,7 +18,8 @@
 		"3"    // main hud font
         {
             "Font"      "resource/scheme/fonts/optional/ChivoMono-Regular.ttf"
-            "name"      "Chivo Mono Regular"
-        }
+            "name"          "Chivo Mono Regular" [$WINDOWS]
+            "name"          "Chivo Mono" [$LINUX]
+       }
     }
 }

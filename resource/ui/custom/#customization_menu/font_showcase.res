@@ -204,8 +204,9 @@
         {
             "1"
             {
-                "name"              "Chivo Mono Regular"
-                "Tall"              "28"
+            "name"          "Chivo Mono Regular" [$WINDOWS]
+            "name"          "Chivo Mono" [$LINUX]
+               "Tall"              "28"
                 "antialias"         "1"
             }
         }
