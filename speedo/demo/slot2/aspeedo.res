@@ -3,94 +3,24 @@
 "speedo_absolute.res" {
     "speedos" {
         "slot_2_container" {
-            "Digits_Container" {            
-                "Digits_4_Container"
+            "Digits_Container" {             
+                "d_l"
                 {
-                    "d4_4k" {
-                        "image" "../speedo/a_demo/d4_4k"
-                    }
-                    "d3_4k" {
-                        "image" "../speedo/a_demo/d3_4k"
-                    }
-                    "d2_4k" {
-                        "image" "../speedo/a_demo/d2_4k"
-                    }
-                    "d1_4k" {
-                        "image" "../speedo/a_demo/d1_4k"
-                    }
+                    "image" "../speedo/a_demo/d_l"
                 }
-                "Digits_3_Container"
+                "d_r"
                 {
-                    "d3_3k" {
-                        "image" "../speedo/a_demo/d3_3k"
-                    }
-                    "d2_3k" {
-                        "image" "../speedo/a_demo/d2_3k"
-                    }
-                    "d1_3k" {
-                        "image" "../speedo/a_demo/d1_3k"
-                    }
-                }
-                "Digits_2_Container"
-                {
-                    "d2_2k" {
-                        "image" "../speedo/a_demo/d2_2k"
-                    }
-                    "d1_2k" {
-                        "image" "../speedo/a_demo/d1_2k"
-                    }
-                }
-                "Digits_1_Container"
-                {
-                    "d1_1k"
-                    {
-                        "image" "../speedo/a_demo/d1_1k"
-                    }
+                    "image" "../speedo/a_demo/d_r"
                 }
             }
             "Shadows_Container" {            
-                "Digits_4_Container"
+                "d_l"
                 {
-                    "d4_4k" {
-                        "image" "../speedo/a_demo/d4_4k"
-                    }
-                    "d3_4k" {
-                        "image" "../speedo/a_demo/d3_4k"
-                    }
-                    "d2_4k" {
-                        "image" "../speedo/a_demo/d2_4k"
-                    }
-                    "d1_4k" {
-                        "image" "../speedo/a_demo/d1_4k"
-                    }
+                    "image" "../speedo/a_demo/d_l"
                 }
-                "Digits_3_Container"
+                "d_r"
                 {
-                    "d3_3k" {
-                        "image" "../speedo/a_demo/d3_3k"
-                    }
-                    "d2_3k" {
-                        "image" "../speedo/a_demo/d2_3k"
-                    }
-                    "d1_3k" {
-                        "image" "../speedo/a_demo/d1_3k"
-                    }
-                }
-                "Digits_2_Container"
-                {
-                    "d2_2k" {
-                        "image" "../speedo/a_demo/d2_2k"
-                    }
-                    "d1_2k" {
-                        "image" "../speedo/a_demo/d1_2k"
-                    }
-                }
-                "Digits_1_Container"
-                {
-                    "d1_1k"
-                    {
-                        "image" "../speedo/a_demo/d1_1k"
-                    }
+                    "image" "../speedo/a_demo/d_r"
                 }
             }
         }
