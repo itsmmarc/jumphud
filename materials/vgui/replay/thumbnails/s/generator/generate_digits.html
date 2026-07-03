@@ -11,6 +11,10 @@
     <h1>Speedo Digit Generator</h1>
     <p>Upload a font to generate images for a TF2 speedo VTF</p>
 
+    <label>
+        Pad amount
+        <input type="number" value="2" id="pad-input" />
+    </label>
     <label id="upload-font-container">
         <input type="file" accept=".ttf, .otf" id="upload-font" />
     </label>
@@ -21,8 +25,9 @@
     <script src="./jszip.js"></script>
     <script src="./FileSaver.js"></script>
     <script>
-        const maxNumber = 99;
+        const maxNumber = 109;
         let maxWidth = 0;
+        let pad = 2;
 
         const $downloadBtn = document.getElementById("download-btn");
         $downloadBtn.addEventListener("click", () => {
@@ -32,6 +37,11 @@
         const $uploadFontBtn = document.getElementById("upload-font");
         $uploadFontBtn.addEventListener("change", () => {
             uploadFont($uploadFontBtn);
+        });
+
+        const $padInput = document.getElementById("pad-input");
+        $padInput.addEventListener("change", () => {
+            pad = parseInt($padInput.value);
         });
 
         function uploadFont($input) {
@@ -74,7 +84,7 @@
                 zip.file(`${i}.png`, frames[i]);
             }
 
-            zip.file("max-char-width.txt", Math.round(maxWidth).toString());
+            zip.file("max-char-width.txt", Math.round(maxWidth + pad).toString());
 
             downloadZip(zip, zipName);
         }
@@ -97,7 +107,7 @@
         }
 
         async function generateSpeedoFrames(width, height) {
-            const fontSize = height - 4;
+            const fontSize = height;
 
             for (let i = 0; i < 10; i++) {
                 const canvas = document.createElement("canvas");
@@ -124,16 +134,22 @@
 
                         let center = {
                             x: width / 2,
-                            y: height - 2,
+                            y: height * 0.85,
                         };
+
+                        ctx.fillStyle = "white";
 
                         // ctx.fillRect(center.x, 0, 1, height);
 
                         // render tens
-                        ctx.fillText(tens ? tens.toString() : "", center.x - maxWidth, center.y);
+                        ctx.fillText(
+                            index >= 100 ? "0" : tens ? tens.toString() : "",
+                            center.x - maxWidth - pad / 2,
+                            center.y,
+                        );
 
                         // render units
-                        ctx.fillText(units.toString(), center.x, center.y);
+                        ctx.fillText(units.toString(), center.x + pad / 2, center.y);
 
                         // let textWidth = ctx.measureText(index.toString()).width;
                         // let center = {

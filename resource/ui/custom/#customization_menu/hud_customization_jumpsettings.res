@@ -1476,7 +1476,7 @@
                     }
                 }
                 // ===============================================================================================================
-                // ROCKET FIRE TRAILS
+                // ROCKET FIRE COLOR
                 // ===============================================================================================================
                 "RocketFire_Container"
                 {
@@ -1522,27 +1522,10 @@
                         "Enabled"                       "1"
                         "ProportionalToParent"          "1"
                         "AllCaps"                       "1"
-                        "LabelText"                     "Rocket Fire"
+                        "LabelText"                     "Rockets"
                         "Font"                          "HudFontMediumbold"
                         "TextAlignment"                 "west"
                         "FGColor"                       "Gray"
-                    }
-                    "Jump_Warning4"
-                    {
-                        "ControlName"                   "CExLabel"
-                        "FieldName"                     "Jump_Warning4"
-                        "XPos"                          "144"
-                        "YPos"                          "2"
-                        "ZPos"                          "0"
-                        "Wide"                          "20"
-                        "Tall"                          "24"
-                        "Visible"                       "1"
-                        "Enabled"                       "1"
-                        "ProportionalToParent"          "1"
-                        "LabelText"                     "l"
-                        "Font"                          "Symbols24"
-                        "TextAlignment"                 "center"
-                        "FGColor"                       "Highlight_Color_Dark"
                     }
                     "Separator_9"
                     {
@@ -2457,23 +2440,6 @@
                         "Font"                          "HudFontMediumbold"
                         "TextAlignment"                 "west"
                         "FGColor"                       "Gray"
-                    }
-                    "Jump_Warning4"
-                    {
-                        "ControlName"                   "CExLabel"
-                        "FieldName"                     "Jump_Warning4"
-                        "XPos"                          "168"
-                        "YPos"                          "2"
-                        "ZPos"                          "0"
-                        "Wide"                          "20"
-                        "Tall"                          "24"
-                        "Visible"                       "1"
-                        "Enabled"                       "1"
-                        "ProportionalToParent"          "1"
-                        "LabelText"                     "l"
-                        "Font"                          "Symbols24"
-                        "TextAlignment"                 "center"
-                        "FGColor"                       "Highlight_Color_Dark"
                     }
                     "Separator_9"
                     {
