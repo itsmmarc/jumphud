@@ -2,6 +2,7 @@
 // TEXTURE
 // --------------------------------------------------------------
 "#base"                 "../../../../../cfg/jumphud/jh_font_speedo.txt"
+"#base"                 "../../../../../cfg/jumphud/jh_font_width.txt"
 "#base"                 "../fonts/coolvetica_italic.vmt"	// default
 // ==============================================================
 // COLORS

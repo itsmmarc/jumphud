@@ -533,7 +533,7 @@
                 "LessOrEqual"
                 {
                         "srcVar1"                       "$speed"
-                        "srcVar2"                       "$10000"
+                        "srcVar2"                       "$9999"
                         "resultVar"                     "$is4Digit"
                         "lessEqualVar"                  "$1"
                         "greaterVar"                    "$0"
@@ -542,7 +542,7 @@
                 "LessOrEqual"
                 {
                         "srcVar1"                       "$speed"
-                        "srcVar2"                       "$1000"
+                        "srcVar2"                       "$999"
                         "resultVar"                     "$is3Digit"
                         "lessEqualVar"                  "$1"
                         "greaterVar"                    "$0"
@@ -551,16 +551,16 @@
                 "LessOrEqual"
                 {
                         "srcVar1"                       "$speed"
-                        "srcVar2"                       "$100"
+                        "srcVar2"                       "$99"
                         "resultVar"                     "$is2Digit"
                         "lessEqualVar"                  "$1"
                         "greaterVar"                    "$0"
                 }
-                // if (speed < 100) is1Digit == 1;
+                // if (speed < 10) is1Digit == 1;
                 "LessOrEqual"
                 {
                         "srcVar1"                       "$speed"
-                        "srcVar2"                       "$10"
+                        "srcVar2"                       "$9"
                         "resultVar"                     "$is1Digit"
                         "lessEqualVar"                  "$1"
                         "greaterVar"                    "$0"

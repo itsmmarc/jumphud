@@ -13,7 +13,7 @@
 
     <label>
         Pad amount
-        <input type="number" value="2" id="pad-input" />
+        <input type="number" value="0" id="pad-input" />
     </label>
     <label id="upload-font-container">
         <input type="file" accept=".ttf, .otf" id="upload-font" />
@@ -27,7 +27,7 @@
     <script>
         const maxNumber = 109;
         let maxWidth = 0;
-        let pad = 2;
+        let pad = 0;
 
         const $downloadBtn = document.getElementById("download-btn");
         $downloadBtn.addEventListener("click", () => {
