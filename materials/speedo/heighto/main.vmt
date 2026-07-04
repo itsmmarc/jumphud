@@ -21,6 +21,7 @@
 "#base"                 "../../../../../cfg/jumphud/jh_heighto_mode.txt"
 "#base"                 "../../../../../cfg/jumphud/jh_speedo_s_rounding.txt"
 "#base"                 "../const/rounding.vmt"
+"#base"                 "../const/framerate.vmt"
 "#base"                 "../const/constantNumbers.vmt"
 // ==============================================================
 // HEIGHTO CALCULATION, ROUNDING, COLORS, & DIGIT SEPERATION

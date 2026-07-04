@@ -20,6 +20,7 @@
 // --------------------------------------------------------------
 "#base"                 "../../../../../cfg/jumphud/jh_speedo_d_rounding.txt"
 "#base"                 "../const/rounding.vmt"
+"#base"                 "../const/framerate.vmt"
 "#base"                 "../const/constantNumbers.vmt"
 // ==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS
