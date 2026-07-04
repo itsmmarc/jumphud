@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"FieldName"									"HudChat"
 		"XPos"										"5"
-		"YPos"										"17"
+		"YPos"										"25"
 		"ZPos"										"9"
 		"Wide"										"260"
 		"Tall"										"120"

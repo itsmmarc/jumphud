@@ -465,11 +465,11 @@
         "tooltip"           "Toggle Input Display"
         "OnlyInGame"        "1"
     }
-    "Placeholder"
+    "CurrentTime"
     {
-        "label"             "0"
-        "Command"           "engine echo placeholder"
-        "tooltip"           "Placeholder"
+        "label"             "-"
+        "Command"           "engine jh_ctime_toggle; hud_reloadscheme"
+        "tooltip"           "Toggle Server Map Time"
         "OnlyInGame"        "1"
     }
     "Toggle_HUDMessage"

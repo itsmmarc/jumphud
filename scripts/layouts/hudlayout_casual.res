@@ -1,5 +1,10 @@
 "Scripts/layouts/HudLayout_jump.res"
 {   
+    "CurrentTime"
+    {
+        "Visible"									"0"
+        "Enabled"									"0"
+    }
     "TempusSidePanelBG"
     {
         "Visible"									"0"

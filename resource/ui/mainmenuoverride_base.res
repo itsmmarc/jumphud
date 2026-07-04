@@ -2308,7 +2308,7 @@
             "Tall"                          "24"
             "Visible"                       "1"
             "proportionaltoparent"          "1"
-            "Pin_To_Sibling"                "Placeholder"
+            "Pin_To_Sibling"                "CurrentTime"
             "Pin_Corner_To_Sibling"         "PIN_TOPRIGHT"
             "Pin_To_Sibling_Corner"         "PIN_TOPLEFT"
             "SubButton"
@@ -2334,10 +2334,10 @@
                 "DepressedFGColor_Override"         "Menu_Accent"
             }
         }
-        "Placeholder"
+        "CurrentTime"
         {
             "ControlName"                   "EditablePanel"
-            "FieldName"                     "Placeholder"
+            "FieldName"                     "CurrentTime"
             "XPos"                          "rs1"
             "YPos"                          "rs2"
             "ZPos"                          "15"
