@@ -75,8 +75,6 @@ Mirror world does not flip the game's audio or damage numbers.
 
 HUD speedos start to flicker more the longer a map has been running. This is due to limitations with VMT material proxy scripting.
 
-Speedo graphs freeze on map change, this can be fixed by entering `hud_reloadscheme` in console or turning the speedo graphs off and on again.
-
 Tempus speedos won't be recoloured or repositioned until one of the speedo buttons on the pause menu is used.
 
 Tempus HUD elements are stubborn and sometimes reset to their natural colour. Turning the Tempus HUD on and off usually fixes this.
@@ -102,8 +100,6 @@ For input display, pipe timer, and mirror world, you must rebind your keys with 
 [Pear's heighto and horizontal/vertical HUD speedos](https://github.com/bakapear/hudmods)
 
 [Elandi's custom Tempus sprays](https://github.com/Elandi-rj/sprays)
-
-[VillageGreenPreserver's speedograph](https://github.com/VillageGreenPreserver/SpeedoGraph)
 
 [cuekie's HUD screenspace shaders](https://github.com/cueki/hud-screenspace-shaders)
 

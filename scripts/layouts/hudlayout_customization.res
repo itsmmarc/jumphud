@@ -362,10 +362,6 @@
                 {
                     "Visible"           "0"
                 }
-                "HUD_Speedos_Graph_Selection"
-                {
-                    "Visible"           "0"
-                }
                 "HUD_Crosshairs_Selection"
                 {
                     "Visible"           "0"
@@ -481,11 +477,6 @@
                         "Font"              "HudFontSmall"
                     }
                     "ConfirmButton_Bars_Preset_JH"
-                    {
-                        "Visible"           "0"
-                        "Font"              "HudFontSmall"
-                    }
-                    "ConfirmButton_Graphs_Preset_JH"
                     {
                         "Visible"           "0"
                         "Font"              "HudFontSmall"

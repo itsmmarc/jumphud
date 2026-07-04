@@ -458,18 +458,18 @@
         "tooltip"           "Toggle Health Value"
         "OnlyInGame"        "1"
     }
-    "GraphSpeedos"
-    {
-        "label"             "G"
-        "Command"           "engine jh_gspeedos_toggle; hud_reloadscheme"
-        "tooltip"           "Toggle Speed Graphs"
-        "OnlyInGame"        "1"
-    }
     "ShowKeys"
     {
         "label"             "0"
         "Command"           "engine jh_skeys_toggle; hud_reloadscheme"
         "tooltip"           "Toggle Input Display"
+        "OnlyInGame"        "1"
+    }
+    "Placeholder"
+    {
+        "label"             "0"
+        "Command"           "engine echo placeholder"
+        "tooltip"           "Placeholder"
         "OnlyInGame"        "1"
     }
     "Toggle_HUDMessage"

@@ -2308,7 +2308,7 @@
             "Tall"                          "24"
             "Visible"                       "1"
             "proportionaltoparent"          "1"
-            "Pin_To_Sibling"                "GraphSpeedos"
+            "Pin_To_Sibling"                "Placeholder"
             "Pin_Corner_To_Sibling"         "PIN_TOPRIGHT"
             "Pin_To_Sibling_Corner"         "PIN_TOPLEFT"
             "SubButton"
@@ -2334,10 +2334,10 @@
                 "DepressedFGColor_Override"         "Menu_Accent"
             }
         }
-        "GraphSpeedos"
+        "Placeholder"
         {
             "ControlName"                   "EditablePanel"
-            "FieldName"                     "GraphSpeedos"
+            "FieldName"                     "Placeholder"
             "XPos"                          "rs1"
             "YPos"                          "rs2"
             "ZPos"                          "15"
@@ -2358,7 +2358,7 @@
                 "ProportionalToParent"              "1"
                 "Use_Proportional_Insets"           "1"
                 "TextInsetX"                        "0"
-                "Font"                              "JumpHUDIcons24"
+                "Font"                              "Symbols24"
                 "TextAlignment"                     "center"
                 "Sound_Depressed"                   "UI/buttonclick.wav"
                 "PaintBackground"                   "0"
