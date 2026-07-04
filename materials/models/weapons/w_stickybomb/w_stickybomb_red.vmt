@@ -1,5 +1,5 @@
 #base ../../../../../cfg/jumphud/jh_stickybombs.txt
 #base w_stickybomb_red_def.vmt
 
-VertexLitGeneric
+UnlitGeneric
 {}

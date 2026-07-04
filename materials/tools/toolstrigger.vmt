@@ -1,5 +1,5 @@
 #base ../../../cfg/jumphud/jh_triggers.txt
-#base toolstrigger_hex.vmt
+#base toolstrigger_default.vmt
 
-"UnlitGeneric"
+"LightmappedGeneric"
 {}
