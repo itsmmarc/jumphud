@@ -1,0 +1,394 @@
+"UnlitGeneric"
+{
+        // MARK: Variables
+        // ==============================================================
+        // DIGIT SEPERATION VARIABLES
+        // ==============================================================
+        "$debugSpeed"                           "0"
+        "$blankFrame"                           "110"
+        "$isLeft"                               "0"
+        "$isRight"                              "0"
+        "$offset"                               "0"
+        "$modulus"                              "0"
+        "$numDigits"                            "0"
+        "$temp"                                 "0"
+        "$is4Digit"                             "0"
+        "$is3Digit"                             "0"
+        "$is2Digit"                             "0"
+        "$is1Digit"                             "0"
+        "$is1DigitAndLeft"                      "0"
+        "$is1DigitAndRight"                     "0"
+        "$is2DigitAndLeft"                      "0"
+        "$is2DigitAndRight"                     "0"
+        "$is3DigitAndLeft"                      "0"
+        "$is3DigitAndRight"                     "0"
+        "$is4DigitAndLeft"                      "0"
+        "$is4DigitAndRight"                     "0"
+        "$leadingZero"                          "0"
+        // ==============================================================
+        // TEXTURE TRANSFORMATION VARIABLES
+        // ==============================================================
+        "$totalWidth"                           "256"
+        "$width"                                "33"	// change depending on font
+        "$center"                               "[0.5 0.5]"
+        "$scale"                                "[1 1]"
+        "$rotate"                               "0"
+        "$translate"                            "[0.0 0.0]"
+        //
+        "$frame"                "0"
+        "$time"                 "0.0"
+        "$60"                   "60"
+        "Proxies"
+        {
+                // get time (seconds)
+                "CurrentTime"
+                {
+                        "resultVar"                     "$time"
+                }
+                // convert time to minutes
+                "Divide"
+                {
+                        "srcVar1"                       "$time"
+                        "srcVar2"                       "$60"
+                        "resultVar"                     "$frame"
+                }
+                // ==============================================================
+                // MARK: DIGIT SEPERATION
+                // ==============================================================
+                // speed = frame;
+                "SelectFirstIfNonZero"
+                {
+                        "srcVar1"                       "$debugSpeed"
+                        "srcVar2"                       "$frame"
+                        "resultVar"                     "$speed"
+                }
+                // "Equals"
+                // {
+                // "srcVar1"                       "$frame"
+                // "resultVar"                     "$speed"
+                // }
+                // isLeft = !isRight
+                "Subtract"
+                {
+                        "srcVar1"                       "$1"
+                        "srcVar2"                       "$isLeft"
+                        "resultVar"                     "$isRight"
+                }
+                /////////////////////////////////////////////////////////////
+               // if (speed < 10000) is4Digit == 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$9999"
+                        "resultVar"                     "$is4Digit"
+                        "lessEqualVar"                  "$1"
+                        "greaterVar"                    "$0"
+                }
+                // if (speed < 1000) is3Digit == 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$999"
+                        "resultVar"                     "$is3Digit"
+                        "lessEqualVar"                  "$1"
+                        "greaterVar"                    "$0"
+                }
+                // if (speed < 100) is2Digit == 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$99"
+                        "resultVar"                     "$is2Digit"
+                        "lessEqualVar"                  "$1"
+                        "greaterVar"                    "$0"
+                }
+                // if (speed < 10) is1Digit == 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$9"
+                        "resultVar"                     "$is1Digit"
+                        "lessEqualVar"                  "$1"
+                        "greaterVar"                    "$0"
+                }
+                // if (speed > 99) leadingZero = 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$99"
+                        "resultVar"                     "$leadingZero"
+                        "lessEqualVar"                  "$0"
+                        "greaterVar"                    "$1"
+                }
+                "Multiply"
+                {
+                        "srcVar1"                       "$leadingZero"
+                        "srcVar2"                       "$isRight"
+                        "resultVar"                     "$leadingZero"
+                }
+                /////////////////////////////////////////////////////////////
+                // if (is1Digit && isLeft) is1DigitAndLeft = 1;
+                "Multiply"
+                {
+                        "srcVar1"                       "$is1Digit"
+                        "srcVar2"                       "$isLeft"
+                        "resultVar"                     "$is1DigitAndLeft"
+                }
+                // if (is1Digit && !isLeft) is1DigitAndRight = 1;
+                "Multiply"
+                {
+                        "srcVar1"                       "$is1Digit"
+                        "srcVar2"                       "$isRight"
+                        "resultVar"                     "$is1DigitAndRight"
+                }
+                // if (is2Digit && isLeft) is2DigitAndLeft = 1;
+                "Multiply"
+                {
+                        "srcVar1"                       "$is2Digit"
+                        "srcVar2"                       "$isLeft"
+                        "resultVar"                     "$is2DigitAndLeft"
+                }
+                // if (is2Digit && !isLeft) is2DigitAndRight = 1;
+                "Multiply"
+                {
+                        "srcVar1"                       "$is2Digit"
+                        "srcVar2"                       "$isRight"
+                        "resultVar"                     "$is2DigitAndRight"
+                }
+                // if (is3Digit && isLeft) is3DigitAndLeft = 1;
+                "Multiply"
+                {
+                        "srcVar1"                       "$is3Digit"
+                        "srcVar2"                       "$isLeft"
+                        "resultVar"                     "$is3DigitAndLeft"
+                }
+                // if (is3Digit && !isLeft) is3DigitAndRight = 1;
+                "Multiply"
+                {
+                        "srcVar1"                       "$is3Digit"
+                        "srcVar2"                       "$isRight"
+                        "resultVar"                     "$is3DigitAndRight"
+                }
+                // if (is4Digit && isLeft) is4DigitAndLeft = 1;
+                "Multiply"
+                {
+                        "srcVar1"                       "$is4Digit"
+                        "srcVar2"                       "$isLeft"
+                        "resultVar"                     "$is4DigitAndLeft"
+                }
+                // if (is4Digit && !isLeft) is4DigitAndRight = 1;
+                "Multiply"
+                {
+                        "srcVar1"                       "$is4Digit"
+                        "srcVar2"                       "$isRight"
+                        "resultVar"                     "$is4DigitAndRight"
+                }
+                /////////////////////////////////////////////////////////////
+                // 4 DIGITS
+                // modulus = speed / 100;
+                "Divide"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$100"
+                        "resultVar"                     "$modulus"
+                }
+                // modulus = parseInt(modulus);
+                "Int"
+                {
+                        "srcVar1"                       "$modulus"
+                        "resultVar"                     "$modulus"
+                }
+                // if (isLeft) temp = 1; else temp = 100;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$isLeft"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$temp"
+                        "lessEqualVar"                  "$100"
+                        "greaterVar"                    "$1"
+                }
+                // modulus = modulus * temp;
+                "Multiply"
+                {
+                        "srcVar1"                       "$modulus"
+                        "srcVar2"                       "$temp"
+                        "resultVar"                     "$modulus"
+                }
+                // temp = speed - modulus;
+                "Subtract"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$modulus"
+                        "resultVar"                     "$temp"
+                }
+                // if (is4DigitAndLeft) frame = modulus;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is4DigitAndLeft"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$frame"
+                        "lessEqualVar"                  "$frame"
+                        "greaterVar"                    "$modulus"
+                }
+                // if (is4DigitAndRight) frame = temp;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is4DigitAndRight"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$frame"
+                        "lessEqualVar"                  "$frame"
+                        "greaterVar"                    "$temp"
+                }
+                "Add"
+                {
+                        "srcVar1"                       "$frame"
+                        "srcVar2"                       "$100"
+                        "resultVar"                     "$temp"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$temp"
+                        "srcVar2"                       "$109"
+                        "resultVar"                     "$leadingZero"
+                        "lessEqualVar"                  "$leadingZero"
+                        "greaterVar"                    "$0"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$leadingZero"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$frame"
+                        "lessEqualVar"                  "$frame"
+                        "greaterVar"                    "$temp"
+                }
+                //// if (is4DigitAndLeft) offset = -1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is4DigitAndLeft"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$offset"
+                        "lessEqualVar"                  "$offset"
+                        "greaterVar"                    "$1"
+                }
+                //// if (is4DigitAndRight) offset = 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is4DigitAndRight"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$offset"
+                        "lessEqualVar"                  "$offset"
+                        "greaterVar"                    "$-1"
+                }
+                /////////////////////////////////////////////////////////////
+                // 3 DIGITS
+                //// if (is3DigitAndLeft) offset = -1.5;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is3DigitAndLeft"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$offset"
+                        "lessEqualVar"                  "$offset"
+                        "greaterVar"                    "$1.5"
+                }
+                // if (is3DigitAndRight) offset = 0.5;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is3DigitAndRight"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$offset"
+                        "lessEqualVar"                  "$offset"
+                        "greaterVar"                    "$-0.5"
+                }
+                /////////////////////////////////////////////////////////////
+                // 2 DIGITS
+                // if (is2DigitAndRight) offset = 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is2DigitAndRight"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$offset"
+                        "lessEqualVar"                  "$offset"
+                        "greaterVar"                    "$0"
+                }
+                /////////////////////////////////////////////////////////////
+                // 1 DIGIT
+                // temp = frame <= 0
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$frame"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$temp"
+                        "lessEqualVar"                  "$1"
+                        "greaterVar"                    "$0"
+                }
+                "Multiply"
+                {
+                        "srcVar1"                       "$isLeft"
+                        "srcVar2"                       "$temp"
+                        "resultVar"                     "$temp"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$temp"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$frame"
+                        "lessEqualVar"                  "$frame"
+                        "greaterVar"                    "$blankFrame"
+                }
+                // if (is1DigitAndRight)offset = -0.5;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is1DigitAndRight"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$offset"
+                        "lessEqualVar"                  "$offset"
+                        "greaterVar"                    "$0.5"
+                }
+                /////////////////////////////////////////////////////////////
+                // MARK: TRANSLATE
+                "Divide"
+                {
+                        "srcVar1"                       "$width"
+                        "srcVar2"                       "$totalWidth"
+                        "resultVar"                     "$temp"
+                }
+                "Multiply"
+                {
+                        "srcVar1"                       "$temp"
+                        "srcVar2"                       "$offset"
+                        "resultVar"                     "$temp"
+                }
+                // apply offset
+                "Equals"
+                {
+                        "srcVar1"                       "$temp"
+                        "resultVar"                     "$translate[0]"
+                }
+                "TextureTransform"
+                {
+                        "centerVar"                     "$center"
+                        "scaleVar"                      "$scale"
+                        "rotateVar"                     "$rotate"
+                        "translateVar"                  "$translate"
+                        "resultVar"                     "$basetexturetransform"
+                }
+                /////////////////////////////////////////////////////////////
+                // MARK: DEBUG
+                // "LessOrEqual"
+                // {
+                // "srcVar1"                       "$isLeft"
+                // "srcVar2"                       "$0"
+                // "resultVar"                     "$color"
+                // "lessEqualVar"                  "$color"
+                // "greaterVar"                    "$colorClose"
+                // }
+                // "LessOrEqual"
+                // {
+                // "srcVar1"                       "$isRight"
+                // "srcVar2"                       "$0"
+                // "resultVar"                     "$color"
+                // "lessEqualVar"                  "$color"
+                // "greaterVar"                    "$colorGood"
+                // }
+        }
+}

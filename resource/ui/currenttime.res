@@ -19,129 +19,21 @@
             "xpos"                          "0"
             "ypos"                          "0"
             "proportionaltoparent"          "1"
-            "Digits_4_Container"
+            "d_l"
             {
-                "controlName"                   "EditablePanel"
-                "visible"                       "1"
-                "enabled"                       "1"
+                "controlName"                   "CTFImagePanel"
                 "wide"                          "f0"
                 "tall"                          "f0"
                 "proportionaltoparent"          "1"
-                "xpos"                          "cs-0.5"
-                "ypos"                          "0"
-                "d4_4k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d4_4k"
-                }
-                "d3_4k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d3_4k"
-                }
-                "d2_4k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d2_4k"
-                }
-                "d1_4k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d1_4k"
-                }
+                "image"                         "../speedo/time/d_l"
             }
-            "Digits_3_Container"
+            "d_r"
             {
-                "controlName"                   "EditablePanel"
-                "visible"                       "1"
-                "enabled"                       "1"
+                "controlName"                   "CTFImagePanel"
                 "wide"                          "f0"
                 "tall"                          "f0"
                 "proportionaltoparent"          "1"
-                "xpos"                          "cs-0.5"
-                "ypos"                          "0"
-                "d3_3k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d3_3k"
-                }
-                "d2_3k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d2_3k"
-                }
-                "d1_3k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d1_3k"
-                }
-            }
-            "Digits_2_Container"
-            {
-                "controlName"                   "EditablePanel"
-                "visible"                       "1"
-                "enabled"                       "1"
-                "wide"                          "f0"
-                "tall"                          "f0"
-                "proportionaltoparent"          "1"
-                "xpos"                          "cs-0.5"
-                "ypos"                          "0"
-                "d2_2k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d2_2k"
-                }
-                "d1_2k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d1_2k"
-                }
-            }
-            "Digits_1_Container"
-            {
-                "controlName"                   "EditablePanel"
-                "visible"                       "1"
-                "enabled"                       "1"
-                "wide"                          "f0"
-                "tall"                          "f0"
-                "proportionaltoparent"          "1"
-                "xpos"                          "cs-0.5"
-                "ypos"                          "0"
-                "d1_1k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d1_1k"
-                }
+                "image"                         "../speedo/time/d_r"
             }
         }
         "Shadows_Container"
@@ -155,139 +47,23 @@
             "ypos"                          "1"
             "zpos"                          "-1"
             "proportionaltoparent"          "1"
-            "Digits_4_Container"
+            "d_l"
             {
-                "controlName"                   "EditablePanel"
-                "visible"                       "1"
-                "enabled"                       "1"
+                "controlName"                   "CTFImagePanel"
                 "wide"                          "f0"
                 "tall"                          "f0"
                 "proportionaltoparent"          "1"
-                "xpos"                          "cs-0.5"
-                "ypos"                          "0"
-                "d4_4k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d4_4k"
-                    "drawcolor"                     "main_shadow"
-                }
-                "d3_4k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d3_4k"
-                    "drawcolor"                     "main_shadow"
-                }
-                "d2_4k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d2_4k"
-                    "drawcolor"                     "main_shadow"
-                }
-                "d1_4k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d1_4k"
-                    "drawcolor"                     "main_shadow"
-                }
+                "image"                         "../speedo/time/d_l"
+                "drawcolor"                     "Main_Shadow"
             }
-            "Digits_3_Container"
+            "d_r"
             {
-                "controlName"                   "EditablePanel"
-                "visible"                       "1"
-                "enabled"                       "1"
+                "controlName"                   "CTFImagePanel"
                 "wide"                          "f0"
                 "tall"                          "f0"
                 "proportionaltoparent"          "1"
-                "xpos"                          "cs-0.5"
-                "ypos"                          "0"
-                "d3_3k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d3_3k"
-                    "drawcolor"                     "main_shadow"
-                }
-                "d2_3k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d2_3k"
-                    "drawcolor"                     "main_shadow"
-                }
-                "d1_3k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d1_3k"
-                    "drawcolor"                     "main_shadow"
-                }
-            }
-            "Digits_2_Container"
-            {
-                "controlName"                   "EditablePanel"
-                "visible"                       "1"
-                "enabled"                       "1"
-                "wide"                          "f0"
-                "tall"                          "f0"
-                "proportionaltoparent"          "1"
-                "xpos"                          "cs-0.5"
-                "ypos"                          "0"
-                "d2_2k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d2_2k"
-                    "drawcolor"                     "main_shadow"
-                }
-                "d1_2k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d1_2k"
-                    "drawcolor"                     "main_shadow"
-                }
-            }
-            "Digits_1_Container"
-            {
-                "controlName"                   "EditablePanel"
-                "visible"                       "1"
-                "enabled"                       "1"
-                "wide"                          "f0"
-                "tall"                          "f0"
-                "proportionaltoparent"          "1"
-                "xpos"                          "cs-0.5"
-                "ypos"                          "0"
-                "d1_1k"
-                {
-                    "controlName"                   "CTFImagePanel"
-                    "wide"                          "f0"
-                    "tall"                          "f0"
-                    "proportionaltoparent"          "1"
-                    "image"                         "../speedo/currenttime/d1_1k"
-                    "drawcolor"                     "main_shadow"
-                }
+                "image"                         "../speedo/time/d_r"
+                "drawcolor"                     "Main_Shadow"
             }
         }
     }
