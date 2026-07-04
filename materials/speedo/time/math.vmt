@@ -4,7 +4,7 @@
         // ==============================================================
         // DIGIT SEPERATION VARIABLES
         // ==============================================================
-        "$debugSpeed"                           "0"
+        "$debugTime"                            "0"
         "$blankFrame"                           "110"
         "$isLeft"                               "0"
         "$isRight"                              "0"
@@ -24,6 +24,7 @@
         "$is3DigitAndRight"                     "0"
         "$is4DigitAndLeft"                      "0"
         "$is4DigitAndRight"                     "0"
+        "$isGT3Digit"                           "0"
         "$leadingZero"                          "0"
         // ==============================================================
         // TEXTURE TRANSFORMATION VARIABLES
@@ -35,9 +36,12 @@
         "$rotate"                               "0"
         "$translate"                            "[0.0 0.0]"
         //
-        "$frame"                "0"
-        "$time"                 "0.0"
-        "$60"                   "60"
+        "$colorLeft"                            "{0 0 255}"
+        "$colorRight"                           "{255 0 0}"
+        //
+        "$frame"                                "0"
+        "$time"                                 "0.0"
+        "$60"                                   "60"
         "Proxies"
         {
                 // get time (seconds)
@@ -58,14 +62,14 @@
                 // speed = frame;
                 "SelectFirstIfNonZero"
                 {
-                        "srcVar1"                       "$debugSpeed"
+                        "srcVar1"                       "$debugTime"
                         "srcVar2"                       "$frame"
-                        "resultVar"                     "$speed"
+                        "resultVar"                     "$time"
                 }
                 // "Equals"
                 // {
                 // "srcVar1"                       "$frame"
-                // "resultVar"                     "$speed"
+                // "resultVar"                     "$time"
                 // }
                 // isLeft = !isRight
                 "Subtract"
@@ -75,19 +79,28 @@
                         "resultVar"                     "$isRight"
                 }
                 /////////////////////////////////////////////////////////////
-               // if (speed < 10000) is4Digit == 1;
+                // if (speed < 10000) is4Digit == 1;
                 "LessOrEqual"
                 {
-                        "srcVar1"                       "$speed"
+                        "srcVar1"                       "$time"
                         "srcVar2"                       "$9999"
                         "resultVar"                     "$is4Digit"
                         "lessEqualVar"                  "$1"
                         "greaterVar"                    "$0"
                 }
+                // if (speed < 10000) is4Digit == 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$time"
+                        "srcVar2"                       "$999"
+                        "resultVar"                     "$isGT3Digit"
+                        "lessEqualVar"                  "$0"
+                        "greaterVar"                    "$1"
+                }
                 // if (speed < 1000) is3Digit == 1;
                 "LessOrEqual"
                 {
-                        "srcVar1"                       "$speed"
+                        "srcVar1"                       "$time"
                         "srcVar2"                       "$999"
                         "resultVar"                     "$is3Digit"
                         "lessEqualVar"                  "$1"
@@ -96,7 +109,7 @@
                 // if (speed < 100) is2Digit == 1;
                 "LessOrEqual"
                 {
-                        "srcVar1"                       "$speed"
+                        "srcVar1"                       "$time"
                         "srcVar2"                       "$99"
                         "resultVar"                     "$is2Digit"
                         "lessEqualVar"                  "$1"
@@ -105,7 +118,7 @@
                 // if (speed < 10) is1Digit == 1;
                 "LessOrEqual"
                 {
-                        "srcVar1"                       "$speed"
+                        "srcVar1"                       "$time"
                         "srcVar2"                       "$9"
                         "resultVar"                     "$is1Digit"
                         "lessEqualVar"                  "$1"
@@ -114,7 +127,7 @@
                 // if (speed > 99) leadingZero = 1;
                 "LessOrEqual"
                 {
-                        "srcVar1"                       "$speed"
+                        "srcVar1"                       "$time"
                         "srcVar2"                       "$99"
                         "resultVar"                     "$leadingZero"
                         "lessEqualVar"                  "$0"
@@ -188,7 +201,7 @@
                 // modulus = speed / 100;
                 "Divide"
                 {
-                        "srcVar1"                       "$speed"
+                        "srcVar1"                       "$time"
                         "srcVar2"                       "$100"
                         "resultVar"                     "$modulus"
                 }
@@ -217,7 +230,7 @@
                 // temp = speed - modulus;
                 "Subtract"
                 {
-                        "srcVar1"                       "$speed"
+                        "srcVar1"                       "$time"
                         "srcVar2"                       "$modulus"
                         "resultVar"                     "$temp"
                 }
@@ -239,6 +252,72 @@
                         "lessEqualVar"                  "$frame"
                         "greaterVar"                    "$temp"
                 }
+                //// if (is4DigitAndRight) offset = 1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is4DigitAndRight"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$offset"
+                        "lessEqualVar"                  "$offset"
+                        "greaterVar"                    "$-1"
+                }
+                /////////////////////////////////////////////////////////////
+                // 3 DIGITS
+                // modulus = speed / 10;
+                "Divide"
+                {
+                        "srcVar1"                       "$time"
+                        "srcVar2"                       "$10"
+                        "resultVar"                     "$modulus"
+                }
+                // modulus = parseInt(modulus);
+                "Int"
+                {
+                        "srcVar1"                       "$modulus"
+                        "resultVar"                     "$modulus"
+                }
+                // if (isLeft) temp = 1; else temp = 10;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$isLeft"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$temp"
+                        "lessEqualVar"                  "$10"
+                        "greaterVar"                    "$1"
+                }
+                // modulus = modulus * temp;
+                "Multiply"
+                {
+                        "srcVar1"                       "$modulus"
+                        "srcVar2"                       "$temp"
+                        "resultVar"                     "$modulus"
+                }
+                // temp = speed - modulus;
+                "Subtract"
+                {
+                        "srcVar1"                       "$time"
+                        "srcVar2"                       "$modulus"
+                        "resultVar"                     "$temp"
+                }
+                // if (is3DigitAndLeft) frame = modulus;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is3DigitAndLeft"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$frame"
+                        "lessEqualVar"                  "$frame"
+                        "greaterVar"                    "$modulus"
+                }
+                // if (is3DigitAndRight) frame = temp;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is3DigitAndRight"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$frame"
+                        "lessEqualVar"                  "$frame"
+                        "greaterVar"                    "$temp"
+                }
+                // LEADING ZERO
                 "Add"
                 {
                         "srcVar1"                       "$frame"
@@ -255,97 +334,71 @@
                 }
                 "LessOrEqual"
                 {
+                        "srcVar1"                       "$isGT3Digit"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$leadingZero"
+                        "lessEqualVar"                  "$0"
+                        "greaterVar"                    "$leadingZero"
+                }
+                "LessOrEqual"
+                {
                         "srcVar1"                       "$leadingZero"
                         "srcVar2"                       "$0"
                         "resultVar"                     "$frame"
                         "lessEqualVar"                  "$frame"
                         "greaterVar"                    "$temp"
                 }
-                //// if (is4DigitAndLeft) offset = -1;
-                "LessOrEqual"
-                {
-                        "srcVar1"                       "$is4DigitAndLeft"
-                        "srcVar2"                       "$0"
-                        "resultVar"                     "$offset"
-                        "lessEqualVar"                  "$offset"
-                        "greaterVar"                    "$1"
-                }
-                //// if (is4DigitAndRight) offset = 1;
-                "LessOrEqual"
-                {
-                        "srcVar1"                       "$is4DigitAndRight"
-                        "srcVar2"                       "$0"
-                        "resultVar"                     "$offset"
-                        "lessEqualVar"                  "$offset"
-                        "greaterVar"                    "$-1"
-                }
-                /////////////////////////////////////////////////////////////
-                // 3 DIGITS
-                //// if (is3DigitAndLeft) offset = -1.5;
-                "LessOrEqual"
-                {
-                        "srcVar1"                       "$is3DigitAndLeft"
-                        "srcVar2"                       "$0"
-                        "resultVar"                     "$offset"
-                        "lessEqualVar"                  "$offset"
-                        "greaterVar"                    "$1.5"
-                }
-                // if (is3DigitAndRight) offset = 0.5;
+                //// if (is3DigitAndRight) offset = 1;
                 "LessOrEqual"
                 {
                         "srcVar1"                       "$is3DigitAndRight"
                         "srcVar2"                       "$0"
                         "resultVar"                     "$offset"
                         "lessEqualVar"                  "$offset"
-                        "greaterVar"                    "$-0.5"
+                        "greaterVar"                    "$0"
                 }
                 /////////////////////////////////////////////////////////////
                 // 2 DIGITS
-                // if (is2DigitAndRight) offset = 1;
+                // if (is2DigitAndLeft) frame = speed;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is2DigitAndLeft"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$frame"
+                        "lessEqualVar"                  "$frame"
+                        "greaterVar"                    "$time"
+                }
+                // if (is2DigitAndRight) frame = blank;
                 "LessOrEqual"
                 {
                         "srcVar1"                       "$is2DigitAndRight"
-                        "srcVar2"                       "$0"
-                        "resultVar"                     "$offset"
-                        "lessEqualVar"                  "$offset"
-                        "greaterVar"                    "$0"
-                }
-                /////////////////////////////////////////////////////////////
-                // 1 DIGIT
-                // temp = frame <= 0
-                "LessOrEqual"
-                {
-                        "srcVar1"                       "$frame"
-                        "srcVar2"                       "$0"
-                        "resultVar"                     "$temp"
-                        "lessEqualVar"                  "$1"
-                        "greaterVar"                    "$0"
-                }
-                "Multiply"
-                {
-                        "srcVar1"                       "$isLeft"
-                        "srcVar2"                       "$temp"
-                        "resultVar"                     "$temp"
-                }
-                "LessOrEqual"
-                {
-                        "srcVar1"                       "$temp"
                         "srcVar2"                       "$0"
                         "resultVar"                     "$frame"
                         "lessEqualVar"                  "$frame"
                         "greaterVar"                    "$blankFrame"
                 }
-                // if (is1DigitAndRight)offset = -0.5;
+                /////////////////////////////////////////////////////////////
+                // if (isLeft) offset = -1;
                 "LessOrEqual"
                 {
-                        "srcVar1"                       "$is1DigitAndRight"
+                        "srcVar1"                       "$isLeft"
                         "srcVar2"                       "$0"
                         "resultVar"                     "$offset"
                         "lessEqualVar"                  "$offset"
-                        "greaterVar"                    "$0.5"
+                        "greaterVar"                    "$1"
+                }
+                // if (isLeft) offset = -1;
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$is1DigitAndLeft"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$offset"
+                        "lessEqualVar"                  "$offset"
+                        "greaterVar"                    "$2"
                 }
                 /////////////////////////////////////////////////////////////
                 // MARK: TRANSLATE
+                // offset
                 "Divide"
                 {
                         "srcVar1"                       "$width"
@@ -356,6 +409,38 @@
                 {
                         "srcVar1"                       "$temp"
                         "srcVar2"                       "$offset"
+                        "resultVar"                     "$offset"
+                }
+                // left align offset
+                "Divide"
+                {
+                        "srcVar1"                       "$totalWidth"
+                        "srcVar2"                       "$2"
+                        "resultVar"                     "$temp"
+                }
+                "Subtract"
+                {
+                        "srcVar1"                       "$temp"
+                        "srcVar2"                       "$width"
+                        "resultVar"                     "$temp"
+                }
+                "Subtract"
+                {
+                        "srcVar1"                       "$temp"
+                        "srcVar2"                       "$width"
+                        "resultVar"                     "$temp"
+                }
+                "Divide"
+                {
+                        "srcVar1"                       "$temp"
+                        "srcVar2"                       "$totalWidth"
+                        "resultVar"                     "$temp"
+                }
+                // combine offsets
+                "Add"
+                {
+                        "srcVar1"                       "$offset"
+                        "srcVar2"                       "$temp"
                         "resultVar"                     "$temp"
                 }
                 // apply offset
@@ -380,7 +465,7 @@
                 // "srcVar2"                       "$0"
                 // "resultVar"                     "$color"
                 // "lessEqualVar"                  "$color"
-                // "greaterVar"                    "$colorClose"
+                // "greaterVar"                    "$colorLeft"
                 // }
                 // "LessOrEqual"
                 // {
@@ -388,7 +473,7 @@
                 // "srcVar2"                       "$0"
                 // "resultVar"                     "$color"
                 // "lessEqualVar"                  "$color"
-                // "greaterVar"                    "$colorGood"
+                // "greaterVar"                    "$colorRight"
                 // }
         }
 }
