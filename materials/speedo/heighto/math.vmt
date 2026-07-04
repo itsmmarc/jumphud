@@ -25,6 +25,7 @@
         "$is4DigitAndLeft"                      "0"
         "$is4DigitAndRight"                     "0"
         "$leadingZero"                          "0"
+        "$speed"                                "0"
         // ==============================================================
         // TEXTURE TRANSFORMATION VARIABLES
         // ==============================================================
@@ -470,6 +471,54 @@
                         "resultVar"                     "$frame"
                 }
                 // ==============================================================
+                // MARK: ROUNDING
+                // ==============================================================
+                // if(round) temp = 5; else temp = 0
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$round"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$temp"
+                        "greaterVar"                    "$5"
+                        "lessEqualVar"                  "$0"
+                }
+                // speed = speed + temp
+                "Add"
+                {
+                        "srcVar1"                       "$frame"
+                        "srcVar2"                       "$temp"
+                        "resultVar"                     "$frame"
+                }
+                // if(round) temp = 10; else temp = 1
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$round"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$temp"
+                        "greaterVar"                    "$10"
+                        "lessEqualVar"                  "$1"
+                }
+                // speed = speed / temp
+                "Divide"
+                {
+                        "srcVar1"                       "$frame"
+                        "srcVar2"                       "$temp"
+                        "resultVar"                     "$frame"
+                }
+                // speed = parseInt(speed)
+                "Int"
+                {
+                        "srcVar1"                       "$frame"
+                        "resultVar"                     "$frame"
+                }
+                // speed = speed * temp
+                "Multiply"
+                {
+                        "srcVar1"                       "$frame"
+                        "srcVar2"                       "$temp"
+                        "resultVar"                     "$frame"
+                }
+                // ==============================================================
                 // MARK: COLORS
                 // ==============================================================
                 // BASE
@@ -614,54 +663,6 @@
                         "srcVar2"                       "$0"
                         "greaterVar"                    "$max_speed"
                         "lessEqualVar"                  "$frame"
-                        "resultVar"                     "$frame"
-                }
-                // ==============================================================
-                // MARK: ROUNDING
-                // ==============================================================
-                // if(round) temp = 5; else temp = 0
-                "LessOrEqual"
-                {
-                        "srcVar1"                       "$round"
-                        "srcVar2"                       "$0"
-                        "resultVar"                     "$temp"
-                        "greaterVar"                    "$5"
-                        "lessEqualVar"                  "$0"
-                }
-                // speed = speed + temp
-                "Add"
-                {
-                        "srcVar1"                       "$frame"
-                        "srcVar2"                       "$temp"
-                        "resultVar"                     "$frame"
-                }
-                // if(round) temp = 10; else temp = 1
-                "LessOrEqual"
-                {
-                        "srcVar1"                       "$round"
-                        "srcVar2"                       "$0"
-                        "resultVar"                     "$temp"
-                        "greaterVar"                    "$10"
-                        "lessEqualVar"                  "$1"
-                }
-                // speed = speed / temp
-                "Divide"
-                {
-                        "srcVar1"                       "$frame"
-                        "srcVar2"                       "$temp"
-                        "resultVar"                     "$frame"
-                }
-                // speed = parseInt(speed)
-                "Int"
-                {
-                        "srcVar1"                       "$frame"
-                        "resultVar"                     "$frame"
-                }
-                // speed = speed * temp
-                "Multiply"
-                {
-                        "srcVar1"                       "$frame"
-                        "srcVar2"                       "$temp"
                         "resultVar"                     "$frame"
                 }
                 // ==============================================================
