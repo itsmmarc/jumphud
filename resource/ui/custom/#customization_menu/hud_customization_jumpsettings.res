@@ -1080,12 +1080,31 @@
                     "YPos"                          "110"
                     "ZPos"                          "20"
                     "Wide"                          "185"
-                    "Tall"                          "180"
+                    "Tall"                          "140"
                     "Visible"                       "1"
                     "Enabled"                       "1"
                     "ProportionalToParent"          "1"
                     "PaintBackground"               "0"
                     "BGColor_Override"              "Red"
+                    "Linux_Disabled_Cross"
+                    {
+                        "ControlName"                   "ImagePanel"
+                        "FieldName"                     "Linux_Disabled_Cross"
+                        "XPos"                          "cs-0.5"
+                        "YPos"                          "cs-0.5"
+                        "ZPos"                          "99"
+                        "Tall"                          "f0"
+                        "Wide"                          "f0"
+                        "Visible"                       "1" [$LINUX]
+                        "Visible"                       "0" [$WINDOWS]
+                        "Enabled"                       "1"
+                        "MouseInputEnabled"             "0"
+                        "ProportionalToParent"          "1"
+                        "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                        "ScaleImage"                    "1"
+                        "Drawcolor"                     "Red"
+                        "Alpha"                         "200"
+                    }
                     "StickyBomb_Icon"
                     {
                         "ControlName"                   "CExLabel"
@@ -2286,12 +2305,31 @@
                     "YPos"                          "110+145"
                     "ZPos"                          "20"
                     "Wide"                          "185"
-                    "Tall"                          "180"
+                    "Tall"                          "140"
                     "Visible"                       "1"
                     "Enabled"                       "1"
                     "ProportionalToParent"          "1"
                     "PaintBackground"               "0"
                     "BGColor_Override"              "Red"
+                    "Linux_Disabled_Cross"
+                    {
+                        "ControlName"                   "ImagePanel"
+                        "FieldName"                     "Linux_Disabled_Cross"
+                        "XPos"                          "cs-0.5"
+                        "YPos"                          "cs-0.5"
+                        "ZPos"                          "99"
+                        "Tall"                          "f0"
+                        "Wide"                          "f0"
+                        "Visible"                       "1" [$LINUX]
+                        "Visible"                       "0" [$WINDOWS]
+                        "Enabled"                       "1"
+                        "MouseInputEnabled"             "0"
+                        "ProportionalToParent"          "1"
+                        "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                        "ScaleImage"                    "1"
+                        "Drawcolor"                     "Red"
+                        "Alpha"                         "200"
+                    }
                     "RocketFire_Icon"
                     {
                         "ControlName"                   "CExLabel"
@@ -3200,12 +3238,31 @@
                     "YPos"                          "110+145+145"
                     "ZPos"                          "20"
                     "Wide"                          "185"
-                    "Tall"                          "180"
+                    "Tall"                          "140"
                     "Visible"                       "1"
                     "Enabled"                       "1"
                     "ProportionalToParent"          "1"
                     "PaintBackground"               "0"
                     "BGColor_Override"              "Red"
+                    "Linux_Disabled_Cross"
+                    {
+                        "ControlName"                   "ImagePanel"
+                        "FieldName"                     "Linux_Disabled_Cross"
+                        "XPos"                          "cs-0.5"
+                        "YPos"                          "cs-0.5"
+                        "ZPos"                          "99"
+                        "Tall"                          "f0"
+                        "Wide"                          "f0"
+                        "Visible"                       "1" [$LINUX]
+                        "Visible"                       "0" [$WINDOWS]
+                        "Enabled"                       "1"
+                        "MouseInputEnabled"             "0"
+                        "ProportionalToParent"          "1"
+                        "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                        "ScaleImage"                    "1"
+                        "Drawcolor"                     "Red"
+                        "Alpha"                         "200"
+                    }
                     "DamageIndicator_Icon"
                     {
                         "ControlName"                   "CExLabel"
@@ -4412,10 +4469,10 @@
                     "ProportionalToParent"          "1"
                     "PaintBackground"               "0"
                     "BGColor_Override"              "Red"
-                    "Disabled_Cross"
+                    "Linux_Disabled_Cross"
                     {
                         "ControlName"                   "ImagePanel"
-                        "FieldName"                     "Disabled_Cross"
+                        "FieldName"                     "Linux_Disabled_Cross"
                         "XPos"                          "cs-0.5"
                         "YPos"                          "cs-0.5"
                         "ZPos"                          "99"
@@ -4881,6 +4938,25 @@
                         "Visible"                       "1"
                         "Enabled"                       "1"
                         "ProportionalToParent"          "1"
+                        "Linux_Disabled_Cross"
+                    {
+                        "ControlName"                   "ImagePanel"
+                        "FieldName"                     "Linux_Disabled_Cross"
+                        "XPos"                          "cs-0.5"
+                        "YPos"                          "cs-0.5"
+                        "ZPos"                          "99"
+                        "Tall"                          "f0"
+                        "Wide"                          "f0"
+                        "Visible"                       "1" [$LINUX]
+                        "Visible"                       "0" [$WINDOWS]
+                        "Enabled"                       "1"
+                        "MouseInputEnabled"             "0"
+                        "ProportionalToParent"          "1"
+                        "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                        "ScaleImage"                    "1"
+                        "Drawcolor"                     "Red"
+                        "Alpha"                         "200"
+                    }
                         "Size_Label"
                         {
                             "ControlName"                   "CExLabel"
@@ -6589,10 +6665,10 @@
                             "Pin_To_Sibling"                "Drawoverlayfragment_Toggle"	// set in hudlayout_customization.res
                             "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"	// set in hudlayout_customization.res
                             "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"	// set in hudlayout_customization.res
-                            "Disabled_Cross"
+                            "Linux_Disabled_Cross"
                             {
                                 "ControlName"                   "ImagePanel"
-                                "FieldName"                     "Disabled_Cross"
+                                "FieldName"                     "Linux_Disabled_Cross"
                                 "XPos"                          "cs-0.5"
                                 "YPos"                          "cs-0.5"
                                 "ZPos"                          "99"
@@ -6708,10 +6784,10 @@
                             "Pin_To_Sibling"                "Water_Particles_Toggle"	// set in hudlayout_customization.res
                             "Pin_Corner_To_Sibling"         "PIN_TOPLEFT"	// set in hudlayout_customization.res
                             "Pin_To_Sibling_Corner"         "PIN_BOTTOMLEFT"	// set in hudlayout_customization.res
-                            "Disabled_Cross"
+                            "Linux_Disabled_Cross"
                             {
                                 "ControlName"                   "ImagePanel"
-                                "FieldName"                     "Disabled_Cross"
+                                "FieldName"                     "Linux_Disabled_Cross"
                                 "XPos"                          "cs-0.5"
                                 "YPos"                          "cs-0.5"
                                 "ZPos"                          "99"
