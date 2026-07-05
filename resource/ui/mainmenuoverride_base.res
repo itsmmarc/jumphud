@@ -1029,7 +1029,7 @@
         }
     }
     // ==================================================================================================================================================
-    // JUMP BUTTONS / Utilities
+    // MARK: JUMP BUTTONS / Utilities
     // ==================================================================================================================================================
     "SavelocContainer"
     {
@@ -2980,6 +2980,53 @@
                 "DepressedFGColor_Override"         "Menu_Accent"
             }
         }
+    }
+    // MARK: BOTTOM CORNER BUTTONS
+    "GitHub_Link"
+    {
+        "ControlName"                       "CExButton"
+        "FieldName"                         "GitHub_Link"
+        "XPos"                              "rs1-4"
+        "YPos"                              "rs1-4"
+        "ZPos"                              "20"
+        "Wide"                              "20"
+        "Tall"                              "20"
+        "Visible"                           "1"
+        "Enabled"                           "1"
+        "ProportionalToParent"              "1"
+        "LabelText"                         "^"
+        "Font"                              "Symbols20"
+        "TextAlignment"                     "center"
+        "Command"                           "url https://github.com/itsmmarc/jumphud"
+        "PaintBackground"                   "0"
+        "DefaultFGColor_Override"           "White"
+        "ArmedFGColor_Override"             "Menu_Accent"
+        "DepressedFGColor_Override"         "White"
+    }
+    "Kofi_Link"
+    {
+        "ControlName"                       "CExButton"
+        "FieldName"                         "Kofi_Link"
+        "XPos"                              "-1"
+        "YPos"                              "-1"
+        "ZPos"                              "20"
+        "Wide"                              "22"
+        "Tall"                              "22"
+        "Visible"                           "1"
+        "Enabled"                           "1"
+        "ProportionalToParent"              "1"
+        "LabelText"                         "K"
+        "Font"                              "JumpHudIcons20"
+        "TextAlignment"                     "center"
+        "Command"                           "url https://ko-fi.com/itsmmarc"
+        "PaintBackground"                   "0"
+        "DefaultFGColor_Override"           "White"
+        "ArmedFGColor_Override"             "Menu_Accent"
+        "DepressedFGColor_Override"         "White"
+
+        "Pin_To_Sibling"                "GitHub_Link"
+        "pin_corner_to_sibling"         "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"         "PIN_TOPLEFT"
     }
     // ==================================================================================================================================================
     // NOTIFICATIONS BUTTON

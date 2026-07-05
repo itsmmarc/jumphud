@@ -210,6 +210,16 @@
                 "antialias"         "1"
             }
         }
+        "JumpHUDIcons20"
+        {
+            "1"
+            {
+                "name"              "JumpHUDIcons"
+                "tall"              "20" [$WINDOWS]
+                "tall"              "16" [$LINUX]
+                "antialias"         "1"
+            }
+        }
         "JumpHUDIcons24"
         {
             "1"
