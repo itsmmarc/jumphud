@@ -13,7 +13,7 @@ A Team Fortress 2 HUD packed with features designed for use on Tempus jump serve
 
 ## Installation
 
-1. Download the [latest release](https://github.com/itsmmarc/jumphud/releases/tag/v2.5.1)
+1. Download the [latest release](https://github.com/itsmmarc/jumphud/releases/latest)
 
 2. Navigate to your Team Fortress 2 installation. The easiest way is to right click on the game in your Steam library and select `Manage > Browse local files`
 
