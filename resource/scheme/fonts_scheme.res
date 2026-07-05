@@ -662,6 +662,16 @@
         // ==============================
         // HypnotizeHud Class Symbols
         // ==============================
+        "ClassSymbols24"
+        {
+            "1"
+            {
+                "name"              "TF2 Class Icons V3"
+                "tall"              "24" [$WINDOWS]
+                "tall"              "20" [$LINUX]
+                "antialias"         "1"
+            }
+        }
         "ClassSymbols28"
         {
             "1"
