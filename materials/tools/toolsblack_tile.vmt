@@ -3,5 +3,5 @@
         // https://www.sketchuptextureclub.com/textures/architecture/concrete/plates/clean/concrete-clean-plates-wall-texture-seamless-01713
         "$basetexture" "tools/91_concrete_clean_plates"
         "$seamless_detail"                      "1"
-        "$seamless_scale"                       "0.01"
+        "$seamless_scale"                       "0.005"
 }
