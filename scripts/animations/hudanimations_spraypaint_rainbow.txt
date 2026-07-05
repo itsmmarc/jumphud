@@ -9,35 +9,35 @@ event SprayPaintR_On
 
 // event SprayPaintR_White
 // {
-// FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reWhite"
+// FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reWhite"
 // RunEvent         SprayPaintR_Tan        0.03 // spray speed, setting this too fast will kick you from most servers
 // }
 //// ---------------------------------------------------------------------------------------------------------------------------
 //// Tan
 // event SprayPaintR_Tan
 // {
-// FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reTan"
+// FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reTan"
 // RunEvent         SprayPaintR_Grey       0.03 // spray speed, setting this too fast will kick you from most servers
 // }
 //// ---------------------------------------------------------------------------------------------------------------------------
 //// Grey
 // event SprayPaintR_Grey
 // {
-// FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reGrey"
+// FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reGrey"
 // RunEvent         SprayPaintR_Black      0.03 // spray speed, setting this too fast will kick you from most servers
 // }
 //// ---------------------------------------------------------------------------------------------------------------------------
 //// Black
 // event SprayPaintR_Black
 // {
-// FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reBlack"
+// FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reBlack"
 // RunEvent         SprayPaintR_Maroon     0.03 // spray speed, setting this too fast will kick you from most servers
 // }
 // ---------------------------------------------------------------------------------------------------------------------------
 // Salmon
 event SprayPaintR_Salmon
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reSalmon"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reSalmon"
     RunEvent         SprayPaintR_Maroon     0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -45,7 +45,7 @@ event SprayPaintR_Salmon
 // Maroon
 event SprayPaintR_Maroon
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reMaroon"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reMaroon"
     RunEvent         SprayPaintR_Red        0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -53,7 +53,7 @@ event SprayPaintR_Maroon
 // Red
 event SprayPaintR_Red
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reRed"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reRed"
     RunEvent         SprayPaintR_Orange     0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -61,7 +61,7 @@ event SprayPaintR_Red
 // Orange
 event SprayPaintR_Orange
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reOrange"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reOrange"
     RunEvent         SprayPaintR_Yellow     0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -69,7 +69,7 @@ event SprayPaintR_Orange
 // Yellow
 event SprayPaintR_Yellow
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reYellow"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reYellow"
     RunEvent         SprayPaintR_Olive      0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -77,7 +77,7 @@ event SprayPaintR_Yellow
 // Olive
 event SprayPaintR_Olive
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reOlive"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reOlive"
     RunEvent         SprayPaintR_Green      0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -85,7 +85,7 @@ event SprayPaintR_Olive
 // Green
 event SprayPaintR_Green
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reGreen"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reGreen"
     RunEvent         SprayPaintR_Forest     0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -93,7 +93,7 @@ event SprayPaintR_Green
 // Forest
 event SprayPaintR_Forest
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reForest"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reForest"
     RunEvent         SprayPaintR_Teal       0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -101,7 +101,7 @@ event SprayPaintR_Forest
 // Teal
 event SprayPaintR_Teal
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reTeal"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reTeal"
     RunEvent         SprayPaintR_Cyan       0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -109,7 +109,7 @@ event SprayPaintR_Teal
 // Cyan
 event SprayPaintR_Cyan
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reCyan"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reCyan"
     RunEvent         SprayPaintR_Blue       0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -117,7 +117,7 @@ event SprayPaintR_Cyan
 // Blue
 event SprayPaintR_Blue
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reBlue"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reBlue"
     RunEvent         SprayPaintR_Navy       0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -125,7 +125,7 @@ event SprayPaintR_Blue
 // Navy
 event SprayPaintR_Navy
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reNavy"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reNavy"
     RunEvent         SprayPaintR_Purple     0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -133,7 +133,7 @@ event SprayPaintR_Navy
 // Purple
 event SprayPaintR_Purple
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0rePurple"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0rePurple"
     RunEvent         SprayPaintR_Violet     0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -141,7 +141,7 @@ event SprayPaintR_Purple
 // Violet
 event SprayPaintR_Violet
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reViolet"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reViolet"
     RunEvent         SprayPaintR_Pink       0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -149,7 +149,7 @@ event SprayPaintR_Violet
 // Pink
 event SprayPaintR_Pink
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0rePink"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0rePink"
     RunEvent         SprayPaintR_Magenta    0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
@@ -157,7 +157,7 @@ event SprayPaintR_Pink
 // Magenta
 event SprayPaintR_Magenta
 {
-    FireCommand      0.0                    "engine sm_spray sprays/spraypaint_m0reMagenta"
+    FireCommand      0.0                    "engine cmd sm_spray sprays/spraypaint_m0reMagenta"
     RunEvent         SprayPaintR_Maroon     0.03 // spray speed, setting this too fast will kick you from most servers
 }
 
