@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+        "$basetexture"                          "forcefield_by_200/hexa_white"
+        "$seamless_detail"                      "1"
+        "$seamless_scale"                       "0.00125"
+        "$translucent"                          "1"
+        "$additive"                             "1"
+        "$vertexcolor"                          "1"
+        "$color"                                "{50 120 255}"
+
+}

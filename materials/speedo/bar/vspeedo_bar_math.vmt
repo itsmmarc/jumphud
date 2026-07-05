@@ -1,305 +1,458 @@
 "UnlitGeneric"
 {
-    "$prealpha"                 "1"
-    // ==============================================================
-    // SPEEDO CALCULATION VARIABLES
-    // ==============================================================
-    "$digit"                    "0"
-    "$override"                 "0"
-    "$leading"                  "0"
-    "$leading_check"            "0"
-    "$left"                     "0"
-    "$left_factor1"             "0"
-    "$left_factor2"             "0"
-    "$left_factor3"             "0"
-    "$lt"                       "9999"
-    "$gt"                       "-1"
-    "$const_interval"           "0.03"	// update interval
-    "$value"                    "0"
-    "$value_digit"              "0"
-    "$time"                     "0.0"
-    "$interval"                 "0.0"
-    "$update"                   "0"
-    "$oldtime"                  "0.0"
-    "$pos"                      "[0.0 0.0 0.0]"
-    "$posz"                     "0.0"
-    "$dz"                       "0.0"
-    "$oldposz"                  "0.0"
-    "$vd"                       "0.0"
-    "$vspeed"                   "0.0"
-    // ==============================================================
-    // TEXTURE TRANSFORMATION VARIABLES
-    // ==============================================================
-    "$speed"                    "0"
-    "$speedScaled"              "0"
-    "$speedMax"                 "1"
-    "$speedScale"               "0.000285714285714"
-    "$center"                   "[0.5 0.5]"
-    "$scale"                    "[1 1]"
-    "$rotate"                   "0"
-    "$translate"                "[0.0 0.0]"
-    // ==============================================================
-    // COLOR VARIABLES
-    // ==============================================================
-    "$colorMain"                "{ 255 255 255 }"	// default color
-    "$colorClose"               "{ 255 255 255 }"
-    "$colorGood"                "{ 255 255 255 }"
-    "$color"                    "$colorMain"
-    "Proxies"
-    {
+        "$prealpha"                             "1"
         // ==============================================================
-        // VERTICAL SPEED
+        // SPEEDO CALCULATION VARIABLES
         // ==============================================================
-        // Reset oldtime on new map
-        "LessOrEqual"
-        {
-            "lessEqualVar"          "$oldtime"
-            "greaterVar"            "$0"
-            "srcVar1"               "$oldtime"
-            "srcVar2"               "$time"
-            "resultVar"             "$oldtime"
-        }
-        // Get current time
-        "CurrentTime"
-        {
-            "resultVar"         "$time"
-        }
-        // Calculate current interval
-        "Subtract"
-        {
-            "srcVar1"           "$time"
-            "srcVar2"           "$oldtime"
-            "resultVar"         "$interval"
-        }
-        // Sets $update to 1 if it's time to update
-        "LessOrEqual"
-        {
-            "lessEqualVar"          "$0"
-            "greaterVar"            "$1"
-            "srcVar1"               "$interval"
-            "srcVar2"               "$const_interval"
-            "resultVar"             "$update"
-        }
-        // Save current time if updating
-        "LessOrEqual"
-        {
-            "lessEqualVar"          "$oldtime"
-            "greaterVar"            "$time"
-            "srcVar1"               "$update"
-            "srcVar2"               "$0"
-            "resultVar"             "$oldtime"
-        }
-        // Get player's position
-        "PlayerPosition"
-        {
-            "scale"             "1"
-            "resultVar"         "$pos"
-        }
-        "Clamp"
-        {
-            "srcVar1"           "$0"
-            "min"               "$pos[2]"
-            "max"               "$pos[2]"
-            "resultVar"         "$posz"
-        }
-        // Calculate displacement
-        "Subtract"
-        {
-            "srcVar1"           "$posz"
-            "srcVar2"           "$oldposz"
-            "resultVar"         "$dz"
-        }
-        // Store current position if updating
-        // Save current time if updating
-        "LessOrEqual"
-        {
-            "lessEqualVar"          "$oldposz"
-            "greaterVar"            "$posz"
-            "srcVar1"               "$update"
-            "srcVar2"               "$0"
-            "resultVar"             "$oldposz"
-        }
-        // Set vertical displacement
-        "Equals"
-        {
-            "srcVar1"           "$dz"
-            "resultVar"         "$vd"
-        }
-        // Get absolute value
-        "Abs"
-        {
-            "srcVar1"           "$vd"
-            "resultVar"         "$vd"
-        }
-        // Calculate horizontal speed
-        "Divide"
-        {
-            "srcVar1"           "$vd"
-            "srcVar2"           "$interval"
-            "resultVar"         "$vspeed"
-        }
-        // Change display value if updating
-        "LessOrEqual"
-        {
-            "lessEqualVar"          "$value"
-            "greaterVar"            "$vspeed"
-            "srcVar1"               "$update"
-            "srcVar2"               "$0"
-            "resultVar"             "$value"
-        }
-        // clamp speed
-        "Clamp"
-        {
-            "min"               "0"
-            "max"               "3500"
-            "srcVar1"           "$value"
-            "resultVar"         "$speed"
-        }
+        "$digit"                                "0"
+        "$override"                             "0"
+        "$leading"                              "0"
+        "$leading_check"                        "0"
+        "$left"                                 "0"
+        "$left_factor1"                         "0"
+        "$left_factor2"                         "0"
+        "$left_factor3"                         "0"
+        "$lt"                                   "9999"
+        "$gt"                                   "-1"
+        "$const_interval"                       "0.03"	// update interval
+        "$value"                                "0"
+        "$value_digit"                          "0"
+        "$time"                                 "0.0"
+        "$interval"                             "0.0"
+        "$update"                               "0"
+        "$oldtime"                              "0.0"
+        "$pos"                                  "[0.0 0.0 0.0]"
+        "$posz"                                 "0.0"
+        "$dz"                                   "0.0"
+        "$oldposz"                              "0.0"
+        "$vd"                                   "0.0"
+        "$vspeed"                               "0.0"
         // ==============================================================
-        // TRANSFORM TEXTURE
+        // TEXTURE TRANSFORMATION VARIABLES
         // ==============================================================
-        // if speed is 0, make bar invisible
-        "LessOrEqual"
-        {
-            "srcVar1"               "$speed"
-            "srcVar2"               "$0"
-            "resultVar"             "$alpha"
-            "greaterVar"            "$prealpha"
-            "lessEqualVar"          "$0"
-        }
-        "Multiply"
-        {
-            "srcVar1"           "$speed"
-            "srcVar2"           "$speedScale"
-            "resultVar"         "$speedScaled"
-        }
-        "Clamp"
-        {
-            "min"               "$0"
-            "max"               "$speedMax"
-            "srcVar1"           "$speedScaled"
-            "resultVar"         "$translate[1]"
-        }
-        "TextureTransform"
-        {
-            "centerVar"             "$center"
-            "scaleVar"              "$scale"
-            "rotateVar"             "$rotate"
-            "translateVar"          "$translate"
-            "resultVar"             "$basetexturetransform"
-        }
+        "$speed"                                "0"
+        "$speedScaled"                          "0"
+        "$speedMax"                             "1"
+        "$speedScale"                           "0.000285714285714"
+        "$center"                               "[0.5 0.5]"
+        "$scale"                                "[1 1]"
+        "$rotate"                               "0"
+        "$translate"                            "[0.0 0.0]"
         // ==============================================================
-        // COLORS
+        // COLOR VARIABLES
         // ==============================================================
-        // BASE
-        // default to white if none of the below conditions are met
-        // --------------------------------------------------------------
-        "Equals"
+        "$colorMain"                            "{ 255 255 255 }"	// default color
+        "$colorClose"                           "{ 255 255 255 }"
+        "$colorGood"                            "{ 255 255 255 }"
+        "$color"                                "$colorMain"
+        // rainbow color vars
+        "$enableRainbow"                        "0"
+        "$rainbowColor"                         "[1 1 1]"
+        "$iRandRedBool"                         "0"
+        "$rainbowRed"                           "1.0"
+        "$rainbowRedI"                          "0.0"
+        "$rainbowRedD"                          "0.0"
+        "$iRandGreenBool"                       "0"
+        "$rainbowGreen"                         "1.0"
+        "$rainbowGreenI"                        "0.0"
+        "$rainbowGreenD"                        "0.0"
+        "$iRandBlueBool"                        "0"
+        "$rainbowBlue"                          "1.0"
+        "$rainbowBlueI"                         "0.0"
+        "$rainbowBlueD"                         "0.0"
+        "$diff"                                 "0.004"	// 0.004
+        "Proxies"
         {
-            "srcVar1"           "$colorMain"
-            "resultVar"         "$color"
+                // ==============================================================
+                // VERTICAL SPEED
+                // ==============================================================
+                // Reset oldtime on new map
+                "LessOrEqual"
+                {
+                        "lessEqualVar"                  "$oldtime"
+                        "greaterVar"                    "$0"
+                        "srcVar1"                       "$oldtime"
+                        "srcVar2"                       "$time"
+                        "resultVar"                     "$oldtime"
+                }
+                // Get current time
+                "CurrentTime"
+                {
+                        "resultVar"                     "$time"
+                }
+                // Calculate current interval
+                "Subtract"
+                {
+                        "srcVar1"                       "$time"
+                        "srcVar2"                       "$oldtime"
+                        "resultVar"                     "$interval"
+                }
+                // Sets $update to 1 if it's time to update
+                "LessOrEqual"
+                {
+                        "lessEqualVar"                  "$0"
+                        "greaterVar"                    "$1"
+                        "srcVar1"                       "$interval"
+                        "srcVar2"                       "$const_interval"
+                        "resultVar"                     "$update"
+                }
+                // Save current time if updating
+                "LessOrEqual"
+                {
+                        "lessEqualVar"                  "$oldtime"
+                        "greaterVar"                    "$time"
+                        "srcVar1"                       "$update"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$oldtime"
+                }
+                // Get player's position
+                "PlayerPosition"
+                {
+                        "scale"                         "1"
+                        "resultVar"                     "$pos"
+                }
+                "Clamp"
+                {
+                        "srcVar1"                       "$0"
+                        "min"                           "$pos[2]"
+                        "max"                           "$pos[2]"
+                        "resultVar"                     "$posz"
+                }
+                // Calculate displacement
+                "Subtract"
+                {
+                        "srcVar1"                       "$posz"
+                        "srcVar2"                       "$oldposz"
+                        "resultVar"                     "$dz"
+                }
+                // Store current position if updating
+                // Save current time if updating
+                "LessOrEqual"
+                {
+                        "lessEqualVar"                  "$oldposz"
+                        "greaterVar"                    "$posz"
+                        "srcVar1"                       "$update"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$oldposz"
+                }
+                // Set vertical displacement
+                "Equals"
+                {
+                        "srcVar1"                       "$dz"
+                        "resultVar"                     "$vd"
+                }
+                // Get absolute value
+                "Abs"
+                {
+                        "srcVar1"                       "$vd"
+                        "resultVar"                     "$vd"
+                }
+                // Calculate horizontal speed
+                "Divide"
+                {
+                        "srcVar1"                       "$vd"
+                        "srcVar2"                       "$interval"
+                        "resultVar"                     "$vspeed"
+                }
+                // Change display value if updating
+                "LessOrEqual"
+                {
+                        "lessEqualVar"                  "$value"
+                        "greaterVar"                    "$vspeed"
+                        "srcVar1"                       "$update"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$value"
+                }
+                // clamp speed
+                "Clamp"
+                {
+                        "min"                           "0"
+                        "max"                           "3500"
+                        "srcVar1"                       "$value"
+                        "resultVar"                     "$speed"
+                }
+                // ==============================================================
+                // TRANSFORM TEXTURE
+                // ==============================================================
+                // if speed is 0, make bar invisible
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$alpha"
+                        "greaterVar"                    "$prealpha"
+                        "lessEqualVar"                  "$0"
+                }
+                "Multiply"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$speedScale"
+                        "resultVar"                     "$speedScaled"
+                }
+                "Clamp"
+                {
+                        "min"                           "$0"
+                        "max"                           "$speedMax"
+                        "srcVar1"                       "$speedScaled"
+                        "resultVar"                     "$translate[1]"
+                }
+                "TextureTransform"
+                {
+                        "centerVar"                     "$center"
+                        "scaleVar"                      "$scale"
+                        "rotateVar"                     "$rotate"
+                        "translateVar"                  "$translate"
+                        "resultVar"                     "$basetexturetransform"
+                }
+                // ==============================================================
+                // COLORS
+                // ==============================================================
+                // BASE
+                // default to white if none of the below conditions are met
+                // --------------------------------------------------------------
+                "Equals"
+                {
+                        "srcVar1"                       "$colorMain"
+                        "resultVar"                     "$color"
+                }
+                // ==============================================================
+                // CLOSE
+                // if(speed>closeMin && speed<closeMax)
+                // --------------------------------------------------------------
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$closeMin"
+                        "resultVar"                     "$isAboveCloseMin"
+                        "greaterVar"                    "$1"
+                        "lessEqualVar"                  "$0"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$closeMax"
+                        "resultVar"                     "$isBelowCloseMax"
+                        "greaterVar"                    "$0"
+                        "lessEqualVar"                  "$1"
+                }
+                "Multiply"
+                {
+                        "srcVar1"                       "$isAboveCloseMin"
+                        "srcVar2"                       "$isBelowCloseMax"
+                        "resultVar"                     "$isClose"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$isClose"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$color"
+                        "greaterVar"                    "$colorClose"
+                        "lessEqualVar"                  "$color"
+                }
+                // ==============================================================
+                // GOOD
+                // if(speed>goodMin && speed<goodMax)
+                // --------------------------------------------------------------
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$goodMin"
+                        "resultVar"                     "$isAboveGoodMin"
+                        "greaterVar"                    "$1"
+                        "lessEqualVar"                  "$0"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$goodMax"
+                        "resultVar"                     "$isBelowGoodMax"
+                        "greaterVar"                    "$0"
+                        "lessEqualVar"                  "$1"
+                }
+                "Multiply"
+                {
+                        "srcVar1"                       "$isAboveGoodMin"
+                        "srcVar2"                       "$isBelowGoodMax"
+                        "resultVar"                     "$isGood"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$isGood"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$color"
+                        "greaterVar"                    "$colorGood"
+                        "lessEqualVar"                  "$color"
+                }
+                // ==============================================================
+                // ABOVE
+                // if(speed>aboveMin && speed<aboveMax)
+                // --------------------------------------------------------------
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$closeMinB"
+                        "resultVar"                     "$isAboveCloseMinB"
+                        "greaterVar"                    "$1"
+                        "lessEqualVar"                  "$0"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$speed"
+                        "srcVar2"                       "$closeMaxB"
+                        "resultVar"                     "$isBelowCloseMaxB"
+                        "greaterVar"                    "$0"
+                        "lessEqualVar"                  "$1"
+                }
+                "Multiply"
+                {
+                        "srcVar1"                       "$isAboveCloseMinB"
+                        "srcVar2"                       "$isBelowCloseMaxB"
+                        "resultVar"                     "$isCloseB"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$isCloseB"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$color"
+                        "greaterVar"                    "$colorClose"
+                        "lessEqualVar"                  "$color"
+                }
+                // ==============================================================
+                // SPEEDO RAINBOW
+                // ==============================================================
+                // RED
+                // iRandRedBool = random(0,1)
+                "UniformNoise"
+                {
+                        "minVal"                        "$0"
+                        "maxVal"                        "$2"
+                        "resultVar"                     "$iRandRedBool"
+                }
+                "Clamp"
+                {
+                        "min"                           "$0"
+                        "max"                           "$1"
+                        "srcVar1"                       "$rainbowRed"
+                        "resultVar"                     "$rainbowRed"
+                }
+                "Add"
+                {
+                        "srcVar1"                       "$rainbowRed"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowRedI"
+                }
+                "Subtract"
+                {
+                        "srcVar1"                       "$rainbowRed"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowRedD"
+                }
+                // if(iRandRedBool){rainbowRed++} else {rainbowRed--}
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$iRandRedBool"
+                        "srcVar2"                       "$1"
+                        "resultVar"                     "$rainbowRed"
+                        "greaterVar"                    "$rainbowRedI"
+                        "lessEqualVar"                  "$rainbowRedD"
+                }
+                "Equals"
+                {
+                        "srcVar1"                       "$rainbowRed"
+                        "resultVar"                     "$rainbowColor[0]"
+                }
+                // GREEN
+                // iRandGreenBool = random(0,1)
+                "UniformNoise"
+                {
+                        "minVal"                        "$0"
+                        "maxVal"                        "$2"
+                        "resultVar"                     "$iRandGreenBool"
+                }
+                "Clamp"
+                {
+                        "min"                           "$0"
+                        "max"                           "$1"
+                        "srcVar1"                       "$rainbowGreen"
+                        "resultVar"                     "$rainbowGreen"
+                }
+                "Add"
+                {
+                        "srcVar1"                       "$rainbowGreen"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowGreenI"
+                }
+                "Subtract"
+                {
+                        "srcVar1"                       "$rainbowGreen"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowGreenD"
+                }
+                // if(iRandGreenBool){rainbowGreen++} else {rainbowGreen--}
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$iRandGreenBool"
+                        "srcVar2"                       "$1"
+                        "resultVar"                     "$rainbowGreen"
+                        "greaterVar"                    "$rainbowGreenI"
+                        "lessEqualVar"                  "$rainbowGreenD"
+                }
+                "Equals"
+                {
+                        "srcVar1"                       "$rainbowGreen"
+                        "resultVar"                     "$rainbowColor[1]"
+                }
+                // BLUE
+                // iRandBlueBool = random(0,1)
+                "UniformNoise"
+                {
+                        "minVal"                        "$0"
+                        "maxVal"                        "$2"
+                        "resultVar"                     "$iRandBlueBool"
+                }
+                "Clamp"
+                {
+                        "min"                           "$0"
+                        "max"                           "$1"
+                        "srcVar1"                       "$rainbowBlue"
+                        "resultVar"                     "$rainbowBlue"
+                }
+                "Add"
+                {
+                        "srcVar1"                       "$rainbowBlue"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowBlueI"
+                }
+                "Subtract"
+                {
+                        "srcVar1"                       "$rainbowBlue"
+                        "srcVar2"                       "$diff"
+                        "resultVar"                     "$rainbowBlueD"
+                }
+                // if(iRandBlueBool){rainbowBlue++} else {rainbowBlue--}
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$iRandBlueBool"
+                        "srcVar2"                       "$1"
+                        "resultVar"                     "$rainbowBlue"
+                        "greaterVar"                    "$rainbowBlueI"
+                        "lessEqualVar"                  "$rainbowBlueD"
+                }
+                "Equals"
+                {
+                        "srcVar1"                       "$rainbowBlue"
+                        "resultVar"                     "$rainbowColor[2]"
+                }
+                // ==============================================================
+                // RAINBOW COLOR TOGGLE
+                // ==============================================================
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$enableRainbow"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$color"
+                        "greaterVar"                    "$rainbowColor"
+                        "lessEqualVar"                  "$color"
+                }
         }
-        // ==============================================================
-        // CLOSE
-        // if(speed>closeMin && speed<closeMax)
-        // --------------------------------------------------------------
-        "LessOrEqual"
-        {
-            "srcVar1"               "$speed"
-            "srcVar2"               "$closeMin"
-            "resultVar"             "$isAboveCloseMin"
-            "greaterVar"            "$1"
-            "lessEqualVar"          "$0"
-        }
-        "LessOrEqual"
-        {
-            "srcVar1"               "$speed"
-            "srcVar2"               "$closeMax"
-            "resultVar"             "$isBelowCloseMax"
-            "greaterVar"            "$0"
-            "lessEqualVar"          "$1"
-        }
-        "Multiply"
-        {
-            "srcVar1"           "$isAboveCloseMin"
-            "srcVar2"           "$isBelowCloseMax"
-            "resultVar"         "$isClose"
-        }
-        "LessOrEqual"
-        {
-            "srcVar1"               "$isClose"
-            "srcVar2"               "$0"
-            "resultVar"             "$color"
-            "greaterVar"            "$colorClose"
-            "lessEqualVar"          "$color"
-        }
-        // ==============================================================
-        // GOOD
-        // if(speed>goodMin && speed<goodMax)
-        // --------------------------------------------------------------
-        "LessOrEqual"
-        {
-            "srcVar1"               "$speed"
-            "srcVar2"               "$goodMin"
-            "resultVar"             "$isAboveGoodMin"
-            "greaterVar"            "$1"
-            "lessEqualVar"          "$0"
-        }
-        "LessOrEqual"
-        {
-            "srcVar1"               "$speed"
-            "srcVar2"               "$goodMax"
-            "resultVar"             "$isBelowGoodMax"
-            "greaterVar"            "$0"
-            "lessEqualVar"          "$1"
-        }
-        "Multiply"
-        {
-            "srcVar1"           "$isAboveGoodMin"
-            "srcVar2"           "$isBelowGoodMax"
-            "resultVar"         "$isGood"
-        }
-        "LessOrEqual"
-        {
-            "srcVar1"               "$isGood"
-            "srcVar2"               "$0"
-            "resultVar"             "$color"
-            "greaterVar"            "$colorGood"
-            "lessEqualVar"          "$color"
-        }
-        // ==============================================================
-        // ABOVE
-        // if(speed>aboveMin && speed<aboveMax)
-        // --------------------------------------------------------------
-        "LessOrEqual"
-        {
-            "srcVar1"               "$speed"
-            "srcVar2"               "$closeMinB"
-            "resultVar"             "$isAboveCloseMinB"
-            "greaterVar"            "$1"
-            "lessEqualVar"          "$0"
-        }
-        "LessOrEqual"
-        {
-            "srcVar1"               "$speed"
-            "srcVar2"               "$closeMaxB"
-            "resultVar"             "$isBelowCloseMaxB"
-            "greaterVar"            "$0"
-            "lessEqualVar"          "$1"
-        }
-        "Multiply"
-        {
-            "srcVar1"           "$isAboveCloseMinB"
-            "srcVar2"           "$isBelowCloseMaxB"
-            "resultVar"         "$isCloseB"
-        }
-        "LessOrEqual"
-        {
-            "srcVar1"               "$isCloseB"
-            "srcVar2"               "$0"
-            "resultVar"             "$color"
-            "greaterVar"            "$colorClose"
-            "lessEqualVar"          "$color"
-        }
-    }
 }

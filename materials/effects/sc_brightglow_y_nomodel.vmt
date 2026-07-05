@@ -1,0 +1,4 @@
+#base ../../../cfg/jumphud/jh_rocketfiretrails.txt
+#base sc_brightglow_y_nomodel_default.vmt
+"UnlitGeneric"
+{}

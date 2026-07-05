@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+        $baseTexture models\weapons\w_stickybomb/w_stickybomb_white
+    
+    "$color2"        "{ 0 135 55 }"
+    "$selfillumtint"        "{ 0 135 55 }"
+}

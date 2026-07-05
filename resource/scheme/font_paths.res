@@ -91,6 +91,34 @@
             "Font"          "resource/scheme/fonts/optional/tf2build.ttf"
             "name"          "TF2 Build"
         }
+        "28"
+        {
+            "Font"          "resource/scheme/fonts/optional/Freeman-Regular.ttf"
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+       }
+        "29"
+        {
+            "Font"          "resource/scheme/fonts/optional/Comfortaa-SemiBold.ttf"
+            "name"          "Comfortaa SemiBold"
+        }
+        "30"
+        {
+            "Font"          "resource/scheme/fonts/optional/SpaceGrotesk-SemiBold.ttf"
+            "name"          "Space Grotesk SemiBold"
+        }
+        "31"
+        {
+            "Font"          "resource/scheme/fonts/optional/ChivoMono-Regular.ttf"
+            "name"          "Chivo Mono Regular" [$WINDOWS]
+            "name"          "Chivo Mono" [$LINUX]
+       }
+        "32"
+        {
+            "Font"          "resource/scheme/fonts/optional/Kodchasan-Bold.ttf"
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+       }
         // icon fonts
         "101"
         {

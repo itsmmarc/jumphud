@@ -10,7 +10,11 @@ numbers_basic/*
 numbers_experimental_vertical/*
 numbers_experimental_horizontal/*
 previews/*
+fonts/
+digits/
 *.exe
 *.png
 *.ttf
 *.otf
+jszip.js
+FileSaver.js

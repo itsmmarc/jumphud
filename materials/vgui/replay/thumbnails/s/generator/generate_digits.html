@@ -1,0 +1,178 @@
+<!-- REQUIRES jszip.js IN THIS FOLDER TO FUNCTION https://stuk.github.io/jszip/ -->
+<!-- REQUIRES FileSaver.js IN THIS FOLDER TO FUNCTION https://github.com/eligrey/FileSaver.js/ -->
+
+<!doctype html>
+<head>
+    <title>Speedo Digit Generator</title>
+</head>
+
+<body>
+    <!-- MARK: Body -->
+    <h1>Speedo Digit Generator</h1>
+    <p>Upload a font to generate images for a TF2 speedo VTF</p>
+
+    <label>
+        Pad amount
+        <input type="number" value="0" id="pad-input" />
+    </label>
+    <label id="upload-font-container">
+        <input type="file" accept=".ttf, .otf" id="upload-font" />
+    </label>
+
+    <button id="download-btn">Download</button>
+
+    <!-- MARK: Scripts -->
+    <script src="./jszip.js"></script>
+    <script src="./FileSaver.js"></script>
+    <script>
+        const maxNumber = 109;
+        let maxWidth = 0;
+        let pad = 0;
+
+        const $downloadBtn = document.getElementById("download-btn");
+        $downloadBtn.addEventListener("click", () => {
+            zipImages();
+        });
+
+        const $uploadFontBtn = document.getElementById("upload-font");
+        $uploadFontBtn.addEventListener("change", () => {
+            uploadFont($uploadFontBtn);
+        });
+
+        const $padInput = document.getElementById("pad-input");
+        $padInput.addEventListener("change", () => {
+            pad = parseInt($padInput.value);
+        });
+
+        function uploadFont($input) {
+            let reader;
+
+            if ($input.files && $input.files[0]) {
+                reader = new FileReader();
+                reader.readAsDataURL($input.files[0]);
+                reader.onload = () => {
+                    if (reader.result) {
+                        loadFont(reader.result);
+                    }
+                };
+            }
+        }
+
+        function loadFont(fontdata) {
+            const fontName = "customfont";
+            const font = new FontFace(fontName, `url(${fontdata})`);
+            document.fonts.add(font);
+            font.load().then(() => {
+                const css = `.font-${fontName}{font-family: ${fontName}}`;
+                const $style = document.createElement("style");
+                $style.innerText = css;
+                $style.setAttribute("id", "fontName");
+                document.body.appendChild($style);
+            });
+        }
+
+        async function zipImages() {
+            const zipName = `generated-speedo-digits`;
+
+            let zip = new JSZip();
+
+            zip.file("README.md", createReadme());
+
+            let frames = await generateSpeedoFrames(256, 64);
+
+            for (let i = 0; i < frames.length; i++) {
+                zip.file(`${i}.png`, frames[i]);
+            }
+
+            zip.file("max-char-width.txt", Math.round(maxWidth + pad).toString());
+
+            downloadZip(zip, zipName);
+        }
+
+        function createReadme() {
+            return (
+                "# mmarc Speedo Digit Generator\n\n" +
+                "## Usage:\n" +
+                "0. Download and install VTFEdit Reloaded (or a VTF editor of your choice) https://github.com/Sky-rym/VTFEdit-Reloaded\n" +
+                "1. Extract this zip\n" +
+                "2. Select all images in the zip\n" +
+                "3. Drag and drop the images over VTFEdit Reloaded\n" +
+                "4. Select the following settings:\n" +
+                "  - Color Format: DXT5\n" +
+                "  - Alpha Format: DXT5\n" +
+                "  - Texture Type Format: Animated Texture\n" +
+                "5. Ensure frames correctly align with digits (frame 0 displays 0, frame 1 display 1, etc.)\n" +
+                "6. Save your VTF\n"
+            );
+        }
+
+        async function generateSpeedoFrames(width, height) {
+            const fontSize = height;
+
+            for (let i = 0; i < 10; i++) {
+                const canvas = document.createElement("canvas");
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext("2d");
+                ctx.font = `${fontSize}px customfont`;
+
+                maxWidth = ctx.measureText(i.toString()).width;
+            }
+
+            return await Promise.all(
+                Array.from({ length: maxNumber + 2 }).map((_, index) => {
+                    const canvas = document.createElement("canvas");
+                    canvas.width = width;
+                    canvas.height = height;
+                    const ctx = canvas.getContext("2d");
+                    ctx.font = `${fontSize}px customfont`;
+
+                    if (index <= maxNumber) {
+                        let units = index % 10;
+
+                        let tens = Math.floor(index / 10);
+
+                        let center = {
+                            x: width / 2,
+                            y: height * 0.85,
+                        };
+
+                        ctx.fillStyle = "white";
+
+                        // ctx.fillRect(center.x, 0, 1, height);
+
+                        // render tens
+                        ctx.fillText(
+                            index >= 100 ? "0" : tens ? tens.toString() : "",
+                            center.x - maxWidth - pad / 2,
+                            center.y,
+                        );
+
+                        // render units
+                        ctx.fillText(units.toString(), center.x + pad / 2, center.y);
+
+                        // let textWidth = ctx.measureText(index.toString()).width;
+                        // let center = {
+                        //     x: width / 2 - textWidth / 2,
+                        //     y: height,
+                        // };
+                        // ctx.fillText(index.toString(), center.x, center.y);
+                    }
+                    return convertCanvasToBlobAsync(canvas);
+                }),
+            );
+        }
+
+        async function downloadZip(zip, name) {
+            zip.generateAsync({ type: "blob" }).then((content) => {
+                saveAs(content, `${name}.zip`);
+            });
+        }
+
+        async function convertCanvasToBlobAsync(canvas) {
+            return new Promise((resolve) => {
+                canvas.toBlob((blob) => resolve(blob.arrayBuffer()));
+            });
+        }
+    </script>
+</body>

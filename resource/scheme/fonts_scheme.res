@@ -210,6 +210,16 @@
                 "antialias"         "1"
             }
         }
+        "JumpHUDIcons20"
+        {
+            "1"
+            {
+                "name"              "JumpHUDIcons"
+                "tall"              "20" [$WINDOWS]
+                "tall"              "16" [$LINUX]
+                "antialias"         "1"
+            }
+        }
         "JumpHUDIcons24"
         {
             "1"
@@ -652,6 +662,16 @@
         // ==============================
         // HypnotizeHud Class Symbols
         // ==============================
+        "ClassSymbols24"
+        {
+            "1"
+            {
+                "name"              "TF2 Class Icons V3"
+                "tall"              "24" [$WINDOWS]
+                "tall"              "20" [$LINUX]
+                "antialias"         "1"
+            }
+        }
         "ClassSymbols28"
         {
             "1"
@@ -2226,12 +2246,12 @@
                 "antialias"         "1"
             }
         }
-        "TFFontSmall"
+        "TFFontSmall"   // tas recording top left text
         {
             "1"
             {
-                "name"              "Verdana"
-                "Tall"              "8"
+                "name"              "Verdana" 
+                "tall"              "28"
                 "weight"            "0"
                 "additive"          "1"
                 "antialias"         "1"

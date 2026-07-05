@@ -11,7 +11,7 @@
     // ====================================================================================================================================================
     "Version"
     {
-        "label"             "JUMPHUD v2.5.1"
+        "label"             "JUMPHUD v2.6.0"
         "Command"           "engine showconsole; jh_version"
         "OnlyAtMenu"        "1"
     }
@@ -458,18 +458,18 @@
         "tooltip"           "Toggle Health Value"
         "OnlyInGame"        "1"
     }
-    "GraphSpeedos"
-    {
-        "label"             "G"
-        "Command"           "engine jh_gspeedos_toggle; hud_reloadscheme"
-        "tooltip"           "Toggle Speed Graphs"
-        "OnlyInGame"        "1"
-    }
     "ShowKeys"
     {
         "label"             "0"
         "Command"           "engine jh_skeys_toggle; hud_reloadscheme"
         "tooltip"           "Toggle Input Display"
+        "OnlyInGame"        "1"
+    }
+    "CurrentTime"
+    {
+        "label"             "-"
+        "Command"           "engine jh_ctime_toggle; hud_reloadscheme"
+        "tooltip"           "Toggle Server Map Time"
         "OnlyInGame"        "1"
     }
     "Toggle_HUDMessage"
@@ -489,7 +489,7 @@
     "ShowTriggers"
     {
         "label"             "@"
-        "Command"           "engine sm_showtriggers"
+        "Command"           "engine jh_showtriggers"
         "tooltip"           "Toggle Show Triggers"
         "OnlyInGame"        "1"
     }

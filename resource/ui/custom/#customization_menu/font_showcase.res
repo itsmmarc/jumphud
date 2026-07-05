@@ -172,6 +172,54 @@
                 "antialias"         "1"
             }
         }
+        "Showcase_Freeman"
+        {
+            "1"
+            {
+            "name"          "Freeman Regular" [$WINDOWS]
+            "name"          "Freeman" [$LINUX]
+               "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Showcase_Comfortaa"
+        {
+            "1"
+            {
+                "name"              "Comfortaa SemiBold"
+                "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Showcase_SpaceGrotesk"
+        {
+            "1"
+            {
+                "name"              "Space Grotesk SemiBold"
+                "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Showcase_ChivoMono"
+        {
+            "1"
+            {
+            "name"          "Chivo Mono Regular" [$WINDOWS]
+            "name"          "Chivo Mono" [$LINUX]
+               "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
+        "Showcase_Kodchasan"
+        {
+            "1"
+            {
+            "name"          "Kodchasan Bold" [$WINDOWS]
+            "name"          "Kodchasan" [$LINUX]
+               "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
         "Crosshair_Showcase"
         {
             "1"

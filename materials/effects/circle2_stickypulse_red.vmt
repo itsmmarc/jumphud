@@ -1,0 +1,4 @@
+#base ../../../cfg/jumphud/jh_stickytrails.txt
+#base circle2_stickypulse_red_def.vmt
+"UnlitGeneric"
+{}

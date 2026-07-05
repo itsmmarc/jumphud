@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"Effects/softglow"
+
+        "$surfaceprop"	"no_decal"
+	"$additive"	1
+	"$vertexcolor"	1
+	"$vertexalpha"	1
+
+	// "$surfaceprop"	"no_decal"
+	// "$additive"	1
+	// "$vertexcolor"	1
+	// "$vertexalpha"	1
+	// $DEPTHBLEND "0" 
+	// $maxsize .35
+	// $startfadesize .475
+	// $endfadesize .65
+
+        "$color" "{0 96 255}"
+}

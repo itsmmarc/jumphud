@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>VMT Test</title>
+    </head>
+
+    <body>
+        <h1>VMT Test</h1>
+        <div id="number-preview"></div>
+        <div class="vmt-preview-container">
+            <div class="vmt" id="vmt-left"></div>
+            <div class="vmt" id="vmt-right"></div>
+        </div>
+
+        <style>
+            .vmt-preview-container {
+                position: relative;
+                width: 256px;
+                height: 64px;
+                border: solid;
+            }
+            .vmt-preview-container > .vmt {
+                position: absolute;
+                left: 25%;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                text-align: center;
+                width: 50%;
+                height: 100%;
+                border: solid;
+            }
+
+            #vmt-left {
+                border-color: blue;
+            }
+            #vmt-right {
+                border-color: red;
+            }
+        </style>
+
+        <script>
+            /**
+speedo VTF is 256 x 64 pixels
+contains numbers from 0-99
+single digit numbers are right aligned in the center, so the left side of these digits will be at x=128 pixels
+*/
+            let speed = 0;
+            const fps = 1;
+            const maxSpeed = 1500;
+
+            const $numPreview = document.getElementById("number-preview");
+
+            setInterval(() => {
+                incrementSpeed();
+                leftVmt();
+                rightVmt();
+                $numPreview.innerText = speed;
+            }, 1 / fps);
+
+            function incrementSpeed() {
+                if (speed <= maxSpeed) {
+                    speed++;
+                } else {
+                    speed = 0;
+                }
+            }
+
+            /**
+when numdigits = 4 => display thousands and hundreds digits shifted left 1 space
+when numdigits = 3 => display hundreds digit shifted left 1.5 spaces
+when numdigits = 2 or 1 => display nothing
+*/
+            function leftVmt() {
+                let $vmt = document.getElementById("vmt-left");
+                let frame = 0;
+                let speed = getSpeed();
+                let numDigits = getNumDigits(speed);
+                let digitWidth = getDigitWidth();
+                let offset = 0;
+                let style = "";
+
+                if (numDigits == 1) {
+                    frame = 101; // blank
+                    style += "display: none;";
+                }
+                if (numDigits == 2) {
+                    frame = 101; // blank
+                    style += "display: none;";
+                }
+                if (numDigits == 3) {
+                    frame = speed;
+                    let modulus = frame / 100;
+                    modulus = Math.floor(modulus);
+                    frame = modulus;
+                    offset = -1.5;
+                }
+                if (numDigits == 4) {
+                    frame = speed;
+                    let modulus = frame / 100;
+                    modulus = Math.floor(modulus);
+                    frame = modulus;
+                    offset = -1;
+                }
+
+                // style += `margin-left: ${offset * digitWidth};`;
+                //$vmt.style = style;
+                $vmt.innerText = frame;
+            }
+
+            /**
+when numdigits = 4 => display tens and units digits shifted right 1 space
+when numdigits = 3 => display tens and units digits shifted right 0.5 spaces
+when numdigits = 2 => display tens and units digits shifted right 1 space
+when numdigits = 1 => display units digit shifted left 0.5 spaces
+*/
+            function rightVmt() {
+                let $vmt = document.getElementById("vmt-right");
+                let frame = 0;
+                let speed = getSpeed();
+                let numDigits = getNumDigits(speed);
+                let digitWidth = getDigitWidth();
+                let offset = 0;
+                let style = "";
+
+                if (numDigits == 1) {
+                    frame = speed;
+                    offset = -0.5;
+                }
+                if (numDigits == 2) {
+                    frame = speed;
+                    offset = 1;
+                }
+                if (numDigits == 3) {
+                    frame = speed;
+                    let modulus = frame / 100;
+                    modulus = Math.floor(modulus);
+                    modulus = modulus * 100;
+                    frame = frame - modulus;
+                    offset = 0.5;
+                }
+                if (numDigits == 4) {
+                    frame = speed;
+                    let modulus = frame / 100;
+                    modulus = Math.floor(modulus);
+                    modulus = modulus * 100;
+                    frame = frame - modulus;
+                    offset = 1;
+                }
+
+                // style = `margin-left: ${offset * digitWidth}`;
+                // $vmt.style = style;
+                $vmt.innerText = frame;
+            }
+
+            function getSpeed() {
+                return speed;
+            }
+
+            function getNumDigits(speed) {
+                if (speed < 10) return 1;
+                if (speed < 100) return 2;
+                if (speed < 1000) return 3;
+                if (speed < 10000) return 4;
+            }
+
+            function getDigitWidth() {
+                return 64; // placeholder, this should depend on the width of the font chosen.
+            }
+        </script>
+    </body>
+</html>

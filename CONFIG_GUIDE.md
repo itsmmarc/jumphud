@@ -83,10 +83,6 @@ The following aliases can be used to toggle speedos on & off. They all require h
 
 - jh_bspeedos_toggle
 
-**Toggle Speed Graphs**
-
-- jh_gspeedos_toggle
-
 **Toggle SKeys**
 
 - jh_skeys_toggle

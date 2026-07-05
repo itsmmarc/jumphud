@@ -1,0 +1,5 @@
+#base ../../../cfg/jumphud/jh_damageindicator_clr.txt
+#base damageindicator_default.vmt
+
+"UnlitGeneric"
+{}

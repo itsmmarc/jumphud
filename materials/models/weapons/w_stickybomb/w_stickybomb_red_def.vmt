@@ -1,0 +1,36 @@
+VertexLitGeneric
+{
+    $baseTexture models\weapons\w_stickybomb/w_stickybomb_red
+    $bumpmap models/weapons/w_stickybomb/w_stickybomb_normal
+    $selfillum 1
+    $nodecal 1
+
+    $phong 1
+    $phongexponent 0.5
+    $phongboost 0.5
+    $lightwarptexture models\lightwarps\weapon_lightwarp
+    $phongfresnelranges "[0.25 0.5 1]"
+    $glowcolor 1
+
+    $sineState 0.25
+    $sineOffset 0
+
+    $color2             "{ 255 255 255 }"
+    $selfillumtint      "{ 255 255 255 }"
+    
+    Proxies
+    {
+        EntityRandom
+        {
+            resultVar $sineOffset
+        }
+        "Sine"
+		{
+			"resultVar" $selfillumtint
+			timeoffset	$sineOffset
+			"sinemin" .1
+			"sinemax" 2.00
+			"sineperiod" 0.50
+		}
+    }
+}

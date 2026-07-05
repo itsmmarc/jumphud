@@ -1,0 +1,5 @@
+#base ../../../cfg/jumphud/jh_toolswhite.txt
+#base white002_default.vmt
+
+"UnlitGeneric"
+{}

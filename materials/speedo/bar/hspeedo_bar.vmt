@@ -14,6 +14,7 @@
 "#base"                 "../../../../cfg/jumphud/jh_bspeedo_dynclr_main.txt"
 "#base"                 "../../../../cfg/jumphud/jh_bspeedo_dynclr_close.txt"
 "#base"                 "../../../../cfg/jumphud/jh_bspeedo_dynclr_good.txt"
+"#base"                 "../../../../cfg/jumphud/jh_speedorainbow.txt"
 "#base"                 "../colors/speedobar_colors_default.vmt"
 "#base"                 "../colors/ranges/conditionals.vmt"
 // ==============================================================

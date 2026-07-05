@@ -1,0 +1,5 @@
+#base ../../../cfg/jumphud/jh_triggers.txt
+#base toolstrigger_default.vmt
+
+"LightmappedGeneric"
+{}

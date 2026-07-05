@@ -1,0 +1,4 @@
+#base ../../../cfg/jumphud/jh_stickytrails.txt
+#base sc_softglow_stickytrail_red_def.vmt
+"UnlitGeneric"
+{}

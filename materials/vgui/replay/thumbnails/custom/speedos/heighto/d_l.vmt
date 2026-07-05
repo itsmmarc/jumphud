@@ -1,0 +1,6 @@
+// "#base"                 "../../digits/d1_1k.vmt"
+"#base"                 "main.vmt"
+"UnlitGeneric"
+{
+        $isLeft 1
+}

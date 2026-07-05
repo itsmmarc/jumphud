@@ -1,0 +1,5 @@
+#base ../../../cfg/jumphud/jh_toolsblack.txt
+#base toolsblack_default.vmt
+
+"LightmappedGeneric"
+{}
