@@ -844,5 +844,14 @@
                 // "lessEqualVar"                  "$color"
                 // "greaterVar"                    "$colorGood"
                 // }
+                // safety to avoid 'nFrame is < 0!' error. this error is handled in c++ the same way
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$frame"
+                        "srcVar2"                       "$0"
+                        "resultVar"                     "$frame"
+                        "lessEqualVar"                  "$0"
+                        "greaterVar"                    "$frame"
+                }
         }
 }
