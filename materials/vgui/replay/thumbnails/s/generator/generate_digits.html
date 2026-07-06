@@ -58,12 +58,45 @@
     </div>
 
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
         * {
+            font-family: "Space Grotesk", sans-serif;
             margin: 0;
             padding: 0;
         }
         body {
             margin: 1rem;
+            background-color: #181824;
+            color: rgb(213, 206, 227);
+        }
+        input,
+        select,
+        button {
+            padding: 0.2em 0.4em;
+            border-radius: 0.2em;
+            border: none;
+            background-color: #3a2e4c;
+            color: rgb(213, 206, 227);
+        }
+        input:hover,
+        select:hover,
+        button:hover {
+            background-color: #513b71;
+            color: rgb(213, 206, 227);
+            transition: 0.15s;
+        }
+        input[type="file"]::file-selector-button {
+            border: none;
+            padding: 0.2em 0.4em;
+            border-radius: 0.2em;
+            background-color: #a29bfe;
+            transition: 0.15s;
+        }
+
+        input[type="file"]::file-selector-button:hover {
+            background-color: #8c6dbb;
+            color: rgb(213, 206, 227);
+            transition: 0.15s;
         }
         h1 {
             margin-bottom: 0.5rem;
@@ -74,15 +107,16 @@
         .form-container {
             display: grid;
             gap: 4px;
-            grid-template-columns: 100px 200px;
+            grid-template-columns: 145px 200px;
             justify-items: start;
             margin-bottom: 1rem;
         }
         .resolution-inputs-container {
             grid-column: 1 / -1;
             display: grid;
-            gap: 2px;
-            grid-template-columns: 80px 20px 200px;
+            row-gap: 4px;
+            column-gap: 2px;
+            grid-template-columns: 130px 15px 200px;
             justify-items: start;
         }
         .resolution-inputs-container p {
@@ -96,7 +130,8 @@
             grid-column: 3 / 4;
             width: 50px;
         }
-        #pad-input {
+        #pad-input,
+        #font-size-input {
             width: 50px;
         }
         #download-btn,
