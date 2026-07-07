@@ -122,7 +122,7 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+                "name"              "Eternal UI 2 Regular"
                 "Tall"              "24"
                 "antialias"         "1"
             }

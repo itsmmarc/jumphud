@@ -6,7 +6,7 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+                "name"              "Eternal UI 2 Regular"
                 "Tall"              "9"
                 "antialias"         "1"
             }
@@ -15,7 +15,7 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+                "name"              "Eternal UI 2 Regular"
                 "Tall"              "9"
                 "antialias"         "1"
             }
