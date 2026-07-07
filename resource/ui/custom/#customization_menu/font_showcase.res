@@ -122,7 +122,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI 2 Regular"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "24"
                 "antialias"         "1"
             }

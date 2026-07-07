@@ -6,7 +6,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI 2 Regular"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "9"
                 "antialias"         "1"
             }
@@ -15,7 +16,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI 2 Regular"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "9"
                 "antialias"         "1"
             }
