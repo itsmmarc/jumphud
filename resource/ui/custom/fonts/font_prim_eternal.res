@@ -6,7 +6,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "32"
                 "weight"            "400"
                 "additive"          "0"
@@ -17,7 +18,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
@@ -28,7 +30,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "12"
                 "weight"            "0"
                 "additive"          "0"
@@ -43,7 +46,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "32"
                 "weight"            "400"
                 "additive"          "0"
@@ -54,7 +58,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
@@ -65,7 +70,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "16"
                 "weight"            "400"
                 "additive"          "0"
@@ -76,7 +82,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "12"
                 "weight"            "400"
                 "additive"          "0"
@@ -87,7 +94,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "8"
                 "weight"            "0"
                 "additive"          "0"
@@ -99,7 +107,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "6"
                 "weight"            "0"
                 "additive"          "0"
@@ -111,7 +120,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -121,7 +131,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "20"
                 "antialias"         "1"
             }
@@ -130,7 +141,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "30"
                 "antialias"         "1"
             }
@@ -139,7 +151,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "36"
                 "antialias"         "1"
             }
@@ -148,7 +161,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "48"
                 "antialias"         "1"
             }
@@ -157,7 +171,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
@@ -168,7 +183,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "16"
                 "weight"            "500"
                 "additive"          "0"
@@ -179,7 +195,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "10"
                 "weight"            "400"
                 "additive"          "0"
@@ -190,7 +207,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
@@ -201,7 +219,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "10"
                 "weight"            "0"
                 "additive"          "0"
@@ -213,7 +232,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "11"
                 "weight"            "400"
                 "additive"          "0"
@@ -225,7 +245,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "20"
                 "weight"            "400"
                 "additive"          "0"
@@ -240,7 +261,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "9"
                 "antialias"         "1"
             }
@@ -249,7 +271,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "10"
                 "antialias"         "1"
             }
@@ -258,7 +281,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "10"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -268,7 +292,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "11"
                 "antialias"         "1"
             }
@@ -277,7 +302,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "11"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -287,7 +313,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "12"
                 "antialias"         "1"
             }
@@ -296,7 +323,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "12"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -306,7 +334,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "14"
                 "antialias"         "1"
             }
@@ -315,7 +344,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "14"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -325,7 +355,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "16"
                 "antialias"         "1"
             }
@@ -334,7 +365,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -344,7 +376,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "18"
                 "antialias"         "1"
             }
@@ -353,7 +386,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "18"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -363,7 +397,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "18"
                 "antialias"         "1"
                 "outline"           "1"
@@ -373,7 +408,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "18"
                 "antialias"         "1"
                 "outline"           "1"
@@ -383,7 +419,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "20"
                 "antialias"         "1"
             }
@@ -392,7 +429,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "24"
                 "antialias"         "1"
             }
@@ -401,7 +439,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "24"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -411,7 +450,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "26"
                 "antialias"         "1"
             }
@@ -420,7 +460,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "30"
                 "antialias"         "1"
             }
@@ -429,7 +470,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "32"
                 "antialias"         "1"
             }
@@ -438,7 +480,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "36"
                 "antialias"         "1"
             }
@@ -447,7 +490,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "48"
                 "antialias"         "1"
             }
@@ -456,7 +500,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "58"
                 "antialias"         "1"
             }
@@ -466,7 +511,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "7"
                 "antialias"         "1"
             }
@@ -475,7 +521,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "8"
                 "antialias"         "1"
             }
@@ -484,7 +531,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "9"
                 "antialias"         "1"
             }
@@ -493,7 +541,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "10"
                 "antialias"         "1"
             }
@@ -505,7 +554,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "18"
                 "weight"            "300"
                 "antialias"         "1"
@@ -516,7 +566,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
@@ -526,7 +577,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
@@ -536,7 +588,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "8"
                 "weight"            "0"
                 "antialias"         "1"
@@ -546,7 +599,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "7"
                 "weight"            "0"
                 "antialias"         "1"
@@ -556,7 +610,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "8"
                 "weight"            "500"
                 "additive"          "0"
@@ -567,7 +622,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "9"
                 "weight"            "500"
                 "additive"          "0"
@@ -578,7 +634,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "12"
                 "weight"            "500"
                 "additive"          "0"
@@ -589,7 +646,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "18"
                 "weight"            "500"
                 "additive"          "0"
@@ -600,7 +658,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "20"
                 "weight"            "500"
                 "range"             "0x0000 0x007F"
@@ -612,7 +671,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "28"
                 "antialias"         "1"
                 // "dropshadow"								"1"
@@ -622,7 +682,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "16"
                 "antialias"         "1"
                 // "dropshadow"								"1"
@@ -632,7 +693,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "18"
                 "antialias"         "1"
                 // "dropshadow"								"1"
@@ -642,7 +704,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "16"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -652,7 +715,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "13"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -662,7 +726,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "tall"              "28"
                 "antialias"         "1"
                 // "dropshadow"								"1"
@@ -672,7 +737,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "28"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -682,7 +748,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "28"
                 "antialias"         "1"
                 "dropshadow"        "1"
@@ -692,7 +759,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "36"
                 "weight"            "500"
                 "additive"          "0"
@@ -703,7 +771,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "42"
                 "weight"            "600"
                 "additive"          "0"
@@ -714,7 +783,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "24"
                 "weight"            "600"
                 "additive"          "0"

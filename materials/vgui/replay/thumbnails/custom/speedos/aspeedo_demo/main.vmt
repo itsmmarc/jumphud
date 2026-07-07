@@ -1,26 +1,27 @@
 // ==============================================================
 // TEXTURE
 // --------------------------------------------------------------
-"#base"         "../../../../../../../../../cfg/jumphud/jh_font_speedo.txt"
-"#base"         "../../../../../../speedo/fonts/coolvetica_italic.vmt"	// default
+"#base"                 "../../../../../../../../../cfg/jumphud/jh_font_speedo.txt"
+"#base"                 "../../../../../../../../../cfg/jumphud/jh_font_width.txt"
+"#base"                 "../../../../../../speedo/fonts/coolvetica_italic.vmt"	// default
 // ==============================================================
 // COLORS
 // --------------------------------------------------------------
-"#base"         "../../../../../../speedo/colors/ranges/aspeedo_demo.vmt"
-"#base"         "../../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_main.txt"
-"#base"         "../../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_close.txt"
-"#base"         "../../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_good.txt"
-"#base"         "../../../../../../speedo/colors/speedo_colors_default.vmt"
-"#base"         "../../../../../../speedo/colors/ranges/conditionals.vmt"
+"#base"                 "../../../../../../speedo/colors/ranges/aspeedo_demo.vmt"
+"#base"                 "../../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_main.txt"
+"#base"                 "../../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_close.txt"
+"#base"                 "../../../../../../../../cfg/jumphud/jh_speedo_d_dynclr_good.txt"
+"#base"                 "../../../../../../speedo/colors/speedo_colors_default.vmt"
+"#base"                 "../../../../../../speedo/colors/ranges/conditionals.vmt"
 // ==============================================================
 // CONSTANTS
 // --------------------------------------------------------------
-"#base"         "../../../../../../speedo/const/rounding.vmt"
-"#base"         "../../../../../../speedo/const/constantNumbers.vmt"
+"#base"                 "../../../../../../speedo/const/rounding.vmt"
+"#base"                 "../../../../../../speedo/const/constantNumbers.vmt"
 // ==============================================================
 // SPEEDO CALCULATION, ROUNDING, & COLORS
 // --------------------------------------------------------------
-"#base"         "math.vmt"
+"#base"                 "math.vmt"
 "UnlitGeneric"
 {
 }

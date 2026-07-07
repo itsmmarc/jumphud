@@ -6,7 +6,8 @@
         {
             "1"
             {
-                "name"              "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"              "18"
                 "outline"           "1"
                 "dropshadow"        "0"
@@ -17,7 +18,8 @@
         {
             "1"
             {
-                "name"          "Eternal UI"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
                 "Tall"          "16"
                 "weight"        "0"
             }
@@ -27,8 +29,9 @@
     {
         "4"
         {
-            "Font"          "resource/scheme/fonts/optional/EternalUiRegular.ttf"
-            "name"          "Eternal UI"
+            "Font"          "resource/scheme/fonts/optional/EternalUi2Regular-rglwx.ttf"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
         }
     }
 }

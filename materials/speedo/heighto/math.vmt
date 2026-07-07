@@ -452,6 +452,21 @@
                         "srcVar2"                       "$10"
                         "resultVar"                     "$heighto"
                 }
+                "Clamp"
+                {
+                        "srcVar1"                       "$heighto"
+                        "min"                           "$0"
+                        "max"                           "$10000"
+                        "resultVar"                     "$heighto"
+                }
+                "LessOrEqual"
+                {
+                        "srcVar1"                       "$heighto"
+                        "srcVar2"                       "$9999"
+                        "resultVar"                     "$heighto"
+                        "greaterVar"                    "$0"
+                        "lessEqualVar"                  "$heighto"
+                }
                 // ==============================================================
                 // MARK: UPDATE FRAME
                 // ==============================================================

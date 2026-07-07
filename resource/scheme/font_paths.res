@@ -63,8 +63,9 @@
         }
         "22"
         {
-            "Font"          "resource/scheme/fonts/optional/EternalUiRegular.ttf"
-            "name"          "Eternal UI"
+            "Font"          "resource/scheme/fonts/optional/EternalUi2Regular-rglwx.ttf"
+            "name"          "Eternal UI 2 Regular" [$WINDOWS]
+            "name"          "Eternal UI 2" [$LINUX]
         }
         "23"
         {

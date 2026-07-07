@@ -2019,6 +2019,25 @@
                     "ProportionalToParent"          "1"
                     "PaintBackground"               "0"
                     "BGColor_Override"              "Red"
+                    "Linux_Disabled_Cross"
+                    {
+                        "ControlName"                   "ImagePanel"
+                        "FieldName"                     "Linux_Disabled_Cross"
+                        "XPos"                          "cs-0.5"
+                        "YPos"                          "cs-0.5"
+                        "ZPos"                          "99"
+                        "Tall"                          "f0"
+                        "Wide"                          "f0"
+                        "Visible"                       "1" [$LINUX]
+                        "Visible"                       "0" [$WINDOWS]
+                        "Enabled"                       "1"
+                        "MouseInputEnabled"             "0"
+                        "ProportionalToParent"          "1"
+                        "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                        "ScaleImage"                    "1"
+                        "Drawcolor"                     "Red"
+                        "Alpha"                         "200"
+                    }
                     "Triggers_Icon"
                     {
                         "ControlName"                   "CExLabel"
@@ -4177,6 +4196,25 @@
                     "ProportionalToParent"          "1"
                     "PaintBackground"               "0"
                     "BGColor_Override"              "Red"
+                    "Linux_Disabled_Cross"
+                    {
+                        "ControlName"                   "ImagePanel"
+                        "FieldName"                     "Linux_Disabled_Cross"
+                        "XPos"                          "cs-0.5"
+                        "YPos"                          "cs-0.5"
+                        "ZPos"                          "99"
+                        "Tall"                          "f0"
+                        "Wide"                          "f0"
+                        "Visible"                       "1" [$LINUX]
+                        "Visible"                       "0" [$WINDOWS]
+                        "Enabled"                       "1"
+                        "MouseInputEnabled"             "0"
+                        "ProportionalToParent"          "1"
+                        "Image"                         "replay/thumbnails/custom/general/disabled_cross"
+                        "ScaleImage"                    "1"
+                        "Drawcolor"                     "Red"
+                        "Alpha"                         "200"
+                    }
                     "Tools_Icon"
                     {
                         "ControlName"                   "CExLabel"
