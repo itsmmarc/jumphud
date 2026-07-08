@@ -348,6 +348,7 @@
         "fieldName"             "HudDamageIndicator"
         "visible"               "1"
         "enabled"               "1"
+        zpos -10
         "MinimumWidth"          "15"
         "MaximumWidth"          "15"
         "StartRadius"           "80"
