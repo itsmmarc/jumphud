@@ -24,12 +24,12 @@
     "HudObjectiveStatus"
     {
         "fieldName"         "HudObjectiveStatus"
-        "visible"           "1"
-        "enabled"           "1"
+        "visible"           "0"
+        "enabled"           "0"
         "xpos"              "0"
         "ypos"              "0"
-        "wide"              "f0"
-        "tall"              "480"
+        "wide"              "0"
+        "tall"              "0"
     }
     "HudKothTimeStatus"
     {
@@ -348,7 +348,7 @@
         "fieldName"             "HudDamageIndicator"
         "visible"               "1"
         "enabled"               "1"
-        zpos -10
+        "zpos"                  "-10"
         "MinimumWidth"          "15"
         "MaximumWidth"          "15"
         "StartRadius"           "80"
@@ -696,7 +696,7 @@
         "enabled"                   "1"
         "separator_width"           "5"
         "separator_height"          "5"
-        "height_offset"             "0"
+        "height_offset"             "99999"
     }
     "HudCapturePanel"
     {

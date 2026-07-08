@@ -31,4 +31,15 @@
 	{
 		"ypos"										"c3"
 	}
+    "HudControlPointIcons"
+    {
+        "height_offset"             "0"
+    }
+    "HudObjectiveStatus"
+    {
+        "visible"           "1"
+        "enabled"           "1"
+        "wide"              "f0"
+        "tall"              "480"
+    }
 }
