@@ -26,7 +26,7 @@
                     "wide"                          "f0"
                     "tall"                          "f0"
                     "proportionaltoparent"          "1"
-                    // d1_1k"
+                    // d_l"
                 }
                 "d_r"
                 {
@@ -34,7 +34,7 @@
                     "wide"                          "f0"
                     "tall"                          "f0"
                     "proportionaltoparent"          "1"
-                    // d1_1k"
+                    // d_r"
                 }
             }
             "Shadows_Container"
@@ -54,7 +54,7 @@
                     "wide"                          "f0"
                     "tall"                          "f0"
                     "proportionaltoparent"          "1"
-                    // d1_1k"
+                    // d_l"
                     "drawcolor"                     "Main_Shadow"
                 }
                 "d_r"
@@ -63,7 +63,7 @@
                     "wide"                          "f0"
                     "tall"                          "f0"
                     "proportionaltoparent"          "1"
-                    // d1_1k"
+                    // d_r"
                     "drawcolor"                     "Main_Shadow"
                 }
             }

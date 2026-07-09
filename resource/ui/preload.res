@@ -22,95 +22,23 @@
             "tall"                  "0"
             "visible"               "1"
             "enabled"               "1"
-            "d1_1k"
+            "d_l"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_1k"
+                "fieldName"             "d_l"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/h_sol/d1_1k"
+                "image"                 "../speedo/h_sol/d_l"
             }
-            "d1_2k"
+            "d_r"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_2k"
+                "fieldName"             "d_r"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/h_sol/d1_2k"
-            }
-            "d1_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_sol/d1_3k"
-            }
-            "d1_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_sol/d1_4k"
-            }
-            "d2_2k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_2k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_sol/d2_2k"
-            }
-            "d2_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_sol/d2_3k"
-            }
-            "d2_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_sol/d2_4k"
-            }
-            "d3_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_sol/d3_3k"
-            }
-            "d3_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_sol/d3_4k"
-            }
-            "d4_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d4_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_sol/d4_4k"
+                "image"                 "../speedo/h_sol/d_r"
             }
         }
         "Vspeedo_Sol"
@@ -124,95 +52,23 @@
             "tall"                  "0"
             "visible"               "1"
             "enabled"               "1"
-            "d1_1k"
+            "d_l"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_1k"
+                "fieldName"             "d_l"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/v_sol/d1_1k"
+                "image"                 "../speedo/v_sol/d_l"
             }
-            "d1_2k"
+            "d_r"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_2k"
+                "fieldName"             "d_r"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/v_sol/d1_2k"
-            }
-            "d1_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_sol/d1_3k"
-            }
-            "d1_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_sol/d1_4k"
-            }
-            "d2_2k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_2k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_sol/d2_2k"
-            }
-            "d2_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_sol/d2_3k"
-            }
-            "d2_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_sol/d2_4k"
-            }
-            "d3_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_sol/d3_3k"
-            }
-            "d3_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_sol/d3_4k"
-            }
-            "d4_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d4_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_sol/d4_4k"
+                "image"                 "../speedo/v_sol/d_r"
             }
         }
         "Aspeedo_Sol"
@@ -226,95 +82,23 @@
             "tall"                  "0"
             "visible"               "1"
             "enabled"               "1"
-            "d1_1k"
+            "d_l"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_1k"
+                "fieldName"             "d_l"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/a_sol/d1_1k"
+                "image"                 "../speedo/a_sol/d_l"
             }
-            "d1_2k"
+            "d_r"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_2k"
+                "fieldName"             "d_r"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/a_sol/d1_2k"
-            }
-            "d1_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_sol/d1_3k"
-            }
-            "d1_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_sol/d1_4k"
-            }
-            "d2_2k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_2k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_sol/d2_2k"
-            }
-            "d2_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_sol/d2_3k"
-            }
-            "d2_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_sol/d2_4k"
-            }
-            "d3_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_sol/d3_3k"
-            }
-            "d3_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_sol/d3_4k"
-            }
-            "d4_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d4_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_sol/d4_4k"
+                "image"                 "../speedo/a_sol/d_r"
             }
         }
         "Heighto"
@@ -328,95 +112,23 @@
             "tall"                  "0"
             "visible"               "1"
             "enabled"               "1"
-            "d1_1k"
+            "d_l"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_1k"
+                "fieldName"             "d_l"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/heighto/d1_1k"
+                "image"                 "../speedo/heighto/d_l"
             }
-            "d1_2k"
+            "d_r"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_2k"
+                "fieldName"             "d_r"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/heighto/d1_2k"
-            }
-            "d1_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/heighto/d1_3k"
-            }
-            "d1_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/heighto/d1_4k"
-            }
-            "d2_2k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_2k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/heighto/d2_2k"
-            }
-            "d2_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/heighto/d2_3k"
-            }
-            "d2_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/heighto/d2_4k"
-            }
-            "d3_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/heighto/d3_3k"
-            }
-            "d3_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/heighto/d3_4k"
-            }
-            "d4_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d4_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/heighto/d4_4k"
+                "image"                 "../speedo/heighto/d_r"
             }
         }
         "Hspeedo_Demo"
@@ -430,95 +142,23 @@
             "tall"                  "0"
             "visible"               "1"
             "enabled"               "1"
-            "d1_1k"
+            "d_l"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_1k"
+                "fieldName"             "d_l"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/h_demo/d1_1k"
+                "image"                 "../speedo/h_demo/d_l"
             }
-            "d1_2k"
+            "d_r"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_2k"
+                "fieldName"             "d_r"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/h_demo/d1_2k"
-            }
-            "d1_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_demo/d1_3k"
-            }
-            "d1_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_demo/d1_4k"
-            }
-            "d2_2k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_2k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_demo/d2_2k"
-            }
-            "d2_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_demo/d2_3k"
-            }
-            "d2_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_demo/d2_4k"
-            }
-            "d3_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_demo/d3_3k"
-            }
-            "d3_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_demo/d3_4k"
-            }
-            "d4_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d4_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/h_demo/d4_4k"
+                "image"                 "../speedo/h_demo/d_r"
             }
         }
         "Vspeedo_Demo"
@@ -532,95 +172,23 @@
             "tall"                  "0"
             "visible"               "1"
             "enabled"               "1"
-            "d1_1k"
+            "d_l"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_1k"
+                "fieldName"             "d_l"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/v_demo/d1_1k"
+                "image"                 "../speedo/v_demo/d_l"
             }
-            "d1_2k"
+            "d_r"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_2k"
+                "fieldName"             "d_r"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/v_demo/d1_2k"
-            }
-            "d1_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_demo/d1_3k"
-            }
-            "d1_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_demo/d1_4k"
-            }
-            "d2_2k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_2k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_demo/d2_2k"
-            }
-            "d2_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_demo/d2_3k"
-            }
-            "d2_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_demo/d2_4k"
-            }
-            "d3_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_demo/d3_3k"
-            }
-            "d3_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_demo/d3_4k"
-            }
-            "d4_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d4_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/v_demo/d4_4k"
+                "image"                 "../speedo/v_demo/d_r"
             }
         }
         "Aspeedo_Demo"
@@ -634,95 +202,23 @@
             "tall"                  "0"
             "visible"               "1"
             "enabled"               "1"
-            "d1_1k"
+            "d_l"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_1k"
+                "fieldName"             "d_l"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/a_demo/d1_1k"
+                "image"                 "../speedo/a_demo/d_l"
             }
-            "d1_2k"
+            "d_r"
             {
                 "ControlName"           "ImagePanel"
-                "fieldName"             "d1_2k"
+                "fieldName"             "d_r"
                 "xpos"                  "9999"
                 "visible"               "1"
                 "enabled"               "1"
-                "image"                 "../speedo/a_demo/d1_2k"
-            }
-            "d1_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_demo/d1_3k"
-            }
-            "d1_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d1_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_demo/d1_4k"
-            }
-            "d2_2k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_2k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_demo/d2_2k"
-            }
-            "d2_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_demo/d2_3k"
-            }
-            "d2_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d2_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_demo/d2_4k"
-            }
-            "d3_3k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_3k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_demo/d3_3k"
-            }
-            "d3_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d3_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_demo/d3_4k"
-            }
-            "d4_4k"
-            {
-                "ControlName"           "ImagePanel"
-                "fieldName"             "d4_4k"
-                "xpos"                  "9999"
-                "visible"               "1"
-                "enabled"               "1"
-                "image"                 "../speedo/a_demo/d4_4k"
+                "image"                 "../speedo/a_demo/d_r"
             }
         }
         "SpeedoBars"
