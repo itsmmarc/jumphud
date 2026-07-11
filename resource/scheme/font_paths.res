@@ -97,7 +97,7 @@
             "Font"          "resource/scheme/fonts/optional/Freeman-Regular.ttf"
             "name"          "Freeman Regular" [$WINDOWS]
             "name"          "Freeman" [$LINUX]
-       }
+        }
         "29"
         {
             "Font"          "resource/scheme/fonts/optional/Comfortaa-SemiBold.ttf"
@@ -113,13 +113,18 @@
             "Font"          "resource/scheme/fonts/optional/ChivoMono-Regular.ttf"
             "name"          "Chivo Mono Regular" [$WINDOWS]
             "name"          "Chivo Mono" [$LINUX]
-       }
+        }
         "32"
         {
             "Font"          "resource/scheme/fonts/optional/Kodchasan-Bold.ttf"
             "name"          "Kodchasan Bold" [$WINDOWS]
             "name"          "Kodchasan" [$LINUX]
-       }
+        }
+        "33"
+        {
+            "Font"          "resource/scheme/fonts/optional/Comic_Sans_MS.ttf"
+            "name"          "Comic Sans MS"
+        }
         // icon fonts
         "101"
         {

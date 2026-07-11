@@ -221,6 +221,15 @@
                 "antialias"         "1"
             }
         }
+        "Showcase_Comic"
+        {
+            "1"
+            {
+            "name"          "Comic Sans MS"
+               "Tall"              "28"
+                "antialias"         "1"
+            }
+        }
         "Crosshair_Showcase"
         {
             "1"

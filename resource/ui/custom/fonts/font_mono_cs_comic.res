@@ -1,0 +1,24 @@
+"Scheme"
+{
+    "Fonts"
+    {
+        "Default"	// tempus side panel
+        {
+            "1"
+            {
+                "name"              "Comic Sans MS"
+                "Tall"              "9"
+                "antialias"         "1"
+            }
+        }
+        "HudHintText"	// center tempus panel
+        {
+            "1"
+            {
+                "name"              "Comic Sans MS"
+                "Tall"              "9"
+                "antialias"         "1"
+            }
+        }
+    }
+}
