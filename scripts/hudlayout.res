@@ -32,6 +32,9 @@
 "#base"         "../../../cfg/jumphud/jh_font_prim_align_hudlayout.txt"
 // active shader
 "#base"         "../resource/ui/shader.res"
+// tempus speedo bg
+"#base"         "../../../cfg/jumphud/jh_tempusspeedobg.txt"
+
 // =========================================================
 // JUMP/CASUAL
 // =========================================================
