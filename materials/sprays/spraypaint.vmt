@@ -1,3 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// LINUX CUSTOMIZATION - Spraypaint
+// uncomment (remove the '//' from the start of the line) the option you want to use
+// #base spraypaint_size_small.vmt
+// #base spraypaint_size_medium.vmt
+// #base spraypaint_size_large.vmt
+/////////////////////////////////////////////////////////////////////////////////////
 "#base"                 "../../../cfg/jumphud/jh_spraypaint_size.txt"
 "#base"                 "spraypaint_size_medium.vmt"
 "#base"                 "color/m0reBlue.vmt"

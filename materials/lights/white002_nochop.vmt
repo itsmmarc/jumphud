@@ -1,4 +1,8 @@
-#base ../../../cfg/jumphud/jh_toolswhite.txt
+/////////////////////////////////////////////////////////////////////////////////////
+// LINUX CUSTOMIZATION - ToolsWhite
+// uncomment (remove the '//' from the start of the line) the option you want to use
+// #base toolswhite_tile.vmt
+/////////////////////////////////////////////////////////////////////////////////////
 #base white002_nochop_default.vmt
 
 "UnlitGeneric"

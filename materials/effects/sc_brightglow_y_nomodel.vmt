@@ -1,3 +1,29 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// LINUX CUSTOMIZATION - Rocket Color
+// uncomment (remove the '//' from the start of the line) the option you want to use
+// #base rfclr/m0reBlack.vmt
+// #base rfclr/m0reWhite.vmt
+// #base rfclr/m0reTan.vmt
+// #base rfclr/m0reBlack.vmt
+// #base rfclr/m0reGrey.vmt
+// #base rfclr/m0reMaroon.vmt
+// #base rfclr/m0reRed.vmt
+// #base rfclr/m0reSalmon.vmt
+// #base rfclr/m0reOrange.vmt
+// #base rfclr/m0reYellow.vmt
+// #base rfclr/m0reOlive.vmt
+// #base rfclr/m0reGreen.vmt
+// #base rfclr/m0reForest.vmt
+// #base rfclr/m0reTeal.vmt
+// #base rfclr/m0reCyan.vmt
+// #base rfclr/m0reBlue.vmt
+// #base rfclr/m0reNavy.vmt
+// #base rfclr/m0rePurple.vmt
+// #base rfclr/m0reViolet.vmt
+// #base rfclr/m0rePink.vmt
+// #base rfclr/m0reMagenta.vmt
+// #base rfclr/rainbow.vmt
+/////////////////////////////////////////////////////////////////////////////////////
 #base ../../../cfg/jumphud/jh_rocketfiretrails.txt
 #base sc_brightglow_y_nomodel_default.vmt
 "UnlitGeneric"

@@ -1,7 +1,12 @@
-#base ../../../cfg/jumphud/jh_luxels.txt
-#base debugluxels_default.vmt
-
-UnlitGeneric
+/////////////////////////////////////////////////////////////////////////////////////
+// LINUX CUSTOMIZATION - Luxels
+// uncomment (remove the '//' from the start of the line) the option you want to use
+// #base glass.vmt
+// #base glassclear.vmt
+/////////////////////////////////////////////////////////////////////////////////////
+"#base"         "../../../cfg/jumphud/jh_luxels.txt"
+"#base"         "debugluxels_default.vmt"
+"UnlitGeneric"
 {
-    $translucent 1
+    "$translucent"          "1"
 }

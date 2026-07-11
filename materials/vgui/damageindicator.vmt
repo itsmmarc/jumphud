@@ -1,3 +1,30 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// LINUX CUSTOMIZATION - Damage Indicators
+// uncomment (remove the '//' from the start of the line) the option you want to use
+// #base diclr/m0reBlack.vmt
+// #base diclr/m0reWhite.vmt
+// #base diclr/m0reTan.vmt
+// #base diclr/m0reBlack.vmt
+// #base diclr/m0reGrey.vmt
+// #base diclr/m0reMaroon.vmt
+// #base diclr/m0reRed.vmt
+// #base diclr/m0reSalmon.vmt
+// #base diclr/m0reOrange.vmt
+// #base diclr/m0reYellow.vmt
+// #base diclr/m0reOlive.vmt
+// #base diclr/m0reGreen.vmt
+// #base diclr/m0reForest.vmt
+// #base diclr/m0reTeal.vmt
+// #base diclr/m0reCyan.vmt
+// #base diclr/m0reBlue.vmt
+// #base diclr/m0reNavy.vmt
+// #base diclr/m0rePurple.vmt
+// #base diclr/m0reViolet.vmt
+// #base diclr/m0rePink.vmt
+// #base diclr/m0reMagenta.vmt
+// #base diclr/rainbow.vmt
+// #base diclr/none.vmt
+/////////////////////////////////////////////////////////////////////////////////////
 #base ../../../cfg/jumphud/jh_damageindicator_clr.txt
 #base damageindicator_default.vmt
 

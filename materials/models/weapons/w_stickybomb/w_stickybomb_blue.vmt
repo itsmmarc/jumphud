@@ -1,3 +1,29 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// LINUX CUSTOMIZATION
+// uncomment (remove the '//' from the start of the line) the option you want to use
+// #base clr/m0reBlack.vmt
+// #base clr/m0reWhite.vmt
+// #base clr/m0reTan.vmt
+// #base clr/m0reBlack.vmt
+// #base clr/m0reGrey.vmt
+// #base clr/m0reMaroon.vmt
+// #base clr/m0reRed.vmt
+// #base clr/m0reSalmon.vmt
+// #base clr/m0reOrange.vmt
+// #base clr/m0reYellow.vmt
+// #base clr/m0reOlive.vmt
+// #base clr/m0reGreen.vmt
+// #base clr/m0reForest.vmt
+// #base clr/m0reTeal.vmt
+// #base clr/m0reCyan.vmt
+// #base clr/m0reBlue.vmt
+// #base clr/m0reNavy.vmt
+// #base clr/m0rePurple.vmt
+// #base clr/m0reViolet.vmt
+// #base clr/m0rePink.vmt
+// #base clr/m0reMagenta.vmt
+// #base clr/rainbow.vmt
+/////////////////////////////////////////////////////////////////////////////////////
 #base ../../../../../cfg/jumphud/jh_stickybombs.txt
 #base w_stickybomb_blue_def.vmt
 

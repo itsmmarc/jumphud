@@ -1,3 +1,29 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// LINUX CUSTOMIZATION - Sticky Trail Color
+// uncomment (remove the '//' from the start of the line) the option you want to use
+// #base strail/m0reBlack.vmt
+// #base strail/m0reWhite.vmt
+// #base strail/m0reTan.vmt
+// #base strail/m0reBlack.vmt
+// #base strail/m0reGrey.vmt
+// #base strail/m0reMaroon.vmt
+// #base strail/m0reRed.vmt
+// #base strail/m0reSalmon.vmt
+// #base strail/m0reOrange.vmt
+// #base strail/m0reYellow.vmt
+// #base strail/m0reOlive.vmt
+// #base strail/m0reGreen.vmt
+// #base strail/m0reForest.vmt
+// #base strail/m0reTeal.vmt
+// #base strail/m0reCyan.vmt
+// #base strail/m0reBlue.vmt
+// #base strail/m0reNavy.vmt
+// #base strail/m0rePurple.vmt
+// #base strail/m0reViolet.vmt
+// #base strail/m0rePink.vmt
+// #base strail/m0reMagenta.vmt
+// #base strail/rainbow.vmt
+/////////////////////////////////////////////////////////////////////////////////////
 #base ../../../cfg/jumphud/jh_stickytrails.txt
 #base circle2_stickypulse_red_def.vmt
 "UnlitGeneric"
