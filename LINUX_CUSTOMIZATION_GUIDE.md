@@ -2,7 +2,7 @@
 
 Many of the texture customization options on Linux do not work using the ingame buttons, but can still be easily manually enabled with some minor tweaks.
 
-For each listed file, uncomment (remove the '//' from the start of the line) the option you want to use.
+For each listed file, uncomment (remove the '//' from the start of the line) the option you want to use, then reload the textures using the `Reload to Apply Changes` button in the hud settings menu.
 
 # Luxels
 
