@@ -2246,12 +2246,12 @@
                 "antialias"         "1"
             }
         }
-        "TFFontSmall"   // tas recording top left text
+        "TFFontSmall"
         {
             "1"
             {
-                "name"              "Verdana" 
-                "tall"              "28"
+                "name"              "Verdana"
+                "Tall"              "8"
                 "weight"            "0"
                 "additive"          "1"
                 "antialias"         "1"
