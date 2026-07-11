@@ -3,6 +3,7 @@
 // uncomment (remove the '//' from the start of the line) the option you want to use
 // #base toolswhite_tile.vmt
 /////////////////////////////////////////////////////////////////////////////////////
+#base ../../../cfg/jumphud/jh_toolswhite.txt
 #base white003_default.vmt
 
 "UnlitGeneric"
