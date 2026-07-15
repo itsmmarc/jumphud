@@ -1,9 +1,11 @@
 "#base"                 "../../../../speedo/const/constantNumbers.vmt"
 "VertexLitGeneric"
 {
-        $baseTexture models\weapons\w_stickybomb/w_stickybomb_white
+        "$baseTexture"                          "models\weapons\w_stickybomb/w_stickybomb_white"
         // rainbow color vars
         "$enableRainbow"                        "0"
+        "$sineState"                            "0.25"
+        "$sineOffset"                           "0"
         "$color"                                "[1 1 1]"
         "$color2"                               "[1 1 1]"
         "$selfillumtint"                        "[1 1 1]"
@@ -20,6 +22,16 @@
         "$rainbowBlueI"                         "0.0"
         "$rainbowBlueD"                         "0.0"
         "$diff"                                 "0.004"	// 0.004
+        ">=DX90"
+        {
+                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_white"
+                "$selfillummask"                "models\weapons\w_stickybomb/w_stickybomb_selfillum"
+        }
+        // Use redundant self-illum in base alpha on Pre DX9 hardware
+        "<DX90"
+        {
+                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_white"
+        }
         "Proxies"
         {
                 // ==============================================================
@@ -164,6 +176,19 @@
                         "resultVar"                     "$selfillumtint"
                         "greaterVar"                    "$color"
                         "lessEqualVar"                  "$color"
+                }
+                /////////////
+                "EntityRandom"
+                {
+                        "resultVar"                     "$sineOffset"
+                }
+                "Sine"
+                {
+                        "resultVar"                     "$selfillumtint"
+                        "timeoffset"                    "$sineOffset"
+                        "sinemin"                       ".1"
+                        "sinemax"                       "2.00"
+                        "sineperiod"                    "0.50"
                 }
         }
 }

@@ -1,7 +1,33 @@
 "VertexLitGeneric"
 {
-        $baseTexture models\weapons\w_stickybomb/w_stickybomb_white
-
-    "$color2"        "{ 35 125 235 }"
-    "$selfillumtint"        "{ 35 125 235 }"
+        "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_white"
+        "$color2"                       "{ 35 125 235 }"
+        "$selfillumtint"                "{ 35 125 235 }"
+        ">=DX90"
+        {
+                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_white"
+                "$selfillummask"                "models\weapons\w_stickybomb/w_stickybomb_selfillum"
+        }
+        // Use redundant self-illum in base alpha on Pre DX9 hardware
+        "<DX90"
+        {
+                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_white"
+        }
+        "$sineState"                    "0.25"
+        "$sineOffset"                   "0"
+        "Proxies"
+        {
+                "EntityRandom"
+                {
+                        "resultVar"                     "$sineOffset"
+                }
+                "Sine"
+                {
+                        "resultVar"                     "$selfillumtint"
+                        "timeoffset"                    "$sineOffset"
+                        "sinemin"                       ".1"
+                        "sinemax"                       "2.00"
+                        "sineperiod"                    "0.50"
+                }
+        }
 }

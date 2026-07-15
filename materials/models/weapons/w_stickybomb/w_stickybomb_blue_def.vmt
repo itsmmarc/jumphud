@@ -1,36 +1,48 @@
-VertexLitGeneric
+"VertexLitGeneric"
 {
-    $baseTexture models\weapons\w_stickybomb/w_stickybomb_blue
-    $bumpmap models/weapons/w_stickybomb/w_stickybomb_normal
-    $selfillum 1
-    $nodecal 1
-
-    $phong 1
-    $phongexponent 0.5
-    $phongboost 0.5
-    $lightwarptexture models\lightwarps\weapon_lightwarp
-    $phongfresnelranges "[0.25 0.5 1]"
-    $glowcolor 1
-
-    $sineState 0.25
-    $sineOffset 0
-
-    $color2             "{ 255 255 255 }"
-    $selfillumtint      "{ 255 255 255 }"
-    
-    Proxies
-    {
-        EntityRandom
+        "$baseTexture"                          "models\weapons\w_stickybomb/w_stickybomb_blue"
+        "$bumpmap"                              "models/weapons/w_stickybomb/w_stickybomb_normal"
+        "$selfillum"                            "1"
+        "$nodecal"                              "1"
+        "$phong"                                "1"
+        "$phongexponent"                        "0.5"
+        "$phongboost"                           "0.5"
+        "$lightwarptexture"                     "models\lightwarps\weapon_lightwarp"
+        "$phongfresnelranges"                   "[0.25 0.5 1]"
+        "$glowcolor"                            "1"
+        "$color2"                               "{ 255 255 255 }"
+        "$selfillumtint"                        "{ 255 255 255 }"
+        // Use separate self-illum mask on Pre DX9 hardware
+        ">=DX90"
         {
-            resultVar $sineOffset
+                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_blue_noalpha"
+                "$selfillummask"                "models\weapons\w_stickybomb/w_stickybomb_selfillum"
         }
-        "Sine"
-		{
-			"resultVar" $selfillumtint
-			timeoffset	$sineOffset
-			"sinemin" .1
-			"sinemax" 2.00
-			"sineperiod" 0.50
-		}
-    }
+        // Use redundant self-illum in base alpha on Pre DX9 hardware
+        "<DX90"
+        {
+                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_blue"
+        }
+        // Cloaking
+        "$cloakPassEnabled"                     "1"
+        "Proxies"
+        {
+                "invis"
+                {
+                }
+                "StickybombGlowColor"
+                {
+                        "resultVar"                     "$glowcolor"
+                }
+                "Equals"
+                {
+                        "srcVar1"                       "$glowcolor"
+                        "resultVar"                     "$selfillumtint"
+                }
+                "Equals"
+                {
+                        "srcVar1"                       "$glowcolor"
+                        "resultVar"                     "$color2"
+                }
+        }
 }
