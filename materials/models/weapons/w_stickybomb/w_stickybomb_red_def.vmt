@@ -15,13 +15,13 @@
         // Use separate self-illum mask on Pre DX9 hardware
         ">=DX90"
         {
-                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_blue_noalpha"
+                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_red_noalpha"
                 "$selfillummask"                "models\weapons\w_stickybomb/w_stickybomb_selfillum"
         }
         // Use redundant self-illum in base alpha on Pre DX9 hardware
         "<DX90"
         {
-                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_blue"
+                "$baseTexture"                  "models\weapons\w_stickybomb/w_stickybomb_red"
         }
         // Cloaking
         "$cloakPassEnabled"                     "1"
