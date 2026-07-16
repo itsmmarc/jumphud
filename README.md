@@ -75,6 +75,11 @@ Check out the [config guide](https://github.com/itsmmarc/jumphud/wiki/config_gui
 
 ## Known Issues/Limitations:
 
+Custom tool textures (triggers, toolsblack, & toolswhite) do not work on maps that have packed textures. You can check if the current map packs these textures using `mat_texture_list 1`, finding the texture, and checking its path.  
+After leaving a map using packed textures you must click the `reload to apply changes` button in Hud Settings to reapply custom tool textures.
+
+Custom tool textures cause errors when packing textures for map in Hammer. You can fix this by temporarily renaming `jumphud/materials/tools/toolstrigger.vmt` `jumphud/materials/tools/toolsblack.vmt` and `jumphud/materials/lights/`.
+
 Some customization options are not supported on Linux. There is a large cross covering these options when running the HUD on a Linux system.
 
 Mirror world does not flip the game's audio or damage numbers.
