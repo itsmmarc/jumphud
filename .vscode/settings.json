@@ -1,0 +1,13 @@
+{
+        "window.title": "JumpHUD",
+        "workbench.colorCustomizations": {
+                "statusBarItem.warningBackground": "#51b5b6",
+                "statusBarItem.warningForeground": "#000000",
+                "statusBarItem.warningHoverBackground": "#51b5b6",
+                "statusBarItem.warningHoverForeground": "#00000090",
+                "statusBarItem.remoteBackground": "#51b5b6",
+                "statusBarItem.remoteForeground": "#000000",
+                "statusBarItem.remoteHoverBackground": "#51b5b6",
+                "statusBarItem.remoteHoverForeground": "#00000090"
+        }
+}
