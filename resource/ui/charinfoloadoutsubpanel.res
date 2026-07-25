@@ -713,7 +713,7 @@
         "Enabled"               "1"
         "AllCaps"               "1"
         "Font"                  "HudFontSmallBold"
-        "LabelText"             "Use the 1-9 Keys quickly switch between class menus"
+        "LabelText"             "Use the 1-9 keys to quickly switch between class menus"
         "TextAlignment"         "north"
         "FGColor"               "TanDark"
     }
