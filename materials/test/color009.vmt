@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// LINUX CUSTOMIZATION - ToolsBlack
+// uncomment (remove the '//' from the start of the line) the option you want to use
+// #base toolsblack_tile.vmt
+/////////////////////////////////////////////////////////////////////////////////////
+#base ../../../cfg/jumphud/jh_toolsblack.txt
+#base color009_default.vmt
+
+"LightmappedGeneric"
+{}
