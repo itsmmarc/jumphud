@@ -4,7 +4,7 @@ A Team Fortress 2 HUD packed with features designed for use on Tempus jump serve
 
 ---
 
-<a href="https://github.com/itsmmarc/jumphud/releases/download/v2.5.1/jumphud-v2.5.1.zip"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/downloadbutton.png"></a>
+<a href="https://github.com/itsmmarc/jumphud/releases/latest"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/downloadbutton.png"></a>
 <a href="https://github.com/itsmmarc/jumphud/wiki/SHOWCASE"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/screenshotsbutton.png"></a><br>
 <a href="https://discord.gg/s6yJMGecMZ"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/discord.png"></a>
 <a href="https://ko-fi.com/itsmmarc"><img src="https://raw.githubusercontent.com/wiki/itsmmarc/jumphud/screenshots/kofi.png"></a>
